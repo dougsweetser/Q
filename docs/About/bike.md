@@ -2,7 +2,7 @@
 
 # The Frame for the Future  
   
-| ![](../images/About/Bike/beach_biker.jpg)  
+![](../images/About/Bike/beach_biker.jpg)  
   
   * Wheel base 40"
   * Seat height 25"
