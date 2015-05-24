@@ -120,7 +120,6 @@ This one quaternion contains the time derivatives of the scalar and 3-vector
 functions, along with the divergence, the gradient and the curl.  Dense
 notation :-)
 
-
 #  Inner and Outer Products of Quaternions
 
 A good friend of mine has wondered what is means to multiply two quaternions
@@ -203,7 +202,6 @@ interesting to speculate about is the role of the Euclidean outer product.  It
 is possible that the antisymmetric, vector nature of the space/time product
 could be related to spin.  Whatever the interpretation, the Grassman and
 Euclidean inner and outer products seem destine to do useful work in physics.
-
 
 #  Scalars, Vectors, Tensors and All That
 
@@ -354,7 +352,6 @@ q into q'
 
 ![](images/Math/scalars_vectors/s_gr_9.gif)
 
-
 T is also a quaternion, in fact it is equal to q' q^-1.  This is guaranteed to
 work locally, within neighborhoods of q and q'.  There is no promise that it
 will work globally, that one T will work for any q.  Under certain
@@ -413,7 +410,6 @@ Doing physics with quaternions is unnecessary, unless physics runs into a
 compatibility issue.  Constraining general relativity and quantum mechanics to
 work within the same topological algebraic field may be the way to unite these
 two separately successful areas.
-
 
 #  Quaternion Analysis
 
@@ -803,7 +799,6 @@ derivative is singular everywhere, but it will require some skill to find a
 technically viable compromise between the spacelike and timelike derivative to
 synthesis the lightlike derivative.
 
-
 #  Topological Properties of Quaternions
 
 ### I have not taken a topology class, so no doubt this particular section contains errors.
@@ -1049,7 +1044,6 @@ has an antisymmetric component.  This is a description of a difference.  R^4
 does not come equipped with a rule for multiplication, so it is qualitatively
 different, even if topologically similar to the quaternions.
 
-
 # Where do quaternions fit in with math?
 
 Adapted from a figure by Max Tegmark, 1998.
@@ -1156,7 +1150,6 @@ commute so the order is irrelevant.
 
 Andrew Millard suggested the result for the Grassman product.
 
-
 #  Newton's Second Law
 
 The form of Newton's second law for three separate cases will be generated
@@ -1251,7 +1244,6 @@ operator quaternions acting on position quaternions.  The differential time
 operator was decoupled from any differential space operators.  This may be
 viewed as an operational definition of "classical" physics.
 
-
 #  Oscillators and Waves
 
 A professor of mine once said that everything in physics is a simple harmonic
@@ -1305,7 +1297,6 @@ similar combination of operators cannot be used when time and space operators
 are not decoupled.  In fact, the four Maxwell equations appear to be one
 nonhomogeneous quaternion wave equation, and the structure of the simple
 harmonic oscillator appears in the Klein-Gordon equation.
-
 
 #  Four Tests for a Conservative Force
 
@@ -1379,7 +1370,6 @@ quaternions.  One new avenue opened up is for doing path integrals.  It would
 be interesting to attempt four dimensional path integrals to see where that
 might lead!
 
-
 # Problem set answers for MITs 8.033 using real valued quaternions
 
 1. [Problem set 1](problem_set_1.md)
@@ -1449,13 +1439,10 @@ the interval by squaring the difference quaternion and then taking the square
 root of the first term.
 
 ![](images/SR/problem_set_1/ps1gr12.gif)
-
     
-    
-    ![\[Graphics:ps1gr13.gif\]](images/SR/problem_set_1/ps1gr13.gif)
+![](images/SR/problem_set_1/ps1gr13.gif)
+The moving clock reads 8 x 10^-7^ seconds.
 
-The moving clock reads 8 x
-![](images/SR/problem_set_1/ps1gr14.gif) seconds.
 ##  R&amp;H 2-10: A moving rocket
 
 Q: A rod lies parallel to the x axis of reference frame S, moving along this
@@ -1531,7 +1518,6 @@ Beta is ![\[Graphics:ps1gr27.gif\]](images/SR/problem_set_1/ps1gr27.gif)/2 =
 ![](images/SR/problem_set_1/ps1gr29.gif)
 
 # 8.033 Problem Set 2, More Kinematic Effects of Relativity
-
 
 ##  French: 4-5
 
@@ -2104,7 +2090,6 @@ The problems are from "Basic Concepts in Relativity" by Resnick and Halliday,
 1992 by Macmillian Publishing, "Special Relativity" by A. P. French, 1966,
 1968 by MIT, and Prof. M. Baranger of MIT.
 
-
 # 8.033 Problem Set 3: The Lorentz transformation and addition of velocities
 
 ##  Lorentz transformations
@@ -2501,7 +2486,6 @@ Note: this is for redshifts. Blueshifts have a plus instead of the minus.
 The problems are from "Basic Concepts in Relativity" by Resnick and Halliday,
 1992 by Macmillian Publishing, "Special Relativity" by A. P. French, 1966,
 1968 by MIT, and Prof. M. Baranger of MIT.
-
 
 # 8.033 Problem Set 4: The Doppler Effect, 4-Vector Invariants &amp; the Twin
 Paradox
@@ -3324,7 +3308,6 @@ The problems are from "Basic Concepts in Relativity" by Resnick and Halliday,
 1992 by Macmillian Publishing, "Special Relativity" by A. P. French, 1966,
 1968 by MIT, and Prof. M. Baranger of MIT.
 
-
 # 8.033 Problem Set 5: Energy, Momentum and Mass
 
 ##  French: 6-3
@@ -3811,7 +3794,6 @@ The problems are from "Basic Concepts in Relativity" by Resnick and Halliday,
 1992 by Macmillian Publishing, "Special Relativity" by A. P. French, 1966,
 1968 by MIT, and Prof. M. Baranger of MIT.
 
-
 #  8.033 Problem Set 6:  The Compton Effect and Threshold Collision Problems
 
 ##  French:  6-16 The Compton effect
@@ -4117,13 +4099,11 @@ The problems are from "Basic Concepts in Relativity" by Resnick and Halliday,
 1992 by Macmillian Publishing, "Special Relativity" by A. P. French, 1966,
 1968 by MIT, and Prof. M. Baranger of MIT.
 
-
 # Measure the difference between space-time events
 
 Two stars go supernova while four kids watch.
 
-[](../../images/Gravity/measure_900.gif)
-
+![](images/Gravity/Measurement-101/measure.png)
 There is a difference in time (dt).
 
 There is a difference in space (dR).
@@ -4140,21 +4120,25 @@ the kids above or below agree on a different value they calculate,
 space-times-time.  In this standard approach to gravity known as General 
 Relativity, this is almost, but not quite true.
 
-# SR + QG - *S*pecial *R*elativity and *Q*uaternion *G*ravity
+# Special relativity
 
-This graphic says most of it...
+Walking changes how one measures deadly supernovae.
 
-[](../../images/Gravity/all_900.gif)
+![](images/Gravity/Measurement-101/SR.png)
+As long as the kids move at a constant rate, special relativity comes into play.
 
-[printable pdf](pdfs/sr_and_qg.all.pdf) or [editable svg](images/Gravity/sr_and_qg.all.svg)
+Relativity is not an arbitrary change, but increadibly precise change.
 
+And there is that interval that is *exactly* the same size.
+
+Note: the numbers are **far too big** (off by 16 orders of magnitude, I just
+didn't want to write _lots_ of zeros).
 
 # Quaternion gravity
 
 Looking down or looking from below changes time and space measurements in opposite ways.
 
-[](../../images/Gravity/QG_900.gif)
-
+![](images/Gravity/Measurement-101/QG.png)
 If one kid is at a different height in a gravity field to another, then
 time measurements get smaller while spatial ones get bigger.  That is standard 
 physics (general relativity, GR).
@@ -4166,20 +4150,12 @@ mentioned, but it is almost - but not quite - the same.
 Note: the numbers are **far too big** (off by 16 orders of magnitude, I just
 didn't want to write _lots_ of zeros).
 
-# Special relativity
+# SR + QG - *S*pecial *R*elativity and *Q*uaternion *G*ravity
 
-Walking changes how one measures deadly supernovae.
+This graphic says most of it...
 
-[](../../images/Gravity/SR_900.gif)
-
-As long as the kids move at a constant rate, special relativity comes into play.
-
-Relativity is not an arbitrary change, but increadibly precise change.
-
-And there is that interval that is *exactly* the same size.
-
-Note: the numbers are **far too big** (off by 16 orders of magnitude, I just
-didn't want to write _lots_ of zeros).
+![](images/Gravity/Measurement-101/all.png)
+[printable pdf](pdfs/sr_and_qg.all.pdf) or [editable svg](images/Gravity/sr_and_qg.all.svg)
 
 # Quaternion space-times-time invariance as gravity
 
@@ -4324,7 +4300,6 @@ importantly, the means to generate these equations using quaternion operators
 has been displayed.  This approach looks independent from the usual method
 which relies on an antisymmetric 2-rank field tensor and a U(1) connection.
 
-
 #  Electromagnetic field gauges
 
 A gauge is a measure of distance.  Gauges are often chosen to make solving a
@@ -4401,7 +4376,6 @@ not written explicitly as was done here.  The term that did not make the cut
 stands out.  Perhaps some of the technical issues in quantum field theory
 might be tackled in this gauge using quaternions.
 
-
 #  The Lorentz Force
 
 The Lorentz force acts on a moving charge.  The covariant form of this law is,
@@ -4450,7 +4424,6 @@ For point sources in the classical limit, these new laws must have the form of
 Coulomb's law, F = k e e'/r^2^.  An obvious candidate is Newton's law of
 gravity, F = - G m m'/r^2^.  This would require a different type of scalar
 potential, one that always had the same sign.
-
 
 #  The Maxwell Equations in the Light Gauge: QED?
 
@@ -4568,7 +4541,6 @@ the 3D analogue of i.  That is a quantized, transverse wave.  That's
 fortunate, because light is a quantized transverse wave.  The equations were
 generated by taking the classical Maxwell equations, and making them simpler.
 
-
 #  The Stress Tensor of the Electromagnetic Field
 
 I will outline a way to generate the terms of the symmetric 2-rank stress-
@@ -4668,7 +4640,6 @@ tensor was, even though I listen in on a discussion of the topic.  Yes, I
 could nod along with the algebra, but without any sense of F, it felt hollow.
 Now that I have a generator and a net quaternion expression, it looks quite
 elegant and straightforward to me.
-
 
 #  A Complete Inner Product Space with Dirac's Bracket Notation
 
@@ -4877,7 +4848,6 @@ already has the properties of a norm in a Hilbert space, there is no need to
 imbed quaternions again within another Hilbert space.  I like a close shave
 with Occam's razor.
 
-
 #  Multiplying Quaternions in Polar Coordinate Form
 
 Any quaternion can be written in polar coordinate form, which involves a
@@ -4945,7 +4915,6 @@ both commuting and anticommuting parts scale themselves appropriately.  By
 using an exponential that has pi/2 multiplied by a normalized quaternion, this
 always has a zero scalar, as it must to accurately represent an anticommuting
 part.
-
 
 #  Commutators and the Uncertainty Principle
 
@@ -5141,7 +5110,6 @@ triangle inequality.  If a complete theory of gravity can be built from these
 geodesics (it hasn't yet been done :-) then the inequalities may open
 connections where none appeared before.
 
-
 #  Unifying the Representation of Spin and Angular Momentum
 
 I will show how to represent both integral and half-integral spin within the
@@ -5328,7 +5296,6 @@ second conjugates form a similar, but not identical set.  Because this is a
 general quaternion identity of automorphisms, this should be very widely
 applicable.
 
-
 #  Deriving A Quaternion Analog to the Schr&ouml;dinger Equation
 
 The Schr&ouml;dinger equation gives the kinetic energy plus the potential (a sum
@@ -5495,7 +5462,6 @@ stands on a foundation as robust as complex analysis, the profound problems
 seen in quantum field theory stand a chance of fading away into the
 background.
 
-
 #  Introduction to Relativistic Quantum Mechanics
 
 The relativistic quantum mechanic equation for a free particle is the Klein-
@@ -5576,7 +5542,6 @@ Gordon equation.  This also created several vector identities which are
 usually not mentioned in this context.  A quaternion differential equation is
 needed to perform the work of the Dirac equation, but since quaternion
 operators are a field, an operator that does the task must exist.
-
 
 # An Introduction to the Standard Model
 
@@ -5781,7 +5746,6 @@ around spacetime. U(1)xSU(2)xSU(3) is the way to cow-rope all the events and
 bring them home, while remaining part of the same group, the one thing being
 observed.
 
-
 #  Time Reversal Transformations for Intervals
 
 Classical Time Reversal  
@@ -5846,7 +5810,6 @@ In this notebook, a time reversal quaternion has been derived and shown to
 work.  Time reversal for classical and relativistic intervals have distinct
 limits, but these transformations have not yet been tied explicitly to the
 laws of physics.
-
 
 #  Buttons
 
@@ -5925,15 +5888,14 @@ This machine has over two thousand Boston city miles on it (and a few on the coa
   * License patent to a large scale bicycle manufacturer, becoming the first entry into the national retail bicycle market (12 million units per year).
   * Continue research in making bicycles a viable choice in personal transpiration. 
 
-
-![](../images/About/Lindy_hop/lindyhop.gif) 
+![](images/About/Lindy_hop/lindyhop.gif) 
 # Lindy Hop
 
 A joyous partner dance developed in New York City in the 1930's  
   
-| ![](../images/About/Lindy_hop/lindy3.jpg) | ![](../images/About/Lindy_hop/lindy2.jpg) | 
+| ![](images/About/Lindy_hop/lindy3.jpg) | ![](images/About/Lindy_hop/lindy2.jpg) | 
 | -- | -- |
-| ![](../images/About/Lindy_hop/bbq.gif) | [![](../images/About/Lindy_hop/tony_aurelie_zooted.jpg)](http://www.HopToTheBeat.com/)[Tony &amp; Aurelie Tye](http://www.HopToTheBeat.com/) |  
+| ![](images/About/Lindy_hop/bbq.gif) | [![](images/About/Lindy_hop/tony_aurelie_zooted.jpg)](http://www.HopToTheBeat.com/)[Tony &amp; Aurelie Tye](http://www.HopToTheBeat.com/) |  
 
   
 Darra, my extra-special dance partner, strutting, as she does so well!
@@ -5962,8 +5924,6 @@ My father went to Harvard University and Harvard Law School as his father did. H
 I was born in Bronxville, New York, in 1962. We had both a stay at home mom and live in maid. My father worked at the New York Times a corporate lawyer. When I was five, he got a job at the Minneapolis Star and Tribune. The family moved into a house with almost 10 acres of land. I went to a The Blake School an all boys private school, until it became the plural Blake Schools and coed in seventh grade (great timing). My education continued at M.I.T. where I got degrees in Biology and Chemical engineering. Note: I did not get a degree in either mathematics or physics.
 
 I am a solid core nerd. A hard core nerd has strong opinions about all the versions of Star Trek. A solid core nerd does not watch the show because the science is so impossibly wrong. In Star Trek, space is treated like Manhattan: go to the next stop, and a wonderfully different collection of people are there. One can easy go from Wall Street Suits, to Chinatown, to Uptown, to Harlem, Spanish or otherwise. Space in the Universe is really just space, with distances too far for people to travel.
-
-
 
 # Professional sketch of Doug Sweetser
 
@@ -6104,7 +6064,6 @@ theory. The idea had enough promise that I submitted an 1500 word paper to the
 2015 Gravitation Research Foundation Essay on Gravity.  We will see if they 
 like it.
 
-
 # Thanks to ...
 
 To be productive in my many endeavors, I've needed plenty of help and
@@ -6139,7 +6098,6 @@ Sandri is an Italian antidepressant.
 
 Prof. Edwin F. Taylor, MIT, the world's best teacher of relativity.
 
-
 ## Pop Science
 
 Amanda Annis, clay sculptures. OK, there are no clay sculptures included in
@@ -6170,7 +6128,6 @@ John Yager, formerly of Creative Framing of Chestnut Hill. The work looks
 professional beyond the skills of its creator. The painting consultations made
 all the difference.
 
-
 ## The Bike
 
 Bob Barrett, the big man who inspired the project, and tolerated the design
@@ -6186,7 +6143,6 @@ the simple mechanical beauty of the bicycle.
 Prof. Harold Washburn, Harvard. Now I think that "market research" is a useful
 enterprise. I just wish I had capital (a frequent lament : )
 
-
 ## Lindy Hop
 
 Darra Garrison. Someday, you may get to stomp at the Savoy. That would make a
@@ -6194,7 +6150,6 @@ cool road trip!
 
 Tony and Aurelie Tye, Hop to the Beat Dance Studios. You cats know how to
 dance.
-
 
 ## Friends...
 
@@ -6230,7 +6185,6 @@ Prof. Richard Young, MIT. I've kept the "whatever it takes (spend freely) to
 answer the question" attitude with me while doing my own science and art
 projects. Peer review the results.
 
-
 ## ...and family*
 
 Darra Garrison.
@@ -6247,7 +6201,6 @@ her 94th birthday.
 And last, but most, Joan Sweetser.
 
 Love is the creation and reflection of Life. I thank you for all of your love.
-
 
 ## Web sites
 
@@ -6272,7 +6225,6 @@ twitter: visualphysics
 If it is really important to you, a google hangout can be arranged.
 
 {! /Users/doug/Q/docs/About/web_sites.md !}
-
 
 ## Tip Jar
 
