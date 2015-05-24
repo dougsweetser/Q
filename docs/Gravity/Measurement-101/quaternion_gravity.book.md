@@ -2,7 +2,7 @@
 
 Looking down or looking from below changes time and space measurements in opposite ways.
 
-[](../../../images/Gravity/QG_900.gif)
+![](../../../images/Gravity/Measurement-101/QG.png)
 
 If one kid is at a different height in a gravity field to another, then
 time measurements get smaller while spatial ones get bigger.  That is standard 

@@ -69,13 +69,10 @@ root of the first term.
 
 ![\[Graphics:ps1gr12
 .gif\]](../images/SR/problem_set_1/ps1gr12.gif)
-
     
-    
-    ![\[Graphics:ps1gr13.gif\]](../images/SR/problem_set_1/ps1gr13.gif)
+![\[Graphics:ps1gr13.gif\]](../images/SR/problem_set_1/ps1gr13.gif)
 
-The moving clock reads 8 x
-![\[Graphics:ps1gr14.gif\]](../images/SR/problem_set_1/ps1gr14.gif) seconds.
+The moving clock reads 8 x 10^-7^ seconds.
 
 ##  R&amp;H 2-10: A moving rocket
 
