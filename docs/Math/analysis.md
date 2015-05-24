@@ -44,8 +44,7 @@ If dq is squared, the scalar part of the resulting quaternion forms a metric.
 
 ![dq squared = \(da0 squared e0 squared + da1 squared e1 squared over 9 + da2
 squared e2 squared over 9 + da3 squared e3 squared over 9, 2 da0 da1 e0 e1
-over 3, 2 da0 da2 e0 e2 over 3, 2 da0 da3 e0 e3 over 3\)
-](../images/Math/analysis/s_gr_3.gif)
+over 3, 2 da0 da2 e0 e2 over 3, 2 da0 da3 e0 e3 over 3\)](../images/Math/analysis/s_gr_3.gif)
 
 What should the connection be between the squares of the basis vectors?  The
 amount of intrinsic curvature should be equal, so that a transformation
@@ -155,9 +154,7 @@ D-&gt;0\.
 
 ![= the limit as the scalar d approaches zero from the positive direction of
 \(the limit as \(d, D\) approaches the scalar \(d, 0\) of \(f\(q + \(d, D\), q
-conjugated, q conjugated first, q conjugated second\) - f\(q, q conjugated, q
-conjugated first, q conjugated second\) times \(d, D\)
-inverted\)\)](../images/Math/analysis/s_gr_15.gif)
+conjugated, q conjugated first, q conjugated second\) - f\(q, q conjugated, q conjugated first, q conjugated second\) times \(d, D\) inverted\)\)](../images/Math/analysis/s_gr_15.gif)
 
 The definition is invariant under a passive transformation of the basis.
 
@@ -175,8 +172,7 @@ conjugated second\) e2 over \(-2 over 3\)](../images/Math/analysis/s_gr_18.gif)
 
 ![f = a3 = e3 times \(q + q conjugated + q conjugated first + the second
 conjugated of q\) over \(2 over 3\) = \(q + q conjugated + q conjugated first
-+ the second conjugated of q\) times e3 over \(2 over
-3\)](../images/Math/analysis/s_gr_19.gif)
++ the second conjugated of q\) times e3 over \(2 over 3\)](../images/Math/analysis/s_gr_19.gif)
 
 Begin with a simple example:
 
@@ -198,8 +194,7 @@ A simple approach to a trickier example:
 
 ![d a1 by d q = d a1 by d q conjugated = the limit of \(the limit of\(e1 times
 \(\(q + \(d, D\) + q conjugated first\) - \(q + q conjugated first\)\) times
-the inverse of \(-2 over 3 \(d, D\)\)\)\) = - 3 e1 over 2
-](../images/Math/analysis/s_gr_24.gif)
+the inverse of \(-2 over 3 \(d, D\)\)\)\) = - 3 e1 over 2](../images/Math/analysis/s_gr_24.gif)
 
 ![d a1 over d q conjugated  = d a1 over d q conjugated second =
 0](../images/Math/analysis/s_gr_25.gif)
@@ -359,8 +354,7 @@ Power functions can be analyzed in exactly the same way:
 
 ![Let w = q squared  = \(a0 squared times e0 squared + a1 squared times e1
 squared over 9 + a2 squared times e2 squared over 9 + a3 squared times e3
-squared over 9, 2 a0 a1 e0 e1 over 3, 2 a0 a2 e0 e2 over 3, 2 a0 a3 e0 e3 over
-3\) ](../images/Math/analysis/s_gr_54.gif)
+squared over 9, 2 a0 a1 e0 e1 over 3, 2 a0 a2 e0 e2 over 3, 2 a0 a3 e0 e3 over 3\) ](../images/Math/analysis/s_gr_54.gif)
 
 ![u = \(a0 squared e0 squared + a1 squared e1 squared over 9 + a2 squared e2
 squared over 9 + a3 squared e3 squared over 9, 0, 0,
@@ -442,10 +436,7 @@ approaches (1, 0), a scalar.
 
 ![= the limit as the 3-vector \(0, D\) goes to 0 of \(the limit as the
 quaternion differential element \(d, D\) goes to the 3-vector \(0, D\) of
-\(f\(q + \(d, D\), q conjugated, q conjugated first, q conjugated second\) -
-f\(q, q conjugated, q conjugated first, q conjugated second\) times \(d, D\)
-inverted\)\) times the preceding difference
-conjugated\)\)](../images/Math/analysis/s_gr_66.gif)
+\(f\(q + \(d, D\), q conjugated, q conjugated first, q conjugated second\) - f\(q, q conjugated, q conjugated first, q conjugated second\) times \(d, D\) inverted\)\) times the preceding difference conjugated\)\)](../images/Math/analysis/s_gr_66.gif)
 
 To make this concrete, consider a simple example, f = q^2.  Apply the
 definition:
