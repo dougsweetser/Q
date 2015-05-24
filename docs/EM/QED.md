@@ -6,11 +6,9 @@ how the electric field was defined (where {A, B} is the even or symmetric
 product over 2, and [A, B] is the odd, antisymmetric product over two or cross
 product).
 
-![E = vector\(even\(\(d by dt, Del\), \(phi, -A\)\)\) = \(0, - Grad phi - A
-dot\)](../images/EM/QED/s_gr_1.gif)
+![E = vector\(even\(\(d by dt, Del\), \(phi, -A\)\)\) = \(0, - Grad phi - A dot\)](../images/EM/QED/s_gr_1.gif)
 
-![B = odd\(\(d by dt, Del\), \(phi, A\)\) = \(0,  Curl
-A\)](../images/EM/QED/s_gr_2.gif)
+![B = odd\(\(d by dt, Del\), \(phi, A\)\) = \(0,  Curl A\)](../images/EM/QED/s_gr_2.gif)
 
 The scalar information is explicitly discarded from the E field quaternion.
 In this notebook, the scalar field that arises will be examined and shown to

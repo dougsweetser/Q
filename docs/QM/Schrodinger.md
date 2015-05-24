@@ -6,8 +6,7 @@ the dynamical information about a system.  Psi is a scalar function with
 complex values.
 
 ![The hamiltonian operator acting on psi = -i h bar phi dot = -h bar squared
-over 2 m  Laplacian psi + the potential V\(0, X\)
-psi](../images/QM/Schrodinger/s_gr_1.gif)
+over 2 m  Laplacian psi + the potential V\(0, X\) psi](../images/QM/Schrodinger/s_gr_1.gif)
 
 For the time-independent case, energy is written at the operator -i hbar d/dt,
 and kinetic energy as the square of the momentum operator, i hbar Del, over
@@ -25,15 +24,13 @@ might serve to damp runaway terms.
 The derivation starts from a curious place :-)  Write out classical angular
 momentum with quaternions.
 
-![\(0, L\) = \(0, R Cross P\) = the odd part of \(0, R\) times \(0,
-P\)](../images/QM/Schrodinger/s_gr_2.gif)
+![\(0, L\) = \(0, R Cross P\) = the odd part of \(0, R\) times \(0, P\)](../images/QM/Schrodinger/s_gr_2.gif)
 
 What makes this "classical" are the zeroes in the scalars.  Make these into
 complete quaternions by bringing in time to go along with the space 3-vector
 R, and E with the 3-vector P.
 
-![\(t, R\) times \(E, P\) = \(E t - R dot P, E R + P t + R Cross
-P\)](../images/QM/Schrodinger/s_gr_3.gif)
+![\(t, R\) times \(E, P\) = \(E t - R dot P, E R + P t + R Cross P\)](../images/QM/Schrodinger/s_gr_3.gif)
 
 Define a dimensionless quaternion psi that is this product over h bar.
 
@@ -125,8 +122,6 @@ serve as a damper, a good thing to tame runaway terms.  Unfortunately, it also
 makes solving explicitly for energy impossible unless Et - P.X equals zero.
 Since the goal is to make a direct connection to the Schr&ouml;dinger equation,
 make one final assumption:
-
-5\. Et - R.P = 0
 
 ![E t - R dot P = 0](../images/QM/Schrodinger/s_gr_13.gif)
 

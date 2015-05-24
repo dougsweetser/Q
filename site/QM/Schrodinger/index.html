@@ -408,8 +408,7 @@ also known as the Hamiltonian H) of the wave function psi, which contains all
 the dynamical information about a system.  Psi is a scalar function with
 complex values.</p>
 <p><img alt="The hamiltonian operator acting on psi = -i h bar phi dot = -h bar squared
-over 2 m  Laplacian psi + the potential V(0, X)
-psi" src="../../img/QM/Schrodinger/s_gr_1.gif" /></p>
+over 2 m  Laplacian psi + the potential V(0, X) psi" src="../../images/QM/Schrodinger/s_gr_1.gif" /></p>
 <p>For the time-independent case, energy is written at the operator -i hbar d/dt,
 and kinetic energy as the square of the momentum operator, i hbar Del, over
 2m.  Given the potential V(0, X) and suitable boundary conditions, solving
@@ -422,16 +421,14 @@ might serve to damp runaway terms.</p>
 <h2 id="the-quaternion-wave-function">The Quaternion Wave Function</h2>
 <p>The derivation starts from a curious place :-)  Write out classical angular
 momentum with quaternions.</p>
-<p><img alt="(0, L) = (0, R Cross P) = the odd part of (0, R) times (0,
-P)" src="../../img/QM/Schrodinger/s_gr_2.gif" /></p>
+<p><img alt="(0, L) = (0, R Cross P) = the odd part of (0, R) times (0, P)" src="../../images/QM/Schrodinger/s_gr_2.gif" /></p>
 <p>What makes this "classical" are the zeroes in the scalars.  Make these into
 complete quaternions by bringing in time to go along with the space 3-vector
 R, and E with the 3-vector P.</p>
-<p><img alt="(t, R) times (E, P) = (E t - R dot P, E R + P t + R Cross
-P)" src="../../img/QM/Schrodinger/s_gr_3.gif" /></p>
+<p><img alt="(t, R) times (E, P) = (E t - R dot P, E R + P t + R Cross P)" src="../../images/QM/Schrodinger/s_gr_3.gif" /></p>
 <p>Define a dimensionless quaternion psi that is this product over h bar.</p>
 <p><img alt="psi is defined to be (t, R) times (E, P) over hbar = (E t - R dot P, E
-R + P t + R Cross P) over h bar" src="../../img/QM/Schrodinger/s_gr_4.gif" /></p>
+R + P t + R Cross P) over h bar" src="../../images/QM/Schrodinger/s_gr_4.gif" /></p>
 <p>The scalar part of psi is also seen in plane wave solutions of quantum
 mechanics.  The complicated 3-vector is a new animal, but notice it is
 composed of all the parts seen in the scalar, just different permutations that
@@ -440,15 +437,15 @@ combinations of E, t, R and P should be involved in psi, as is the case here.</p
 <p>Any quaternion can be expressed in polar form:</p>
 <p><img alt="q = the absolute value of q times e to the arc cosine of the scalar over the
 absolute value of q times the 3-vector over its absolute
-value" src="../../img/QM/Schrodinger/s_gr_5.gif" /></p>
+value" src="../../images/QM/Schrodinger/s_gr_5.gif" /></p>
 <p>Express psi in polar form.  To make things simpler, assume that psi is
 normalized, so |psi| = 1.  The 3-vector of psi is quite complicated, so define
 one symbol to capture it:</p>
 <p><img alt="I is defined to be E R + P t + R cross P over the absolute value of the
-numerator" src="../../img/QM/Schrodinger/s_gr_6.gif" /></p>
+numerator" src="../../images/QM/Schrodinger/s_gr_6.gif" /></p>
 <p>Now rewrite psi in polar form with these simplifications:</p>
 <p><img alt="psi = e to the E t - R dot P time I over h
-bar" src="../../img/QM/Schrodinger/s_gr_7.gif" /></p>
+bar" src="../../images/QM/Schrodinger/s_gr_7.gif" /></p>
 <p>This is what I call the quaternion wave function.  Unlike previous work with
 quaternionic quantum mechanics (see S. Adler's book "Quaternionic Quantum
 Mechanics"), I see no need to define a vector space with right-hand operator
@@ -466,17 +463,17 @@ Still it will look very similar, down to the last h bar :-)  All that needs to
 be done is to study how the quaternion wave function psi changes.  Make the
 following assumptions.</p>
 <p>1. Energy and Momentum are conserved.</p>
-<p><img alt="d E by d t = 0 and d P by d t = 0" src="../../img/QM/Schrodinger/s_gr_8.gif" /></p>
+<p><img alt="d E by d t = 0 and d P by d t = 0" src="../../images/QM/Schrodinger/s_gr_8.gif" /></p>
 <ol>
 <li>Energy is evenly distributed in space </li>
 </ol>
-<p><img alt="The Gradient of E = 0" src="../../img/QM/Schrodinger/s_gr_9.gif" /></p>
+<p><img alt="The Gradient of E = 0" src="../../images/QM/Schrodinger/s_gr_9.gif" /></p>
 <p>3. The system is isolated</p>
-<p><img alt="The Curl of P = 0" src="../../img/QM/Schrodinger/s_gr_10.gif" /></p>
+<p><img alt="The Curl of P = 0" src="../../images/QM/Schrodinger/s_gr_10.gif" /></p>
 <p>4. The position 3-vector X is in the same direction as the momentum 3-vector
 P</p>
 <p><img alt="X dot P over the absolute value of the two = 1 which implies d e to the I by
-d t = 0 and the Curl of e to the I = 0" src="../../img/QM/Schrodinger/s_gr_11.gif" /></p>
+d t = 0 and the Curl of e to the I = 0" src="../../images/QM/Schrodinger/s_gr_11.gif" /></p>
 <p>The implications of this last assumption are not obvious but can be computed
 directly by taking the appropriate derivative.  Here is a verbal explanation.
 If energy and momentum are conserved, they will not change in time.  If the
@@ -491,37 +488,36 @@ quaternions, I is determined directly from E, t, P and X.  It must be richer
 in information content.  This particular constraint is a reflection of that.</p>
 <p>Now take the time derivative of psi.</p>
 <p><img alt="d psi by dt = E I over h bar times psi over the square root of (E t - R dot
-P over h bar) squared" src="../../img/QM/Schrodinger/s_gr_12.gif" /></p>
+P over h bar) squared" src="../../images/QM/Schrodinger/s_gr_12.gif" /></p>
 <p>The denominator must be at least 1, and can be greater that that.  It can
 serve as a damper, a good thing to tame runaway terms.  Unfortunately, it also
 makes solving explicitly for energy impossible unless Et - P.X equals zero.
 Since the goal is to make a direct connection to the Schr&ouml;dinger equation,
 make one final assumption:</p>
-<p>5. Et - R.P = 0</p>
-<p><img alt="E t - R dot P = 0" src="../../img/QM/Schrodinger/s_gr_13.gif" /></p>
+<p><img alt="E t - R dot P = 0" src="../../images/QM/Schrodinger/s_gr_13.gif" /></p>
 <p>There are several important cases when this will be true.  In a vacuum, E and
 P are zero.  If this is used to study photons, then t = |R| and E = |P|.  If
 this number happens to be constant in time, then this equation will apply to
 the wave front.</p>
 <p><img alt="if d E t - R dot P by d t = 0, then E = d R by d t dot P or d R by d t = E
-over P" src="../../img/QM/Schrodinger/s_gr_14.gif" /></p>
+over P" src="../../images/QM/Schrodinger/s_gr_14.gif" /></p>
 <p>Now with these 5 assumptions in hand, energy can be defined with an operator.</p>
-<p><img alt="d psi dt = E I over h bar psi" src="../../img/QM/Schrodinger/s_gr_15.gif" /></p>
+<p><img alt="d psi dt = E I over h bar psi" src="../../images/QM/Schrodinger/s_gr_15.gif" /></p>
 <p><img alt="- I h bar d psi d t = E psi or E = - I h bar d by
-dt" src="../../img/QM/Schrodinger/s_gr_16.gif" /></p>
+dt" src="../../images/QM/Schrodinger/s_gr_16.gif" /></p>
 <p>The equivalence of the energy E and this operator is called the first
 quantization.</p>
 <p>Take the spatial derivative of psi using the under the same assumptions:</p>
 <p><img alt="Del psi = - P I over h bar times psi over the square root of (E t - R dot P
-over h bar) squared" src="../../img/QM/Schrodinger/s_gr_17.gif" /></p>
+over h bar) squared" src="../../images/QM/Schrodinger/s_gr_17.gif" /></p>
 <p><img alt="I h bar Del acting on psi = P acting on psi or P = I h bar Del
-" src="../../img/QM/Schrodinger/s_gr_18.gif" /></p>
+" src="../../images/QM/Schrodinger/s_gr_18.gif" /></p>
 <p>Square this operator.</p>
 <p><img alt="P squared = m v squared = 2 m times m v squared over 2 = 2 m Kinetic Energy
-= - h bar squared Del squared" src="../../img/QM/Schrodinger/s_gr_19.gif" /></p>
+= - h bar squared Del squared" src="../../images/QM/Schrodinger/s_gr_19.gif" /></p>
 <p>The Hamiltonian equals the kinetic energy plus the potential energy.</p>
 <p><img alt="The Hamiltonian acting on psi = - I hbar d psi by d t = - h bar squared Del
-squared + the potential acting on psi" src="../../img/QM/Schrodinger/s_gr_20.gif" /></p>
+squared + the potential acting on psi" src="../../images/QM/Schrodinger/s_gr_20.gif" /></p>
 <p>Typographically, this looks very similar to the Schr&ouml;dinger equation.  Capital
 I is a normalized 3-vector, and a very complicated one at that if you review
 the assumptions that got us here.  phi is not a vector, but is a quaternion.
@@ -551,7 +547,7 @@ background.</p></div>
         <script src="../../js/bootstrap-3.0.3.min.js"></script>
         <script src="../../js/highlight.pack.js"></script>
         <script src="../../js/base.js"></script>
-        <script src="../../img/Classical_physics/sho/analytics.js"></script>
+        <script src="../../images/Classical_physics/sho/analytics.js"></script>
 
         <script type="text/javascript">
             $(document).ready(function() {

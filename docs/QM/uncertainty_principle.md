@@ -198,9 +198,7 @@ q](../images/QM/uncertainty_principle/s_gr_27.gif)
 ![A is Hermitian maps to \(0, A\) is anti-
 Hermitian](../images/QM/uncertainty_principle/s_gr_28.gif)
 
-![The square of the standard deviation: dA squared = <psi | A squared  psi> -
-<psi| A psi> squared maps to  DA squared
-](../images/QM/uncertainty_principle/s_gr_29.gif)
+![The square of the standard deviation: dA squared = <psi | A squared  psi> -<psi| A psi> squared maps to  DA squared](../images/QM/uncertainty_principle/s_gr_29.gif)
 
 One subtlety to note is that a quaternion operator is anti-Hermitian only if
 the scalar is zero.  This is probably the case for classical quantum
@@ -214,13 +212,9 @@ To get to the position-momentum uncertainty equation, make these specific maps
 
 ![B goes to P = i h bar d by dx](../images/QM/uncertainty_principle/s_gr_31.gif)
 
-![I h bar = the commutator of A, B goes to   i h bar the commutator of X,
-P](../images/QM/uncertainty_principle/s_gr_32.gif)
+![I h bar = the commutator of A, B goes to   i h bar the commutator of X, P](../images/QM/uncertainty_principle/s_gr_32.gif)
 
-![The commutator of A, B over 2 =  I over 2 is less than or equal to DA
-squared  DB squared  goes to the commutator of X, P over 2 = i h bar over 2 is
-less than or equal to the standard deviation of X squared times the standard
-deviation of P squared ](../images/QM/uncertainty_principle/s_gr_33.gif)
+![The commutator of A, B over 2 =  I over 2 is less than or equal to DA squared  DB squared  goes to the commutator of X, P over 2 = i h bar over 2 is less than or equal to the standard deviation of X squared times the standard deviation of P squared ](../images/QM/uncertainty_principle/s_gr_33.gif)
 
 The product of the squares of the standard deviation for position and momentum
 in the x-direction has a lower bound equal to half the expectation value of

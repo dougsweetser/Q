@@ -31,25 +31,24 @@ zero, or t is equal to x.
 
 If t = 0, then
 
-![\[Graphics:ps1gr6.
-gif\]](../images/SR/problem_set_1/ps1gr6.gif)
+![\[Graphics:ps1gr6.gif\]](../images/SR/problem_set_1/ps1gr6.gif)
 
- ![\[Graphics:ps1gr7.gif\]](../images/SR/problem_set_1/ps1gr7.gif)
+![\[Graphics:ps1gr7.gif\]](../images/SR/problem_set_1/ps1gr7.gif)
 
 If x = 0, then
 
- ![\[Graphics:ps1gr8.gif\]](../images/SR/problem_set_1/ps1gr8.gif)
+![\[Graphics:ps1gr8.gif\]](../images/SR/problem_set_1/ps1gr8.gif)
 
- ![\[Graphics:ps1gr9.gif\]](../images/SR/problem_set_1/ps1gr9.gif)
+![\[Graphics:ps1gr9.gif\]](../images/SR/problem_set_1/ps1gr9.gif)
 
 If t = x, then
 
- ![\[Graphics:ps1gr10
+![\[Graphics:ps1gr10
 .gif\]](../images/SR/problem_set_1/ps1gr10.gif)
 
     
     
- ![\[Graphics:ps1gr11.gif\]](../images/SR/problem_set_1/ps1gr11.gif)
+![\[Graphics:ps1gr11.gif\]](../images/SR/problem_set_1/ps1gr11.gif)
 
 Note: this is for blueshifts. Redshifts have a plus instead of the minus.
 

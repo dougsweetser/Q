@@ -3,16 +3,13 @@
 The Lorentz force acts on a moving charge.  The covariant form of this law is,
 where W is work and P is momentum:
 
-![\(d Work/d tau, d P/d tau\) = gamma e\(Beta dot E, E + Beta Cross
-B\)](../images/EM/Lorentz_force/s_gr_1.gif)
+![\(d Work/d tau, d P/d tau\) = gamma e\(Beta dot E, E + Beta Cross B\)](../images/EM/Lorentz_force/s_gr_1.gif)
 
 In the classical case for a point charge, beta is zero and the E = k e/r^2, so
 the Lorentz force simplifies to Coulomb's law.  Rewrite this in terms of the
 potentials phi and A.
 
-![\(d W by d tau, d P by d tau\) = gamma e \(Beta dot\(- A dot - Grad phi\), -
-A dot - Grad phi + Beta Cross\(Del Cross
-A\)\)](../images/EM/Lorentz_force/s_gr_2.gif)
+![\(d W by d tau, d P by d tau\) = gamma e \(Beta dot\(- A dot - Grad phi\), -A dot - Grad phi + Beta Cross\(Del Cross A\)\)](../images/EM/Lorentz_force/s_gr_2.gif)
 
 In this notebook, I will look for a quaternion equation that can generate this
 covariant form of the Lorentz force in the Lorenz gauge.  By using potentials
@@ -53,7 +50,7 @@ multiplier.
 By writing the covariant form of the Lorentz force as an operator acting on a
 potential, it may be possible to create other laws like the Lorentz force.
 For point sources in the classical limit, these new laws must have the form of
-Coulomb's law, F = k e e'/r^2.  An obvious candidate is Newton's law of
-gravity, F = - G m m'/r^2.  This would require a different type of scalar
+Coulomb's law, F = k e e'/r^2^.  An obvious candidate is Newton's law of
+gravity, F = - G m m'/r^2^.  This would require a different type of scalar
 potential, one that always had the same sign.
 

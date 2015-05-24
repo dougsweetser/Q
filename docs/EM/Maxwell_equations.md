@@ -11,14 +11,11 @@ The Maxwell equations are formed from a combinations of commutators and
 anticommutators of the differential operator and the electric and magnetic
 fields E and B respectively (for isolated charges in a vacuum.
 
-![even\(\(d by dt, Del\), \(0, B\)\) + odd\(\(d by dt, Del\), \(0, E\)\) = \(-
-div B,  Curl E + B dot\) = \(0, 0\)](../images/EM/Maxwell_equations/s_gr_1.gif)
+![even\(\(d by dt, Del\), \(0, B\)\) + odd\(\(d by dt, Del\), \(0, E\)\) = \(-div B,  Curl E + B dot\) = \(0, 0\)](../images/EM/Maxwell_equations/s_gr_1.gif)
 
-![odd\(\(d by dt, Del\), \(0, B\)\) - even\(\(d by dt, Del\), \(0,E\)\) =
-\(div E ,  Curl  B - E dot\) = 4 pi \(rho, J\)](../images/EM/Maxwell_equations/s_gr_2.gif)
+![odd\(\(d by dt, Del\), \(0, B\)\) - even\(\(d by dt, Del\), \(0,E\)\) = \(div E ,  Curl  B - E dot\) = 4 pi \(rho, J\)](../images/EM/Maxwell_equations/s_gr_2.gif)
 
-![where   even\(A, B\) = \(AB + BA\) , odd\(A, B\) = \(AB -
-BA\)](../images/EM/Maxwell_equations/s_gr_3.gif)
+![where   even\(A, B\) = \(AB + BA\) , odd\(A, B\) = \(AB - BA\)](../images/EM/Maxwell_equations/s_gr_3.gif)
 
 The first quaternion equation embodies the homogeneous Maxwell equations.  The
 scalar term says that there are no magnetic monopoles.  The vector term is

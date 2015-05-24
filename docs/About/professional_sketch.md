@@ -73,7 +73,8 @@ of number that was like a scalar and a vector. The contest motivated me to
 reread that passage, then go to an old-fashion library and read up about 
 quaternions. This was the first equation I saw, the squaring of a quaternion:
 
-![](http://mathurl.com/q2c4k68.png)
+![A quaternion squared equals \(t squared - x squared - y squared - z squared,
+2 t times x, 2 t times y, 2 t times z\)](../images/About/Professional_sketch/q2.png)
 
 To this day, this makes me excited because the first term is at the core of 
 special relativity as taught to me by Edwin F. Taylor. It is there, for free.  
@@ -124,7 +125,8 @@ for quaternion gravity
 
 I went back to the equation that sparked my initial interest in quaternions:
 
-![](http://mathurl.com/q2c4k68.png)
+![A quaternion squared equals \(t squared - x squared - y squared - z squared,
+2 t times x, 2 t times y, 2 t times z\)](../images/About/Professional_sketch/q2.png)
 
 The first term is called the interval. But what are the next three called? 
 Physics doesn't have a name. That is a problem because the first term is one of 
