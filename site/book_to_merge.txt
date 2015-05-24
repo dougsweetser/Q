@@ -19,9 +19,9 @@ SR/problem_set_4.md
 SR/problem_set_5.md
 SR/problem_set_6.md
 Gravity/Measurement-101/measure.book.md
-Gravity/Measurement-101/measure_it_all.book.md
-Gravity/Measurement-101/quaternion_gravity.book.md
 Gravity/Measurement-101/special_relativity.book.md
+Gravity/Measurement-101/quaternion_gravity.book.md
+Gravity/Measurement-101/measure_it_all.book.md
 Gravity/space-times-time_invariance.md
 EM/Maxwell_equations.md
 EM/gauges.md
