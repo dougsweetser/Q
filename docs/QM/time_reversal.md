@@ -7,16 +7,16 @@ Implications
 The following transformation R for quaternions reverses time:
 
 ![\(t, X\) goes to \(-t, X\) = R times \(t,
-X\)](../img/QM/time_reversal/s_gr_1.gif)
+X\)](../images/QM/time_reversal/s_gr_1.gif)
 
 The quaternion R exist because quaternions are a field.  
 
-R will equal  (-t, X )(t, ![](../img/QM/time_reversal/s_gr_2.gif).  The inverse of
+R will equal  (-t, X )(t, ![](../images/QM/time_reversal/s_gr_2.gif).  The inverse of
 quaternion is the transpose over the square of the norm, which is the scalar
 term of the transpose of a quaternion times itself.
 
 ![ R  = \(-t, X\)times\(t, X\)inverse= \(-t squared + X dot X, 2 t  X\) over
-\(t squared + X dot X\)](../img/QM/time_reversal/s_gr_3.gif)
+\(t squared + X dot X\)](../images/QM/time_reversal/s_gr_3.gif)
 
 For any given time, R can be defined based on the above.
 
@@ -30,10 +30,10 @@ beta.
 
 ![ R  = \(-t, Beta\)times \(t, Beta\) inverse = \(-t squared + Beta dot Beta,
 2 t  Beta\) over \(t squared + Beta dot Beta,
-0\)](../img/QM/time_reversal/s_gr_4.gif)
+0\)](../images/QM/time_reversal/s_gr_4.gif)
 
 ![if   beta is much much less than 1 then R is approximately equal to \(-1, 2
-t  Beta\)](../img/QM/time_reversal/s_gr_5.gif)
+t  Beta\)](../images/QM/time_reversal/s_gr_5.gif)
 
   The operator R is almost the negative identity, but the vector is non-zero,
 so it would not commute.
@@ -43,13 +43,13 @@ so it would not commute.
 For a relativistic interval involving one axis, the interval could be
 characterized by the following:
 
-![\(T + e,T, 0, 0\)](../img/QM/time_reversal/s_gr_6.gif)
+![\(T + e,T, 0, 0\)](../images/QM/time_reversal/s_gr_6.gif)
 
 Find out what quaternion is required to reverse time for this relativistic
 interval to first order in epsilon.
 
 ![R= \(t squared -\(T+ e\) squared ,2 T \(T+e\), 0, 0\) all over t squared +
-\(T + e\) squared](../img/QM/time_reversal/s_gr_7.gif)
+\(T + e\) squared](../images/QM/time_reversal/s_gr_7.gif)
 
 This approaches q[-e/T, 1, 0, 0], almost a pure vector, a result distinct from
 the classical case.

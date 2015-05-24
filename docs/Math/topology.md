@@ -23,7 +23,7 @@ open set.  Define an open ball in H of radius (r, 0) centered around a point
 consisting of points (x, X) such that
 
 ![The square root of \(\(x - y, X - Y\) conjugated times \(x - y, X - Y\)\) is
-less than \(r, 0\)](../img/Math/topology/s_gr_1.gif)
+less than \(r, 0\)](../images/Math/topology/s_gr_1.gif)
 
 An open set in H is any set which can be expressed as a union of open balls.  
 [p. 423 translated] A quaternion topological space (H,T) consists of the set H
@@ -67,21 +67,21 @@ topology (A, t) where x and a are elements of A. Use inequalities to define:
 
 ![an open set: the lower bound \(L, 0\) is less than \(x - a\) conjugated
 times \(x - a\) is less than the upper bound \(U, 0\)
-](../img/Math/topology/s_gr_2.gif)
+](../images/Math/topology/s_gr_2.gif)
 
 ![a closed set: \(L, 0\) is less than or equal to \(x - a\) conjugated times
 \(x - a\) is less than or equal to the upper bound \(U, 0\)
-](../img/Math/topology/s_gr_3.gif)
+](../images/Math/topology/s_gr_3.gif)
 
 ![a half open set   \(L, 0\)  is less than or equal to \(x - a\) conjugated
 times \(x - a\) is less than the upper bound \(U, 0\)
-](../img/Math/topology/s_gr_4.gif)
+](../images/Math/topology/s_gr_4.gif)
 
 ![or   \(L, 0\) is less than \(x - a\) conjugated times \(x - a\)  is less
-than or equal to the conjugate of \(U, 0\)](../img/Math/topology/s_gr_5.gif)
+than or equal to the conjugate of \(U, 0\)](../images/Math/topology/s_gr_5.gif)
 
 ![a boundary: the lower bound \(L, 0\)  equals \(x - a\) conjugated times \(x
-- a\) ](../img/Math/topology/s_gr_6.gif)
+- a\) ](../images/Math/topology/s_gr_6.gif)
 
 The union of an arbitrary collection of open sets is open.  
 The intersection of a finite number of open sets is open.  
@@ -90,7 +90,7 @@ The intersection of an arbitrary number of closed sets is closed.
 
 Clearly there are connections between the above definitions
 
-![](../img/Math/topology/s_gr_7.gif)
+![](../images/Math/topology/s_gr_7.gif)
 
 This creates complementary ideas.  [Wald, p.424]  
 The interior of A is the union of all open sets contained within A.  
@@ -111,16 +111,16 @@ the causality of that collection of events.
 
 ![an open set: the lower bound \(L, 0\) is less than  \(x - a\) conjugated
 times \(x - a\) is less than the upper bound \(U,
-0\)](../img/Math/topology/s_gr_8.gif)
+0\)](../images/Math/topology/s_gr_8.gif)
 
 ![timelike events:  the scalar of \(\(x - a\) squared\) is greater than 0
-](../img/Math/topology/s_gr_9.gif)
+](../images/Math/topology/s_gr_9.gif)
 
 ![lightlike events:  the scalar of \(\(x - a\) squared\) =
-0](../img/Math/topology/s_gr_10.gif)
+0](../images/Math/topology/s_gr_10.gif)
 
 ![spacelike events:  the scalar of \(\(x - a\) squared\) is less than
-0](../img/Math/topology/s_gr_11.gif)
+0](../images/Math/topology/s_gr_11.gif)
 
 A proper time can have exactly the same absolute value as a pure spacelike
 separation, so these two will be included in the same sets, whether open,
@@ -137,7 +137,7 @@ Consider an open set S of timelike intervals.
 ![the set S = {x, a are elements of H, a is fixed; U, L are elements of R |
 \(L, 0\) is less than \(x - a\) conjugated times \(x - a\) is less than \(U,
 0\), and scalar of \(\(x - a\) squared\) is greater than
-0}](../img/Math/topology/s_gr_12.gif)
+0}](../images/Math/topology/s_gr_12.gif)
 
 The set S could depict a classical world history since they are causally
 linked and have good topological properties.  A closed set of lightlike events
@@ -158,13 +158,13 @@ For example, find the half-way point between a and b.  Let that be the radius
 of an open ball around the points a and b:
 
 ![let \(r, 0\) = \(a - b\) conjugated times \(a - b\) over 4
-](../img/Math/topology/s_gr_13.gif)
+](../images/Math/topology/s_gr_13.gif)
 
 ![the set Oa = {a, x are elements of H, a is fixed, r is an element of R | \(a
-- x\) conjugated times \(a - x\) is less than r} ](../img/Math/topology/s_gr_14.gif)
+- x\) conjugated times \(a - x\) is less than r} ](../images/Math/topology/s_gr_14.gif)
 
 ![the set Ob = {b, x are elements of H, b is fixed, r is an element of R | \(b
-- x\) conjugated times \(b - x\) is less than r} ](../img/Math/topology/s_gr_15.gif)
+- x\) conjugated times \(b - x\) is less than r} ](../images/Math/topology/s_gr_15.gif)
 
 Neither set quite reaches the other, so their intersection is null.
 
@@ -189,7 +189,7 @@ composed of points with a finite number of absolute values:
 ![the set S = {x1, x2, ..., xn are elements of H; a1, a2, ..., an are elements
 of R, n is finite | the square root of x1 conjugated times x1 = \(a1, 0\), the
 square root of x2 conjugated times x2 = \(a2, 0\), ...}
-](../img/Math/topology/s_gr_16.gif)
+](../images/Math/topology/s_gr_16.gif)
 
 The set S has an infinite number of members, since for any of the equalities,
 specifying the absolute value still leaves three degrees of freedom (if the
@@ -201,7 +201,7 @@ covers S.  The subset {C} would have one member for each absolute value.
 ![the set C = {y E {O}, e E R, e is greater than 0 | \(a1 - e\) is less than
 the square root of y conjugated times y is less than \(a1 + e, 0\), \(a2 - e\)
 is less than the square root of y conjugated times y is less than \(a2 + e,
-0\), ..., one y exists for each inequality} ](../img/Math/topology/s_gr_17.gif)
+0\), ..., one y exists for each inequality} ](../images/Math/topology/s_gr_17.gif)
 
 Every set of quaternions composed of a finite number of absolute values like
 the set S is compact.
@@ -225,7 +225,7 @@ closed and bound is to be compact.
 
 ![the set S = {x an element of H, a, b elements of R, a less than b | \(a, 0\)
 is less than or equal to the square root of \(x conjugated times x\) is less
-than or equal to \(b, 0\)} ](../img/Math/topology/s_gr_18.gif)
+than or equal to \(b, 0\)} ](../images/Math/topology/s_gr_18.gif)
 
 with the standard topology on H is compact.
 

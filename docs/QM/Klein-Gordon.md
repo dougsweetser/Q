@@ -4,7 +4,7 @@ The relativistic quantum mechanic equation for a free particle is the Klein-
 Gordon equation (h=c=1)
 
 ![\(The second time derivative - Laplacian + m squared\) acting on psi = 0
-](../img/QM/Klein-Gordon/s_gr_1.gif)
+](../images/QM/Klein-Gordon/s_gr_1.gif)
 
 The Schr&ouml;dinger equation results from the non-relativistic limit of this
 equation. In this section, the machinery of the Klein-Gordon equation will be
@@ -18,14 +18,14 @@ complete inner product space. In the energy/momentum representation, this
 would involve all possible energy levels and momenta.
 
 ![psi is defined to be the sum from n = 0 to infinity of \(E sub n, P sub n
-\)](../img/QM/Klein-Gordon/s_gr_2.gif)
+\)](../images/QM/Klein-Gordon/s_gr_2.gif)
 
 This infinite sum of quaternions should contain all the information about a
 system.  The quaternion wave function can be normalized.
 
 ![The sum from n =  0 to infinity of \(E sub n, P sub n\) conjugated times \(E
 sub n, P sub n\) = the sum from n = 0 to infinity of \(E sub n squared + P sub
-n squared, 0\) = 1](../img/QM/Klein-Gordon/s_gr_3.gif)
+n squared, 0\) = 1](../images/QM/Klein-Gordon/s_gr_3.gif)
 
 The first quaternion is the conjugate or transpose of the second.  Since the
 transpose of a quaternion wave function times a wave function creates a
@@ -40,11 +40,11 @@ required to create the D'Alembertian, along with vector identities, has
 already been worked out for the Maxwell equations in the Lorenz gauge.
 
 ![the sum from n = 0 to infinity of \(\(d by dt, Del\) squared + \(d by dt, -
-Del\) squared\) acting on \(E sub n, P sub n\) over 2 =](../img/QM/Klein-Gordon/s_gr_4.gif)
+Del\) squared\) acting on \(E sub n, P sub n\) over 2 =](../images/QM/Klein-Gordon/s_gr_4.gif)
 
 ![= the sum from n = 0 to infinity of \(E sub n double dot - div Grad E sub n
 - div curl P sub n, P sub n double dot - Grad div P sub n + Del Cross Del
-Cross P sub n + Del Cross Grad E sub n\)](../img/QM/Klein-Gordon/s_gr_5.gif)
+Cross P sub n + Del Cross Grad E sub n\)](../images/QM/Klein-Gordon/s_gr_5.gif)
 
 The first term of the scalar, and the second term of the vector, are both
 equal to zero.  What is left is the D'Alembertian operator acting on the
@@ -58,11 +58,11 @@ function, there is En^2-Pn^2.  The sum of all these terms becomes m^2.
 Set the sum of these two operators equal to zero to form the Klein-Gordon
 equation.
 
-![](../img/QM/Klein-Gordon/s_gr_6.gif)
+![](../images/QM/Klein-Gordon/s_gr_6.gif)
 
-![](../img/QM/Klein-Gordon/s_gr_7.gif)
+![](../images/QM/Klein-Gordon/s_gr_7.gif)
 
-![](../img/QM/Klein-Gordon/s_gr_8.gif)
+![](../images/QM/Klein-Gordon/s_gr_8.gif)
 
 It takes some skilled staring to assure that this equation contains the Klein-
 Gordon equation along with vector identities.
@@ -74,7 +74,7 @@ the operators used to generate the Maxwell equations in the Lorenz gauge.  In
 the homogeneous case, the same operator acting on two different quaternions
 equals the same result.  This implies that
 
-![\(phi, A\) =  the sum from n = 0 to infinity of \(E sub n, P sub n\)](../img/QM/Klein-Gordon/s_gr_9.gif)
+![\(phi, A\) =  the sum from n = 0 to infinity of \(E sub n, P sub n\)](../images/QM/Klein-Gordon/s_gr_9.gif)
 
 Under this interpretation, a nonzero mass changes the wave equation into a
 simple harmonic oscillator.  The simple relationship between the quaternion

@@ -21,7 +21,7 @@ true no matter what coordinate system is chosen.
 A quaternion has 4 degrees of freedom, so it needs 4 real-valued variables to
 be defined:
 
-![q = \(a0, a1, a2, a3\)](../img/Math/analysis/s_gr_1.gif)
+![q = \(a0, a1, a2, a3\)](../images/Math/analysis/s_gr_1.gif)
 
 Imagine we want to do a simple binary operation such as subtraction, without
 having to specify the coordinate system chosen.  Subtraction will only work if
@@ -31,7 +31,7 @@ we can define the difference between two quaternion q and q' that is
 independent of the coordinate system used for the measurement.
 
 ![dq = q prime  - q = \(\(a0 prime  - a0\) e0, \(a1 prime  - a1\) e1/3, \(a2
-prime  - a2\) e2/3, \(a3 prime  - a3\) e3/3\)](../img/Math/analysis/s_gr_2.gif)
+prime  - a2\) e2/3, \(a3 prime  - a3\) e3/3\)](../images/Math/analysis/s_gr_2.gif)
 
 What is unusual about this definition are the factors of a third.  They will
 be necessary later in order to define a holonomic equation later in this
@@ -45,7 +45,7 @@ If dq is squared, the scalar part of the resulting quaternion forms a metric.
 ![dq squared = \(da0 squared e0 squared + da1 squared e1 squared over 9 + da2
 squared e2 squared over 9 + da3 squared e3 squared over 9, 2 da0 da1 e0 e1
 over 3, 2 da0 da2 e0 e2 over 3, 2 da0 da3 e0 e3 over 3\)
-](../img/Math/analysis/s_gr_3.gif)
+](../images/Math/analysis/s_gr_3.gif)
 
 What should the connection be between the squares of the basis vectors?  The
 amount of intrinsic curvature should be equal, so that a transformation
@@ -55,7 +55,7 @@ suggests otherwise.  Let e1, e2, and e3 form an independent, dimensionless,
 orthogonal basis for the 3-vector such that:
 
 ![- 1 over e1 squared = - 1 over e2 squared = - 1 over e3 squared = e0
-squared](../img/Math/analysis/s_gr_4.gif)
+squared](../images/Math/analysis/s_gr_4.gif)
 
 This unusual relationship between the basis vectors is consistent with
 Hamilton's choice of 1, i, j, k if e0^2 = 1.  For that case, calculate the
@@ -63,7 +63,7 @@ square of dq:
 
 ![dq squared = \(da0 squared e0 squared - da1 squared over 9 e0 squared - da2
 squared over 9 e0 squared - da3 squared over 9 e0 squared, 2 da0 da1 over 3, 2
-da0 da2 over 3, 2 da0 da3 over 3\) ](../img/Math/analysis/s_gr_5.gif)
+da0 da2 over 3, 2 da0 da3 over 3\) ](../images/Math/analysis/s_gr_5.gif)
 
 The scalar part is known in physics as the Minkowski interval between two
 events in flat spacetime.  If e0^2 does not equal one, then the metric would
@@ -73,7 +73,7 @@ R), and calculate the square of dq:
 
 ![dq squared = \(da0 squared \(1 - 2 G M over c squared r\) - dA dot dA over 9
 \(1 - 2 G M over c squared r\) , 2 da0 da1 over 3, 2 da0 da2 over 3, 2 da0 da3
-over 3\) ](../img/Math/analysis/s_gr_6.gif)
+over 3\) ](../images/Math/analysis/s_gr_6.gif)
 
 This is the Schwarzchild metric of general relativity.  Notice that the
 3-vector is unchanged (this may be a defining characteristic).  There are very
@@ -90,13 +90,13 @@ independent variables involving q can be defined using conjugates combined
 with rotations:
 
 ![q conjugated = \(a0 e0, - a1 e1 over 3, - a2 e2 over 3, - a3 e3 over
-3\)](../img/Math/analysis/s_gr_7.gif)
+3\)](../images/Math/analysis/s_gr_7.gif)
 
 ![q conjugated first is defined to be \(- a0 e0,  a1 e1 over 3, - a2 e2 over
-3, - a3 e3 over 3\) = \(e1 q e1\) conjugated](../img/Math/analysis/s_gr_8.gif)
+3, - a3 e3 over 3\) = \(e1 q e1\) conjugated](../images/Math/analysis/s_gr_8.gif)
 
 ![q conjugated second is defined to be \(- a0 e0, - a1 e1 over 3,  a2 e2 over
-3, - a3 e3 over 3\) = \(e2 q e2\) conjugated](../img/Math/analysis/s_gr_9.gif)
+3, - a3 e3 over 3\) = \(e2 q e2\) conjugated](../images/Math/analysis/s_gr_9.gif)
 
 The conjugate as it is usually defined (q*) flips the sign of all but the
 scalar.  The q*1 flips the signs of all but the e1 term, and q*2 all but the
@@ -104,21 +104,21 @@ e2 term.  The set q, q*, q*1, q*2 form the basis for quaternion analysis.  The
 conjugate of a conjugate should give back the original quaternion.
 
 ![\(q conj\) conj = q, \(q conjugated first\) conjugated first = q, \(q
-conjugated second\) conjugated second = q](../img/Math/analysis/s_gr_10.gif)
+conjugated second\) conjugated second = q](../images/Math/analysis/s_gr_10.gif)
 
 Something subtle but perhaps directly related to spin happens looking at how
 the conjugates effect products:
 
 ![\(q times q prime\) conjugated first = q prime  conjugated first times q
-conjugated first](../img/Math/analysis/s_gr_11.gif)
+conjugated first](../images/Math/analysis/s_gr_11.gif)
 
 ![\(q times q prime\) conjugated first = - q prime  conjugated first times q
 conjugated first, \(q times q prime\) conjugated second = - q prime conjugated
-second times q conjugated second](../img/Math/analysis/s_gr_12.gif)
+second times q conjugated second](../images/Math/analysis/s_gr_12.gif)
 
 ![\(q times q prime times q times q prime\) conjugated first = q prime
 conjugated first times q conjugated first times q prime conjugated first times
-q conjugated first](../img/Math/analysis/s_gr_13.gif)
+q conjugated first](../images/Math/analysis/s_gr_13.gif)
 
 The conjugate applied to a product brings the result directly back to the
 reverse order of the elements.  The first and second conjugates point things
@@ -151,13 +151,13 @@ words, from the future).  The net effect of these two limit processes is that
 D-&gt;0\.
 
 ![d f\(q, q conjugated, q conjugated first, q conjugated second\) over d q
-=](../img/Math/analysis/s_gr_14.gif)
+=](../images/Math/analysis/s_gr_14.gif)
 
 ![= the limit as the scalar d approaches zero from the positive direction of
 \(the limit as \(d, D\) approaches the scalar \(d, 0\) of \(f\(q + \(d, D\), q
 conjugated, q conjugated first, q conjugated second\) - f\(q, q conjugated, q
 conjugated first, q conjugated second\) times \(d, D\)
-inverted\)\)](../img/Math/analysis/s_gr_15.gif)
+inverted\)\)](../images/Math/analysis/s_gr_15.gif)
 
 The definition is invariant under a passive transformation of the basis.
 
@@ -165,63 +165,63 @@ The 4 real variables a0, a1, a2, a3 can be represented by functions using the
 conjugates as a basis.
 
 ![f\(q, q conjugated, q conjugated first, q conjugated second\) = a0 = e0 \(q
-+ q conjugated\) over 2](../img/Math/analysis/s_gr_16.gif)
++ q conjugated\) over 2](../images/Math/analysis/s_gr_16.gif)
 
 ![f = a1 = e1 \(q + q conj 1\) over \(-2 over 3\) = \(q + q conjugated first\)
-e1 over \(-2 over 3\)](../img/Math/analysis/s_gr_17.gif)
+e1 over \(-2 over 3\)](../images/Math/analysis/s_gr_17.gif)
 
 ![f = a2 = e2 \(q + q conjugated second\) over \(-2 over 3\) = \(q + q
-conjugated second\) e2 over \(-2 over 3\)](../img/Math/analysis/s_gr_18.gif)
+conjugated second\) e2 over \(-2 over 3\)](../images/Math/analysis/s_gr_18.gif)
 
 ![f = a3 = e3 times \(q + q conjugated + q conjugated first + the second
 conjugated of q\) over \(2 over 3\) = \(q + q conjugated + q conjugated first
 + the second conjugated of q\) times e3 over \(2 over
-3\)](../img/Math/analysis/s_gr_19.gif)
+3\)](../images/Math/analysis/s_gr_19.gif)
 
 Begin with a simple example:
 
-![f = a0 = \(q + q conjugated\) over 2](../img/Math/analysis/s_gr_20.gif)
+![f = a0 = \(q + q conjugated\) over 2](../images/Math/analysis/s_gr_20.gif)
 
 ![d a0 by d q = da0 by d q conjugated = the limit of \(the limit of\(\(e0\(q +
 \(d, D\) + q conjugated\) - \(q + q conjugated\)\) times the inverse of
-\(2\(d, D\)\)\)\) = e0 over 2](../img/Math/analysis/s_gr_21.gif)
+\(2\(d, D\)\)\)\) = e0 over 2](../images/Math/analysis/s_gr_21.gif)
 
 ![ d a0 by d q conjugated first = da0 by d q conjugated second =  0
-](../img/Math/analysis/s_gr_22.gif)
+](../images/Math/analysis/s_gr_22.gif)
 
 The definition gives the expected result.
 
 A simple approach to a trickier example:
 
 ![f = a1 = e1 \(q + q conjugated first\) over \(- 2 over 3\)
-](../img/Math/analysis/s_gr_23.gif)
+](../images/Math/analysis/s_gr_23.gif)
 
 ![d a1 by d q = d a1 by d q conjugated = the limit of \(the limit of\(e1 times
 \(\(q + \(d, D\) + q conjugated first\) - \(q + q conjugated first\)\) times
 the inverse of \(-2 over 3 \(d, D\)\)\)\) = - 3 e1 over 2
-](../img/Math/analysis/s_gr_24.gif)
+](../images/Math/analysis/s_gr_24.gif)
 
 ![d a1 over d q conjugated  = d a1 over d q conjugated second =
-0](../img/Math/analysis/s_gr_25.gif)
+0](../images/Math/analysis/s_gr_25.gif)
 
 So far, the fancy double limit process has been irrelevant for these identity
 functions, because the differential element has been eliminated.  That changes
 with the following example, a tricky approach to the same result.
 
 ![f = a1 = \(q + q conjugated first\) times e1 over \(-2 over 3\)
-](../img/Math/analysis/s_gr_26.gif)
+](../images/Math/analysis/s_gr_26.gif)
 
-![d a1 by d q  =  d a1 by d q conjugated first =](../img/Math/analysis/s_gr_27.gif)
+![d a1 by d q  =  d a1 by d q conjugated first =](../images/Math/analysis/s_gr_27.gif)
 
 ![= the  limit of\(the limit of\(\(\(q + \(d, D\) + q conjugated first\) - \(q
 + q conjugated first\)\) times e1 \(-2 over 3 \(d, D\)\) inverted\)\)
-=](../img/Math/analysis/s_gr_28.gif)
+=](../images/Math/analysis/s_gr_28.gif)
 
 ![= the limit of\(the limit of\(\(d, D\) times e1 \(-2 over 3 \(d, D\)\)
-inverted\)\) =](../img/Math/analysis/s_gr_29.gif)
+inverted\)\) =](../images/Math/analysis/s_gr_29.gif)
 
 ![= the limit of \(\(d, 0\) times e1 times \(-2 over 3 \(d, 0\)\) inverted\) =
-- 3 over 2 e1](../img/Math/analysis/s_gr_30.gif)
+- 3 over 2 e1](../images/Math/analysis/s_gr_30.gif)
 
 Because the 3-vector goes to zero faster than the scalar for the differential
 element, after the first limit process, the remaining differential is a scalar
@@ -232,10 +232,10 @@ The initial hypothesis was that complex analysis should be a self-evident
 subset of quaternion analysis.  So this quaternion derivative should match up
 with the complex case, which is:
 
-![z = a + b i, y = \(Z - Z conjugated\) over 2 i](../img/Math/analysis/s_gr_31.gif)
+![z = a + b i, y = \(Z - Z conjugated\) over 2 i](../images/Math/analysis/s_gr_31.gif)
 
 ![d b by d z = - i over 2 = - d b by d Z
-conjugated](../img/Math/analysis/s_gr_32.gif)
+conjugated](../images/Math/analysis/s_gr_32.gif)
 
 These are the same result up to two subedits.  Quaternions have three
 imaginary axes, which creates the factor of three.  The conjugate of a complex
@@ -245,19 +245,19 @@ others.
 
 The derivative of a quaternion applies equally well to polynomials.
 
-![let f = q squared](../img/Math/analysis/s_gr_33.gif)
+![let f = q squared](../images/Math/analysis/s_gr_33.gif)
 
 ![d f by d q = the limit of\(the limit of \(\(\(q + \(d, D\)\) squared - q
-squared\) times \(d, D\) inverted\)\) =](../img/Math/analysis/s_gr_34.gif)
+squared\) times \(d, D\) inverted\)\) =](../images/Math/analysis/s_gr_34.gif)
 
 ![= the limit of \(the limit of \(\(q squared + q times \(d, D\) + \(d, D\)
 times q + \(d, D\) squared - q squared\) times \(d, D\) inverted\)\)
-=](../img/Math/analysis/s_gr_35.gif)
+=](../images/Math/analysis/s_gr_35.gif)
 
 ![= the limit of \(the limit of \(\(q + \(d, D\) times q times \(d, D\)
-inverted + \(d, D\)\)\) =](../img/Math/analysis/s_gr_36.gif)
+inverted + \(d, D\)\)\) =](../images/Math/analysis/s_gr_36.gif)
 
-![= the limit of \(2 q + \(d, 0\)\) = 2 q](../img/Math/analysis/s_gr_37.gif)
+![= the limit of \(2 q + \(d, 0\)\) = 2 q](../images/Math/analysis/s_gr_37.gif)
 
 This is the expected result for this polynomial.  It would be straightforward
 to show that all polynomials gave the expected results.
@@ -277,45 +277,45 @@ following table describes the 16 derivatives for this set
 derivatives with respect to q are e0/2, - 3 e1/2, - 3 e2/3, 3 e3/3; the
 derivatives with respect to q conj are e0/2, 0, 0, 3 e3/3;the derivatives with
 respect to q conj1 are 0, - 3 e1/2, 0, 3 e3/3;the derivatives with respect to
-q conj2 are 0, 0, - 3 e2/2, 3 e3/3;](../img/Math/analysis/s_gr_38.gif)
+q conj2 are 0, 0, - 3 e2/2, 3 e3/3;](../images/Math/analysis/s_gr_38.gif)
 
 This table will be used extensively to evaluate if a function is analytic
 using the chain rule.  Let's see if the identity function w = q is analytic.
 
 ![Let w = q = \(a0 e0,  a1 e1 over 3, a2 e2 over 3, a3 e3 over
-3\)](../img/Math/analysis/s_gr_39.gif)
+3\)](../images/Math/analysis/s_gr_39.gif)
 
 Use the chain rule to calculate the derivative will respect to each term:
 
 ![d w by d a0 times d a0 by d q = e0 e0 over 2 = 1
-half](../img/Math/analysis/s_gr_40.gif)
+half](../images/Math/analysis/s_gr_40.gif)
 
 ![d w by d a1 time d a1 by d q = e1 over 3 times e1 over \(-2 over 3\) = 1
-half](../img/Math/analysis/s_gr_41.gif)
+half](../images/Math/analysis/s_gr_41.gif)
 
 ![d w by d a2 times d a2 by d q = e2 over 3 times e2 over \(-2 over 3\) = 1
-half](../img/Math/analysis/s_gr_42.gif)
+half](../images/Math/analysis/s_gr_42.gif)
 
 ![d w by d a3 times d a3 by d q = e3 over 3 times d e3 over \(2 over 3\) = - 1
-half](../img/Math/analysis/s_gr_43.gif)
+half](../images/Math/analysis/s_gr_43.gif)
 
 Use combinations of these terms to calculate the four quaternion derivatives
 using the chain rule.
 
 ![d w by d q = d w by d a0 times d a0 by d q + d w  by d a1 times d a1 by d q
 + d w by d a2 times d a2 by d q + d w by d a3 times d a3 by d q = 1 half + 1
-half + 1 half - 1 half = 1](../img/Math/analysis/s_gr_44.gif)
+half + 1 half - 1 half = 1](../images/Math/analysis/s_gr_44.gif)
 
 ![d w by d q conj   =d w by d a0 times d a0 by d q conj +d w by d a3 times d
-a3 by d q conj = 1 half - 1 half = 0](../img/Math/analysis/s_gr_45.gif)
+a3 by d q conj = 1 half - 1 half = 0](../images/Math/analysis/s_gr_45.gif)
 
 ![d w by d q conjugated first = d w by d a1 times d a1 by d q conjugated first
 + d w by d a3 times d a3 by d q conjugated first = 1 half - 1 half =
-0](../img/Math/analysis/s_gr_46.gif)
+0](../images/Math/analysis/s_gr_46.gif)
 
 ![d w by d q conjugated second = d w by d a2 times d a2 by d q conjugated
 second + d w by d a3 times d a3 by d q conjugated second = 1 half - 1 half =
-0](../img/Math/analysis/s_gr_47.gif)
+0](../images/Math/analysis/s_gr_47.gif)
 
 This has the derivatives expected if w=q is analytic in q.
 
@@ -323,17 +323,17 @@ Another test involves the Cauchy-Riemann equations.  The presence of the three
 basis vectors changes things slightly.
 
 ![Let u = \(a0 e0, 0, 0, 0\) , V = \(0, a1 e1 over 3, a2 e2 over 3, a3 e3 over
-3\) ](../img/Math/analysis/s_gr_48.gif)
+3\) ](../images/Math/analysis/s_gr_48.gif)
 
 ![d u by d a0 times e1 over 3 = d V by d a1 e0, d u by d a0 times e2 over 3 =
 d V by d a2 times e0, d u by d a0 times e3 over 3 = d V by d a3 times
-e0](../img/Math/analysis/s_gr_49.gif)
+e0](../images/Math/analysis/s_gr_49.gif)
 
 This also solves a holonomic equation.
 
 ![the scalar part of \(d u by d a0, d V by d a1, d V by d a2, d V by d a3\)
 times \(e0, e1, e2, e3\)\) = e0 times e0 + e1 times e1 over 3 + e2 times e2
-over 3 + e3 times e3 over 3 = 0 ](../img/Math/analysis/s_gr_50.gif)
+over 3 + e3 times e3 over 3 = 0 ](../images/Math/analysis/s_gr_50.gif)
 
 There are no off diagonal terms to compare.
 
@@ -343,51 +343,51 @@ identity function w = q*1.  To show that this is analytic in q*1 requires that
 one always works with basis vectors of the q*1 variety.
 
 ![Let u = \(- a0 e0, 0, 0, 0\), V = \(0, a1 e1 over 3, - a2 e2 over 3, - a3 e3
-over 3\)](../img/Math/analysis/s_gr_51.gif)
+over 3\)](../images/Math/analysis/s_gr_51.gif)
 
 ![d u by d a0 times \(-e1 over 3 \)= d V by d a1 times e0, d u by d a0 times
 e2 over 3 = d V by d a2  times e0, d u by d a0 times e3 over 3 = d V by d a3
-times e0](../img/Math/analysis/s_gr_52.gif)
+times e0](../images/Math/analysis/s_gr_52.gif)
 
 This also solves a first conjugate holonomic equation.
 
 ![\(d u by d a0 + d V by d a1 + d V by d a2 + dV by d a3\) dot \(e0 + e1 + e2
 + e3\) = e0  e0  + e1 over 3 times e1 + e2 over 3 time e2 + e3 over 3 times e3
-= 0](../img/Math/analysis/s_gr_53.gif)
+= 0](../images/Math/analysis/s_gr_53.gif)
 
 Power functions can be analyzed in exactly the same way:
 
 ![Let w = q squared  = \(a0 squared times e0 squared + a1 squared times e1
 squared over 9 + a2 squared times e2 squared over 9 + a3 squared times e3
 squared over 9, 2 a0 a1 e0 e1 over 3, 2 a0 a2 e0 e2 over 3, 2 a0 a3 e0 e3 over
-3\) ](../img/Math/analysis/s_gr_54.gif)
+3\) ](../images/Math/analysis/s_gr_54.gif)
 
 ![u = \(a0 squared e0 squared + a1 squared e1 squared over 9 + a2 squared e2
 squared over 9 + a3 squared e3 squared over 9, 0, 0,
-0\)](../img/Math/analysis/s_gr_55.gif)
+0\)](../images/Math/analysis/s_gr_55.gif)
 
 ![V = \(0, 2 a0 a1 e0 e1 over 3, 2 a0 a2 e0 e2 over 3, 2 a0 a3 e0 e3 over
-3\)](../img/Math/analysis/s_gr_56.gif)
+3\)](../images/Math/analysis/s_gr_56.gif)
 
 ![d u by d a0 e1 over 3 = 2 a0 e0 squared e1 over 3 = d  V by d a1
-e0](../img/Math/analysis/s_gr_57.gif)
+e0](../images/Math/analysis/s_gr_57.gif)
 
 ![d u by d a0 e2 over 3 = 2 a0 e0 squared e2 over 3 = d  V by d a2
-e0](../img/Math/analysis/s_gr_58.gif)
+e0](../images/Math/analysis/s_gr_58.gif)
 
 ![d u by d a0 e3 over 3 = 2 a0 e0  e3 squared over 3 = d  V by d a3
-e0](../img/Math/analysis/s_gr_59.gif)
+e0](../images/Math/analysis/s_gr_59.gif)
 
 This time there are cross terms involved.
 
 ![- d u by d a1 3 times e0 = - 2 a1 e0 e1 squared over 9 = d V1 by d a0 e1
-over 3](../img/Math/analysis/s_gr_60.gif)
+over 3](../images/Math/analysis/s_gr_60.gif)
 
 ![- d u by d a2 3 e0 = - 2 a2 e0 e2 squared over 9 = d V2 by d a0 e2 over
-3](../img/Math/analysis/s_gr_61.gif)
+3](../images/Math/analysis/s_gr_61.gif)
 
 ![d u by d a3 e0 = - 2 a3 e0 e3 squared over 9 = - d V3 by d a0 e3 over
-3](../img/Math/analysis/s_gr_62.gif)
+3](../images/Math/analysis/s_gr_62.gif)
 
 At first glance, one might think these are incorrect, since the signs of the
 derivatives are suppose to be opposite.  Actually they are, but it is hidden
@@ -404,10 +404,10 @@ a function happens to be analytic.
 This also solves a holonomic equation.
 
 ![\(d u by d a0 + d V over a1 + d V by d a2 +d V by d a3 \) dot \(e0 +e1 + e2
-+ e3\) =](../img/Math/analysis/s_gr_63.gif)
++ e3\) =](../images/Math/analysis/s_gr_63.gif)
 
 ![= 2 a0 e0 cubed  + 2 a0 e1 over 3 e1 + 2 a0 e2 over 3 e2 + 2 a0 e3 over 3 e3
-= 0](../img/Math/analysis/s_gr_64.gif)
+= 0](../images/Math/analysis/s_gr_64.gif)
 
 Since power series can be analytic, this should open the door to all forms of
 analysis.  (I have done the case for the cube of q, and it too is analytic in
@@ -438,46 +438,46 @@ everywhere, multiply by the conjugate.  In the limit D D*/((D - D*)(D - D*))*
 approaches (1, 0), a scalar.
 
 ![the norm of the partial derivative of f with respect to q =
-](../img/Math/analysis/s_gr_65.gif)
+](../images/Math/analysis/s_gr_65.gif)
 
 ![= the limit as the 3-vector \(0, D\) goes to 0 of \(the limit as the
 quaternion differential element \(d, D\) goes to the 3-vector \(0, D\) of
 \(f\(q + \(d, D\), q conjugated, q conjugated first, q conjugated second\) -
 f\(q, q conjugated, q conjugated first, q conjugated second\) times \(d, D\)
 inverted\)\) times the preceding difference
-conjugated\)\)](../img/Math/analysis/s_gr_66.gif)
+conjugated\)\)](../images/Math/analysis/s_gr_66.gif)
 
 To make this concrete, consider a simple example, f = q^2.  Apply the
 definition:
 
 ![the norm of d q squared by d q = the limit as \(0, D\) goes to 0 of \(the
-limit as \(d, D\) goes to \(0, D\)](../img/Math/analysis/s_gr_67.gif)
+limit as \(d, D\) goes to \(0, D\)](../images/Math/analysis/s_gr_67.gif)
 
 ![\(\(\(\(a, B\) + \(d, D\)\) squared - \(a, B\) squared\) times \(d, D\)
 inverted times the conjugate of the preceding difference
-=](../img/Math/analysis/s_gr_68.gif)
+=](../images/Math/analysis/s_gr_68.gif)
 
 ![= the limit of \(\(\(a, B\) + \(0, D\) times \(a, B\) times \(0, D\)
 conjugated over the norm of \(0, D\) + \(0, D\)\) times the preceding sum
-conjugated\) =](../img/Math/analysis/s_gr_69.gif)
+conjugated\) =](../images/Math/analysis/s_gr_69.gif)
 
 The second and fifth terms are unitary rotations of the 3-vector B.  Since the
 differential element D could be pointed anywhere, this is an arbitrary
 rotation. Define:
 
 ![\(a, B prime\) = \(0, D\) times \(a, B\) times \(0, -D\) over the norm of
-\(0, D\)](../img/Math/analysis/s_gr_70.gif)
+\(0, D\)](../images/Math/analysis/s_gr_70.gif)
 
 Substitute, and continue:
 
 ![= the limit of \(\(\(a, B\) + \(a, B prime\) + \(0, D\)\) times \(\(a, B\) +
-\(a, B prime\) + \(0, D\)\) conjugated\) =](../img/Math/analysis/s_gr_71.gif)
+\(a, B prime\) + \(0, D\)\) conjugated\) =](../images/Math/analysis/s_gr_71.gif)
 
 ![= the limit of \(4 times a squared + 2 B squared + 2 B dot B prime + 2 D dot
-B + 2 D dot B prime, 0\)](../img/Math/analysis/s_gr_72.gif)
+B + 2 D dot B prime, 0\)](../images/Math/analysis/s_gr_72.gif)
 
 ![= \(4 a squared + 2 B squared + 2 B dot B prime, 0\) is less than 2 q
-absolute value squared](../img/Math/analysis/s_gr_73.gif)
+absolute value squared](../images/Math/analysis/s_gr_73.gif)
 
 Look at how wonderfully strange this is!  The arbitrary rotation of the
 3-vector B means that this derivative is bound by an inequality.  If D is in

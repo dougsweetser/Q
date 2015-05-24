@@ -75,7 +75,7 @@ X.X, 0).  A tangent quaternion is created by having an operator act on a
 quaternion-valued function
 
 ![\(d/dt, Del\) acting on \(f\(q\), F\(q\)\) = \(f dot - div F, F dot + Grad f
-+ Curl F\)](../img/Math/scalars_vectors/s_gr_1.gif)
++ Curl F\)](../images/Math/scalars_vectors/s_gr_1.gif)
 
 What would happen to these five terms if space were shrunk?  The 3-vector F
 would get shrunk, as would the divisors in the Del operator, making functions
@@ -94,14 +94,14 @@ sides.  Consider the product of two events, q and q':
 
 ![\(t, X\) times \(t prime , X prime\) =  \(t t prime  - X dot X prime , t X
 prime  + X t prime + X cross X prime\)axial vectors: X cross X prime
-](../img/Math/scalars_vectors/s_gr_2.gif)
+](../images/Math/scalars_vectors/s_gr_2.gif)
 
 Where is the axial vector for the left hand side?  It is imbedded in the
 multiplication operation, honest :-)
 
 ![\(t prime , X prime\) times \(t, X\) = \(t prime t - X prime  dot X, t prime
 X + X prime  t + X prime  cross X\) = \(t t prime  - X dot X prime , t X prime
-+ X t prime  - X cross X prime\)](../img/Math/scalars_vectors/s_gr_3.gif)
++ X t prime  - X cross X prime\)](../images/Math/scalars_vectors/s_gr_3.gif)
 
 The axial vector is the one that flips signs if the order is reversed.
 
@@ -124,24 +124,24 @@ products can isolate any particular term.  Here are all the terms of the
 example from above
 
 ![\(t,X\) times \(t prime ,X prime\) = \(t t prime  - X dot X prime , t X
-prime  + X t prime + X cross X prime\)](../img/Math/scalars_vectors/s_gr_4.gif)
+prime  + X t prime + X cross X prime\)](../images/Math/scalars_vectors/s_gr_4.gif)
 
 ![scalars: t = \(q + q conjugated\) over 2, t prime  = \(q prime + q prime
 conjugated\) over 2, t t prime  - X dot X prime  = \(q q prime  + \(q q
-prime\) conjugated\)/2](../img/Math/scalars_vectors/s_gr_5.gif)
+prime\) conjugated\)/2](../images/Math/scalars_vectors/s_gr_5.gif)
 
 ![polar vectors: X = \(q - q conjugated\) over 2, X prime  = \(q prime  - q
 prime  conjugated\) over 2,  t X prime  + X t prime  = \(\(q q prime +\(q
 prime  q\)\) - \(qq prime +\(q prime q\)\) conjugated\) over
-4](../img/Math/scalars_vectors/s_gr_6.gif)
+4](../images/Math/scalars_vectors/s_gr_6.gif)
 
 ![axial vectors: X cross X prime  = \(q q prime -\(q prime  q\)\) over
-2](../img/Math/scalars_vectors/s_gr_7.gif)
+2](../images/Math/scalars_vectors/s_gr_7.gif)
 
 The metric for quaternions is imbedded in Hamilton's rule for the field.
 
 ![i squared = j squared = k squared = i j k = -
-1](../img/Math/scalars_vectors/s_gr_8.gif)
+1](../images/Math/scalars_vectors/s_gr_8.gif)
 
 This looks like a way to generate scalars from vectors, but it is more than
 that.  It also says implicitly that i j = k, j k = i, and i, j, k must have
@@ -158,7 +158,7 @@ is in one context and it will not be possible to compare it to a quaternion in
 another context.  Instead, consider an arbitrary transformation T  which takes
 q into q'
 
-![q transform to q prime  = T times q](../img/Math/scalars_vectors/s_gr_9.gif)
+![q transform to q prime  = T times q](../images/Math/scalars_vectors/s_gr_9.gif)
 
 T is also a quaternion, in fact it is equal to q' q^-1.  This is guaranteed to
 work locally, within neighborhoods of q and q'.  There is no promise that it
@@ -173,13 +173,13 @@ groups).
 This quaternion definition of a transformation creates an interesting
 relationship between the Minkowski and Euclidean metrics.
 
-![Let T = I, the identity matrix](../img/Math/scalars_vectors/s_gr_10.gif)
+![Let T = I, the identity matrix](../images/Math/scalars_vectors/s_gr_10.gif)
 
 ![\(I q I q + \(I q I q\) conjugated\) over 2 = \(t squared - X dot X, 0\),
-the Minkowski interval](../img/Math/scalars_vectors/s_gr_11.gif)
+the Minkowski interval](../images/Math/scalars_vectors/s_gr_11.gif)
 
 ![\(I q\) conjugated times I q = \(t squared + X dot X, 0\), the Euclidean
-norm](../img/Math/scalars_vectors/s_gr_12.gif)
+norm](../images/Math/scalars_vectors/s_gr_12.gif)
 
 In order to change from wrist watch time (the interval in spacetime) to the
 norm of a Hilbert space does not require any change in the transformation

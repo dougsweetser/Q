@@ -18,16 +18,16 @@ There are two basic ways to multiply quaternions together.  There is the
 direct approach.
 
 ![\(t, X\) times \(t prime , X prime\) = \(t t prime  - X dot X prime , t X
-prime  + X t prime  + X cross X prime\)](../img/Math/products/s_gr_1.gif)
+prime  + X t prime  + X cross X prime\)](../images/Math/products/s_gr_1.gif)
 
 I call this the Grassman product (I don't know if anyone else does, but I need
 a label).  The inner product can also be called the symmetric product, because
 it does not change signs if the terms are reversed.
 
-![even\(\(t, X\),\(t prime , X\)\) is defined to be](../img/Math/products/s_gr_2.gif)
+![even\(\(t, X\),\(t prime , X\)\) is defined to be](../images/Math/products/s_gr_2.gif)
 
 ![\(\(t, X\) times \(t prime , X\) + \(t prime , X\) times \(t, X\)\) over 2 =
-\(t t prime  -X dot X, X + t prime\)](../img/Math/products/s_gr_3.gif)
+\(t t prime  -X dot X, X + t prime\)](../images/Math/products/s_gr_3.gif)
 
 I have defined the anticommutator (the bold curly braces) in a non-standard
 way, including a factor of two so I do not have to keep remembering to write
@@ -41,10 +41,10 @@ valid measurement.
 The Grassman outer product is antisymmetric and is formed with a commutator.
 
 ![odd\(\(t, X\),\(t prime , X prime\)\) is defined to
-be](../img/Math/products/s_gr_4.gif)
+be](../images/Math/products/s_gr_4.gif)
 
 ![\(\(t, X\) times \(t prime , X prime\) - \(t prime , X prime\) times \(t,
-X\)\) over 2 = \(0, X cross X prime\)](../img/Math/products/s_gr_5.gif)
+X\)\) over 2 = \(0, X cross X prime\)](../images/Math/products/s_gr_5.gif)
 
 This is the cross product defined for two 3-vectors.  It is unchanged for
 quaternions.
@@ -57,16 +57,16 @@ representation, this is equivalent to multiplication by the conjugate which
 involves flipping the sign of the 3-vector.
 
 ![\(t, X\) times \(t prime , X prime\) conjugated = \(t, -X\) times \(t prime
-, X prime\) = ](../img/Math/products/s_gr_6.gif)
+, X prime\) = ](../images/Math/products/s_gr_6.gif)
 
 ![= \(t t prime  +X dot X prime , t X prime -t prime  X - X cross X
-prime\)](../img/Math/products/s_gr_7.gif)
+prime\)](../images/Math/products/s_gr_7.gif)
 
 Form the Euclidean inner product.
 
 ![\(\(t, X\) conjugated times \(t prime , X prime\) + \(t prime , X prime\)
 conjugated \(t, X\)\) over 2 = \(t t prime  + X dot X prime ,
-0\)](../img/Math/products/s_gr_8.gif)
+0\)](../images/Math/products/s_gr_8.gif)
 
 The first term is the Euclidean norm if the two quaternions are the same (this
 was the reason for using the adjective "Euclidean").  The Euclidean inner
@@ -76,7 +76,7 @@ Form the Euclidean outer product.
 
 ![\(t, X\) conjugated times \(t prime , X prime\) - \(t prime , X prime\)
 conjugated times \(t, X\) over 2 = \(0, t X prime  - X t prime  - X cross X
-prime\)](../img/Math/products/s_gr_9.gif)
+prime\)](../images/Math/products/s_gr_9.gif)
 
 The first term is zero.  The vector terms are an antisymmetric product of
 space with time and the negative of the cross product.

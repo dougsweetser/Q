@@ -1,4 +1,4 @@
-![Quaternion gravity](../img/Index/fgmmr2.jpg)
+![Quaternion gravity](../images/Index/fgmmr2.jpg)
 
 # Quaternion gravity
 

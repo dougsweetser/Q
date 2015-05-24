@@ -13,18 +13,18 @@ A:  There are the same number of particles before and after, traveling in
 opposite directions with the same energy.  Define the before and after
 quaternions.
 
-![](../img/SR/problem_set_6/s_gr_1.gif)
+![](../images/SR/problem_set_6/s_gr_1.gif)
 
-![](../img/SR/problem_set_6/s_gr_2.gif)
+![](../images/SR/problem_set_6/s_gr_2.gif)
 
 Conserve momentum and solve for the speed.
 
-![](../img/SR/problem_set_6/s_gr_3.gif)
+![](../images/SR/problem_set_6/s_gr_3.gif)
 
-![](../img/SR/problem_set_6/s_gr_4.gif)
+![](../images/SR/problem_set_6/s_gr_4.gif)
 
 The initial velocity of the electron is
-`**![](../img/SR/problem_set_6/s_gr_5.gif)**`.
+`**![](../images/SR/problem_set_6/s_gr_5.gif)**`.
 
 ##  French:  6-17
 
@@ -35,21 +35,21 @@ value of E backward?
 
 A:  Define the relevant quaternions.
 
-![](../img/SR/problem_set_6/s_gr_6.gif)
+![](../images/SR/problem_set_6/s_gr_6.gif)
 
-![](../img/SR/problem_set_6/s_gr_7.gif)
+![](../images/SR/problem_set_6/s_gr_7.gif)
 
 Solve for the energy forward using energy conservation.
 
-![](../img/SR/problem_set_6/s_gr_8.gif)
+![](../images/SR/problem_set_6/s_gr_8.gif)
 
-![](../img/SR/problem_set_6/s_gr_9.gif)
+![](../images/SR/problem_set_6/s_gr_9.gif)
 
 Solve for the energy back using momentum conservation and the previous result.
 
-![](../img/SR/problem_set_6/s_gr_10.gif)
+![](../images/SR/problem_set_6/s_gr_10.gif)
 
-![](../img/SR/problem_set_6/s_gr_11.gif)
+![](../images/SR/problem_set_6/s_gr_11.gif)
 
 As beta approaches one, the value of E backward approaches 1/2 mc^2.  The
 photons are most likely to collide with electrons of mass 511 MeV, so E
@@ -68,62 +68,62 @@ excitation energy?
 
 A:  (a) Define the before and after quaternions.
 
-![](../img/SR/problem_set_6/s_gr_12.gif)
+![](../images/SR/problem_set_6/s_gr_12.gif)
 
-![](../img/SR/problem_set_6/s_gr_13.gif)
+![](../images/SR/problem_set_6/s_gr_13.gif)
 
 By conservation of energy and momentum, the beforeq minus the afterq should be
 zero.
 
-![](../img/SR/problem_set_6/s_gr_14.gif)
+![](../images/SR/problem_set_6/s_gr_14.gif)
 
-![](../img/SR/problem_set_6/s_gr_15.gif)
+![](../images/SR/problem_set_6/s_gr_15.gif)
 
 There are 3 equations (each term is equal to zero) and three unknowns (hv,
 alpha, and theta).  Eliminate theta using a trig identity, then eliminate
 alpha using a hyperbolic trig identity.  (It's not easy, but it does work).
 
-![](../img/SR/problem_set_6/s_gr_16.gif)
+![](../images/SR/problem_set_6/s_gr_16.gif)
 
-![](../img/SR/problem_set_6/s_gr_17.gif)
+![](../images/SR/problem_set_6/s_gr_17.gif)
 
-![](../img/SR/problem_set_6/s_gr_18.gif)
+![](../images/SR/problem_set_6/s_gr_18.gif)
 
-![](../img/SR/problem_set_6/s_gr_19.gif)
+![](../images/SR/problem_set_6/s_gr_19.gif)
 
 This identity equals 1, so it can be solved for hv.
 
-![](../img/SR/problem_set_6/s_gr_20.gif)
+![](../images/SR/problem_set_6/s_gr_20.gif)
 
-![](../img/SR/problem_set_6/s_gr_21.gif)
+![](../images/SR/problem_set_6/s_gr_21.gif)
 
 Find the frequency by putting in the appropriate constants.
 
-![](../img/SR/problem_set_6/s_gr_22.gif)
+![](../images/SR/problem_set_6/s_gr_22.gif)
 
-![](../img/SR/problem_set_6/s_gr_23.gif)
+![](../images/SR/problem_set_6/s_gr_23.gif)
 
 The frequency of the photon is 2.5 10^20 s^-1, a gamma ray.
 
 (b) Define the before and after quaternions.
 
-![](../img/SR/problem_set_6/s_gr_24.gif)
+![](../images/SR/problem_set_6/s_gr_24.gif)
 
-![](../img/SR/problem_set_6/s_gr_25.gif)
+![](../images/SR/problem_set_6/s_gr_25.gif)
 
 Solve for beta in terms of the ground state using momentum conservation.
 
-![](../img/SR/problem_set_6/s_gr_26.gif)
+![](../images/SR/problem_set_6/s_gr_26.gif)
 
-![](../img/SR/problem_set_6/s_gr_27.gif)
+![](../images/SR/problem_set_6/s_gr_27.gif)
 
 Solve for the excited state using energy conservation.
 
-![](../img/SR/problem_set_6/s_gr_28.gif)
+![](../images/SR/problem_set_6/s_gr_28.gif)
 
-![](../img/SR/problem_set_6/s_gr_29.gif)
+![](../images/SR/problem_set_6/s_gr_29.gif)
 
-The excitation energy will be ![](../img/SR/problem_set_6/s_gr_30.gif).
+The excitation energy will be ![](../images/SR/problem_set_6/s_gr_30.gif).
 
 ##  French:  6-19
 
@@ -135,70 +135,70 @@ the scattered photon?
 
 A:  (a) Define the before and after quaternions.
 
-![](../img/SR/problem_set_6/s_gr_31.gif)
+![](../images/SR/problem_set_6/s_gr_31.gif)
 
-![](../img/SR/problem_set_6/s_gr_32.gif)
+![](../images/SR/problem_set_6/s_gr_32.gif)
 
 By conservation of energy and momentum, the beforeq minus the afterq should be
 zero.
 
-![](../img/SR/problem_set_6/s_gr_33.gif)
+![](../images/SR/problem_set_6/s_gr_33.gif)
 
-![](../img/SR/problem_set_6/s_gr_34.gif)
+![](../images/SR/problem_set_6/s_gr_34.gif)
 
 There are 2 equations (each term is equal to zero) and 2 unknowns (E and
 theta).  Eliminate the angle using a trig identity.
 
-![](../img/SR/problem_set_6/s_gr_35.gif)
+![](../images/SR/problem_set_6/s_gr_35.gif)
 
-![](../img/SR/problem_set_6/s_gr_36.gif)
+![](../images/SR/problem_set_6/s_gr_36.gif)
 
 This identity equals 1, so it can be solved for hv.
 
-![](../img/SR/problem_set_6/s_gr_37.gif)
+![](../images/SR/problem_set_6/s_gr_37.gif)
 
-![](../img/SR/problem_set_6/s_gr_38.gif)
+![](../images/SR/problem_set_6/s_gr_38.gif)
 
 The incident photon is E + 100 MeV, or 329 MeV.
 
 (b)  The energy of the scattered photon was calculated above at 229 MeV.  The
 momentum in the conservation quaternion can be solved for theta.
 
-![](../img/SR/problem_set_6/s_gr_39.gif)
+![](../images/SR/problem_set_6/s_gr_39.gif)
 
-![](../img/SR/problem_set_6/s_gr_40.gif)
+![](../images/SR/problem_set_6/s_gr_40.gif)
 
-![](../img/SR/problem_set_6/s_gr_41.gif)
+![](../images/SR/problem_set_6/s_gr_41.gif)
 
-![](../img/SR/problem_set_6/s_gr_42.gif)
+![](../images/SR/problem_set_6/s_gr_42.gif)
 
 The photon scatters at an angle of 104
-degrees![](../img/SR/problem_set_6/s_gr_43.gif)
+degrees![](../images/SR/problem_set_6/s_gr_43.gif)
 
 ##  French: 7-2
 
 Q:  An electron-positron pair can be produced by a gamma ray striking a
 stationary electron:
 
-![](../img/SR/problem_set_6/s_gr_44.gif)
+![](../images/SR/problem_set_6/s_gr_44.gif)
 
 What is the minimum gamma ray energy that will make this process go?
 
 A:  Define the before and after quaternions.
 
-![](../img/SR/problem_set_6/s_gr_45.gif)
+![](../images/SR/problem_set_6/s_gr_45.gif)
 
-![](../img/SR/problem_set_6/s_gr_46.gif)
+![](../images/SR/problem_set_6/s_gr_46.gif)
 
 Set the square of the masses equal to each other and solve for E.
 
-![](../img/SR/problem_set_6/s_gr_47.gif)
+![](../images/SR/problem_set_6/s_gr_47.gif)
 
-![](../img/SR/problem_set_6/s_gr_48.gif)
+![](../images/SR/problem_set_6/s_gr_48.gif)
 
-![](../img/SR/problem_set_6/s_gr_49.gif)
+![](../images/SR/problem_set_6/s_gr_49.gif)
 
-![](../img/SR/problem_set_6/s_gr_50.gif)
+![](../images/SR/problem_set_6/s_gr_50.gif)
 
 The minimum energy of the gamma ray is 2044 MeV.
 
@@ -206,22 +206,22 @@ The minimum energy of the gamma ray is 2044 MeV.
 
 Q:  What is the threshold kinetic energy, in the Lab system, for the reaction:
 
-![](../img/SR/problem_set_6/s_gr_51.gif)
+![](../images/SR/problem_set_6/s_gr_51.gif)
 
 The protons have mass M, the pions have mass m.  Set c = 1.
 
 A:  K = E - M.  gamma = E/M = K/M + 1.  These relations can be used to define
 the before and after quaternions.
 
-![](../img/SR/problem_set_6/s_gr_52.gif)
+![](../images/SR/problem_set_6/s_gr_52.gif)
 
-![](../img/SR/problem_set_6/s_gr_53.gif)
+![](../images/SR/problem_set_6/s_gr_53.gif)
 
 Set the masses equal to each other and solve for K.
 
-![](../img/SR/problem_set_6/s_gr_54.gif)
+![](../images/SR/problem_set_6/s_gr_54.gif)
 
-![](../img/SR/problem_set_6/s_gr_55.gif)
+![](../images/SR/problem_set_6/s_gr_55.gif)
 
 The minimum kinetic energy required is K = (2m^2 + 4m M)/M.
 
@@ -233,20 +233,20 @@ possible rest mass Mo of a particle X that could be produced by the impact of
 one of these high-energy protons on a stationary proton in the following
 process:
 
-![](../img/SR/problem_set_6/s_gr_56.gif)
+![](../images/SR/problem_set_6/s_gr_56.gif)
 
 A:  K = E - M.  gamma = E/M = K/M + 1.  These relations can be used to define
 the before and after quaternions.
 
-![](../img/SR/problem_set_6/s_gr_57.gif)
+![](../images/SR/problem_set_6/s_gr_57.gif)
 
-![](../img/SR/problem_set_6/s_gr_58.gif)
+![](../images/SR/problem_set_6/s_gr_58.gif)
 
 Set the square of the masses equal to each other and solve for X.
 
-![](../img/SR/problem_set_6/s_gr_59.gif)
+![](../images/SR/problem_set_6/s_gr_59.gif)
 
-![](../img/SR/problem_set_6/s_gr_60.gif)
+![](../images/SR/problem_set_6/s_gr_60.gif)
 
 The largest possible rest mass is 17.6 GeV for this accelerator.
 
@@ -254,7 +254,7 @@ The largest possible rest mass is 17.6 GeV for this accelerator.
 
 Consider the reaction:
 
-![](../img/SR/problem_set_6/s_gr_61.gif)
+![](../images/SR/problem_set_6/s_gr_61.gif)
 
 The target proton is at rest.  The rest mass of the proton is 940 MeV and the
 pion is 140 MeV.  (a) Calculate the threshold kinetic energy of the incident
@@ -263,15 +263,15 @@ momenta of the final-state proton and the pions in the lab system.
 
 A:  (a) Define the before and after quaternions.
 
-![](../img/SR/problem_set_6/s_gr_62.gif)
+![](../images/SR/problem_set_6/s_gr_62.gif)
 
-![](../img/SR/problem_set_6/s_gr_63.gif)
+![](../images/SR/problem_set_6/s_gr_63.gif)
 
 Set the square of the masses equal to each other and solve for K.
 
-![](../img/SR/problem_set_6/s_gr_64.gif)
+![](../images/SR/problem_set_6/s_gr_64.gif)
 
-![](../img/SR/problem_set_6/s_gr_65.gif)
+![](../images/SR/problem_set_6/s_gr_65.gif)
 
 The threshold kinetic energy of the pion is 171 MeV.
 
@@ -279,29 +279,29 @@ The threshold kinetic energy of the pion is 171 MeV.
 frame, all three particles have the same velocity, but different momenta.
 Calculate the energy before.
 
-![](../img/SR/problem_set_6/s_gr_66.gif)
+![](../images/SR/problem_set_6/s_gr_66.gif)
 
-![](../img/SR/problem_set_6/s_gr_67.gif)
+![](../images/SR/problem_set_6/s_gr_67.gif)
 
 The gamma after is this energy divided by the mass.
 
-![](../img/SR/problem_set_6/s_gr_68.gif)
+![](../images/SR/problem_set_6/s_gr_68.gif)
 
-![](../img/SR/problem_set_6/s_gr_69.gif)
+![](../images/SR/problem_set_6/s_gr_69.gif)
 
 Knowing gamma, both velocity and momenta can be calculated.
 
-![](../img/SR/problem_set_6/s_gr_70.gif)
+![](../images/SR/problem_set_6/s_gr_70.gif)
 
-![](../img/SR/problem_set_6/s_gr_71.gif)
+![](../images/SR/problem_set_6/s_gr_71.gif)
 
-![](../img/SR/problem_set_6/s_gr_72.gif)
+![](../images/SR/problem_set_6/s_gr_72.gif)
 
-![](../img/SR/problem_set_6/s_gr_73.gif)
+![](../images/SR/problem_set_6/s_gr_73.gif)
 
-![](../img/SR/problem_set_6/s_gr_74.gif)
+![](../images/SR/problem_set_6/s_gr_74.gif)
 
-![](../img/SR/problem_set_6/s_gr_75.gif)
+![](../images/SR/problem_set_6/s_gr_75.gif)
 
 The particles have a relativistic velocity of 0.22, the pions have a momentum
 pc = 31.7 MeV, and the protons have a momentum of pc= 213 MeV.
@@ -318,25 +318,25 @@ are much less than c.
 A:  Boost the quaternion for the center-of-mass frame to the lab, where Mo is
 the sum of the rest masses of the particles in the system.
 
-![](../img/SR/problem_set_6/s_gr_76.gif)
+![](../images/SR/problem_set_6/s_gr_76.gif)
 
-Energy is conserved, so `**![](../img/SR/problem_set_6/s_gr_77.gif)**`.
+Energy is conserved, so `**![](../images/SR/problem_set_6/s_gr_77.gif)**`.
 
-![](../img/SR/problem_set_6/s_gr_78.gif)
+![](../images/SR/problem_set_6/s_gr_78.gif)
 
-![](../img/SR/problem_set_6/s_gr_79.gif)
+![](../images/SR/problem_set_6/s_gr_79.gif)
 
 The kinetic energy in the lab frame is
-![](../img/SR/problem_set_6/s_gr_80.gif).
+![](../images/SR/problem_set_6/s_gr_80.gif).
 
 Look at the nonrelativistic limit.
 
-![](../img/SR/problem_set_6/s_gr_81.gif)
+![](../images/SR/problem_set_6/s_gr_81.gif)
 
-![](../img/SR/problem_set_6/s_gr_82.gif)
+![](../images/SR/problem_set_6/s_gr_82.gif)
 
     
-![](../img/SR/problem_set_6/s_gr_83.gif)
+![](../images/SR/problem_set_6/s_gr_83.gif)
 
 Note that  (K + Mo c^2) is the total mass of the system.  In the
 nonrelativistic limit, the lab kinetic energy equals the kinetic energy within
@@ -349,13 +349,13 @@ There are a few tools required to solve problems in special relativity  using
 quaternions to characterize events in spacetime.  The most basic are a round
 value for c and gamma.
 
-![](../img/SR/problem_set_6/s_gr_84.gif)
+![](../images/SR/problem_set_6/s_gr_84.gif)
 
-![](../img/SR/problem_set_6/s_gr_85.gif)
+![](../images/SR/problem_set_6/s_gr_85.gif)
 
 Define a function for quaternions using its matrix representation.
 
-![](../img/SR/problem_set_6/s_gr_86.gif)
+![](../images/SR/problem_set_6/s_gr_86.gif)
 
 A quaternion L that transforms a quaternion (L q[**x**] = q[**x'**]) identical
 to how the Lorentz transformation acts on 4-vectors  
@@ -363,28 +363,28 @@ to how the Lorentz transformation acts on 4-vectors
 notebook "A different algebra for boosts."  For boosts along the x axis with y
 = z = 0, the general function for L is
 
-![](../img/SR/problem_set_6/s_gr_87.gif)
+![](../images/SR/problem_set_6/s_gr_87.gif)
 
 Most of the problems here involve much simpler cases for L, where t or x is
 zero, or t is equal to x.
 
 If t = 0, then
 
-![](../img/SR/problem_set_6/s_gr_88.gif)
+![](../images/SR/problem_set_6/s_gr_88.gif)
 
-![](../img/SR/problem_set_6/s_gr_89.gif)
+![](../images/SR/problem_set_6/s_gr_89.gif)
 
 If x = 0, then
 
-![](../img/SR/problem_set_6/s_gr_90.gif)
+![](../images/SR/problem_set_6/s_gr_90.gif)
 
-![](../img/SR/problem_set_6/s_gr_91.gif)
+![](../images/SR/problem_set_6/s_gr_91.gif)
 
 If t = x, then
 
-![](../img/SR/problem_set_6/s_gr_92.gif)
+![](../images/SR/problem_set_6/s_gr_92.gif)
 
-![](../img/SR/problem_set_6/s_gr_93.gif)
+![](../images/SR/problem_set_6/s_gr_93.gif)
 
 Note: this is for blueshifts.  Redshifts have a plus instead of the minus.
 

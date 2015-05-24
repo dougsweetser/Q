@@ -2,9 +2,9 @@
 
 Two stars go supernova while four kids watch.
 
-<a id="single_1" href="../../../img/Gravity/measure_900.gif" title="Four ways to see two events">
-    <img class='visible-xs' src="../../../img/Gravity/measure_400.gif" alt="" />
-    <img class='hidden-xs' src="../../../img/Gravity/measure_600.gif" alt="" /></a>  
+<a id="single_1" href="../../../images/Gravity/measure_900.gif" title="Four ways to see two events">
+    <img class='visible-xs' src="../../../images/Gravity/measure_400.gif" alt="" />
+    <img class='hidden-xs' src="../../../images/Gravity/measure_600.gif" alt="" /></a>  
 
 There is a difference in time (dt).
 

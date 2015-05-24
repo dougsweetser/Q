@@ -1,8 +1,8 @@
-![](../img/About/Bike/comfort_cruisers.jpg) 
+![](../images/About/Bike/comfort_cruisers.jpg) 
 
 # The Frame for the Future  
   
-| ![](../img/About/Bike/beach_biker.jpg)  
+| ![](../images/About/Bike/beach_biker.jpg)  
   
   * Wheel base 40"
   * Seat height 25"

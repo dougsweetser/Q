@@ -4,7 +4,7 @@ The Lorentz force acts on a moving charge.  The covariant form of this law is,
 where W is work and P is momentum:
 
 ![\(d Work/d tau, d P/d tau\) = gamma e\(Beta dot E, E + Beta Cross
-B\)](../img/EM/Lorentz_force/s_gr_1.gif)
+B\)](../images/EM/Lorentz_force/s_gr_1.gif)
 
 In the classical case for a point charge, beta is zero and the E = k e/r^2, so
 the Lorentz force simplifies to Coulomb's law.  Rewrite this in terms of the
@@ -12,7 +12,7 @@ potentials phi and A.
 
 ![\(d W by d tau, d P by d tau\) = gamma e \(Beta dot\(- A dot - Grad phi\), -
 A dot - Grad phi + Beta Cross\(Del Cross
-A\)\)](../img/EM/Lorentz_force/s_gr_2.gif)
+A\)\)](../images/EM/Lorentz_force/s_gr_2.gif)
 
 In this notebook, I will look for a quaternion equation that can generate this
 covariant form of the Lorentz force in the Lorenz gauge.  By using potentials
@@ -25,11 +25,11 @@ The Lorentz force is composed of two parts.  First, there is the E and B
 fields.  Generate those just as was done for the Maxwell equations
 
 ![\(d by dt, Del\) acting on \(phi, A\) = \(phi dot - div A, A dot + Grad phi
-+ Curl A\)](../img/EM/Lorentz_force/s_gr_3.gif)
++ Curl A\)](../images/EM/Lorentz_force/s_gr_3.gif)
 
 Another component is the 4-velocity
 
-![V = \(gamma, gamma Beta\)](../img/EM/Lorentz_force/s_gr_4.gif)
+![V = \(gamma, gamma Beta\)](../images/EM/Lorentz_force/s_gr_4.gif)
 
 Multiplying these two terms together creates thirteen terms, only 5 of whom
 belong to the Lorentz force.  That should not be surprising since a bit of
@@ -39,9 +39,9 @@ required to generate the Lorentz force.
 
 ![\(d by dt, - Del\) acting on \(phi, - A\)\(gamma, - gamma Beta\) - \(gamma,
 - gamma Beta\)\(d by dt, Del\) acting on \(phi, A\)
-=](../img/EM/Lorentz_force/s_gr_5.gif)
+=](../images/EM/Lorentz_force/s_gr_5.gif)
 
-![](../img/EM/Lorentz_force/s_gr_6.gif)
+![](../images/EM/Lorentz_force/s_gr_6.gif)
 
 This combination of differential quaternion operator, quaternion potential and
 quaternion 4-velocity generates the covariant form of the Lorentz operator in

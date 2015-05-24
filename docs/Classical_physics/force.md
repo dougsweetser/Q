@@ -13,17 +13,17 @@ Coordinates
 
 Define a position quaternion as a function of time.
 
-![R = \(t, R\)](../img/Classical_physics/force/s_gr_1.gif)
+![R = \(t, R\)](../images/Classical_physics/force/s_gr_1.gif)
 
 Operate on this once with the differential operator to get the velocity
 quaternion.
 
-![V = \(d by dt, 0\) acting on R = \(1, R dot\)](../img/Classical_physics/force/s_gr_2.gif)
+![V = \(d by dt, 0\) acting on R = \(1, R dot\)](../images/Classical_physics/force/s_gr_2.gif)
 
 Operate on the velocity to get the classical inertial acceleration quaternion.
 
 ![A = \(d by dt, 0\) squared acting on R = \(0, R double dot\)
-](../img/Classical_physics/force/s_gr_3.gif)
+](../images/Classical_physics/force/s_gr_3.gif)
 
 This is the standard form for acceleration in Newton's second law in an
 inertial reference frame.  Because the reference frame is inertial, the first
@@ -33,37 +33,37 @@ term is zero.
 
 Repeat this process, but this time start with polar coordinates.
 
-![R  = \(t, r  cosine theta, r  sine theta, 0\)](../img/Classical_physics/force/s_gr_4.gif)
+![R  = \(t, r  cosine theta, r  sine theta, 0\)](../images/Classical_physics/force/s_gr_4.gif)
 
 The velocity in a plane.
 
 ![V = \(d by dt, 0\) acting on \(t, r cosine \(theta\), r sine \(theta, 0\)
-=](../img/Classical_physics/force/s_gr_5.gif)
+=](../images/Classical_physics/force/s_gr_5.gif)
 
 ![= \(1, r dot cosine theta - r sine theta theta dot, r dot sine theta + r
-cosine theta theta dot, 0\)](../img/Classical_physics/force/s_gr_6.gif)
+cosine theta theta dot, 0\)](../images/Classical_physics/force/s_gr_6.gif)
 
 Acceleration in a plane.
 
 ![A = \(d by dt, 0\) acting on \(1, r dot cosine theta - r sine theta theta
 dot, r dot sine theta + r cosine theta theta dot, 0\)
-=](../img/Classical_physics/force/s_gr_7.gif)
+=](../images/Classical_physics/force/s_gr_7.gif)
 
 ![= \(0, - 2 sine theta R dot theta dot - cosine theta R \(theta dot\)squared
 + cosine theta R double dot - R sine theta theta double dot,2 cosine theta R
 dot theta dot -R sine theta \(theta dot\)squared + sine theta R double dot +
-cosine theta R theta double dot, 0\)](../img/Classical_physics/force/s_gr_8.gif)
+cosine theta R theta double dot, 0\)](../images/Classical_physics/force/s_gr_8.gif)
 
-Not a pretty sight.  For a central force, ![](../img/Classical_physics/force/s_gr_9.gif) =
-![\[Graphics:img/s_gr_10.gif\]](../img/Classical_physics/force/s_gr_10.gif), and
-![\[Graphics:img/s_gr_11.gif\]](../img/Classical_physics/force/s_gr_11.gif) = 0.  Make these
+Not a pretty sight.  For a central force, ![](../images/Classical_physics/force/s_gr_9.gif) =
+![\[Graphics:images/s_gr_10.gif\]](../images/Classical_physics/force/s_gr_10.gif), and
+![\[Graphics:images/s_gr_11.gif\]](../images/Classical_physics/force/s_gr_11.gif) = 0.  Make these
 substitution and rotate the quaternion to get rid of the theta dependence.
 
 ![A = \(cosine theta, 0, 0, - sine theta\) times \(d by dt,0\) squared acting
-on R =](../img/Classical_physics/force/s_gr_12.gif)
+on R =](../images/Classical_physics/force/s_gr_12.gif)
 
 ![= \(0, -L squared over m squared  R cubed + R double dot, 2 L R dot over m R
-squared , 0\)](../img/Classical_physics/force/s_gr_13.gif)
+squared , 0\)](../images/Classical_physics/force/s_gr_13.gif)
 
 The second term is the acceleration in the radial direction, the third is
 acceleration in the theta direction for a central force in polar coordinates.
@@ -79,15 +79,15 @@ t did not interfere with the calculations, this time it must be set explicitly
 to zero (I wonder what that means?).
 
 ![V = \(d by dt, Omega\) acting on \(0,R\) = \(- omega dot R, R dot + Omega
-Cross R\)](../img/Classical_physics/force/s_gr_14.gif)
+Cross R\)](../images/Classical_physics/force/s_gr_14.gif)
 
 Operate on the velocity quaternion with the same operator.
 
 ![A = \(d by dt, Omega\) acting on \(- omega dot R, R dot + Omega Cross
-R\)](../img/Classical_physics/force/s_gr_15.gif)
+R\)](../images/Classical_physics/force/s_gr_15.gif)
 
 ![= \(- Omega dot dot R, R double dot + 2 Omega Cross R dot + Omega dot  Cross
-R - Omega dot R Omega \)](../img/Classical_physics/force/s_gr_16.gif)
+R - Omega dot R Omega \)](../images/Classical_physics/force/s_gr_16.gif)
 
 The first three terms of the 3-vector are the translational, coriolis, and
 azimuthal alterations respectively.  The last term of the 3-vector may not
@@ -95,12 +95,12 @@ look like the centrifugal force, but using a vector identity it can be
 rewritten:
 
 ![- Omega dot R Omega = - Omega Cross \(Omega Cross R\) + Omega squared
-R](../img/Classical_physics/force/s_gr_17.gif)
+R](../images/Classical_physics/force/s_gr_17.gif)
 
 If the angular velocity an the radius are orthogonal, then
 
 ![Omega Cross \(Omega Cross R\) = Omega squared R if and only if Omega dot R =
-0](../img/Classical_physics/force/s_gr_18.gif)
+0](../images/Classical_physics/force/s_gr_18.gif)
 
 The scalar term is not zero.  What this implies is not yet clear, but it may
 be related to the fact that the frame is not inertial.
