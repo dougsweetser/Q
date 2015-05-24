@@ -1,12 +1,12 @@
-![](../../img/About/Lindy_hop/lindyhop.gif) 
+![](../../images/About/Lindy_hop/lindyhop.gif) 
 
 # Lindy Hop
 
 A joyous partner dance developed in New York City in the 1930's  
   
-| ![](../../img/About/Lindy_hop/lindy3.jpg) | ![](../../img/About/Lindy_hop/lindy2.jpg) | 
+| ![](../../images/About/Lindy_hop/lindy3.jpg) | ![](../../images/About/Lindy_hop/lindy2.jpg) | 
 | -- | -- |
-| ![](../../img/About/Lindy_hop/bbq.gif) | [![](../../img/About/Lindy_hop/tony_aurelie_zooted.jpg)](http://www.HopToTheBeat.com/)[Tony &amp; Aurelie Tye](http://www.HopToTheBeat.com/) |  
+| ![](../../images/About/Lindy_hop/bbq.gif) | [![](../../images/About/Lindy_hop/tony_aurelie_zooted.jpg)](http://www.HopToTheBeat.com/)[Tony &amp; Aurelie Tye](http://www.HopToTheBeat.com/) |  
 
   
 Darra, my extra-special dance partner, strutting, as she does so well!

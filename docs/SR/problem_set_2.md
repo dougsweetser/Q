@@ -17,51 +17,51 @@ origin traveling at c, so t' = d/c.
 
 (b) In the rocket's frame, the event of the signal reaching the tail is
 represented by the quaternion
-![\[Graphics:ps2gr1.gif\]](../img/SR/problem_set_2/ps2gr1.gif). In frame S, the
+![\[Graphics:ps2gr1.gif\]](../images/SR/problem_set_2/ps2gr1.gif). In frame S, the
 light is blueshifted because the rocket is approaching at a speed of -beta.
 
 ![\[Graphics:ps2gr2.
-gif\]](../img/SR/problem_set_2/ps2gr2.gif)
+gif\]](../images/SR/problem_set_2/ps2gr2.gif)
 
     
     
-![\[Graphics:ps2gr4.gif\]](../img/SR/problem_set_2/ps2gr4.gif)
+![\[Graphics:ps2gr4.gif\]](../images/SR/problem_set_2/ps2gr4.gif)
 
 The time the signal arrives in frame S is
-![\[Graphics:ps2gr5.gif\]](../img/SR/problem_set_2/ps2gr5.gif).
+![\[Graphics:ps2gr5.gif\]](../images/SR/problem_set_2/ps2gr5.gif).
 
 (c) The length of the ship in frame S must be calculated first. Boost the
 ship's end at q[0, d, 0, 0] to frame S. The boost quaternion is
-![\[Graphics:ps2gr6.gif\]](../img/SR/problem_set_2/ps2gr6.gif).
+![\[Graphics:ps2gr6.gif\]](../images/SR/problem_set_2/ps2gr6.gif).
 
 ![\[Graphics:ps2gr7.
-gif\]](../img/SR/problem_set_2/ps2gr7.gif)
+gif\]](../images/SR/problem_set_2/ps2gr7.gif)
 
 The start of the ship will move for a time equal to the first term of the
 boosted quaternion, and moved by a distance x = vt/c.
 
 ![\[Graphics:ps2gr8.
-gif\]](../img/SR/problem_set_2/ps2gr8.gif)
+gif\]](../images/SR/problem_set_2/ps2gr8.gif)
 
 The ship's length in frame S will be the difference at the same instant in
 this frame between the boosted ship end and translocated ship start.
 
 ![\[Graphics:ps2gr9.
-gif\]](../img/SR/problem_set_2/ps2gr9.gif)
+gif\]](../images/SR/problem_set_2/ps2gr9.gif)
 
     
     
-![\[Graphics:ps2gr10.gif\]](../img/SR/problem_set_2/ps2gr10.gif)
+![\[Graphics:ps2gr10.gif\]](../images/SR/problem_set_2/ps2gr10.gif)
 
 ![\[Graphics:ps2gr11
-.gif\]](../img/SR/problem_set_2/ps2gr11.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr11.gif)
 
     
     
-![\[Graphics:ps2gr12.gif\]](../img/SR/problem_set_2/ps2gr12.gif)
+![\[Graphics:ps2gr12.gif\]](../images/SR/problem_set_2/ps2gr12.gif)
 
 The time the rocketship's tail arrives is
-![\[Graphics:ps2gr13.gif\]](../img/SR/problem_set_2/ps2gr13.gif) in frame S.
+![\[Graphics:ps2gr13.gif\]](../images/SR/problem_set_2/ps2gr13.gif) in frame S.
 
 ##  French: 4-9
 
@@ -77,11 +77,11 @@ A: (a) Given a length and a time, divide one by the other to get the relative
 velocity.
 
 ![\[Graphics:ps2gr14
-.gif\]](../img/SR/problem_set_2/ps2gr14.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr14.gif)
 
     
     
-![\[Graphics:ps2gr15.gif\]](../img/SR/problem_set_2/ps2gr15.gif)
+![\[Graphics:ps2gr15.gif\]](../images/SR/problem_set_2/ps2gr15.gif)
 
 The relative velocity is 2 x 10^7 m/s.
 
@@ -90,11 +90,11 @@ using quaternions is the square root of the first term of the quaternion
 squared.
 
 ![\[Graphics:ps2gr16
-.gif\]](../img/SR/problem_set_2/ps2gr16.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr16.gif)
 
     
     
-![\[Graphics:ps2gr17.gif\]](../img/SR/problem_set_2/ps2gr17.gif)
+![\[Graphics:ps2gr17.gif\]](../images/SR/problem_set_2/ps2gr17.gif)
 
 The clock in rocket B reads one o'clock plus 4.99 microseconds.
 
@@ -118,56 +118,56 @@ as 30'. This interval is equal to the one seen by the Earth, which is
 calculated by squaring the quaternion and solving for t.
 
 ![\[Graphics:ps2gr18
-.gif\]](../img/SR/problem_set_2/ps2gr18.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr18.gif)
 
     
     
-![\[Graphics:ps2gr19.gif\]](../img/SR/problem_set_2/ps2gr19.gif)
+![\[Graphics:ps2gr19.gif\]](../images/SR/problem_set_2/ps2gr19.gif)
 
 The time on the Earth clock is 50 min.
 
 (b) Multiply the time by the speed and get the units right.
 
 ![\[Graphics:ps2gr20
-.gif\]](../img/SR/problem_set_2/ps2gr20.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr20.gif)
 
     
     
-![\[Graphics:ps2gr21.gif\]](../img/SR/problem_set_2/ps2gr21.gif)
+![\[Graphics:ps2gr21.gif\]](../images/SR/problem_set_2/ps2gr21.gif)
 
 The distance is 7.2 x
-![\[Graphics:ps2gr22.gif\]](../img/SR/problem_set_2/ps2gr22.gif) meters.
+![\[Graphics:ps2gr22.gif\]](../images/SR/problem_set_2/ps2gr22.gif) meters.
 
 (c) The time of the rocket emitting the signal, 50', plus its travel time from
 that location, 50' v/c = 40, is 90', or 1:30.
 
 ![\[Graphics:ps2gr23
-.gif\]](../img/SR/problem_set_2/ps2gr23.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr23.gif)
 
     
     
-![\[Graphics:ps2gr24.gif\]](../img/SR/problem_set_2/ps2gr24.gif)
+![\[Graphics:ps2gr24.gif\]](../images/SR/problem_set_2/ps2gr24.gif)
 
 (d) Find the intersection of the world line of the rocket, x/c = v t/c, and
 the world line of the light emitted from the Earth at 90 min,  
 x/c = t - 90'.
 
 ![\[Graphics:ps2gr25
-.gif\]](../img/SR/problem_set_2/ps2gr25.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr25.gif)
 
     
     
-![\[Graphics:ps2gr26.gif\]](../img/SR/problem_set_2/ps2gr26.gif)
+![\[Graphics:ps2gr26.gif\]](../images/SR/problem_set_2/ps2gr26.gif)
 
 The position of the event is 450' v/c = 360'. We need the proper time of this
 interval, which will be the time on the rocket clock.
 
 ![\[Graphics:ps2gr27
-.gif\]](../img/SR/problem_set_2/ps2gr27.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr27.gif)
 
     
     
-![\[Graphics:ps2gr28.gif\]](../img/SR/problem_set_2/ps2gr28.gif)
+![\[Graphics:ps2gr28.gif\]](../images/SR/problem_set_2/ps2gr28.gif)
 
 At 4:30 rocket time, the light from the Earth will be received at the rocket.
 
@@ -176,11 +176,11 @@ A': Now from the rocket frame...
 proper time interval to the Earth's frame.
 
 ![\[Graphics:ps2gr29
-.gif\]](../img/SR/problem_set_2/ps2gr29.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr29.gif)
 
     
     
-![\[Graphics:ps2gr30.gif\]](../img/SR/problem_set_2/ps2gr30.gif)
+![\[Graphics:ps2gr30.gif\]](../images/SR/problem_set_2/ps2gr30.gif)
 
 The time in the Earth frame is 50 min.
 
@@ -188,34 +188,34 @@ The time in the Earth frame is 50 min.
 the above quaternion. Convert 40 min to meters.
 
 ![\[Graphics:ps2gr31
-.gif\]](../img/SR/problem_set_2/ps2gr31.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr31.gif)
 
     
     
-![\[Graphics:ps2gr32.gif\]](../img/SR/problem_set_2/ps2gr32.gif)
+![\[Graphics:ps2gr32.gif\]](../images/SR/problem_set_2/ps2gr32.gif)
 
 The distance is 7.2 x
-![\[Graphics:ps2gr33.gif\]](../img/SR/problem_set_2/ps2gr33.gif) meters.
+![\[Graphics:ps2gr33.gif\]](../images/SR/problem_set_2/ps2gr33.gif) meters.
 
 (c') Find the intersection of the world line of the Earth, x/c = -v t/c, and
 the light emitted at 30', x/c = -t + 30.
 
 ![\[Graphics:ps2gr34
-.gif\]](../img/SR/problem_set_2/ps2gr34.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr34.gif)
 
     
     
-![\[Graphics:ps2gr35.gif\]](../img/SR/problem_set_2/ps2gr35.gif)
+![\[Graphics:ps2gr35.gif\]](../images/SR/problem_set_2/ps2gr35.gif)
 
 The position of this event is 150' v/c = 120'. We need the proper time of this
 interval, which will be the time on the Earth clock.
 
 ![\[Graphics:ps2gr36
-.gif\]](../img/SR/problem_set_2/ps2gr36.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr36.gif)
 
     
     
-![\[Graphics:ps2gr37.gif\]](../img/SR/problem_set_2/ps2gr37.gif)
+![\[Graphics:ps2gr37.gif\]](../images/SR/problem_set_2/ps2gr37.gif)
 
 At 1:30 Earth time, the light will be received from the rocket.
 
@@ -223,11 +223,11 @@ At 1:30 Earth time, the light will be received from the rocket.
 take 120' for the signal to arrive. 150' + 120' = 270' or 4:30.
 
 ![\[Graphics:ps2gr38
-.gif\]](../img/SR/problem_set_2/ps2gr38.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr38.gif)
 
     
     
-![\[Graphics:ps2gr39.gif\]](../img/SR/problem_set_2/ps2gr39.gif)
+![\[Graphics:ps2gr39.gif\]](../images/SR/problem_set_2/ps2gr39.gif)
 
 The same answer again!
 
@@ -243,29 +243,29 @@ A: (a) Boost the plane's tail in the plane's frame to the Earth's frame by a
 speed of -630 m/s.
 
 ![\[Graphics:ps2gr40
-.gif\]](../img/SR/problem_set_2/ps2gr40.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr40.gif)
 
     
     
-![\[Graphics:ps2gr41.gif\]](../img/SR/problem_set_2/ps2gr41.gif)
+![\[Graphics:ps2gr41.gif\]](../images/SR/problem_set_2/ps2gr41.gif)
 
 ![\[Graphics:ps2gr42
-.gif\]](../img/SR/problem_set_2/ps2gr42.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr42.gif)
 
 Calculate the distance traveled by the nose in this amount of time.
 
 ![\[Graphics:ps2gr43
-.gif\]](../img/SR/problem_set_2/ps2gr43.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr43.gif)
 
 Subtract the distance traveled by the nose from the tail. Take the ratio of
 this difference with the rest length.
 
 ![\[Graphics:ps2gr44
-.gif\]](../img/SR/problem_set_2/ps2gr44.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr44.gif)
 
     
     
-![\[Graphics:ps2gr45.gif\]](../img/SR/problem_set_2/ps2gr45.gif)
+![\[Graphics:ps2gr45.gif\]](../images/SR/problem_set_2/ps2gr45.gif)
 
 The ratio of lengths as seen on the Earth is 1 minus this small number.
 
@@ -274,27 +274,27 @@ rest. This is the first term of the difference between a boosted and unboosted
 clock.
 
 ![\[Graphics:ps2gr46
-.gif\]](../img/SR/problem_set_2/ps2gr46.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr46.gif)
 
     
     
-![\[Graphics:ps2gr47.gif\]](../img/SR/problem_set_2/ps2gr47.gif)
+![\[Graphics:ps2gr47.gif\]](../images/SR/problem_set_2/ps2gr47.gif)
 
 Set this equal to 1 microsecond and solve for t.
 
 ![\[Graphics:ps2gr48
-.gif\]](../img/SR/problem_set_2/ps2gr48.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr48.gif)
 
     
     
-![\[Graphics:ps2gr49.gif\]](../img/SR/problem_set_2/ps2gr49.gif)
+![\[Graphics:ps2gr49.gif\]](../images/SR/problem_set_2/ps2gr49.gif)
 
 ![\[Graphics:ps2gr50
-.gif\]](../img/SR/problem_set_2/ps2gr50.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr50.gif)
 
     
     
-![\[Graphics:ps2gr51.gif\]](../img/SR/problem_set_2/ps2gr51.gif)
+![\[Graphics:ps2gr51.gif\]](../images/SR/problem_set_2/ps2gr51.gif)
 
 The plane must travel for 4.53x10^5 s to get out of sync by a microsecond with
 the Earth, or 5.25 days.
@@ -309,20 +309,20 @@ A: (b) Boost the rocketeer up to the BIG speed B=1-e, set the distance to the
 destination d, and solve for e.
 
 ![\[Graphics:ps2gr52
-.gif\]](../img/SR/problem_set_2/ps2gr52.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr52.gif)
 
     
     
-![\[Graphics:ps2gr53.gif\]](../img/SR/problem_set_2/ps2gr53.gif)
+![\[Graphics:ps2gr53.gif\]](../images/SR/problem_set_2/ps2gr53.gif)
 
 Plug in numbers.
 
 ![\[Graphics:ps2gr54
-.gif\]](../img/SR/problem_set_2/ps2gr54.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr54.gif)
 
     
     
-![\[Graphics:ps2gr55.gif\]](../img/SR/problem_set_2/ps2gr55.gif)
+![\[Graphics:ps2gr55.gif\]](../images/SR/problem_set_2/ps2gr55.gif)
 
 The constant speed required to make the trip in 30 years is 1 - 5.7 x 10^-7
 less than c. The answer to (a) is that as a purely mathematical exercise, one
@@ -340,16 +340,16 @@ microseconds. Find the speed of these cosmic ray muons.
 A: Boost the muon from its rest frame to the lab.
 
 ![\[Graphics:ps2gr56
-.gif\]](../img/SR/problem_set_2/ps2gr56.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr56.gif)
 
 Set the time component of the quaternion equal to 16 microseconds.
 
 ![\[Graphics:ps2gr57
-.gif\]](../img/SR/problem_set_2/ps2gr57.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr57.gif)
 
     
     
-![\[Graphics:ps2gr58.gif\]](../img/SR/problem_set_2/ps2gr58.gif)
+![\[Graphics:ps2gr58.gif\]](../images/SR/problem_set_2/ps2gr58.gif)
 
 The muon is travelling 0.9905 c.
 
@@ -363,14 +363,14 @@ A: Boost the proper path of unknown length L by v/c = 0.992, solve for L given
 the lab length L'.
 
 ![\[Graphics:ps2gr59
-.gif\]](../img/SR/problem_set_2/ps2gr59.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr59.gif)
 
     
     
-![\[Graphics:ps2gr60.gif\]](../img/SR/problem_set_2/ps2gr60.gif)
+![\[Graphics:ps2gr60.gif\]](../images/SR/problem_set_2/ps2gr60.gif)
 
 The average lifetime is 4.4 x
-![\[Graphics:ps2gr61.gif\]](../img/SR/problem_set_2/ps2gr61.gif) s.
+![\[Graphics:ps2gr61.gif\]](../images/SR/problem_set_2/ps2gr61.gif) s.
 
 ##  R &amp; H: 2-26 Decay in flight (IV)
 
@@ -385,33 +385,33 @@ tube measured to move in this frame?
 A: (a) Same as above.
 
 ![\[Graphics:ps2gr62
-.gif\]](../img/SR/problem_set_2/ps2gr62.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr62.gif)
 
     
     
-![\[Graphics:ps2gr63.gif\]](../img/SR/problem_set_2/ps2gr63.gif)
+![\[Graphics:ps2gr63.gif\]](../images/SR/problem_set_2/ps2gr63.gif)
 
 The tube looks 180 m long to the moving particles.
 
 (b) The length of the target is equal to one half life, t = L/v.
 
 ![\[Graphics:ps2gr64
-.gif\]](../img/SR/problem_set_2/ps2gr64.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr64.gif)
 
     
     
-![\[Graphics:ps2gr65.gif\]](../img/SR/problem_set_2/ps2gr65.gif)
+![\[Graphics:ps2gr65.gif\]](../images/SR/problem_set_2/ps2gr65.gif)
 
 The half life is 750 nanoseconds.
 
 (c) By symmetry, v = 0.8c. By calculation.
 
 ![\[Graphics:ps2gr66
-.gif\]](../img/SR/problem_set_2/ps2gr66.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr66.gif)
 
     
     
-![\[Graphics:ps2gr67.gif\]](../img/SR/problem_set_2/ps2gr67.gif)
+![\[Graphics:ps2gr67.gif\]](../images/SR/problem_set_2/ps2gr67.gif)
 
 The tube looks like it is moving 0.8c in the rest frame of the particles.
 
@@ -428,11 +428,11 @@ A: (a) For the first observer, the blue flash stays at the origin. The red
 flash is boosted to a new location in spacetime.
 
 ![\[Graphics:ps2gr68
-.gif\]](../img/SR/problem_set_2/ps2gr68.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr68.gif)
 
     
     
-![\[Graphics:ps2gr69.gif\]](../img/SR/problem_set_2/ps2gr69.gif)
+![\[Graphics:ps2gr69.gif\]](../images/SR/problem_set_2/ps2gr69.gif)
 
 There will be 26 microseconds between the flashes.
 
@@ -455,11 +455,11 @@ and x = v t, by taking the square root of the first term of the event
 quaternion squared.
 
 ![\[Graphics:ps2gr70
-.gif\]](../img/SR/problem_set_2/ps2gr70.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr70.gif)
 
     
     
-![\[Graphics:ps2gr71.gif\]](../img/SR/problem_set_2/ps2gr71.gif)
+![\[Graphics:ps2gr71.gif\]](../images/SR/problem_set_2/ps2gr71.gif)
 
 The S' clock will record 4 microseconds when the clock in S reaches 5
 microseconds.
@@ -468,21 +468,21 @@ microseconds.
 lightcone passing through t = 5 microseconds, x = 0 can be solved for t.
 
 ![\[Graphics:ps2gr72
-.gif\]](../img/SR/problem_set_2/ps2gr72.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr72.gif)
 
     
     
-![\[Graphics:ps2gr73.gif\]](../img/SR/problem_set_2/ps2gr73.gif)
+![\[Graphics:ps2gr73.gif\]](../images/SR/problem_set_2/ps2gr73.gif)
 
 The S' clock will read the interval of the quaternion at this intersection.
 Calculate the interval as in part (a).
 
 ![\[Graphics:ps2gr74
-.gif\]](../img/SR/problem_set_2/ps2gr74.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr74.gif)
 
     
     
-![\[Graphics:ps2gr75.gif\]](../img/SR/problem_set_2/ps2gr75.gif)
+![\[Graphics:ps2gr75.gif\]](../images/SR/problem_set_2/ps2gr75.gif)
 
 At 5 microseconds, the observer in frame S will actually see 2.5 microseconds
 on the S' clock.
@@ -500,11 +500,11 @@ A: (a) The proper time of the cat's life is 7 years. Boost it to the Earth's
 frame.
 
 ![\[Graphics:ps2gr76
-.gif\]](../img/SR/problem_set_2/ps2gr76.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr76.gif)
 
     
     
-![\[Graphics:ps2gr77.gif\]](../img/SR/problem_set_2/ps2gr77.gif)
+![\[Graphics:ps2gr77.gif\]](../images/SR/problem_set_2/ps2gr77.gif)
 
 In the Earth's frame, the cat died after traveling a distance equal to 5.25
 years.
@@ -525,16 +525,16 @@ A: Take the lifetime of the particle in its own frame, boost it to the lab's
 frame.
 
 ![\[Graphics:ps2gr78
-.gif\]](../img/SR/problem_set_2/ps2gr78.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr78.gif)
 
 In the lab, x = 12 m. Set them equal, solve for the lifetime.
 
 ![\[Graphics:ps2gr79
-.gif\]](../img/SR/problem_set_2/ps2gr79.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr79.gif)
 
     
     
-![\[Graphics:ps2gr80.gif\]](../img/SR/problem_set_2/ps2gr80.gif)
+![\[Graphics:ps2gr80.gif\]](../images/SR/problem_set_2/ps2gr80.gif)
 
 The lifetime is 5.7 ns.
 
@@ -553,14 +553,14 @@ ground, set the time to t, the distance to vt/c. Square this quaternion, set
 the first term equal to the square of the interval, and solve for t.
 
 ![\[Graphics:ps2gr81
-.gif\]](../img/SR/problem_set_2/ps2gr81.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr81.gif)
 
     
     
-![\[Graphics:ps2gr82.gif\]](../img/SR/problem_set_2/ps2gr82.gif)
+![\[Graphics:ps2gr82.gif\]](../images/SR/problem_set_2/ps2gr82.gif)
 
 The clock will read
-![\[Graphics:ps2gr83.gif\]](../img/SR/problem_set_2/ps2gr83.gif). Note that
+![\[Graphics:ps2gr83.gif\]](../images/SR/problem_set_2/ps2gr83.gif). Note that
 _Mathematica_ has erroneously injected a factor of I into the "solution".
 
 ##  Baranger: Blow up the Earth
@@ -578,21 +578,21 @@ saucer, x/c = 0.8 t, and the light cone from the explosion of the Earth, x/c =
 t + 9 yr.
 
 ![\[Graphics:ps2gr84
-.gif\]](../img/SR/problem_set_2/ps2gr84.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr84.gif)
 
     
     
-![\[Graphics:ps2gr85.gif\]](../img/SR/problem_set_2/ps2gr85.gif)
+![\[Graphics:ps2gr85.gif\]](../images/SR/problem_set_2/ps2gr85.gif)
 
 The saucer has travelled a distance d = v t. Calculate the interval which will
 give the saucer's proper time.
 
 ![\[Graphics:ps2gr86
-.gif\]](../img/SR/problem_set_2/ps2gr86.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr86.gif)
 
     
     
-![\[Graphics:ps2gr87.gif\]](../img/SR/problem_set_2/ps2gr87.gif)
+![\[Graphics:ps2gr87.gif\]](../images/SR/problem_set_2/ps2gr87.gif)
 
 In 27 years time, or 2023, the saucer will note the demise of Earth.
 
@@ -600,11 +600,11 @@ A': Repeat the calculation from the saucer frame. We know the interval is 9
 years.
 
 ![\[Graphics:ps2gr88
-.gif\]](../img/SR/problem_set_2/ps2gr88.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr88.gif)
 
     
     
-![\[Graphics:ps2gr89.gif\]](../img/SR/problem_set_2/ps2gr89.gif)
+![\[Graphics:ps2gr89.gif\]](../images/SR/problem_set_2/ps2gr89.gif)
 
 The position will be x = v t = 12 years, which will take another twelve years
 to return, for a total of 27 years.
@@ -616,15 +616,15 @@ quaternions to characterize events in spacetime. The most basic are a round
 value for c and gamma.
 
 ![\[Graphics:ps2gr90
-.gif\]](../img/SR/problem_set_2/ps2gr90.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr90.gif)
 
 ![\[Graphics:ps2gr91
-.gif\]](../img/SR/problem_set_2/ps2gr91.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr91.gif)
 
 Define a function for quaternions using its matrix representation.
 
 ![\[Graphics:ps2gr92
-.gif\]](../img/SR/problem_set_2/ps2gr92.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr92.gif)
 
 A quaternion L that transforms a quaternion (L q[**x**] = q[**x'**]) identical
 to how the Lorentz transformation acts on 4-vectors  
@@ -633,7 +633,7 @@ notebook "A different al gebra for boosts." For boosts along the x axis with y
 = z = 0, the general function for L is
 
 ![\[Graphics:ps2gr93
-.gif\]](../img/SR/problem_set_2/ps2gr93.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr93.gif)
 
 Most of the problems here involve much simpler cases for L, where t or x is
 zero, or t is equal to x.
@@ -641,28 +641,28 @@ zero, or t is equal to x.
 If t = 0, then
 
 ![\[Graphics:ps2gr94
-.gif\]](../img/SR/problem_set_2/ps2gr94.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr94.gif)
 
     
     
-![\[Graphics:ps2gr95.gif\]](../img/SR/problem_set_2/ps2gr95.gif)
+![\[Graphics:ps2gr95.gif\]](../images/SR/problem_set_2/ps2gr95.gif)
 
 If x = 0, then
 
 ![\[Graphics:ps2gr96
-.gif\]](../img/SR/problem_set_2/ps2gr96.gif)
+.gif\]](../images/SR/problem_set_2/ps2gr96.gif)
 
     
     
-![\[Graphics:ps2gr97.gif\]](../img/SR/problem_set_2/ps2gr97.gif)
+![\[Graphics:ps2gr97.gif\]](../images/SR/problem_set_2/ps2gr97.gif)
 
 If t = x, then
 
-![\[Graphics:ps2gr98.gif\]](../img/SR/problem_set_2/ps2gr98.gif)
+![\[Graphics:ps2gr98.gif\]](../images/SR/problem_set_2/ps2gr98.gif)
 
     
     
-![\[Graphics:ps2gr99.gif\]](../img/SR/problem_set_2/ps2gr99.gif)
+![\[Graphics:ps2gr99.gif\]](../images/SR/problem_set_2/ps2gr99.gif)
 
 Note: this is for blueshifts. Redshifts have a plus instead of the minus.
 

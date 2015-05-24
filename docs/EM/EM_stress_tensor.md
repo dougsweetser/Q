@@ -18,7 +18,7 @@ Lifshitz, the antisymmetric 2-rank field tensor F is used to generate the
 stress tensor T
 
 ![T sup ik = \(- F sup iL F sub L sup k +delta\(i,k\) F sub LM F sup LM\) over
-4pi](../img/EM/EM_stress_tensor/s_gr_1.gif)
+4pi](../images/EM/EM_stress_tensor/s_gr_1.gif)
 
 I have a practical sense of an E field (the stuff that makes my hair stand on
 end) and a B field (the invisible hand directing a compass), but have little
@@ -26,14 +26,14 @@ sense of the field tensor F, a particular combination of the other two.
 Therefore, express the stress tensor T in terms of the E and B fields only:
 
 ![T sup ik =  matrix\(\(W, Sx, Sy, Sz\), \(Sx, mxx, mxy, myz\), \(Sy, myx,
-myy, myz\), \(Sz, mzx, mzy, mzz\)\)](../img/EM/EM_stress_tensor/s_gr_2.gif)
+myy, myz\), \(Sz, mzx, mzy, mzz\)\)](../images/EM/EM_stress_tensor/s_gr_2.gif)
 
-![W = \(E squared +  B squared \) over 8pi](../img/EM/EM_stress_tensor/s_gr_3.gif)
+![W = \(E squared +  B squared \) over 8pi](../images/EM/EM_stress_tensor/s_gr_3.gif)
 
-![Sa = \(E Cross B\) over 4pi](../img/EM/EM_stress_tensor/s_gr_4.gif)
+![Sa = \(E Cross B\) over 4pi](../images/EM/EM_stress_tensor/s_gr_4.gif)
 
 ![mab = \(- Ea Eb - Ba Bb + 0.5 delta\(a,b\)\(E squared +  B squared \)\) over
-4 pi](../img/EM/EM_stress_tensor/s_gr_5.gif)
+4 pi](../images/EM/EM_stress_tensor/s_gr_5.gif)
 
 Together, the energy density(W), Poynting's vector (Sa) and the Maxwell stress
 tensor (m_ab) are all the components of the stress tensor of the
@@ -46,29 +46,29 @@ these terms instead of using the month-long hunt-and-peck technique actually
 used?  Everything is symmetric, so use the symmetric product:
 
 ![even\(q, q prime\) = \(q q prime + q prime q \) over 2= \(t t prime - X dot
-X prime, t X + X t prime\)](../img/EM/EM_stress_tensor/s_gr_6.gif)
+X prime, t X + X t prime\)](../images/EM/EM_stress_tensor/s_gr_6.gif)
 
 The fields E and B are kept separate except for the cross product in the
 Poynting vector.  Individual directions of a field can be selected by using a
 unit vector Ua:
 
 ![{E, Ux} = \(-Ex, 0\)   where Ux = \(0, 1, 0,
-0\)](../img/EM/EM_stress_tensor/s_gr_7.gif)
+0\)](../images/EM/EM_stress_tensor/s_gr_7.gif)
 
 The following double sum generates all the terms of the stress tensor:
 
 ![T sup ik =  Sum of a from x thru z Sum of b from x thru z  of \(\({Ua,Ub}
 over 3 - 1\) times \(\(0,E\) squared + \(0,B\) squared \) over 2
--](../img/EM/EM_stress_tensor/s_gr_8.gif)
+-](../images/EM/EM_stress_tensor/s_gr_8.gif)
 
 ![- even\(E, Ua\) even\(E, Ub\) - even\(B, Ua\) even\(B, Ub\)
--](../img/EM/EM_stress_tensor/s_gr_9.gif)
+-](../images/EM/EM_stress_tensor/s_gr_9.gif)
 
 ![- even\(odd\(E, B\), Ua\) - even\(odd\(E, B\), Ub\)\) over 4pi
-=](../img/EM/EM_stress_tensor/s_gr_10.gif)
+=](../images/EM/EM_stress_tensor/s_gr_10.gif)
 
 ![= \(-Ex Ey - Ex Ez - Ey Ez - Bx By - Bx Bz - By Bz + Ey Bz - Ez By + Ez Bx -
-Ex Bz + Ex By - Ey Bx, 0\) over 2 pi](../img/EM/EM_stress_tensor/s_gr_11.gif)
+Ex Bz + Ex By - Ey Bx, 0\) over 2 pi](../images/EM/EM_stress_tensor/s_gr_11.gif)
 
 The first line generates the energy density W, and part of the +0.5 delta(a,
 b)(E^2 + B^2) term of the Maxwell stress tensor.  The rest of that tensor is
@@ -79,11 +79,11 @@ Does the generator equation have the correct properties?  Switching the order
 of Ua and Ub leaves T unchanged, so it is symmetric.  Check the trace, when Ua
 = Ub
 
-![trace\(T sup ik\) =](../img/EM/EM_stress_tensor/s_gr_12.gif)
+![trace\(T sup ik\) =](../images/EM/EM_stress_tensor/s_gr_12.gif)
 
 ![=Sum over x, y & z of 1 over 4 pi\(\(even\(Ua,Ua\) over 3 - 1\)\(\(0,E\)
 squared + \(0,B\) squared\) over 2 - even\(E, Ua\) squared  - even\(B, Ua\)
-squared \) = 0](../img/EM/EM_stress_tensor/s_gr_13.gif)
+squared \) = 0](../images/EM/EM_stress_tensor/s_gr_13.gif)
 
 The trace equals zero, as it should.
 
@@ -99,10 +99,10 @@ So what does the stress tensor represent?  It looks like every combination of
 the 3-vectors E and B that avoids quadratics (like Ex^2) and over-counting
 cross terms.  I like what I will call the "net" stress quaternion:
 
-![net\(T sup ik\) = ](../img/EM/EM_stress_tensor/s_gr_14.gif)
+![net\(T sup ik\) = ](../images/EM/EM_stress_tensor/s_gr_14.gif)
 
 ![= \(-Ex Ey - Ex Ez - Ey Ez - Bx By - Bx Bz - By Bz + Ey Bz - Ez By + Ez Bx -
-Ex Bz + Ex By - Ey Bx, 0\) over 2 pi](../img/EM/EM_stress_tensor/s_gr_15.gif)
+Ex Bz + Ex By - Ey Bx, 0\) over 2 pi](../images/EM/EM_stress_tensor/s_gr_15.gif)
 
 This has the same properties as an stress tensor.  Since the vector is zero,
 it commutes with any other quaternion (this may be a reason it is so useful).

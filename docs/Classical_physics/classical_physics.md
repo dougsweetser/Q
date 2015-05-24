@@ -1,4 +1,4 @@
-![Classical physics](../img/Index/fma.jpg)
+![Classical physics](../images/Index/fma.jpg)
 # Classical physics
 
 1. [F = m A](force.md)

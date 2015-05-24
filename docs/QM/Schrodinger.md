@@ -7,7 +7,7 @@ complex values.
 
 ![The hamiltonian operator acting on psi = -i h bar phi dot = -h bar squared
 over 2 m  Laplacian psi + the potential V\(0, X\)
-psi](../img/QM/Schrodinger/s_gr_1.gif)
+psi](../images/QM/Schrodinger/s_gr_1.gif)
 
 For the time-independent case, energy is written at the operator -i hbar d/dt,
 and kinetic energy as the square of the momentum operator, i hbar Del, over
@@ -26,19 +26,19 @@ might serve to damp runaway terms.
 momentum with quaternions.
 
 ![\(0, L\) = \(0, R Cross P\) = the odd part of \(0, R\) times \(0,
-P\)](../img/QM/Schrodinger/s_gr_2.gif)
+P\)](../images/QM/Schrodinger/s_gr_2.gif)
 
 What makes this "classical" are the zeroes in the scalars.  Make these into
 complete quaternions by bringing in time to go along with the space 3-vector
 R, and E with the 3-vector P.
 
 ![\(t, R\) times \(E, P\) = \(E t - R dot P, E R + P t + R Cross
-P\)](../img/QM/Schrodinger/s_gr_3.gif)
+P\)](../images/QM/Schrodinger/s_gr_3.gif)
 
 Define a dimensionless quaternion psi that is this product over h bar.
 
 ![psi is defined to be \(t, R\) times \(E, P\) over hbar = \(E t - R dot P, E
-R + P t + R Cross P\) over h bar](../img/QM/Schrodinger/s_gr_4.gif)
+R + P t + R Cross P\) over h bar](../images/QM/Schrodinger/s_gr_4.gif)
 
 The scalar part of psi is also seen in plane wave solutions of quantum
 mechanics.  The complicated 3-vector is a new animal, but notice it is
@@ -50,19 +50,19 @@ Any quaternion can be expressed in polar form:
 
 ![q = the absolute value of q times e to the arc cosine of the scalar over the
 absolute value of q times the 3-vector over its absolute
-value](../img/QM/Schrodinger/s_gr_5.gif)
+value](../images/QM/Schrodinger/s_gr_5.gif)
 
 Express psi in polar form.  To make things simpler, assume that psi is
 normalized, so |psi| = 1.  The 3-vector of psi is quite complicated, so define
 one symbol to capture it:
 
 ![I is defined to be E R + P t + R cross P over the absolute value of the
-numerator](../img/QM/Schrodinger/s_gr_6.gif)
+numerator](../images/QM/Schrodinger/s_gr_6.gif)
 
 Now rewrite psi in polar form with these simplifications:
 
 ![psi = e to the E t - R dot P time I over h
-bar](../img/QM/Schrodinger/s_gr_7.gif)
+bar](../images/QM/Schrodinger/s_gr_7.gif)
 
 This is what I call the quaternion wave function.  Unlike previous work with
 quaternionic quantum mechanics (see S. Adler's book "Quaternionic Quantum
@@ -85,21 +85,21 @@ following assumptions.
 
 1\. Energy and Momentum are conserved.
 
-![d E by d t = 0 and d P by d t = 0](../img/QM/Schrodinger/s_gr_8.gif)
+![d E by d t = 0 and d P by d t = 0](../images/QM/Schrodinger/s_gr_8.gif)
 
 2.  Energy is evenly distributed in space 
 
-![The Gradient of E = 0](../img/QM/Schrodinger/s_gr_9.gif)
+![The Gradient of E = 0](../images/QM/Schrodinger/s_gr_9.gif)
 
 3\. The system is isolated
 
-![The Curl of P = 0](../img/QM/Schrodinger/s_gr_10.gif)
+![The Curl of P = 0](../images/QM/Schrodinger/s_gr_10.gif)
 
 4\. The position 3-vector X is in the same direction as the momentum 3-vector
 P
 
 ![X dot P over the absolute value of the two = 1 which implies d e to the I by
-d t = 0 and the Curl of e to the I = 0](../img/QM/Schrodinger/s_gr_11.gif)
+d t = 0 and the Curl of e to the I = 0](../images/QM/Schrodinger/s_gr_11.gif)
 
 The implications of this last assumption are not obvious but can be computed
 directly by taking the appropriate derivative.  Here is a verbal explanation.
@@ -118,7 +118,7 @@ in information content.  This particular constraint is a reflection of that.
 Now take the time derivative of psi.
 
 ![d psi by dt = E I over h bar times psi over the square root of \(E t - R dot
-P over h bar\) squared](../img/QM/Schrodinger/s_gr_12.gif)
+P over h bar\) squared](../images/QM/Schrodinger/s_gr_12.gif)
 
 The denominator must be at least 1, and can be greater that that.  It can
 serve as a damper, a good thing to tame runaway terms.  Unfortunately, it also
@@ -128,7 +128,7 @@ make one final assumption:
 
 5\. Et - R.P = 0
 
-![E t - R dot P = 0](../img/QM/Schrodinger/s_gr_13.gif)
+![E t - R dot P = 0](../images/QM/Schrodinger/s_gr_13.gif)
 
 There are several important cases when this will be true.  In a vacuum, E and
 P are zero.  If this is used to study photons, then t = |R| and E = |P|.  If
@@ -136,14 +136,14 @@ this number happens to be constant in time, then this equation will apply to
 the wave front.
 
 ![if d E t - R dot P by d t = 0, then E = d R by d t dot P or d R by d t = E
-over P](../img/QM/Schrodinger/s_gr_14.gif)
+over P](../images/QM/Schrodinger/s_gr_14.gif)
 
 Now with these 5 assumptions in hand, energy can be defined with an operator.
 
-![d psi dt = E I over h bar psi](../img/QM/Schrodinger/s_gr_15.gif)
+![d psi dt = E I over h bar psi](../images/QM/Schrodinger/s_gr_15.gif)
 
 ![- I h bar d psi d t = E psi or E = - I h bar d by
-dt](../img/QM/Schrodinger/s_gr_16.gif)
+dt](../images/QM/Schrodinger/s_gr_16.gif)
 
 The equivalence of the energy E and this operator is called the first
 quantization.
@@ -151,20 +151,20 @@ quantization.
 Take the spatial derivative of psi using the under the same assumptions:
 
 ![Del psi = - P I over h bar times psi over the square root of \(E t - R dot P
-over h bar\) squared](../img/QM/Schrodinger/s_gr_17.gif)
+over h bar\) squared](../images/QM/Schrodinger/s_gr_17.gif)
 
 ![I h bar Del acting on psi = P acting on psi or P = I h bar Del
-](../img/QM/Schrodinger/s_gr_18.gif)
+](../images/QM/Schrodinger/s_gr_18.gif)
 
 Square this operator.
 
 ![P squared = m v squared = 2 m times m v squared over 2 = 2 m Kinetic Energy
-= - h bar squared Del squared](../img/QM/Schrodinger/s_gr_19.gif)
+= - h bar squared Del squared](../images/QM/Schrodinger/s_gr_19.gif)
 
 The Hamiltonian equals the kinetic energy plus the potential energy.
 
 ![The Hamiltonian acting on psi = - I hbar d psi by d t = - h bar squared Del
-squared + the potential acting on psi](../img/QM/Schrodinger/s_gr_20.gif)
+squared + the potential acting on psi](../images/QM/Schrodinger/s_gr_20.gif)
 
 Typographically, this looks very similar to the Schr&ouml;dinger equation.  Capital
 I is a normalized 3-vector, and a very complicated one at that if you review

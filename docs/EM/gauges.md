@@ -17,7 +17,7 @@ E and B fields.  The field used in deriving the Maxwell equations had the same
 information written as a quaternion:
 
 ![\(d by dt, - Del\) acting on \(phi, - A \) -\(phi, A\) acted on by \(d by
-dt, Del\) =  \(0, - A dot - Grad phi + Curl A\)](../img/EM/gauges/s_gr_1.gif)
+dt, Del\) =  \(0, - A dot - Grad phi + Curl A\)](../images/EM/gauges/s_gr_1.gif)
 
 What makes this form gauge-invariant, so no matter what the choice of gauge
 (involving dphi/dt and Del.A), the resulting equation is identical?  It is the
@@ -37,9 +37,9 @@ invariant from involves swapping the fields in the following way:
 
 ![\(\(d by dt, - Del\) acting on \(\(phi,A\)+\(phi, -A\)\) - \(\(phi,
 A\)-\(phi, - A\)\) acted on by \(d by dt, Del\)\) over 2
-=](../img/EM/gauges/s_gr_2.gif)
+=](../images/EM/gauges/s_gr_2.gif)
 
-![= \(phi dot+ divA, - A dot - Grad phi + Curl A \)](../img/EM/gauges/s_gr_3.gif)
+![= \(phi dot+ divA, - A dot - Grad phi + Curl A \)](../images/EM/gauges/s_gr_3.gif)
 
 This looks more complicated than it is.  The first term of the generator
 involves the scalar field only, (phi, 0), and the second term involves the
@@ -51,24 +51,24 @@ even though Del.A is zero :-)
 
 ![\(d by dt, - Del\) acting on \(phi, -A\) + \(d by dt, - Del\) acting on
 \(\(phi, A\)-\(phi, -A\)\) over 4 + \(\(phi, -A\)-\(phi, A\)\) acted on by \(d
-by dt, Del\) over 4 =](../img/EM/gauges/s_gr_4.gif)
+by dt, Del\) over 4 =](../images/EM/gauges/s_gr_4.gif)
 
-![= \(phi dot, - A dot - Grad phi + Curl A\)](../img/EM/gauges/s_gr_5.gif)
+![= \(phi dot, - A dot - Grad phi + Curl A\)](../images/EM/gauges/s_gr_5.gif)
 
 The field tensor F in the temporal gauge is quite similar to the Coulomb
 gauge, but some of the signs have changed to target the dphi/dt term.
 
 ![\(d by dt, - Del\) acting on \(phi, -A\) - \(d by dt, - Del\) acting on
 \(\(phi, A\) + \(phi, -A\)\) over 4 - \(\(phi, -A\) + \(phi, A\)\) acted on by
-\(d by dt, Del\) over 4 =](../img/EM/gauges/s_gr_6.gif)
+\(d by dt, Del\) over 4 =](../images/EM/gauges/s_gr_6.gif)
 
-![= \(- divA, - A dot - Grad phi + Curl A\)](../img/EM/gauges/s_gr_7.gif)
+![= \(- divA, - A dot - Grad phi + Curl A\)](../images/EM/gauges/s_gr_7.gif)
 
 What is the simplest expression that all of these generator share?  I call it
 the field tensor F in the light gauge:
 
 ![\(d by dt, - Del\) acting on \(phi, - A\) = \(phi dot- divA, - A dot - Grad
-phi + Curl A\)](../img/EM/gauges/s_gr_8.gif)
+phi + Curl A\)](../images/EM/gauges/s_gr_8.gif)
 
 The light gauge is one sign different from the Lorenz gauge, but its generator
 is a simple as it gets.

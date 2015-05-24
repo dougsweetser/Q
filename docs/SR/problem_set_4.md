@@ -6,7 +6,7 @@ Paradox
 ##  French: 5-9
 
 Q: Three identical radio transmitters A, B, and C each transmitting at the
-frequency ![\[Graphics:ps4gr1.gif\]](../img/SR/problem_set_4/ps4gr1.gif) in its
+frequency ![\[Graphics:ps4gr1.gif\]](../images/SR/problem_set_4/ps4gr1.gif) in its
 own rest frame are moving as shown.  
 &lt;\---A B C-- -&gt;  
 (a) What is the frequency of B's signals as received by C?  
@@ -14,44 +14,44 @@ own rest frame are moving as shown.
 three ways to solve this question. See if you can find two.
 
 A: (a) Let the inverse of the frequency be the time
-![\[Graphics:ps4gr2.gif\]](../img/SR/problem_set_4/ps4gr2.gif). Redshift it!
+![\[Graphics:ps4gr2.gif\]](../images/SR/problem_set_4/ps4gr2.gif). Redshift it!
 
 ![\[Graphics:ps4gr3.
-gif\]](../img/SR/problem_set_4/ps4gr3.gif)
+gif\]](../images/SR/problem_set_4/ps4gr3.gif)
 
     
     
-![\[Graphics:ps4gr5.gif\]](../img/SR/problem_set_4/ps4gr5.gif)
+![\[Graphics:ps4gr5.gif\]](../images/SR/problem_set_4/ps4gr5.gif)
 
 The frequency is the inverse of the time component, or  
-![\[Graphics:ps4gr6.gif\]](../img/SR/problem_set_4/ps4gr6.gif)
+![\[Graphics:ps4gr6.gif\]](../images/SR/problem_set_4/ps4gr6.gif)
 
 (b) We need another redshift of exactly the same size.
 
 ![\[Graphics:ps4gr7.
-gif\]](../img/SR/problem_set_4/ps4gr7.gif)
+gif\]](../images/SR/problem_set_4/ps4gr7.gif)
 
     
     
-![\[Graphics:ps4gr8.gif\]](../img/SR/problem_set_4/ps4gr8.gif)
+![\[Graphics:ps4gr8.gif\]](../images/SR/problem_set_4/ps4gr8.gif)
 
 The frequency it the inverse of the time component, so
-![\[Graphics:ps4gr9.gif\]](../img/SR/problem_set_4/ps4gr9.gif).
+![\[Graphics:ps4gr9.gif\]](../images/SR/problem_set_4/ps4gr9.gif).
 
 (b') Another approach is to boost the initial event with a speed equal to the
 two boosts, which by the addition of velocity formula is shown below.
 
 ![\[Graphics:ps4gr10
-.gif\]](../img/SR/problem_set_4/ps4gr10.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr10.gif)
 
 Redshift with this velocity and try to simplify.
 
 ![\[Graphics:ps4gr11
-.gif\]](../img/SR/problem_set_4/ps4gr11.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr11.gif)
 
     
     
-![\[Graphics:ps4gr12.gif\]](../img/SR/problem_set_4/ps4gr12.gif)
+![\[Graphics:ps4gr12.gif\]](../images/SR/problem_set_4/ps4gr12.gif)
 
 A step away from the previous result.
 
@@ -74,130 +74,130 @@ A: (a) This spacetime graph of the meteorite was constructed in the program
 "Spacetime" by Prof. Edwin F. Taylor.
 
 ![radar
-reflection](../img/SR/problem_set_4/radar.jpg)
+reflection](../images/SR/problem_set_4/radar.jpg)
 
 (b) Chose the frame of the Earth. The world line of the first pulse is  
 q[t, -t, 0,0]. The worldline of the meteorite is q[t, v t/c - d,0,0]. Solve
 for the time when the distances are the same.
 
 ![\[Graphics:ps4gr13
-.gif\]](../img/SR/problem_set_4/ps4gr13.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr13.gif)
 
     
     
-![\[Graphics:ps4gr14.gif\]](../img/SR/problem_set_4/ps4gr14.gif)
+![\[Graphics:ps4gr14.gif\]](../images/SR/problem_set_4/ps4gr14.gif)
 
 The distance traveled is the same, so it arrives back at the Earth at
 
 ![\[Graphics:ps4gr15
-.gif\]](../img/SR/problem_set_4/ps4gr15.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr15.gif)
 
 Find the time at which the second pulse arrives at the meteorite. The only
 change is the departure of the pulse.
 
 ![\[Graphics:ps4gr16
-.gif\]](../img/SR/problem_set_4/ps4gr16.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr16.gif)
 
     
     
-![\[Graphics:ps4gr17.gif\]](../img/SR/problem_set_4/ps4gr17.gif)
+![\[Graphics:ps4gr17.gif\]](../images/SR/problem_set_4/ps4gr17.gif)
 
 Use the time to find pulse 2's position.
 
 ![\[Graphics:ps4gr18
-.gif\]](../img/SR/problem_set_4/ps4gr18.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr18.gif)
 
     
     
-![\[Graphics:ps4gr19.gif\]](../img/SR/problem_set_4/ps4gr19.gif)
+![\[Graphics:ps4gr19.gif\]](../images/SR/problem_set_4/ps4gr19.gif)
 
 Add these together to find the return time.
 
 ![\[Graphics:ps4gr20
-.gif\]](../img/SR/problem_set_4/ps4gr20.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr20.gif)
 
     
     
-![\[Graphics:ps4gr21.gif\]](../img/SR/problem_set_4/ps4gr21.gif)
+![\[Graphics:ps4gr21.gif\]](../images/SR/problem_set_4/ps4gr21.gif)
 
 Examine the interval between the arrival of the two pulses back to the Earth.
 
 ![\[Graphics:ps4gr22
-.gif\]](../img/SR/problem_set_4/ps4gr22.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr22.gif)
 
     
     
-![\[Graphics:ps4gr23.gif\]](../img/SR/problem_set_4/ps4gr23.gif)
+![\[Graphics:ps4gr23.gif\]](../images/SR/problem_set_4/ps4gr23.gif)
 
 The interval between the arrival of the two pulses is shifted by a factor
-![\[Graphics:ps4gr24.gif\]](../img/SR/problem_set_4/ps4gr24.gif).
+![\[Graphics:ps4gr24.gif\]](../images/SR/problem_set_4/ps4gr24.gif).
 
 (c) Choose the rest frame of the meteorite. Boost the emission event to this
 frame.
 
 ![\[Graphics:ps4gr25
-.gif\]](../img/SR/problem_set_4/ps4gr25.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr25.gif)
 
 Add the time after being boosted together with the position needed to travel
 to the meteorite to get the time of pulse 1 at the meteorite.
 
 ![\[Graphics:ps4gr26
-.gif\]](../img/SR/problem_set_4/ps4gr26.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr26.gif)
 
     
     
-![\[Graphics:ps4gr27.gif\]](../img/SR/problem_set_4/ps4gr27.gif)
+![\[Graphics:ps4gr27.gif\]](../images/SR/problem_set_4/ps4gr27.gif)
 
 Repeat this process for pulse 2.
 
 ![\[Graphics:ps4gr28
-.gif\]](../img/SR/problem_set_4/ps4gr28.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr28.gif)
 
 ![\[Graphics:ps4gr29
-.gif\]](../img/SR/problem_set_4/ps4gr29.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr29.gif)
 
     
     
-![\[Graphics:ps4gr30.gif\]](../img/SR/problem_set_4/ps4gr30.gif)
+![\[Graphics:ps4gr30.gif\]](../images/SR/problem_set_4/ps4gr30.gif)
 
 Examine the interval between the arrival of the two pulses at the meteorite.
 
 ![\[Graphics:ps4gr31
-.gif\]](../img/SR/problem_set_4/ps4gr31.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr31.gif)
 
     
     
-![\[Graphics:ps4gr32.gif\]](../img/SR/problem_set_4/ps4gr32.gif)
+![\[Graphics:ps4gr32.gif\]](../images/SR/problem_set_4/ps4gr32.gif)
 
 The interval between the arrival of the two pulses at the meteorite is shifted
-by a factor ![\[Graphics:ps4gr33.gif\]](../img/SR/problem_set_4/ps4gr33.gif).
+by a factor ![\[Graphics:ps4gr33.gif\]](../images/SR/problem_set_4/ps4gr33.gif).
 
 (b') From the reference frame of the meteorite, the pulse of light would be
 blueshifted from the source, and blueshifted to the receiver. Use the result
 from 5-9 (b).
 
 ![\[Graphics:ps4gr34
-.gif\]](../img/SR/problem_set_4/ps4gr34.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr34.gif)
 
     
     
-![\[Graphics:ps4gr35.gif\]](../img/SR/problem_set_4/ps4gr35.gif)
+![\[Graphics:ps4gr35.gif\]](../images/SR/problem_set_4/ps4gr35.gif)
 
 The time interval between pulses is
-![\[Graphics:ps4gr36.gif\]](../img/SR/problem_set_4/ps4gr36.gif).
+![\[Graphics:ps4gr36.gif\]](../images/SR/problem_set_4/ps4gr36.gif).
 
 (c') As stated above, the pulse of light from the source is blueshifted, so
 using a modified answer from 5-9 (a).
 
 ![\[Graphics:ps4gr37
-.gif\]](../img/SR/problem_set_4/ps4gr37.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr37.gif)
 
     
     
-![\[Graphics:ps4gr38.gif\]](../img/SR/problem_set_4/ps4gr38.gif)
+![\[Graphics:ps4gr38.gif\]](../images/SR/problem_set_4/ps4gr38.gif)
 
 The time interval between pulse at the meteorite is
-![\[Graphics:ps4gr39.gif\]](../img/SR/problem_set_4/ps4gr39.gif).
+![\[Graphics:ps4gr39.gif\]](../images/SR/problem_set_4/ps4gr39.gif).
 
 ##  French: 5-11
 
@@ -210,20 +210,20 @@ A: Solve for the velocity which redshifts the wavelength of neon
 (~600 nm) to invisible (~700 nm).
 
 ![\[Graphics:ps4gr40
-.gif\]](../img/SR/problem_set_4/ps4gr40.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr40.gif)
 
     
     
-![\[Graphics:ps4gr41.gif\]](../img/SR/problem_set_4/ps4gr41.gif)
+![\[Graphics:ps4gr41.gif\]](../images/SR/problem_set_4/ps4gr41.gif)
 
 The time required at a constant acceleration is t = v/a.
 
 ![\[Graphics:ps4gr42
-.gif\]](../img/SR/problem_set_4/ps4gr42.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr42.gif)
 
     
     
-![\[Graphics:ps4gr43.gif\]](../img/SR/problem_set_4/ps4gr43.gif)
+![\[Graphics:ps4gr43.gif\]](../images/SR/problem_set_4/ps4gr43.gif)
 
 After 54 days, the neon lights become invisible to the astronaut's eyes.
 
@@ -244,22 +244,22 @@ A: (a) Solve for the velocity that reverses the shifts to the same wavelength
 taillight's blueshifted redshifted light ; )
 
 ![\[Graphics:ps4gr44
-.gif\]](../img/SR/problem_set_4/ps4gr44.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr44.gif)
 
     
     
-![\[Graphics:ps4gr45.gif\]](../img/SR/problem_set_4/ps4gr45.gif)
+![\[Graphics:ps4gr45.gif\]](../images/SR/problem_set_4/ps4gr45.gif)
 
 The spaceships travel at vo/c = 1/11.
 
 (b) Solve for the velocity needed to shift the wavelength from 600 to 500 nm.
 
 ![\[Graphics:ps4gr46
-.gif\]](../img/SR/problem_set_4/ps4gr46.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr46.gif)
 
     
     
-![\[Graphics:ps4gr47.gif\]](../img/SR/problem_set_4/ps4gr47.gif)
+![\[Graphics:ps4gr47.gif\]](../images/SR/problem_set_4/ps4gr47.gif)
 
 The required velocity is v/c = 11/61.
 
@@ -272,11 +272,11 @@ color would it appear to an observer on the Earth?
 A: Redshift the light at 450 nm by 0.20c.
 
 ![\[Graphics:ps4gr48
-.gif\]](../img/SR/problem_set_4/ps4gr48.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr48.gif)
 
     
     
-![\[Graphics:ps4gr49.gif\]](../img/SR/problem_set_4/ps4gr49.gif)
+![\[Graphics:ps4gr49.gif\]](../images/SR/problem_set_4/ps4gr49.gif)
 
 The light appears at 551 nm, yellow.
 
@@ -301,25 +301,25 @@ A: (a) &amp; (b) Red- and blue shift the light at 486 nm +/- the speed of the
 moving hydrogen.
 
 ![\[Graphics:ps4gr50
-.gif\]](../img/SR/problem_set_4/ps4gr50.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr50.gif)
 
     
     
-![\[Graphics:ps4gr51.gif\]](../img/SR/problem_set_4/ps4gr51.gif)
+![\[Graphics:ps4gr51.gif\]](../images/SR/problem_set_4/ps4gr51.gif)
 
 ![\[Graphics:ps4gr52
-.gif\]](../img/SR/problem_set_4/ps4gr52.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr52.gif)
 
     
     
-![\[Graphics:ps4gr53.gif\]](../img/SR/problem_set_4/ps4gr53.gif)
+![\[Graphics:ps4gr53.gif\]](../images/SR/problem_set_4/ps4gr53.gif)
 
 ![\[Graphics:ps4gr54
-.gif\]](../img/SR/problem_set_4/ps4gr54.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr54.gif)
 
     
     
-![\[Graphics:ps4gr55.gif\]](../img/SR/problem_set_4/ps4gr55.gif)
+![\[Graphics:ps4gr55.gif\]](../images/SR/problem_set_4/ps4gr55.gif)
 
 The light is redshifted to 489.4 nm and blueshifted to 482.9 nm.
 
@@ -327,29 +327,29 @@ The light is redshifted to 489.4 nm and blueshifted to 482.9 nm.
 average difference.
 
 ![\[Graphics:ps4gr56
-.gif\]](../img/SR/problem_set_4/ps4gr56.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr56.gif)
 
     
     
-![\[Graphics:ps4gr57.gif\]](../img/SR/problem_set_4/ps4gr57.gif)
+![\[Graphics:ps4gr57.gif\]](../images/SR/problem_set_4/ps4gr57.gif)
 
 ![\[Graphics:ps4gr58
-.gif\]](../img/SR/problem_set_4/ps4gr58.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr58.gif)
 
     
     
-![\[Graphics:ps4gr59.gif\]](../img/SR/problem_set_4/ps4gr59.gif)
+![\[Graphics:ps4gr59.gif\]](../images/SR/problem_set_4/ps4gr59.gif)
 
 According to classical theory, if the observer is fixed, and the source moves,
 there is no second order dependence on beta.
 
 ![\[Graphics:ps4gr60
-.gif\]](../img/SR/problem_set_4/ps4gr60.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr60.gif)
 
 If the source is fixed but the observer moves, then
 
 ![\[Graphics:ps4gr61
-.gif\]](../img/SR/problem_set_4/ps4gr61.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr61.gif)
 
 Special relativity predicts a coefficient of +0.5 for the beta squared term,
 the one measured in the lab.
@@ -363,7 +363,7 @@ pointing cone into which the source emits half of its radiation has a half
 angle given closely, in radian measure, by
 
 ![\[Graphics:ps4gr62
-.gif\]](../img/SR/problem_set_4/ps4gr62.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr62.gif)
 
 (b) What value of the half angle is predicted for the gamma radiation emitted
 by a beam of energetic neutral pions, for which v/c = 0.993? (c) At what speed
@@ -376,49 +376,49 @@ for the derivation of the following boost quaternion, or the notebook on
 "Alternative algebra for boosts":
 
 ![\[Graphics:ps4gr63
-.gif\]](../img/SR/problem_set_4/ps4gr63.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr63.gif)
 
 Boost a spherically symmetric velocity quaternion, normalizing to the
 resulting gamma so the resulting quaternion still characterizes velocities.
 
 ![\[Graphics:ps4gr64
-.gif\]](../img/SR/problem_set_4/ps4gr64.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr64.gif)
 
     
     
-![\[Graphics:ps4gr65.gif\]](../img/SR/problem_set_4/ps4gr65.gif)
+![\[Graphics:ps4gr65.gif\]](../images/SR/problem_set_4/ps4gr65.gif)
 
 Calculate the angle directly from the ratio of speeds.
 
 ![\[Graphics:ps4gr66
-.gif\]](../img/SR/problem_set_4/ps4gr66.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr66.gif)
 
     
     
-![\[Graphics:ps4gr67.gif\]](../img/SR/problem_set_4/ps4gr67.gif)
+![\[Graphics:ps4gr67.gif\]](../images/SR/problem_set_4/ps4gr67.gif)
 
 As beta approaches 1, this angle approaches
-![\[Graphics:ps4gr68.gif\]](../img/SR/problem_set_4/ps4gr68.gif).
+![\[Graphics:ps4gr68.gif\]](../images/SR/problem_set_4/ps4gr68.gif).
 
 (b) Let beta -&gt; 0.993.
 
 ![\[Graphics:ps4gr69
-.gif\]](../img/SR/problem_set_4/ps4gr69.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr69.gif)
 
     
     
-![\[Graphics:ps4gr70.gif\]](../img/SR/problem_set_4/ps4gr70.gif)
+![\[Graphics:ps4gr70.gif\]](../images/SR/problem_set_4/ps4gr70.gif)
 
 The predicted half angle for the gamma rays is 6.79 degrees.
 
 (c) Solve for beta, given the angle.
 
 ![\[Graphics:ps4gr71
-.gif\]](../img/SR/problem_set_4/ps4gr71.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr71.gif)
 
     
     
-![\[Graphics:ps4gr72.gif\]](../img/SR/problem_set_4/ps4gr72.gif)
+![\[Graphics:ps4gr72.gif\]](../images/SR/problem_set_4/ps4gr72.gif)
 
 A light source would have to travel at 0.9962c to concentrate its radiation in
 a forward cone of half angle 5 degrees.
@@ -437,11 +437,11 @@ of 5m + a (a&gt;0). Calculate the square of the interval by squaring the
 quaternion.
 
 ![\[Graphics:ps4gr73
-.gif\]](../img/SR/problem_set_4/ps4gr73.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr73.gif)
 
     
     
-![\[Graphics:ps4gr74.gif\]](../img/SR/problem_set_4/ps4gr74.gif)
+![\[Graphics:ps4gr74.gif\]](../images/SR/problem_set_4/ps4gr74.gif)
 
 The square of the interval a^2 + 10a is always positive, so the interval is
 timelike in the future.
@@ -463,51 +463,51 @@ A: (a) The square of the spacetime interval between events 1 and 2 is the
 first term of difference between the quaternions squared.
 
 ![\[Graphics:ps4gr75
-.gif\]](../img/SR/problem_set_4/ps4gr75.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr75.gif)
 
 ![\[Graphics:ps4gr76
-.gif\]](../img/SR/problem_set_4/ps4gr76.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr76.gif)
 
 ![\[Graphics:ps4gr77
-.gif\]](../img/SR/problem_set_4/ps4gr77.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr77.gif)
 
     
     
-![\[Graphics:ps4gr78.gif\]](../img/SR/problem_set_4/ps4gr78.gif)
+![\[Graphics:ps4gr78.gif\]](../images/SR/problem_set_4/ps4gr78.gif)
 
 The square of the interval between event 1 and 2 is 5.8 x 10^5 m^2.
 
 (b) Boost the quaternions and then square them.
 
 ![\[Graphics:ps4gr79
-.gif\]](../img/SR/problem_set_4/ps4gr79.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr79.gif)
 
 ![\[Graphics:ps4gr80
-.gif\]](../img/SR/problem_set_4/ps4gr80.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr80.gif)
 
 ![\[Graphics:ps4gr81
-.gif\]](../img/SR/problem_set_4/ps4gr81.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr81.gif)
 
     
     
-![\[Graphics:ps4gr82.gif\]](../img/SR/problem_set_4/ps4gr82.gif)
+![\[Graphics:ps4gr82.gif\]](../images/SR/problem_set_4/ps4gr82.gif)
 
 The square of the interval between the boosted events is the same.
 
 (c) Repeat the exercise with a new value for beta.
 
 ![\[Graphics:ps4gr83
-.gif\]](../img/SR/problem_set_4/ps4gr83.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr83.gif)
 
 ![\[Graphics:ps4gr84
-.gif\]](../img/SR/problem_set_4/ps4gr84.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr84.gif)
 
 ![\[Graphics:ps4gr85
-.gif\]](../img/SR/problem_set_4/ps4gr85.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr85.gif)
 
     
     
-![\[Graphics:ps4gr86.gif\]](../img/SR/problem_set_4/ps4gr86.gif)
+![\[Graphics:ps4gr86.gif\]](../images/SR/problem_set_4/ps4gr86.gif)
 
 Again, the square of the interval between the boosted events is the same. The
 first term of the square of a quaternion is identical to the first term of a
@@ -529,17 +529,17 @@ A: (a) The square of the spacetime interval between events 1 and 2 is the
 first term of difference between the quaternions squared.
 
 ![\[Graphics:ps4gr87
-.gif\]](../img/SR/problem_set_4/ps4gr87.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr87.gif)
 
 ![\[Graphics:ps4gr88
-.gif\]](../img/SR/problem_set_4/ps4gr88.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr88.gif)
 
 ![\[Graphics:ps4gr89
-.gif\]](../img/SR/problem_set_4/ps4gr89.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr89.gif)
 
     
     
-![\[Graphics:ps4gr90.gif\]](../img/SR/problem_set_4/ps4gr90.gif)
+![\[Graphics:ps4gr90.gif\]](../images/SR/problem_set_4/ps4gr90.gif)
 
 The square of the interval between event 1 and 2 is -1.9 x 10^5 m^2
 
@@ -547,11 +547,11 @@ The square of the interval between event 1 and 2 is -1.9 x 10^5 m^2
 number.
 
 ![\[Graphics:ps4gr91
-.gif\]](../img/SR/problem_set_4/ps4gr91.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr91.gif)
 
     
     
-![\[Graphics:ps4gr92.gif\]](../img/SR/problem_set_4/ps4gr92.gif)
+![\[Graphics:ps4gr92.gif\]](../images/SR/problem_set_4/ps4gr92.gif)
 
 The proper distance is 436 m.
 
@@ -559,11 +559,11 @@ The proper distance is 436 m.
 each other, and solve for beta.
 
 ![\[Graphics:ps4gr93
-.gif\]](../img/SR/problem_set_4/ps4gr93.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr93.gif)
 
     
     
-![\[Graphics:ps4gr94.gif\]](../img/SR/problem_set_4/ps4gr94.gif)
+![\[Graphics:ps4gr94.gif\]](../images/SR/problem_set_4/ps4gr94.gif)
 
 In frame S', the events will appear simultaneous for v/c = 0.9 in the
 direction of decreasing x.
@@ -594,34 +594,34 @@ To find Ltau, multiply the above equation on the right by the inverse of
 q[t,x,y,z].
 
 ![\[Graphics:ps4gr95
-.gif\]](../img/SR/problem_set_4/ps4gr95.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr95.gif)
 
 ![\[Graphics:ps4gr96
-.gif\]](../img/SR/problem_set_4/ps4gr96.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr96.gif)
 
 ![\[Graphics:ps4gr97
-.gif\]](../img/SR/problem_set_4/ps4gr97.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr97.gif)
 
 ![\[Graphics:ps4gr98
-.gif\]](../img/SR/problem_set_4/ps4gr98.gif)
+.gif\]](../images/SR/problem_set_4/ps4gr98.gif)
 
     
     
-![\[Graphics:ps4gr99.gif\]](../img/SR/problem_set_4/ps4gr99.gif)
+![\[Graphics:ps4gr99.gif\]](../images/SR/problem_set_4/ps4gr99.gif)
 
 Works to within default accuracy.
 
 Now on to the question. Map the given quaternion to its proper time interval.
 
 ![\[Graphics:ps4gr10
-0.gif\]](../img/SR/problem_set_4/ps4gr100.gif)
+0.gif\]](../images/SR/problem_set_4/ps4gr100.gif)
 
 ![\[Graphics:ps4gr10
-1.gif\]](../img/SR/problem_set_4/ps4gr101.gif)
+1.gif\]](../images/SR/problem_set_4/ps4gr101.gif)
 
     
     
-![\[Graphics:ps4gr102.gif\]](../img/SR/problem_set_4/ps4gr102.gif)
+![\[Graphics:ps4gr102.gif\]](../images/SR/problem_set_4/ps4gr102.gif)
 
 The proper time is 2.54 microseconds. This is less than the time of 3
 microseconds observed in this frame.
@@ -629,41 +629,41 @@ microseconds observed in this frame.
 Boost the interval up 0.6c, &amp; repeat the cycle.
 
 ![\[Graphics:ps4gr10
-3.gif\]](../img/SR/problem_set_4/ps4gr103.gif)
+3.gif\]](../images/SR/problem_set_4/ps4gr103.gif)
 
 ![\[Graphics:ps4gr10
-4.gif\]](../img/SR/problem_set_4/ps4gr104.gif)
+4.gif\]](../images/SR/problem_set_4/ps4gr104.gif)
 
     
     
-![\[Graphics:ps4gr105.gif\]](../img/SR/problem_set_4/ps4gr105.gif)
+![\[Graphics:ps4gr105.gif\]](../images/SR/problem_set_4/ps4gr105.gif)
 
 ![\[Graphics:ps4gr10
-7.gif\]](../img/SR/problem_set_4/ps4gr107.gif)
+7.gif\]](../images/SR/problem_set_4/ps4gr107.gif)
 
     
     
-![\[Graphics:ps4gr108.gif\]](../img/SR/problem_set_4/ps4gr108.gif)
+![\[Graphics:ps4gr108.gif\]](../images/SR/problem_set_4/ps4gr108.gif)
 
 The interval 2.53 microseconds is the same, less that 4.95 microseconds
 observed.
 
 ![\[Graphics:ps4gr10
-9.gif\]](../img/SR/problem_set_4/ps4gr109.gif)
+9.gif\]](../images/SR/problem_set_4/ps4gr109.gif)
 
 ![\[Graphics:ps4gr11
-0.gif\]](../img/SR/problem_set_4/ps4gr110.gif)
+0.gif\]](../images/SR/problem_set_4/ps4gr110.gif)
 
     
     
-![\[Graphics:ps4gr111.gif\]](../img/SR/problem_set_4/ps4gr111.gif)
+![\[Graphics:ps4gr111.gif\]](../images/SR/problem_set_4/ps4gr111.gif)
 
 ![\[Graphics:ps4gr11
-2.gif\]](../img/SR/problem_set_4/ps4gr112.gif)
+2.gif\]](../images/SR/problem_set_4/ps4gr112.gif)
 
     
     
-![\[Graphics:ps4gr113.gif\]](../img/SR/problem_set_4/ps4gr113.gif)
+![\[Graphics:ps4gr113.gif\]](../images/SR/problem_set_4/ps4gr113.gif)
 
 The interval is the same, less that 4.74 microseconds observed.
 
@@ -671,11 +671,11 @@ The interval is the same, less that 4.74 microseconds observed.
 each other, and solve for beta.
 
 ![\[Graphics:ps4gr11
-4.gif\]](../img/SR/problem_set_4/ps4gr114.gif)
+4.gif\]](../images/SR/problem_set_4/ps4gr114.gif)
 
     
     
-![\[Graphics:ps4gr115.gif\]](../img/SR/problem_set_4/ps4gr115.gif)
+![\[Graphics:ps4gr115.gif\]](../images/SR/problem_set_4/ps4gr115.gif)
 
 The frame must move a speed 0.53c in the direction of decreasing x.
 
@@ -703,11 +703,11 @@ A: Let the hare run the fraction f of the tortoise's proper time t. Calculate
 the tortoise's squared interval in terms of this fraction.
 
 ![\[Graphics:ps4gr11
-6.gif\]](../img/SR/problem_set_4/ps4gr116.gif)
+6.gif\]](../images/SR/problem_set_4/ps4gr116.gif)
 
     
     
-![\[Graphics:ps4gr117.gif\]](../img/SR/problem_set_4/ps4gr117.gif)
+![\[Graphics:ps4gr117.gif\]](../images/SR/problem_set_4/ps4gr117.gif)
 
 In the tortoise's reference frame, the hare initially travels away from the
 tortoise at the slow Btort speed for time t. Then the hare starts traveling
@@ -715,20 +715,20 @@ toward the tortoise at Bhare speed for a time (1-f) t. Calculate the hare's
 squared interval.
 
 ![\[Graphics:ps4gr11
-8.gif\]](../img/SR/problem_set_4/ps4gr118.gif)
+8.gif\]](../images/SR/problem_set_4/ps4gr118.gif)
 
     
     
-![\[Graphics:ps4gr119.gif\]](../img/SR/problem_set_4/ps4gr119.gif)
+![\[Graphics:ps4gr119.gif\]](../images/SR/problem_set_4/ps4gr119.gif)
 
 Look at the difference.
 
 ![\[Graphics:ps4gr12
-0.gif\]](../img/SR/problem_set_4/ps4gr120.gif)
+0.gif\]](../images/SR/problem_set_4/ps4gr120.gif)
 
     
     
-![\[Graphics:ps4gr121.gif\]](../img/SR/problem_set_4/ps4gr121.gif)
+![\[Graphics:ps4gr121.gif\]](../images/SR/problem_set_4/ps4gr121.gif)
 
 Since this term is always negative, the hare is necessarily younger than the
 tortoise.
@@ -747,20 +747,20 @@ A: Compare the intervals of the two clocks, one that has move, the other that
 has remained.
 
 ![\[Graphics:ps4gr12
-2.gif\]](../img/SR/problem_set_4/ps4gr122.gif)
+2.gif\]](../images/SR/problem_set_4/ps4gr122.gif)
 
     
     
-![\[Graphics:ps4gr123.gif\]](../img/SR/problem_set_4/ps4gr123.gif)
+![\[Graphics:ps4gr123.gif\]](../images/SR/problem_set_4/ps4gr123.gif)
 
 If beta &lt;&lt; 1, calculate the series expansion.
 
 ![\[Graphics:ps4gr12
-4.gif\]](../img/SR/problem_set_4/ps4gr124.gif)
+4.gif\]](../images/SR/problem_set_4/ps4gr124.gif)
 
     
     
-![\[Graphics:ps4gr125.gif\]](../img/SR/problem_set_4/ps4gr125.gif)
+![\[Graphics:ps4gr125.gif\]](../images/SR/problem_set_4/ps4gr125.gif)
 
 The moving clock is t v^2/2 c^2 slower than the one at rest.
 
@@ -785,26 +785,26 @@ LTimeRev q[t, x, y, z] = q[-t, x, y, z]
 Compute LTimeRev by multiplying on the right by the inverse of q[t,x,y,z].
 
 ![\[Graphics:ps4gr12
-6.gif\]](../img/SR/problem_set_4/ps4gr126.gif)
+6.gif\]](../images/SR/problem_set_4/ps4gr126.gif)
 
 ![\[Graphics:ps4gr12
-7.gif\]](../img/SR/problem_set_4/ps4gr127.gif)
+7.gif\]](../images/SR/problem_set_4/ps4gr127.gif)
 
 Aboard the spaceship, or on the Earth, t &gt;&gt;&gt; x, y and z, so the time
 reversal quaternion is approximately
 
 ![\[Graphics:ps4gr12
-8.gif\]](../img/SR/problem_set_4/ps4gr128.gif)
+8.gif\]](../images/SR/problem_set_4/ps4gr128.gif)
 
 Test that this works for someone moving a meter per second in the x direction,
 0.5 m/s in the y.
 
 ![\[Graphics:ps4gr12
-9.gif\]](../img/SR/problem_set_4/ps4gr129.gif)
+9.gif\]](../images/SR/problem_set_4/ps4gr129.gif)
 
     
     
-![\[Graphics:ps4gr130.gif\]](../img/SR/problem_set_4/ps4gr130.gif)
+![\[Graphics:ps4gr130.gif\]](../images/SR/problem_set_4/ps4gr130.gif)
 
 The proposed quaternion does reverse time in the classical regime. Note that
 it is predominantly a scalar, almost q[-1,0,0,0] However, it is not _exactly_
@@ -827,27 +827,27 @@ the trip, and by how much? Show that the twins both agree on this result.
 A: Start out by drawing the signals sent and received from B's frame of
 reference.
 
-![signals sent](../img/SR/problem_set_4/twins.jpg)
+![signals sent](../images/SR/problem_set_4/twins.jpg)
 
 (a) The signals from A out are redshifted and received at B for a time of ...
 
 ![\[Graphics:ps4gr13
-1.gif\]](../img/SR/problem_set_4/ps4gr131.gif)
+1.gif\]](../images/SR/problem_set_4/ps4gr131.gif)
 
     
     
-![\[Graphics:ps4gr132.gif\]](../img/SR/problem_set_4/ps4gr132.gif)
+![\[Graphics:ps4gr132.gif\]](../images/SR/problem_set_4/ps4gr132.gif)
 
 The signals are sent at a rate of 100/year as viewed by the sender. This rate
 is lowered by the redshifting, so the total number of signals is the lower
 rate times the amount of time the signals are received.
 
 ![\[Graphics:ps4gr13
-3.gif\]](../img/SR/problem_set_4/ps4gr133.gif)
+3.gif\]](../images/SR/problem_set_4/ps4gr133.gif)
 
     
     
-![\[Graphics:ps4gr134.gif\]](../img/SR/problem_set_4/ps4gr134.gif)
+![\[Graphics:ps4gr134.gif\]](../images/SR/problem_set_4/ps4gr134.gif)
 
 B receives 533 redshifted signals from A.
 
@@ -855,18 +855,18 @@ B receives 533 redshifted signals from A.
 a time of...
 
 ![\[Graphics:ps4gr13
-5.gif\]](../img/SR/problem_set_4/ps4gr135.gif)
+5.gif\]](../images/SR/problem_set_4/ps4gr135.gif)
 
     
     
-![\[Graphics:ps4gr136.gif\]](../img/SR/problem_set_4/ps4gr136.gif)
+![\[Graphics:ps4gr136.gif\]](../images/SR/problem_set_4/ps4gr136.gif)
 
 ![\[Graphics:ps4gr13
-7.gif\]](../img/SR/problem_set_4/ps4gr137.gif)
+7.gif\]](../images/SR/problem_set_4/ps4gr137.gif)
 
     
     
-![\[Graphics:ps4gr138.gif\]](../img/SR/problem_set_4/ps4gr138.gif)
+![\[Graphics:ps4gr138.gif\]](../images/SR/problem_set_4/ps4gr138.gif)
 
 A receives 266 signals from B during A's trip to Alpha Centauri.
 
@@ -874,36 +874,36 @@ A receives 266 signals from B during A's trip to Alpha Centauri.
 rate with B as a reference frame is constant.
 
 ![\[Graphics:ps4gr13
-9.gif\]](../img/SR/problem_set_4/ps4gr139.gif)
+9.gif\]](../images/SR/problem_set_4/ps4gr139.gif)
 
     
     
-![\[Graphics:ps4gr140.gif\]](../img/SR/problem_set_4/ps4gr140.gif)
+![\[Graphics:ps4gr140.gif\]](../images/SR/problem_set_4/ps4gr140.gif)
 
 A receives a total of 1333 signals from B.
 
 B gets blueshifted signals for a short time. The rate of signals goes way up.
 
 ![\[Graphics:ps4gr14
-1.gif\]](../img/SR/problem_set_4/ps4gr141.gif)
+1.gif\]](../images/SR/problem_set_4/ps4gr141.gif)
 
     
     
-![\[Graphics:ps4gr142.gif\]](../img/SR/problem_set_4/ps4gr142.gif)
-
-![\[Graphics:ps4gr14
-3.gif\]](../img/SR/problem_set_4/ps4gr143.gif)
-
-    
-    
-![\[Graphics:ps4gr144.gif\]](../img/SR/problem_set_4/ps4gr144.gif)
+![\[Graphics:ps4gr142.gif\]](../images/SR/problem_set_4/ps4gr142.gif)
 
 ![\[Graphics:ps4gr14
-5.gif\]](../img/SR/problem_set_4/ps4gr145.gif)
+3.gif\]](../images/SR/problem_set_4/ps4gr143.gif)
 
     
     
-![\[Graphics:ps4gr146.gif\]](../img/SR/problem_set_4/ps4gr146.gif)
+![\[Graphics:ps4gr144.gif\]](../images/SR/problem_set_4/ps4gr144.gif)
+
+![\[Graphics:ps4gr14
+5.gif\]](../images/SR/problem_set_4/ps4gr145.gif)
+
+    
+    
+![\[Graphics:ps4gr146.gif\]](../images/SR/problem_set_4/ps4gr146.gif)
 
 B receives a total of 1066 signals from A.
 
@@ -918,15 +918,15 @@ quaternions to characterize events in spacetime. The most basic are a round
 value for c and gamma.
 
 ![\[Graphics:ps4gr14
-7.gif\]](../img/SR/problem_set_4/ps4gr147.gif)
+7.gif\]](../images/SR/problem_set_4/ps4gr147.gif)
 
 ![\[Graphics:ps4gr14
-8.gif\]](../img/SR/problem_set_4/ps4gr148.gif)
+8.gif\]](../images/SR/problem_set_4/ps4gr148.gif)
 
 Define a function for quaternions using its matrix representation.
 
 ![\[Graphics:ps4gr14
-9.gif\]](../img/SR/problem_set_4/ps4gr149.gif)
+9.gif\]](../images/SR/problem_set_4/ps4gr149.gif)
 
 A quaternion L that transforms a quaternion (L q[**x**] = q[**x'**]) identical
 to how the Lorentz transformation acts on 4- vectors  
@@ -935,7 +935,7 @@ notebook "A different algebra for boosts." For boosts along the x axis with y
 = z = 0, the general function for L is
 
 ![\[Graphics:ps4gr15
-0.gif\]](../img/SR/problem_set_4/ps4gr150.gif)
+0.gif\]](../images/SR/problem_set_4/ps4gr150.gif)
 
 Most of the problems here involve much simpler cases for L, where t or x is
 zero, or t is equal to x.
@@ -943,29 +943,29 @@ zero, or t is equal to x.
 If t = 0, then
 
 ![\[Graphics:ps4gr15
-1.gif\]](../img/SR/problem_set_4/ps4gr151.gif)
+1.gif\]](../images/SR/problem_set_4/ps4gr151.gif)
 
     
     
-![\[Graphics:ps4gr152.gif\]](../img/SR/problem_set_4/ps4gr152.gif)
+![\[Graphics:ps4gr152.gif\]](../images/SR/problem_set_4/ps4gr152.gif)
 
 If x = 0, then
 
 ![\[Graphics:ps4gr15
-3.gif\]](../img/SR/problem_set_4/ps4gr153.gif)
+3.gif\]](../images/SR/problem_set_4/ps4gr153.gif)
 
     
     
-![\[Graphics:ps4gr154.gif\]](../img/SR/problem_set_4/ps4gr154.gif)
+![\[Graphics:ps4gr154.gif\]](../images/SR/problem_set_4/ps4gr154.gif)
 
 If t = x, then
 
 ![\[Graphics:ps4gr15
-5.gif\]](../img/SR/problem_set_4/ps4gr155.gif)
+5.gif\]](../images/SR/problem_set_4/ps4gr155.gif)
 
     
     
-![\[Graphics:ps4gr156.gif\]](../img/SR/problem_set_4/ps4gr156.gif)
+![\[Graphics:ps4gr156.gif\]](../images/SR/problem_set_4/ps4gr156.gif)
 
 Note: this is for blueshifts. Redshifts have a plus instead of the minus.
 

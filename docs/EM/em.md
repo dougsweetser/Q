@@ -1,4 +1,4 @@
-![Curl of B is zero](../img/Index/curl_B.jpg)
+![Curl of B is zero](../images/Index/curl_B.jpg)
 
 # Electromagnetism
 

@@ -25,23 +25,23 @@ conjugate anti-automorphism, the first conjugate anti-automorphism, and the
 second conjugate anti-automorphism:
 
 ![The identity automorphism I maps q into
-q](../img/QM/spin_and_angular_momentum/s_gr_1.gif)
+q](../images/QM/spin_and_angular_momentum/s_gr_1.gif)
 
 ![The conjugate anti-automorphism * maps q into
-q*](../img/QM/spin_and_angular_momentum/s_gr_2.gif)
+q*](../images/QM/spin_and_angular_momentum/s_gr_2.gif)
 
 ![The first conjugate anti-automorphism *1 maps q into
-q*1](../img/QM/spin_and_angular_momentum/s_gr_3.gif)
+q*1](../images/QM/spin_and_angular_momentum/s_gr_3.gif)
 
 ![The second conjugate anti-automorphism *2 maps q into
-q*2](../img/QM/spin_and_angular_momentum/s_gr_4.gif)
+q*2](../images/QM/spin_and_angular_momentum/s_gr_4.gif)
 
 where
 
 ![q*1 is defined to be \(e1 q
-e1\)*](../img/QM/spin_and_angular_momentum/s_gr_5.gif)
+e1\)*](../images/QM/spin_and_angular_momentum/s_gr_5.gif)
 
-![q*2 === \(e2 q e2\)*](../img/QM/spin_and_angular_momentum/s_gr_6.gif)
+![q*2 === \(e2 q e2\)*](../images/QM/spin_and_angular_momentum/s_gr_6.gif)
 
 e1, e2, e3 are orthogonal basis vectors
 
@@ -66,14 +66,14 @@ quaternions.  First, consider rotations about the origin in the z axis.
 Define:
 
 ![Rotation around e3 at zero by theta is defined to be \(cosine theta e0, 0,
-0, sine theta e3 over 3\)](../img/QM/spin_and_angular_momentum/s_gr_7.gif)
+0, sine theta e3 over 3\)](../images/QM/spin_and_angular_momentum/s_gr_7.gif)
 
 ![if q = \(0, a1 e1/3, a2 e2/3,
-0\)](../img/QM/spin_and_angular_momentum/s_gr_8.gif)
+0\)](../images/QM/spin_and_angular_momentum/s_gr_8.gif)
 
 ![Rotation around e3 acting on q = q prime= \(0, \(a1 cosine theta-a2 sine
 theta\) e0 e1 over 3, \(a2 cosine theta+a1 sine theta\) e0 e2 over 3,
-0\)](../img/QM/spin_and_angular_momentum/s_gr_9.gif)
+0\)](../images/QM/spin_and_angular_momentum/s_gr_9.gif)
 
 Two technical points.  First, Sakurai considered rotations around any point
 along the z axis.  This analysis is confined to the z axis at the origin, a
@@ -86,29 +86,29 @@ to do quaternion analysis (please see that section, it's great :-)
 There are similar rotations around the first and second axes at the origin;
 
 ![Rotation around e1 at zero by theta = \(cosine theta e0, sine theta e1 over
-3, 0, 0\)](../img/QM/spin_and_angular_momentum/s_gr_10.gif)
+3, 0, 0\)](../images/QM/spin_and_angular_momentum/s_gr_10.gif)
 
 ![Rotation around e2 at zero by theta = \(cosine theta e0, 0, sine theta e2
-over 3, 0\)](../img/QM/spin_and_angular_momentum/s_gr_11.gif)
+over 3, 0\)](../images/QM/spin_and_angular_momentum/s_gr_11.gif)
 
 Consider an infinitesimal rotation for these three rotation operators.  To
 second order in theta,
 
 ![sine theta = theta + errors of the order of theta cubed, cosine theta = 1 -
 theta squared over 2 + errors of the order of theta
-cubed](../img/QM/spin_and_angular_momentum/s_gr_12.gif)
+cubed](../images/QM/spin_and_angular_momentum/s_gr_12.gif)
 
 ![Rotation around e1 at zero by theta much less than 1 = \(\(1 - theta squared
 over 2\) e0, theta e1 over 3, 0, 0\) + errors of the order of theta
-cubed](../img/QM/spin_and_angular_momentum/s_gr_13.gif)
+cubed](../images/QM/spin_and_angular_momentum/s_gr_13.gif)
 
 ![Rotation around e12at zero by theta much less than 1 = \(\(1 - theta squared
 over 2\) e0, 0, theta e2 over 3, 0\) + errors of the order of theta
-cubed](../img/QM/spin_and_angular_momentum/s_gr_14.gif)
+cubed](../images/QM/spin_and_angular_momentum/s_gr_14.gif)
 
 ![Rotation around e3 at zero by theta much less than  1 = \(\(1 - theta
 squared over 2\) e0, 0, 0, theta e3 over 3\) + errors of the order of theta
-cubed](../img/QM/spin_and_angular_momentum/s_gr_15.gif)
+cubed](../images/QM/spin_and_angular_momentum/s_gr_15.gif)
 
 Calculate the commutator of the first two infinitesimal rotation operators to
 second order in theta:
@@ -116,19 +116,19 @@ second order in theta:
 ![The commutator of a rotation around e1, rotation around e2 = \(\(1 - theta
 squared over 2\) e0, theta e1 over 3, 0, 0\) times \(\(1 - theta squared over
 2\) e0, 0, theta e2 over 3, 0\)
--](../img/QM/spin_and_angular_momentum/s_gr_16.gif)
+-](../images/QM/spin_and_angular_momentum/s_gr_16.gif)
 
 ![- \(\(1 - theta squared over 2\) e0, 0, theta e2 over 3, 0\) times \(\(1 -
 theta squared over 2\) e0,theta e1 over 3, 0, 0\)
-=](../img/QM/spin_and_angular_momentum/s_gr_17.gif)
+=](../images/QM/spin_and_angular_momentum/s_gr_17.gif)
 
 ![= \(\(1 - theta squared\) e0 squared, theta e0 e1 over 3, theta e0 e2 over
 3, theta squared e1 e2 over 9\) - \(\(1 - theta squared\) e0 squared, theta e0
 e1 over 3, theta e0 e2 over 3, - theta squared e1 e2 over 9\)
-](../img/QM/spin_and_angular_momentum/s_gr_18.gif)
+](../images/QM/spin_and_angular_momentum/s_gr_18.gif)
 
 ![= 2 \(0, 0, 0, theta squared e1 e2 over 9\) = 2 \(Re3=0 \(theta squared\) -
-R\(0\)\)](../img/QM/spin_and_angular_momentum/s_gr_19.gif)
+R\(0\)\)](../images/QM/spin_and_angular_momentum/s_gr_19.gif)
 
 To second order, the commutator of infinitesimal rotations of rotations about
 the first two axes equals twice one rotation about the third axis given the
@@ -139,19 +139,19 @@ involutions for the small rotation operators.
 ![The commutator of a rotation around e1 conjugated, a rotation around e2
 conjugated = \(\(1-theta squared over 2\) e0, - theta e1 over 3, 0, 0\) times
 \(\(1 - theta squared over 2\) e0, 0, - theta e2 over 3, 0\)
--](../img/QM/spin_and_angular_momentum/s_gr_20.gif)
+-](../images/QM/spin_and_angular_momentum/s_gr_20.gif)
 
 ![ - \(\(1 - theta squared over 2\) e0, 0, - theta e2 over 3, 0\) times \(\(1
 - theta squared over 2\) e0, - theta e1 over 3, 0, 0\)
-=](../img/QM/spin_and_angular_momentum/s_gr_21.gif)
+=](../images/QM/spin_and_angular_momentum/s_gr_21.gif)
 
 ![= \(\(1 - theta squared\) e0 squared, - theta e0 e1 over 3, - theta e0 e2
 over 3, theta squared e1 e2 over 9\) - \(\(1 - theta squared\) e0 squared, -
 theta e0 e1 over 3, - theta e0 e2 over 3, - theta squared e1 e2 over 9\)
-=](../img/QM/spin_and_angular_momentum/s_gr_22.gif)
+=](../images/QM/spin_and_angular_momentum/s_gr_22.gif)
 
 ![= 2 \(0, 0, 0, theta squared e1 e2 over 9\) = 2 \(Re3=0 \(theta squared\) -
-R\(0\)\)](../img/QM/spin_and_angular_momentum/s_gr_23.gif)
+R\(0\)\)](../images/QM/spin_and_angular_momentum/s_gr_23.gif)
 
 Nothing has changed.  Repeat this exercise one last time for the first
 conjugate:
@@ -159,19 +159,19 @@ conjugate:
 ![The commutator of a rotation around e1 first conjugated, a rotation around
 e2 first conjugated = \(-\(1 - theta squared over 2\) e0, theta e1 over 3, 0,
 0\) times \(-\(1 - theta squared over 2\) e0, 0, - theta e2 over 3, 0\)
--](../img/QM/spin_and_angular_momentum/s_gr_24.gif)
+-](../images/QM/spin_and_angular_momentum/s_gr_24.gif)
 
 ![- \(-\(1 - theta squared over 2\) e0, 0, - theta e2 over 3, 0\) times \(-\(1
 - theta squared over 2\) e0, theta e1 over 3, 0, 0\)
-=](../img/QM/spin_and_angular_momentum/s_gr_25.gif)
+=](../images/QM/spin_and_angular_momentum/s_gr_25.gif)
 
 ![= \(\(1 - theta squared\) e0 squared, - theta e0 e1 over 3, - theta e0 e2
 over 3, theta squared e1 e2 over 9\) - \(\(1 - theta squared\) e0 squared, -
 theta e1 over 3, - theta e2 over 3, - theta squared e1 e2 over 9\)
-=](../img/QM/spin_and_angular_momentum/s_gr_26.gif)
+=](../images/QM/spin_and_angular_momentum/s_gr_26.gif)
 
 ![= 2 \(0, 0, 0, theta squared e1 e2 over 9\) = 2 \(Re3=0 \(theta squared\) -
-R\(0\)\)](../img/QM/spin_and_angular_momentum/s_gr_27.gif)
+R\(0\)\)](../images/QM/spin_and_angular_momentum/s_gr_27.gif)
 
 This points exactly the opposite way,even for an infinitesimal angle!
 
@@ -191,7 +191,7 @@ work?  Here it is:
 conjugated = the first conjugate of the commutator of q first conjugated, q
 prime first conjugated = the second conjugate of the commutator of q second
 conjugated, q prime second
-conjugated](../img/QM/spin_and_angular_momentum/s_gr_28.gif)
+conjugated](../images/QM/spin_and_angular_momentum/s_gr_28.gif)
 
 It is usually a good sign if a proposal gets more subtle by generalization :-)
 In this case, the negative sign seen on the z axis for the first conjugate
@@ -206,27 +206,27 @@ any additional conjugator).  In that case:
 
 ![The commutator of q conjugate, q prime = - the commutator of q prime, q =
 the commutator of q conjugated, q prime conjugated = - the commutator of q
-prime conjugated, q conjugated =](../img/QM/spin_and_angular_momentum/s_gr_29.gif)
+prime conjugated, q conjugated =](../images/QM/spin_and_angular_momentum/s_gr_29.gif)
 
 ![= \(0, a2 a3 e2 e3 over 9 + a3 a2 e3 e2 over 9, a3 a1 e3 e1 over 9 + a1 a3
 e1 e3 over 9, a1 a2 e1 e2 over 9 + a2 a1 e2 e1 over
-9\)](../img/QM/spin_and_angular_momentum/s_gr_30.gif)
+9\)](../images/QM/spin_and_angular_momentum/s_gr_30.gif)
 
 ![The commutator of q first conjugated, q prime first conjugated = - the
 commutator of q prime first conjugated, q first conjugated
-=](../img/QM/spin_and_angular_momentum/s_gr_31.gif)
+=](../images/QM/spin_and_angular_momentum/s_gr_31.gif)
 
 ![= \(0, a2 a3 e2 e3 over 9 + a3 a2 e3 e2 over 9, - a3 a1 e3 e1 over 9 - a1 a3
 e1 e3 over 9, - a1 a2 e1 e2 over 9 - a2 a1 e2 e1 over
-9\)](../img/QM/spin_and_angular_momentum/s_gr_32.gif)
+9\)](../images/QM/spin_and_angular_momentum/s_gr_32.gif)
 
 ![The commutator of q first conjugated, q prime first conjugated = - the
 commutator of q prime first conjugated, q first conjugated
-=](../img/QM/spin_and_angular_momentum/s_gr_33.gif)
+=](../images/QM/spin_and_angular_momentum/s_gr_33.gif)
 
 ![= \(0, a2 a3 e2 e3 over 9 + a3 a2 e3 e2 over 9, - a3 a1 e3 e1 over 9 - a1 a3
 e1 e3 over 9, - a1 a2 e1 e2 over 9 - a2 a1 e2 e1 over
-9\)](../img/QM/spin_and_angular_momentum/s_gr_34.gif)
+9\)](../images/QM/spin_and_angular_momentum/s_gr_34.gif)
 
 Under an exchange, the identity and conjugate commutators form a distinct
 group from the commutators formed with the first and second conjugates.  The
@@ -240,7 +240,7 @@ There are also corresponding identities for the anti-commutator:
 q conjugated, q prime conjugated = - the first conjugate of the anti-
 commutator of q first conjugated, q prime first conjugated = - the anti-
 commutator of q second conjugated, q prime second
-conjugated](../img/QM/spin_and_angular_momentum/s_gr_35.gif)
+conjugated](../images/QM/spin_and_angular_momentum/s_gr_35.gif)
 
 At this point, I don't know how to use them, but again, the identity and first
 conjugates appear to behave differently that the first and second conjugates.

@@ -1,4 +1,4 @@
-![The norm of a wave function](../img/Index/phi2.jpg)
+![The norm of a wave function](../images/Index/phi2.jpg)
 
 # Quantum mechanics
 

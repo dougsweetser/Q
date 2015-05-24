@@ -44,12 +44,12 @@ see what the standard model of particle physics looks like.
 This is the symmetry of +/-R, one number.  What was  
 up/down | What is | What can be  
 ---|---|---  
-![](../img/QM/standard_model_symmetries/s0_002.png) |
-![](../img/QM/standard_model_symmetries/s0.gif) |
-![](../img/QM/standard_model_symmetries/s0_003.png)  
-![](../img/QM/standard_model_symmetries/s0_004.png) |
-![](../img/QM/standard_model_symmetries/s0.png) |
-![](../img/QM/standard_model_symmetries/s0_002.gif)  
+![](../images/QM/standard_model_symmetries/s0_002.png) |
+![](../images/QM/standard_model_symmetries/s0.gif) |
+![](../images/QM/standard_model_symmetries/s0_003.png)  
+![](../images/QM/standard_model_symmetries/s0_004.png) |
+![](../images/QM/standard_model_symmetries/s0.png) |
+![](../images/QM/standard_model_symmetries/s0_002.gif)  
 What was  
 near/far | What was  
 left/right | What can be  
@@ -64,12 +64,12 @@ Now we let the sum of squares of 2 numbers equal 1. This creates a circle.
 What was  
 up/down | What is | What can be  
 ---|---|---  
-![](../img/QM/standard_model_symmetries/s1.png) |
-![](../img/QM/standard_model_symmetries/s1.gif) |
-![](../img/QM/standard_model_symmetries/s1_004.png)  
-![](../img/QM/standard_model_symmetries/s1_003.png) |
-![](../img/QM/standard_model_symmetries/s1_002.png) |
-![](../img/QM/standard_model_symmetries/s1_002.gif)  
+![](../images/QM/standard_model_symmetries/s1.png) |
+![](../images/QM/standard_model_symmetries/s1.gif) |
+![](../images/QM/standard_model_symmetries/s1_004.png)  
+![](../images/QM/standard_model_symmetries/s1_003.png) |
+![](../images/QM/standard_model_symmetries/s1_002.png) |
+![](../images/QM/standard_model_symmetries/s1_002.gif)  
 What was  
 near/far | What was  
 left/right | What can be  
@@ -84,12 +84,12 @@ approach to representing S2 is to set t=0. You get the standard sphere, but
 only at the instant of t=0. Blink!  What was  
 up/down | What is | What can be  
 ---|---|---  
-![](../img/QM/standard_model_symmetries/s2tis0_003.png) |
-![](../img/QM/standard_model_symmetries/s2tis0.gif) |
-![](../img/QM/standard_model_symmetries/s2tis0_004.png)  
-![](../img/QM/standard_model_symmetries/s2tis0_002.png) |
-![](../img/QM/standard_model_symmetries/s2tis0.png) |
-![](../img/QM/standard_model_symmetries/s2tis0_002.gif)  
+![](../images/QM/standard_model_symmetries/s2tis0_003.png) |
+![](../images/QM/standard_model_symmetries/s2tis0.gif) |
+![](../images/QM/standard_model_symmetries/s2tis0_004.png)  
+![](../images/QM/standard_model_symmetries/s2tis0_002.png) |
+![](../images/QM/standard_model_symmetries/s2tis0.png) |
+![](../images/QM/standard_model_symmetries/s2tis0_002.gif)  
 What was  
 near/far | What was  
 left/right | What can be  
@@ -103,12 +103,12 @@ expanding circle.
 What was  
 up/down | What is | What can be  
 ---|---|---  
-![](../img/QM/standard_model_symmetries/s2xis0_003.png) |
-![](../img/QM/standard_model_symmetries/s2xis0.gif) |
-![](../img/QM/standard_model_symmetries/s2xis0_002.png)  
-![](../img/QM/standard_model_symmetries/s2xis0_004.png) |
-![](../img/QM/standard_model_symmetries/s2xis0.png) |
-![](../img/QM/standard_model_symmetries/s2xis0_002.gif)  
+![](../images/QM/standard_model_symmetries/s2xis0_003.png) |
+![](../images/QM/standard_model_symmetries/s2xis0.gif) |
+![](../images/QM/standard_model_symmetries/s2xis0_002.png)  
+![](../images/QM/standard_model_symmetries/s2xis0_004.png) |
+![](../images/QM/standard_model_symmetries/s2xis0.png) |
+![](../images/QM/standard_model_symmetries/s2xis0_002.gif)  
 What was  
 near/far | What was  
 left/right | What can be  
@@ -121,12 +121,12 @@ If z=0, at least you can see the "circleness"
 What was  
 up/down | What is | What can be  
 ---|---|---  
-![](../img/QM/standard_model_symmetries/s2zis0_002.png) |
-![](../img/QM/standard_model_symmetries/s2zis0_002.gif) |
-![](../img/QM/standard_model_symmetries/s2zis0_003.png)  
-![](../img/QM/standard_model_symmetries/s2zis0_004.png) |
-![](../img/QM/standard_model_symmetries/s2zis0.png) |
-![](../img/QM/standard_model_symmetries/s2zis0.gif)  
+![](../images/QM/standard_model_symmetries/s2zis0_002.png) |
+![](../images/QM/standard_model_symmetries/s2zis0_002.gif) |
+![](../images/QM/standard_model_symmetries/s2zis0_003.png)  
+![](../images/QM/standard_model_symmetries/s2zis0_004.png) |
+![](../images/QM/standard_model_symmetries/s2zis0.png) |
+![](../images/QM/standard_model_symmetries/s2zis0.gif)  
 What was  
 near/far | What was  
 left/right | What can be  
@@ -139,12 +139,12 @@ it is the straight line.
 Now use all 4 terms, and fill in the sphere in both time and space!  What was  
 up/down | What is | What can be  
 ---|---|---  
-![](../img/QM/standard_model_symmetries/s3_003.png) |
-![](../img/QM/standard_model_symmetries/s3_002.gif) |
-![](../img/QM/standard_model_symmetries/s3.png)  
-![](../img/QM/standard_model_symmetries/s3_002.png) |
-![](../img/QM/standard_model_symmetries/s3_004.png) |
-![](../img/QM/standard_model_symmetries/s3.gif)  
+![](../images/QM/standard_model_symmetries/s3_003.png) |
+![](../images/QM/standard_model_symmetries/s3_002.gif) |
+![](../images/QM/standard_model_symmetries/s3.png)  
+![](../images/QM/standard_model_symmetries/s3_002.png) |
+![](../images/QM/standard_model_symmetries/s3_004.png) |
+![](../images/QM/standard_model_symmetries/s3.gif)  
 What was  
 near/far | What was  
 left/right | What can be  
@@ -157,17 +157,17 @@ spacetime. The next graph, generated by putting random quaternions into the
 expression exp(q-q*), fills up spacetime.  What was  
 up/down | What is | What can be  
 ---|---|---  
-![](../img/QM/standard_model_symmetries/su2_004.png) |
-![](../img/QM/standard_model_symmetries/su2_002.gif) |
-![](../img/QM/standard_model_symmetries/su2_002.png)  
-![](../img/QM/standard_model_symmetries/su2.png) |
-![](../img/QM/standard_model_symmetries/su2_003.png) |
-![](../img/QM/standard_model_symmetries/su2.gif)  
+![](../images/QM/standard_model_symmetries/su2_004.png) |
+![](../images/QM/standard_model_symmetries/su2_002.gif) |
+![](../images/QM/standard_model_symmetries/su2_002.png)  
+![](../images/QM/standard_model_symmetries/su2.png) |
+![](../images/QM/standard_model_symmetries/su2_003.png) |
+![](../images/QM/standard_model_symmetries/su2.gif)  
 What was  
 near/far | What was  
 left/right | What can be  
 that is  
-![SU\(2\) algebra](../img/QM/standard_model_symmetries/su2_representation.png)  
+![SU\(2\) algebra](../images/QM/standard_model_symmetries/su2_representation.png)  
 Although more of spacetime appears filled, only places were time is greater
 than zero have a chance to have an event.
 
@@ -178,18 +178,18 @@ There is no way to fill up all of spacetime with just SU(2). Now fill
 spacetime in by multiplying by itself, or q/|q| exp(q-q*)  What was  
 up/down | What is | What can be  
 ---|---|---  
-![](../img/QM/standard_model_symmetries/u1xsu2_003.png) |
-![](../img/QM/standard_model_symmetries/u1xsu2.gif) |
-![](../img/QM/standard_model_symmetries/u1xsu2_004.png)  
-![](../img/QM/standard_model_symmetries/u1xsu2_002.png) |
-![](../img/QM/standard_model_symmetries/u1xsu2.png) |
-![](../img/QM/standard_model_symmetries/u1xsu2_002.gif)  
+![](../images/QM/standard_model_symmetries/u1xsu2_003.png) |
+![](../images/QM/standard_model_symmetries/u1xsu2.gif) |
+![](../images/QM/standard_model_symmetries/u1xsu2_004.png)  
+![](../images/QM/standard_model_symmetries/u1xsu2_002.png) |
+![](../images/QM/standard_model_symmetries/u1xsu2.png) |
+![](../images/QM/standard_model_symmetries/u1xsu2_002.gif)  
 What was  
 near/far | What was  
 left/right | What can be  
 that is  
 ![electroweak
-algebra](../img/QM/standard_model_symmetries/u1xsu2_representation.png)  
+algebra](../images/QM/standard_model_symmetries/u1xsu2_representation.png)  
 Most of the points cluster on the negative side of the time line.
 
 ## U(1)xSU(2)xSU(3) - The Standard Model
@@ -203,18 +203,18 @@ q', we can write them as q* q' as U(1)xSU(2): (q/|q| exp(q-q*))* (q'/|q'|
 exp(q'-q'*)). Here is its animation:  What was  
 up/down | What is | What can be  
 ---|---|---  
-![](../img/QM/standard_model_symmetries/u1xsu2xsu3_003.png) |
-![](../img/QM/standard_model_symmetries/u1xsu2xsu3_002.gif) |
-![](../img/QM/standard_model_symmetries/u1xsu2xsu3_004.png)  
-![](../img/QM/standard_model_symmetries/u1xsu2xsu3.png) |
-![](../img/QM/standard_model_symmetries/u1xsu2xsu3_002.png) |
-![](../img/QM/standard_model_symmetries/u1xsu2xsu3.gif)  
+![](../images/QM/standard_model_symmetries/u1xsu2xsu3_003.png) |
+![](../images/QM/standard_model_symmetries/u1xsu2xsu3_002.gif) |
+![](../images/QM/standard_model_symmetries/u1xsu2xsu3_004.png)  
+![](../images/QM/standard_model_symmetries/u1xsu2xsu3.png) |
+![](../images/QM/standard_model_symmetries/u1xsu2xsu3_002.png) |
+![](../images/QM/standard_model_symmetries/u1xsu2xsu3.gif)  
 What was  
 near/far | What was  
 left/right | What can be  
 that is  
 ![The standard model
-algebra](../img/QM/standard_model_symmetries/u1xsu2xsu3_representation.png)  
+algebra](../images/QM/standard_model_symmetries/u1xsu2xsu3_representation.png)  
 Notice how all of spacetime is filled evenly with events. A product of two
 quaternions that uses a conjugate different from a standard product because
 multiplication is no longer associative ((a b)*c does not equal a* (b c)). The
@@ -230,7 +230,7 @@ change as one moves around a differentiable 4D manifold. Include the metric as
 part of the calculation of a quaternion product.
 
 ![algebra for gravity and the standard
-model](../img/QM/standard_model_symmetries/diffmxu1xsu2xsu3_representation.png)  
+model](../images/QM/standard_model_symmetries/diffmxu1xsu2xsu3_representation.png)  
 The group Diff(M) is all diffeomorphisms of a compact smooth manifold. It is
 at the heart of general relativity. One can imagine this spacetime filling
 sphere on any compact smooth manifold.
@@ -240,12 +240,12 @@ What happens if q=q'? That is shown below:
 What was  
 up/down | What is | What can be  
 ---|---|---  
-![](../img/QM/standard_model_symmetries/u1xsu2xsu3self_002.png) |
-![](../img/QM/standard_model_symmetries/u1xsu2xsu3self_002.gif) |
-![](../img/QM/standard_model_symmetries/u1xsu2xsu3self_003.png)  
-![](../img/QM/standard_model_symmetries/u1xsu2xsu3self.png) |
-![](../img/QM/standard_model_symmetries/u1xsu2xsu3self_004.png) |
-![](../img/QM/standard_model_symmetries/u1xsu2xsu3self.gif)  
+![](../images/QM/standard_model_symmetries/u1xsu2xsu3self_002.png) |
+![](../images/QM/standard_model_symmetries/u1xsu2xsu3self_002.gif) |
+![](../images/QM/standard_model_symmetries/u1xsu2xsu3self_003.png)  
+![](../images/QM/standard_model_symmetries/u1xsu2xsu3self.png) |
+![](../images/QM/standard_model_symmetries/u1xsu2xsu3self_004.png) |
+![](../images/QM/standard_model_symmetries/u1xsu2xsu3self.gif)  
 What was  
 near/far | What was  
 left/right | What can be  

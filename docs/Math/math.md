@@ -1,4 +1,4 @@
-![A quaternion](../img/Index/txyz.jpg)
+![A quaternion](../images/Index/txyz.jpg)
 
 # Quaternion math
 

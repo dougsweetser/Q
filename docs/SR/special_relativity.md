@@ -1,4 +1,4 @@
-![E equals gamma m c squared](../img/Index/egmc2.jpg)
+![E equals gamma m c squared](../images/Index/egmc2.jpg)
 
 # Special relativity using real-valued quaternions only
 
