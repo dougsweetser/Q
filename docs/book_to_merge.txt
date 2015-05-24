@@ -13,11 +13,6 @@ Classical_physics/sho.md
 Classical_physics/conservative_force.md
 SR/problem_sets.md
 SR/problem_set_1.md
-SR/problem_set_2.md
-SR/problem_set_3.md
-SR/problem_set_4.md
-SR/problem_set_5.md
-SR/problem_set_6.md
 Gravity/Measurement-101/measure.book.md
 Gravity/Measurement-101/special_relativity.book.md
 Gravity/Measurement-101/quaternion_gravity.book.md
