@@ -8,11 +8,10 @@ In quantum mechanics:
 
 ![the norm of phi squared  = <phi | phi>](../images/QM/bracket_notation/s_gr_1.gif)
 
-In this notebook, the following assertion will be examined (* is the
+In this notebook, the following assertion will be examined (star is the
 conjugate, so the vector flips signs):
 
-![the norm of \(t, X\) squared  = \(t, X\) conjugated times \(t, X\) times
-\(t, X\) conjugated times \(t, X\)](../images/QM/bracket_notation/s_gr_2.gif)
+![the norm of \(t, X\) squared  = \(t, X\) conjugated times \(t, X\) times \(t, X\) conjugated times \(t, X\)](../images/QM/bracket_notation/s_gr_2.gif)
 
 The inner-product of two quaternions is defined here as the transpose (or
 conjugate) of the first quaternion multiplied by the second.  The inner

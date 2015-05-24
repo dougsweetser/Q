@@ -353,6 +353,8 @@ another context.  Instead, consider an arbitrary transformation T  which takes
 q into q'
 
 ![](images/Math/scalars_vectors/s_gr_9.gif)
+
+
 T is also a quaternion, in fact it is equal to q' q^-1.  This is guaranteed to
 work locally, within neighborhoods of q and q'.  There is no promise that it
 will work globally, that one T will work for any q.  Under certain
@@ -847,9 +849,9 @@ labels are not used  in general since context usually determines which one is
 in play.
 
 An important component to standard approaches to general relativity is product
-spaces.  This is how a topology for R^n is created.  Events in spacetime
+spaces.  This is how a topology for R^n^ is created.  Events in spacetime
 require R^4, one place for time, three for space.  Mathematicians get to make
-choices: what would change if work was done in R^2, R^3, or R^5?  The
+choices: what would change if work was done in R^2^, R^3^, or R^5^?  The
 precision of this notion, together with the freedom to make choices, makes
 exploring these decisions fun (for those few who can understand what is going
 on :-)
@@ -1032,17 +1034,17 @@ bound and its absolute value attains a maximum and minimum values.
 
 [end translation of Wald]
 
-##  R^1 versus R^n
+##  R^1^ versus R^n^
 
 It is important to note that these theorems for quaternions are build directly
-on top of theorems for real numbers, R^1.  Only the domain needs to be changed
-to H^1.  Wald continues with theorems on product spaces, specifically
+on top of theorems for real numbers, R^1^.  Only the domain needs to be changed
+to H^1^.  Wald continues with theorems on product spaces, specifically
 Tychonoff's Theorem, so that the above theorems can be extended to R^n.  In
 particular, the product space R^4 should have the same topology as the
 quaternions.
 
 Hopefully, subtlety matters in the discussion of the logical foundations of
-general relativity.  Both R^1 and H^1 have a rule for multiplication, but H^1
+general relativity.  Both R^1^ and H^1^ have a rule for multiplication, but H^1
 has an antisymmetric component.  This is a description of a difference.  R^4
 does not come equipped with a rule for multiplication, so it is qualitatively
 different, even if topologically similar to the quaternions.
@@ -1052,8 +1054,8 @@ different, even if topologically similar to the quaternions.
 
 Adapted from a figure by Max Tegmark, 1998.
 
-![](../pdfs/math_structure.pdf)
-#  A Quaternion Algebra Tool Set
+![](pdfs/math_structure.pdf)
+# A Quaternion Algebra Tool Set
 
 Here is a compilation of basic algebra for quaternions.  It should look very
 similar to complex algebra, since it contains three sets of complex numbers, t
@@ -1069,9 +1071,7 @@ with automorphic functions fruitful.
 ##  Parts
 
 ![](images/Math/tools/s_gr_1.gif)
-
 ![](images/Math/tools/s_gr_2.gif)
-
 ##  Simple algebra
 
 ![](images/Math/tools/s_gr_3.gif)
@@ -1267,7 +1267,6 @@ can be express with quaternion operators.
 This equation can be solved directly.
 
 ![](images/Classical_physics/sho/s_gr_2.gif)
-
 Find the velocity by taking the derivative with respect to time.
 
 ![](images/Classical_physics/sho/s_gr_3.gif)
@@ -1326,7 +1325,6 @@ The curl is the commutator of the differential operator and the force.  If
 this is zero, the force is conservative.
 
 ![](images/Classical_physics/conservative_force/s_gr_2.gif)
-
 Let the differential operator quaternion act on the force, and test if the
 vector components equal zero.
 
@@ -1421,24 +1419,18 @@ zero, or t is equal to x.
 If t = 0, then
 
 ![](images/SR/problem_set_1/ps1gr6.gif)
-
- ![\[Graphics:ps1gr7.gif\]](images/SR/problem_set_1/ps1gr7.gif)
-
+![](images/SR/problem_set_1/ps1gr7.gif)
 If x = 0, then
 
- ![\[Graphics:ps1gr8.gif\]](images/SR/problem_set_1/ps1gr8.gif)
-
- ![\[Graphics:ps1gr9.gif\]](images/SR/problem_set_1/ps1gr9.gif)
-
+![](images/SR/problem_set_1/ps1gr8.gif)
+![](images/SR/problem_set_1/ps1gr9.gif)
 If t = x, then
 
- ![\[Graphics:ps1gr10
-.gif\]](images/SR/problem_set_1/ps1gr10.gif)
+![](images/SR/problem_set_1/ps1gr10.gif)
 
     
     
- ![\[Graphics:ps1gr11.gif\]](images/SR/problem_set_1/ps1gr11.gif)
-
+![](images/SR/problem_set_1/ps1gr11.gif)
 Note: this is for blueshifts. Redshifts have a plus instead of the minus.
 
 The problems are from "Basic Concepts in Relativity" by Resnick and Halliday,
@@ -4154,7 +4146,7 @@ This graphic says most of it...
 
 [](../../images/Gravity/all_900.gif)
 
-[printable pdf](../pdfs/sr_and_qg.all.pdf) or [editable svg](images/Gravity/sr_and_qg.all.svg)
+[printable pdf](pdfs/sr_and_qg.all.pdf) or [editable svg](images/Gravity/sr_and_qg.all.svg)
 
 
 # Quaternion gravity
@@ -4240,11 +4232,8 @@ anticommutators of the differential operator and the electric and magnetic
 fields E and B respectively (for isolated charges in a vacuum.
 
 ![](images/EM/Maxwell_equations/s_gr_1.gif)
-
 ![](images/EM/Maxwell_equations/s_gr_2.gif)
-
 ![](images/EM/Maxwell_equations/s_gr_3.gif)
-
 The first quaternion equation embodies the homogeneous Maxwell equations.  The
 scalar term says that there are no magnetic monopoles.  The vector term is
 Faraday's law.  The second quaternion equation is the source term.  The scalar
@@ -4419,13 +4408,11 @@ The Lorentz force acts on a moving charge.  The covariant form of this law is,
 where W is work and P is momentum:
 
 ![](images/EM/Lorentz_force/s_gr_1.gif)
-
 In the classical case for a point charge, beta is zero and the E = k e/r^2, so
 the Lorentz force simplifies to Coulomb's law.  Rewrite this in terms of the
 potentials phi and A.
 
 ![](images/EM/Lorentz_force/s_gr_2.gif)
-
 In this notebook, I will look for a quaternion equation that can generate this
 covariant form of the Lorentz force in the Lorenz gauge.  By using potentials
 and operators, it may be possible to create other laws like the Lorentz force,
@@ -4460,8 +4447,8 @@ multiplier.
 By writing the covariant form of the Lorentz force as an operator acting on a
 potential, it may be possible to create other laws like the Lorentz force.
 For point sources in the classical limit, these new laws must have the form of
-Coulomb's law, F = k e e'/r^2.  An obvious candidate is Newton's law of
-gravity, F = - G m m'/r^2.  This would require a different type of scalar
+Coulomb's law, F = k e e'/r^2^.  An obvious candidate is Newton's law of
+gravity, F = - G m m'/r^2^.  This would require a different type of scalar
 potential, one that always had the same sign.
 
 
@@ -4474,9 +4461,7 @@ product over 2, and [A, B] is the odd, antisymmetric product over two or cross
 product).
 
 ![](images/EM/QED/s_gr_1.gif)
-
 ![](images/EM/QED/s_gr_2.gif)
-
 The scalar information is explicitly discarded from the E field quaternion.
 In this notebook, the scalar field that arises will be examined and shown to
 be the field which gives rise to gauge symmetry.  The commutators and
@@ -4611,11 +4596,9 @@ sense of the field tensor F, a particular combination of the other two.
 Therefore, express the stress tensor T in terms of the E and B fields only:
 
 ![](images/EM/EM_stress_tensor/s_gr_2.gif)
-
 ![](images/EM/EM_stress_tensor/s_gr_3.gif)
 ![](images/EM/EM_stress_tensor/s_gr_4.gif)
 ![](images/EM/EM_stress_tensor/s_gr_5.gif)
-
 Together, the energy density(W), Poynting's vector (Sa) and the Maxwell stress
 tensor (m_ab) are all the components of the stress tensor of the
 electromagnetic field.
@@ -4645,7 +4628,7 @@ The following double sum generates all the terms of the stress tensor:
 ![](images/EM/EM_stress_tensor/s_gr_11.gif)
 
 The first line generates the energy density W, and part of the +0.5 delta(a,
-b)(E^2 + B^2) term of the Maxwell stress tensor.  The rest of that tensor is
+b)(E^2^ + B^2^) term of the Maxwell stress tensor.  The rest of that tensor is
 generated by the second line.  The third line creates the Poynting vector.
 Using quaternions, the net sum of these terms ends up in the scalar.
 
@@ -4667,7 +4650,7 @@ vectors Ua and Ub will effect these three components differently.
 ##  Implications
 
 So what does the stress tensor represent?  It looks like every combination of
-the 3-vectors E and B that avoids quadratics (like Ex^2) and over-counting
+the 3-vectors E and B that avoids quadratics (like Ex^2^) and over-counting
 cross terms.  I like what I will call the "net" stress quaternion:
 
 ![](images/EM/EM_stress_tensor/s_gr_14.gif)
@@ -4696,11 +4679,10 @@ quaternions).  A central issue is the definition of the square of the norm.
 In quantum mechanics:
 
 ![](images/QM/bracket_notation/s_gr_1.gif)
-In this notebook, the following assertion will be examined (* is the
+In this notebook, the following assertion will be examined (star is the
 conjugate, so the vector flips signs):
 
 ![](images/QM/bracket_notation/s_gr_2.gif)
-
 The inner-product of two quaternions is defined here as the transpose (or
 conjugate) of the first quaternion multiplied by the second.  The inner
 product of a function with itself is the norm.
@@ -5124,7 +5106,6 @@ physics
 ![](images/QM/uncertainty_principle/s_gr_28.gif)
 
 ![](images/QM/uncertainty_principle/s_gr_29.gif)
-
 One subtlety to note is that a quaternion operator is anti-Hermitian only if
 the scalar is zero.  This is probably the case for classical quantum
 mechanics, but quantum field theory may require full quaternion operators.
@@ -5136,9 +5117,7 @@ To get to the position-momentum uncertainty equation, make these specific maps
 ![](images/QM/uncertainty_principle/s_gr_30.gif)
 ![](images/QM/uncertainty_principle/s_gr_31.gif)
 ![](images/QM/uncertainty_principle/s_gr_32.gif)
-
 ![](images/QM/uncertainty_principle/s_gr_33.gif)
-
 The product of the squares of the standard deviation for position and momentum
 in the x-direction has a lower bound equal to half the expectation value of
 the commutator of those operators.  The proof is in the structure of
@@ -5190,17 +5169,12 @@ conjugate anti-automorphism, the first conjugate anti-automorphism, and the
 second conjugate anti-automorphism:
 
 ![](images/QM/spin_and_angular_momentum/s_gr_1.gif)
-
 ![](images/QM/spin_and_angular_momentum/s_gr_2.gif)
-
 ![](images/QM/spin_and_angular_momentum/s_gr_3.gif)
-
 ![](images/QM/spin_and_angular_momentum/s_gr_4.gif)
-
 where
 
 ![](images/QM/spin_and_angular_momentum/s_gr_5.gif)
-
 ![](images/QM/spin_and_angular_momentum/s_gr_6.gif)
 e1, e2, e3 are orthogonal basis vectors
 
@@ -5286,11 +5260,8 @@ conjugate:
 ![](images/QM/spin_and_angular_momentum/s_gr_24.gif)
 
 ![](images/QM/spin_and_angular_momentum/s_gr_25.gif)
-
 ![](images/QM/spin_and_angular_momentum/s_gr_26.gif)
-
 ![](images/QM/spin_and_angular_momentum/s_gr_27.gif)
-
 This points exactly the opposite way,even for an infinitesimal angle!
 
 This is the kernel required to form a unified representation of integral and
@@ -5339,9 +5310,7 @@ similar, but not identical.
 
 There are also corresponding identities for the anti-commutator:
 
-![The anti-commutator of q, q prime = the conjugate of the anti-commutator ofq conjugated, q prime conjugated = - the first conjugate of the anti-commutator of q first conjugated, q prime first conjugated = - the anti-commutator of q second conjugated, q prime second
-conjugated](images/QM/spin_and_angular_momentum/s_gr_35.gif)
-
+![](images/QM/spin_and_angular_momentum/s_gr_35.gif)
 At this point, I don't know how to use them, but again, the identity and first
 conjugates appear to behave differently that the first and second conjugates.
 
@@ -5386,13 +5355,11 @@ might serve to damp runaway terms.
 momentum with quaternions.
 
 ![](images/QM/Schrodinger/s_gr_2.gif)
-
 What makes this "classical" are the zeroes in the scalars.  Make these into
 complete quaternions by bringing in time to go along with the space 3-vector
 R, and E with the 3-vector P.
 
 ![](images/QM/Schrodinger/s_gr_3.gif)
-
 Define a dimensionless quaternion psi that is this product over h bar.
 
 ![](images/QM/Schrodinger/s_gr_4.gif)
@@ -5474,8 +5441,6 @@ makes solving explicitly for energy impossible unless Et - P.X equals zero.
 Since the goal is to make a direct connection to the Schr&ouml;dinger equation,
 make one final assumption:
 
-5\. Et - R.P = 0
-
 ![](images/QM/Schrodinger/s_gr_13.gif)
 There are several important cases when this will be true.  In a vacuum, E and
 P are zero.  If this is used to study photons, then t = |R| and E = |P|.  If
@@ -5537,7 +5502,6 @@ The relativistic quantum mechanic equation for a free particle is the Klein-
 Gordon equation (h=c=1)
 
 ![](images/QM/Klein-Gordon/s_gr_1.gif)
-
 The Schr&ouml;dinger equation results from the non-relativistic limit of this
 equation. In this section, the machinery of the Klein-Gordon equation will be
 ported to quaternions.
@@ -5564,7 +5528,7 @@ quaternions can form a complete, normed product space.
 ##  The Klein-Gordon Equation
 
 The Klein-Gordon equation can be divided into two operators that act on the
-wave function:  the D'Alembertian and the scalar m^2.  The quaternion operator
+wave function:  the D'Alembertian and the scalar m^2^.  The quaternion operator
 required to create the D'Alembertian, along with vector identities, has
 already been worked out for the Maxwell equations in the Lorenz gauge.
 
@@ -5576,10 +5540,10 @@ The first term of the scalar, and the second term of the vector, are both
 equal to zero.  What is left is the D'Alembertian operator acting on the
 quaternion wave function.
 
-To generate the scalar multiplier m^2, substitute En and Pn for the operators
+To generate the scalar multiplier m^2^, substitute En and Pn for the operators
 d/dt and del respectively, and repeat.  Since the structure of the operator is
 identical to the previous one, instead of the D'Alembertian times the wave
-function, there is En^2-Pn^2.  The sum of all these terms becomes m^2.
+function, there is En^2^-Pn^2^.  The sum of all these terms becomes m^2^.
 
 Set the sum of these two operators equal to zero to form the Klein-Gordon
 equation.
@@ -5885,8 +5849,8 @@ laws of physics.
 
 
 #  Buttons
-Buttons...![](http://world.std.com/~sweetser/Images/space300.gif)
 
+![](http://world.std.com/~sweetser/Images/space300.gif)
 | [![Definition of Spacetime](images/Stuff/Buttons/spacetime.jpg)](info.html#spacetime) | [![The General Equivalence Principle](images/Stuff/Buttons/equivalence.jpg)](info.html#equivalence) | [![Unified Field Theory](images/Stuff/Buttons/unified.jpg)](info.html#unified) |
 | -- | -- | -- |
 | [![Justify Your Love for the Standard Model](images/Stuff/Buttons/justify.jpg)](info.html#justify) | [![No Dark Matter Needed](images/Stuff/Buttons/dark.jpg)](info.html#dark) | |
@@ -6076,7 +6040,8 @@ of number that was like a scalar and a vector. The contest motivated me to
 reread that passage, then go to an old-fashion library and read up about 
 quaternions. This was the first equation I saw, the squaring of a quaternion:
 
-![](http://mathurl.com/q2c4k68.png)
+![](images/About/Professional_sketch/q2.png)
+
 To this day, this makes me excited because the first term is at the core of 
 special relativity as taught to me by Edwin F. Taylor. It is there, for free.  
 That cannot be an accident. That observation drove me to purchase the domain 
@@ -6126,7 +6091,8 @@ for quaternion gravity
 
 I went back to the equation that sparked my initial interest in quaternions:
 
-![](http://mathurl.com/q2c4k68.png)
+![](images/About/Professional_sketch/q2.png)
+
 The first term is called the interval. But what are the next three called? 
 Physics doesn't have a name. That is a problem because the first term is one of 
 the most important in physics because it is at the heart of special relativity.  
@@ -6305,12 +6271,11 @@ twitter: visualphysics
 
 If it is really important to you, a google hangout can be arranged.
 
-{! /Users/doug/world.std.com/docs/About/web_sites.md !}
+{! /Users/doug/Q/docs/About/web_sites.md !}
 
-
-$E = mc^2$
 
 ## Tip Jar
 
 This is a part-time job for me that eats real money (~$60k over 2 decades).
 
+https://cash.me/$VisualPhysics

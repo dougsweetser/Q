@@ -13,8 +13,7 @@ can be express with quaternion operators.
 
 This equation can be solved directly.
 
-![x = C\(2\) cosine \(the square root of k over m times t\) + C\(1\) sine
-\(the square root of k over m times t\)](../images/Classical_physics/sho/s_gr_2.gif)
+![x = C\(2\) cosine \(the square root of k over m times t\) + C\(1\) sine \(the square root of k over m times t\)](../images/Classical_physics/sho/s_gr_2.gif)
 
 Find the velocity by taking the derivative with respect to time.
 

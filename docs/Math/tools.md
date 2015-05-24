@@ -1,4 +1,4 @@
-#  A Quaternion Algebra Tool Set
+# A Quaternion Algebra Tool Set
 
 Here is a compilation of basic algebra for quaternions.  It should look very
 similar to complex algebra, since it contains three sets of complex numbers, t
@@ -13,11 +13,9 @@ with automorphic functions fruitful.
 
 ##  Parts
 
-![The scalar of q equals q plus its conjugate over two equals \(t,
-zero\)](../images/Math/tools/s_gr_1.gif)
+![The scalar of q equals q plus its conjugate over two equals \(t, zero\)](../images/Math/tools/s_gr_1.gif)
 
-![The vector of q equals q minus its conjugate over two equals \(zero,
-V\)](../images/Math/tools/s_gr_2.gif)
+![The vector of q equals q minus its conjugate over two equals \(zero, V\)](../images/Math/tools/s_gr_2.gif)
 
 ##  Simple algebra
 

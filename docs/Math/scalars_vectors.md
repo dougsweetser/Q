@@ -93,8 +93,7 @@ A quaternion equation must generate the same collection of tensors on both
 sides.  Consider the product of two events, q and q':
 
 ![\(t, X\) times \(t prime , X prime\) =  \(t t prime  - X dot X prime , t X
-prime  + X t prime + X cross X prime\)axial vectors: X cross X prime
-](../images/Math/scalars_vectors/s_gr_2.gif)
+prime  + X t prime + X cross X prime\)axial vectors: X cross X prime](../images/Math/scalars_vectors/s_gr_2.gif)
 
 Where is the axial vector for the left hand side?  It is imbedded in the
 multiplication operation, honest :-)
@@ -159,6 +158,8 @@ another context.  Instead, consider an arbitrary transformation T  which takes
 q into q'
 
 ![q transform to q prime  = T times q](../images/Math/scalars_vectors/s_gr_9.gif)
+
+
 
 T is also a quaternion, in fact it is equal to q' q^-1.  This is guaranteed to
 work locally, within neighborhoods of q and q'.  There is no promise that it

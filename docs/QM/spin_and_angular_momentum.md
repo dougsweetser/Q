@@ -24,22 +24,17 @@ with automorphisms, 4 are required:  They are the identity automorphism, the
 conjugate anti-automorphism, the first conjugate anti-automorphism, and the
 second conjugate anti-automorphism:
 
-![The identity automorphism I maps q into
-q](../images/QM/spin_and_angular_momentum/s_gr_1.gif)
+![The identity automorphism I maps q into q](../images/QM/spin_and_angular_momentum/s_gr_1.gif)
 
-![The conjugate anti-automorphism * maps q into
-q*](../images/QM/spin_and_angular_momentum/s_gr_2.gif)
+![The conjugate anti-automorphism * maps q into q*](../images/QM/spin_and_angular_momentum/s_gr_2.gif)
 
-![The first conjugate anti-automorphism *1 maps q into
-q*1](../images/QM/spin_and_angular_momentum/s_gr_3.gif)
+![The first conjugate anti-automorphism *1 maps q into q*1](../images/QM/spin_and_angular_momentum/s_gr_3.gif)
 
-![The second conjugate anti-automorphism *2 maps q into
-q*2](../images/QM/spin_and_angular_momentum/s_gr_4.gif)
+![The second conjugate anti-automorphism *2 maps q into q*2](../images/QM/spin_and_angular_momentum/s_gr_4.gif)
 
 where
 
-![q*1 is defined to be \(e1 q
-e1\)*](../images/QM/spin_and_angular_momentum/s_gr_5.gif)
+![q*1 is defined to be \(e1 q e1\)*](../images/QM/spin_and_angular_momentum/s_gr_5.gif)
 
 ![q*2 === \(e2 q e2\)*](../images/QM/spin_and_angular_momentum/s_gr_6.gif)
 
@@ -158,20 +153,13 @@ conjugate:
 
 ![The commutator of a rotation around e1 first conjugated, a rotation around
 e2 first conjugated = \(-\(1 - theta squared over 2\) e0, theta e1 over 3, 0,
-0\) times \(-\(1 - theta squared over 2\) e0, 0, - theta e2 over 3, 0\)
--](../images/QM/spin_and_angular_momentum/s_gr_24.gif)
+0\) times \(-\(1 - theta squared over 2\) e0, 0, - theta e2 over 3, 0\) -](../images/QM/spin_and_angular_momentum/s_gr_24.gif)
 
-![- \(-\(1 - theta squared over 2\) e0, 0, - theta e2 over 3, 0\) times \(-\(1
-- theta squared over 2\) e0, theta e1 over 3, 0, 0\)
-=](../images/QM/spin_and_angular_momentum/s_gr_25.gif)
+![- \(-\(1 - theta squared over 2\) e0, 0, - theta e2 over 3, 0\) times \(-\(1- theta squared over 2\) e0, theta e1 over 3, 0, 0\) =](../images/QM/spin_and_angular_momentum/s_gr_25.gif)
 
-![= \(\(1 - theta squared\) e0 squared, - theta e0 e1 over 3, - theta e0 e2
-over 3, theta squared e1 e2 over 9\) - \(\(1 - theta squared\) e0 squared, -
-theta e1 over 3, - theta e2 over 3, - theta squared e1 e2 over 9\)
-=](../images/QM/spin_and_angular_momentum/s_gr_26.gif)
+![= \(\(1 - theta squared\) e0 squared, - theta e0 e1 over 3, - theta e0 e2 over 3, theta squared e1 e2 over 9\) - \(\(1 - theta squared\) e0 squared, -theta e1 over 3, - theta e2 over 3, - theta squared e1 e2 over 9\) =](../images/QM/spin_and_angular_momentum/s_gr_26.gif)
 
-![= 2 \(0, 0, 0, theta squared e1 e2 over 9\) = 2 \(Re3=0 \(theta squared\) -
-R\(0\)\)](../images/QM/spin_and_angular_momentum/s_gr_27.gif)
+![= 2 \(0, 0, 0, theta squared e1 e2 over 9\) = 2 \(Re3=0 \(theta squared\) - R\(0\)\)](../images/QM/spin_and_angular_momentum/s_gr_27.gif)
 
 This points exactly the opposite way,even for an infinitesimal angle!
 
@@ -236,11 +224,7 @@ similar, but not identical.
 
 There are also corresponding identities for the anti-commutator:
 
-![The anti-commutator of q, q prime = the conjugate of the anti-commutator of
-q conjugated, q prime conjugated = - the first conjugate of the anti-
-commutator of q first conjugated, q prime first conjugated = - the anti-
-commutator of q second conjugated, q prime second
-conjugated](../images/QM/spin_and_angular_momentum/s_gr_35.gif)
+![The anti-commutator of q, q prime = the conjugate of the anti-commutator of q conjugated, q prime conjugated = - the first conjugate of the anti-commutator of q first conjugated, q prime first conjugated = - the anti-commutator of q second conjugated, q prime second conjugated](../images/QM/spin_and_angular_momentum/s_gr_35.gif)
 
 At this point, I don't know how to use them, but again, the identity and first
 conjugates appear to behave differently that the first and second conjugates.

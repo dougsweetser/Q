@@ -16,8 +16,7 @@ To make the discussion concrete, define a force quaternion F.
 The curl is the commutator of the differential operator and the force.  If
 this is zero, the force is conservative.
 
-![The commutator of the operator\(d by dt,Del\) acting on a function F  =
-0](../images/Classical_physics/conservative_force/s_gr_2.gif)
+![The commutator of the operator\(d by dt,Del\) acting on a function F  = 0](../images/Classical_physics/conservative_force/s_gr_2.gif)
 
 Let the differential operator quaternion act on the force, and test if the
 vector components equal zero.
