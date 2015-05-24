@@ -2,6 +2,7 @@ Math/overview.md
 Math/history.md
 Math/numbers_101.md
 Math/multiplying.md
+Math_multiplying.md
 Math/products.md
 Math/scalars_vectors.md
 Math/analysis.md

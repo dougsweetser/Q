@@ -3,7 +3,7 @@
 Multiplying two complex numbers a + b I and c + d I is straightforward.
 
 ![\(a, b\) times \(c, d\) = \(ac - bd, ad +
-bc\)](../images/Math/multiplying/s_gr_1.gif)
+bc\)](../images/Math/multiplying/s_gr_1.png)
 
 For two quaternions, b I and d I become the 3-vectors B and D, where    B = x
 I + y J + z K and similarly for D.  Multiplication of quaternions is like
