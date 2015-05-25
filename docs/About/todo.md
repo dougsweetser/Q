@@ -1,6 +1,7 @@
 ## To do
 
-1. title_page.png like website
+1. title_page.png Q, like website
+1. title_page.png, SR
 1. Gravity, fix all animation
 1. EM, redo classical 
 1. QM/The Dirac equation
