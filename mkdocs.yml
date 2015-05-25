@@ -8,7 +8,7 @@ dev_addr: 127.0.0.1:8004
 
 google_analytics: ['UA-9710248-1', 'quaternions.com']
 
-markdown_extensions: [include, subscript, superscript]
+markdown_extensions: [include, subscript, superscript, footnotes]
 
 pages:
 - [index.md, '']
@@ -36,7 +36,8 @@ pages:
 - [Gravity/Measurement-101/special_relativity.md, Gravity, Measurement-101 - Special relaitivity]
 - [Gravity/Measurement-101/quaternion_gravity.md, Gravity, Measurement-101 - Quaternion Gravity]
 - [Gravity/Measurement-101/measure_it_all.md, Gravity, Measurement-101 - SR + QG: Special Relativity and Quaternion Gravity]
-- [Gravity/space-times-time_invariance.md, Gravity, Quaternion gravity essay]
+- [Gravity/space-times-time_invariance.md, Gravity, Quaternion space-times-time invariance as gravity]
+- [Gravity/essays_on_gravitation.md, Gravity, Essays on gravitation contest]
 - [EM/em.md, EM, Electromagnetism]
 - [EM/Maxwell_equations.md, EM, The Maxwell equations]
 - [EM/gauges.md, EM, Gauges]

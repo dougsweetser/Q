@@ -1,12 +1,12 @@
 # Quaternion Space-times-time Invariance as Gravity*
 
-D. B. Sweetser†‡
+D. B. Sweetser
 
 March 31, 2015
 
 *Essay written for the Gravity Research Foundation 2015 Awards for Essays on Gravitation  
-†39 Drummer Road, Acton, MA 01720  
-‡sweetser@alum.mit.edu
+39 Drummer Road, Acton, MA 01720  
+sweetser@alum.mit.edu
 
 Abstract
 
@@ -76,7 +76,7 @@ happens to be true. See the appendix for details if interested.
 
 The square of a space-time measurement represented with quaternions is:
 
-![dt, dx sub 1, dx sub 2, dx sub 3 squared equals dt squared minus dx sub 1 squared minus dx sub 2 squared minus dx sub 3 squared, 2 dt dx sub 1, 2 dt dx sub 2, 2 dt dx sub 3](q_squared.svg)
+![dt, dx sub 1, dx sub 2, dx sub 3 squared equals dt squared minus dx sub 1 squared minus dx sub 2 squared minus dx sub 3 squared, 2 dt dx sub 1, 2 dt dx sub 2, 2 dt dx sub 3](../images/Gravity/q_squared.png)
   
 The first term of the square is the Lorentz invariant interval. It is followed
 by the three space-times-time terms. There are a few advantages to having
@@ -100,7 +100,7 @@ Maybe quaternions are an "unmixed evil." Let's explore anyway.
 Construct a quaternion out of space-time functions that can be varied, yet the
 first term of the square is invariant as required by special relativity:
 
-![dt, dg sub 1, dg sub 2, dg sub 3 squared equals dt squared minus dg sub 1 squared minus dg sub 2 squared minus dg sub 3 squared, 2 dt dg sub 1, 2 dt dg sub 2, 2 dt dg sub 3](fg_squared.svg)
+![dt, dg sub 1, dg sub 2, dg sub 3 squared equals dt squared minus dg sub 1 squared minus dg sub 2 squared minus dg sub 3 squared, 2 dt dg sub 1, 2 dt dg sub 2, 2 dt dg sub 3](../images/Gravity/fg_squared.png)
   
 If the function f was exactly the same as each normalized gi, then the first
 term in the square, the interval, would always be zero.[^3] This is an important case: it is light. Changes in
@@ -112,7 +112,7 @@ but leave unity behind. Work with a third function h and its inverse:
 
 ![f equals one half h + the inverse of h, g 1, 2, 3 equals one over 2 the
 square root of 3 times h minus the inverse of h. The square of f g 1, 2, 3
-equals one, then three timer of one over 2 the sqaure root of 3 times h squared minus the inverse of h squared](fg_squared_is_unity.svg)
+equals one, then three timer of one over 2 the sqaure root of 3 times h squared minus the inverse of h squared](../images/Gravity/fg_squared_is_unity.png)
   
 So long as the function h has an inverse, this will always work.[^4] Exponential functions play an important
 role in theoretical physics. If the exponent is zero, unity is the result and
@@ -131,7 +131,7 @@ in place of complex numbers.[1] That topic is beyond the scope of this short
 essay. The general way to generate three factors of two is also not difficult:
 
 ![f equals the inverse of h. g 1, 2, 3 equals h. f, g 1, 2, 3 squared equals
-the inverse of h squared minus 3 h squared, 2, 2, 2](fg_squared_is_222.svg)  
+the inverse of h squared minus 3 h squared, 2, 2, 2](../images/Gravity/fg_squared_is_222.png)  
   
 An exponential function could be plugged in as before. This moves from a pure
 math exercise to one with physics content if the exponential is chosen to be
@@ -139,7 +139,7 @@ related to gravity by using the geometric length of a mass[^5]:
 
 ![e to the minus z dt, e to the z dR sub i over c squared equals e to the minus
 2 z dt squared minus e to the 2 z dR sub i squared, 2 dt dR sub i over c equals
-e to minus twice the geometric length of the source mass times dt squared minus e to twice the geometric length of the source mass times dR sub i squared over c squared, 2 dt dR sub i over c if z equals the geometric source mass or Newton's gravitational constant times big M over c squared and i goes from 1 to 3](exponential_conserves_stt.svg)
+e to minus twice the geometric length of the source mass times dt squared minus e to twice the geometric length of the source mass times dR sub i squared over c squared, 2 dt dR sub i over c if z equals the geometric source mass or Newton's gravitational constant times big M over c squared and i goes from 1 to 3](../images/Gravity/exponential_conserves_stt.png)
 
 Let's pause to discuss this expression. No metric was used to get here. No
 field equation was solved. Instead a new invariance of Nature has been
@@ -184,7 +184,7 @@ Does gravity as a space-times-time invariance play nicely with the three other
 fundamental forces of physics? Given the stellar record of special relativity,
 there is reason to hope.
 
-### A  Appendix: Maxwell equations and the Lorentz group using real-valued
+## Appendix: Maxwell equations and the Lorentz group using real-valued
 quaternions
 
 The homogeneous Maxwell equations are vector identities. They hold when
@@ -193,7 +193,7 @@ source equations is the difference of the squared magnetic and electric
 fields[5]:  
 
 ![The Lagrange density of electromagnetism is one half B squared minus E
-squared](L_is_B_squared_minus_E_squared.svg)
+squared](../images/Gravity/L_is_B_squared_minus_E_squared.png)
 
 The difference of two squares is the product of their sums and difference. The
 simplest product of a quaternion differential operator and potential generates
@@ -201,7 +201,7 @@ the difference of the magnetic and electric fields:
 
 ![The differential quaternion operation action on a quaternion potential phi, A
 is the time derivative of phi minus the divergence of A, the time derivative of
-A plus the gradient of phi plus the curl of A which equals a gauge field g, B minus E](DA_is_gEB.svg)
+A plus the gradient of phi plus the curl of A which equals a gauge field g, B minus E](../images/Gravity/DA_is_gEB.png)
   
 This also has a gauge field g which can easily be eliminated by subtracting
 the conjugate of this product. The sum of these two fields - times a factor of
@@ -209,7 +209,7 @@ minus one - is formed by reversing the order of the differential with the
 potential:   
 
 ![one eighth Del A minus the conjugate of Del A times A Del minus the conjugate
-of A Del equations one half B squared minus E squared, 2 E cross B](get_to_B_squared_minus_E_squared.svg)
+of A Del equations one half B squared minus E squared, 2 E cross B](../images/Gravity/get_to_B_squared_minus_E_squared.png)
 
 The first term drops into the Euler-Lagrange equations to generate the Gauss
 and Ampere laws of electromagnetism. As a bonus, there is the Poynting vector,
@@ -220,7 +220,7 @@ compact when using quaternions:
 
 ![R equals 0, x sub 1, x sub 2, x sub 3. U equals cosine theta, sine theta, 0,
 0. R goes to R prime equals U times R times the conjugate of U which equals 0, x sub 1 cosine 2 theta minus x sub 3 sine 2 theta, x sub 3 cosine 2 theta
-plus x sub 2 sine 2 theta](rotation_around_x.svg)
+plus x sub 2 sine 2 theta](../images/Gravity/rotation_around_x.png)
 
 If one tries to simply change from the cosine and sine function to the
 hyperbolic cosine and sine function, a member of the Lorentz group is not
@@ -230,11 +230,14 @@ non-trivial change. Other terms are required to pull off the trick:
 ![B equals t, x sub 1, x sub 2, x sub 3. H equals the hyperbolic cosine of
 alpha, the hyperbolic sine of alpha, 0, 0. B goes to B prime equals H B the
 conjugate of H plus one half the difference of the congugate of H H B and the
-conjugate of the conjugate of H the conjugate of H times B](boost_along_x.svg)
+conjugate of the conjugate of H the conjugate of H times B](../images/Gravity/boost_along_x.png)
 
 Quaternions provide another way to write these expressions. Nothing new is
 learned, other than to be skeptical of claims about the limitations of
 quaternions.
+ 
+
+## Bibliography
 
 [1]  S. L. Adler. Quaternionic Quantum Mechanics and Quantum Fields. Oxford
 University Press, 1995.
@@ -270,14 +273,17 @@ volume II. Macmillan, 1910.
 [11]  C. M. Will. Theory and experiment in gravitational physics: Revised
 edition. Cambridge University Press, 1993.
 
+## Footnotes
+
 [^1]: How space-times-time changes under a Lorentz transformation is somewhat
 complicated.
 
-[^2]: Deeper insights can sometimes be found working on a complex manifold, ℂ1,
-using a complex number and its conjugate instead of ℝ2.
+[^2]: Deeper insights can sometimes be found working on a complex manifold,
+C^1^
+using a complex number and its conjugate instead of R^2^.
 
-[^3]: The normalization depends on the count of non-zero g factors, ![√13](space-
-times-time-invariance2x.png) if none are zero.
+[^3]: The normalization depends on the count of non-zero g factors, 1 over
+the square root of 3 if none are zero.
 
 [^4]: Adjusting the normalization factor as needed.
 
