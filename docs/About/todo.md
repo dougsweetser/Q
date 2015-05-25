@@ -1,7 +1,5 @@
 ## To do
 
-1. SR book, leave only one chapter
-1. Include pdf in markdown? ![]()
 1. title_page.png like website
 1. Gravity, fix all animation
 1. EM, redo classical 
@@ -53,10 +51,12 @@ leanpub.com, markua
 1. Remove double Q q on index page
 1. Side bar nav - Using default, works well.
 1. Special relativity: list problems
+1. SR book, leave only one chapter
 
 ## Won't do
 
 1. Gravity gif - all 6 look visually similar, a good thing
 1. World-deploy function - keep original in place
 1. Popup window function - Have content here, link to sites.
+1. PDF in markdown? ![]()  Nope.  lyx->html->html2txt  edit
 1. Search - not obvious how to do
