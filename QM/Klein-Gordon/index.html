@@ -171,26 +171,6 @@
                             <a href="../../SR/problem_set_1/">Problem set 1</a>
                         </li>
                     
-                        <li >
-                            <a href="../../SR/problem_set_2/">Problem set 2</a>
-                        </li>
-                    
-                        <li >
-                            <a href="../../SR/problem_set_3/">Problem set 3</a>
-                        </li>
-                    
-                        <li >
-                            <a href="../../SR/problem_set_4/">Problem set 4</a>
-                        </li>
-                    
-                        <li >
-                            <a href="../../SR/problem_set_5/">Problem set 5</a>
-                        </li>
-                    
-                        <li >
-                            <a href="../../SR/problem_set_6/">Problem set 6</a>
-                        </li>
-                    
                     </ul>
                 </li>
             
@@ -221,7 +201,11 @@
                         </li>
                     
                         <li >
-                            <a href="../../Gravity/space-times-time_invariance/">Quaternion gravity essay</a>
+                            <a href="../../Gravity/space-times-time_invariance/">Quaternion space-times-time invariance as gravity</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../Gravity/essays_on_gravitation/">Essays on gravitation contest</a>
                         </li>
                     
                     </ul>
@@ -407,8 +391,7 @@
 <h1 id="introduction-to-relativistic-quantum-mechanics">Introduction to Relativistic Quantum Mechanics</h1>
 <p>The relativistic quantum mechanic equation for a free particle is the Klein-
 Gordon equation (h=c=1)</p>
-<p><img alt="(The second time derivative - Laplacian + m squared) acting on psi = 0
-" src="../../img/QM/Klein-Gordon/s_gr_1.gif" /></p>
+<p><img alt="(The second time derivative - Laplacian + m squared) acting on psi = 0" src="../../images/QM/Klein-Gordon/s_gr_1.gif" /></p>
 <p>The Schr&ouml;dinger equation results from the non-relativistic limit of this
 equation. In this section, the machinery of the Klein-Gordon equation will be
 ported to quaternions.</p>
@@ -418,38 +401,38 @@ product of the conjugate of a wave function with another wave function forms a
 complete inner product space. In the energy/momentum representation, this
 would involve all possible energy levels and momenta.</p>
 <p><img alt="psi is defined to be the sum from n = 0 to infinity of (E sub n, P sub n
-)" src="../../img/QM/Klein-Gordon/s_gr_2.gif" /></p>
+)" src="../../images/QM/Klein-Gordon/s_gr_2.gif" /></p>
 <p>This infinite sum of quaternions should contain all the information about a
 system.  The quaternion wave function can be normalized.</p>
 <p><img alt="The sum from n =  0 to infinity of (E sub n, P sub n) conjugated times (E
 sub n, P sub n) = the sum from n = 0 to infinity of (E sub n squared + P sub
-n squared, 0) = 1" src="../../img/QM/Klein-Gordon/s_gr_3.gif" /></p>
+n squared, 0) = 1" src="../../images/QM/Klein-Gordon/s_gr_3.gif" /></p>
 <p>The first quaternion is the conjugate or transpose of the second.  Since the
 transpose of a quaternion wave function times a wave function creates a
 Euclidean norm, this representation of wave functions as an infinite sum of
 quaternions can form a complete, normed product space.</p>
 <h2 id="the-klein-gordon-equation">The Klein-Gordon Equation</h2>
 <p>The Klein-Gordon equation can be divided into two operators that act on the
-wave function:  the D'Alembertian and the scalar m^2.  The quaternion operator
+wave function:  the D'Alembertian and the scalar m<sup>2</sup>.  The quaternion operator
 required to create the D'Alembertian, along with vector identities, has
 already been worked out for the Maxwell equations in the Lorenz gauge.</p>
 <p><img alt="the sum from n = 0 to infinity of ((d by dt, Del) squared + (d by dt, -
-Del) squared) acting on (E sub n, P sub n) over 2 =" src="../../img/QM/Klein-Gordon/s_gr_4.gif" /></p>
+Del) squared) acting on (E sub n, P sub n) over 2 =" src="../../images/QM/Klein-Gordon/s_gr_4.gif" /></p>
 <p><img alt="= the sum from n = 0 to infinity of (E sub n double dot - div Grad E sub n
 - div curl P sub n, P sub n double dot - Grad div P sub n + Del Cross Del
-Cross P sub n + Del Cross Grad E sub n)" src="../../img/QM/Klein-Gordon/s_gr_5.gif" /></p>
+Cross P sub n + Del Cross Grad E sub n)" src="../../images/QM/Klein-Gordon/s_gr_5.gif" /></p>
 <p>The first term of the scalar, and the second term of the vector, are both
 equal to zero.  What is left is the D'Alembertian operator acting on the
 quaternion wave function.</p>
-<p>To generate the scalar multiplier m^2, substitute En and Pn for the operators
+<p>To generate the scalar multiplier m<sup>2</sup>, substitute En and Pn for the operators
 d/dt and del respectively, and repeat.  Since the structure of the operator is
 identical to the previous one, instead of the D'Alembertian times the wave
-function, there is En^2-Pn^2.  The sum of all these terms becomes m^2.</p>
+function, there is En<sup>2</sup>-Pn<sup>2</sup>.  The sum of all these terms becomes m<sup>2</sup>.</p>
 <p>Set the sum of these two operators equal to zero to form the Klein-Gordon
 equation.</p>
-<p><img alt="" src="../../img/QM/Klein-Gordon/s_gr_6.gif" /></p>
-<p><img alt="" src="../../img/QM/Klein-Gordon/s_gr_7.gif" /></p>
-<p><img alt="" src="../../img/QM/Klein-Gordon/s_gr_8.gif" /></p>
+<p><img alt="" src="../../images/QM/Klein-Gordon/s_gr_6.gif" /></p>
+<p><img alt="" src="../../images/QM/Klein-Gordon/s_gr_7.gif" /></p>
+<p><img alt="" src="../../images/QM/Klein-Gordon/s_gr_8.gif" /></p>
 <p>It takes some skilled staring to assure that this equation contains the Klein-
 Gordon equation along with vector identities.</p>
 <h2 id="connection-to-the-maxwell-equations">Connection to the Maxwell Equations</h2>
@@ -457,7 +440,7 @@ Gordon equation along with vector identities.</p>
 the operators used to generate the Maxwell equations in the Lorenz gauge.  In
 the homogeneous case, the same operator acting on two different quaternions
 equals the same result.  This implies that</p>
-<p><img alt="(phi, A) =  the sum from n = 0 to infinity of (E sub n, P sub n)" src="../../img/QM/Klein-Gordon/s_gr_9.gif" /></p>
+<p><img alt="(phi, A) =  the sum from n = 0 to infinity of (E sub n, P sub n)" src="../../images/QM/Klein-Gordon/s_gr_9.gif" /></p>
 <p>Under this interpretation, a nonzero mass changes the wave equation into a
 simple harmonic oscillator.  The simple relationship between the quaternion
 potential and the wave function may hold for the nonhomogeneous case as well.</p>
@@ -478,7 +461,7 @@ operators are a field, an operator that does the task must exist.</p></div>
         <script src="../../js/bootstrap-3.0.3.min.js"></script>
         <script src="../../js/highlight.pack.js"></script>
         <script src="../../js/base.js"></script>
-        <script src="../../img/Classical_physics/sho/analytics.js"></script>
+        <script src="../../images/Classical_physics/sho/analytics.js"></script>
 
         <script type="text/javascript">
             $(document).ready(function() {

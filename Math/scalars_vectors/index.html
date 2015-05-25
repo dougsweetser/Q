@@ -171,26 +171,6 @@
                             <a href="../../SR/problem_set_1/">Problem set 1</a>
                         </li>
                     
-                        <li >
-                            <a href="../../SR/problem_set_2/">Problem set 2</a>
-                        </li>
-                    
-                        <li >
-                            <a href="../../SR/problem_set_3/">Problem set 3</a>
-                        </li>
-                    
-                        <li >
-                            <a href="../../SR/problem_set_4/">Problem set 4</a>
-                        </li>
-                    
-                        <li >
-                            <a href="../../SR/problem_set_5/">Problem set 5</a>
-                        </li>
-                    
-                        <li >
-                            <a href="../../SR/problem_set_6/">Problem set 6</a>
-                        </li>
-                    
                     </ul>
                 </li>
             
@@ -221,7 +201,11 @@
                         </li>
                     
                         <li >
-                            <a href="../../Gravity/space-times-time_invariance/">Quaternion gravity essay</a>
+                            <a href="../../Gravity/space-times-time_invariance/">Quaternion space-times-time invariance as gravity</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../Gravity/essays_on_gravitation/">Essays on gravitation contest</a>
                         </li>
                     
                     </ul>
@@ -467,7 +451,7 @@ state.  The Hilbert space is formed using the Euclidean product (q* q').</p>
 X.X, 0).  A tangent quaternion is created by having an operator act on a
 quaternion-valued function</p>
 <p><img alt="(d/dt, Del) acting on (f(q), F(q)) = (f dot - div F, F dot + Grad f
-+ Curl F)" src="../../img/Math/scalars_vectors/s_gr_1.gif" /></p>
++ Curl F)" src="../../images/Math/scalars_vectors/s_gr_1.gif" /></p>
 <p>What would happen to these five terms if space were shrunk?  The 3-vector F
 would get shrunk, as would the divisors in the Del operator, making functions
 acted on by Del get larger.  The scalar terms are completely unaffected by
@@ -482,13 +466,12 @@ in the tangent quaternion would change.</p>
 <p>A quaternion equation must generate the same collection of tensors on both
 sides.  Consider the product of two events, q and q':</p>
 <p><img alt="(t, X) times (t prime , X prime) =  (t t prime  - X dot X prime , t X
-prime  + X t prime + X cross X prime)axial vectors: X cross X prime
-" src="../../img/Math/scalars_vectors/s_gr_2.gif" /></p>
+prime  + X t prime + X cross X prime)axial vectors: X cross X prime" src="../../images/Math/scalars_vectors/s_gr_2.gif" /></p>
 <p>Where is the axial vector for the left hand side?  It is imbedded in the
 multiplication operation, honest :-)</p>
 <p><img alt="(t prime , X prime) times (t, X) = (t prime t - X prime  dot X, t prime
 X + X prime  t + X prime  cross X) = (t t prime  - X dot X prime , t X prime
-+ X t prime  - X cross X prime)" src="../../img/Math/scalars_vectors/s_gr_3.gif" /></p>
++ X t prime  - X cross X prime)" src="../../images/Math/scalars_vectors/s_gr_3.gif" /></p>
 <p>The axial vector is the one that flips signs if the order is reversed.</p>
 <p>Terms can continue to get more complicated.  In a quaternion triple product,
 there will be terms of the form (XxX').X".  This is called a pseudo-scalar,
@@ -506,19 +489,19 @@ operators which flip the sign of a vector, and symmetric and antisymmetric
 products can isolate any particular term.  Here are all the terms of the
 example from above</p>
 <p><img alt="(t,X) times (t prime ,X prime) = (t t prime  - X dot X prime , t X
-prime  + X t prime + X cross X prime)" src="../../img/Math/scalars_vectors/s_gr_4.gif" /></p>
+prime  + X t prime + X cross X prime)" src="../../images/Math/scalars_vectors/s_gr_4.gif" /></p>
 <p><img alt="scalars: t = (q + q conjugated) over 2, t prime  = (q prime + q prime
 conjugated) over 2, t t prime  - X dot X prime  = (q q prime  + (q q
-prime) conjugated)/2" src="../../img/Math/scalars_vectors/s_gr_5.gif" /></p>
+prime) conjugated)/2" src="../../images/Math/scalars_vectors/s_gr_5.gif" /></p>
 <p><img alt="polar vectors: X = (q - q conjugated) over 2, X prime  = (q prime  - q
 prime  conjugated) over 2,  t X prime  + X t prime  = ((q q prime +(q
 prime  q)) - (qq prime +(q prime q)) conjugated) over
-4" src="../../img/Math/scalars_vectors/s_gr_6.gif" /></p>
+4" src="../../images/Math/scalars_vectors/s_gr_6.gif" /></p>
 <p><img alt="axial vectors: X cross X prime  = (q q prime -(q prime  q)) over
-2" src="../../img/Math/scalars_vectors/s_gr_7.gif" /></p>
+2" src="../../images/Math/scalars_vectors/s_gr_7.gif" /></p>
 <p>The metric for quaternions is imbedded in Hamilton's rule for the field.</p>
 <p><img alt="i squared = j squared = k squared = i j k = -
-1" src="../../img/Math/scalars_vectors/s_gr_8.gif" /></p>
+1" src="../../images/Math/scalars_vectors/s_gr_8.gif" /></p>
 <p>This looks like a way to generate scalars from vectors, but it is more than
 that.  It also says implicitly that i j = k, j k = i, and i, j, k must have
 inverses.  This is an important observation, because it means that inner and
@@ -532,7 +515,7 @@ fundamental definition of a quaternion.  Change the rule of what a quaternion
 is in one context and it will not be possible to compare it to a quaternion in
 another context.  Instead, consider an arbitrary transformation T  which takes
 q into q'</p>
-<p><img alt="q transform to q prime  = T times q" src="../../img/Math/scalars_vectors/s_gr_9.gif" /></p>
+<p><img alt="q transform to q prime  = T times q" src="../../images/Math/scalars_vectors/s_gr_9.gif" /></p>
 <p>T is also a quaternion, in fact it is equal to q' q^-1.  This is guaranteed to
 work locally, within neighborhoods of q and q'.  There is no promise that it
 will work globally, that one T will work for any q.  Under certain
@@ -544,11 +527,11 @@ transformation is different than the idea presented here because it involves
 groups).</p>
 <p>This quaternion definition of a transformation creates an interesting
 relationship between the Minkowski and Euclidean metrics.</p>
-<p><img alt="Let T = I, the identity matrix" src="../../img/Math/scalars_vectors/s_gr_10.gif" /></p>
+<p><img alt="Let T = I, the identity matrix" src="../../images/Math/scalars_vectors/s_gr_10.gif" /></p>
 <p><img alt="(I q I q + (I q I q) conjugated) over 2 = (t squared - X dot X, 0),
-the Minkowski interval" src="../../img/Math/scalars_vectors/s_gr_11.gif" /></p>
+the Minkowski interval" src="../../images/Math/scalars_vectors/s_gr_11.gif" /></p>
 <p><img alt="(I q) conjugated times I q = (t squared + X dot X, 0), the Euclidean
-norm" src="../../img/Math/scalars_vectors/s_gr_12.gif" /></p>
+norm" src="../../images/Math/scalars_vectors/s_gr_12.gif" /></p>
 <p>In order to change from wrist watch time (the interval in spacetime) to the
 norm of a Hilbert space does not require any change in the transformation
 quaternion, only a change in the multiplication step. Therefore a
@@ -591,7 +574,7 @@ two separately successful areas.</p></div>
         <script src="../../js/bootstrap-3.0.3.min.js"></script>
         <script src="../../js/highlight.pack.js"></script>
         <script src="../../js/base.js"></script>
-        <script src="../../img/Classical_physics/sho/analytics.js"></script>
+        <script src="../../images/Classical_physics/sho/analytics.js"></script>
 
         <script type="text/javascript">
             $(document).ready(function() {
