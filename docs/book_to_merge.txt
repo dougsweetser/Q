@@ -18,6 +18,7 @@ Gravity/Measurement-101/special_relativity.book.md
 Gravity/Measurement-101/quaternion_gravity.book.md
 Gravity/Measurement-101/measure_it_all.book.md
 Gravity/space-times-time_invariance.md
+Gravity/essays_on_gravitation.md
 EM/Maxwell_equations.md
 EM/gauges.md
 EM/Lorentz_force.md
