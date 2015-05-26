@@ -2,10 +2,10 @@
 
 Walking changes how one measures deadly supernovae.
 
-<a id="single_1" href="../../../images/Gravity/SR_900.gif"
+<a id="single_1" href="../../../images/Gravity/Measurement-101/SR_900.gif"
 title="Four ways to see two events">
-    <img class='visible-xs' src="../../../images/Gravity/SR_400.gif" alt="" />
-    <img class='hidden-xs' src="../../../images/Gravity/SR_600.gif" alt="" /></a>  
+    <img class='visible-xs' src="../../../images/Gravity/Measurement-101/SR_400.gif" alt="" />
+    <img class='hidden-xs' src="../../../images/Gravity/Measurement-101/SR_600.gif" alt="" /></a>  
 
 As long as the kids move at a constant rate, special relativity comes into play.
 
