@@ -1571,7 +1571,7 @@ didn't want to write _lots_ of zeros).
 This graphic says most of it...
 
 ![](images/Gravity/Measurement-101/all.png)
-[printable pdf](pdfs/sr_and_qg.all.pdf) or [editable svg](images/Gravity/sr_and_qg.all.svg)
+[printable pdf](pdfs/sr_and_qg.all.pdf) or [editable svg](images/Gravity/Measurement-101/sr_and_qg.all.svg)
 
 # Quaternion Space-times-time Invariance as Gravity*
 
@@ -1851,7 +1851,7 @@ norm of space is invariant in a gravitational field.
 
 # Essays on Gravitation contest
 
-![](../Stuff/pdfs/space-times-time-invariance.pdf) was submitted to the 
+The essay, ["Quaternion space-times-time invariance as gravity"](../Stuff/pdfs/space-times-time_invariance.pdf) was submitted to the 
 _2015 Essays on Gravitation_ contest run by the [Gravity Research 
 Foundation](http://www.gravityresearchfoundation.org/index.html).
 
