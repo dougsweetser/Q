@@ -1,9 +1,14 @@
-## To do
+# To do
 
-1. title_page.png Q, like website
-1. title_page.png, SR
-1. Gravity, fix all animation
 1. EM, redo classical 
+    * x Euler-Lagrange
+    * Invariants
+    * Derive homogeneous
+    * Derive source eq
+1. SR page: Local vs global
+1. Publish e-books
+1. Stuff to e-books
+1. SRQ, fix navigation
 1. QM/The Dirac equation
 1. Dynamics graphs
 1. Numbers 101
@@ -16,8 +21,8 @@
     * t-shirts
     * tsup DVDs
 1. Redirect page for qindex.html - Keep world alive
-1. SR page: Local vs global
 1. Symmetries - check content and presentation
+1. Sites, add SRQ
 1. VisualPhysics.org link?
 1. About/lindy_hop, better pictures
 1. About/bike, more pictures, more story
@@ -40,8 +45,9 @@
 1. Fix umlaut on Schroding, Moller - &ouml;
 1. Github project: Q
 1. Google analytics
-1. Gravity - git clone files from QG?
 1. Gravity, essay
+1. Gravity, fix all animation
+1. Gravity, git clone files from QG?
 1. Images/Index
 1. Math gif
 1. Move spurious code
@@ -53,6 +59,8 @@ leanpub.com, markua
 1. Side bar nav - Using default, works well.
 1. Special relativity: list problems
 1. SR book, leave only one chapter
+1. Title_page.png Q, like website
+1. Title_page.png, SR
 
 ## Won't do
 
