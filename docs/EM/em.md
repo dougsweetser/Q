@@ -2,8 +2,5 @@
 
 # Electromagnetism
 
-1. [The Maxwell equations](Maxwell_equations.md)
-1. [Gauges](gauges.md)
-1. [Quaternion ElectroDynamics (QED)](QED.md)
-1. [The Lorentz force](Lorentz_force.md)
-1. [The EM stress tensor](EM_stress_tensor.md)
+1. [Derive the Euler-Langrange equations](derive_Euler-Lagrange.md), used to find
+field equations
