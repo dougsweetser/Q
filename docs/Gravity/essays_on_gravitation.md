@@ -1,7 +1,6 @@
 # Essays on Gravitation contest
 
-![The linked essay](../Stuff/pdfs/space-times-time-invariance.pdf)
-[The linked essay](../Stuff/pdfs/space-times-time-invariance.pdf) was submitted to the 
+The essay, ["Quaternion space-times-time invariance as gravity"](../Stuff/pdfs/space-times-time_invariance.pdf) was submitted to the 
 _2015 Essays on Gravitation_ contest run by the [Gravity Research 
 Foundation](http://www.gravityresearchfoundation.org/index.html).
 
