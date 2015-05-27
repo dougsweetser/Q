@@ -55,6 +55,7 @@
 mdmerger --export-target latex|lyx -o secion.pdf `cat section.toc`
 leanpub.com, markua
 1. Quantum
+1. Quaternions.com is dougsweetser/github.io/Q
 1. Remove double Q q on index page
 1. Side bar nav - Using default, works well.
 1. Special relativity: list problems
