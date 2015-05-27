@@ -20,40 +20,40 @@ density varied with respect to a variable and posibly the derivatives of the
 variable integrated over 
 space-time](../images/EM/derive_Euler-Lagrange/dS_is_zero.png)
 
-this is a minimization problem, or more formally, the calculus of variations.
+This is a minimization problem, or more formally, the calculus of variations.
 the first types of minimization problems one learns are about the minimum value
 of something like a velocity at a point in space-time. this is about a 
 minimization of a function over all of space-time. the mechanics are the same - 
 take a derivative, set it to zero - but the thing that gets plugged in is 
 different.
 
-## examples
+## Examples
 
-* if the lagrange density is not a function of **time**, then time is a 
+* If the lagrange density is not a function of **time**, then time is a 
 symmetry and **energy** is conserved.
 
-* if the lagrange density is not a function of **space**, then space is a 
+* If the lagrange density is not a function of **space**, then space is a 
 symmetry and **linear momentum** is conserved.
 
-* if the lagrange density is not a function of **angle**, then rotation is a 
+* If the lagrange density is not a function of **angle**, then rotation is a 
 symmetry and **angular momentum** is conserved.
 
-## counter example
+## Counter example
 
-* if a lagrange equation **is a function of space and time**, then **energy and 
+* If a lagrange equation **is a function of space and time**, then **energy and 
 momentum are not conserved**. this happens for systems that have friction.  the 
 energy and momentum go into waste heat. those terms usually are not included in 
 the lagrange density. 
 
-## deriving the euler-lagrange equations
+## Deriving the euler-lagrange equations
 
-if a lagrange density depends on a 4-potential a and the derivatives of a, then 
+If a lagrange density depends on a 4-potential a and the derivatives of a, then 
 vary these and find a minimum. this is the heart of the euler-lagrange 
 equations.
 
 ![the integral of the lagrange density varied with respect to a and the 
 derivative of a integrated over space-time equals 
-0](../images/EM/derive_Euler-Lagrange/zero_eq_int_l_da_ddela.png)
+0](../images/EM/derive_Euler-Lagrange/zero_eq_int_L_dA_dDelA.png)
 
 This is a mimnum problem with the potential A and its derivative, A'.
 
