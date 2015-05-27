@@ -19,11 +19,8 @@ Gravity/Measurement-101/quaternion_gravity.book.md
 Gravity/Measurement-101/measure_it_all.book.md
 Gravity/space-times-time_invariance.md
 Gravity/essays_on_gravitation.md
-EM/Maxwell_equations.md
-EM/gauges.md
-EM/Lorentz_force.md
-EM/QED.md
-EM/EM_stress_tensor.md
+EM/derive_Euler-Lagrange.md
+EM/EM_invariants.md
 QM/bracket_notation.md
 QM/polar.md
 QM/uncertainty_principle.md

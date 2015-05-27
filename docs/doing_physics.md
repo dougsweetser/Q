@@ -1886,452 +1886,179 @@ special relativity.  The other is the dimensionless gravitational length of a
 graviational source.  It would be this value that breaks conformal symmetry in 
 quaternion gravity.
 
-#  Classical Electrodynamics
+# Derive the Euler-Lagrange equations
 
-Maxwell speculated that someday quaternions would be useful in the analysis of
-electromagnetism.  Hopefully after a 130 year wait, in this notebook we can
-begin that process.  This approach relies on a judicious use of commutators
-and anticommutators.
+The Euler-Lagrange equations are used to generate field equations from a
+Lagrange density. Think of a Lagrange density as every way energy can be traded
+inside of a box. The action S integrates the Lagrange density (mass per volume)
+over space and _time_, resulting in t mass times time.
 
-##  The Maxwell Equations
+![](images/EM/derive_Euler-Lagrange/S_eq_int_L.png)
 
-The Maxwell equations are formed from a combinations of commutators and
-anticommutators of the differential operator and the electric and magnetic
-fields E and B respectively (for isolated charges in a vacuum.
+Notice that the action could be just about any value by integrating over
+different amounts of time, from a nano-second to a billion years.
 
-![](images/EM/Maxwell_equations/s_gr_1.gif)
-![](images/EM/Maxwell_equations/s_gr_2.gif)
-![](images/EM/Maxwell_equations/s_gr_3.gif)
-The first quaternion equation embodies the homogeneous Maxwell equations.  The
-scalar term says that there are no magnetic monopoles.  The vector term is
-Faraday's law.  The second quaternion equation is the source term.  The scalar
-equation is Gauss' law.  The vector term is Ampere's law, with Maxwell's
-correction.
+The approach is to _vary something_ in the action S so this integral _does not
+change_. This means that the "something" is a symmetry of the action.  Where
+there is a symmetry, there is necessarily a conserved quantity.
 
-##  The 4-Potential A
+![](images/EM/derive_Euler-Lagrange/dS_is_zero.png)
 
-The electric and magnetic fields are often viewed as arising from the same
-4-potential A.  These can also be expressed easily using quaternions.
+This is a minimization problem, or more formally, the calculus of variations.
+the first types of minimization problems one learns are about the minimum value
+of something like a velocity at a point in space-time. this is about a 
+minimization of a function over all of space-time. the mechanics are the same - 
+take a derivative, set it to zero - but the thing that gets plugged in is 
+different.
 
-![](images/EM/Maxwell_equations/s_gr_4.gif)
+## Examples
 
-![](images/EM/Maxwell_equations/s_gr_5.gif)
+* If the lagrange density is not a function of **time**, then time is a 
+symmetry and **energy** is conserved.
 
-The electric field E is the vector part of the anticommutator of the
-conjugates of the differential operator and the 4-potential.  The magnetic
-field B involves the commutator.
+* If the lagrange density is not a function of **space**, then space is a 
+symmetry and **linear momentum** is conserved.
 
-These forms can be directly placed into the Maxwell equations.
+* If the lagrange density is not a function of **angle**, then rotation is a 
+symmetry and **angular momentum** is conserved.
 
-![](images/EM/Maxwell_equations/s_gr_6.gif)
+## Counter example
 
-![](images/EM/Maxwell_equations/s_gr_7.gif)
+* If a lagrange equation **is a function of space and time**, then **energy and 
+momentum are not conserved**. this happens for systems that have friction.  the 
+energy and momentum go into waste heat. those terms usually are not included in 
+the lagrange density. 
 
-![](images/EM/Maxwell_equations/s_gr_8.gif)
+## Deriving the euler-lagrange equations
 
-![](images/EM/Maxwell_equations/s_gr_9.gif)
-
-The homogeneous terms are formed from the sum of both orders of the commutator
-and anticommutator.  The source terms arise from the difference of two
-commutators and two anticommutators.
-
-##  The Lorentz Force
-
-The Lorentz force is generated similarly to the source term of the Maxwell
-equations, but there a small game required to get the signs correct for the
-4-force.
-
-![](images/EM/Maxwell_equations/s_gr_10.gif)
-
-This is the covariant form of the Lorentz force.  The additional minus sign
-required may be a convention handed down through the ages.
-
-##  Conservation Laws
-
-The continuity equation--conservation of charge--is formed by applying the
-conjugate of the differential operator to the source terms of the Maxwell
+If a lagrange density depends on a 4-potential a and the derivatives of a, then 
+vary these and find a minimum. this is the heart of the euler-lagrange 
 equations.
 
-![](images/EM/Maxwell_equations/s_gr_11.gif)
+![](images/EM/derive_Euler-Lagrange/zero_eq_int_L_dA_dDelA.png)
 
-![](images/EM/Maxwell_equations/s_gr_12.gif)
+This is a mimnum problem with the potential A and its derivative, A'.
 
-The upper is zero, so the dot product of the E field and the current density
-plus the rate of change of the charge density must equal zero.  That means
-that charge is conserved.
+1: Start with a Lagrange density that is a function of the potential and its derivatives.
 
-Poynting's theorem for energy conservation is formed in a very similar way,
-except that the conjugate of electric field is used instead of the conjugate
-of the differential operator.
+![](images/EM/derive_Euler-Lagrange/L_eq_f_A_DelA.png)
 
-![](images/EM/Maxwell_equations/s_gr_13.gif)
+Note that one is not allowed to vary position or speed. If we were to do the 
+reverse - fix the potential and its derivative, but vary position and velocity 
+- then we would be deriving the force equation from the same Lagrange density.
 
-![](images/EM/Maxwell_equations/s_gr_14.gif)
+2: For the action by integrating over a volume of space-time.
 
-Additional vector identities are required before the final form is reached.
+![](images/EM/derive_Euler-Lagrange/S_eq_L_A_DelA.png)
 
-![](images/EM/Maxwell_equations/s_gr_15.gif)
+3: Vary the action.
 
-![](images/EM/Maxwell_equations/s_gr_16.gif)
-![](images/EM/Maxwell_equations/s_gr_17.gif)
-![](images/EM/Maxwell_equations/s_gr_18.gif)
-Use these equations to simplify to the following.
+![Vary the action S which equals the integral over space-time of the partial derivative of the Lagrange density with repect to A while varying A plus the derivative of the Lagrange density with repect to the derivative of A while varying the derivative of 
+A](images/EM/derive_Euler-Lagrange/dS_eq_dL_dAdA_plus_dL_dDelA_dDelA.png)
 
-![](images/EM/Maxwell_equations/s_gr_19.gif)
+4: The problem is with the variation in A versus the variantion is the derivative of A.  Use the product rule to get two variations in A.
 
-This is Poynting's equation.
+![The derivative of the product of the patial derivative of the Lagrange density with respect to Del A times the variation in A equals Del the partial derivative of the Lagrangian with respect to Del A while varying A plus the partial derivative of the Lagrangian with repect to Del A while varying Del 
+A](images/EM/derive_Euler-Lagrange/Del_product_dL_DelA_dA.png)
 
-##  Implications
+5: A theorem of Gauss says:
 
-The foundations of classical electrodynamics are the Maxwell equations, the
-Lorentz force, and the conservation laws.  In this notebook, these basic
-elements have been written as quaternion equations, exploiting the actions of
-commutators and anticommutators.  There is an interesting link between the E
-field and a differential operator for generating conservation laws.  More
-importantly, the means to generate these equations using quaternion operators
-has been displayed.  This approach looks independent from the usual method
-which relies on an antisymmetric 2-rank field tensor and a U(1) connection.
+![](images/EM/derive_Euler-Lagrange/Del_dL_DelA_dA_eq_0.png)
 
-#  Electromagnetic field gauges
+so:
 
-A gauge is a measure of distance.  Gauges are often chosen to make solving a
-particular problem easier.  A few are well known: the Coulomb gauge for
-classical electromagnetism, the Lorenz gauge which makes electromagnetism look
-like a simple harmonic oscillator, and the gauge invariant form which is used
-in the Maxwell equations.  In all these cases, the E and B field is the same,
-only the way it is measured is different.  In this notebook, these are all
-generated using a differential quaternion operator and a quaternion
-electromagnetic potential.
+![](images/EM/derive_Euler-Lagrange/minus_DeldldA_eq_dL_dDelA.png)
+6: Subsitute 5 into the variation in 3:
 
-##  The Field Tensor F in Different Gauges
+![](images/EM/derive_Euler-Lagrange/dS_eq_dL_dAdA_plus_dL_dDelA_dDelA.png)
 
-The anti-symmetric 2-rank electromagnetic field tensor F has 3 properties: its
-trace is zero, it is antisymmetric, and it contains all the components of the
-E and B fields.  The field used in deriving the Maxwell equations had the same
-information written as a quaternion:
+7: The variation will be at the minimum if the variation in the action S is 
+zero, which happends if the integrand is zero:
 
-![](images/EM/gauges/s_gr_1.gif)
+![](images/EM/derive_Euler-Lagrange/Euler-Lagrange_eq.png)
 
-What makes this form gauge-invariant, so no matter what the choice of gauge
-(involving dphi/dt and Del.A), the resulting equation is identical?  It is the
-work of the zero!  Whatever the scalar field is in the first term of the
-generator gets subtracted away in the second term.  
+QED
 
-A mathematical aside: a friend of mine calls this a "conjugator".  The well-
-known commutator involves commuting two terms and then subtracting them from
-the starting terms.  In this case, the two terms were conjugated and then
-subtracted from the original.  Any quaternion expression that gets acted on by
-a conjugator results in a 0 scalar and a 3-vector.  An anti-conjugator does
-the opposite task.  By adding together something with its conjugate, only the
-scalar remains.  The conjugator will be used often here.
+There are so many partial differential equations when using Euler-Lagrange,
+people with thin you are brilliant.
 
-Generating the field tensor F in the Lorenz gauge starting from the gauge-
-invariant from involves swapping the fields in the following way:
+![](images/EM/derive_Euler-Lagrange/details.png)
 
-![](images/EM/gauges/s_gr_2.gif)
+# EM invariants
 
-![](images/EM/gauges/s_gr_3.gif)
-This looks more complicated than it is.  The first term of the generator
-involves the scalar field only, (phi, 0), and the second term involves the
-3-vector field only, (0, A).
+To derive the field equations of electromagnetism (EM), we need to find Lorentz
+invariants that use the electric (E) and magnetic (B) fields of EM that then
+get plugged into the Euler-Lagrange equation.
 
-The field tensor F in the Coulomb gauge is generated by subtracting away the
-divergence of A, which explains why the second and third terms involve only A,
-even though Del.A is zero :-)
+An invariant is something all observers can agree on.  The Egyptions fiture out
+one long ago:
 
-![](images/EM/gauges/s_gr_4.gif)
+![](images/EM/EM_invariants/32+42_eq_52.png)
+This was the basis for surveying in the flood plains of the Nile. It remains
+true today.  The 3D Egyptions know we could also include a third spacial
+dimension:
 
-![](images/EM/gauges/s_gr_5.gif)
-The field tensor F in the temporal gauge is quite similar to the Coulomb
-gauge, but some of the signs have changed to target the dphi/dt term.
+![](images/EM/EM_invariants/a2+b2+c2_eq_R2.png)
 
-![](images/EM/gauges/s_gr_6.gif)
+Einstein showed that Egyptions in rockets could only agree on the inverval
+between events.
 
-![](images/EM/gauges/s_gr_7.gif)
-What is the simplest expression that all of these generator share?  I call it
-the field tensor F in the light gauge:
+![](images/EM/EM_invariants/dtau2_eq_dt2-dR2.png)
 
-![](images/EM/gauges/s_gr_8.gif)
+Accelerating or spinning is alright for observing events is you can figure out
+the right sort of functions to put into the interval.
 
-The light gauge is one sign different from the Lorenz gauge, but its generator
-is a simple as it gets.
+![](images/EM/EM_invariants/dtau2_eq_f_dt2-g_dR2.png)
 
-##  Implications
+Masters of general relativity can figure out the dynamic functions for _f_ and _g_
+in only a few special cases because the math remains so difficult. The proposal
+described in this site, quaternion gravity, should make this issue tractable
+since then one has an algebra problem instead of ten nonliner differential
+equations to solve.  For the rest of the discussion of EM, it is assumed f and
+g are equal to one since it makes the math simple.
 
-In the quaternion representation, the gauge is a scalar generated in such a
-way as to not alter the 3-vector.  In a lists of gauges in graduate-level
-quantum field theory written by Kaku, the light gauge did not make the list of
-the top 6 gauges.  There is a reason for this.  Gauges are presented as a
-choice for a physicist to make.  The most interesting gauges have to do with a
-long-running popularity contest.  The relationship between gauges is guessed,
-not written explicitly as was done here.  The term that did not make the cut
-stands out.  Perhaps some of the technical issues in quantum field theory
-might be tackled in this gauge using quaternions.
+The first term of a quaternion product is a Lorentz invariant scalar. Couple
+the current with the potential by multiplying them together:
 
-#  The Lorentz Force
+![](images/EM/EM_invariants/current_coupling.png)
 
-The Lorentz force acts on a moving charge.  The covariant form of this law is,
-where W is work and P is momentum:
+The electric and magentic fields can be written in terms of differential
+operators acting on a potential. Form the product:
 
-![](images/EM/Lorentz_force/s_gr_1.gif)
-In the classical case for a point charge, beta is zero and the E = k e/r^2, so
-the Lorentz force simplifies to Coulomb's law.  Rewrite this in terms of the
-potentials phi and A.
+![](images/EM/EM_invariants/DA.png)
 
-![](images/EM/Lorentz_force/s_gr_2.gif)
-In this notebook, I will look for a quaternion equation that can generate this
-covariant form of the Lorentz force in the Lorenz gauge.  By using potentials
-and operators, it may be possible to create other laws like the Lorentz force,
-in particular, one for gravity.
+The first term is a gauge term.  EM has gauge symmetry.  Set this to zero in a
+way that assures that no matter what gauge we pick - terms involving the time
+derivative of phi or divergence of A - the other terms are unchanged.
 
-##  A Quaternion Equation for the Lorentz Force
+![](images/EM/EM_invariants/DA_no_scalar.png)
 
-The Lorentz force is composed of two parts.  First, there is the E and B
-fields.  Generate those just as was done for the Maxwell equations
+There are two times of 3-vectors.  An axial vector will not change if the the
+order of the product is reverse.  A polar vector will flip signs by changing
+the order.  That is a property of cross products and curls.  Here are the two
+possibilities:
 
-![](images/EM/Lorentz_force/s_gr_3.gif)
+![](images/EM/EM_invariants/DA_no_scalar.png)
 
-Another component is the 4-velocity
+![](images/EM/EM_invariants/AD_no_scalar.png)
 
-![](images/EM/Lorentz_force/s_gr_4.gif)
-Multiplying these two terms together creates thirteen terms, only 5 of whom
-belong to the Lorentz force.  That should not be surprising since a bit of
-algebra was needed to select only the covariant terms that appear in the
-Maxwell equations.  After some searching, I found the combination of terms
-required to generate the Lorentz force.
+These should both be as "long" as each other, but will point in a different
+direction so long as the magnetic field B is not zero.  Zero is an invariant,
+so take the difference of the norms of both of these, and that will always,
+necssarily, be equal to zero.
 
-![](images/EM/Lorentz_force/s_gr_5.gif)
+![](images/EM/EM_invariants/norms_of_E_B.png)
 
-![](images/EM/Lorentz_force/s_gr_6.gif)
-This combination of differential quaternion operator, quaternion potential and
-quaternion 4-velocity generates the covariant form of the Lorentz operator in
-the Lorenz gauge, minus a factor of the charge e which operates as a scalar
-multiplier.
+The dot product of the electric and magnetic field will be used to derive the
+homogenous Maxwell equations, the no monopoles and Faraday's law.
 
-##  Implications
+The product of the two ways to multiply a differential and a potential also
+form an invariant:
 
-By writing the covariant form of the Lorentz force as an operator acting on a
-potential, it may be possible to create other laws like the Lorentz force.
-For point sources in the classical limit, these new laws must have the form of
-Coulomb's law, F = k e e'/r^2^.  An obvious candidate is Newton's law of
-gravity, F = - G m m'/r^2^.  This would require a different type of scalar
-potential, one that always had the same sign.
+![](images/EM/EM_invariants/B2-E2.png)
 
-#  The Maxwell Equations in the Light Gauge: QED?
-
-What makes a theory non-classical?  Use an operational definition: a classical
-approach neatly separates the scalar and vector terms of a quaternion.  Recall
-how the electric field was defined (where {A, B} is the even or symmetric
-product over 2, and [A, B] is the odd, antisymmetric product over two or cross
-product).
-
-![](images/EM/QED/s_gr_1.gif)
-![](images/EM/QED/s_gr_2.gif)
-The scalar information is explicitly discarded from the E field quaternion.
-In this notebook, the scalar field that arises will be examined and shown to
-be the field which gives rise to gauge symmetry.  The commutators and
-anticommutators of this scalar and vector field do not alter the homogeneous
-terms of the Maxwell equations, but may explain why light is a quantized,
-transverse wave.
-
-##  The E and B Fields, and the Gauge with No Name
-
-In the previous notebook, the electric field was generated differently from
-the magnetic field, since the scalar field was discard.  This time that will
-not be done.
-
-![](images/EM/QED/s_gr_3.gif)
-
-![](images/EM/QED/s_gr_4.gif)
-
-What is the name of the scalar field, d phi/dt - Del.A which looks like some
-sort of gauge?  It is not the Lorenz or Landau gauge which has a plus sign
-between the two.  It is none of the popular gauges: Coulomb (Del.A = 0), axial
-(Az = 0), temporal (phi = 0), Feynman, unitary...
-
-[special note: I am now testing the interpretation that this gauge constitutes
-the gravitational field.  See the section on Einstein's Vision]  
-
-The standard definition of a gauge starts with an arbitrary scalar function
-psi.  The following substitutions do not effect the resulting equations.
-
-![](images/EM/QED/s_gr_5.gif)
-![](images/EM/QED/s_gr_6.gif)
-This can be written as one quaternion transformation.
-
-![](images/EM/QED/s_gr_7.gif)
-
-The goal here is to find an arbitrary scalar and a 3-vector that does the same
-work as the scalar function psi.  Let
-
-![](images/EM/QED/s_gr_8.gif)
-Look at how the gauge symmetry changes by taking its derivative.
-
-![](images/EM/QED/s_gr_9.gif)
-
-This is the gauge with no name!  Call it the "light gauge".  That name was
-chosen because if the rate of change in the scalar potential phi is equal to
-the spatial change of the 3-vector potential A as should be the case for a
-photon, the distance is zero.
-
-##  The Maxwell Equations in the Light Gauge
-
-The homogeneous terms of the Maxwell equations are formed from the sum of both
-orders of the commutator and anticommutator.
-
-![](images/EM/QED/s_gr_10.gif)
-
-![](images/EM/QED/s_gr_11.gif)
-The source terms arise from of two commutators and two anticommutators.  In
-the classical case discussed in the previous notebook, this involved a
-difference.  Here a sum will be used because it generates a simpler
-differential equation.
-
-![](images/EM/QED/s_gr_12.gif)
-
-![](images/EM/QED/s_gr_13.gif)
-
-![](images/EM/QED/s_gr_14.gif)
-
-Notice how the scalar and vector parts have neatly partitioned themselves.
-This is a wave equation, except that a sign is flipped.  Here is the equation
-for a longitudinal wave like sound.
-
-![](images/EM/QED/s_gr_15.gif)
-The second time derivative of w must be the same as Del^2 w.  This has a
-solution which depends on sines and cosines (for simplicity, the details of
-initial and boundary conditions are skipped, and the infinite sum has been
-made finite).
-
-![](images/EM/QED/s_gr_16.gif)
-
-![](images/EM/QED/s_gr_17.gif)
-Hit w with two time derivatives, and out comes -n^2 pi^2 w.  Take Del^2, and
-that creates the same results.  Thus every value of n will satisfy the
-longitudinal wave equation.
-
-Now to find the solution for the sum of the second time derivative and Del^2.
-One of the signs must be switched by doing some operation twice.  Sounds like
-a job for i!  With quaternions, the square of a  normalized 3-vector equals
-(-1, 0), and it is i if y = z = 0 .  The solution to Maxwell's equations in
-the light gauge is
-
-![](images/EM/QED/s_gr_18.gif)
-
-![](images/EM/QED/s_gr_19.gif)
-
-Hit this two time derivatives yields -n^2 pi^2 w.  Del^2 w has all of this and
-the normalized phase factor V^2 = (-1, 0).  V acts like an imaginary phase
-factor that rotates the spatial component.  The sum for any n is zero (the
-details of the solution depend on the initial and boundary conditions).
-
-##  Implications
-
-The solution to the Maxwell equations in the light gauge is a superposition of
-waves--each with a separate value of n--where the spatial part gets rotated by
-the 3D analogue of i.  That is a quantized, transverse wave.  That's
-fortunate, because light is a quantized transverse wave.  The equations were
-generated by taking the classical Maxwell equations, and making them simpler.
-
-#  The Stress Tensor of the Electromagnetic Field
-
-I will outline a way to generate the terms of the symmetric 2-rank stress-
-momentum tensor of an electromagnetic field using quaternions.  This method
-may provide some insight into what information the stress tensor contains.
-
-Any equation written with 4-vectors can be rewritten with quaternions.  A
-straight translation of terms could probably be automated with a computer
-program.  What is more interesting is when an equation is generated by the
-product of operators acting on quaternion fields.  I have found that generator
-equations often yield useful insights.
-
-A tensor is a bookkeeping device designed to keep together elements that
-transform in a similar way.  People can choose alternative bookkeeping
-systems, so long as the tensor behaves the same way under transformations.
-Using the terms as defined in "The classical theory of fields" by Landau and
-Lifshitz, the antisymmetric 2-rank field tensor F is used to generate the
-stress tensor T
-
-![](images/EM/EM_stress_tensor/s_gr_1.gif)
-
-I have a practical sense of an E field (the stuff that makes my hair stand on
-end) and a B field (the invisible hand directing a compass), but have little
-sense of the field tensor F, a particular combination of the other two.
-Therefore, express the stress tensor T in terms of the E and B fields only:
-
-![](images/EM/EM_stress_tensor/s_gr_2.gif)
-![](images/EM/EM_stress_tensor/s_gr_3.gif)
-![](images/EM/EM_stress_tensor/s_gr_4.gif)
-![](images/EM/EM_stress_tensor/s_gr_5.gif)
-Together, the energy density(W), Poynting's vector (Sa) and the Maxwell stress
-tensor (m_ab) are all the components of the stress tensor of the
-electromagnetic field.
-
-##  Generating a Symmetric 2-Tensor Using Quaternions
-
-How should one rationally go about to find a generator equation that creates
-these terms instead of using the month-long hunt-and-peck technique actually
-used?  Everything is symmetric, so use the symmetric product:
-
-![](images/EM/EM_stress_tensor/s_gr_6.gif)
-
-The fields E and B are kept separate except for the cross product in the
-Poynting vector.  Individual directions of a field can be selected by using a
-unit vector Ua:
-
-![](images/EM/EM_stress_tensor/s_gr_7.gif)
-
-The following double sum generates all the terms of the stress tensor:
-
-![](images/EM/EM_stress_tensor/s_gr_8.gif)
-
-![](images/EM/EM_stress_tensor/s_gr_9.gif)
-
-![](images/EM/EM_stress_tensor/s_gr_10.gif)
-
-![](images/EM/EM_stress_tensor/s_gr_11.gif)
-
-The first line generates the energy density W, and part of the +0.5 delta(a,
-b)(E^2^ + B^2^) term of the Maxwell stress tensor.  The rest of that tensor is
-generated by the second line.  The third line creates the Poynting vector.
-Using quaternions, the net sum of these terms ends up in the scalar.
-
-Does the generator equation have the correct properties?  Switching the order
-of Ua and Ub leaves T unchanged, so it is symmetric.  Check the trace, when Ua
-= Ub
-
-![](images/EM/EM_stress_tensor/s_gr_12.gif)
-![](images/EM/EM_stress_tensor/s_gr_13.gif)
-
-The trace equals zero, as it should.
-
-The generator is composed of three parts that have different dependencies on
-the unit vectors: those terms that involve Ua and Ub, those that involve Ua or
-Ub, and those that involve neither.  These are the Maxwell stress tensor, the
-Poynting vector and the energy density respectively.  Changing the basis
-vectors Ua and Ub will effect these three components differently.
-
-##  Implications
-
-So what does the stress tensor represent?  It looks like every combination of
-the 3-vectors E and B that avoids quadratics (like Ex^2^) and over-counting
-cross terms.  I like what I will call the "net" stress quaternion:
-
-![](images/EM/EM_stress_tensor/s_gr_14.gif)
-![](images/EM/EM_stress_tensor/s_gr_15.gif)
-
-This has the same properties as an stress tensor.  Since the vector is zero,
-it commutes with any other quaternion (this may be a reason it is so useful).
-Switching x terms for y terms would flip the signs of the terms produced by
-the Poynting vector as required, but not the others.  There are no terms of
-the form Ex^2, which is equivalent to the statement that the trace of the
-tensor is zero.
-
-On a personal note, I never thought I would understand what a symmetric 2-rank
-tensor was, even though I listen in on a discussion of the topic.  Yes, I
-could nod along with the algebra, but without any sense of F, it felt hollow.
-Now that I have a generator and a net quaternion expression, it looks quite
-elegant and straightforward to me.
+This Lorentz invariant quantity will be used when deriving the Maxwell source
+equations, Gauss' and Ampere's laws.
 
 #  A Complete Inner Product Space with Dirac's Bracket Notation
 
