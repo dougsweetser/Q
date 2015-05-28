@@ -21,6 +21,7 @@ Gravity/space-times-time_invariance.md
 Gravity/essays_on_gravitation.md
 EM/derive_Euler-Lagrange.md
 EM/EM_invariants.md
+EM/derive_Maxwell_homogeneous_equations.md
 QM/bracket_notation.md
 QM/polar.md
 QM/uncertainty_principle.md
