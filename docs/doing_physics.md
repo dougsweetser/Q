@@ -3606,6 +3606,51 @@ rules of calculus. These rules create the second term which has a constant
 velocity and accurately describes the distribution of mass with respect to the
 radius, no dark matter required.
 
+# PDFs for further reading
+
+## This site
+
+The entire site is available a number of ways.
+
+Avaible for [$10 is a pdf, epub, or mobi file](https://leanpub.com/doingphysicswithquaternions).
+
+git clone https://github.com/dougsweetser/Q.git
+
+## Bit of this site
+
+1. [Where quaternions fit](math_structure.pdf) - 1 page
+1. [Quaternion space-times-time invariance as gravity](space-times-time_invariance.pdf) - 7 pages
+1. [Deriving the Maxwell source equations by hand](Maxwell_by_hand.pdf) - 1 page
+
+## Other people's efforts
+
+1. [Sudbery's first paper, "Quaternion Analysis"](Quaternionic-analysis-memo.pdf), (memo, 1977, 44 pages) on why quaternion analysis is no
+good.
+1. [Sudbery's second paper, same title](Quaternionic-analysis.pdf), (1979, 28 pages) on the topic. Please look to my work
+above on quaternion analysis for a much better alternative!.
+1. [C. A. Deavours paper, "The Quaternion Calculus"](deavours.pdf). My critique is that using his
+definition of a quaternion derivative, if a function like f=q is analytic in q,
+f^2 is not. That indicates a better definition must be found before quaternion
+analysis can really begin.
+1. [Salamin's paper, "Application of quaternions to computation with rotations"](stanfordaiwp79-salamin.pdf), (1979, 9 pages) on rotations.
+Howell and Lafon's paper (1975, 13 pages) on the efficiency of quaternion
+multiplication.
+1. [Silberstein's paper, "Quaternionic Form of Relativity"](Silberstein-Relativity.pdf), (1912, 20 pages) on using biquaternions for quaternion
+special relativity. Biquaternions are NOT an algebraic field, and are not used
+in any operations on this web site.
+
+## Gimble lock
+
+Resources on gimble lock, a problem that arises from not using quaternions for
+3D rotations, links provided by Alex Green:
+
+1. [Apollo](http://www.hq.nasa.gov/alsj/e-1344.htm)
+1. [A fourth gimbol for Christmas](http://www.hq.nasa.gov/alsj/gimbals.html)
+1. [skylab](http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19790072987_1979072987.pdf)
+1. [Gimble Lock - Explained](http://uk.youtube.com/watch?v=rrUCBOlJdt4). 
+
+Bottom line: always avoid Euler angles.
+
 ![](images/About/Bike/comfort_cruisers.jpg) 
 # The Frame for the Future  
   
