@@ -42,6 +42,7 @@ pages:
 - [EM/derive_Euler-Lagrange.md, EM, Derive the Euler-Lagrange equations]
 - [EM/EM_invariants.md, EM, EM invariants]
 - [EM/derive_Maxwell_homogeneous_equations.md, EM, Derive the Maxwell homogeneous equations]
+- [EM/derive_Maxwell_source_equations.md, EM, Derive the Maxwell source equations]
 - [QM/qm.md, QM, Quantum Mechanics]
 - [QM/bracket_notation.md, QM, Bracket notation and quaternions]
 - [QM/polar.md, QM, Multiplying polar representations]
