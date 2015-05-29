@@ -23,6 +23,7 @@ EM/derive_Euler-Lagrange.md
 EM/EM_invariants.md
 EM/derive_Maxwell_homogeneous_equations.md
 EM/derive_Maxwell_source_equations.md
+EM/Maxwell_by_hand.md
 QM/bracket_notation.md
 QM/polar.md
 QM/uncertainty_principle.md
