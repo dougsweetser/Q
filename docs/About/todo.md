@@ -1,11 +1,7 @@
 # To do
 
-1. EM, redo classical 
-    * x Euler-Lagrange
-    * Invariants
-    * Derive homogeneous
-    * Derive source eq
-1. SR page: Local vs global
+1. SR, Local vs global
+1. SR, backstory
 1. Publish e-books
 1. Stuff to e-books
 1. SRQ, fix navigation
@@ -28,6 +24,9 @@
 1. About/bike, more pictures, more story
 1. Pop Science web site, include cube
 1. buttons float
+1. EM, add +/- to summary patterns
+1. EM, more text at summary
+1. About Q Cards, site/book/
 
 ## Done
 
@@ -42,6 +41,12 @@
     * t-shirts
     * tsup DVDs
 1. EM
+1. EM, by hand
+1. EM, redo classical 
+    * Euler-Lagrange
+    * Invariants
+    * Derive homogeneous
+    * Derive source eq
 1. Fix umlaut on Schroding, Moller - &ouml;
 1. Github project: Q
 1. Google analytics
