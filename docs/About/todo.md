@@ -1,6 +1,7 @@
 # To do
 
 1. SR, Local vs global
+1. SR, Special relativity and special squares
 1. SR, backstory
 1. Publish e-books
 1. Stuff to e-books
