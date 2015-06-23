@@ -1533,8 +1533,24 @@ This is the standard physics of Special Relativity, the physics of moving.
 
 This site promotes a new proposal for gravity called Quaternion Gravity where
 the kids above or below agree on a different value they calculate, 
-space-times-time.  In this standard approach to gravity known as General 
+space-times-time. gIn this standard approach to gravity known as General 
 Relativity, this is almost, but not quite true.
+
+## For nerds
+
+Special relativity is special because it is restricted to inertial observers. g
+To cover more cases requires the machinery of differential geometry. gA tensor 
+can be added to another tensor or multiplied by a scalar. gAn interval is 
+formed by contracting two rank 1 contra-variant tensors with a symmetric, 
+rank-2 metric tensor. gA connection is needed to describe how the metric 
+changes in space-time. gThere are many technical choices one makes along the 
+way to calculating an interval in curved space-time.
+
+The site issues a formal challenge to the algebraic standards of differential 
+geometry used today by physics. In place of tensors, metrics, and connections, 
+only quaternions will be used. gFor those trained in the craft of differential 
+geometry, that should sound wildly inadequate. Doing more with less is always a
+challenge.
 
 # Special relativity
 
@@ -1550,28 +1566,131 @@ And there is that interval that is *exactly* the same size.
 Note: the numbers are **far too big** (off by 16 orders of magnitude, I just
 didn't want to write _lots_ of zeros).
 
+## For nerds
+
+Take measurements made by two observers written as quaternions and square them. 
+If the first terms are the same, then the two observers are in reference frames 
+that are moving in a steady way relative to each other. Note that the 
+observers can be in a gravity field which is a non-inertial reference frame, 
+but that does not cause an issue here.
+
+The observers do not have to make sure their coordinate systems are the same. 
+So long as both agree to compare so called natural units (a way to consistently 
+be dimensionless), then the numbers will be the same.
+
 # Quaternion gravity
 
 Looking down or looking from below changes time and space measurements in opposite ways.
 
 ![](images/Gravity/Measurement-101/QG.png)
 If one kid is at a different height in a gravity field to another, then
-time measurements get smaller while spatial ones get bigger.  That is standard 
+time measurements get smaller while spatial ones get bigger. That is standard 
 physics (general relativity, GR).
 
 The Quaternion Gravity (QG) proposal says the space-times-time values are 
-precisely the same.  With general relativity, this space-times-time is not 
+precisely the same. With general relativity, this space-times-time is not 
 mentioned, but it is almost - but not quite - the same.
 
 Note: the numbers are **far too big** (off by 16 orders of magnitude, I just
 didn't want to write _lots_ of zeros).
+
+## For nerds
+
+Special relativity could have been called "special invariance" because it is
+the invariant interval that all inertial observers argee upon. Inviarnce
+principles are deep insights into how Nature works. They are truths that do
+not change.
+
+The quaternion gravity proposal postulates a new invariance principle: that
+different observers making measurements in different locations in a
+gravitational field will agree on an invariant value for space-times-time.
+Some care is required to say this in a coordinate-independent way. All
+observers are free to pick their coordinate system. There then exists a
+norm-preserving rotation in space such that the space-times-time measurement of
+one observer is exactly equal to another.
+
+But how precisely does the interval change? For a spherically symmetric,
+non-rotating, unchanged source, only one dimensionless ratio comes into play:
+GM/c^2^R. Orbital systems are harmonic systems, suggesting that one use
+exponential of the dimensionless ratio. The requirment that the
+space-times-time term is invariant means the time term is the inverse of the
+exponential experienced by the space term, like so:
+
+![](images/Gravity/exp_GMc2R.png)
+
+The resulting exponential interval has the same form as the Rosen metric. The Rosen
+matric makes the same experimental predictions as the Schwarzschild metric for
+all weak field gravity tests to first order Parameterize Post-Newtonian (PPN)
+accuracy. At second order PPN accuracy, the exponential interval predicts 12%
+more bending of light around the Sun. We have yet to acheive the precision to 
+decide this issue on experimental data.
+
+Special relativity is not a field field theory. It is a constraint on all
+field theories. The quaternion gravity proposal is also not a field theory.
+Like special relativity, it is a constraint on all field theories. As such,
+there is no need for a graviton. Quaternion gravity makes the search for
+quantum gravity moot.
 
 # SR + QG - *S*pecial *R*elativity and *Q*uaternion *G*ravity
 
 This graphic says most of it...
 
 ![](images/Gravity/Measurement-101/all.png)
-[printable pdf](pdfs/sr_and_qg.all.pdf) or [editable svg](images/Gravity/Measurement-101/sr_and_qg.all.svg)
+Start with the reference square which has an interval of 16 and a space-times
+time of 30.
+
+Compare the reference square with the walkers. They all have the same interval
+of 16 because that in what is invariant for inertial observers, folks moving at
+a constant speed compared to the reference.
+
+Compare the reference square with the girl above and boy below. Because they
+are in a gravitational field, they are not inertial observers. The quaternion
+gravity proposal says the space-times-time value are exactly the same at 30.
+The interval will be of different sizes.
+
+If one compares a walker to one of the kids above or below, there is no overlap
+between them.
+
+## For nerds
+
+Since there is a gravitational field everywhere, there are no inertial
+observers. Working with the squares of quaternions, things are a little
+easier. Just compare the reference square with any other square. For the
+walkers, since they travel at a constant speed and are at the same location in
+the gravitational field as the reference square, they will have the same
+interval.
+
+The kids above and below are not moving compared to the reference square. By
+the quaternion gravity proposal, the space-times-time is an invariant. All
+agree on the value of 30. What then has to be different is the interval. But
+how different, and how does that depend on the gravitional source mass?
+
+Fortunately, there is no choice in answering the question if one is to be
+consistent with current experimental tests of gravity. For a spherically
+symmetric, non-rotating, uncharged source, gravity depends on the ratio of the
+graviational source mass over the distance to the center of that mass. Whatever
+function is used to make the time measurement smaller must be the exact inverse
+of the one that makes a spatial measurment larger. Since gravitational systems
+follow simple harmonic patterns for billions of years, an exponential and its
+inverse that depens on the M/R ratio is an obvious thing to propose.
+
+![](../../../Gravity/images/exp_GMc2R.png)
+
+The interval looks just like the Rosen bi-metric proposal, even though
+quaternion gravity uses no metrics. The Rosen metric is known to be consistent
+with current tests of weak field gravity up to first-order Parametrized
+Post-Newtonian accuracy. The extra metric creates a problem for Rosen's
+proposal since gravity waves would have a dipole moment and lose entry faster
+than observed. The simplicity of the quaternion gravity proposal would require
+for an isolated mass in space that the lowest mode of emission is a quadrapole,
+consistent with what is seen. Yet there is no graviton with quaternion gravity.
+The energy could be carried away with photons that happen to have a quadrapole
+moment, but no a dipole one.
+
+My entry to the [_2015 Awards for Essays on 
+Gravitation_](http://www.gravityresearchfoundation.org/index.html) is a more formal
+presentation of this research effort, [available as a
+pdf](../../Stuff/pdfs/space-times-time_invariance.pdf).
 
 # Quaternion Space-times-time Invariance as Gravity*
 
