@@ -3,8 +3,6 @@
 1. SR, Local vs global
 1. SR, Special relativity and special squares
 1. SR, backstory
-1. Publish e-books
-1. Stuff to e-books
 1. SRQ, fix navigation
 1. QM/The Dirac equation
 1. Dynamics graphs
@@ -66,6 +64,8 @@ leanpub.com, markua
 1. Side bar nav - Using default, works well.
 1. Special relativity: list problems
 1. SR book, leave only one chapter
+1. Q, Publish e-books
+1. Q, Stuff to e-books
 1. Title_page.png Q, like website
 1. Title_page.png, SR
 
