@@ -102,7 +102,7 @@ For two quaternions, b I and d I become the 3-vectors B and D, where    B = x
 I + y J + z K and similarly for D.  Multiplication of quaternions is like
 complex numbers, but with the addition of the cross product.
 
-![](images/Math/multiplying/s_gr_2.gif)
+![](images/Math/multiplying/s_gr_2.png)
 
 Note that the last term, the cross product, would change its sign if the order
 of multiplication were reversed (unlike all the other terms).  That is why
@@ -112,7 +112,7 @@ If a is the operator d/dt, and B is the del operator, or d/dx I + d/dy J \+
 d/dz K (all partial derivatives), then these operators act on the scalar
 function c and the 3-vector function D in the following manner:
 
-![](images/Math/multiplying/s_gr_3.gif)
+![](images/Math/multiplying/s_gr_3.png)
 
 This one quaternion contains the time derivatives of the scalar and 3-vector
 functions, along with the divergence, the gradient and the curl.  Dense
@@ -138,14 +138,15 @@ related to physics.
 There are two basic ways to multiply quaternions together.  There is the
 direct approach.
 
-![](images/Math/products/s_gr_1.gif)
+![](images/Math/products/s_gr_1.png)
 
 I call this the Grassman product (I don't know if anyone else does, but I need
 a label).  The inner product can also be called the symmetric product, because
 it does not change signs if the terms are reversed.
 
-![](images/Math/products/s_gr_2.gif)
-![](images/Math/products/s_gr_3.gif)
+![](images/Math/products/s_gr_2.png)
+
+![](images/Math/products/s_gr_3.png)
 
 I have defined the anticommutator (the bold curly braces) in a non-standard
 way, including a factor of two so I do not have to keep remembering to write
@@ -158,9 +159,9 @@ valid measurement.
 
 The Grassman outer product is antisymmetric and is formed with a commutator.
 
-![](images/Math/products/s_gr_4.gif)
+![](images/Math/products/s_gr_4.png)
 
-![](images/Math/products/s_gr_5.gif)
+![](images/Math/products/s_gr_5.png)
 
 This is the cross product defined for two 3-vectors.  It is unchanged for
 quaternions.
@@ -172,13 +173,13 @@ the transpose of one of the quaternions.  For a real-valued matrix
 representation, this is equivalent to multiplication by the conjugate which
 involves flipping the sign of the 3-vector.
 
-![](images/Math/products/s_gr_6.gif)
+![](images/Math/products/s_gr_6.png)
 
-![](images/Math/products/s_gr_7.gif)
+![](images/Math/products/s_gr_7.png)
 
 Form the Euclidean inner product.
 
-![](images/Math/products/s_gr_8.gif)
+![](images/Math/products/s_gr_8.png)
 
 The first term is the Euclidean norm if the two quaternions are the same (this
 was the reason for using the adjective "Euclidean").  The Euclidean inner
@@ -186,7 +187,7 @@ product is also the standard definition of a dot product.
 
 Form the Euclidean outer product.
 
-![](images/Math/products/s_gr_9.gif)
+![](images/Math/products/s_gr_9.png)
 
 The first term is zero.  The vector terms are an antisymmetric product of
 space with time and the negative of the cross product.
