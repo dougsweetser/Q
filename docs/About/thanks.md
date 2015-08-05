@@ -27,8 +27,8 @@ sense.
 Dr. Paul Romanelli. You tried to listen in the early days, and that mattered a
 lot.
 
-Prof. Guido Sandri, BU. I hope you find this page to be FANTASTIC. Prof.
-Sandri is an Italian antidepressant.
+Prof. Guido Sandri, BU, RIP. You were always FANTASTIC. Prof. Sandri was an 
+Italian antidepressant.
 
 Prof. Edwin F. Taylor, MIT, the world's best teacher of relativity.
 

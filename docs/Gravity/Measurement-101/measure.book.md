@@ -2,7 +2,7 @@
 
 Two stars go supernova while four kids watch.
 
-![](../../../images/Gravity/Measurement-101/measure.png)
+![](images/Gravity/Measurement-101/measure.png)
 
 There is a difference in time (dt).
 
