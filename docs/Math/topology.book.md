@@ -22,7 +22,7 @@ open set.  Define an open ball in H of radius (r, 0) centered around a point
 (y, Y) [note: small letters are scalars, capital letters are 3-vectors]
 consisting of points (x, X) such that
 
-![](images/Math/topology/s_gr_1.gif)
+![](images/Math/topology/s_gr_1.png)
 
 An open set in H is any set which can be expressed as a union of open balls.  
 [p. 423 translated] A quaternion topological space (H,T) consists of the set H
@@ -64,15 +64,15 @@ and U represent arbitrary lower and upper bounds respectively such that L &lt;
 U. For the quaternion topological space (H, T), consider an arbitrary induced
 topology (A, t) where x and a are elements of A. Use inequalities to define:
 
-![](images/Math/topology/s_gr_2.gif)
+![](images/Math/topology/s_gr_2.png)
 
-![](images/Math/topology/s_gr_3.gif)
+![](images/Math/topology/s_gr_3.png)
 
-![](images/Math/topology/s_gr_4.gif)
+![](images/Math/topology/s_gr_4.png)
 
-![](images/Math/topology/s_gr_5.gif)
+![](images/Math/topology/s_gr_5.png)
 
-![](images/Math/topology/s_gr_6.gif)
+![](images/Math/topology/s_gr_6.png)
 
 The union of an arbitrary collection of open sets is open.  
 The intersection of a finite number of open sets is open.  
@@ -81,7 +81,7 @@ The intersection of an arbitrary number of closed sets is closed.
 
 Clearly there are connections between the above definitions
 
-![](images/Math/topology/s_gr_7.gif)
+![](images/Math/topology/s_gr_7.png)
 This creates complementary ideas.  [Wald, p.424]  
 The interior of A is the union of all open sets contained within A.  
 The interior equals A if and only if A is open.  
@@ -99,13 +99,13 @@ What are the implications for physics?
 With quaternions, the existence an open set of events has nothing to do with
 the causality of that collection of events.
 
-![](images/Math/topology/s_gr_8.gif)
+![](images/Math/topology/s_gr_8.png)
 
-![](images/Math/topology/s_gr_9.gif)
+![](images/Math/topology/s_gr_9.png)
 
-![](images/Math/topology/s_gr_10.gif)
+![](images/Math/topology/s_gr_10.png)
 
-![](images/Math/topology/s_gr_11.gif)
+![](images/Math/topology/s_gr_11.png)
 
 A proper time can have exactly the same absolute value as a pure spacelike
 separation, so these two will be included in the same sets, whether open,
@@ -119,7 +119,7 @@ within limits.
 Although independent, these two ideas can be combined synergistically.
 Consider an open set S of timelike intervals.
 
-![](images/Math/topology/s_gr_12.gif)
+![](images/Math/topology/s_gr_12.png)
 
 The set S could depict a classical world history since they are causally
 linked and have good topological properties.  A closed set of lightlike events
@@ -139,11 +139,11 @@ the null set.
 For example, find the half-way point between a and b.  Let that be the radius
 of an open ball around the points a and b:
 
-![](images/Math/topology/s_gr_13.gif)
+![](images/Math/topology/s_gr_13.png)
 
-![](images/Math/topology/s_gr_14.gif)
+![](images/Math/topology/s_gr_14.png)
 
-![](images/Math/topology/s_gr_15.gif)
+![](images/Math/topology/s_gr_15.png)
 
 Neither set quite reaches the other, so their intersection is null.
 
@@ -165,7 +165,7 @@ has a finite subcover.
 Let's find an example of a compact set of quaternions.  Consider a set S
 composed of points with a finite number of absolute values:
 
-![](images/Math/topology/s_gr_16.gif)
+![](images/Math/topology/s_gr_16.png)
 
 The set S has an infinite number of members, since for any of the equalities,
 specifying the absolute value still leaves three degrees of freedom (if the
@@ -174,7 +174,7 @@ The set S can be covered by an open set {O} which could have an infinite
 number of members.  There exists a subset {C} of {O} that is finite and still
 covers S.  The subset {C} would have one member for each absolute value.
 
-![](images/Math/topology/s_gr_17.gif)
+![](images/Math/topology/s_gr_17.png)
 
 Every set of quaternions composed of a finite number of absolute values like
 the set S is compact.
@@ -196,7 +196,7 @@ closed and bound is to be compact.
 
 [Wald p. 425] Theorem 1 (Heine-Borel). A closed interval of quaternions S:
 
-![](images/Math/topology/s_gr_18.gif)
+![](images/Math/topology/s_gr_18.png)
 
 with the standard topology on H is compact.
 
