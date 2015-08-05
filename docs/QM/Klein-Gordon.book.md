@@ -3,7 +3,7 @@
 The relativistic quantum mechanic equation for a free particle is the Klein-
 Gordon equation (h=c=1)
 
-![](images/QM/Klein-Gordon/s_gr_1.gif)
+![](images/QM/Klein-Gordon/s_gr_1.png)
 
 The Schr&ouml;dinger equation results from the non-relativistic limit of this
 equation. In this section, the machinery of the Klein-Gordon equation will be
@@ -16,12 +16,12 @@ product of the conjugate of a wave function with another wave function forms a
 complete inner product space. In the energy/momentum representation, this
 would involve all possible energy levels and momenta.
 
-![](images/QM/Klein-Gordon/s_gr_2.gif)
+![](images/QM/Klein-Gordon/s_gr_2.png)
 
 This infinite sum of quaternions should contain all the information about a
 system.  The quaternion wave function can be normalized.
 
-![](images/QM/Klein-Gordon/s_gr_3.gif)
+![](images/QM/Klein-Gordon/s_gr_3.png)
 
 The first quaternion is the conjugate or transpose of the second.  Since the
 transpose of a quaternion wave function times a wave function creates a
@@ -35,9 +35,9 @@ wave function:  the D'Alembertian and the scalar m^2^.  The quaternion operator
 required to create the D'Alembertian, along with vector identities, has
 already been worked out for the Maxwell equations in the Lorenz gauge.
 
-![](images/QM/Klein-Gordon/s_gr_4.gif)
+![](images/QM/Klein-Gordon/s_gr_4.png)
 
-![](images/QM/Klein-Gordon/s_gr_5.gif)
+![](images/QM/Klein-Gordon/s_gr_5.png)
 
 The first term of the scalar, and the second term of the vector, are both
 equal to zero.  What is left is the D'Alembertian operator acting on the
@@ -51,9 +51,11 @@ function, there is En^2^-Pn^2^.  The sum of all these terms becomes m^2^.
 Set the sum of these two operators equal to zero to form the Klein-Gordon
 equation.
 
-![](images/QM/Klein-Gordon/s_gr_6.gif)
-![](images/QM/Klein-Gordon/s_gr_7.gif)
-![](images/QM/Klein-Gordon/s_gr_8.gif)
+![](images/QM/Klein-Gordon/s_gr_6.png)
+
+![](images/QM/Klein-Gordon/s_gr_7.png)
+
+![](images/QM/Klein-Gordon/s_gr_8.png)
 
 It takes some skilled staring to assure that this equation contains the Klein-
 Gordon equation along with vector identities.
@@ -65,7 +67,7 @@ the operators used to generate the Maxwell equations in the Lorenz gauge.  In
 the homogeneous case, the same operator acting on two different quaternions
 equals the same result.  This implies that
 
-![](images/QM/Klein-Gordon/s_gr_9.gif)
+![](images/QM/Klein-Gordon/s_gr_9.png)
 
 Under this interpretation, a nonzero mass changes the wave equation into a
 simple harmonic oscillator.  The simple relationship between the quaternion

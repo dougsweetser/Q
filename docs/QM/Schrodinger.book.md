@@ -5,7 +5,7 @@ also known as the Hamiltonian H) of the wave function psi, which contains all
 the dynamical information about a system.  Psi is a scalar function with
 complex values.
 
-![](images/QM/Schrodinger/s_gr_1.gif)
+![](images/QM/Schrodinger/s_gr_1.png)
 
 For the time-independent case, energy is written at the operator -i hbar d/dt,
 and kinetic energy as the square of the momentum operator, i hbar Del, over
@@ -23,17 +23,17 @@ might serve to damp runaway terms.
 The derivation starts from a curious place :-)  Write out classical angular
 momentum with quaternions.
 
-![](images/QM/Schrodinger/s_gr_2.gif)
+![](images/QM/Schrodinger/s_gr_2.png)
 
 What makes this "classical" are the zeroes in the scalars.  Make these into
 complete quaternions by bringing in time to go along with the space 3-vector
 R, and E with the 3-vector P.
 
-![](images/QM/Schrodinger/s_gr_3.gif)
+![](images/QM/Schrodinger/s_gr_3.png)
 
 Define a dimensionless quaternion psi that is this product over h bar.
 
-![](images/QM/Schrodinger/s_gr_4.gif)
+![](images/QM/Schrodinger/s_gr_4.png)
 
 The scalar part of psi is also seen in plane wave solutions of quantum
 mechanics.  The complicated 3-vector is a new animal, but notice it is
@@ -43,17 +43,17 @@ combinations of E, t, R and P should be involved in psi, as is the case here.
 
 Any quaternion can be expressed in polar form:
 
-![](images/QM/Schrodinger/s_gr_5.gif)
+![](images/QM/Schrodinger/s_gr_5.png)
 
 Express psi in polar form.  To make things simpler, assume that psi is
 normalized, so |psi| = 1.  The 3-vector of psi is quite complicated, so define
 one symbol to capture it:
 
-![](images/QM/Schrodinger/s_gr_6.gif)
+![](images/QM/Schrodinger/s_gr_6.png)
 
 Now rewrite psi in polar form with these simplifications:
 
-![](images/QM/Schrodinger/s_gr_7.gif)
+![](images/QM/Schrodinger/s_gr_7.png)
 
 This is what I call the quaternion wave function.  Unlike previous work with
 quaternionic quantum mechanics (see S. Adler's book "Quaternionic Quantum
@@ -76,20 +76,20 @@ following assumptions.
 
 1\. Energy and Momentum are conserved.
 
-![](images/QM/Schrodinger/s_gr_8.gif)
+![](images/QM/Schrodinger/s_gr_8.png)
 
 2.  Energy is evenly distributed in space 
 
-![](images/QM/Schrodinger/s_gr_9.gif)
+![](images/QM/Schrodinger/s_gr_9.png)
 
 3\. The system is isolated
 
-![](images/QM/Schrodinger/s_gr_10.gif)
+![](images/QM/Schrodinger/s_gr_10.png)
 
 4\. The position 3-vector X is in the same direction as the momentum 3-vector
 P
 
-![](images/QM/Schrodinger/s_gr_11.gif)
+![](images/QM/Schrodinger/s_gr_11.png)
 
 The implications of this last assumption are not obvious but can be computed
 directly by taking the appropriate derivative.  Here is a verbal explanation.
@@ -107,7 +107,7 @@ in information content.  This particular constraint is a reflection of that.
 
 Now take the time derivative of psi.
 
-![](images/QM/Schrodinger/s_gr_12.gif)
+![](images/QM/Schrodinger/s_gr_12.png)
 
 The denominator must be at least 1, and can be greater that that.  It can
 serve as a damper, a good thing to tame runaway terms.  Unfortunately, it also
@@ -115,37 +115,37 @@ makes solving explicitly for energy impossible unless Et - P.X equals zero.
 Since the goal is to make a direct connection to the Schr&ouml;dinger equation,
 make one final assumption:
 
-![](images/QM/Schrodinger/s_gr_13.gif)
+![](images/QM/Schrodinger/s_gr_13.png)
 
 There are several important cases when this will be true.  In a vacuum, E and
 P are zero.  If this is used to study photons, then t = |R| and E = |P|.  If
 this number happens to be constant in time, then this equation will apply to
 the wave front.
 
-![](images/QM/Schrodinger/s_gr_14.gif)
+![](images/QM/Schrodinger/s_gr_14.png)
 
 Now with these 5 assumptions in hand, energy can be defined with an operator.
 
-![](images/QM/Schrodinger/s_gr_15.gif)
+![](images/QM/Schrodinger/s_gr_15.png)
 
-![](images/QM/Schrodinger/s_gr_16.gif)
+![](images/QM/Schrodinger/s_gr_16.png)
 
 The equivalence of the energy E and this operator is called the first
 quantization.
 
 Take the spatial derivative of psi using the under the same assumptions:
 
-![](images/QM/Schrodinger/s_gr_17.gif)
+![](images/QM/Schrodinger/s_gr_17.png)
 
-![](images/QM/Schrodinger/s_gr_18.gif)
+![](images/QM/Schrodinger/s_gr_18.png)
 
 Square this operator.
 
-![](images/QM/Schrodinger/s_gr_19.gif)
+![](images/QM/Schrodinger/s_gr_19.png)
 
 The Hamiltonian equals the kinetic energy plus the potential energy.
 
-![](images/QM/Schrodinger/s_gr_20.gif)
+![](images/QM/Schrodinger/s_gr_20.png)
 
 Typographically, this looks very similar to the Schr&ouml;dinger equation.  Capital
 I is a normalized 3-vector, and a very complicated one at that if you review

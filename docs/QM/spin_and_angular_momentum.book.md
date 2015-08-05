@@ -24,19 +24,19 @@ with automorphisms, 4 are required:  They are the identity automorphism, the
 conjugate anti-automorphism, the first conjugate anti-automorphism, and the
 second conjugate anti-automorphism:
 
-![](images/QM/spin_and_angular_momentum/s_gr_1.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_1.png)
 
-![](images/QM/spin_and_angular_momentum/s_gr_2.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_2.png)
 
-![](images/QM/spin_and_angular_momentum/s_gr_3.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_3.png)
 
-![](images/QM/spin_and_angular_momentum/s_gr_4.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_4.png)
 
 where
 
-![](images/QM/spin_and_angular_momentum/s_gr_5.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_5.png)
 
-![](images/QM/spin_and_angular_momentum/s_gr_6.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_6.png)
 
 e1, e2, e3 are orthogonal basis vectors
 
@@ -60,11 +60,11 @@ Mechanics", chapter 3, making modifications necessary to accommodate
 quaternions.  First, consider rotations about the origin in the z axis.
 Define:
 
-![](images/QM/spin_and_angular_momentum/s_gr_7.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_7.png)
 
-![](images/QM/spin_and_angular_momentum/s_gr_8.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_8.png)
 
-![](images/QM/spin_and_angular_momentum/s_gr_9.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_9.png)
 
 Two technical points.  First, Sakurai considered rotations around any point
 along the z axis.  This analysis is confined to the z axis at the origin, a
@@ -76,31 +76,31 @@ to do quaternion analysis (please see that section, it's great :-)
 
 There are similar rotations around the first and second axes at the origin;
 
-![](images/QM/spin_and_angular_momentum/s_gr_10.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_10.png)
 
-![](images/QM/spin_and_angular_momentum/s_gr_11.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_11.png)
 
 Consider an infinitesimal rotation for these three rotation operators.  To
 second order in theta,
 
-![](images/QM/spin_and_angular_momentum/s_gr_12.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_12.png)
 
-![](images/QM/spin_and_angular_momentum/s_gr_13.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_13.png)
 
-![](images/QM/spin_and_angular_momentum/s_gr_14.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_14.png)
 
-![](images/QM/spin_and_angular_momentum/s_gr_15.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_15.png)
 
 Calculate the commutator of the first two infinitesimal rotation operators to
 second order in theta:
 
-![](images/QM/spin_and_angular_momentum/s_gr_16.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_16.png)
 
-![](images/QM/spin_and_angular_momentum/s_gr_17.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_17.png)
 
-![](images/QM/spin_and_angular_momentum/s_gr_18.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_18.png)
 
-![](images/QM/spin_and_angular_momentum/s_gr_19.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_19.png)
 
 To second order, the commutator of infinitesimal rotations of rotations about
 the first two axes equals twice one rotation about the third axis given the
@@ -108,24 +108,24 @@ squared angle minus a zero rotation about an arbitrary axis (a fancy way to
 say the identity). Now I want to write this result using anti-automorphic
 involutions for the small rotation operators.
 
-![](images/QM/spin_and_angular_momentum/s_gr_20.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_20.png)
 
-![](images/QM/spin_and_angular_momentum/s_gr_21.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_21.png)
 
-![](images/QM/spin_and_angular_momentum/s_gr_22.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_22.png)
 
-![](images/QM/spin_and_angular_momentum/s_gr_23.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_23.png)
 
 Nothing has changed.  Repeat this exercise one last time for the first
 conjugate:
 
-![](images/QM/spin_and_angular_momentum/s_gr_24.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_24.png)
 
-![](images/QM/spin_and_angular_momentum/s_gr_25.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_25.png)
 
-![](images/QM/spin_and_angular_momentum/s_gr_26.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_26.png)
 
-![](images/QM/spin_and_angular_momentum/s_gr_27.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_27.png)
 
 This points exactly the opposite way,even for an infinitesimal angle!
 
@@ -141,7 +141,7 @@ pi, because the minus of a minus will generate a plus.
 This is a very specific example.  Is there a general identity behind this
 work?  Here it is:
 
-![](images/QM/spin_and_angular_momentum/s_gr_28.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_28.png)
 
 It is usually a good sign if a proposal gets more subtle by generalization :-)
 In this case, the negative sign seen on the z axis for the first conjugate
@@ -154,17 +154,17 @@ With the identity, we can see exactly what happens if q changes places with q'
 with a commutator.  Notice, I stopped right at the commutator (not including
 any additional conjugator).  In that case:
 
-![](images/QM/spin_and_angular_momentum/s_gr_29.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_29.png)
 
-![](images/QM/spin_and_angular_momentum/s_gr_30.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_30.png)
 
-![](images/QM/spin_and_angular_momentum/s_gr_31.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_31.png)
 
-![](images/QM/spin_and_angular_momentum/s_gr_32.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_32.png)
 
-![](images/QM/spin_and_angular_momentum/s_gr_33.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_33.png)
 
-![](images/QM/spin_and_angular_momentum/s_gr_34.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_34.png)
 
 Under an exchange, the identity and conjugate commutators form a distinct
 group from the commutators formed with the first and second conjugates.  The
@@ -174,7 +174,7 @@ similar, but not identical.
 
 There are also corresponding identities for the anti-commutator:
 
-![](images/QM/spin_and_angular_momentum/s_gr_35.gif)
+![](images/QM/spin_and_angular_momentum/s_gr_35.png)
 
 At this point, I don't know how to use them, but again, the identity and first
 conjugates appear to behave differently that the first and second conjugates.
