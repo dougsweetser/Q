@@ -99,14 +99,14 @@ working on this...
 Multiplying two complex numbers a + b I and c + d I is straightforward.
 
 ![\(a, b\) times \(c, d\) = \(ac - bd, ad +
-bc\)](images/Math/multiplying/s_gr_1.png)
+bc\)](../images/Math/multiplying/s_gr_1.png)
 
 For two quaternions, b I and d I become the 3-vectors B and D, where    B = x
 I + y J + z K and similarly for D.  Multiplication of quaternions is like
 complex numbers, but with the addition of the cross product.
 
 ![\(a, B\) times \(c, D\) = \(ac -  B dot D, a D +  B c +  B cross
-D\)](images/Math/multiplying/s_gr_2.gif)
+D\)](../images/Math/multiplying/s_gr_2.gif)
 
 Note that the last term, the cross product, would change its sign if the order
 of multiplication were reversed (unlike all the other terms).  That is why
@@ -117,7 +117,7 @@ d/dz K (all partial derivatives), then these operators act on the scalar
 function c and the 3-vector function D in the following manner:
 
 ![\(d/dt, Del\) times \(c, D\) = \(c dot -  div D, D dot + Del c + Curl
-D\)](images/Math/multiplying/s_gr_3.gif)
+D\)](../images/Math/multiplying/s_gr_3.gif)
 
 This one quaternion contains the time derivatives of the scalar and 3-vector
 functions, along with the divergence, the gradient and the curl.  Dense
@@ -144,16 +144,16 @@ There are two basic ways to multiply quaternions together.  There is the
 direct approach.
 
 ![\(t, X\) times \(t prime , X prime\) = \(t t prime  - X dot X prime , t X
-prime  + X t prime  + X cross X prime\)](images/Math/products/s_gr_1.gif)
+prime  + X t prime  + X cross X prime\)](../images/Math/products/s_gr_1.gif)
 
 I call this the Grassman product (I don't know if anyone else does, but I need
 a label).  The inner product can also be called the symmetric product, because
 it does not change signs if the terms are reversed.
 
-![even\(\(t, X\),\(t prime , X\)\) is defined to be](images/Math/products/s_gr_2.gif)
+![even\(\(t, X\),\(t prime , X\)\) is defined to be](../images/Math/products/s_gr_2.gif)
 
 ![\(\(t, X\) times \(t prime , X\) + \(t prime , X\) times \(t, X\)\) over 2 =
-\(t t prime  -X dot X, X + t prime\)](images/Math/products/s_gr_3.gif)
+\(t t prime  -X dot X, X + t prime\)](../images/Math/products/s_gr_3.gif)
 
 I have defined the anticommutator (the bold curly braces) in a non-standard
 way, including a factor of two so I do not have to keep remembering to write
@@ -167,10 +167,10 @@ valid measurement.
 The Grassman outer product is antisymmetric and is formed with a commutator.
 
 ![odd\(\(t, X\),\(t prime , X prime\)\) is defined to
-be](images/Math/products/s_gr_4.gif)
+be](../images/Math/products/s_gr_4.gif)
 
 ![\(\(t, X\) times \(t prime , X prime\) - \(t prime , X prime\) times \(t,
-X\)\) over 2 = \(0, X cross X prime\)](images/Math/products/s_gr_5.gif)
+X\)\) over 2 = \(0, X cross X prime\)](../images/Math/products/s_gr_5.gif)
 
 This is the cross product defined for two 3-vectors.  It is unchanged for
 quaternions.
@@ -183,16 +183,16 @@ representation, this is equivalent to multiplication by the conjugate which
 involves flipping the sign of the 3-vector.
 
 ![\(t, X\) times \(t prime , X prime\) conjugated = \(t, -X\) times \(t prime
-, X prime\) = ](images/Math/products/s_gr_6.gif)
+, X prime\) = ](../images/Math/products/s_gr_6.gif)
 
 ![= \(t t prime  +X dot X prime , t X prime -t prime  X - X cross X
-prime\)](images/Math/products/s_gr_7.gif)
+prime\)](../images/Math/products/s_gr_7.gif)
 
 Form the Euclidean inner product.
 
 ![\(\(t, X\) conjugated times \(t prime , X prime\) + \(t prime , X prime\)
 conjugated \(t, X\)\) over 2 = \(t t prime  + X dot X prime ,
-0\)](images/Math/products/s_gr_8.gif)
+0\)](../images/Math/products/s_gr_8.gif)
 
 The first term is the Euclidean norm if the two quaternions are the same (this
 was the reason for using the adjective "Euclidean").  The Euclidean inner
@@ -202,7 +202,7 @@ Form the Euclidean outer product.
 
 ![\(t, X\) conjugated times \(t prime , X prime\) - \(t prime , X prime\)
 conjugated times \(t, X\) over 2 = \(0, t X prime  - X t prime  - X cross X
-prime\)](images/Math/products/s_gr_9.gif)
+prime\)](../images/Math/products/s_gr_9.gif)
 
 The first term is zero.  The vector terms are an antisymmetric product of
 space with time and the negative of the cross product.
@@ -454,7 +454,7 @@ true no matter what coordinate system is chosen.
 A quaternion has 4 degrees of freedom, so it needs 4 real-valued variables to
 be defined:
 
-![q = \(a0, a1, a2, a3\)](images/Math/analysis/s_gr_1.gif)
+![q = \(a0, a1, a2, a3\)](../images/Math/analysis/s_gr_1.gif)
 
 Imagine we want to do a simple binary operation such as subtraction, without
 having to specify the coordinate system chosen.  Subtraction will only work if
@@ -464,7 +464,7 @@ we can define the difference between two quaternion q and q' that is
 independent of the coordinate system used for the measurement.
 
 ![dq = q prime  - q = \(\(a0 prime  - a0\) e0, \(a1 prime  - a1\) e1/3, \(a2
-prime  - a2\) e2/3, \(a3 prime  - a3\) e3/3\)](images/Math/analysis/s_gr_2.gif)
+prime  - a2\) e2/3, \(a3 prime  - a3\) e3/3\)](../images/Math/analysis/s_gr_2.gif)
 
 What is unusual about this definition are the factors of a third.  They will
 be necessary later in order to define a holonomic equation later in this
@@ -477,7 +477,7 @@ If dq is squared, the scalar part of the resulting quaternion forms a metric.
 
 ![dq squared = \(da0 squared e0 squared + da1 squared e1 squared over 9 + da2
 squared e2 squared over 9 + da3 squared e3 squared over 9, 2 da0 da1 e0 e1
-over 3, 2 da0 da2 e0 e2 over 3, 2 da0 da3 e0 e3 over 3\)](images/Math/analysis/s_gr_3.gif)
+over 3, 2 da0 da2 e0 e2 over 3, 2 da0 da3 e0 e3 over 3\)](../images/Math/analysis/s_gr_3.gif)
 
 What should the connection be between the squares of the basis vectors?  The
 amount of intrinsic curvature should be equal, so that a transformation
@@ -487,7 +487,7 @@ suggests otherwise.  Let e1, e2, and e3 form an independent, dimensionless,
 orthogonal basis for the 3-vector such that:
 
 ![- 1 over e1 squared = - 1 over e2 squared = - 1 over e3 squared = e0
-squared](images/Math/analysis/s_gr_4.gif)
+squared](../images/Math/analysis/s_gr_4.gif)
 
 This unusual relationship between the basis vectors is consistent with
 Hamilton's choice of 1, i, j, k if e0^2 = 1.  For that case, calculate the
@@ -495,7 +495,7 @@ square of dq:
 
 ![dq squared = \(da0 squared e0 squared - da1 squared over 9 e0 squared - da2
 squared over 9 e0 squared - da3 squared over 9 e0 squared, 2 da0 da1 over 3, 2
-da0 da2 over 3, 2 da0 da3 over 3\) ](images/Math/analysis/s_gr_5.gif)
+da0 da2 over 3, 2 da0 da3 over 3\) ](../images/Math/analysis/s_gr_5.gif)
 
 The scalar part is known in physics as the Minkowski interval between two
 events in flat spacetime.  If e0^2 does not equal one, then the metric would
@@ -505,7 +505,7 @@ R), and calculate the square of dq:
 
 ![dq squared = \(da0 squared \(1 - 2 G M over c squared r\) - dA dot dA over 9
 \(1 - 2 G M over c squared r\) , 2 da0 da1 over 3, 2 da0 da2 over 3, 2 da0 da3
-over 3\) ](images/Math/analysis/s_gr_6.gif)
+over 3\) ](../images/Math/analysis/s_gr_6.gif)
 
 This is the Schwarzchild metric of general relativity.  Notice that the
 3-vector is unchanged (this may be a defining characteristic).  There are very
@@ -522,13 +522,13 @@ independent variables involving q can be defined using conjugates combined
 with rotations:
 
 ![q conjugated = \(a0 e0, - a1 e1 over 3, - a2 e2 over 3, - a3 e3 over
-3\)](images/Math/analysis/s_gr_7.gif)
+3\)](../images/Math/analysis/s_gr_7.gif)
 
 ![q conjugated first is defined to be \(- a0 e0,  a1 e1 over 3, - a2 e2 over
-3, - a3 e3 over 3\) = \(e1 q e1\) conjugated](images/Math/analysis/s_gr_8.gif)
+3, - a3 e3 over 3\) = \(e1 q e1\) conjugated](../images/Math/analysis/s_gr_8.gif)
 
 ![q conjugated second is defined to be \(- a0 e0, - a1 e1 over 3,  a2 e2 over
-3, - a3 e3 over 3\) = \(e2 q e2\) conjugated](images/Math/analysis/s_gr_9.gif)
+3, - a3 e3 over 3\) = \(e2 q e2\) conjugated](../images/Math/analysis/s_gr_9.gif)
 
 The conjugate as it is usually defined (q*) flips the sign of all but the
 scalar.  The q*1 flips the signs of all but the e1 term, and q*2 all but the
@@ -536,21 +536,21 @@ e2 term.  The set q, q*, q*1, q*2 form the basis for quaternion analysis.  The
 conjugate of a conjugate should give back the original quaternion.
 
 ![\(q conj\) conj = q, \(q conjugated first\) conjugated first = q, \(q
-conjugated second\) conjugated second = q](images/Math/analysis/s_gr_10.gif)
+conjugated second\) conjugated second = q](../images/Math/analysis/s_gr_10.gif)
 
 Something subtle but perhaps directly related to spin happens looking at how
 the conjugates effect products:
 
 ![\(q times q prime\) conjugated first = q prime  conjugated first times q
-conjugated first](images/Math/analysis/s_gr_11.gif)
+conjugated first](../images/Math/analysis/s_gr_11.gif)
 
 ![\(q times q prime\) conjugated first = - q prime  conjugated first times q
 conjugated first, \(q times q prime\) conjugated second = - q prime conjugated
-second times q conjugated second](images/Math/analysis/s_gr_12.gif)
+second times q conjugated second](../images/Math/analysis/s_gr_12.gif)
 
 ![\(q times q prime times q times q prime\) conjugated first = q prime
 conjugated first times q conjugated first times q prime conjugated first times
-q conjugated first](images/Math/analysis/s_gr_13.gif)
+q conjugated first](../images/Math/analysis/s_gr_13.gif)
 
 The conjugate applied to a product brings the result directly back to the
 reverse order of the elements.  The first and second conjugates point things
@@ -583,11 +583,11 @@ words, from the future).  The net effect of these two limit processes is that
 D-&gt;0\.
 
 ![d f\(q, q conjugated, q conjugated first, q conjugated second\) over d q
-=](images/Math/analysis/s_gr_14.gif)
+=](../images/Math/analysis/s_gr_14.gif)
 
 ![= the limit as the scalar d approaches zero from the positive direction of
 \(the limit as \(d, D\) approaches the scalar \(d, 0\) of \(f\(q + \(d, D\), q
-conjugated, q conjugated first, q conjugated second\) - f\(q, q conjugated, q conjugated first, q conjugated second\) times \(d, D\) inverted\)\)](images/Math/analysis/s_gr_15.gif)
+conjugated, q conjugated first, q conjugated second\) - f\(q, q conjugated, q conjugated first, q conjugated second\) times \(d, D\) inverted\)\)](../images/Math/analysis/s_gr_15.gif)
 
 The definition is invariant under a passive transformation of the basis.
 
@@ -595,61 +595,61 @@ The 4 real variables a0, a1, a2, a3 can be represented by functions using the
 conjugates as a basis.
 
 ![f\(q, q conjugated, q conjugated first, q conjugated second\) = a0 = e0 \(q
-+ q conjugated\) over 2](images/Math/analysis/s_gr_16.gif)
++ q conjugated\) over 2](../images/Math/analysis/s_gr_16.gif)
 
 ![f = a1 = e1 \(q + q conj 1\) over \(-2 over 3\) = \(q + q conjugated first\)
-e1 over \(-2 over 3\)](images/Math/analysis/s_gr_17.gif)
+e1 over \(-2 over 3\)](../images/Math/analysis/s_gr_17.gif)
 
 ![f = a2 = e2 \(q + q conjugated second\) over \(-2 over 3\) = \(q + q
-conjugated second\) e2 over \(-2 over 3\)](images/Math/analysis/s_gr_18.gif)
+conjugated second\) e2 over \(-2 over 3\)](../images/Math/analysis/s_gr_18.gif)
 
 ![f = a3 = e3 times \(q + q conjugated + q conjugated first + the second
 conjugated of q\) over \(2 over 3\) = \(q + q conjugated + q conjugated first
-+ the second conjugated of q\) times e3 over \(2 over 3\)](images/Math/analysis/s_gr_19.gif)
++ the second conjugated of q\) times e3 over \(2 over 3\)](../images/Math/analysis/s_gr_19.gif)
 
 Begin with a simple example:
 
-![f = a0 = \(q + q conjugated\) over 2](images/Math/analysis/s_gr_20.gif)
+![f = a0 = \(q + q conjugated\) over 2](../images/Math/analysis/s_gr_20.gif)
 
 ![d a0 by d q = da0 by d q conjugated = the limit of \(the limit of\(\(e0\(q +
 \(d, D\) + q conjugated\) - \(q + q conjugated\)\) times the inverse of
-\(2\(d, D\)\)\)\) = e0 over 2](images/Math/analysis/s_gr_21.gif)
+\(2\(d, D\)\)\)\) = e0 over 2](../images/Math/analysis/s_gr_21.gif)
 
 ![ d a0 by d q conjugated first = da0 by d q conjugated second =  0
-](images/Math/analysis/s_gr_22.gif)
+](../images/Math/analysis/s_gr_22.gif)
 
 The definition gives the expected result.
 
 A simple approach to a trickier example:
 
 ![f = a1 = e1 \(q + q conjugated first\) over \(- 2 over 3\)
-](images/Math/analysis/s_gr_23.gif)
+](../images/Math/analysis/s_gr_23.gif)
 
 ![d a1 by d q = d a1 by d q conjugated = the limit of \(the limit of\(e1 times
 \(\(q + \(d, D\) + q conjugated first\) - \(q + q conjugated first\)\) times
-the inverse of \(-2 over 3 \(d, D\)\)\)\) = - 3 e1 over 2](images/Math/analysis/s_gr_24.gif)
+the inverse of \(-2 over 3 \(d, D\)\)\)\) = - 3 e1 over 2](../images/Math/analysis/s_gr_24.gif)
 
 ![d a1 over d q conjugated  = d a1 over d q conjugated second =
-0](images/Math/analysis/s_gr_25.gif)
+0](../images/Math/analysis/s_gr_25.gif)
 
 So far, the fancy double limit process has been irrelevant for these identity
 functions, because the differential element has been eliminated.  That changes
 with the following example, a tricky approach to the same result.
 
 ![f = a1 = \(q + q conjugated first\) times e1 over \(-2 over 3\)
-](images/Math/analysis/s_gr_26.gif)
+](../images/Math/analysis/s_gr_26.gif)
 
-![d a1 by d q  =  d a1 by d q conjugated first =](images/Math/analysis/s_gr_27.gif)
+![d a1 by d q  =  d a1 by d q conjugated first =](../images/Math/analysis/s_gr_27.gif)
 
 ![= the  limit of\(the limit of\(\(\(q + \(d, D\) + q conjugated first\) - \(q
 + q conjugated first\)\) times e1 \(-2 over 3 \(d, D\)\) inverted\)\)
-=](images/Math/analysis/s_gr_28.gif)
+=](../images/Math/analysis/s_gr_28.gif)
 
 ![= the limit of\(the limit of\(\(d, D\) times e1 \(-2 over 3 \(d, D\)\)
-inverted\)\) =](images/Math/analysis/s_gr_29.gif)
+inverted\)\) =](../images/Math/analysis/s_gr_29.gif)
 
 ![= the limit of \(\(d, 0\) times e1 times \(-2 over 3 \(d, 0\)\) inverted\) =
-- 3 over 2 e1](images/Math/analysis/s_gr_30.gif)
+- 3 over 2 e1](../images/Math/analysis/s_gr_30.gif)
 
 Because the 3-vector goes to zero faster than the scalar for the differential
 element, after the first limit process, the remaining differential is a scalar
@@ -660,10 +660,10 @@ The initial hypothesis was that complex analysis should be a self-evident
 subset of quaternion analysis.  So this quaternion derivative should match up
 with the complex case, which is:
 
-![z = a + b i, y = \(Z - Z conjugated\) over 2 i](images/Math/analysis/s_gr_31.gif)
+![z = a + b i, y = \(Z - Z conjugated\) over 2 i](../images/Math/analysis/s_gr_31.gif)
 
 ![d b by d z = - i over 2 = - d b by d Z
-conjugated](images/Math/analysis/s_gr_32.gif)
+conjugated](../images/Math/analysis/s_gr_32.gif)
 
 These are the same result up to two subedits.  Quaternions have three
 imaginary axes, which creates the factor of three.  The conjugate of a complex
@@ -673,19 +673,19 @@ others.
 
 The derivative of a quaternion applies equally well to polynomials.
 
-![let f = q squared](images/Math/analysis/s_gr_33.gif)
+![let f = q squared](../images/Math/analysis/s_gr_33.gif)
 
 ![d f by d q = the limit of\(the limit of \(\(\(q + \(d, D\)\) squared - q
-squared\) times \(d, D\) inverted\)\) =](images/Math/analysis/s_gr_34.gif)
+squared\) times \(d, D\) inverted\)\) =](../images/Math/analysis/s_gr_34.gif)
 
 ![= the limit of \(the limit of \(\(q squared + q times \(d, D\) + \(d, D\)
 times q + \(d, D\) squared - q squared\) times \(d, D\) inverted\)\)
-=](images/Math/analysis/s_gr_35.gif)
+=](../images/Math/analysis/s_gr_35.gif)
 
 ![= the limit of \(the limit of \(\(q + \(d, D\) times q times \(d, D\)
-inverted + \(d, D\)\)\) =](images/Math/analysis/s_gr_36.gif)
+inverted + \(d, D\)\)\) =](../images/Math/analysis/s_gr_36.gif)
 
-![= the limit of \(2 q + \(d, 0\)\) = 2 q](images/Math/analysis/s_gr_37.gif)
+![= the limit of \(2 q + \(d, 0\)\) = 2 q](../images/Math/analysis/s_gr_37.gif)
 
 This is the expected result for this polynomial.  It would be straightforward
 to show that all polynomials gave the expected results.
@@ -705,45 +705,45 @@ following table describes the 16 derivatives for this set
 derivatives with respect to q are e0/2, - 3 e1/2, - 3 e2/3, 3 e3/3; the
 derivatives with respect to q conj are e0/2, 0, 0, 3 e3/3;the derivatives with
 respect to q conj1 are 0, - 3 e1/2, 0, 3 e3/3;the derivatives with respect to
-q conj2 are 0, 0, - 3 e2/2, 3 e3/3;](images/Math/analysis/s_gr_38.gif)
+q conj2 are 0, 0, - 3 e2/2, 3 e3/3;](../images/Math/analysis/s_gr_38.gif)
 
 This table will be used extensively to evaluate if a function is analytic
 using the chain rule.  Let's see if the identity function w = q is analytic.
 
 ![Let w = q = \(a0 e0,  a1 e1 over 3, a2 e2 over 3, a3 e3 over
-3\)](images/Math/analysis/s_gr_39.gif)
+3\)](../images/Math/analysis/s_gr_39.gif)
 
 Use the chain rule to calculate the derivative will respect to each term:
 
 ![d w by d a0 times d a0 by d q = e0 e0 over 2 = 1
-half](images/Math/analysis/s_gr_40.gif)
+half](../images/Math/analysis/s_gr_40.gif)
 
 ![d w by d a1 time d a1 by d q = e1 over 3 times e1 over \(-2 over 3\) = 1
-half](images/Math/analysis/s_gr_41.gif)
+half](../images/Math/analysis/s_gr_41.gif)
 
 ![d w by d a2 times d a2 by d q = e2 over 3 times e2 over \(-2 over 3\) = 1
-half](images/Math/analysis/s_gr_42.gif)
+half](../images/Math/analysis/s_gr_42.gif)
 
 ![d w by d a3 times d a3 by d q = e3 over 3 times d e3 over \(2 over 3\) = - 1
-half](images/Math/analysis/s_gr_43.gif)
+half](../images/Math/analysis/s_gr_43.gif)
 
 Use combinations of these terms to calculate the four quaternion derivatives
 using the chain rule.
 
 ![d w by d q = d w by d a0 times d a0 by d q + d w  by d a1 times d a1 by d q
 + d w by d a2 times d a2 by d q + d w by d a3 times d a3 by d q = 1 half + 1
-half + 1 half - 1 half = 1](images/Math/analysis/s_gr_44.gif)
+half + 1 half - 1 half = 1](../images/Math/analysis/s_gr_44.gif)
 
 ![d w by d q conj   =d w by d a0 times d a0 by d q conj +d w by d a3 times d
-a3 by d q conj = 1 half - 1 half = 0](images/Math/analysis/s_gr_45.gif)
+a3 by d q conj = 1 half - 1 half = 0](../images/Math/analysis/s_gr_45.gif)
 
 ![d w by d q conjugated first = d w by d a1 times d a1 by d q conjugated first
 + d w by d a3 times d a3 by d q conjugated first = 1 half - 1 half =
-0](images/Math/analysis/s_gr_46.gif)
+0](../images/Math/analysis/s_gr_46.gif)
 
 ![d w by d q conjugated second = d w by d a2 times d a2 by d q conjugated
 second + d w by d a3 times d a3 by d q conjugated second = 1 half - 1 half =
-0](images/Math/analysis/s_gr_47.gif)
+0](../images/Math/analysis/s_gr_47.gif)
 
 This has the derivatives expected if w=q is analytic in q.
 
@@ -751,17 +751,17 @@ Another test involves the Cauchy-Riemann equations.  The presence of the three
 basis vectors changes things slightly.
 
 ![Let u = \(a0 e0, 0, 0, 0\) , V = \(0, a1 e1 over 3, a2 e2 over 3, a3 e3 over
-3\) ](images/Math/analysis/s_gr_48.gif)
+3\) ](../images/Math/analysis/s_gr_48.gif)
 
 ![d u by d a0 times e1 over 3 = d V by d a1 e0, d u by d a0 times e2 over 3 =
 d V by d a2 times e0, d u by d a0 times e3 over 3 = d V by d a3 times
-e0](images/Math/analysis/s_gr_49.gif)
+e0](../images/Math/analysis/s_gr_49.gif)
 
 This also solves a holonomic equation.
 
 ![the scalar part of \(d u by d a0, d V by d a1, d V by d a2, d V by d a3\)
 times \(e0, e1, e2, e3\)\) = e0 times e0 + e1 times e1 over 3 + e2 times e2
-over 3 + e3 times e3 over 3 = 0 ](images/Math/analysis/s_gr_50.gif)
+over 3 + e3 times e3 over 3 = 0 ](../images/Math/analysis/s_gr_50.gif)
 
 There are no off diagonal terms to compare.
 
@@ -771,50 +771,50 @@ identity function w = q*1.  To show that this is analytic in q*1 requires that
 one always works with basis vectors of the q*1 variety.
 
 ![Let u = \(- a0 e0, 0, 0, 0\), V = \(0, a1 e1 over 3, - a2 e2 over 3, - a3 e3
-over 3\)](images/Math/analysis/s_gr_51.gif)
+over 3\)](../images/Math/analysis/s_gr_51.gif)
 
 ![d u by d a0 times \(-e1 over 3 \)= d V by d a1 times e0, d u by d a0 times
 e2 over 3 = d V by d a2  times e0, d u by d a0 times e3 over 3 = d V by d a3
-times e0](images/Math/analysis/s_gr_52.gif)
+times e0](../images/Math/analysis/s_gr_52.gif)
 
 This also solves a first conjugate holonomic equation.
 
 ![\(d u by d a0 + d V by d a1 + d V by d a2 + dV by d a3\) dot \(e0 + e1 + e2
 + e3\) = e0  e0  + e1 over 3 times e1 + e2 over 3 time e2 + e3 over 3 times e3
-= 0](images/Math/analysis/s_gr_53.gif)
+= 0](../images/Math/analysis/s_gr_53.gif)
 
 Power functions can be analyzed in exactly the same way:
 
 ![Let w = q squared  = \(a0 squared times e0 squared + a1 squared times e1
 squared over 9 + a2 squared times e2 squared over 9 + a3 squared times e3
-squared over 9, 2 a0 a1 e0 e1 over 3, 2 a0 a2 e0 e2 over 3, 2 a0 a3 e0 e3 over 3\) ](images/Math/analysis/s_gr_54.gif)
+squared over 9, 2 a0 a1 e0 e1 over 3, 2 a0 a2 e0 e2 over 3, 2 a0 a3 e0 e3 over 3\) ](../images/Math/analysis/s_gr_54.gif)
 
 ![u = \(a0 squared e0 squared + a1 squared e1 squared over 9 + a2 squared e2
 squared over 9 + a3 squared e3 squared over 9, 0, 0,
-0\)](images/Math/analysis/s_gr_55.gif)
+0\)](../images/Math/analysis/s_gr_55.gif)
 
 ![V = \(0, 2 a0 a1 e0 e1 over 3, 2 a0 a2 e0 e2 over 3, 2 a0 a3 e0 e3 over
-3\)](images/Math/analysis/s_gr_56.gif)
+3\)](../images/Math/analysis/s_gr_56.gif)
 
 ![d u by d a0 e1 over 3 = 2 a0 e0 squared e1 over 3 = d  V by d a1
-e0](images/Math/analysis/s_gr_57.gif)
+e0](../images/Math/analysis/s_gr_57.gif)
 
 ![d u by d a0 e2 over 3 = 2 a0 e0 squared e2 over 3 = d  V by d a2
-e0](images/Math/analysis/s_gr_58.gif)
+e0](../images/Math/analysis/s_gr_58.gif)
 
 ![d u by d a0 e3 over 3 = 2 a0 e0  e3 squared over 3 = d  V by d a3
-e0](images/Math/analysis/s_gr_59.gif)
+e0](../images/Math/analysis/s_gr_59.gif)
 
 This time there are cross terms involved.
 
 ![- d u by d a1 3 times e0 = - 2 a1 e0 e1 squared over 9 = d V1 by d a0 e1
-over 3](images/Math/analysis/s_gr_60.gif)
+over 3](../images/Math/analysis/s_gr_60.gif)
 
 ![- d u by d a2 3 e0 = - 2 a2 e0 e2 squared over 9 = d V2 by d a0 e2 over
-3](images/Math/analysis/s_gr_61.gif)
+3](../images/Math/analysis/s_gr_61.gif)
 
 ![d u by d a3 e0 = - 2 a3 e0 e3 squared over 9 = - d V3 by d a0 e3 over
-3](images/Math/analysis/s_gr_62.gif)
+3](../images/Math/analysis/s_gr_62.gif)
 
 At first glance, one might think these are incorrect, since the signs of the
 derivatives are suppose to be opposite.  Actually they are, but it is hidden
@@ -831,10 +831,10 @@ a function happens to be analytic.
 This also solves a holonomic equation.
 
 ![\(d u by d a0 + d V over a1 + d V by d a2 +d V by d a3 \) dot \(e0 +e1 + e2
-+ e3\) =](images/Math/analysis/s_gr_63.gif)
++ e3\) =](../images/Math/analysis/s_gr_63.gif)
 
 ![= 2 a0 e0 cubed  + 2 a0 e1 over 3 e1 + 2 a0 e2 over 3 e2 + 2 a0 e3 over 3 e3
-= 0](images/Math/analysis/s_gr_64.gif)
+= 0](../images/Math/analysis/s_gr_64.gif)
 
 Since power series can be analytic, this should open the door to all forms of
 analysis.  (I have done the case for the cube of q, and it too is analytic in
@@ -865,43 +865,43 @@ everywhere, multiply by the conjugate.  In the limit D D*/((D - D*)(D - D*))*
 approaches (1, 0), a scalar.
 
 ![the norm of the partial derivative of f with respect to q =
-](images/Math/analysis/s_gr_65.gif)
+](../images/Math/analysis/s_gr_65.gif)
 
 ![= the limit as the 3-vector \(0, D\) goes to 0 of \(the limit as the
 quaternion differential element \(d, D\) goes to the 3-vector \(0, D\) of
-\(f\(q + \(d, D\), q conjugated, q conjugated first, q conjugated second\) - f\(q, q conjugated, q conjugated first, q conjugated second\) times \(d, D\) inverted\)\) times the preceding difference conjugated\)\)](images/Math/analysis/s_gr_66.gif)
+\(f\(q + \(d, D\), q conjugated, q conjugated first, q conjugated second\) - f\(q, q conjugated, q conjugated first, q conjugated second\) times \(d, D\) inverted\)\) times the preceding difference conjugated\)\)](../images/Math/analysis/s_gr_66.gif)
 
 To make this concrete, consider a simple example, f = q^2.  Apply the
 definition:
 
 ![the norm of d q squared by d q = the limit as \(0, D\) goes to 0 of \(the
-limit as \(d, D\) goes to \(0, D\)](images/Math/analysis/s_gr_67.gif)
+limit as \(d, D\) goes to \(0, D\)](../images/Math/analysis/s_gr_67.gif)
 
 ![\(\(\(\(a, B\) + \(d, D\)\) squared - \(a, B\) squared\) times \(d, D\)
 inverted times the conjugate of the preceding difference
-=](images/Math/analysis/s_gr_68.gif)
+=](../images/Math/analysis/s_gr_68.gif)
 
 ![= the limit of \(\(\(a, B\) + \(0, D\) times \(a, B\) times \(0, D\)
 conjugated over the norm of \(0, D\) + \(0, D\)\) times the preceding sum
-conjugated\) =](images/Math/analysis/s_gr_69.gif)
+conjugated\) =](../images/Math/analysis/s_gr_69.gif)
 
 The second and fifth terms are unitary rotations of the 3-vector B.  Since the
 differential element D could be pointed anywhere, this is an arbitrary
 rotation. Define:
 
 ![\(a, B prime\) = \(0, D\) times \(a, B\) times \(0, -D\) over the norm of
-\(0, D\)](images/Math/analysis/s_gr_70.gif)
+\(0, D\)](../images/Math/analysis/s_gr_70.gif)
 
 Substitute, and continue:
 
 ![= the limit of \(\(\(a, B\) + \(a, B prime\) + \(0, D\)\) times \(\(a, B\) +
-\(a, B prime\) + \(0, D\)\) conjugated\) =](images/Math/analysis/s_gr_71.gif)
+\(a, B prime\) + \(0, D\)\) conjugated\) =](../images/Math/analysis/s_gr_71.gif)
 
 ![= the limit of \(4 times a squared + 2 B squared + 2 B dot B prime + 2 D dot
-B + 2 D dot B prime, 0\)](images/Math/analysis/s_gr_72.gif)
+B + 2 D dot B prime, 0\)](../images/Math/analysis/s_gr_72.gif)
 
 ![= \(4 a squared + 2 B squared + 2 B dot B prime, 0\) is less than 2 q
-absolute value squared](images/Math/analysis/s_gr_73.gif)
+absolute value squared](../images/Math/analysis/s_gr_73.gif)
 
 Look at how wonderfully strange this is!  The arbitrary rotation of the
 3-vector B means that this derivative is bound by an inequality.  If D is in
@@ -943,7 +943,7 @@ open set.  Define an open ball in H of radius (r, 0) centered around a point
 consisting of points (x, X) such that
 
 ![The square root of \(\(x - y, X - Y\) conjugated times \(x - y, X - Y\)\) is
-less than \(r, 0\)](images/Math/topology/s_gr_1.gif)
+less than \(r, 0\)](../images/Math/topology/s_gr_1.gif)
 
 An open set in H is any set which can be expressed as a union of open balls.  
 [p. 423 translated] A quaternion topological space (H,T) consists of the set H
@@ -986,21 +986,21 @@ U. For the quaternion topological space (H, T), consider an arbitrary induced
 topology (A, t) where x and a are elements of A. Use inequalities to define:
 
 ![an open set: the lower bound \(L, 0\) is less than \(x - a\) conjugated
-times \(x - a\) is less than the upper bound \(U, 0\)](images/Math/topology/s_gr_2.gif)
+times \(x - a\) is less than the upper bound \(U, 0\)](../images/Math/topology/s_gr_2.gif)
 
 ![a closed set: \(L, 0\) is less than or equal to \(x - a\) conjugated times
 \(x - a\) is less than or equal to the upper bound \(U, 0\)
-](images/Math/topology/s_gr_3.gif)
+](../images/Math/topology/s_gr_3.gif)
 
 ![a half open set   \(L, 0\)  is less than or equal to \(x - a\) conjugated
 times \(x - a\) is less than the upper bound \(U, 0\)
-](images/Math/topology/s_gr_4.gif)
+](../images/Math/topology/s_gr_4.gif)
 
 ![or   \(L, 0\) is less than \(x - a\) conjugated times \(x - a\)  is less
-than or equal to the conjugate of \(U, 0\)](images/Math/topology/s_gr_5.gif)
+than or equal to the conjugate of \(U, 0\)](../images/Math/topology/s_gr_5.gif)
 
 ![a boundary: the lower bound \(L, 0\)  equals \(x - a\) conjugated times \(x
-- a\) ](images/Math/topology/s_gr_6.gif)
+- a\) ](../images/Math/topology/s_gr_6.gif)
 
 The union of an arbitrary collection of open sets is open.  
 The intersection of a finite number of open sets is open.  
@@ -1009,7 +1009,7 @@ The intersection of an arbitrary number of closed sets is closed.
 
 Clearly there are connections between the above definitions
 
-![](images/Math/topology/s_gr_7.gif)
+![](../images/Math/topology/s_gr_7.gif)
 
 This creates complementary ideas.  [Wald, p.424]  
 The interior of A is the union of all open sets contained within A.  
@@ -1030,16 +1030,16 @@ the causality of that collection of events.
 
 ![an open set: the lower bound \(L, 0\) is less than  \(x - a\) conjugated
 times \(x - a\) is less than the upper bound \(U,
-0\)](images/Math/topology/s_gr_8.gif)
+0\)](../images/Math/topology/s_gr_8.gif)
 
 ![timelike events:  the scalar of \(\(x - a\) squared\) is greater than 0
-](images/Math/topology/s_gr_9.gif)
+](../images/Math/topology/s_gr_9.gif)
 
 ![lightlike events:  the scalar of \(\(x - a\) squared\) =
-0](images/Math/topology/s_gr_10.gif)
+0](../images/Math/topology/s_gr_10.gif)
 
 ![spacelike events:  the scalar of \(\(x - a\) squared\) is less than
-0](images/Math/topology/s_gr_11.gif)
+0](../images/Math/topology/s_gr_11.gif)
 
 A proper time can have exactly the same absolute value as a pure spacelike
 separation, so these two will be included in the same sets, whether open,
@@ -1056,7 +1056,7 @@ Consider an open set S of timelike intervals.
 ![the set S = {x, a are elements of H, a is fixed; U, L are elements of R |
 \(L, 0\) is less than \(x - a\) conjugated times \(x - a\) is less than \(U,
 0\), and scalar of \(\(x - a\) squared\) is greater than
-0}](images/Math/topology/s_gr_12.gif)
+0}](../images/Math/topology/s_gr_12.gif)
 
 The set S could depict a classical world history since they are causally
 linked and have good topological properties.  A closed set of lightlike events
@@ -1077,13 +1077,13 @@ For example, find the half-way point between a and b.  Let that be the radius
 of an open ball around the points a and b:
 
 ![let \(r, 0\) = \(a - b\) conjugated times \(a - b\) over 4
-](images/Math/topology/s_gr_13.gif)
+](../images/Math/topology/s_gr_13.gif)
 
 ![the set Oa = {a, x are elements of H, a is fixed, r is an element of R | \(a
-- x\) conjugated times \(a - x\) is less than r} ](images/Math/topology/s_gr_14.gif)
+- x\) conjugated times \(a - x\) is less than r} ](../images/Math/topology/s_gr_14.gif)
 
 ![the set Ob = {b, x are elements of H, b is fixed, r is an element of R | \(b
-- x\) conjugated times \(b - x\) is less than r} ](images/Math/topology/s_gr_15.gif)
+- x\) conjugated times \(b - x\) is less than r} ](../images/Math/topology/s_gr_15.gif)
 
 Neither set quite reaches the other, so their intersection is null.
 
@@ -1108,7 +1108,7 @@ composed of points with a finite number of absolute values:
 ![the set S = {x1, x2, ..., xn are elements of H; a1, a2, ..., an are elements
 of R, n is finite | the square root of x1 conjugated times x1 = \(a1, 0\), the
 square root of x2 conjugated times x2 = \(a2, 0\), ...}
-](images/Math/topology/s_gr_16.gif)
+](../images/Math/topology/s_gr_16.gif)
 
 The set S has an infinite number of members, since for any of the equalities,
 specifying the absolute value still leaves three degrees of freedom (if the
@@ -1120,7 +1120,7 @@ covers S.  The subset {C} would have one member for each absolute value.
 ![the set C = {y E {O}, e E R, e is greater than 0 | \(a1 - e\) is less than
 the square root of y conjugated times y is less than \(a1 + e, 0\), \(a2 - e\)
 is less than the square root of y conjugated times y is less than \(a2 + e,
-0\), ..., one y exists for each inequality} ](images/Math/topology/s_gr_17.gif)
+0\), ..., one y exists for each inequality} ](../images/Math/topology/s_gr_17.gif)
 
 Every set of quaternions composed of a finite number of absolute values like
 the set S is compact.
@@ -1144,7 +1144,7 @@ closed and bound is to be compact.
 
 ![the set S = {x an element of H, a, b elements of R, a less than b | \(a, 0\)
 is less than or equal to the square root of \(x conjugated times x\) is less
-than or equal to \(b, 0\)} ](images/Math/topology/s_gr_18.gif)
+than or equal to \(b, 0\)} ](../images/Math/topology/s_gr_18.gif)
 
 with the standard topology on H is compact.
 
@@ -1213,35 +1213,35 @@ with automorphic functions fruitful.
 
 ##  Parts
 
-![The scalar of q equals q plus its conjugate over two equals \(t, zero\)](images/Math/tools/s_gr_1.gif)
+![The scalar of q equals q plus its conjugate over two equals \(t, zero\)](../images/Math/tools/s_gr_1.gif)
 
-![The vector of q equals q minus its conjugate over two equals \(zero, V\)](images/Math/tools/s_gr_2.gif)
+![The vector of q equals q minus its conjugate over two equals \(zero, V\)](../images/Math/tools/s_gr_2.gif)
 
 ##  Simple algebra
 
 ![The absolute value of q equals the square root of q times its conjugate
 equals \(the square root of t squared plus V dot V,
-0\)](images/Math/tools/s_gr_3.gif)
+0\)](../images/Math/tools/s_gr_3.gif)
 
 ![The norm of q equals q times its conjugate equals \(t squared plus V dot V,
-0\)](images/Math/tools/s_gr_4.gif)
+0\)](../images/Math/tools/s_gr_4.gif)
 
 ![The determinant of q equals q times its conjugate squared equals \(the
-square of t squared plus V dot V, 0\)](images/Math/tools/s_gr_5.gif)
+square of t squared plus V dot V, 0\)](../images/Math/tools/s_gr_5.gif)
 
 ![The sum of q and q prime equals \(t plus t', V plus
-V'\)](images/Math/tools/s_gr_6.gif)
+V'\)](../images/Math/tools/s_gr_6.gif)
 
 ![The difference of q and q prime equals \(t minus t', V minus
-V'\)](images/Math/tools/s_gr_7.gif)
+V'\)](../images/Math/tools/s_gr_7.gif)
 
-![The conjugate of q equals q* equals \(t, minus V\)](images/Math/tools/s_gr_8.gif)
+![The conjugate of q equals q* equals \(t, minus V\)](../images/Math/tools/s_gr_8.gif)
 
 ![The inverse of q equal q conjugated over its norm equals \(t, -V\) over \(t
-squared plus V dot V\).](images/Math/tools/s_gr_9.gif)
+squared plus V dot V\).](../images/Math/tools/s_gr_9.gif)
 
 ![The adjoint of q equals q conjugated times its norm equals \(t, -V\) times
-\(t squared plus V dot V\).](images/Math/tools/s_gr_10.gif)
+\(t squared plus V dot V\).](../images/Math/tools/s_gr_10.gif)
 
 ##  Multiplication
 
@@ -1251,101 +1251,101 @@ The Euclidean product takes the conjugate of the first of the two elements
 
 ![The Grassman product of q and q' equals q times q prime equals \(t t prime
 minus V dot V prime, t V prime plus V t prime plus V cross V
-prime\).](images/Math/tools/s_gr_11.gif)
+prime\).](../images/Math/tools/s_gr_11.gif)
 
 ![The Grassman even product of q and q' equals q times q prime plus q prime q
 over two equals \(t t prime minus V dot V prime, t V prime plus V t
-prime\).](images/Math/tools/s_gr_12.gif)
+prime\).](../images/Math/tools/s_gr_12.gif)
 
 ![The Grassman odd product of q and q' equals q times q prime minus q prime q
-over two equals \(zero, V cross V prime\).](images/Math/tools/s_gr_13.gif)
+over two equals \(zero, V cross V prime\).](../images/Math/tools/s_gr_13.gif)
 
 ![The Euclidean product of q and q' equals q conjugated times q prime equals
 \(t t prime plus V dot V prime, t V prime minus V t prime minus V cross V
-prime\).](images/Math/tools/s_gr_14.gif)
+prime\).](../images/Math/tools/s_gr_14.gif)
 
 ![The Euclidean even product of q and q' equals q conjugated times q prime
 plus q prime q conjugated over two equals \(t t prime plus V dot V prime,
-zero\).](images/Math/tools/s_gr_15.gif)
+zero\).](../images/Math/tools/s_gr_15.gif)
 
 ![The Euclidean odd product of q and q' equals q conjugated times q prime
 minus q prime q conjugated over two equals \(zero, t V prime minus V t prime
-minus V cross V prime\).](images/Math/tools/s_gr_16.gif)
+minus V cross V prime\).](../images/Math/tools/s_gr_16.gif)
 
 ##  Trigonometry
 
 ![The sine of q equals \(sin t hyperbolic cosine absolute value of V, cosine t
 hyperbolic sine of the absolute value of V times V normalized to
-V\)](images/Math/tools/s_gr_17.gif)
+V\)](../images/Math/tools/s_gr_17.gif)
 
 ![The cosine of q equals \(cos t hyperbolic cosine absolute value of V, minus
 sine t hyperbolic sine of the absolute value of V times V normalized to
-V\)](images/Math/tools/s_gr_18.gif)
+V\)](../images/Math/tools/s_gr_18.gif)
 
 ![The tangent of q equals the sine of q times the inverse of the cosine of
-q](images/Math/tools/s_gr_19.gif)
+q](../images/Math/tools/s_gr_19.gif)
 
 Note: since the unit vectors of sine and cosine are the same, these two
 commute so the order is irrelevant.
 
 ![The arcsine of q equals minus V normalized to V times the hyperbolic arcsine
-of q times V normalized to V.](images/Math/tools/s_gr_20.gif)
+of q times V normalized to V.](../images/Math/tools/s_gr_20.gif)
 
 ![The arccosine of q equals minus V normalized to V times the hyperbolic
-arccosine of q.](images/Math/tools/s_gr_21.gif)
+arccosine of q.](../images/Math/tools/s_gr_21.gif)
 
 ![The arctangent of q equals minus V normalized to V times the hyperbolic
-arctangent of q times V normalized to V.](images/Math/tools/s_gr_22.gif)
+arctangent of q times V normalized to V.](../images/Math/tools/s_gr_22.gif)
 
 ![The hyperbolic sine of q equals \(hyperbolic sin t cosine absolute value of
 V, hyperbolic cosine t sine of the absolute value of V times V normalized to
-V\)](images/Math/tools/s_gr_23.gif)
+V\)](../images/Math/tools/s_gr_23.gif)
 
 ![The hyperbolic cosine of q equals \(hyperbolic cos t cosine absolute value
 of V, hyperbolic sine t sine of the absolute value of V times V normalized to
-V\)](images/Math/tools/s_gr_24.gif)
+V\)](../images/Math/tools/s_gr_24.gif)
 
 ![The hyperbolic tangent of q equals the hyperbolic sine of q times the
-inverse of the hyperbolic cosine of q](images/Math/tools/s_gr_25.gif)
+inverse of the hyperbolic cosine of q](../images/Math/tools/s_gr_25.gif)
 
 ![The hyperbolic arcsine of q equals the natural log of \(q plus the square
-root of q squared plus q\).](images/Math/tools/s_gr_26.gif)
+root of q squared plus q\).](../images/Math/tools/s_gr_26.gif)
 
 ![The hyperbolic arccosine of q equals the natural log of \(q plus or minus
-the square root of q squared minus one\).](images/Math/tools/s_gr_27.gif)
+the square root of q squared minus one\).](../images/Math/tools/s_gr_27.gif)
 
 ![The hyperbolic arctangent of q equals one half times the natural log of
-\(one plus q over one minus q\).](images/Math/tools/s_gr_28.gif)
+\(one plus q over one minus q\).](../images/Math/tools/s_gr_28.gif)
 
 ##  Powers
 
 ![The exponential of q equals \(e to the t cosine absolute value of V, e to
 the t sine of the absolute value of V times V normalized to
-V\)](images/Math/tools/s_gr_29.gif)
+V\)](../images/Math/tools/s_gr_29.gif)
 
 ![q raised to the q prime equals the exponential of the natural log of q time
-q prime.](images/Math/tools/s_gr_30.gif)
+q prime.](../images/Math/tools/s_gr_30.gif)
 
 ##  Logs
 
 ![The natural log of q equals \(one half times the natural log of t squared
 plus V dot V, the arctan of absolute value of V, angle t time V normalized to
-V.](images/Math/tools/s_gr_31.gif)
+V.](../images/Math/tools/s_gr_31.gif)
 
 ![The log base 10 equals the natural log of q over the natural log of
-10.](images/Math/tools/s_gr_32.gif)
+10.](../images/Math/tools/s_gr_32.gif)
 
 ##  Quaternion exponential multiplication
 
 ![The Grassman product of two exponentials q and q' equals the even Grassman
 product times the absolute value of the odd Grassman product times the
 exponential of pi over 2 times the odd Grassman product normalized to
-itself.](images/Math/tools/s_gr_33.gif)
+itself.](../images/Math/tools/s_gr_33.gif)
 
 ![The Euclidean product of two exponentials q and q' equals the even Euclidean
 product times the absolute value of the odd Euclidean product times the
 exponential of pi over 2 times the odd Euclidean product normalized to
-itself.](images/Math/tools/s_gr_34.gif)
+itself.](../images/Math/tools/s_gr_34.gif)
 
 Andrew Millard suggested the result for the Grassman product.
 
@@ -1365,17 +1365,17 @@ Coordinates
 
 Define a position quaternion as a function of time.
 
-![R = \(t, R\)](images/Classical_physics/force/s_gr_1.gif)
+![R = \(t, R\)](../images/Classical_physics/force/s_gr_1.gif)
 
 Operate on this once with the differential operator to get the velocity
 quaternion.
 
-![V = \(d by dt, 0\) acting on R = \(1, R dot\)](images/Classical_physics/force/s_gr_2.gif)
+![V = \(d by dt, 0\) acting on R = \(1, R dot\)](../images/Classical_physics/force/s_gr_2.gif)
 
 Operate on the velocity to get the classical inertial acceleration quaternion.
 
 ![A = \(d by dt, 0\) squared acting on R = \(0, R double dot\)
-](images/Classical_physics/force/s_gr_3.gif)
+](../images/Classical_physics/force/s_gr_3.gif)
 
 This is the standard form for acceleration in Newton's second law in an
 inertial reference frame.  Because the reference frame is inertial, the first
@@ -1385,37 +1385,37 @@ term is zero.
 
 Repeat this process, but this time start with polar coordinates.
 
-![R  = \(t, r  cosine theta, r  sine theta, 0\)](images/Classical_physics/force/s_gr_4.gif)
+![R  = \(t, r  cosine theta, r  sine theta, 0\)](../images/Classical_physics/force/s_gr_4.gif)
 
 The velocity in a plane.
 
 ![V = \(d by dt, 0\) acting on \(t, r cosine \(theta\), r sine \(theta, 0\)
-=](images/Classical_physics/force/s_gr_5.gif)
+=](../images/Classical_physics/force/s_gr_5.gif)
 
 ![= \(1, r dot cosine theta - r sine theta theta dot, r dot sine theta + r
-cosine theta theta dot, 0\)](images/Classical_physics/force/s_gr_6.gif)
+cosine theta theta dot, 0\)](../images/Classical_physics/force/s_gr_6.gif)
 
 Acceleration in a plane.
 
 ![A = \(d by dt, 0\) acting on \(1, r dot cosine theta - r sine theta theta
 dot, r dot sine theta + r cosine theta theta dot, 0\)
-=](images/Classical_physics/force/s_gr_7.gif)
+=](../images/Classical_physics/force/s_gr_7.gif)
 
 ![= \(0, - 2 sine theta R dot theta dot - cosine theta R \(theta dot\)squared
 + cosine theta R double dot - R sine theta theta double dot,2 cosine theta R
 dot theta dot -R sine theta \(theta dot\)squared + sine theta R double dot +
-cosine theta R theta double dot, 0\)](images/Classical_physics/force/s_gr_8.gif)
+cosine theta R theta double dot, 0\)](../images/Classical_physics/force/s_gr_8.gif)
 
-Not a pretty sight.  For a central force, ![](images/Classical_physics/force/s_gr_9.gif) =
-![\[Graphiimages/s_gr_10.gif\]](images/Classical_physics/force/s_gr_10.gif), and
-![\[Graphiimages/s_gr_11.gif\]](images/Classical_physics/force/s_gr_11.gif) = 0.  Make these
+Not a pretty sight.  For a central force, ![](../images/Classical_physics/force/s_gr_9.gif) =
+![\[Graphics:images/s_gr_10.gif\]](../images/Classical_physics/force/s_gr_10.gif), and
+![\[Graphics:images/s_gr_11.gif\]](../images/Classical_physics/force/s_gr_11.gif) = 0.  Make these
 substitution and rotate the quaternion to get rid of the theta dependence.
 
 ![A = \(cosine theta, 0, 0, - sine theta\) times \(d by dt,0\) squared acting
-on R =](images/Classical_physics/force/s_gr_12.gif)
+on R =](../images/Classical_physics/force/s_gr_12.gif)
 
 ![= \(0, -L squared over m squared  R cubed + R double dot, 2 L R dot over m R
-squared , 0\)](images/Classical_physics/force/s_gr_13.gif)
+squared , 0\)](../images/Classical_physics/force/s_gr_13.gif)
 
 The second term is the acceleration in the radial direction, the third is
 acceleration in the theta direction for a central force in polar coordinates.
@@ -1431,15 +1431,15 @@ t did not interfere with the calculations, this time it must be set explicitly
 to zero (I wonder what that means?).
 
 ![V = \(d by dt, Omega\) acting on \(0,R\) = \(- omega dot R, R dot + Omega
-Cross R\)](images/Classical_physics/force/s_gr_14.gif)
+Cross R\)](../images/Classical_physics/force/s_gr_14.gif)
 
 Operate on the velocity quaternion with the same operator.
 
 ![A = \(d by dt, Omega\) acting on \(- omega dot R, R dot + Omega Cross
-R\)](images/Classical_physics/force/s_gr_15.gif)
+R\)](../images/Classical_physics/force/s_gr_15.gif)
 
 ![= \(- Omega dot dot R, R double dot + 2 Omega Cross R dot + Omega dot  Cross
-R - Omega dot R Omega \)](images/Classical_physics/force/s_gr_16.gif)
+R - Omega dot R Omega \)](../images/Classical_physics/force/s_gr_16.gif)
 
 The first three terms of the 3-vector are the translational, coriolis, and
 azimuthal alterations respectively.  The last term of the 3-vector may not
@@ -1447,12 +1447,12 @@ look like the centrifugal force, but using a vector identity it can be
 rewritten:
 
 ![- Omega dot R Omega = - Omega Cross \(Omega Cross R\) + Omega squared
-R](images/Classical_physics/force/s_gr_17.gif)
+R](../images/Classical_physics/force/s_gr_17.gif)
 
 If the angular velocity an the radius are orthogonal, then
 
 ![Omega Cross \(Omega Cross R\) = Omega squared R if and only if Omega dot R =
-0](images/Classical_physics/force/s_gr_18.gif)
+0](../images/Classical_physics/force/s_gr_18.gif)
 
 The scalar term is not zero.  What this implies is not yet clear, but it may
 be related to the fact that the frame is not inertial.
@@ -1476,17 +1476,17 @@ The differential equation for a simple harmonic oscillator in one dimension
 can be express with quaternion operators.
 
 ![\(d by dt, 0\) squared acting on \(0, x, 0, 0\) + \(0, k x over m, 0, 0\) =
-\(0,x double dot + k x/m, 0, 0\) = 0](images/Classical_physics/sho/s_gr_1.gif)
+\(0,x double dot + k x/m, 0, 0\) = 0](../images/Classical_physics/sho/s_gr_1.gif)
 
 This equation can be solved directly.
 
-![x = C\(2\) cosine \(the square root of k over m times t\) + C\(1\) sine \(the square root of k over m times t\)](images/Classical_physics/sho/s_gr_2.gif)
+![x = C\(2\) cosine \(the square root of k over m times t\) + C\(1\) sine \(the square root of k over m times t\)](../images/Classical_physics/sho/s_gr_2.gif)
 
 Find the velocity by taking the derivative with respect to time.
 
 ![x dot = the square root of k over m times C\(1\) cosine \(the square root of
 k over m times t\) - the square root of k over m times times C\(2\) sine \(the
-square root of k over m times t\)\)](images/Classical_physics/sho/s_gr_3.gif)
+square root of k over m times t\)\)](../images/Classical_physics/sho/s_gr_3.gif)
 
 ##  The Damped Simple Harmonic Oscillator
 
@@ -1494,15 +1494,15 @@ Generate the differential equation for a damped simple harmonic oscillator as
 done above.
 
 ![\(d by dt,0\) squared acting on \(0,x, 0, 0\) + \(d by dt,0\) acting on \(0,
-b x, 0, 0\) + \(0, k x over m,0,0\) =](images/Classical_physics/sho/s_gr_4.gif)
+b x, 0, 0\) + \(0, k x over m,0,0\) =](../images/Classical_physics/sho/s_gr_4.gif)
 
-![= \(0, x double dot + b x dot + k x over m, 0, 0\) = 0](images/Classical_physics/sho/s_gr_5.gif)
+![= \(0, x double dot + b x dot + k x over m, 0, 0\) = 0](../images/Classical_physics/sho/s_gr_5.gif)
 
 Solve the equation.
 
 ![x = c1 times e to the - b - the square root of b squared - 4 k over m over 2
 times t + c2 times e to the - b + the square root of b squared - 4 k over m
-over 2 times t ](images/Classical_physics/sho/s_gr_6.gif)
+over 2 times t ](../images/Classical_physics/sho/s_gr_6.gif)
 
 ##  The Wave Equation
 
@@ -1510,10 +1510,10 @@ Consider a wave traveling along the x direction.  The equation which governs
 its motion is given by
 
 ![\(1/v d by dt,d by dx, 0, 0\) squared acting on \(0, 0, f\(t v + x\), 0\)
-=](images/Classical_physics/sho/s_gr_7.gif)
+=](../images/Classical_physics/sho/s_gr_7.gif)
 
 ![=\(0, 0, \(-d squared  by d x squared +1/v squared  d squared  by d t
-squared \) f\(t v+x\), 2 d squared  f\(t v + x\)/v dt dx\)](images/Classical_physics/sho/s_gr_8.gif)
+squared \) f\(t v+x\), 2 d squared  f\(t v + x\)/v dt dx\)](../images/Classical_physics/sho/s_gr_8.gif)
 
 The third term is the one dimensional wave equation.  The forth term is the
 instantaneous power transmitted by the wave.
@@ -1543,18 +1543,18 @@ forces.
 
 To make the discussion concrete, define a force quaternion F.
 
-![F =  \(0, - k x, - k y, 0\)](images/Classical_physics/conservative_force/s_gr_1.gif)
+![F =  \(0, - k x, - k y, 0\)](../images/Classical_physics/conservative_force/s_gr_1.gif)
 
 The curl is the commutator of the differential operator and the force.  If
 this is zero, the force is conservative.
 
-![The commutator of the operator\(d by dt,Del\) acting on a function F  = 0](images/Classical_physics/conservative_force/s_gr_2.gif)
+![The commutator of the operator\(d by dt,Del\) acting on a function F  = 0](../images/Classical_physics/conservative_force/s_gr_2.gif)
 
 Let the differential operator quaternion act on the force, and test if the
 vector components equal zero.
 
 ![\(d by dt, Del \) acting on F = \(2 k, 0,  0,
-0\)](images/Classical_physics/conservative_force/s_gr_3.gif)
+0\)](../images/Classical_physics/conservative_force/s_gr_3.gif)
 
 ##  2\. There Exists a Potential Function for the Force
 
@@ -1563,16 +1563,16 @@ gradient of the first component.  If the field quaternion is the same, the
 force is conservative.
 
 ![F  = integral F times \(dt, dx, dy,
-dz\)](images/Classical_physics/conservative_force/s_gr_4.gif)
+dz\)](../images/Classical_physics/conservative_force/s_gr_4.gif)
 
 ![= integral\(k x dx +k y dy, - k x dt + k y dz, - k y dt - k x dz,
-0\)](images/Classical_physics/conservative_force/s_gr_5.gif)
+0\)](../images/Classical_physics/conservative_force/s_gr_5.gif)
 
 ![=\(k x squared  over 2 + k y squared  over 2, -k t x + k y z, - k t y - k x
-z, 0\)](images/Classical_physics/conservative_force/s_gr_6.gif)
+z, 0\)](../images/Classical_physics/conservative_force/s_gr_6.gif)
 
 ![\(d by dt,Del\) acting on \(k x squared  over 2 + k y squared  over 2, 0\) =
-\(0, - k x, - k y, 0\)](images/Classical_physics/conservative_force/s_gr_7.gif)
+\(0, - k x, - k y, 0\)](../images/Classical_physics/conservative_force/s_gr_7.gif)
 
 This is the same force as we started with, so the scalar inside the integral
 is the scalar potential of this vector field.  The vector terms inside the
@@ -1586,9 +1586,9 @@ Use any parameterization in the line integral, making sure it comes back to
 go.
 
 ![path =  \(0, r cosine \(t\), r sine \(t\),
-0\)](images/Classical_physics/conservative_force/s_gr_8.gif)
+0\)](../images/Classical_physics/conservative_force/s_gr_8.gif)
 
-![integral from 0 to 2 pi F dt = 0](images/Classical_physics/conservative_force/s_gr_9.gif)
+![integral from 0 to 2 pi F dt = 0](../images/Classical_physics/conservative_force/s_gr_9.gif)
 
 ##  4\. The Line Integral Along Different Paths Is the Same
 
@@ -1596,15 +1596,15 @@ Choose any two parameterizations from A to B, and test that they are the same.
 These paths are from (0, r, 0, 0) to (0, -r, 2 r, 0).
 
 ![path 1 = \(0, r cosine \(t\), 2 r sine \(t over 2\),
-0\)](images/Classical_physics/conservative_force/s_gr_10.gif)
+0\)](../images/Classical_physics/conservative_force/s_gr_10.gif)
 
 ![integral from 0 to 2 pi along path 1 F dt = - 2 k r squared
-](images/Classical_physics/conservative_force/s_gr_11.gif)
+](../images/Classical_physics/conservative_force/s_gr_11.gif)
 
-![path 2 = \(0, - t r + r, t r, 0\)](images/Classical_physics/conservative_force/s_gr_12.gif)
+![path 2 = \(0, - t r + r, t r, 0\)](../images/Classical_physics/conservative_force/s_gr_12.gif)
 
 ![integral from 0 to 2 pi along path 1 F dt = - 2 k r squared
-](images/Classical_physics/conservative_force/s_gr_13.gif)
+](../images/Classical_physics/conservative_force/s_gr_13.gif)
 
 The same!
 
@@ -1632,15 +1632,15 @@ quaternions to characterize events in spacetime. The most basic are gamma and
 a round value for c.
 
 ![\[Graphics:ps1gr1.
-gif\]](images/SR/problem_set_1/ps1gr1.gif)
+gif\]](../images/SR/problem_set_1/ps1gr1.gif)
 
 ![\[Graphics:ps1gr3.
-gif\]](images/SR/problem_set_1/ps1gr3.gif)
+gif\]](../images/SR/problem_set_1/ps1gr3.gif)
 
 Define a function for quaternions using its matrix representation.
 
 ![\[Graphics:ps1gr4.
-gif\]](images/SR/problem_set_1/ps1gr4.gif)
+gif\]](../images/SR/problem_set_1/ps1gr4.gif)
 
 A quaternion L that perform a transform on a quaternion -  
 L q[**x**] = q[**x'**] - identical to how the Lorentz transformation acts on
@@ -1649,31 +1649,31 @@ detail in the notebook "A different algebra for boosts." For boosts along the
 x axis with y = z = 0, the general function for L is
 
 ![\[Graphics:ps1gr5.
-gif\]](images/SR/problem_set_1/ps1gr5.gif)
+gif\]](../images/SR/problem_set_1/ps1gr5.gif)
 
 Most of the problems here involve much simpler cases for L, where t or x is
 zero, or t is equal to x.
 
 If t = 0, then
 
-![\[Graphics:ps1gr6.gif\]](images/SR/problem_set_1/ps1gr6.gif)
+![\[Graphics:ps1gr6.gif\]](../images/SR/problem_set_1/ps1gr6.gif)
 
-![\[Graphics:ps1gr7.gif\]](images/SR/problem_set_1/ps1gr7.gif)
+![\[Graphics:ps1gr7.gif\]](../images/SR/problem_set_1/ps1gr7.gif)
 
 If x = 0, then
 
-![\[Graphics:ps1gr8.gif\]](images/SR/problem_set_1/ps1gr8.gif)
+![\[Graphics:ps1gr8.gif\]](../images/SR/problem_set_1/ps1gr8.gif)
 
-![\[Graphics:ps1gr9.gif\]](images/SR/problem_set_1/ps1gr9.gif)
+![\[Graphics:ps1gr9.gif\]](../images/SR/problem_set_1/ps1gr9.gif)
 
 If t = x, then
 
 ![\[Graphics:ps1gr10
-.gif\]](images/SR/problem_set_1/ps1gr10.gif)
+.gif\]](../images/SR/problem_set_1/ps1gr10.gif)
 
     
     
-![\[Graphics:ps1gr11.gif\]](images/SR/problem_set_1/ps1gr11.gif)
+![\[Graphics:ps1gr11.gif\]](../images/SR/problem_set_1/ps1gr11.gif)
 
 Note: this is for blueshifts. Redshifts have a plus instead of the minus.
 
@@ -1693,9 +1693,9 @@ the interval by squaring the difference quaternion and then taking the square
 root of the first term.
 
 ![\[Graphics:ps1gr12
-.gif\]](images/SR/problem_set_1/ps1gr12.gif)
+.gif\]](../images/SR/problem_set_1/ps1gr12.gif)
     
-![\[Graphics:ps1gr13.gif\]](images/SR/problem_set_1/ps1gr13.gif)
+![\[Graphics:ps1gr13.gif\]](../images/SR/problem_set_1/ps1gr13.gif)
 
 The moving clock reads 8 x 10^-7^ seconds.
 
@@ -1708,27 +1708,27 @@ length in frame S?
 A: Consider the meter stick at rest in a frame S', one end at the origin, the
 other at q[0, 1 m, 0, 0]. We want to boost the stick end quaternion to frame
 S. The boost quaternion when t=y=z=0 is
-![\[Graphics:ps1gr15.gif\]](images/SR/problem_set_1/ps1gr15.gif). In frame S',
+![\[Graphics:ps1gr15.gif\]](../images/SR/problem_set_1/ps1gr15.gif). In frame S',
 frame S is moving at -0.6c.
 
 ![\[Graphics:ps1gr16
-.gif\]](images/SR/problem_set_1/ps1gr16.gif)
+.gif\]](../images/SR/problem_set_1/ps1gr16.gif)
 
 The start of the stick will move for a time equal to the first term of the
 boosted quaternion, and moved by a distance x = vt/c.
 
 ![\[Graphics:ps1gr17
-.gif\]](images/SR/problem_set_1/ps1gr17.gif)
+.gif\]](../images/SR/problem_set_1/ps1gr17.gif)
 
 The meter stick's length in frame S will be the difference at the same instant
 in this frame between the boosted stick end and translocated stick start.
 
 ![\[Graphics:ps1gr18
-.gif\]](images/SR/problem_set_1/ps1gr18.gif)
+.gif\]](../images/SR/problem_set_1/ps1gr18.gif)
 
     
     
-![\[Graphics:ps1gr19.gif\]](images/SR/problem_set_1/ps1gr19.gif)
+![\[Graphics:ps1gr19.gif\]](../images/SR/problem_set_1/ps1gr19.gif)
 
 The meter stick is length contracted to 0.8 meters in frame S.
 
@@ -1742,56 +1742,56 @@ observer's frame?
 A: (a) Consider the spaceship at rest, one end at the origin, the other at
 q[0, d, 0, 0]. We want to boost the ship end quaternion to the observer's
 frame. The boost quaternion when t=y=z=0 is
-![\[Graphics:ps1gr20.gif\]](images/SR/problem_set_1/ps1gr20.gif). In the ship's
+![\[Graphics:ps1gr20.gif\]](../images/SR/problem_set_1/ps1gr20.gif). In the ship's
 frame, the observer is moving at -v/c.
 
 ![\[Graphics:ps1gr21
-.gif\]](images/SR/problem_set_1/ps1gr21.gif)
+.gif\]](../images/SR/problem_set_1/ps1gr21.gif)
 
 The start of the ship will move for a time equal to the first term of the
 boosted quaternion, and moved by a distance x = vt/c.
 
 ![\[Graphics:ps1gr22
-.gif\]](images/SR/problem_set_1/ps1gr22.gif)
+.gif\]](../images/SR/problem_set_1/ps1gr22.gif)
 
 The ship's length in the observer's frame will be the difference at the same
 instant in this frame between the boosted ship end and translocated ship
 start.
 
 ![\[Graphics:ps1gr23
-.gif\]](images/SR/problem_set_1/ps1gr23.gif)
+.gif\]](../images/SR/problem_set_1/ps1gr23.gif)
 
     
     
-![\[Graphics:ps1gr24.gif\]](images/SR/problem_set_1/ps1gr24.gif)
+![\[Graphics:ps1gr24.gif\]](../images/SR/problem_set_1/ps1gr24.gif)
 
 Solve for beta setting this distance to d/2.
 
 ![\[Graphics:ps1gr25
-.gif\]](images/SR/problem_set_1/ps1gr25.gif)
+.gif\]](../images/SR/problem_set_1/ps1gr25.gif)
 
     
     
-![\[Graphics:ps1gr26.gif\]](images/SR/problem_set_1/ps1gr26.gif)
+![\[Graphics:ps1gr26.gif\]](../images/SR/problem_set_1/ps1gr26.gif)
 
-Beta is ![\[Graphics:ps1gr27.gif\]](images/SR/problem_set_1/ps1gr27.gif)/2 =
+Beta is ![\[Graphics:ps1gr27.gif\]](../images/SR/problem_set_1/ps1gr27.gif)/2 =
 0.866.  
   
 (b) The factor that the clocks appear to run at different rates is gamma.
 
 ![\[Graphics:ps1gr28
-.gif\]](images/SR/problem_set_1/ps1gr28.gif)
+.gif\]](../images/SR/problem_set_1/ps1gr28.gif)
 
     
     
-![\[Graphics:ps1gr29.gif\]](images/SR/problem_set_1/ps1gr29.gif)
+![\[Graphics:ps1gr29.gif\]](../images/SR/problem_set_1/ps1gr29.gif)
 
 
 # Measure the difference between space-time events
 
 Two stars go supernova while four kids watch.
 
-![](../../images/Gravity/Measurement-101/measure.png)
+![](../../../images/Gravity/Measurement-101/measure.png)
 
 There is a difference in time (dt).
 
@@ -1829,7 +1829,7 @@ challenge.
 
 Walking changes how one measures deadly supernovae.
 
-![](../../images/Gravity/Measurement-101/SR.png)
+![](../../../images/Gravity/Measurement-101/SR.png)
 
 As long as the kids move at a constant rate, special relativity comes into play.
 
@@ -1856,7 +1856,7 @@ be dimensionless), then the numbers will be the same.
 
 Looking down or looking from below changes time and space measurements in opposite ways.
 
-![](../../images/Gravity/Measurement-101/QG.png)
+![](../../../images/Gravity/Measurement-101/QG.png)
 
 If one kid is at a different height in a gravity field to another, then
 time measurements get smaller while spatial ones get bigger. That is standard 
@@ -1894,7 +1894,7 @@ exponential experienced by the space term, like so:
 ![e to the -z dt, e to the z dR sub i over c squared equals e to the -2 z dt
 squared - e to the 2 z dR sub i squared, 2 dt dR sub i over c equals e to the -
 2 G M c squared R dt squared - e to the 2 G M over c squared R dR sub i
-squared, 2 dt dR sub i if z = G M over c squared R](../../images/Gravity/exp_GMc2R.png)
+squared, 2 dt dR sub i if z = G M over c squared R](../../../images/Gravity/exp_GMc2R.png)
 
 The resulting exponential interval has the same form as the Rosen metric. The Rosen
 matric makes the same experimental predictions as the Schwarzschild metric for
@@ -1913,7 +1913,7 @@ quantum gravity moot.
 
 This graphic says most of it...
 
-![](../../images/Gravity/Measurement-101/all.png)
+![](../../../images/Gravity/Measurement-101/all.png)
 
 Start with the reference square which has an interval of 16 and a space-times
 time of 30.
@@ -1956,7 +1956,7 @@ inverse that depens on the M/R ratio is an obvious thing to propose.
 ![e to the -z dt, e to the z dR sub i over c squared equals e to the -2 z dt
 squared - e to the 2 z dR sub i squared, 2 dt dR sub i over c equals e to the -
 2 G M c squared R dt squared - e to the 2 G M over c squared R dR sub i
-squared, 2 dt dR sub i if z = G M over c squared R](../../../Graviimages/exp_GMc2R.png)
+squared, 2 dt dR sub i if z = G M over c squared R](../../../Gravity/images/exp_GMc2R.png)
 
 The interval looks just like the Rosen bi-metric proposal, even though
 quaternion gravity uses no metrics. The Rosen metric is known to be consistent
@@ -2052,7 +2052,7 @@ happens to be true. See the appendix for details if interested.
 
 The square of a space-time measurement represented with quaternions is:
 
-![dt, dx sub 1, dx sub 2, dx sub 3 squared equals dt squared minus dx sub 1 squared minus dx sub 2 squared minus dx sub 3 squared, 2 dt dx sub 1, 2 dt dx sub 2, 2 dt dx sub 3](images/Gravity/q_squared.png)
+![dt, dx sub 1, dx sub 2, dx sub 3 squared equals dt squared minus dx sub 1 squared minus dx sub 2 squared minus dx sub 3 squared, 2 dt dx sub 1, 2 dt dx sub 2, 2 dt dx sub 3](../images/Gravity/q_squared.png)
   
 The first term of the square is the Lorentz invariant interval. It is followed
 by the three space-times-time terms. There are a few advantages to having
@@ -2076,7 +2076,7 @@ Maybe quaternions are an "unmixed evil." Let's explore anyway.
 Construct a quaternion out of space-time functions that can be varied, yet the
 first term of the square is invariant as required by special relativity:
 
-![dt, dg sub 1, dg sub 2, dg sub 3 squared equals dt squared minus dg sub 1 squared minus dg sub 2 squared minus dg sub 3 squared, 2 dt dg sub 1, 2 dt dg sub 2, 2 dt dg sub 3](images/Gravity/fg_squared.png)
+![dt, dg sub 1, dg sub 2, dg sub 3 squared equals dt squared minus dg sub 1 squared minus dg sub 2 squared minus dg sub 3 squared, 2 dt dg sub 1, 2 dt dg sub 2, 2 dt dg sub 3](../images/Gravity/fg_squared.png)
   
 If the function f was exactly the same as each normalized gi, then the first
 term in the square, the interval, would always be zero.[^3] This is an important case: it is light. Changes in
@@ -2088,7 +2088,7 @@ but leave unity behind. Work with a third function h and its inverse:
 
 ![f equals one half h + the inverse of h, g 1, 2, 3 equals one over 2 the
 square root of 3 times h minus the inverse of h. The square of f g 1, 2, 3
-equals one, then three timer of one over 2 the sqaure root of 3 times h squared minus the inverse of h squared](images/Gravity/fg_squared_is_unity.png)
+equals one, then three timer of one over 2 the sqaure root of 3 times h squared minus the inverse of h squared](../images/Gravity/fg_squared_is_unity.png)
   
 So long as the function h has an inverse, this will always work.[^4] Exponential functions play an important
 role in theoretical physics. If the exponent is zero, unity is the result and
@@ -2107,7 +2107,7 @@ in place of complex numbers.[1] That topic is beyond the scope of this short
 essay. The general way to generate three factors of two is also not difficult:
 
 ![f equals the inverse of h. g 1, 2, 3 equals h. f, g 1, 2, 3 squared equals
-the inverse of h squared minus 3 h squared, 2, 2, 2](images/Gravity/fg_squared_is_222.png)  
+the inverse of h squared minus 3 h squared, 2, 2, 2](../images/Gravity/fg_squared_is_222.png)  
   
 An exponential function could be plugged in as before. This moves from a pure
 math exercise to one with physics content if the exponential is chosen to be
@@ -2115,7 +2115,7 @@ related to gravity by using the geometric length of a mass[^5]:
 
 ![e to the minus z dt, e to the z dR sub i over c squared equals e to the minus
 2 z dt squared minus e to the 2 z dR sub i squared, 2 dt dR sub i over c equals
-e to minus twice the geometric length of the source mass times dt squared minus e to twice the geometric length of the source mass times dR sub i squared over c squared, 2 dt dR sub i over c if z equals the geometric source mass or Newton's gravitational constant times big M over c squared and i goes from 1 to 3](images/Gravity/exponential_conserves_stt.png)
+e to minus twice the geometric length of the source mass times dt squared minus e to twice the geometric length of the source mass times dR sub i squared over c squared, 2 dt dR sub i over c if z equals the geometric source mass or Newton's gravitational constant times big M over c squared and i goes from 1 to 3](../images/Gravity/exponential_conserves_stt.png)
 
 Let's pause to discuss this expression. No metric was used to get here. No
 field equation was solved. Instead a new invariance of Nature has been
@@ -2169,7 +2169,7 @@ source equations is the difference of the squared magnetic and electric
 fields[5]:  
 
 ![The Lagrange density of electromagnetism is one half B squared minus E
-squared](images/Gravity/L_is_B_squared_minus_E_squared.png)
+squared](../images/Gravity/L_is_B_squared_minus_E_squared.png)
 
 The difference of two squares is the product of their sums and difference. The
 simplest product of a quaternion differential operator and potential generates
@@ -2177,7 +2177,7 @@ the difference of the magnetic and electric fields:
 
 ![The differential quaternion operation action on a quaternion potential phi, A
 is the time derivative of phi minus the divergence of A, the time derivative of
-A plus the gradient of phi plus the curl of A which equals a gauge field g, B minus E](images/Gravity/DA_is_gEB.png)
+A plus the gradient of phi plus the curl of A which equals a gauge field g, B minus E](../images/Gravity/DA_is_gEB.png)
   
 This also has a gauge field g which can easily be eliminated by subtracting
 the conjugate of this product. The sum of these two fields - times a factor of
@@ -2185,7 +2185,7 @@ minus one - is formed by reversing the order of the differential with the
 potential:   
 
 ![one eighth Del A minus the conjugate of Del A times A Del minus the conjugate
-of A Del equations one half B squared minus E squared, 2 E cross B](images/Gravity/get_to_B_squared_minus_E_squared.png)
+of A Del equations one half B squared minus E squared, 2 E cross B](../images/Gravity/get_to_B_squared_minus_E_squared.png)
 
 The first term drops into the Euler-Lagrange equations to generate the Gauss
 and Ampere laws of electromagnetism. As a bonus, there is the Poynting vector,
@@ -2196,7 +2196,7 @@ compact when using quaternions:
 
 ![R equals 0, x sub 1, x sub 2, x sub 3. U equals cosine theta, sine theta, 0,
 0. R goes to R prime equals U times R times the conjugate of U which equals 0, x sub 1 cosine 2 theta minus x sub 3 sine 2 theta, x sub 3 cosine 2 theta
-plus x sub 2 sine 2 theta](images/Gravity/rotation_around_x.png)
+plus x sub 2 sine 2 theta](../images/Gravity/rotation_around_x.png)
 
 If one tries to simply change from the cosine and sine function to the
 hyperbolic cosine and sine function, a member of the Lorentz group is not
@@ -2206,7 +2206,7 @@ non-trivial change. Other terms are required to pull off the trick:
 ![B equals t, x sub 1, x sub 2, x sub 3. H equals the hyperbolic cosine of
 alpha, the hyperbolic sine of alpha, 0, 0. B goes to B prime equals H B the
 conjugate of H plus one half the difference of the congugate of H H B and the
-conjugate of the conjugate of H the conjugate of H times B](images/Gravity/boost_along_x.png)
+conjugate of the conjugate of H the conjugate of H times B](../images/Gravity/boost_along_x.png)
 
 Quaternions provide another way to write these expressions. Nothing new is
 learned, other than to be skeptical of claims about the limitations of
@@ -2312,7 +2312,7 @@ inside of a box. The action S integrates the Lagrange density (mass per volume)
 over space and _time_, resulting in t mass times time.
 
 ![The action S equals the integral of the Lagrange density over
-space-time](images/EM/derive_Euler-Lagrange/S_eq_int_L.png)
+space-time](../images/EM/derive_Euler-Lagrange/S_eq_int_L.png)
 
 Notice that the action could be just about any value by integrating over
 different amounts of time, from a nano-second to a billion years.
@@ -2324,7 +2324,7 @@ there is a symmetry, there is necessarily a conserved quantity.
 ![The variaton of the action S equals 0 equals the integral of the Lagrange
 density varied with respect to a variable and posibly the derivatives of the
 variable integrated over 
-space-time](images/EM/derive_Euler-Lagrange/dS_is_zero.png)
+space-time](../images/EM/derive_Euler-Lagrange/dS_is_zero.png)
 
 This is a minimization problem, or more formally, the calculus of variations.
 the first types of minimization problems one learns are about the minimum value
@@ -2359,14 +2359,14 @@ equations.
 
 ![the integral of the lagrange density varied with respect to a and the 
 derivative of a integrated over space-time equals 
-0](images/EM/derive_Euler-Lagrange/zero_eq_int_L_dA_dDelA.png)
+0](../images/EM/derive_Euler-Lagrange/zero_eq_int_L_dA_dDelA.png)
 
 This is a mimnum problem with the potential A and its derivative, A'.
 
 1: Start with a Lagrange density that is a function of the potential and its derivatives.
 
 ![The Lagrange density is a function of the potential and the derivatives of 
-the potential](images/EM/derive_Euler-Lagrange/L_eq_f_A_DelA.png)
+the potential](../images/EM/derive_Euler-Lagrange/L_eq_f_A_DelA.png)
 
 Note that one is not allowed to vary position or speed. If we were to do the 
 reverse - fix the potential and its derivative, but vary position and velocity 
@@ -2376,7 +2376,7 @@ reverse - fix the potential and its derivative, but vary position and velocity
 
 ![The action S equations the integral over space-time of the Lagrange density 
 that is a function of the potential A and the derivatives of the potential 
-A'](images/EM/derive_Euler-Lagrange/S_eq_L_A_DelA.png)
+A'](../images/EM/derive_Euler-Lagrange/S_eq_L_A_DelA.png)
 
 3: Vary the action.
 
@@ -2384,7 +2384,7 @@ A'](images/EM/derive_Euler-Lagrange/S_eq_L_A_DelA.png)
 derivative of the Lagrange density with repect to A while varying A plus the 
 derivative of the Lagrange density with repect to the derivative of A while 
 varying the derivative of 
-A](images/EM/derive_Euler-Lagrange/dS_eq_dL_dAdA_plus_dL_dDelA_dDelA.png)
+A](../images/EM/derive_Euler-Lagrange/dS_eq_dL_dAdA_plus_dL_dDelA_dDelA.png)
 
 4: The problem is with the variation in A versus the variantion is the derivative of A.  Use the product rule to get two variations in A.
 
@@ -2392,37 +2392,37 @@ A](images/EM/derive_Euler-Lagrange/dS_eq_dL_dAdA_plus_dL_dDelA_dDelA.png)
 density with respect to Del A times the variation in A equals Del the partial 
 derivative of the Lagrangian with respect to Del A while varying A plus the 
 partial derivative of the Lagrangian with repect to Del A while varying Del 
-A](images/EM/derive_Euler-Lagrange/Del_product_dL_DelA_dA.png)
+A](../images/EM/derive_Euler-Lagrange/Del_product_dL_DelA_dA.png)
 
 5: A theorem of Gauss says:
 
 ![The gradient of the partial derivative of the Lagrangian with respec to Del A 
 while varying A equals 
-zero](images/EM/derive_Euler-Lagrange/Del_dL_DelA_dA_eq_0.png)
+zero](../images/EM/derive_Euler-Lagrange/Del_dL_DelA_dA_eq_0.png)
 
 so:
 
-![](images/EM/derive_Euler-Lagrange/minus_DeldldA_eq_dL_dDelA.png)
+![](../images/EM/derive_Euler-Lagrange/minus_DeldldA_eq_dL_dDelA.png)
 
 6: Subsitute 5 into the variation in 3:
 
 ![Vary the action S which equals the integral over space-time of the partial 
 derivative of the Lagrange density with repect to A minus the 
-derivative of the Lagrange density with repect to Del A while varying with repect to A](images/EM/derive_Euler-Lagrange/dS_eq_dL_dAdA_plus_dL_dDelA_dDelA.png)
+derivative of the Lagrange density with repect to Del A while varying with repect to A](../images/EM/derive_Euler-Lagrange/dS_eq_dL_dAdA_plus_dL_dDelA_dDelA.png)
 
 7: The variation will be at the minimum if the variation in the action S is 
 zero, which happends if the integrand is zero:
 
 ![The derivative of the Lagrange density with repect to A is equal to the 
 derivative of the partial derivative of the Lagrange density with respect to 
-Del A](images/EM/derive_Euler-Lagrange/Euler-Lagrange_eq.png)
+Del A](../images/EM/derive_Euler-Lagrange/Euler-Lagrange_eq.png)
 
 QED
 
 There are so many partial differential equations when using Euler-Lagrange,
 people with thin you are brilliant.
 
-![](images/EM/derive_Euler-Lagrange/details.png)
+![](../images/EM/derive_Euler-Lagrange/details.png)
 
 
 
@@ -2436,27 +2436,27 @@ get plugged into the Euler-Lagrange equation.
 An invariant is something all observers can agree on.  The Egyptions fiture out
 one long ago:
 
-![3 squared plus 4 squared equals 5 squared](images/EM/EM_invariants/32+42_eq_52.png)
+![3 squared plus 4 squared equals 5 squared](../images/EM/EM_invariants/32+42_eq_52.png)
 
 This was the basis for surveying in the flood plains of the Nile. It remains
 true today.  The 3D Egyptions know we could also include a third spacial
 dimension:
 
 ![a squared plut b squared plus c squared equals R
-squared](images/EM/EM_invariants/a2+b2+c2_eq_R2.png)
+squared](../images/EM/EM_invariants/a2+b2+c2_eq_R2.png)
 
 Einstein showed that Egyptions in rockets could only agree on the inverval
 between events.
 
 ![d tau squared equals d t squared minus d R squared over the speed of light c
-squared](images/EM/EM_invariants/dtau2_eq_dt2-dR2.png)
+squared](../images/EM/EM_invariants/dtau2_eq_dt2-dR2.png)
 
 
 Accelerating or spinning is alright for observing events is you can figure out
 the right sort of functions to put into the interval.
 
 ![d tau squared equals the function f times d t squared minus the function g times d R squared over the speed of light c
-squared](images/EM/EM_invariants/dtau2_eq_f_dt2-g_dR2.png)
+squared](../images/EM/EM_invariants/dtau2_eq_f_dt2-g_dR2.png)
 
 Masters of general relativity can figure out the dynamic functions for _f_ and _g_
 in only a few special cases because the math remains so difficult. The proposal
@@ -2469,7 +2469,7 @@ The first term of a quaternion product is a Lorentz invariant scalar. Couple
 the current with the potential by multiplying them together:
 
 ![J times A equals rho, J times phi, A equals r phi minus J dot A, phi A plus J
-phi plus the cross product of J and A](images/EM/EM_invariants/current_coupling.png)
+phi plus the cross product of J and A](../images/EM/EM_invariants/current_coupling.png)
 
 The electric and magentic fields can be written in terms of differential
 operators acting on a potential. Form the product:
@@ -2477,7 +2477,7 @@ operators acting on a potential. Form the product:
 ![The differential times the potential A equals the time
 derivative, Del times phi A equals the time derivative of phi minus the
 divergence of A, the time derivative of A plus the gradient of phi plus the
-curl of A](images/EM/EM_invariants/DA.png)
+curl of A](../images/EM/EM_invariants/DA.png)
 
 The first term is a gauge term.  EM has gauge symmetry.  Set this to zero in a
 way that assures that no matter what gauge we pick - terms involving the time
@@ -2485,7 +2485,7 @@ derivative of phi or divergence of A - the other terms are unchanged.
 
 ![One half Del times A minus the conjugate of Del times A equals zero the time
 derivative of A plus the gradient of phi plus the curl of
-A](images/EM/EM_invariants/DA_no_scalar.png)
+A](../images/EM/EM_invariants/DA_no_scalar.png)
 
 There are two times of 3-vectors.  An axial vector will not change if the the
 order of the product is reverse.  A polar vector will flip signs by changing
@@ -2494,11 +2494,11 @@ possibilities:
 
 ![One half Del times A minus the conjugate of Del times A equals zero the time
 derivative of A plus the gradient of phi plus the curl of
-A](images/EM/EM_invariants/DA_no_scalar.png)
+A](../images/EM/EM_invariants/DA_no_scalar.png)
 
 ![One half A times Del minus the conjugate of A times Del equals zero the time
 derivative of A plus the gradient of phi minus the curl of
-A](images/EM/EM_invariants/AD_no_scalar.png)
+A](../images/EM/EM_invariants/AD_no_scalar.png)
 
 These should both be as "long" as each other, but will point in a different
 direction so long as the magnetic field B is not zero.  Zero is an invariant,
@@ -2508,7 +2508,7 @@ necssarily, be equal to zero.
 ![The norm of minus E plus B equals E squared minus 2 E dot B plus B squared.
 The norm of minus E minus B equals E squared plus 2 E dot B plus B squared. The
 second norm minus the first is 4 E dot
-B](images/EM/EM_invariants/norms_of_E_B.png)
+B](../images/EM/EM_invariants/norms_of_E_B.png)
 
 The dot product of the electric and magnetic field will be used to derive the
 homogenous Maxwell equations, the no monopoles and Faraday's law.
@@ -2517,7 +2517,7 @@ The product of the two ways to multiply a differential and a potential also
 form an invariant:
 
 ![0, minus E plus B times 0, minus E minus B equals B squared minus E squared,
-2 E cross B](images/EM/EM_invariants/B2-E2.png)
+2 E cross B](../images/EM/EM_invariants/B2-E2.png)
 
 This Lorentz invariant quantity will be used when deriving the Maxwell source
 equations, Gauss' and Ampere's laws.
@@ -2567,7 +2567,7 @@ first order changes of a potential by taking the product.
 
 ![The differential times the potential A equals the time derivative, Del times phi A; which equals the time derivative of phi minus the
 divergence of A, the time derivative of A plus the gradient of phi plus the curl of A; which equals a gauge term, minus the electric field E plus the magnetic field
-B](images/EM/derive_Maxwell_homogeneous_equations/DelA_eq_gauge_-E+B.png)
+B](../images/EM/derive_Maxwell_homogeneous_equations/DelA_eq_gauge_-E+B.png)
 
 Simple enough.
 
@@ -2577,19 +2577,19 @@ No, stop.  This is amazing enough to repeat.
 
 ![The differential times the potential A equals the time derivative, Del times phi A; which equals the time derivative of phi minus the
 divergence of A, the time derivative of A plus the gradient of phi plus the curl of A; which equals a gauge term, minus the electric field E plus the magnetic field
-B](images/EM/derive_Maxwell_homogeneous_equations/DelA_eq_gauge_-E+B.png)
+B](../images/EM/derive_Maxwell_homogeneous_equations/DelA_eq_gauge_-E+B.png)
 
 But what about that first term?  One of the defining characteristic of light is
 how its interval is zero.  A photon cannot wear a watch.  Photons are timeless.
 The way to implement that quality is to set this gauge term equal to zero like
 so:
 
-![One half Del times A minus the conjugate of Del times A equals 0, -E + B](images/EM/derive_Maxwell_homogeneous_equations/DelA_no_scalar.png)
+![One half Del times A minus the conjugate of Del times A equals 0, -E + B](../images/EM/derive_Maxwell_homogeneous_equations/DelA_no_scalar.png)
 
 This is a recurring technique.  If something travels at the speed of light,
 there will be non of the the four gauge terms:
 
-![](images/EM/derive_Maxwell_homogeneous_equations/gauge_terms.png)
+![](../images/EM/derive_Maxwell_homogeneous_equations/gauge_terms.png)
 
 The electric and magnetic field are unchanged by changing the guage because the
 gauge terms are always subtracted away.
@@ -2613,12 +2613,12 @@ Here is how we will derive the no monopoles law.
 The dot product of the electric and magnetic fields has 24 terms.  It is scary,
 so start simple with one term only, _E~x~_:
 
-![E dot B equals minus the time derivative of A~x~ minux the derivative of phi with respect to x](images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_Ex.png)
+![E dot B equals minus the time derivative of A~x~ minux the derivative of phi with respect to x](../images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_Ex.png)
 
 The magnetic field _B~x~_ has everything not found in _E~x~_, including both
 the potentials and derivatives.
 
-![E dot B equals minus the time derivative of A~x~ minux the derivative of phi with respect to x times the derivative of A~y~ with respect of z minus the derivative of A~z~ with respect to y](images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_Ex_Bx.png)
+![E dot B equals minus the time derivative of A~x~ minux the derivative of phi with respect to x times the derivative of A~y~ with respect of z minus the derivative of A~z~ with respect to y](../images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_Ex_Bx.png)
 
 It is seeing details like all four potential terms and all four differentials
 in each line that makes the Maxwell equations feel so complete.
@@ -2627,7 +2627,7 @@ Multiply this out.
 
 ![E dot B equals minus the time derivative of A~x~ minux the derivative of phi with respect to x times the derivative of A~y~ with respect of z minus the derivative of A~z~ with respect to y; which equals minus the 
 time derivative of A~x~ the derivative of A~y~ with respect to z minus the
-derivative of phi with respect to x the derivative of A~y~ with respect to z plus the time derivative of A~x~ the derivative of A~z~ with respect to y plus the derivative of phi with respect to x the derivative of A~z~ with respect to y](images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_Ex_Bx_details.png)
+derivative of phi with respect to x the derivative of A~y~ with respect to z plus the time derivative of A~x~ the derivative of A~z~ with respect to y plus the derivative of phi with respect to x the derivative of A~z~ with respect to y](../images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_Ex_Bx_details.png)
 
 * Half the terms are positive, half are negative, setting up for cancellations.
 * Each term has a t, x, y, z-ish part.
@@ -2635,11 +2635,11 @@ derivative of phi with respect to x the derivative of A~y~ with respect to z plu
 
 Clone _E~x~_ to make _E~y~_ and _E~z~_ making all necessary subsitutions:
 
-![](images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_Ex_Ey_Ez.png)
+![](../images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_Ex_Ey_Ez.png)
 
 Look for patterns in the partial derivatives:
 
-![](images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_Ex_Ey_Ez_dz_dy.png)
+![](../images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_Ex_Ey_Ez_dz_dy.png)
 
 The electric field terms are in yellow.  The top line has the magnetic field,
 _B~x~_. None of these has an _x_, it is pairs of _y_'s and _z_'s.
@@ -2647,17 +2647,17 @@ _B~x~_. None of these has an _x_, it is pairs of _y_'s and _z_'s.
 The next part of the puzzle is to figure out where the rest of the derivative
 with respect to _x_ go.  That will dictate where the other partials go too.
 
-![](images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_curl.png)
+![](../images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_curl.png)
 
 This is the game of curl Sudoku.  Fill in the missing values for _x_, _y_ and _z_.
 
-![](images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_details_all.png)
+![](../images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_details_all.png)
 
 All the needed slots are filled in.  The Soduko game is complete.
 
 Now remove some of the details.  The dot product of _E_ and _B_ is pretty:
 
-![](images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_pattern.png)
+![](../images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_pattern.png)
 
 The Lorentz invariant Lagrange density is complete.
 
@@ -2666,13 +2666,13 @@ The Lorentz invariant Lagrange density is complete.
 Plug the 16 terms of the Lagrange density into 20 slots in the Euler-Lagrange
 equations:
 
-![](images/EM/derive_Maxwell_homogeneous_equations/L_E_dot_B_into_Euler-Lagrange.png)
+![](../images/EM/derive_Maxwell_homogeneous_equations/L_E_dot_B_into_Euler-Lagrange.png)
 
 This is a mountain of details.  People are much better at spotting patterns.
 
 Do simple things, one at a time.  Here is the first Euler-Lagrange equation:
 
-![](images/EM/derive_Maxwell_homogeneous_equations/dL_dphi_eq_4_terms.png)
+![](../images/EM/derive_Maxwell_homogeneous_equations/dL_dphi_eq_4_terms.png)
 
 * Only terms with phi matter.
 * The derivative repeat.
@@ -2680,11 +2680,11 @@ Do simple things, one at a time.  Here is the first Euler-Lagrange equation:
 
 Here are the terms in the Lagrangian that have a phi:
 
-![](images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_phi_details.png)
+![](../images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_phi_details.png)
 
 Every term with a phi is mixed.  Derivatives of mixed terms is simple:
 
-![](images/EM/derive_Maxwell_homogeneous_equations/mixed_derivatives.png)
+![](../images/EM/derive_Maxwell_homogeneous_equations/mixed_derivatives.png)
 
 Here's what happens:
 * After Euler-Lagrange is applied, there is no phi left.
@@ -2695,14 +2695,14 @@ density is changed by applying the Euler-Lagrange equation.
 
 With minuses in one column, and pluses in the other, cancellations happen:
 
-![](images/EM/derive_Maxwell_homogeneous_equations/mixed_terms_cancel.png)
+![](../images/EM/derive_Maxwell_homogeneous_equations/mixed_terms_cancel.png)
 
 Focus on teh example.  See how the phi drops, and one has mixed derivatives
 with opposite signs.  Nice.
 
 What is going on in terms of the E and B fields?  Look at things row by row:
 
-![](images/EM/derive_Maxwell_homogeneous_equations/Del_dot_B_details.png)
+![](../images/EM/derive_Maxwell_homogeneous_equations/Del_dot_B_details.png)
 
 The first line of the Lagrangian has two derivatives of phi with respect to
 _x_. After going through the Euler-Lagrange equation, one is left with a second
@@ -2710,7 +2710,7 @@ order derivative which is the _x_ derivative of the magnetic field.
 
 Rinse and repeat for _y_ and _z_:
 
-![](images/EM/derive_Maxwell_homogeneous_equations/no_monopoles_pattern.png)
+![](../images/EM/derive_Maxwell_homogeneous_equations/no_monopoles_pattern.png)
 
 These cancellations all happen because of a vector identity: the divergence
 of a curl is zero.
@@ -2720,7 +2720,7 @@ of a curl is zero.
 To continue down this longer road and arrive at Faraday's law, start from the
 same Lagrangian, but focus on the A~x~ terms:
 
-![](images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_Ax_details.png)
+![](../images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_Ax_details.png)
 
 * The Euler-Lagrange will wipe out the _A~x~_'s, leading to cancellations.
 * The top line is a time derivative of _B~x~_.
@@ -2728,7 +2728,7 @@ same Lagrangian, but focus on the A~x~ terms:
 
 Here is the pattern:
 
-![](images/EM/derive_Maxwell_homogeneous_equations/Faradays_law_pattern.png)
+![](../images/EM/derive_Maxwell_homogeneous_equations/Faradays_law_pattern.png)
 
 This is Faraday's law.
 
@@ -2752,13 +2752,13 @@ invariant coupling of the current density to the potential is needed.  That is
 simply the product of the current density with the potential:
 
 ![J times A equals rho, J times phi, A equals r phi minus J dot A, phi A plus J
-phi plus the cross product of J and A](images/EM/EM_invariants/current_coupling.png)
+phi plus the cross product of J and A](../images/EM/EM_invariants/current_coupling.png)
 
 We also need a Lorentz invariant of the E and B fields.  As discussed in [EM
 invariants](EM_invariants.md), the gauge-free derivative of a potential written
 in both orders does the trick:
 
-![](images/EM/derive_Maxwell_source_equations/difference_of_squares.png)
+![](../images/EM/derive_Maxwell_source_equations/difference_of_squares.png)
 
 This is a difference of squares.  We get the Poynting 3-vector created for
 free.  This is not a minor addition.  Neither of the fields E or B are changed
@@ -2783,16 +2783,16 @@ Start by writing out the Lagrange density
 
 Start easy by writing out _E~x~_ and _B~x~_:
 
-![](images/EM/derive_Maxwell_source_equations/Bx2-Ex2.png)
+![](../images/EM/derive_Maxwell_source_equations/Bx2-Ex2.png)
 
 Multiply it out.
 
-![](images/EM/derive_Maxwell_source_equations/Bx2_Ex2_multiplied_out.png)
+![](../images/EM/derive_Maxwell_source_equations/Bx2_Ex2_multiplied_out.png)
 
 Every term is negative except the squares of the _B~x~_ field.  Continue the
 process for ~y~ and ~z~.
 
-![](images/EM/derive_Maxwell_source_equations/B2-E2_terms.png)
+![](../images/EM/derive_Maxwell_source_equations/B2-E2_terms.png)
 
 The electric field terms in yellow are simple substitutions.  The magnetic
 field involves the curl, so it can be intimidating.  Once one term is done, the
@@ -2803,7 +2803,7 @@ The Lagrange density needs the current coupling and the difference of the
 square of the fields.  One detail is that a factor of a half is needed to
 simplify derivative equations
 
-![](images/EM/derive_Maxwell_source_equations/L_EM_details.png)
+![](../images/EM/derive_Maxwell_source_equations/L_EM_details.png)
 
 There is a clean separation of electric fields (in yellow) and the magnetic
 field (in green and orange).
@@ -2815,7 +2815,7 @@ The Lagrange density for the Maxwell source equations is complete.
 Start applying the Euler-Lagrange equation by focusing on terms with a phi in
 them:
 
-![](images/EM/derive_Maxwell_source_equations/L_EM_details_phi.png)
+![](../images/EM/derive_Maxwell_source_equations/L_EM_details_phi.png)
 
 There is one current coupling term.  There are six terms all coming from the
 electric field.  This is reasonable because only the electric field has a phi,
@@ -2825,7 +2825,7 @@ Lagrangian.
 We need to do calculus on two types of terms.  One is a square, the other is a
 mixed derivative:
 
-![](images/EM/derive_Maxwell_source_equations/second_order_derivatives.png)
+![](../images/EM/derive_Maxwell_source_equations/second_order_derivatives.png)
 
 Even though these expressions look impressively complicated, one is only taking
 the derivatives of x^2^ and xy, the first sorts of derivatives one learns in
@@ -2833,11 +2833,11 @@ the study of calculus.  It is x that is odd, being another derivative.
 
 Apply the Euler-Lagrange equation to all the terms with a phi:
 
-![](images/EM/derive_Maxwell_source_equations/apply_Euler-Lagrange.png)
+![](../images/EM/derive_Maxwell_source_equations/apply_Euler-Lagrange.png)
 
 Here is the pattern:
 
-![](images/EM/derive_Maxwell_source_equations/Gauss_law_pattern.png)
+![](../images/EM/derive_Maxwell_source_equations/Gauss_law_pattern.png)
 
 This is Gauss's law.
 
@@ -2845,19 +2845,19 @@ This is Gauss's law.
 
 This time focus on terms on _A~x~_ in the Lagrange density:
 
-![](images/EM/derive_Maxwell_source_equations/L_EM_details_Ax.png)
+![](../images/EM/derive_Maxwell_source_equations/L_EM_details_Ax.png)
 
 Write out the Euler-Lagrange derivatives:
 
-![](images/EM/derive_Maxwell_source_equations/L_EM_details_Euler-Lagrange.png)
+![](../images/EM/derive_Maxwell_source_equations/L_EM_details_Euler-Lagrange.png)
 
 Collect the terms generated by the Euler-Lagrange equations:
 
-![](images/EM/derive_Maxwell_source_equations/L_EM_Amperes_law.png)
+![](../images/EM/derive_Maxwell_source_equations/L_EM_Amperes_law.png)
 
 Look at the pattern:
 
-![](images/EM/derive_Maxwell_source_equations/L_EM_Amperes_law_pattern.png)
+![](../images/EM/derive_Maxwell_source_equations/L_EM_Amperes_law_pattern.png)
 
 This is Ampere's law.
 
@@ -2865,15 +2865,15 @@ This is Ampere's law.
 
 Gauss's law is only about the electric field.  Ampere's law is about both.
 
-![](images/EM/derive_Maxwell_source_equations/Gauss_Ampere_pattern.png)
+![](../images/EM/derive_Maxwell_source_equations/Gauss_Ampere_pattern.png)
 
 The two Lagrangians and four Maxwell field equations together on one stage:
 
-![](images/EM/derive_Maxwell_source_equations/Maxwell_equations_pattern.png)
+![](../images/EM/derive_Maxwell_source_equations/Maxwell_equations_pattern.png)
 
 # Maxwell by hand
 
-![The Maxwell source equations derivation by hand](images/EM/Maxwell_by_hand/max_1_covariant.jpg)
+![The Maxwell source equations derivation by hand](../images/EM/Maxwell_by_hand/max_1_covariant.jpg)
 
 To really lean anything, one needs to practice over and over, by hand.  Here is
 a complete derivation of the Maxwell source equations using quaternions.
@@ -2892,12 +2892,12 @@ properties of a complete inner-product space (a Banach space for the field of
 quaternions).  A central issue is the definition of the square of the norm.
 In quantum mechanics:
 
-![the norm of phi squared  = <phi | phi>](images/QM/bracket_notation/s_gr_1.gif)
+![the norm of phi squared  = <phi | phi>](../images/QM/bracket_notation/s_gr_1.gif)
 
 In this notebook, the following assertion will be examined (star is the
 conjugate, so the vector flips signs):
 
-![the norm of \(t, X\) squared  = \(t, X\) conjugated times \(t, X\) times \(t, X\) conjugated times \(t, X\)](images/QM/bracket_notation/s_gr_2.gif)
+![the norm of \(t, X\) squared  = \(t, X\) conjugated times \(t, X\) times \(t, X\) conjugated times \(t, X\)](../images/QM/bracket_notation/s_gr_2.gif)
 
 The inner-product of two quaternions is defined here as the transpose (or
 conjugate) of the first quaternion multiplied by the second.  The inner
@@ -2909,7 +2909,7 @@ The square of the norm of a quaternion can only be zero if every element is
 zero, otherwise it must have a positive value.
 
 ![\(t, X\) conjugated times \(t, X\) = \(t squared +X dot X,
-0\)](images/QM/bracket_notation/s_gr_3.gif)
+0\)](../images/QM/bracket_notation/s_gr_3.gif)
 
 This is the standard Euclidean norm for a real 4-dimensional vector space.
 
@@ -2929,7 +2929,7 @@ exists a neighborhood of any quaternion x such that there is a set of
 quaternions y
 
 ![the norm of x - y squared is less than epsilon to the
-fourth](images/QM/bracket_notation/s_gr_4.gif)
+fourth](../images/QM/bracket_notation/s_gr_4.gif)
 
 for some fixed value of epsilon.
 
@@ -2937,10 +2937,10 @@ Construct such a neighborhood.
 
 ![\(\(t, X\) - epsilon \(t, X\) over 4\)conjugated times \(\(t, X\) - epsilon
 \(t, X\) over 4\) times \(\(t, X\) - epsilon \(t, X\) over 4\)conjugated times
-\(\(t, X\) - epsilon \(t, X\) over 4\) =](images/QM/bracket_notation/s_gr_5.gif)
+\(\(t, X\) - epsilon \(t, X\) over 4\) =](../images/QM/bracket_notation/s_gr_5.gif)
 
 ![= \(epsilon to the fourth over 4, 0, 0, 0\) is less than \(epsilon to the
-fourth, 0, 0, 0\)](images/QM/bracket_notation/s_gr_6.gif)
+fourth, 0, 0, 0\)](../images/QM/bracket_notation/s_gr_6.gif)
 
 An infinite number of quaternions exist in the neighborhood.
 
@@ -2958,17 +2958,17 @@ quaternions.
 The conjugate of the square of the norm equals the square of the norm of the
 two terms reversed.
 
-![<phi | phi> conjugated = <phi | phi>](images/QM/bracket_notation/s_gr_7.gif)
+![<phi | phi> conjugated = <phi | phi>](../images/QM/bracket_notation/s_gr_7.gif)
 
 For quaternions,
 
 ![\(\(t, X\) conjugated times \(t prime, X prime\)\)conjugated = \(t t prime+
 X dot X prime, -t X prime + t prime X + X cross X
-prime\)](images/QM/bracket_notation/s_gr_8.gif)
+prime\)](../images/QM/bracket_notation/s_gr_8.gif)
 
 ![\(t prime, X prime\) conjugated times \(t, X\) = \(t prime t + X prime dot
 X, t prime X - X prime t - X prime Cross
-X\)](images/QM/bracket_notation/s_gr_9.gif)
+X\)](../images/QM/bracket_notation/s_gr_9.gif)
 
 These are identical, because the terms involving the cross produce will flip
 signs when their order changes.
@@ -2976,57 +2976,57 @@ signs when their order changes.
 For products of squares of norms in quantum mechanics,
 
 ![<psi phi | psi phi> = <psi | phi> times <psi | phi>
-](images/QM/bracket_notation/s_gr_10.gif)
+](../images/QM/bracket_notation/s_gr_10.gif)
 
 This is also the case for quaternions.
 
 ![<\(t, X\)\(t prime, X prime\) | \(t, X\)\(t prime, X prime\)>
-=](images/QM/bracket_notation/s_gr_11.gif)
+=](../images/QM/bracket_notation/s_gr_11.gif)
 
 ![= \(\(t, X\) times \(t prime, X prime\)\) conjugated times \(t, X\) times
-\(t prime, X prime\) =](images/QM/bracket_notation/s_gr_12.gif)
+\(t prime, X prime\) =](../images/QM/bracket_notation/s_gr_12.gif)
 
 ![= \(t prime, X prime\) conjugated times \(t, X\) conjugated \(t, X\) times
-\(t prime, X prime\) =](images/QM/bracket_notation/s_gr_13.gif)
+\(t prime, X prime\) =](../images/QM/bracket_notation/s_gr_13.gif)
 
 ![= \(t prime, X prime\) conjugated times \(t squared +x squared +y squared +z
 squared, 0, 0, 0\) times \(t prime, X prime\)
-=](images/QM/bracket_notation/s_gr_14.gif)
+=](../images/QM/bracket_notation/s_gr_14.gif)
 
 ![= \(t squared +x squared +y squared +z squared, 0, 0, 0\) times \(t prime, X
 prime\) conjugated times \(t prime, X prime\)
-=](images/QM/bracket_notation/s_gr_15.gif)
+=](../images/QM/bracket_notation/s_gr_15.gif)
 
 ![= \(t, X\) conjugated times \(t, X\) times \(t prime, X prime\) conjugated
-times \(t prime, X prime\) =](images/QM/bracket_notation/s_gr_16.gif)
+times \(t prime, X prime\) =](../images/QM/bracket_notation/s_gr_16.gif)
 
 ![=<\(t, X\) | \(t, X\)> times <\(t prime, X prime\) | \(t prime, X
-prime\)>](images/QM/bracket_notation/s_gr_17.gif)
+prime\)>](../images/QM/bracket_notation/s_gr_17.gif)
 
 The triangle inequality in quantum mechanics:
 
 ![<psi + phi | psi + phi> squared is less than \(<psi | psi>+ <phi | phi>\)
-squared](images/QM/bracket_notation/s_gr_18.gif)
+squared](../images/QM/bracket_notation/s_gr_18.gif)
 
 For quaternions,
 
 ![<\(t, X\)+\(t prime, X prime\) | \(t, X\)+\(t prime, X prime\)> squared
-=](images/QM/bracket_notation/s_gr_19.gif)
+=](../images/QM/bracket_notation/s_gr_19.gif)
 
 ![= \(\(t+t prime, X+X prime\) conjugated times\(t+t prime, X+X prime\)\)
-squared](images/QM/bracket_notation/s_gr_20.gif)
+squared](../images/QM/bracket_notation/s_gr_20.gif)
 
 ![= \(t squared  + t prime squared + X squared + X prime squared + 2 t t prime
-+ 2X dot X, 0\) squared ](images/QM/bracket_notation/s_gr_21.gif)
++ 2X dot X, 0\) squared ](../images/QM/bracket_notation/s_gr_21.gif)
 
-![is less than](images/QM/bracket_notation/s_gr_22.gif)
+![is less than](../images/QM/bracket_notation/s_gr_22.gif)
 
 ![= \(t squared  + t prime squared + X squared + X prime squared + 2 times the
 square root of the norm of \(t, X\) times \(t prime, X prime\), 0\) squared
-=](images/QM/bracket_notation/s_gr_23.gif)
+=](../images/QM/bracket_notation/s_gr_23.gif)
 
 ![\(<\(t, X\) | \(t, X\)> + <\(t prime, X prime\) | \(t prime, X prime\)>\)
-squared ](images/QM/bracket_notation/s_gr_24.gif)
+squared ](../images/QM/bracket_notation/s_gr_24.gif)
 
 If the signs of each pair of component are the same, the two sides will be
 equal.  If the signs are different (a t and a -t for example), then the cross
@@ -3038,83 +3038,83 @@ The Schwarz inequality in quantum mechanics is analogous to dot products and
 cosines in Euclidean space.
 
 ![the absolute value of <psi | phi> squared is less than or equal to <psi |
-psi> times <phi | phi>](images/QM/bracket_notation/s_gr_25.gif)
+psi> times <phi | phi>](../images/QM/bracket_notation/s_gr_25.gif)
 
 Let a third wave function, chi, be the sum of these two with an arbitrary
 parameter lambda.
 
-![chi is defined to be psi + lambda phi](images/QM/bracket_notation/s_gr_26.gif)
+![chi is defined to be psi + lambda phi](../images/QM/bracket_notation/s_gr_26.gif)
 
 The norm of chi will necessarily be greater than zero.
 
 ![psi + lambda phi conjugated times psi + lambda phi = psi squared + lambda
 psi conjugated time phi + lambda conjugated times phi conjugated times psi +
 lambda conjugated times lambda times phi conjugated times phi is greater than
-or equal to zero ](images/QM/bracket_notation/s_gr_27.gif)
+or equal to zero ](../images/QM/bracket_notation/s_gr_27.gif)
 
 Choose the value for lambda that helps combine all the terms containing
 lambda.
 
 ![lambda goes to - phi conjugated time psi over phi conjugated times
-phi](images/QM/bracket_notation/s_gr_28.gif)
+phi](../images/QM/bracket_notation/s_gr_28.gif)
 
 ![psi conjugated time psi - phi conjugated times psi times psi conjugated
-times phi over phi conjugated times phi](images/QM/bracket_notation/s_gr_29.gif)
+times phi over phi conjugated times phi](../images/QM/bracket_notation/s_gr_29.gif)
 
 Multiply through by the denominator, separate the two resulting terms and do
 some minor rearranging.
 
 ![\(psi conjugated phi\) conjugated times psi conjugated phi is less than or
 equal to psi conjugated psi times  phi conjugated
-phi](images/QM/bracket_notation/s_gr_30.gif)
+phi](../images/QM/bracket_notation/s_gr_30.gif)
 
 This is now the Schwarz inequality.
 
 Another inequality:
 
 ![2 Re <phi | phi> <= <phi | phi> + <phi |
-phi>](images/QM/bracket_notation/s_gr_31.gif)
+phi>](../images/QM/bracket_notation/s_gr_31.gif)
 
 Examine the square of the norm of the difference between two quaternions which
 is necessarily equal to or greater than zero.
 
 ![0 <= <\(t, X\) - \(t prime, X prime\) | \(t, X\)-\(t prime, X
-prime\)>](images/QM/bracket_notation/s_gr_32.gif)
+prime\)>](../images/QM/bracket_notation/s_gr_32.gif)
 
 ![= \(\(t - t prime\) squared  + \(X-X prime\).\(X-X prime\),
-0\)](images/QM/bracket_notation/s_gr_33.gif)
+0\)](../images/QM/bracket_notation/s_gr_33.gif)
 
 The cross terms can be put on the other side of inequality, changing the sign,
 and leaving the sum of two norms behind.
 
 ![\(2 \(t  t prime + X dot X prime\), 0\) <= \(t squared + x squared + t prime
-squared  + X prime squared , 0\)](images/QM/bracket_notation/s_gr_34.gif)
+squared  + X prime squared , 0\)](../images/QM/bracket_notation/s_gr_34.gif)
 
 ![2 Re <\(t, X\) | \(t prime, X prime\)> <= <\(t, X\) | \(t, X\)> + <\(t
-prime, X prime\) | \(t prime, X prime\)>](images/QM/bracket_notation/s_gr_35.gif)
+prime, X prime\) | \(t prime, X prime\)>](../images/QM/bracket_notation/s_gr_35.gif)
 
 The inequality holds.
 
 The parallelogram law:
 
 ![<phi +phi | phi +phi> + <phi -phi | phi -phi> = 2 <phi | phi> + 2 <phi |
-phi>](images/QM/bracket_notation/s_gr_36.gif)
+phi>](../images/QM/bracket_notation/s_gr_36.gif)
 
 Test the quaternion norm
 
 ![<\(t, X\) + \(t prime, X prime\) | \(t, X\)+ \(t prime, X prime\)> + <\(t,
 X\) - \(t prime, X prime\) | \(t, X\) - \(t prime, X prime\)>
-=](images/QM/bracket_notation/s_gr_37.gif)
+=](../images/QM/bracket_notation/s_gr_37.gif)
 
 ![= \(\(t + t prime\) squared  + \(X+X prime\).\(X+X prime\), 0\) + \(\(t - t
 prime\) squared  + \(X-X prime\).\(X-X prime\), 0\)
-=](images/QM/bracket_notation/s_gr_38.gif)
+=](../images/QM/bracket_notation/s_gr_38.gif)
 
 ![= 2 \(t squared + X squared + t prime squared  + X prime squared , 0\)
-=](images/QM/bracket_notation/s_gr_39.gif)
+=](../images/QM/bracket_notation/s_gr_39.gif)
 
 ![= 2 <\(t, X\) | \(t, X\)> + 2 <\(t prime, X prime\) | \(t prime, X
-prime\)>](images/QM/bracket_notation/s_gr_40.gif)
+prime\)>](../images/QM/bracket_notation/s_gr_40.gif)
 
 This is twice the square of the norms of the two separate components.
 
@@ -3150,7 +3150,7 @@ scalar magnitude and angle, and a 3-vector I (which in some cases can be the
 more familiar i).  
 
 ![q = the norm of q times e to the \(theta i\) = q conjugate times q times
-\(cosine \(theta\) + I sine \(theta\)\)](images/QM/polar/s_gr_1.gif)
+\(cosine \(theta\) + I sine \(theta\)\)](../images/QM/polar/s_gr_1.gif)
 
 This representation can be useful due to the properties of the exponential
 function, cosines and sines.
@@ -3159,24 +3159,24 @@ The absolute value of a quaternion is the square root of the norm, which is
 the transpose of a quaternion multiplied by itself.
 
 ![The absolute value of q = the square root of q conjugated times
-q](images/QM/polar/s_gr_2.gif)
+q](../images/QM/polar/s_gr_2.gif)
 
 The angle is the arccosine of the ratio of the first component of a quaternion
 over the norm.
 
 ![theta = arccos\(q + q conjugated over 2 the absolute value of
-q\)](images/QM/polar/s_gr_3.gif)
+q\)](../images/QM/polar/s_gr_3.gif)
 
 The vector component is generated by normalizing the pure quaternion (the
 final three terms) to the norm of the pure quaternion.
 
 ![I = q - q conjugated over 2 the absolute value of q - q
-conjugated](images/QM/polar/s_gr_4.gif)
+conjugated](../images/QM/polar/s_gr_4.gif)
 
 I^2 equals -1 just like i^2.  Let (0, V) = (q - q*)/2.
 
 ![I squared  = \(0, V\) times \(0, V\) over the absolute value of V squared =
-\(-V dot V, V Cross V\) over \(V squared , 0\) = -1](images/QM/polar/s_gr_5.gif)
+\(-V dot V, V Cross V\) over \(V squared , 0\) = -1](../images/QM/polar/s_gr_5.gif)
 
 It should be possible to do Fourier analysis with quaternions, and to form a
 Dirac delta function (or distribution).  That is a project for the future.
@@ -3192,7 +3192,7 @@ exponentials can be defined using the Campbell-Hausdorff formula:
 ![e to the X times the e to the Y equals X + Y + 1/2 the commutator of X, Y
 times X + Y + 1/12 \(the commutator of \(the commutator of X, Y\), Y - \(the
 commutator of \(the commutator of X, Y\), X\) times X + Y\) +
-...](images/QM/polar/s_gr_6.gif)
+...](../images/QM/polar/s_gr_6.gif)
 
 This formula is not easy to use, and is only applicable in a small area around
 unity. Quaternion analysis that relies on this formula would be very limited.
@@ -3206,16 +3206,16 @@ purely imaginary.  The Grassman product (q q') of two quaternion exponentials
 and the Euclidean product (q* q') should both have these properties.  Together
 these define the needs for the product of two quaternion exponentials.
 
-![Let q = e to the X, q prime = e to the Y](images/QM/polar/s_gr_7.gif)
+![Let q = e to the X, q prime = e to the Y](../images/QM/polar/s_gr_7.gif)
 
 ![q times q' = the even conjugator of q, q prime over 2 + the absolute value
 of the odd conjugator of q, q' over 2 times e to the pi over 2 times the odd
-conjugator of q, q prime over its absolute value ](images/QM/polar/s_gr_8.gif)
+conjugator of q, q prime over its absolute value ](../images/QM/polar/s_gr_8.gif)
 
 ![q conjugated time q prime = same as above but were the even conjugator q, q'
 equals q conjugated time q prime + q prime conjugated time q and the odd
 conjugator of q, q prime equals q conjugated time q prime minus q prim
-conjugated times q](images/QM/polar/s_gr_9.gif)
+conjugated times q](../images/QM/polar/s_gr_9.gif)
 
 I call these operators "conjugators" because they involve taking the conjugate
 of the two elements.  Andrew Millard made the suggestion for the Grassman
@@ -3242,7 +3242,7 @@ Any quaternion can be written in a polar form.
 
 ![q = \(s, V\) = root q conjugated q times e to the \(s over root q conjugated
 times q times V over root V conjugate times
-V\)](images/QM/uncertainty_principle/s_gr_1.gif)
+V\)](../images/QM/uncertainty_principle/s_gr_1.gif)
 
 This is identical to Euler's formula except that the imaginary unit vector i
 is replaced by the normalized 3-vector.  The two are equivalent if j = k = 0.
@@ -3259,10 +3259,10 @@ product of two other real numbers.  This seemingly irrelevant observation
 lends much of the flexibility seen in quantum mechanics :-)  Here is the
 rewrite of q.
 
-![q = e to the \(a b I\) ](images/QM/uncertainty_principle/s_gr_2.gif)
+![q = e to the \(a b I\) ](../images/QM/uncertainty_principle/s_gr_2.gif)
 
 ![where  q conjugate times q = 1,   a b = s over root q conjugated times q,  I
-= V over root V conjugated times V](images/QM/uncertainty_principle/s_gr_3.gif)
+= V over root V conjugated times V](../images/QM/uncertainty_principle/s_gr_3.gif)
 
 The unit vector I could also be viewed as the product of two quaternions.For
 classical quantum mechanics, this additional complication is unnecessary.  It
@@ -3279,7 +3279,7 @@ operator.
 
 Define a linear operator A hat that multiplies q by the quaternion A.
 
-![A hat acts on q = A times q](images/QM/uncertainty_principle/s_gr_4.gif)
+![A hat acts on q = A times q](../images/QM/uncertainty_principle/s_gr_4.gif)
 
 If the operator A hat is an observable, then the quaternion  A is a real
 number, (a, 0).  This will commute with any quaternion.  This equation is
@@ -3294,30 +3294,30 @@ Define a linear operator B hat that multiplies q by the quaternion B.  If B
 hat is an observable,  then this operator can be defined in terms of the
 scalar variable a.
 
-![Let   B hat = - I d by d a](images/QM/uncertainty_principle/s_gr_5.gif)
+![Let   B hat = - I d by d a](../images/QM/uncertainty_principle/s_gr_5.gif)
 
 ![B hat acting on q = - I d e to the \(a b I\) over d a = b times
-q](images/QM/uncertainty_principle/s_gr_6.gif)
+q](../images/QM/uncertainty_principle/s_gr_6.gif)
 
 Operators A and B are linear.
 
 ![\(A hat + B hat\) acting on q = A hat acting on q + B hat acting on q = a
 times q + b times q = \(a + b\) times
-q](images/QM/uncertainty_principle/s_gr_7.gif)
+q](../images/QM/uncertainty_principle/s_gr_7.gif)
 
 ![A hat acting on \(q + q prime\) =  A hat acting on q + A hat acting on q
 prime = a times q + a prime times q
-prime](images/QM/uncertainty_principle/s_gr_8.gif)
+prime](../images/QM/uncertainty_principle/s_gr_8.gif)
 
 Calculate the commutator [A, B], which involves the scalar a and the
 derivative with respect to a.
 
 ![The commutator of A hat, B hat acting on q = \(A hat times B hat - B hat
 times A hat\) acting on q = -a I d q by d a + I d a q by d
-a](images/QM/uncertainty_principle/s_gr_9.gif)
+a](../images/QM/uncertainty_principle/s_gr_9.gif)
 
 ![= -a I d q by  d a + a I d q by d a  +  I q d a by d a = I
-q](images/QM/uncertainty_principle/s_gr_10.gif)
+q](../images/QM/uncertainty_principle/s_gr_10.gif)
 
 The commutator acting on a quaternion is equivalent to multiplying that
 quaternion by the normalized 3-vector I.
@@ -3331,7 +3331,7 @@ The scalar a--generated by the observable operator A hat acting on the
 normalized q--can be calculated using the Euclidean product.
 
 ![q conjugated \(A hat acting on q\) = q conjugated a q = a q conjugated q =
-a](images/QM/uncertainty_principle/s_gr_11.gif)
+a](../images/QM/uncertainty_principle/s_gr_11.gif)
 
 It is hard to shuffle quaternions or their operators around.  Real scalars
 commute with any quaternion and are their own conjugates.  Operators that
@@ -3340,22 +3340,22 @@ expectation value of A.
 
 ![q conjugated \(A hat acting on q\) = q conjugated a q = a q conjugated q = A
 conjugated q conjugated q = \(A hat acting on q\) conjugated q  =
-a](images/QM/uncertainty_principle/s_gr_12.gif)
+a](../images/QM/uncertainty_principle/s_gr_12.gif)
 
 Define a new operator A' based on A whose expectation value is always zero.
 
 ![Let   A prime = A hat - q conjugated \(A hat acting on
-q\)](images/QM/uncertainty_principle/s_gr_13.gif)
+q\)](../images/QM/uncertainty_principle/s_gr_13.gif)
 
 ![q conjugated \(A prime q\) =  q conjugated \(A - q conjugated \(A q\)\)q\) =
-a - a = 0](images/QM/uncertainty_principle/s_gr_14.gif)
+a - a = 0](../images/QM/uncertainty_principle/s_gr_14.gif)
 
 Define the square of the operator in a way designed to link up with the
 standard deviation.
 
 ![Let DA prime squared = q conjugated \(A prime acting twice on q\) - \(q
 conjugated \(A prime q\)\) squared = q conjugated \(A prime acting twice on
-q\)](images/QM/uncertainty_principle/s_gr_15.gif)
+q\)](../images/QM/uncertainty_principle/s_gr_15.gif)
 
 An identical set of tools can be defined for B.
 
@@ -3364,7 +3364,7 @@ shown.
 
 ![\(A prime conjugated times B prime + B prime conjugated times A prime\) over
 2 is less than the absolute value of A prime times the absolute value of B
-prime](images/QM/uncertainty_principle/s_gr_16.gif)
+prime](../images/QM/uncertainty_principle/s_gr_16.gif)
 
 The Schwarz inequality applies to quaternions, not quaternion operators.  If
 the operators A' and B' are surrounded on both sides by q and q*, then they
@@ -3376,12 +3376,12 @@ commutator.
 ![q conjugated \(A prime conjugated B prime + B prime conjugated A prime\) q =
 q A prime conjugated B prime q + q B prime conjugated A prime q = q conjugated
 A prime conjugated B prime q +      q conjugated \(-I\)conjugated d by d a A
-prime q =](images/QM/uncertainty_principle/s_gr_17.gif)
+prime q =](../images/QM/uncertainty_principle/s_gr_17.gif)
 
 ![= q conjugated A prime B prime q -  q conjugated \(-I\)d by d a A prime q =
 q conjugated\(A prime B prime - B prime A prime\)q = q conjugated times the
 conjugator of \(A prime, B prime\) q
-](images/QM/uncertainty_principle/s_gr_18.gif)
+](../images/QM/uncertainty_principle/s_gr_18.gif)
 
 The right-hand side of the Schwarz inequality can be rearranged to form the
 square of the standard deviation operators.
@@ -3389,14 +3389,14 @@ square of the standard deviation operators.
 ![q conjugated times the absolute value of A prime times the absolute value of
 B prime times q = q conjugated A prime A primeB prime conjugated B prime q = q
 A prime squared  B prime squared q = q conjugated DA prime squared DB prime
-squared q](images/QM/uncertainty_principle/s_gr_19.gif)
+squared q](../images/QM/uncertainty_principle/s_gr_19.gif)
 
 Plug both of these back into the Schwarz inequality, stripping the primes and
 the q's which appear on both sides along the way.
 
 ![The commutator of A, B over 2 is less than the standard deviation squared of
 the operator A times the standard deviation squared of the operator
-B](images/QM/uncertainty_principle/s_gr_20.gif)
+B](../images/QM/uncertainty_principle/s_gr_20.gif)
 
 This is the uncertainty principle for complementary observable operators.
 
@@ -3405,28 +3405,28 @@ This is the uncertainty principle for complementary observable operators.
 This quaternion exercise can be mapped to the standard notation used in
 physics
 
-![bra vector: |psi> maps to q](images/QM/uncertainty_principle/s_gr_21.gif)
+![bra vector: |psi> maps to q](../images/QM/uncertainty_principle/s_gr_21.gif)
 
 ![ket vector: <psi| maps to q
-conjugated](images/QM/uncertainty_principle/s_gr_22.gif)
+conjugated](../images/QM/uncertainty_principle/s_gr_22.gif)
 
-![operator: A maps to A](images/QM/uncertainty_principle/s_gr_23.gif)
+![operator: A maps to A](../images/QM/uncertainty_principle/s_gr_23.gif)
 
-![imaginary: i maps to 3-vector I](images/QM/uncertainty_principle/s_gr_24.gif)
+![imaginary: i maps to 3-vector I](../images/QM/uncertainty_principle/s_gr_24.gif)
 
 ![commutator: \[A, B\] maps to \[A,
-B\]](images/QM/uncertainty_principle/s_gr_25.gif)
+B\]](../images/QM/uncertainty_principle/s_gr_25.gif)
 
 ![norm: <psi|psi> maps to q conjugated times
-q](images/QM/uncertainty_principle/s_gr_26.gif)
+q](../images/QM/uncertainty_principle/s_gr_26.gif)
 
 ![expectation of A: <psi|A psi> maps to q conjugated A
-q](images/QM/uncertainty_principle/s_gr_27.gif)
+q](../images/QM/uncertainty_principle/s_gr_27.gif)
 
 ![A is Hermitian maps to \(0, A\) is anti-
-Hermitian](images/QM/uncertainty_principle/s_gr_28.gif)
+Hermitian](../images/QM/uncertainty_principle/s_gr_28.gif)
 
-![The square of the standard deviation: dA squared = <psi | A squared  psi> -<psi| A psi> squared maps to  DA squared](images/QM/uncertainty_principle/s_gr_29.gif)
+![The square of the standard deviation: dA squared = <psi | A squared  psi> -<psi| A psi> squared maps to  DA squared](../images/QM/uncertainty_principle/s_gr_29.gif)
 
 One subtlety to note is that a quaternion operator is anti-Hermitian only if
 the scalar is zero.  This is probably the case for classical quantum
@@ -3436,13 +3436,13 @@ issue.  I do not yet understand the consequence of this point.
 
 To get to the position-momentum uncertainty equation, make these specific maps
 
-![A goes to X](images/QM/uncertainty_principle/s_gr_30.gif)
+![A goes to X](../images/QM/uncertainty_principle/s_gr_30.gif)
 
-![B goes to P = i h bar d by dx](images/QM/uncertainty_principle/s_gr_31.gif)
+![B goes to P = i h bar d by dx](../images/QM/uncertainty_principle/s_gr_31.gif)
 
-![I h bar = the commutator of A, B goes to   i h bar the commutator of X, P](images/QM/uncertainty_principle/s_gr_32.gif)
+![I h bar = the commutator of A, B goes to   i h bar the commutator of X, P](../images/QM/uncertainty_principle/s_gr_32.gif)
 
-![The commutator of A, B over 2 =  I over 2 is less than or equal to DA squared  DB squared  goes to the commutator of X, P over 2 = i h bar over 2 is less than or equal to the standard deviation of X squared times the standard deviation of P squared ](images/QM/uncertainty_principle/s_gr_33.gif)
+![The commutator of A, B over 2 =  I over 2 is less than or equal to DA squared  DB squared  goes to the commutator of X, P over 2 = i h bar over 2 is less than or equal to the standard deviation of X squared times the standard deviation of P squared ](../images/QM/uncertainty_principle/s_gr_33.gif)
 
 The product of the squares of the standard deviation for position and momentum
 in the x-direction has a lower bound equal to half the expectation value of
@@ -3494,19 +3494,19 @@ with automorphisms, 4 are required:  They are the identity automorphism, the
 conjugate anti-automorphism, the first conjugate anti-automorphism, and the
 second conjugate anti-automorphism:
 
-![The identity automorphism I maps q into q](images/QM/spin_and_angular_momentum/s_gr_1.gif)
+![The identity automorphism I maps q into q](../images/QM/spin_and_angular_momentum/s_gr_1.gif)
 
-![The conjugate anti-automorphism * maps q into q*](images/QM/spin_and_angular_momentum/s_gr_2.gif)
+![The conjugate anti-automorphism * maps q into q*](../images/QM/spin_and_angular_momentum/s_gr_2.gif)
 
-![The first conjugate anti-automorphism *1 maps q into q*1](images/QM/spin_and_angular_momentum/s_gr_3.gif)
+![The first conjugate anti-automorphism *1 maps q into q*1](../images/QM/spin_and_angular_momentum/s_gr_3.gif)
 
-![The second conjugate anti-automorphism *2 maps q into q*2](images/QM/spin_and_angular_momentum/s_gr_4.gif)
+![The second conjugate anti-automorphism *2 maps q into q*2](../images/QM/spin_and_angular_momentum/s_gr_4.gif)
 
 where
 
-![q*1 is defined to be \(e1 q e1\)*](images/QM/spin_and_angular_momentum/s_gr_5.gif)
+![q*1 is defined to be \(e1 q e1\)*](../images/QM/spin_and_angular_momentum/s_gr_5.gif)
 
-![q*2 === \(e2 q e2\)*](images/QM/spin_and_angular_momentum/s_gr_6.gif)
+![q*2 === \(e2 q e2\)*](../images/QM/spin_and_angular_momentum/s_gr_6.gif)
 
 e1, e2, e3 are orthogonal basis vectors
 
@@ -3531,14 +3531,14 @@ quaternions.  First, consider rotations about the origin in the z axis.
 Define:
 
 ![Rotation around e3 at zero by theta is defined to be \(cosine theta e0, 0,
-0, sine theta e3 over 3\)](images/QM/spin_and_angular_momentum/s_gr_7.gif)
+0, sine theta e3 over 3\)](../images/QM/spin_and_angular_momentum/s_gr_7.gif)
 
 ![if q = \(0, a1 e1/3, a2 e2/3,
-0\)](images/QM/spin_and_angular_momentum/s_gr_8.gif)
+0\)](../images/QM/spin_and_angular_momentum/s_gr_8.gif)
 
 ![Rotation around e3 acting on q = q prime= \(0, \(a1 cosine theta-a2 sine
 theta\) e0 e1 over 3, \(a2 cosine theta+a1 sine theta\) e0 e2 over 3,
-0\)](images/QM/spin_and_angular_momentum/s_gr_9.gif)
+0\)](../images/QM/spin_and_angular_momentum/s_gr_9.gif)
 
 Two technical points.  First, Sakurai considered rotations around any point
 along the z axis.  This analysis is confined to the z axis at the origin, a
@@ -3551,29 +3551,29 @@ to do quaternion analysis (please see that section, it's great :-)
 There are similar rotations around the first and second axes at the origin;
 
 ![Rotation around e1 at zero by theta = \(cosine theta e0, sine theta e1 over
-3, 0, 0\)](images/QM/spin_and_angular_momentum/s_gr_10.gif)
+3, 0, 0\)](../images/QM/spin_and_angular_momentum/s_gr_10.gif)
 
 ![Rotation around e2 at zero by theta = \(cosine theta e0, 0, sine theta e2
-over 3, 0\)](images/QM/spin_and_angular_momentum/s_gr_11.gif)
+over 3, 0\)](../images/QM/spin_and_angular_momentum/s_gr_11.gif)
 
 Consider an infinitesimal rotation for these three rotation operators.  To
 second order in theta,
 
 ![sine theta = theta + errors of the order of theta cubed, cosine theta = 1 -
 theta squared over 2 + errors of the order of theta
-cubed](images/QM/spin_and_angular_momentum/s_gr_12.gif)
+cubed](../images/QM/spin_and_angular_momentum/s_gr_12.gif)
 
 ![Rotation around e1 at zero by theta much less than 1 = \(\(1 - theta squared
 over 2\) e0, theta e1 over 3, 0, 0\) + errors of the order of theta
-cubed](images/QM/spin_and_angular_momentum/s_gr_13.gif)
+cubed](../images/QM/spin_and_angular_momentum/s_gr_13.gif)
 
 ![Rotation around e12at zero by theta much less than 1 = \(\(1 - theta squared
 over 2\) e0, 0, theta e2 over 3, 0\) + errors of the order of theta
-cubed](images/QM/spin_and_angular_momentum/s_gr_14.gif)
+cubed](../images/QM/spin_and_angular_momentum/s_gr_14.gif)
 
 ![Rotation around e3 at zero by theta much less than  1 = \(\(1 - theta
 squared over 2\) e0, 0, 0, theta e3 over 3\) + errors of the order of theta
-cubed](images/QM/spin_and_angular_momentum/s_gr_15.gif)
+cubed](../images/QM/spin_and_angular_momentum/s_gr_15.gif)
 
 Calculate the commutator of the first two infinitesimal rotation operators to
 second order in theta:
@@ -3581,19 +3581,19 @@ second order in theta:
 ![The commutator of a rotation around e1, rotation around e2 = \(\(1 - theta
 squared over 2\) e0, theta e1 over 3, 0, 0\) times \(\(1 - theta squared over
 2\) e0, 0, theta e2 over 3, 0\)
--](images/QM/spin_and_angular_momentum/s_gr_16.gif)
+-](../images/QM/spin_and_angular_momentum/s_gr_16.gif)
 
 ![- \(\(1 - theta squared over 2\) e0, 0, theta e2 over 3, 0\) times \(\(1 -
 theta squared over 2\) e0,theta e1 over 3, 0, 0\)
-=](images/QM/spin_and_angular_momentum/s_gr_17.gif)
+=](../images/QM/spin_and_angular_momentum/s_gr_17.gif)
 
 ![= \(\(1 - theta squared\) e0 squared, theta e0 e1 over 3, theta e0 e2 over
 3, theta squared e1 e2 over 9\) - \(\(1 - theta squared\) e0 squared, theta e0
 e1 over 3, theta e0 e2 over 3, - theta squared e1 e2 over 9\)
-](images/QM/spin_and_angular_momentum/s_gr_18.gif)
+](../images/QM/spin_and_angular_momentum/s_gr_18.gif)
 
 ![= 2 \(0, 0, 0, theta squared e1 e2 over 9\) = 2 \(Re3=0 \(theta squared\) -
-R\(0\)\)](images/QM/spin_and_angular_momentum/s_gr_19.gif)
+R\(0\)\)](../images/QM/spin_and_angular_momentum/s_gr_19.gif)
 
 To second order, the commutator of infinitesimal rotations of rotations about
 the first two axes equals twice one rotation about the third axis given the
@@ -3604,32 +3604,32 @@ involutions for the small rotation operators.
 ![The commutator of a rotation around e1 conjugated, a rotation around e2
 conjugated = \(\(1-theta squared over 2\) e0, - theta e1 over 3, 0, 0\) times
 \(\(1 - theta squared over 2\) e0, 0, - theta e2 over 3, 0\)
--](images/QM/spin_and_angular_momentum/s_gr_20.gif)
+-](../images/QM/spin_and_angular_momentum/s_gr_20.gif)
 
 ![ - \(\(1 - theta squared over 2\) e0, 0, - theta e2 over 3, 0\) times \(\(1
 - theta squared over 2\) e0, - theta e1 over 3, 0, 0\)
-=](images/QM/spin_and_angular_momentum/s_gr_21.gif)
+=](../images/QM/spin_and_angular_momentum/s_gr_21.gif)
 
 ![= \(\(1 - theta squared\) e0 squared, - theta e0 e1 over 3, - theta e0 e2
 over 3, theta squared e1 e2 over 9\) - \(\(1 - theta squared\) e0 squared, -
 theta e0 e1 over 3, - theta e0 e2 over 3, - theta squared e1 e2 over 9\)
-=](images/QM/spin_and_angular_momentum/s_gr_22.gif)
+=](../images/QM/spin_and_angular_momentum/s_gr_22.gif)
 
 ![= 2 \(0, 0, 0, theta squared e1 e2 over 9\) = 2 \(Re3=0 \(theta squared\) -
-R\(0\)\)](images/QM/spin_and_angular_momentum/s_gr_23.gif)
+R\(0\)\)](../images/QM/spin_and_angular_momentum/s_gr_23.gif)
 
 Nothing has changed.  Repeat this exercise one last time for the first
 conjugate:
 
 ![The commutator of a rotation around e1 first conjugated, a rotation around
 e2 first conjugated = \(-\(1 - theta squared over 2\) e0, theta e1 over 3, 0,
-0\) times \(-\(1 - theta squared over 2\) e0, 0, - theta e2 over 3, 0\) -](images/QM/spin_and_angular_momentum/s_gr_24.gif)
+0\) times \(-\(1 - theta squared over 2\) e0, 0, - theta e2 over 3, 0\) -](../images/QM/spin_and_angular_momentum/s_gr_24.gif)
 
-![- \(-\(1 - theta squared over 2\) e0, 0, - theta e2 over 3, 0\) times \(-\(1- theta squared over 2\) e0, theta e1 over 3, 0, 0\) =](images/QM/spin_and_angular_momentum/s_gr_25.gif)
+![- \(-\(1 - theta squared over 2\) e0, 0, - theta e2 over 3, 0\) times \(-\(1- theta squared over 2\) e0, theta e1 over 3, 0, 0\) =](../images/QM/spin_and_angular_momentum/s_gr_25.gif)
 
-![= \(\(1 - theta squared\) e0 squared, - theta e0 e1 over 3, - theta e0 e2 over 3, theta squared e1 e2 over 9\) - \(\(1 - theta squared\) e0 squared, -theta e1 over 3, - theta e2 over 3, - theta squared e1 e2 over 9\) =](images/QM/spin_and_angular_momentum/s_gr_26.gif)
+![= \(\(1 - theta squared\) e0 squared, - theta e0 e1 over 3, - theta e0 e2 over 3, theta squared e1 e2 over 9\) - \(\(1 - theta squared\) e0 squared, -theta e1 over 3, - theta e2 over 3, - theta squared e1 e2 over 9\) =](../images/QM/spin_and_angular_momentum/s_gr_26.gif)
 
-![= 2 \(0, 0, 0, theta squared e1 e2 over 9\) = 2 \(Re3=0 \(theta squared\) - R\(0\)\)](images/QM/spin_and_angular_momentum/s_gr_27.gif)
+![= 2 \(0, 0, 0, theta squared e1 e2 over 9\) = 2 \(Re3=0 \(theta squared\) - R\(0\)\)](../images/QM/spin_and_angular_momentum/s_gr_27.gif)
 
 This points exactly the opposite way,even for an infinitesimal angle!
 
@@ -3649,7 +3649,7 @@ work?  Here it is:
 conjugated = the first conjugate of the commutator of q first conjugated, q
 prime first conjugated = the second conjugate of the commutator of q second
 conjugated, q prime second
-conjugated](images/QM/spin_and_angular_momentum/s_gr_28.gif)
+conjugated](../images/QM/spin_and_angular_momentum/s_gr_28.gif)
 
 It is usually a good sign if a proposal gets more subtle by generalization :-)
 In this case, the negative sign seen on the z axis for the first conjugate
@@ -3664,27 +3664,27 @@ any additional conjugator).  In that case:
 
 ![The commutator of q conjugate, q prime = - the commutator of q prime, q =
 the commutator of q conjugated, q prime conjugated = - the commutator of q
-prime conjugated, q conjugated =](images/QM/spin_and_angular_momentum/s_gr_29.gif)
+prime conjugated, q conjugated =](../images/QM/spin_and_angular_momentum/s_gr_29.gif)
 
 ![= \(0, a2 a3 e2 e3 over 9 + a3 a2 e3 e2 over 9, a3 a1 e3 e1 over 9 + a1 a3
 e1 e3 over 9, a1 a2 e1 e2 over 9 + a2 a1 e2 e1 over
-9\)](images/QM/spin_and_angular_momentum/s_gr_30.gif)
+9\)](../images/QM/spin_and_angular_momentum/s_gr_30.gif)
 
 ![The commutator of q first conjugated, q prime first conjugated = - the
 commutator of q prime first conjugated, q first conjugated
-=](images/QM/spin_and_angular_momentum/s_gr_31.gif)
+=](../images/QM/spin_and_angular_momentum/s_gr_31.gif)
 
 ![= \(0, a2 a3 e2 e3 over 9 + a3 a2 e3 e2 over 9, - a3 a1 e3 e1 over 9 - a1 a3
 e1 e3 over 9, - a1 a2 e1 e2 over 9 - a2 a1 e2 e1 over
-9\)](images/QM/spin_and_angular_momentum/s_gr_32.gif)
+9\)](../images/QM/spin_and_angular_momentum/s_gr_32.gif)
 
 ![The commutator of q first conjugated, q prime first conjugated = - the
 commutator of q prime first conjugated, q first conjugated
-=](images/QM/spin_and_angular_momentum/s_gr_33.gif)
+=](../images/QM/spin_and_angular_momentum/s_gr_33.gif)
 
 ![= \(0, a2 a3 e2 e3 over 9 + a3 a2 e3 e2 over 9, - a3 a1 e3 e1 over 9 - a1 a3
 e1 e3 over 9, - a1 a2 e1 e2 over 9 - a2 a1 e2 e1 over
-9\)](images/QM/spin_and_angular_momentum/s_gr_34.gif)
+9\)](../images/QM/spin_and_angular_momentum/s_gr_34.gif)
 
 Under an exchange, the identity and conjugate commutators form a distinct
 group from the commutators formed with the first and second conjugates.  The
@@ -3694,7 +3694,7 @@ similar, but not identical.
 
 There are also corresponding identities for the anti-commutator:
 
-![The anti-commutator of q, q prime = the conjugate of the anti-commutator of q conjugated, q prime conjugated = - the first conjugate of the anti-commutator of q first conjugated, q prime first conjugated = - the anti-commutator of q second conjugated, q prime second conjugated](images/QM/spin_and_angular_momentum/s_gr_35.gif)
+![The anti-commutator of q, q prime = the conjugate of the anti-commutator of q conjugated, q prime conjugated = - the first conjugate of the anti-commutator of q first conjugated, q prime first conjugated = - the anti-commutator of q second conjugated, q prime second conjugated](../images/QM/spin_and_angular_momentum/s_gr_35.gif)
 
 At this point, I don't know how to use them, but again, the identity and first
 conjugates appear to behave differently that the first and second conjugates.
@@ -3722,7 +3722,7 @@ the dynamical information about a system.  Psi is a scalar function with
 complex values.
 
 ![The hamiltonian operator acting on psi = -i h bar phi dot = -h bar squared
-over 2 m  Laplacian psi + the potential V\(0, X\) psi](images/QM/Schrodinger/s_gr_1.gif)
+over 2 m  Laplacian psi + the potential V\(0, X\) psi](../images/QM/Schrodinger/s_gr_1.gif)
 
 For the time-independent case, energy is written at the operator -i hbar d/dt,
 and kinetic energy as the square of the momentum operator, i hbar Del, over
@@ -3740,18 +3740,18 @@ might serve to damp runaway terms.
 The derivation starts from a curious place :-)  Write out classical angular
 momentum with quaternions.
 
-![\(0, L\) = \(0, R Cross P\) = the odd part of \(0, R\) times \(0, P\)](images/QM/Schrodinger/s_gr_2.gif)
+![\(0, L\) = \(0, R Cross P\) = the odd part of \(0, R\) times \(0, P\)](../images/QM/Schrodinger/s_gr_2.gif)
 
 What makes this "classical" are the zeroes in the scalars.  Make these into
 complete quaternions by bringing in time to go along with the space 3-vector
 R, and E with the 3-vector P.
 
-![\(t, R\) times \(E, P\) = \(E t - R dot P, E R + P t + R Cross P\)](images/QM/Schrodinger/s_gr_3.gif)
+![\(t, R\) times \(E, P\) = \(E t - R dot P, E R + P t + R Cross P\)](../images/QM/Schrodinger/s_gr_3.gif)
 
 Define a dimensionless quaternion psi that is this product over h bar.
 
 ![psi is defined to be \(t, R\) times \(E, P\) over hbar = \(E t - R dot P, E
-R + P t + R Cross P\) over h bar](images/QM/Schrodinger/s_gr_4.gif)
+R + P t + R Cross P\) over h bar](../images/QM/Schrodinger/s_gr_4.gif)
 
 The scalar part of psi is also seen in plane wave solutions of quantum
 mechanics.  The complicated 3-vector is a new animal, but notice it is
@@ -3763,19 +3763,19 @@ Any quaternion can be expressed in polar form:
 
 ![q = the absolute value of q times e to the arc cosine of the scalar over the
 absolute value of q times the 3-vector over its absolute
-value](images/QM/Schrodinger/s_gr_5.gif)
+value](../images/QM/Schrodinger/s_gr_5.gif)
 
 Express psi in polar form.  To make things simpler, assume that psi is
 normalized, so |psi| = 1.  The 3-vector of psi is quite complicated, so define
 one symbol to capture it:
 
 ![I is defined to be E R + P t + R cross P over the absolute value of the
-numerator](images/QM/Schrodinger/s_gr_6.gif)
+numerator](../images/QM/Schrodinger/s_gr_6.gif)
 
 Now rewrite psi in polar form with these simplifications:
 
 ![psi = e to the E t - R dot P time I over h
-bar](images/QM/Schrodinger/s_gr_7.gif)
+bar](../images/QM/Schrodinger/s_gr_7.gif)
 
 This is what I call the quaternion wave function.  Unlike previous work with
 quaternionic quantum mechanics (see S. Adler's book "Quaternionic Quantum
@@ -3798,21 +3798,21 @@ following assumptions.
 
 1\. Energy and Momentum are conserved.
 
-![d E by d t = 0 and d P by d t = 0](images/QM/Schrodinger/s_gr_8.gif)
+![d E by d t = 0 and d P by d t = 0](../images/QM/Schrodinger/s_gr_8.gif)
 
 2.  Energy is evenly distributed in space 
 
-![The Gradient of E = 0](images/QM/Schrodinger/s_gr_9.gif)
+![The Gradient of E = 0](../images/QM/Schrodinger/s_gr_9.gif)
 
 3\. The system is isolated
 
-![The Curl of P = 0](images/QM/Schrodinger/s_gr_10.gif)
+![The Curl of P = 0](../images/QM/Schrodinger/s_gr_10.gif)
 
 4\. The position 3-vector X is in the same direction as the momentum 3-vector
 P
 
 ![X dot P over the absolute value of the two = 1 which implies d e to the I by
-d t = 0 and the Curl of e to the I = 0](images/QM/Schrodinger/s_gr_11.gif)
+d t = 0 and the Curl of e to the I = 0](../images/QM/Schrodinger/s_gr_11.gif)
 
 The implications of this last assumption are not obvious but can be computed
 directly by taking the appropriate derivative.  Here is a verbal explanation.
@@ -3831,7 +3831,7 @@ in information content.  This particular constraint is a reflection of that.
 Now take the time derivative of psi.
 
 ![d psi by dt = E I over h bar times psi over the square root of \(E t - R dot
-P over h bar\) squared](images/QM/Schrodinger/s_gr_12.gif)
+P over h bar\) squared](../images/QM/Schrodinger/s_gr_12.gif)
 
 The denominator must be at least 1, and can be greater that that.  It can
 serve as a damper, a good thing to tame runaway terms.  Unfortunately, it also
@@ -3839,7 +3839,7 @@ makes solving explicitly for energy impossible unless Et - P.X equals zero.
 Since the goal is to make a direct connection to the Schr&ouml;dinger equation,
 make one final assumption:
 
-![E t - R dot P = 0](images/QM/Schrodinger/s_gr_13.gif)
+![E t - R dot P = 0](../images/QM/Schrodinger/s_gr_13.gif)
 
 There are several important cases when this will be true.  In a vacuum, E and
 P are zero.  If this is used to study photons, then t = |R| and E = |P|.  If
@@ -3847,14 +3847,14 @@ this number happens to be constant in time, then this equation will apply to
 the wave front.
 
 ![if d E t - R dot P by d t = 0, then E = d R by d t dot P or d R by d t = E
-over P](images/QM/Schrodinger/s_gr_14.gif)
+over P](../images/QM/Schrodinger/s_gr_14.gif)
 
 Now with these 5 assumptions in hand, energy can be defined with an operator.
 
-![d psi dt = E I over h bar psi](images/QM/Schrodinger/s_gr_15.gif)
+![d psi dt = E I over h bar psi](../images/QM/Schrodinger/s_gr_15.gif)
 
 ![- I h bar d psi d t = E psi or E = - I h bar d by
-dt](images/QM/Schrodinger/s_gr_16.gif)
+dt](../images/QM/Schrodinger/s_gr_16.gif)
 
 The equivalence of the energy E and this operator is called the first
 quantization.
@@ -3862,20 +3862,20 @@ quantization.
 Take the spatial derivative of psi using the under the same assumptions:
 
 ![Del psi = - P I over h bar times psi over the square root of \(E t - R dot P
-over h bar\) squared](images/QM/Schrodinger/s_gr_17.gif)
+over h bar\) squared](../images/QM/Schrodinger/s_gr_17.gif)
 
 ![I h bar Del acting on psi = P acting on psi or P = I h bar Del
-](images/QM/Schrodinger/s_gr_18.gif)
+](../images/QM/Schrodinger/s_gr_18.gif)
 
 Square this operator.
 
 ![P squared = m v squared = 2 m times m v squared over 2 = 2 m Kinetic Energy
-= - h bar squared Del squared](images/QM/Schrodinger/s_gr_19.gif)
+= - h bar squared Del squared](../images/QM/Schrodinger/s_gr_19.gif)
 
 The Hamiltonian equals the kinetic energy plus the potential energy.
 
 ![The Hamiltonian acting on psi = - I hbar d psi by d t = - h bar squared Del
-squared + the potential acting on psi](images/QM/Schrodinger/s_gr_20.gif)
+squared + the potential acting on psi](../images/QM/Schrodinger/s_gr_20.gif)
 
 Typographically, this looks very similar to the Schr&ouml;dinger equation.  Capital
 I is a normalized 3-vector, and a very complicated one at that if you review
@@ -3907,7 +3907,7 @@ background.
 The relativistic quantum mechanic equation for a free particle is the Klein-
 Gordon equation (h=c=1)
 
-![\(The second time derivative - Laplacian + m squared\) acting on psi = 0](images/QM/Klein-Gordon/s_gr_1.gif)
+![\(The second time derivative - Laplacian + m squared\) acting on psi = 0](../images/QM/Klein-Gordon/s_gr_1.gif)
 
 The Schr&ouml;dinger equation results from the non-relativistic limit of this
 equation. In this section, the machinery of the Klein-Gordon equation will be
@@ -3921,14 +3921,14 @@ complete inner product space. In the energy/momentum representation, this
 would involve all possible energy levels and momenta.
 
 ![psi is defined to be the sum from n = 0 to infinity of \(E sub n, P sub n
-\)](images/QM/Klein-Gordon/s_gr_2.gif)
+\)](../images/QM/Klein-Gordon/s_gr_2.gif)
 
 This infinite sum of quaternions should contain all the information about a
 system.  The quaternion wave function can be normalized.
 
 ![The sum from n =  0 to infinity of \(E sub n, P sub n\) conjugated times \(E
 sub n, P sub n\) = the sum from n = 0 to infinity of \(E sub n squared + P sub
-n squared, 0\) = 1](images/QM/Klein-Gordon/s_gr_3.gif)
+n squared, 0\) = 1](../images/QM/Klein-Gordon/s_gr_3.gif)
 
 The first quaternion is the conjugate or transpose of the second.  Since the
 transpose of a quaternion wave function times a wave function creates a
@@ -3943,11 +3943,11 @@ required to create the D'Alembertian, along with vector identities, has
 already been worked out for the Maxwell equations in the Lorenz gauge.
 
 ![the sum from n = 0 to infinity of \(\(d by dt, Del\) squared + \(d by dt, -
-Del\) squared\) acting on \(E sub n, P sub n\) over 2 =](images/QM/Klein-Gordon/s_gr_4.gif)
+Del\) squared\) acting on \(E sub n, P sub n\) over 2 =](../images/QM/Klein-Gordon/s_gr_4.gif)
 
 ![= the sum from n = 0 to infinity of \(E sub n double dot - div Grad E sub n
 - div curl P sub n, P sub n double dot - Grad div P sub n + Del Cross Del
-Cross P sub n + Del Cross Grad E sub n\)](images/QM/Klein-Gordon/s_gr_5.gif)
+Cross P sub n + Del Cross Grad E sub n\)](../images/QM/Klein-Gordon/s_gr_5.gif)
 
 The first term of the scalar, and the second term of the vector, are both
 equal to zero.  What is left is the D'Alembertian operator acting on the
@@ -3961,11 +3961,11 @@ function, there is En^2^-Pn^2^.  The sum of all these terms becomes m^2^.
 Set the sum of these two operators equal to zero to form the Klein-Gordon
 equation.
 
-![](images/QM/Klein-Gordon/s_gr_6.gif)
+![](../images/QM/Klein-Gordon/s_gr_6.gif)
 
-![](images/QM/Klein-Gordon/s_gr_7.gif)
+![](../images/QM/Klein-Gordon/s_gr_7.gif)
 
-![](images/QM/Klein-Gordon/s_gr_8.gif)
+![](../images/QM/Klein-Gordon/s_gr_8.gif)
 
 It takes some skilled staring to assure that this equation contains the Klein-
 Gordon equation along with vector identities.
@@ -3977,7 +3977,7 @@ the operators used to generate the Maxwell equations in the Lorenz gauge.  In
 the homogeneous case, the same operator acting on two different quaternions
 equals the same result.  This implies that
 
-![\(phi, A\) =  the sum from n = 0 to infinity of \(E sub n, P sub n\)](images/QM/Klein-Gordon/s_gr_9.gif)
+![\(phi, A\) =  the sum from n = 0 to infinity of \(E sub n, P sub n\)](../images/QM/Klein-Gordon/s_gr_9.gif)
 
 Under this interpretation, a nonzero mass changes the wave equation into a
 simple harmonic oscillator.  The simple relationship between the quaternion
@@ -4041,12 +4041,12 @@ see what the standard model of particle physics looks like.
 This is the symmetry of +/-R, one number.  What was  
 up/down | What is | What can be  
 ---|---|---  
-![](images/QM/standard_model_symmetries/s0_002.png) |
-![](images/QM/standard_model_symmetries/s0.gif) |
-![](images/QM/standard_model_symmetries/s0_003.png)  
-![](images/QM/standard_model_symmetries/s0_004.png) |
-![](images/QM/standard_model_symmetries/s0.png) |
-![](images/QM/standard_model_symmetries/s0_002.gif)  
+![](../images/QM/standard_model_symmetries/s0_002.png) |
+![](../images/QM/standard_model_symmetries/s0.gif) |
+![](../images/QM/standard_model_symmetries/s0_003.png)  
+![](../images/QM/standard_model_symmetries/s0_004.png) |
+![](../images/QM/standard_model_symmetries/s0.png) |
+![](../images/QM/standard_model_symmetries/s0_002.gif)  
 What was  
 near/far | What was  
 left/right | What can be  
@@ -4061,12 +4061,12 @@ Now we let the sum of squares of 2 numbers equal 1. This creates a circle.
 What was  
 up/down | What is | What can be  
 ---|---|---  
-![](images/QM/standard_model_symmetries/s1.png) |
-![](images/QM/standard_model_symmetries/s1.gif) |
-![](images/QM/standard_model_symmetries/s1_004.png)  
-![](images/QM/standard_model_symmetries/s1_003.png) |
-![](images/QM/standard_model_symmetries/s1_002.png) |
-![](images/QM/standard_model_symmetries/s1_002.gif)  
+![](../images/QM/standard_model_symmetries/s1.png) |
+![](../images/QM/standard_model_symmetries/s1.gif) |
+![](../images/QM/standard_model_symmetries/s1_004.png)  
+![](../images/QM/standard_model_symmetries/s1_003.png) |
+![](../images/QM/standard_model_symmetries/s1_002.png) |
+![](../images/QM/standard_model_symmetries/s1_002.gif)  
 What was  
 near/far | What was  
 left/right | What can be  
@@ -4081,12 +4081,12 @@ approach to representing S2 is to set t=0. You get the standard sphere, but
 only at the instant of t=0. Blink!  What was  
 up/down | What is | What can be  
 ---|---|---  
-![](images/QM/standard_model_symmetries/s2tis0_003.png) |
-![](images/QM/standard_model_symmetries/s2tis0.gif) |
-![](images/QM/standard_model_symmetries/s2tis0_004.png)  
-![](images/QM/standard_model_symmetries/s2tis0_002.png) |
-![](images/QM/standard_model_symmetries/s2tis0.png) |
-![](images/QM/standard_model_symmetries/s2tis0_002.gif)  
+![](../images/QM/standard_model_symmetries/s2tis0_003.png) |
+![](../images/QM/standard_model_symmetries/s2tis0.gif) |
+![](../images/QM/standard_model_symmetries/s2tis0_004.png)  
+![](../images/QM/standard_model_symmetries/s2tis0_002.png) |
+![](../images/QM/standard_model_symmetries/s2tis0.png) |
+![](../images/QM/standard_model_symmetries/s2tis0_002.gif)  
 What was  
 near/far | What was  
 left/right | What can be  
@@ -4100,12 +4100,12 @@ expanding circle.
 What was  
 up/down | What is | What can be  
 ---|---|---  
-![](images/QM/standard_model_symmetries/s2xis0_003.png) |
-![](images/QM/standard_model_symmetries/s2xis0.gif) |
-![](images/QM/standard_model_symmetries/s2xis0_002.png)  
-![](images/QM/standard_model_symmetries/s2xis0_004.png) |
-![](images/QM/standard_model_symmetries/s2xis0.png) |
-![](images/QM/standard_model_symmetries/s2xis0_002.gif)  
+![](../images/QM/standard_model_symmetries/s2xis0_003.png) |
+![](../images/QM/standard_model_symmetries/s2xis0.gif) |
+![](../images/QM/standard_model_symmetries/s2xis0_002.png)  
+![](../images/QM/standard_model_symmetries/s2xis0_004.png) |
+![](../images/QM/standard_model_symmetries/s2xis0.png) |
+![](../images/QM/standard_model_symmetries/s2xis0_002.gif)  
 What was  
 near/far | What was  
 left/right | What can be  
@@ -4118,12 +4118,12 @@ If z=0, at least you can see the "circleness"
 What was  
 up/down | What is | What can be  
 ---|---|---  
-![](images/QM/standard_model_symmetries/s2zis0_002.png) |
-![](images/QM/standard_model_symmetries/s2zis0_002.gif) |
-![](images/QM/standard_model_symmetries/s2zis0_003.png)  
-![](images/QM/standard_model_symmetries/s2zis0_004.png) |
-![](images/QM/standard_model_symmetries/s2zis0.png) |
-![](images/QM/standard_model_symmetries/s2zis0.gif)  
+![](../images/QM/standard_model_symmetries/s2zis0_002.png) |
+![](../images/QM/standard_model_symmetries/s2zis0_002.gif) |
+![](../images/QM/standard_model_symmetries/s2zis0_003.png)  
+![](../images/QM/standard_model_symmetries/s2zis0_004.png) |
+![](../images/QM/standard_model_symmetries/s2zis0.png) |
+![](../images/QM/standard_model_symmetries/s2zis0.gif)  
 What was  
 near/far | What was  
 left/right | What can be  
@@ -4136,12 +4136,12 @@ it is the straight line.
 Now use all 4 terms, and fill in the sphere in both time and space!  What was  
 up/down | What is | What can be  
 ---|---|---  
-![](images/QM/standard_model_symmetries/s3_003.png) |
-![](images/QM/standard_model_symmetries/s3_002.gif) |
-![](images/QM/standard_model_symmetries/s3.png)  
-![](images/QM/standard_model_symmetries/s3_002.png) |
-![](images/QM/standard_model_symmetries/s3_004.png) |
-![](images/QM/standard_model_symmetries/s3.gif)  
+![](../images/QM/standard_model_symmetries/s3_003.png) |
+![](../images/QM/standard_model_symmetries/s3_002.gif) |
+![](../images/QM/standard_model_symmetries/s3.png)  
+![](../images/QM/standard_model_symmetries/s3_002.png) |
+![](../images/QM/standard_model_symmetries/s3_004.png) |
+![](../images/QM/standard_model_symmetries/s3.gif)  
 What was  
 near/far | What was  
 left/right | What can be  
@@ -4154,17 +4154,17 @@ spacetime. The next graph, generated by putting random quaternions into the
 expression exp(q-q*), fills up spacetime.  What was  
 up/down | What is | What can be  
 ---|---|---  
-![](images/QM/standard_model_symmetries/su2_004.png) |
-![](images/QM/standard_model_symmetries/su2_002.gif) |
-![](images/QM/standard_model_symmetries/su2_002.png)  
-![](images/QM/standard_model_symmetries/su2.png) |
-![](images/QM/standard_model_symmetries/su2_003.png) |
-![](images/QM/standard_model_symmetries/su2.gif)  
+![](../images/QM/standard_model_symmetries/su2_004.png) |
+![](../images/QM/standard_model_symmetries/su2_002.gif) |
+![](../images/QM/standard_model_symmetries/su2_002.png)  
+![](../images/QM/standard_model_symmetries/su2.png) |
+![](../images/QM/standard_model_symmetries/su2_003.png) |
+![](../images/QM/standard_model_symmetries/su2.gif)  
 What was  
 near/far | What was  
 left/right | What can be  
 that is  
-![SU\(2\) algebra](images/QM/standard_model_symmetries/su2_representation.png)  
+![SU\(2\) algebra](../images/QM/standard_model_symmetries/su2_representation.png)  
 Although more of spacetime appears filled, only places were time is greater
 than zero have a chance to have an event.
 
@@ -4175,18 +4175,18 @@ There is no way to fill up all of spacetime with just SU(2). Now fill
 spacetime in by multiplying by itself, or q/|q| exp(q-q*)  What was  
 up/down | What is | What can be  
 ---|---|---  
-![](images/QM/standard_model_symmetries/u1xsu2_003.png) |
-![](images/QM/standard_model_symmetries/u1xsu2.gif) |
-![](images/QM/standard_model_symmetries/u1xsu2_004.png)  
-![](images/QM/standard_model_symmetries/u1xsu2_002.png) |
-![](images/QM/standard_model_symmetries/u1xsu2.png) |
-![](images/QM/standard_model_symmetries/u1xsu2_002.gif)  
+![](../images/QM/standard_model_symmetries/u1xsu2_003.png) |
+![](../images/QM/standard_model_symmetries/u1xsu2.gif) |
+![](../images/QM/standard_model_symmetries/u1xsu2_004.png)  
+![](../images/QM/standard_model_symmetries/u1xsu2_002.png) |
+![](../images/QM/standard_model_symmetries/u1xsu2.png) |
+![](../images/QM/standard_model_symmetries/u1xsu2_002.gif)  
 What was  
 near/far | What was  
 left/right | What can be  
 that is  
 ![electroweak
-algebra](images/QM/standard_model_symmetries/u1xsu2_representation.png)  
+algebra](../images/QM/standard_model_symmetries/u1xsu2_representation.png)  
 Most of the points cluster on the negative side of the time line.
 
 ## U(1)xSU(2)xSU(3) - The Standard Model
@@ -4200,18 +4200,18 @@ q', we can write them as q* q' as U(1)xSU(2): (q/|q| exp(q-q*))* (q'/|q'|
 exp(q'-q'*)). Here is its animation:  What was  
 up/down | What is | What can be  
 ---|---|---  
-![](images/QM/standard_model_symmetries/u1xsu2xsu3_003.png) |
-![](images/QM/standard_model_symmetries/u1xsu2xsu3_002.gif) |
-![](images/QM/standard_model_symmetries/u1xsu2xsu3_004.png)  
-![](images/QM/standard_model_symmetries/u1xsu2xsu3.png) |
-![](images/QM/standard_model_symmetries/u1xsu2xsu3_002.png) |
-![](images/QM/standard_model_symmetries/u1xsu2xsu3.gif)  
+![](../images/QM/standard_model_symmetries/u1xsu2xsu3_003.png) |
+![](../images/QM/standard_model_symmetries/u1xsu2xsu3_002.gif) |
+![](../images/QM/standard_model_symmetries/u1xsu2xsu3_004.png)  
+![](../images/QM/standard_model_symmetries/u1xsu2xsu3.png) |
+![](../images/QM/standard_model_symmetries/u1xsu2xsu3_002.png) |
+![](../images/QM/standard_model_symmetries/u1xsu2xsu3.gif)  
 What was  
 near/far | What was  
 left/right | What can be  
 that is  
 ![The standard model
-algebra](images/QM/standard_model_symmetries/u1xsu2xsu3_representation.png)  
+algebra](../images/QM/standard_model_symmetries/u1xsu2xsu3_representation.png)  
 Notice how all of spacetime is filled evenly with events. A product of two
 quaternions that uses a conjugate different from a standard product because
 multiplication is no longer associative ((a b)*c does not equal a* (b c)). The
@@ -4227,7 +4227,7 @@ change as one moves around a differentiable 4D manifold. Include the metric as
 part of the calculation of a quaternion product.
 
 ![algebra for gravity and the standard
-model](images/QM/standard_model_symmetries/diffmxu1xsu2xsu3_representation.png)  
+model](../images/QM/standard_model_symmetries/diffmxu1xsu2xsu3_representation.png)  
 The group Diff(M) is all diffeomorphisms of a compact smooth manifold. It is
 at the heart of general relativity. One can imagine this spacetime filling
 sphere on any compact smooth manifold.
@@ -4237,12 +4237,12 @@ What happens if q=q'? That is shown below:
 What was  
 up/down | What is | What can be  
 ---|---|---  
-![](images/QM/standard_model_symmetries/u1xsu2xsu3self_002.png) |
-![](images/QM/standard_model_symmetries/u1xsu2xsu3self_002.gif) |
-![](images/QM/standard_model_symmetries/u1xsu2xsu3self_003.png)  
-![](images/QM/standard_model_symmetries/u1xsu2xsu3self.png) |
-![](images/QM/standard_model_symmetries/u1xsu2xsu3self_004.png) |
-![](images/QM/standard_model_symmetries/u1xsu2xsu3self.gif)  
+![](../images/QM/standard_model_symmetries/u1xsu2xsu3self_002.png) |
+![](../images/QM/standard_model_symmetries/u1xsu2xsu3self_002.gif) |
+![](../images/QM/standard_model_symmetries/u1xsu2xsu3self_003.png)  
+![](../images/QM/standard_model_symmetries/u1xsu2xsu3self.png) |
+![](../images/QM/standard_model_symmetries/u1xsu2xsu3self_004.png) |
+![](../images/QM/standard_model_symmetries/u1xsu2xsu3self.gif)  
 What was  
 near/far | What was  
 left/right | What can be  
@@ -4272,16 +4272,16 @@ Implications
 The following transformation R for quaternions reverses time:
 
 ![\(t, X\) goes to \(-t, X\) = R times \(t,
-X\)](images/QM/time_reversal/s_gr_1.gif)
+X\)](../images/QM/time_reversal/s_gr_1.gif)
 
 The quaternion R exist because quaternions are a field.  
 
-R will equal  (-t, X )(t, ![](images/QM/time_reversal/s_gr_2.gif).  The inverse of
+R will equal  (-t, X )(t, ![](../images/QM/time_reversal/s_gr_2.gif).  The inverse of
 quaternion is the transpose over the square of the norm, which is the scalar
 term of the transpose of a quaternion times itself.
 
 ![ R  = \(-t, X\)times\(t, X\)inverse= \(-t squared + X dot X, 2 t  X\) over
-\(t squared + X dot X\)](images/QM/time_reversal/s_gr_3.gif)
+\(t squared + X dot X\)](../images/QM/time_reversal/s_gr_3.gif)
 
 For any given time, R can be defined based on the above.
 
@@ -4295,10 +4295,10 @@ beta.
 
 ![ R  = \(-t, Beta\)times \(t, Beta\) inverse = \(-t squared + Beta dot Beta,
 2 t  Beta\) over \(t squared + Beta dot Beta,
-0\)](images/QM/time_reversal/s_gr_4.gif)
+0\)](../images/QM/time_reversal/s_gr_4.gif)
 
 ![if   beta is much much less than 1 then R is approximately equal to \(-1, 2
-t  Beta\)](images/QM/time_reversal/s_gr_5.gif)
+t  Beta\)](../images/QM/time_reversal/s_gr_5.gif)
 
   The operator R is almost the negative identity, but the vector is non-zero,
 so it would not commute.
@@ -4308,13 +4308,13 @@ so it would not commute.
 For a relativistic interval involving one axis, the interval could be
 characterized by the following:
 
-![\(T + e,T, 0, 0\)](images/QM/time_reversal/s_gr_6.gif)
+![\(T + e,T, 0, 0\)](../images/QM/time_reversal/s_gr_6.gif)
 
 Find out what quaternion is required to reverse time for this relativistic
 interval to first order in epsilon.
 
 ![R= \(t squared -\(T+ e\) squared ,2 T \(T+e\), 0, 0\) all over t squared +
-\(T + e\) squared](images/QM/time_reversal/s_gr_7.gif)
+\(T + e\) squared](../images/QM/time_reversal/s_gr_7.gif)
 
 This approaches q[-e/T, 1, 0, 0], almost a pure vector, a result distinct from
 the classical case.
@@ -4338,11 +4338,11 @@ laws of physics.
 
 #  Buttons
 
-![](http://world.std.com/~sweetsimages/space300.gif)
+![](http://world.std.com/~sweetser/Images/space300.gif)
 
-| [![Definition of Spacetime](images/Stuff/Buttons/spacetime.jpg)](info.html#spacetime) | [![The General Equivalence Principle](images/Stuff/Buttons/equivalence.jpg)](info.html#equivalence) | [![Unified Field Theory](images/Stuff/Buttons/unified.jpg)](info.html#unified) |
+| [![Definition of Spacetime](../images/Stuff/Buttons/spacetime.jpg)](info.html#spacetime) | [![The General Equivalence Principle](../images/Stuff/Buttons/equivalence.jpg)](info.html#equivalence) | [![Unified Field Theory](../images/Stuff/Buttons/unified.jpg)](info.html#unified) |
 | -- | -- | -- |
-| [![Justify Your Love for the Standard Model](images/Stuff/Buttons/justify.jpg)](info.html#justify) | [![No Dark Matter Needed](images/Stuff/Buttons/dark.jpg)](info.html#dark) | |
+| [![Justify Your Love for the Standard Model](../images/Stuff/Buttons/justify.jpg)](info.html#justify) | [![No Dark Matter Needed](../images/Stuff/Buttons/dark.jpg)](info.html#dark) | |
 
   
 Promote the Doing Physics with Quaternions Project, and look cool :-)  
@@ -4350,14 +4350,14 @@ Promote the Doing Physics with Quaternions Project, and look cool :-)
 These 5 buttons represent a visual presentation of some of the key ideas
 behind my efforts to unify gravity and electromagnetism.  
   
-![Definition of Spacetime](images/Stuff/Buttons/spacetime.jpg) Fine cuisine depends on starting
+![Definition of Spacetime](../images/Stuff/Buttons/spacetime.jpg) Fine cuisine depends on starting
 with the best ingredients. Great physics depends on using new powerful math.
 An event in spacetime has one dimension for time and three dimensions for
 space, the most powerful tool would be a generalized number that can be added,
 subtracted, multiplied and divided, but has four parts to it. There is one
 such number called a quaternion, shown here. Time is t, and x, y, and z are the values the event may have in the three directions, i, j, and k. Quaternions are the mathematical foundation for all my efforts in theoretical physics.  
 
-![The General Equivalence Principle](images/Stuff/Buttons/equivalence.jpg)  A person standing on a
+![The General Equivalence Principle](../images/Stuff/Buttons/equivalence.jpg)  A person standing on a
 scale in a closed box could not tell the difference between the box sitting on
 the surface of the Earth or the box accelerating at the same rate as the
 Earth's gravity in a rocket ship as depicted here. Einstein called this the
@@ -4369,7 +4369,7 @@ the potential (A), or Box IA? The usual answer is the rulers are fixed and it
 is the potential that changes, I Box A. However, the answer could also be the
 potential is the same, but the rulers are changing, A Box I.  
 
-![Unified Field Theory](images/Stuff/Buttons/unified.jpg) A unified field theory describes light
+![Unified Field Theory](../images/Stuff/Buttons/unified.jpg) A unified field theory describes light
 and gravity in the same equation. Einstein spent the last half of his life
 looking for one, but did not succeed. The equation on the right reads in
 mathlish, "The change in the change in the potential equals some constants
@@ -4380,7 +4380,7 @@ changes in a square grid, changes moving straight out from the center, changes
 that are circular ripples, and changes that are spirals. The graphic does not
 show changes in time or the third dimension. It is only a graphic after all.  
 
-![Justify Your Love for the Standard Model](images/Stuff/Buttons/justify.jpg) The standard model
+![Justify Your Love for the Standard Model](../images/Stuff/Buttons/justify.jpg) The standard model
 is used to quantify why there are this many of that kind of subatomic
 particle, and that many of those particles. A vast amount of exquisite detail
 is explained. No one has justified why the standard model should be this way.
@@ -4390,7 +4390,7 @@ can be written in a way that lines up perfectly with two of these symmetries.
 The connection to the SU(3) symmetry is unclear now, although technically it
 has the right number of fingers and toes (eight in this case).  
 
-![No Dark Matter Needed](images/Stuff/Buttons/dark.jpg) Newton's law of gravity works to explain
+![No Dark Matter Needed](../images/Stuff/Buttons/dark.jpg) Newton's law of gravity works to explain
 the rotation of the Moon around the Earth. Newton's law of gravity works to
 explain the velocity of stars near the center of a galaxy, but fails to
 explain why stars further from the center maintain that same velocity. One
@@ -4445,11 +4445,11 @@ Resources on gimble lock, a problem that arises from not using quaternions for
 
 Bottom line: always avoid Euler angles.
 
-![](images/About/Bike/comfort_cruisers.jpg) 
+![](../images/About/Bike/comfort_cruisers.jpg) 
 
 # The Frame for the Future  
   
-![](images/About/Bike/beach_biker.jpg)  
+![](../images/About/Bike/beach_biker.jpg)  
   
   * Wheel base 40"
   * Seat height 25"
@@ -4467,15 +4467,15 @@ This machine has over two thousand Boston city miles on it (and a few on the coa
   * Continue research in making bicycles a viable choice in personal transpiration. 
 
 
-![](../images/About/Lindy_hop/lindyhop.gif) 
+![](../../images/About/Lindy_hop/lindyhop.gif) 
 
 # Lindy Hop
 
 A joyous partner dance developed in New York City in the 1930's  
   
-| ![](../images/About/Lindy_hop/lindy3.jpg) | ![](../images/About/Lindy_hop/lindy2.jpg) | 
+| ![](../../images/About/Lindy_hop/lindy3.jpg) | ![](../../images/About/Lindy_hop/lindy2.jpg) | 
 | -- | -- |
-| ![](../images/About/Lindy_hop/bbq.gif) | [![](../images/About/Lindy_hop/tony_aurelie_zooted.jpg)](http://www.HopToTheBeat.com/)[Tony &amp; Aurelie Tye](http://www.HopToTheBeat.com/) |  
+| ![](../../images/About/Lindy_hop/bbq.gif) | [![](../../images/About/Lindy_hop/tony_aurelie_zooted.jpg)](http://www.HopToTheBeat.com/)[Tony &amp; Aurelie Tye](http://www.HopToTheBeat.com/) |  
 
   
 Darra, my extra-special dance partner, strutting, as she does so well!
@@ -4583,7 +4583,7 @@ reread that passage, then go to an old-fashion library and read up about
 quaternions. This was the first equation I saw, the squaring of a quaternion:
 
 ![A quaternion squared equals \(t squared - x squared - y squared - z squared,
-2 t times x, 2 t times y, 2 t times z\)](images/About/Professional_sketch/q2.png)
+2 t times x, 2 t times y, 2 t times z\)](../images/About/Professional_sketch/q2.png)
 
 To this day, this makes me excited because the first term is at the core of 
 special relativity as taught to me by Edwin F. Taylor. It is there, for free.  
@@ -4635,7 +4635,7 @@ for quaternion gravity
 I went back to the equation that sparked my initial interest in quaternions:
 
 ![A quaternion squared equals \(t squared - x squared - y squared - z squared,
-2 t times x, 2 t times y, 2 t times z\)](images/About/Professional_sketch/q2.png)
+2 t times x, 2 t times y, 2 t times z\)](../images/About/Professional_sketch/q2.png)
 
 The first term is called the interval. But what are the next three called? 
 Physics doesn't have a name. That is a problem because the first term is one of 
