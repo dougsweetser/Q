@@ -17,14 +17,15 @@ related to physics.
 There are two basic ways to multiply quaternions together.  There is the
 direct approach.
 
-![](images/Math/products/s_gr_1.gif)
+![](images/Math/products/s_gr_1.png)
 
 I call this the Grassman product (I don't know if anyone else does, but I need
 a label).  The inner product can also be called the symmetric product, because
 it does not change signs if the terms are reversed.
 
-![](images/Math/products/s_gr_2.gif)
-![](images/Math/products/s_gr_3.gif)
+![](images/Math/products/s_gr_2.png)
+
+![](images/Math/products/s_gr_3.png)
 
 I have defined the anticommutator (the bold curly braces) in a non-standard
 way, including a factor of two so I do not have to keep remembering to write
@@ -37,9 +38,9 @@ valid measurement.
 
 The Grassman outer product is antisymmetric and is formed with a commutator.
 
-![](images/Math/products/s_gr_4.gif)
+![](images/Math/products/s_gr_4.png)
 
-![](images/Math/products/s_gr_5.gif)
+![](images/Math/products/s_gr_5.png)
 
 This is the cross product defined for two 3-vectors.  It is unchanged for
 quaternions.
@@ -51,13 +52,13 @@ the transpose of one of the quaternions.  For a real-valued matrix
 representation, this is equivalent to multiplication by the conjugate which
 involves flipping the sign of the 3-vector.
 
-![](images/Math/products/s_gr_6.gif)
+![](images/Math/products/s_gr_6.png)
 
-![](images/Math/products/s_gr_7.gif)
+![](images/Math/products/s_gr_7.png)
 
 Form the Euclidean inner product.
 
-![](images/Math/products/s_gr_8.gif)
+![](images/Math/products/s_gr_8.png)
 
 The first term is the Euclidean norm if the two quaternions are the same (this
 was the reason for using the adjective "Euclidean").  The Euclidean inner
@@ -65,7 +66,7 @@ product is also the standard definition of a dot product.
 
 Form the Euclidean outer product.
 
-![](images/Math/products/s_gr_9.gif)
+![](images/Math/products/s_gr_9.png)
 
 The first term is zero.  The vector terms are an antisymmetric product of
 space with time and the negative of the cross product.
