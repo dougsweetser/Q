@@ -2,7 +2,7 @@
 
 This graphic says most of it...
 
-![](../../../images/Gravity/Measurement-101/all.png)
+![](images/Gravity/Measurement-101/all.png)
 
 Start with the reference square which has an interval of 16 and a space-times
 time of 30.
@@ -42,10 +42,7 @@ of the one that makes a spatial measurment larger. Since gravitational systems
 follow simple harmonic patterns for billions of years, an exponential and its
 inverse that depens on the M/R ratio is an obvious thing to propose.
 
-![e to the -z dt, e to the z dR sub i over c squared equals e to the -2 z dt
-squared - e to the 2 z dR sub i squared, 2 dt dR sub i over c equals e to the -
-2 G M c squared R dt squared - e to the 2 G M over c squared R dR sub i
-squared, 2 dt dR sub i if z = G M over c squared R](../../../Gravity/images/exp_GMc2R.png)
+![](images/Gravity/exp_GMc2R.png)
 
 The interval looks just like the Rosen bi-metric proposal, even though
 quaternion gravity uses no metrics. The Rosen metric is known to be consistent
@@ -61,4 +58,4 @@ moment, but no a dipole one.
 My entry to the [_2015 Awards for Essays on 
 Gravitation_](http://www.gravityresearchfoundation.org/index.html) is a more formal
 presentation of this research effort, [available as a
-pdf](../../Stuff/pdfs/space-times-time_invariance.pdf).
+pdf](Stuff/pdfs/space-times-time_invariance.pdf).

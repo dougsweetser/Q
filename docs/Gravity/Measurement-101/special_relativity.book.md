@@ -2,7 +2,7 @@
 
 Walking changes how one measures deadly supernovae.
 
-![](../../../images/Gravity/Measurement-101/SR.png)
+![](images/Gravity/Measurement-101/SR.png)
 
 As long as the kids move at a constant rate, special relativity comes into play.
 
