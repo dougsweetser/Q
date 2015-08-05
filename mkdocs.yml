@@ -8,7 +8,11 @@ dev_addr: 127.0.0.1:8004
 
 google_analytics: ['UA-9710248-1', 'quaternions.com']
 
-markdown_extensions: [include, subscript, superscript, footnotes]
+markdown_extensions: 
+    include:
+    subscript:
+    superscript:
+    footnotes:
 
 pages:
 - [index.md, '']
