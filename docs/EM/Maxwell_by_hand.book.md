@@ -1,6 +1,6 @@
 # Maxwell by hand
 
-![The Maxwell source equations derivation by hand](../images/EM/Maxwell_by_hand/max_1_covariant.jpg)
+![](images/EM/Maxwell_by_hand/max_1_covariant.jpg)
 
 To really lean anything, one needs to practice over and over, by hand.  Here is
 a complete derivation of the Maxwell source equations using quaternions.

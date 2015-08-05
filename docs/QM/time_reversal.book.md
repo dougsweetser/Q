@@ -6,15 +6,15 @@ Implications
 
 The following transformation R for quaternions reverses time:
 
-![](images/QM/time_reversal/s_gr_1.gif)
+![](images/QM/time_reversal/s_gr_1.png)
 
 The quaternion R exist because quaternions are a field.  
 
-R will equal  (-t, X )(t, ![](images/QM/time_reversal/s_gr_2.gif).  The inverse of
+R will equal  (-t, X )(t, ![](images/QM/time_reversal/s_gr_2.png).  The inverse of
 quaternion is the transpose over the square of the norm, which is the scalar
 term of the transpose of a quaternion times itself.
 
-![](images/QM/time_reversal/s_gr_3.gif)
+![](images/QM/time_reversal/s_gr_3.png)
 
 For any given time, R can be defined based on the above.
 
@@ -26,9 +26,9 @@ and a 3-vector relativistic velocity beta .  In the classical region,
 beta&lt;&lt;&lt;1.  Calculate R in this limit to one order of magnitude in
 beta.
 
-![](images/QM/time_reversal/s_gr_4.gif)
+![](images/QM/time_reversal/s_gr_4.png)
 
-![](images/QM/time_reversal/s_gr_5.gif)
+![](images/QM/time_reversal/s_gr_5.png)
 
   The operator R is almost the negative identity, but the vector is non-zero,
 so it would not commute.
@@ -38,12 +38,12 @@ so it would not commute.
 For a relativistic interval involving one axis, the interval could be
 characterized by the following:
 
-![](images/QM/time_reversal/s_gr_6.gif)
+![](images/QM/time_reversal/s_gr_6.png)
 
 Find out what quaternion is required to reverse time for this relativistic
 interval to first order in epsilon.
 
-![](images/QM/time_reversal/s_gr_7.gif)
+![](images/QM/time_reversal/s_gr_7.png)
 
 This approaches q[-e/T, 1, 0, 0], almost a pure vector, a result distinct from
 the classical case.
