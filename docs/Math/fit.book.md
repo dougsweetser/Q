@@ -2,4 +2,4 @@
 
 Adapted from a figure by Max Tegmark, 1998.
 
-![](Stuff/pdfs/math_structure.png)
+![](images/Math/math_structure.png)
