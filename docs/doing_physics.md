@@ -834,16 +834,15 @@ open set.  Define an open ball in H of radius (r, 0) centered around a point
 (y, Y) [note: small letters are scalars, capital letters are 3-vectors]
 consisting of points (x, X) such that
 
-![The square root of \(\(x - y, X - Y\) conjugated times \(x - y, X - Y\)\) is
-less than \(r, 0\)](../images/Math/topology/s_gr_1.gif)
+![](images/Math/topology/s_gr_1.gif)
 
 An open set in H is any set which can be expressed as a union of open balls.  
 [p. 423 translated] A quaternion topological space (H,T) consists of the set H
 together with a collection T of subsets of H with these properties:
 
-1.The union of an arbitrary collection of subsets, each in T, is in T  
-2.The intersection of a finite number of subsets of T is in T  
-3.The entire set H and the empty set are in T
+1. The union of an arbitrary collection of subsets, each in T, is in T  
+1. The intersection of a finite number of subsets of T is in T  
+1. The entire set H and the empty set are in T
 
 T is the topology on H.  The subsets of H in T are open sets.  Quaternions
 form a topology because they are what mathematicians call a metric space,
@@ -877,22 +876,15 @@ and U represent arbitrary lower and upper bounds respectively such that L &lt;
 U. For the quaternion topological space (H, T), consider an arbitrary induced
 topology (A, t) where x and a are elements of A. Use inequalities to define:
 
-![an open set: the lower bound \(L, 0\) is less than \(x - a\) conjugated
-times \(x - a\) is less than the upper bound \(U, 0\)](../images/Math/topology/s_gr_2.gif)
+![](images/Math/topology/s_gr_2.gif)
 
-![a closed set: \(L, 0\) is less than or equal to \(x - a\) conjugated times
-\(x - a\) is less than or equal to the upper bound \(U, 0\)
-](../images/Math/topology/s_gr_3.gif)
+![](images/Math/topology/s_gr_3.gif)
 
-![a half open set   \(L, 0\)  is less than or equal to \(x - a\) conjugated
-times \(x - a\) is less than the upper bound \(U, 0\)
-](../images/Math/topology/s_gr_4.gif)
+![](images/Math/topology/s_gr_4.gif)
 
-![or   \(L, 0\) is less than \(x - a\) conjugated times \(x - a\)  is less
-than or equal to the conjugate of \(U, 0\)](../images/Math/topology/s_gr_5.gif)
+![](images/Math/topology/s_gr_5.gif)
 
-![a boundary: the lower bound \(L, 0\)  equals \(x - a\) conjugated times \(x
-- a\) ](../images/Math/topology/s_gr_6.gif)
+![](images/Math/topology/s_gr_6.gif)
 
 The union of an arbitrary collection of open sets is open.  
 The intersection of a finite number of open sets is open.  
@@ -901,8 +893,7 @@ The intersection of an arbitrary number of closed sets is closed.
 
 Clearly there are connections between the above definitions
 
-![](../images/Math/topology/s_gr_7.gif)
-
+![](images/Math/topology/s_gr_7.gif)
 This creates complementary ideas.  [Wald, p.424]  
 The interior of A is the union of all open sets contained within A.  
 The interior equals A if and only if A is open.  
@@ -920,18 +911,13 @@ What are the implications for physics?
 With quaternions, the existence an open set of events has nothing to do with
 the causality of that collection of events.
 
-![an open set: the lower bound \(L, 0\) is less than  \(x - a\) conjugated
-times \(x - a\) is less than the upper bound \(U,
-0\)](../images/Math/topology/s_gr_8.gif)
+![](images/Math/topology/s_gr_8.gif)
 
-![timelike events:  the scalar of \(\(x - a\) squared\) is greater than 0
-](../images/Math/topology/s_gr_9.gif)
+![](images/Math/topology/s_gr_9.gif)
 
-![lightlike events:  the scalar of \(\(x - a\) squared\) =
-0](../images/Math/topology/s_gr_10.gif)
+![](images/Math/topology/s_gr_10.gif)
 
-![spacelike events:  the scalar of \(\(x - a\) squared\) is less than
-0](../images/Math/topology/s_gr_11.gif)
+![](images/Math/topology/s_gr_11.gif)
 
 A proper time can have exactly the same absolute value as a pure spacelike
 separation, so these two will be included in the same sets, whether open,
@@ -945,10 +931,7 @@ within limits.
 Although independent, these two ideas can be combined synergistically.
 Consider an open set S of timelike intervals.
 
-![the set S = {x, a are elements of H, a is fixed; U, L are elements of R |
-\(L, 0\) is less than \(x - a\) conjugated times \(x - a\) is less than \(U,
-0\), and scalar of \(\(x - a\) squared\) is greater than
-0}](../images/Math/topology/s_gr_12.gif)
+![](images/Math/topology/s_gr_12.gif)
 
 The set S could depict a classical world history since they are causally
 linked and have good topological properties.  A closed set of lightlike events
@@ -968,14 +951,11 @@ the null set.
 For example, find the half-way point between a and b.  Let that be the radius
 of an open ball around the points a and b:
 
-![let \(r, 0\) = \(a - b\) conjugated times \(a - b\) over 4
-](../images/Math/topology/s_gr_13.gif)
+![](images/Math/topology/s_gr_13.gif)
 
-![the set Oa = {a, x are elements of H, a is fixed, r is an element of R | \(a
-- x\) conjugated times \(a - x\) is less than r} ](../images/Math/topology/s_gr_14.gif)
+![](images/Math/topology/s_gr_14.gif)
 
-![the set Ob = {b, x are elements of H, b is fixed, r is an element of R | \(b
-- x\) conjugated times \(b - x\) is less than r} ](../images/Math/topology/s_gr_15.gif)
+![](images/Math/topology/s_gr_15.gif)
 
 Neither set quite reaches the other, so their intersection is null.
 
@@ -997,10 +977,7 @@ has a finite subcover.
 Let's find an example of a compact set of quaternions.  Consider a set S
 composed of points with a finite number of absolute values:
 
-![the set S = {x1, x2, ..., xn are elements of H; a1, a2, ..., an are elements
-of R, n is finite | the square root of x1 conjugated times x1 = \(a1, 0\), the
-square root of x2 conjugated times x2 = \(a2, 0\), ...}
-](../images/Math/topology/s_gr_16.gif)
+![](images/Math/topology/s_gr_16.gif)
 
 The set S has an infinite number of members, since for any of the equalities,
 specifying the absolute value still leaves three degrees of freedom (if the
@@ -1009,10 +986,7 @@ The set S can be covered by an open set {O} which could have an infinite
 number of members.  There exists a subset {C} of {O} that is finite and still
 covers S.  The subset {C} would have one member for each absolute value.
 
-![the set C = {y E {O}, e E R, e is greater than 0 | \(a1 - e\) is less than
-the square root of y conjugated times y is less than \(a1 + e, 0\), \(a2 - e\)
-is less than the square root of y conjugated times y is less than \(a2 + e,
-0\), ..., one y exists for each inequality} ](../images/Math/topology/s_gr_17.gif)
+![](images/Math/topology/s_gr_17.gif)
 
 Every set of quaternions composed of a finite number of absolute values like
 the set S is compact.
@@ -1034,9 +1008,7 @@ closed and bound is to be compact.
 
 [Wald p. 425] Theorem 1 (Heine-Borel). A closed interval of quaternions S:
 
-![the set S = {x an element of H, a, b elements of R, a less than b | \(a, 0\)
-is less than or equal to the square root of \(x conjugated times x\) is less
-than or equal to \(b, 0\)} ](../images/Math/topology/s_gr_18.gif)
+![](images/Math/topology/s_gr_18.gif)
 
 with the standard topology on H is compact.
 
@@ -1088,7 +1060,7 @@ different, even if topologically similar to the quaternions.
 
 Adapted from a figure by Max Tegmark, 1998.
 
-![](Stuff/pdfs/math_structure.png)
+![](images/Math/math_structure.png)
 
 # A Quaternion Algebra Tool Set
 
@@ -1210,14 +1182,16 @@ Coordinates
 
 Define a position quaternion as a function of time.
 
-![](images/Classical_physics/force/s_gr_1.gif)
+![](images/Classical_physics/force/s_gr_1.png)
+
 Operate on this once with the differential operator to get the velocity
 quaternion.
 
-![](images/Classical_physics/force/s_gr_2.gif)
+![](images/Classical_physics/force/s_gr_2.png)
+
 Operate on the velocity to get the classical inertial acceleration quaternion.
 
-![](images/Classical_physics/force/s_gr_3.gif)
+![](images/Classical_physics/force/s_gr_3.png)
 
 This is the standard form for acceleration in Newton's second law in an
 inertial reference frame.  Because the reference frame is inertial, the first
@@ -1227,25 +1201,29 @@ term is zero.
 
 Repeat this process, but this time start with polar coordinates.
 
-![](images/Classical_physics/force/s_gr_4.gif)
+![](images/Classical_physics/force/s_gr_4.png)
+
 The velocity in a plane.
 
-![](images/Classical_physics/force/s_gr_5.gif)
+![](images/Classical_physics/force/s_gr_5.png)
 
-![](images/Classical_physics/force/s_gr_6.gif)
+![](images/Classical_physics/force/s_gr_6.png)
 
 Acceleration in a plane.
 
-![](images/Classical_physics/force/s_gr_7.gif)
+![](images/Classical_physics/force/s_gr_7.png)
 
-![](images/Classical_physics/force/s_gr_8.gif)
+![](images/Classical_physics/force/s_gr_8.png)
 
-Not a pretty sight.  For a central force, ![](images/Classical_physics/force/s_gr_9.gif) =
-![](images/Classical_physics/force/s_gr_11.gif) = 0.  Make thesesubstitution and rotate the quaternion to get rid of the theta dependence.
+Not a pretty sight.  For a central force, ![](images/Classical_physics/force/s_gr_9.png) =
 
-![](images/Classical_physics/force/s_gr_12.gif)
+![](images/Classical_physics/force/s_gr_11.png) = 0.  
 
-![](images/Classical_physics/force/s_gr_13.gif)
+Make these substitution and rotate the quaternion to get rid of the theta dependence.
+
+![](images/Classical_physics/force/s_gr_12.png)
+
+![](images/Classical_physics/force/s_gr_13.png)
 
 The second term is the acceleration in the radial direction, the third is
 acceleration in the theta direction for a central force in polar coordinates.
@@ -1260,24 +1238,24 @@ the velocity in a rotating reference frame. Unlike the previous examples where
 t did not interfere with the calculations, this time it must be set explicitly
 to zero (I wonder what that means?).
 
-![](images/Classical_physics/force/s_gr_14.gif)
+![](images/Classical_physics/force/s_gr_14.png)
 
 Operate on the velocity quaternion with the same operator.
 
-![](images/Classical_physics/force/s_gr_15.gif)
+![](images/Classical_physics/force/s_gr_15.png)
 
-![](images/Classical_physics/force/s_gr_16.gif)
+![](images/Classical_physics/force/s_gr_16.png)
 
 The first three terms of the 3-vector are the translational, coriolis, and
 azimuthal alterations respectively.  The last term of the 3-vector may not
 look like the centrifugal force, but using a vector identity it can be
 rewritten:
 
-![](images/Classical_physics/force/s_gr_17.gif)
+![](images/Classical_physics/force/s_gr_17.png)
 
 If the angular velocity an the radius are orthogonal, then
 
-![](images/Classical_physics/force/s_gr_18.gif)
+![](images/Classical_physics/force/s_gr_18.png)
 
 The scalar term is not zero.  What this implies is not yet clear, but it may
 be related to the fact that the frame is not inertial.
@@ -1300,45 +1278,37 @@ oscillator.  Therefore it is necessary to get a handle on everything.
 The differential equation for a simple harmonic oscillator in one dimension
 can be express with quaternion operators.
 
-![\(d by dt, 0\) squared acting on \(0, x, 0, 0\) + \(0, k x over m, 0, 0\) =
-\(0,x double dot + k x/m, 0, 0\) = 0](../images/Classical_physics/sho/s_gr_1.gif)
+![](images/Classical_physics/sho/s_gr_1.png)
 
 This equation can be solved directly.
 
-![x = C\(2\) cosine \(the square root of k over m times t\) + C\(1\) sine \(the square root of k over m times t\)](../images/Classical_physics/sho/s_gr_2.gif)
+![](images/Classical_physics/sho/s_gr_2.png)
 
 Find the velocity by taking the derivative with respect to time.
 
-![x dot = the square root of k over m times C\(1\) cosine \(the square root of
-k over m times t\) - the square root of k over m times times C\(2\) sine \(the
-square root of k over m times t\)\)](../images/Classical_physics/sho/s_gr_3.gif)
+![](images/Classical_physics/sho/s_gr_3.png)
 
 ##  The Damped Simple Harmonic Oscillator
 
 Generate the differential equation for a damped simple harmonic oscillator as
 done above.
 
-![\(d by dt,0\) squared acting on \(0,x, 0, 0\) + \(d by dt,0\) acting on \(0,
-b x, 0, 0\) + \(0, k x over m,0,0\) =](../images/Classical_physics/sho/s_gr_4.gif)
+![](images/Classical_physics/sho/s_gr_4.png)
 
-![= \(0, x double dot + b x dot + k x over m, 0, 0\) = 0](../images/Classical_physics/sho/s_gr_5.gif)
+![](images/Classical_physics/sho/s_gr_5.png)
 
 Solve the equation.
 
-![x = c1 times e to the - b - the square root of b squared - 4 k over m over 2
-times t + c2 times e to the - b + the square root of b squared - 4 k over m
-over 2 times t ](../images/Classical_physics/sho/s_gr_6.gif)
+![](images/Classical_physics/sho/s_gr_6.png)
 
 ##  The Wave Equation
 
 Consider a wave traveling along the x direction.  The equation which governs
 its motion is given by
 
-![\(1/v d by dt,d by dx, 0, 0\) squared acting on \(0, 0, f\(t v + x\), 0\)
-=](../images/Classical_physics/sho/s_gr_7.gif)
+![](images/Classical_physics/sho/s_gr_7.png)
 
-![=\(0, 0, \(-d squared  by d x squared +1/v squared  d squared  by d t
-squared \) f\(t v+x\), 2 d squared  f\(t v + x\)/v dt dx\)](../images/Classical_physics/sho/s_gr_8.gif)
+![](images/Classical_physics/sho/s_gr_8.png)
 
 The third term is the one dimensional wave equation.  The forth term is the
 instantaneous power transmitted by the wave.
@@ -1364,19 +1334,19 @@ between any two points is the same no matter what the path chosen.  In this
 notebook, quaternion operators perform these tests on quaternion-valued
 forces.
 
-##  1.  The Curl Is Zero
+##  1\.  The Curl Is Zero
 
 To make the discussion concrete, define a force quaternion F.
 
-![](images/Classical_physics/conservative_force/s_gr_1.gif)
+![](images/Classical_physics/conservative_force/s_gr_1.png)
 The curl is the commutator of the differential operator and the force.  If
 this is zero, the force is conservative.
 
-![](images/Classical_physics/conservative_force/s_gr_2.gif)
+![](images/Classical_physics/conservative_force/s_gr_2.png)
 Let the differential operator quaternion act on the force, and test if the
 vector components equal zero.
 
-![](images/Classical_physics/conservative_force/s_gr_3.gif)
+![](images/Classical_physics/conservative_force/s_gr_3.png)
 
 ##  2\. There Exists a Potential Function for the Force
 
@@ -1384,13 +1354,13 @@ Operate on force quaternion using integration.  Take the negative of the
 gradient of the first component.  If the field quaternion is the same, the
 force is conservative.
 
-![](images/Classical_physics/conservative_force/s_gr_4.gif)
+![](images/Classical_physics/conservative_force/s_gr_4.png)
 
-![](images/Classical_physics/conservative_force/s_gr_5.gif)
+![](images/Classical_physics/conservative_force/s_gr_5.png)
 
-![](images/Classical_physics/conservative_force/s_gr_6.gif)
+![](images/Classical_physics/conservative_force/s_gr_6.png)
 
-![](images/Classical_physics/conservative_force/s_gr_7.gif)
+![](images/Classical_physics/conservative_force/s_gr_7.png)
 
 This is the same force as we started with, so the scalar inside the integral
 is the scalar potential of this vector field.  The vector terms inside the
@@ -1403,20 +1373,22 @@ unknown to me.
 Use any parameterization in the line integral, making sure it comes back to
 go.
 
-![](images/Classical_physics/conservative_force/s_gr_8.gif)
+![](images/Classical_physics/conservative_force/s_gr_8.png)
 
-![](images/Classical_physics/conservative_force/s_gr_9.gif)
+![](images/Classical_physics/conservative_force/s_gr_9.png)
+
 ##  4\. The Line Integral Along Different Paths Is the Same
 
 Choose any two parameterizations from A to B, and test that they are the same.
 These paths are from (0, r, 0, 0) to (0, -r, 2 r, 0).
 
-![](images/Classical_physics/conservative_force/s_gr_10.gif)
+![](images/Classical_physics/conservative_force/s_gr_10.png)
 
-![](images/Classical_physics/conservative_force/s_gr_11.gif)
+![](images/Classical_physics/conservative_force/s_gr_11.png)
 
-![](images/Classical_physics/conservative_force/s_gr_12.gif)
-![](images/Classical_physics/conservative_force/s_gr_13.gif)
+![](images/Classical_physics/conservative_force/s_gr_12.png)
+
+![](images/Classical_physics/conservative_force/s_gr_13.png)
 
 The same!
 
@@ -1471,16 +1443,13 @@ There are a few tools required to solve problems in special relativity using
 quaternions to characterize events in spacetime. The most basic are gamma and
 a round value for c.
 
-![\[Graphics:ps1gr1.
-gif\]](../images/SR/problem_set_1/ps1gr1.gif)
+![](images/SR/problem_set_1/ps1gr1.gif)
 
-![\[Graphics:ps1gr3.
-gif\]](../images/SR/problem_set_1/ps1gr3.gif)
+![](images/SR/problem_set_1/ps1gr3.gif)
 
 Define a function for quaternions using its matrix representation.
 
-![\[Graphics:ps1gr4.
-gif\]](../images/SR/problem_set_1/ps1gr4.gif)
+![](images/SR/problem_set_1/ps1gr4.gif)
 
 A quaternion L that perform a transform on a quaternion -  
 L q[**x**] = q[**x'**] - identical to how the Lorentz transformation acts on
@@ -1488,33 +1457,26 @@ L q[**x**] = q[**x'**] - identical to how the Lorentz transformation acts on
 detail in the notebook "A different algebra for boosts." For boosts along the
 x axis with y = z = 0, the general function for L is
 
-![\[Graphics:ps1gr5.
-gif\]](../images/SR/problem_set_1/ps1gr5.gif)
+![](images/SR/problem_set_1/ps1gr5.gif)
 
 Most of the problems here involve much simpler cases for L, where t or x is
 zero, or t is equal to x.
 
 If t = 0, then
 
-![\[Graphics:ps1gr6.gif\]](../images/SR/problem_set_1/ps1gr6.gif)
-
-![\[Graphics:ps1gr7.gif\]](../images/SR/problem_set_1/ps1gr7.gif)
-
+![](images/SR/problem_set_1/ps1gr6.gif)
+![](images/SR/problem_set_1/ps1gr7.gif)
 If x = 0, then
 
-![\[Graphics:ps1gr8.gif\]](../images/SR/problem_set_1/ps1gr8.gif)
-
-![\[Graphics:ps1gr9.gif\]](../images/SR/problem_set_1/ps1gr9.gif)
-
+![](images/SR/problem_set_1/ps1gr8.gif)
+![](images/SR/problem_set_1/ps1gr9.gif)
 If t = x, then
 
-![\[Graphics:ps1gr10
-.gif\]](../images/SR/problem_set_1/ps1gr10.gif)
+![](images/SR/problem_set_1/ps1gr10.gif)
 
     
     
-![\[Graphics:ps1gr11.gif\]](../images/SR/problem_set_1/ps1gr11.gif)
-
+![](images/SR/problem_set_1/ps1gr11.gif)
 Note: this is for blueshifts. Redshifts have a plus instead of the minus.
 
 The problems are from "Basic Concepts in Relativity" by Resnick and Halliday,
@@ -1532,11 +1494,9 @@ the origin. The second event happens at 180 m in a time of 180 m/v. Calculate
 the interval by squaring the difference quaternion and then taking the square
 root of the first term.
 
-![\[Graphics:ps1gr12
-.gif\]](../images/SR/problem_set_1/ps1gr12.gif)
+![](images/SR/problem_set_1/ps1gr12.gif)
     
-![\[Graphics:ps1gr13.gif\]](../images/SR/problem_set_1/ps1gr13.gif)
-
+![](images/SR/problem_set_1/ps1gr13.gif)
 The moving clock reads 8 x 10^-7^ seconds.
 
 ##  R&amp;H 2-10: A moving rocket
@@ -1548,28 +1508,23 @@ length in frame S?
 A: Consider the meter stick at rest in a frame S', one end at the origin, the
 other at q[0, 1 m, 0, 0]. We want to boost the stick end quaternion to frame
 S. The boost quaternion when t=y=z=0 is
-![\[Graphics:ps1gr15.gif\]](../images/SR/problem_set_1/ps1gr15.gif). In frame S',
-frame S is moving at -0.6c.
+![](images/SR/problem_set_1/ps1gr15.gif). In frame S',frame S is moving at -0.6c.
 
-![\[Graphics:ps1gr16
-.gif\]](../images/SR/problem_set_1/ps1gr16.gif)
+![](images/SR/problem_set_1/ps1gr16.gif)
 
 The start of the stick will move for a time equal to the first term of the
 boosted quaternion, and moved by a distance x = vt/c.
 
-![\[Graphics:ps1gr17
-.gif\]](../images/SR/problem_set_1/ps1gr17.gif)
+![](images/SR/problem_set_1/ps1gr17.gif)
 
 The meter stick's length in frame S will be the difference at the same instant
 in this frame between the boosted stick end and translocated stick start.
 
-![\[Graphics:ps1gr18
-.gif\]](../images/SR/problem_set_1/ps1gr18.gif)
+![](images/SR/problem_set_1/ps1gr18.gif)
 
     
     
-![\[Graphics:ps1gr19.gif\]](../images/SR/problem_set_1/ps1gr19.gif)
-
+![](images/SR/problem_set_1/ps1gr19.gif)
 The meter stick is length contracted to 0.8 meters in frame S.
 
 ##  R&amp;H 2-13: A fast spaceship
@@ -1582,50 +1537,41 @@ observer's frame?
 A: (a) Consider the spaceship at rest, one end at the origin, the other at
 q[0, d, 0, 0]. We want to boost the ship end quaternion to the observer's
 frame. The boost quaternion when t=y=z=0 is
-![\[Graphics:ps1gr20.gif\]](../images/SR/problem_set_1/ps1gr20.gif). In the ship's
-frame, the observer is moving at -v/c.
+![](images/SR/problem_set_1/ps1gr20.gif). In the ship'sframe, the observer is moving at -v/c.
 
-![\[Graphics:ps1gr21
-.gif\]](../images/SR/problem_set_1/ps1gr21.gif)
+![](images/SR/problem_set_1/ps1gr21.gif)
 
 The start of the ship will move for a time equal to the first term of the
 boosted quaternion, and moved by a distance x = vt/c.
 
-![\[Graphics:ps1gr22
-.gif\]](../images/SR/problem_set_1/ps1gr22.gif)
+![](images/SR/problem_set_1/ps1gr22.gif)
 
 The ship's length in the observer's frame will be the difference at the same
 instant in this frame between the boosted ship end and translocated ship
 start.
 
-![\[Graphics:ps1gr23
-.gif\]](../images/SR/problem_set_1/ps1gr23.gif)
+![](images/SR/problem_set_1/ps1gr23.gif)
 
     
     
-![\[Graphics:ps1gr24.gif\]](../images/SR/problem_set_1/ps1gr24.gif)
-
+![](images/SR/problem_set_1/ps1gr24.gif)
 Solve for beta setting this distance to d/2.
 
-![\[Graphics:ps1gr25
-.gif\]](../images/SR/problem_set_1/ps1gr25.gif)
+![](images/SR/problem_set_1/ps1gr25.gif)
 
     
     
-![\[Graphics:ps1gr26.gif\]](../images/SR/problem_set_1/ps1gr26.gif)
-
-Beta is ![\[Graphics:ps1gr27.gif\]](../images/SR/problem_set_1/ps1gr27.gif)/2 =
+![](images/SR/problem_set_1/ps1gr26.gif)
+Beta is ![\[Graphics:ps1gr27.gif\]](images/SR/problem_set_1/ps1gr27.gif)/2 =
 0.866.  
   
 (b) The factor that the clocks appear to run at different rates is gamma.
 
-![\[Graphics:ps1gr28
-.gif\]](../images/SR/problem_set_1/ps1gr28.gif)
+![](images/SR/problem_set_1/ps1gr28.gif)
 
     
     
-![\[Graphics:ps1gr29.gif\]](../images/SR/problem_set_1/ps1gr29.gif)
-
+![](images/SR/problem_set_1/ps1gr29.gif)
 
 # Measure the difference between space-time events
 
