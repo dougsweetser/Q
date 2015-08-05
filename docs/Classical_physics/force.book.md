@@ -13,14 +13,16 @@ Coordinates
 
 Define a position quaternion as a function of time.
 
-![](images/Classical_physics/force/s_gr_1.gif)
+![](images/Classical_physics/force/s_gr_1.png)
+
 Operate on this once with the differential operator to get the velocity
 quaternion.
 
-![](images/Classical_physics/force/s_gr_2.gif)
+![](images/Classical_physics/force/s_gr_2.png)
+
 Operate on the velocity to get the classical inertial acceleration quaternion.
 
-![](images/Classical_physics/force/s_gr_3.gif)
+![](images/Classical_physics/force/s_gr_3.png)
 
 This is the standard form for acceleration in Newton's second law in an
 inertial reference frame.  Because the reference frame is inertial, the first
@@ -30,25 +32,29 @@ term is zero.
 
 Repeat this process, but this time start with polar coordinates.
 
-![](images/Classical_physics/force/s_gr_4.gif)
+![](images/Classical_physics/force/s_gr_4.png)
+
 The velocity in a plane.
 
-![](images/Classical_physics/force/s_gr_5.gif)
+![](images/Classical_physics/force/s_gr_5.png)
 
-![](images/Classical_physics/force/s_gr_6.gif)
+![](images/Classical_physics/force/s_gr_6.png)
 
 Acceleration in a plane.
 
-![](images/Classical_physics/force/s_gr_7.gif)
+![](images/Classical_physics/force/s_gr_7.png)
 
-![](images/Classical_physics/force/s_gr_8.gif)
+![](images/Classical_physics/force/s_gr_8.png)
 
-Not a pretty sight.  For a central force, ![](images/Classical_physics/force/s_gr_9.gif) =
-![](images/Classical_physics/force/s_gr_11.gif) = 0.  Make thesesubstitution and rotate the quaternion to get rid of the theta dependence.
+Not a pretty sight.  For a central force, ![](images/Classical_physics/force/s_gr_9.png) =
 
-![](images/Classical_physics/force/s_gr_12.gif)
+![](images/Classical_physics/force/s_gr_11.png) = 0.  
 
-![](images/Classical_physics/force/s_gr_13.gif)
+Make these substitution and rotate the quaternion to get rid of the theta dependence.
+
+![](images/Classical_physics/force/s_gr_12.png)
+
+![](images/Classical_physics/force/s_gr_13.png)
 
 The second term is the acceleration in the radial direction, the third is
 acceleration in the theta direction for a central force in polar coordinates.
@@ -63,24 +69,24 @@ the velocity in a rotating reference frame. Unlike the previous examples where
 t did not interfere with the calculations, this time it must be set explicitly
 to zero (I wonder what that means?).
 
-![](images/Classical_physics/force/s_gr_14.gif)
+![](images/Classical_physics/force/s_gr_14.png)
 
 Operate on the velocity quaternion with the same operator.
 
-![](images/Classical_physics/force/s_gr_15.gif)
+![](images/Classical_physics/force/s_gr_15.png)
 
-![](images/Classical_physics/force/s_gr_16.gif)
+![](images/Classical_physics/force/s_gr_16.png)
 
 The first three terms of the 3-vector are the translational, coriolis, and
 azimuthal alterations respectively.  The last term of the 3-vector may not
 look like the centrifugal force, but using a vector identity it can be
 rewritten:
 
-![](images/Classical_physics/force/s_gr_17.gif)
+![](images/Classical_physics/force/s_gr_17.png)
 
 If the angular velocity an the radius are orthogonal, then
 
-![](images/Classical_physics/force/s_gr_18.gif)
+![](images/Classical_physics/force/s_gr_18.png)
 
 The scalar term is not zero.  What this implies is not yet clear, but it may
 be related to the fact that the frame is not inertial.

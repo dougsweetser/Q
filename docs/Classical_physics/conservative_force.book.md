@@ -7,19 +7,19 @@ between any two points is the same no matter what the path chosen.  In this
 notebook, quaternion operators perform these tests on quaternion-valued
 forces.
 
-##  1.  The Curl Is Zero
+##  1\.  The Curl Is Zero
 
 To make the discussion concrete, define a force quaternion F.
 
-![](images/Classical_physics/conservative_force/s_gr_1.gif)
+![](images/Classical_physics/conservative_force/s_gr_1.png)
 The curl is the commutator of the differential operator and the force.  If
 this is zero, the force is conservative.
 
-![](images/Classical_physics/conservative_force/s_gr_2.gif)
+![](images/Classical_physics/conservative_force/s_gr_2.png)
 Let the differential operator quaternion act on the force, and test if the
 vector components equal zero.
 
-![](images/Classical_physics/conservative_force/s_gr_3.gif)
+![](images/Classical_physics/conservative_force/s_gr_3.png)
 
 ##  2\. There Exists a Potential Function for the Force
 
@@ -27,13 +27,13 @@ Operate on force quaternion using integration.  Take the negative of the
 gradient of the first component.  If the field quaternion is the same, the
 force is conservative.
 
-![](images/Classical_physics/conservative_force/s_gr_4.gif)
+![](images/Classical_physics/conservative_force/s_gr_4.png)
 
-![](images/Classical_physics/conservative_force/s_gr_5.gif)
+![](images/Classical_physics/conservative_force/s_gr_5.png)
 
-![](images/Classical_physics/conservative_force/s_gr_6.gif)
+![](images/Classical_physics/conservative_force/s_gr_6.png)
 
-![](images/Classical_physics/conservative_force/s_gr_7.gif)
+![](images/Classical_physics/conservative_force/s_gr_7.png)
 
 This is the same force as we started with, so the scalar inside the integral
 is the scalar potential of this vector field.  The vector terms inside the
@@ -46,20 +46,22 @@ unknown to me.
 Use any parameterization in the line integral, making sure it comes back to
 go.
 
-![](images/Classical_physics/conservative_force/s_gr_8.gif)
+![](images/Classical_physics/conservative_force/s_gr_8.png)
 
-![](images/Classical_physics/conservative_force/s_gr_9.gif)
+![](images/Classical_physics/conservative_force/s_gr_9.png)
+
 ##  4\. The Line Integral Along Different Paths Is the Same
 
 Choose any two parameterizations from A to B, and test that they are the same.
 These paths are from (0, r, 0, 0) to (0, -r, 2 r, 0).
 
-![](images/Classical_physics/conservative_force/s_gr_10.gif)
+![](images/Classical_physics/conservative_force/s_gr_10.png)
 
-![](images/Classical_physics/conservative_force/s_gr_11.gif)
+![](images/Classical_physics/conservative_force/s_gr_11.png)
 
-![](images/Classical_physics/conservative_force/s_gr_12.gif)
-![](images/Classical_physics/conservative_force/s_gr_13.gif)
+![](images/Classical_physics/conservative_force/s_gr_12.png)
+
+![](images/Classical_physics/conservative_force/s_gr_13.png)
 
 The same!
 
