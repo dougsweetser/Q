@@ -74,7 +74,7 @@ A dual quaternion is formed by taking the conjugate, because q* q = (t^2 \+
 X.X, 0).  A tangent quaternion is created by having an operator act on a
 quaternion-valued function
 
-![](../images/Math/scalars_vectors/s_gr_1.gif)
+![](images/Math/scalars_vectors/s_gr_1.gif)
 
 What would happen to these five terms if space were shrunk?  The 3-vector F
 would get shrunk, as would the divisors in the Del operator, making functions
@@ -91,12 +91,12 @@ in the tangent quaternion would change.
 A quaternion equation must generate the same collection of tensors on both
 sides.  Consider the product of two events, q and q':
 
-![](../images/Math/scalars_vectors/s_gr_2.gif)
+![](images/Math/scalars_vectors/s_gr_2.gif)
 
 Where is the axial vector for the left hand side?  It is imbedded in the
 multiplication operation, honest :-)
 
-![](../images/Math/scalars_vectors/s_gr_3.gif)
+![](images/Math/scalars_vectors/s_gr_3.gif)
 
 The axial vector is the one that flips signs if the order is reversed.
 
@@ -118,17 +118,17 @@ operators which flip the sign of a vector, and symmetric and antisymmetric
 products can isolate any particular term.  Here are all the terms of the
 example from above
 
-![](../images/Math/scalars_vectors/s_gr_4.gif)
+![](images/Math/scalars_vectors/s_gr_4.gif)
 
-![](../images/Math/scalars_vectors/s_gr_5.gif)
+![](images/Math/scalars_vectors/s_gr_5.gif)
 
-![](../images/Math/scalars_vectors/s_gr_6.gif)
+![](images/Math/scalars_vectors/s_gr_6.gif)
 
-![](../images/Math/scalars_vectors/s_gr_7.gif)
+![](images/Math/scalars_vectors/s_gr_7.gif)
 
 The metric for quaternions is imbedded in Hamilton's rule for the field.
 
-![](../images/Math/scalars_vectors/s_gr_8.gif)
+![](images/Math/scalars_vectors/s_gr_8.gif)
 
 This looks like a way to generate scalars from vectors, but it is more than
 that.  It also says implicitly that i j = k, j k = i, and i, j, k must have
@@ -145,7 +145,7 @@ is in one context and it will not be possible to compare it to a quaternion in
 another context.  Instead, consider an arbitrary transformation T  which takes
 q into q'
 
-![](../images/Math/scalars_vectors/s_gr_9.gif)
+![](images/Math/scalars_vectors/s_gr_9.gif)
 
 
 
@@ -162,11 +162,11 @@ groups).
 This quaternion definition of a transformation creates an interesting
 relationship between the Minkowski and Euclidean metrics.
 
-![](../images/Math/scalars_vectors/s_gr_10.gif)
+![](images/Math/scalars_vectors/s_gr_10.gif)
 
-![](../images/Math/scalars_vectors/s_gr_11.gif)
+![](images/Math/scalars_vectors/s_gr_11.gif)
 
-![](../images/Math/scalars_vectors/s_gr_12.gif)
+![](images/Math/scalars_vectors/s_gr_12.gif)
 
 In order to change from wrist watch time (the interval in spacetime) to the
 norm of a Hilbert space does not require any change in the transformation
