@@ -834,7 +834,7 @@ open set.  Define an open ball in H of radius (r, 0) centered around a point
 (y, Y) [note: small letters are scalars, capital letters are 3-vectors]
 consisting of points (x, X) such that
 
-![](images/Math/topology/s_gr_1.gif)
+![](images/Math/topology/s_gr_1.png)
 
 An open set in H is any set which can be expressed as a union of open balls.  
 [p. 423 translated] A quaternion topological space (H,T) consists of the set H
@@ -876,15 +876,15 @@ and U represent arbitrary lower and upper bounds respectively such that L &lt;
 U. For the quaternion topological space (H, T), consider an arbitrary induced
 topology (A, t) where x and a are elements of A. Use inequalities to define:
 
-![](images/Math/topology/s_gr_2.gif)
+![](images/Math/topology/s_gr_2.png)
 
-![](images/Math/topology/s_gr_3.gif)
+![](images/Math/topology/s_gr_3.png)
 
-![](images/Math/topology/s_gr_4.gif)
+![](images/Math/topology/s_gr_4.png)
 
-![](images/Math/topology/s_gr_5.gif)
+![](images/Math/topology/s_gr_5.png)
 
-![](images/Math/topology/s_gr_6.gif)
+![](images/Math/topology/s_gr_6.png)
 
 The union of an arbitrary collection of open sets is open.  
 The intersection of a finite number of open sets is open.  
@@ -893,7 +893,7 @@ The intersection of an arbitrary number of closed sets is closed.
 
 Clearly there are connections between the above definitions
 
-![](images/Math/topology/s_gr_7.gif)
+![](images/Math/topology/s_gr_7.png)
 This creates complementary ideas.  [Wald, p.424]  
 The interior of A is the union of all open sets contained within A.  
 The interior equals A if and only if A is open.  
@@ -911,13 +911,13 @@ What are the implications for physics?
 With quaternions, the existence an open set of events has nothing to do with
 the causality of that collection of events.
 
-![](images/Math/topology/s_gr_8.gif)
+![](images/Math/topology/s_gr_8.png)
 
-![](images/Math/topology/s_gr_9.gif)
+![](images/Math/topology/s_gr_9.png)
 
-![](images/Math/topology/s_gr_10.gif)
+![](images/Math/topology/s_gr_10.png)
 
-![](images/Math/topology/s_gr_11.gif)
+![](images/Math/topology/s_gr_11.png)
 
 A proper time can have exactly the same absolute value as a pure spacelike
 separation, so these two will be included in the same sets, whether open,
@@ -931,7 +931,7 @@ within limits.
 Although independent, these two ideas can be combined synergistically.
 Consider an open set S of timelike intervals.
 
-![](images/Math/topology/s_gr_12.gif)
+![](images/Math/topology/s_gr_12.png)
 
 The set S could depict a classical world history since they are causally
 linked and have good topological properties.  A closed set of lightlike events
@@ -951,11 +951,11 @@ the null set.
 For example, find the half-way point between a and b.  Let that be the radius
 of an open ball around the points a and b:
 
-![](images/Math/topology/s_gr_13.gif)
+![](images/Math/topology/s_gr_13.png)
 
-![](images/Math/topology/s_gr_14.gif)
+![](images/Math/topology/s_gr_14.png)
 
-![](images/Math/topology/s_gr_15.gif)
+![](images/Math/topology/s_gr_15.png)
 
 Neither set quite reaches the other, so their intersection is null.
 
@@ -977,7 +977,7 @@ has a finite subcover.
 Let's find an example of a compact set of quaternions.  Consider a set S
 composed of points with a finite number of absolute values:
 
-![](images/Math/topology/s_gr_16.gif)
+![](images/Math/topology/s_gr_16.png)
 
 The set S has an infinite number of members, since for any of the equalities,
 specifying the absolute value still leaves three degrees of freedom (if the
@@ -986,7 +986,7 @@ The set S can be covered by an open set {O} which could have an infinite
 number of members.  There exists a subset {C} of {O} that is finite and still
 covers S.  The subset {C} would have one member for each absolute value.
 
-![](images/Math/topology/s_gr_17.gif)
+![](images/Math/topology/s_gr_17.png)
 
 Every set of quaternions composed of a finite number of absolute values like
 the set S is compact.
@@ -1008,7 +1008,7 @@ closed and bound is to be compact.
 
 [Wald p. 425] Theorem 1 (Heine-Borel). A closed interval of quaternions S:
 
-![](images/Math/topology/s_gr_18.gif)
+![](images/Math/topology/s_gr_18.png)
 
 with the standard topology on H is compact.
 
@@ -2459,14 +2459,13 @@ The Maxwell source equations are Gauss' law and Ampere's law.  A Lorentz
 invariant coupling of the current density to the potential is needed.  That is
 simply the product of the current density with the potential:
 
-![J times A equals rho, J times phi, A equals r phi minus J dot A, phi A plus J
-phi plus the cross product of J and A](../images/EM/EM_invariants/current_coupling.png)
+![](images/EM/EM_invariants/current_coupling.png)
 
 We also need a Lorentz invariant of the E and B fields.  As discussed in [EM
 invariants](EM_invariants.md), the gauge-free derivative of a potential written
 in both orders does the trick:
 
-![](../images/EM/derive_Maxwell_source_equations/difference_of_squares.png)
+![](images/EM/derive_Maxwell_source_equations/difference_of_squares.png)
 
 This is a difference of squares.  We get the Poynting 3-vector created for
 free.  This is not a minor addition.  Neither of the fields E or B are changed
@@ -2483,6 +2482,7 @@ worth pointing out.
 # The plan
 
 Start by writing out the Lagrange density
+
 * Write out _E~x~_ and _B~x~_.
 * Multiply it out.
 * Clones _E~y~_, _E~z~_, _B~y~_, and _B~z~_.
@@ -2491,16 +2491,16 @@ Start by writing out the Lagrange density
 
 Start easy by writing out _E~x~_ and _B~x~_:
 
-![](../images/EM/derive_Maxwell_source_equations/Bx2-Ex2.png)
+![](images/EM/derive_Maxwell_source_equations/Bx2-Ex2.png)
 
 Multiply it out.
 
-![](../images/EM/derive_Maxwell_source_equations/Bx2_Ex2_multiplied_out.png)
+![](images/EM/derive_Maxwell_source_equations/Bx2_Ex2_multiplied_out.png)
 
 Every term is negative except the squares of the _B~x~_ field.  Continue the
 process for ~y~ and ~z~.
 
-![](../images/EM/derive_Maxwell_source_equations/B2-E2_terms.png)
+![](images/EM/derive_Maxwell_source_equations/B2-E2_terms.png)
 
 The electric field terms in yellow are simple substitutions.  The magnetic
 field involves the curl, so it can be intimidating.  Once one term is done, the
@@ -2511,7 +2511,7 @@ The Lagrange density needs the current coupling and the difference of the
 square of the fields.  One detail is that a factor of a half is needed to
 simplify derivative equations
 
-![](../images/EM/derive_Maxwell_source_equations/L_EM_details.png)
+![](images/EM/derive_Maxwell_source_equations/L_EM_details.png)
 
 There is a clean separation of electric fields (in yellow) and the magnetic
 field (in green and orange).
@@ -2523,7 +2523,7 @@ The Lagrange density for the Maxwell source equations is complete.
 Start applying the Euler-Lagrange equation by focusing on terms with a phi in
 them:
 
-![](../images/EM/derive_Maxwell_source_equations/L_EM_details_phi.png)
+![](images/EM/derive_Maxwell_source_equations/L_EM_details_phi.png)
 
 There is one current coupling term.  There are six terms all coming from the
 electric field.  This is reasonable because only the electric field has a phi,
@@ -2533,7 +2533,7 @@ Lagrangian.
 We need to do calculus on two types of terms.  One is a square, the other is a
 mixed derivative:
 
-![](../images/EM/derive_Maxwell_source_equations/second_order_derivatives.png)
+![](images/EM/derive_Maxwell_source_equations/second_order_derivatives.png)
 
 Even though these expressions look impressively complicated, one is only taking
 the derivatives of x^2^ and xy, the first sorts of derivatives one learns in
@@ -2541,11 +2541,11 @@ the study of calculus.  It is x that is odd, being another derivative.
 
 Apply the Euler-Lagrange equation to all the terms with a phi:
 
-![](../images/EM/derive_Maxwell_source_equations/apply_Euler-Lagrange.png)
+![](images/EM/derive_Maxwell_source_equations/apply_Euler-Lagrange.png)
 
 Here is the pattern:
 
-![](../images/EM/derive_Maxwell_source_equations/Gauss_law_pattern.png)
+![](images/EM/derive_Maxwell_source_equations/Gauss_law_pattern.png)
 
 This is Gauss's law.
 
@@ -2553,19 +2553,19 @@ This is Gauss's law.
 
 This time focus on terms on _A~x~_ in the Lagrange density:
 
-![](../images/EM/derive_Maxwell_source_equations/L_EM_details_Ax.png)
+![](images/EM/derive_Maxwell_source_equations/L_EM_details_Ax.png)
 
 Write out the Euler-Lagrange derivatives:
 
-![](../images/EM/derive_Maxwell_source_equations/L_EM_details_Euler-Lagrange.png)
+![](images/EM/derive_Maxwell_source_equations/L_EM_details_Euler-Lagrange.png)
 
 Collect the terms generated by the Euler-Lagrange equations:
 
-![](../images/EM/derive_Maxwell_source_equations/L_EM_Amperes_law.png)
+![](images/EM/derive_Maxwell_source_equations/L_EM_Amperes_law.png)
 
 Look at the pattern:
 
-![](../images/EM/derive_Maxwell_source_equations/L_EM_Amperes_law_pattern.png)
+![](images/EM/derive_Maxwell_source_equations/L_EM_Amperes_law_pattern.png)
 
 This is Ampere's law.
 
@@ -2573,11 +2573,11 @@ This is Ampere's law.
 
 Gauss's law is only about the electric field.  Ampere's law is about both.
 
-![](../images/EM/derive_Maxwell_source_equations/Gauss_Ampere_pattern.png)
+![](images/EM/derive_Maxwell_source_equations/Gauss_Ampere_pattern.png)
 
 The two Lagrangians and four Maxwell field equations together on one stage:
 
-![](../images/EM/derive_Maxwell_source_equations/Maxwell_equations_pattern.png)
+![](images/EM/derive_Maxwell_source_equations/Maxwell_equations_pattern.png)
 
 # Maxwell by hand
 
