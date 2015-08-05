@@ -1,7 +1,7 @@
 #!/bin/bash
 pushd . 
 cd ~/Documents/Q/docs
-cat book_to_merge.txt | mdmerge -o doing_physics.0.md --book -
+cat book_to_merge.txt | ~/venv-gh/bin/mdmerge -o doing_physics.0.md --book -
 sed 's|\.\.\/\.\.\/\.\./images|images|g' doing_physics.0.md | tee doing_physics.1.md
 sed 's|\.\.\/\.\./images|images|g' doing_physics.1.md | tee doing_physics.2.md
 sed 's|\.\./images|images|g' doing_physics.2.md | tee doing_physics.3.md
