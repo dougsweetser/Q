@@ -3,7 +3,7 @@ Math/history.md
 Math/numbers_101.md
 Math/multiplying.md
 Math/products.md
-Math/scalars_vectors.md
+Math/scalars_vectors.book.md
 Math/analysis.md
 Math/topology.md
 Math/fit.md
