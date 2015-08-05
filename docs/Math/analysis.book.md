@@ -21,7 +21,7 @@ true no matter what coordinate system is chosen.
 A quaternion has 4 degrees of freedom, so it needs 4 real-valued variables to
 be defined:
 
-![](images/Math/analysis/s_gr_1.gif)
+![](images/Math/analysis/s_gr_1.png)
 
 Imagine we want to do a simple binary operation such as subtraction, without
 having to specify the coordinate system chosen.  Subtraction will only work if
@@ -30,7 +30,7 @@ otherwise.  Let e0, e1, e2, and e3 be the shared, but unspecified, basis.  Now
 we can define the difference between two quaternion q and q' that is
 independent of the coordinate system used for the measurement.
 
-![](images/Math/analysis/s_gr_2.gif)
+![](images/Math/analysis/s_gr_2.png)
 
 What is unusual about this definition are the factors of a third.  They will
 be necessary later in order to define a holonomic equation later in this
@@ -41,7 +41,7 @@ the scalar is not given its proper weight.
 
 If dq is squared, the scalar part of the resulting quaternion forms a metric.
 
-![](images/Math/analysis/s_gr_3.gif)
+![](images/Math/analysis/s_gr_3.png)
 
 What should the connection be between the squares of the basis vectors?  The
 amount of intrinsic curvature should be equal, so that a transformation
@@ -50,13 +50,13 @@ treated exactly like space?  The Schwarzschild metric of general relativity
 suggests otherwise.  Let e1, e2, and e3 form an independent, dimensionless,
 orthogonal basis for the 3-vector such that:
 
-![](images/Math/analysis/s_gr_4.gif)
+![](images/Math/analysis/s_gr_4.png)
 
 This unusual relationship between the basis vectors is consistent with
 Hamilton's choice of 1, i, j, k if e0^2 = 1.  For that case, calculate the
 square of dq:
 
-![](images/Math/analysis/s_gr_5.gif)
+![](images/Math/analysis/s_gr_5.png)
 
 The scalar part is known in physics as the Minkowski interval between two
 events in flat spacetime.  If e0^2 does not equal one, then the metric would
@@ -64,7 +64,7 @@ apply to a non-flat spacetime.  A metric that has been measured experimentally
 is the Schwarzchild metric of general relativity.  Set e0^2 = (1 - 2 GM/c^2
 R), and calculate the square of dq:
 
-![](images/Math/analysis/s_gr_6.gif)
+![](images/Math/analysis/s_gr_6.png)
 
 This is the Schwarzchild metric of general relativity.  Notice that the
 3-vector is unchanged (this may be a defining characteristic).  There are very
@@ -80,27 +80,27 @@ function, it must also have four degrees of freedom.  Three other linearly-
 independent variables involving q can be defined using conjugates combined
 with rotations:
 
-![](images/Math/analysis/s_gr_7.gif)
+![](images/Math/analysis/s_gr_7.png)
 
-![](images/Math/analysis/s_gr_8.gif)
+![](images/Math/analysis/s_gr_8.png)
 
-![](images/Math/analysis/s_gr_9.gif)
+![](images/Math/analysis/s_gr_9.png)
 
 The conjugate as it is usually defined (q*) flips the sign of all but the
 scalar.  The q*1 flips the signs of all but the e1 term, and q*2 all but the
 e2 term.  The set q, q*, q*1, q*2 form the basis for quaternion analysis.  The
 conjugate of a conjugate should give back the original quaternion.
 
-![](images/Math/analysis/s_gr_10.gif)
+![](images/Math/analysis/s_gr_10.png)
 
 Something subtle but perhaps directly related to spin happens looking at how
 the conjugates effect products:
 
-![](images/Math/analysis/s_gr_11.gif)
+![](images/Math/analysis/s_gr_11.png)
 
-![](images/Math/analysis/s_gr_12.gif)
+![](images/Math/analysis/s_gr_12.png)
 
-![](images/Math/analysis/s_gr_13.gif)
+![](images/Math/analysis/s_gr_13.png)
 
 The conjugate applied to a product brings the result directly back to the
 reverse order of the elements.  The first and second conjugates point things
@@ -132,54 +132,54 @@ indicates that it must be approached with a time greater than zero, in other
 words, from the future).  The net effect of these two limit processes is that
 D-&gt;0\.
 
-![](images/Math/analysis/s_gr_14.gif)
+![](images/Math/analysis/s_gr_14.png)
 
-![](images/Math/analysis/s_gr_15.gif)
+![](images/Math/analysis/s_gr_15.png)
 
 The definition is invariant under a passive transformation of the basis.
 
 The 4 real variables a0, a1, a2, a3 can be represented by functions using the
 conjugates as a basis.
 
-![](images/Math/analysis/s_gr_16.gif)
+![](images/Math/analysis/s_gr_16.png)
 
-![](images/Math/analysis/s_gr_17.gif)
+![](images/Math/analysis/s_gr_17.png)
 
-![](images/Math/analysis/s_gr_18.gif)
+![](images/Math/analysis/s_gr_18.png)
 
-![](images/Math/analysis/s_gr_19.gif)
+![](images/Math/analysis/s_gr_19.png)
 
 Begin with a simple example:
 
-![](images/Math/analysis/s_gr_20.gif)
+![](images/Math/analysis/s_gr_20.png)
 
-![](images/Math/analysis/s_gr_21.gif)
+![](images/Math/analysis/s_gr_21.png)
 
-![](images/Math/analysis/s_gr_22.gif)
+![](images/Math/analysis/s_gr_22.png)
 
 The definition gives the expected result.
 
 A simple approach to a trickier example:
 
-![](images/Math/analysis/s_gr_23.gif)
+![](images/Math/analysis/s_gr_23.png)
 
-![](images/Math/analysis/s_gr_24.gif)
+![](images/Math/analysis/s_gr_24.png)
 
-![](images/Math/analysis/s_gr_25.gif)
+![](images/Math/analysis/s_gr_25.png)
 
 So far, the fancy double limit process has been irrelevant for these identity
 functions, because the differential element has been eliminated.  That changes
 with the following example, a tricky approach to the same result.
 
-![](images/Math/analysis/s_gr_26.gif)
+![](images/Math/analysis/s_gr_26.png)
 
-![](images/Math/analysis/s_gr_27.gif)
+![](images/Math/analysis/s_gr_27.png)
 
-![](images/Math/analysis/s_gr_28.gif)
+![](images/Math/analysis/s_gr_28.png)
 
-![](images/Math/analysis/s_gr_29.gif)
+![](images/Math/analysis/s_gr_29.png)
 
-![](images/Math/analysis/s_gr_30.gif)
+![](images/Math/analysis/s_gr_30.png)
 
 Because the 3-vector goes to zero faster than the scalar for the differential
 element, after the first limit process, the remaining differential is a scalar
@@ -190,9 +190,9 @@ The initial hypothesis was that complex analysis should be a self-evident
 subset of quaternion analysis.  So this quaternion derivative should match up
 with the complex case, which is:
 
-![](images/Math/analysis/s_gr_31.gif)
+![](images/Math/analysis/s_gr_31.png)
 
-![](images/Math/analysis/s_gr_32.gif)
+![](images/Math/analysis/s_gr_32.png)
 
 These are the same result up to two subedits.  Quaternions have three
 imaginary axes, which creates the factor of three.  The conjugate of a complex
@@ -202,15 +202,15 @@ others.
 
 The derivative of a quaternion applies equally well to polynomials.
 
-![](images/Math/analysis/s_gr_33.gif)
+![](images/Math/analysis/s_gr_33.png)
 
-![](images/Math/analysis/s_gr_34.gif)
+![](images/Math/analysis/s_gr_34.png)
 
-![](images/Math/analysis/s_gr_35.gif)
+![](images/Math/analysis/s_gr_35.png)
 
-![](images/Math/analysis/s_gr_36.gif)
+![](images/Math/analysis/s_gr_36.png)
 
-![](images/Math/analysis/s_gr_37.gif)
+![](images/Math/analysis/s_gr_37.png)
 
 This is the expected result for this polynomial.  It would be straightforward
 to show that all polynomials gave the expected results.
@@ -226,46 +226,46 @@ timelike derivative should not depend on the direction of the 3-vector.
 There are 4 types of quaternion derivatives and 4 component functions.  The
 following table describes the 16 derivatives for this set
 
-![](images/Math/analysis/s_gr_38.gif)
+![](images/Math/analysis/s_gr_38.png)
 
 This table will be used extensively to evaluate if a function is analytic
 using the chain rule.  Let's see if the identity function w = q is analytic.
 
-![](images/Math/analysis/s_gr_39.gif)
+![](images/Math/analysis/s_gr_39.png)
 
 Use the chain rule to calculate the derivative will respect to each term:
 
-![](images/Math/analysis/s_gr_40.gif)
+![](images/Math/analysis/s_gr_40.png)
 
-![](images/Math/analysis/s_gr_41.gif)
+![](images/Math/analysis/s_gr_41.png)
 
-![](images/Math/analysis/s_gr_42.gif)
+![](images/Math/analysis/s_gr_42.png)
 
-![](images/Math/analysis/s_gr_43.gif)
+![](images/Math/analysis/s_gr_43.png)
 
 Use combinations of these terms to calculate the four quaternion derivatives
 using the chain rule.
 
-![](images/Math/analysis/s_gr_44.gif)
+![](images/Math/analysis/s_gr_44.png)
 
-![](images/Math/analysis/s_gr_45.gif)
+![](images/Math/analysis/s_gr_45.png)
 
-![](images/Math/analysis/s_gr_46.gif)
+![](images/Math/analysis/s_gr_46.png)
 
-![](images/Math/analysis/s_gr_47.gif)
+![](images/Math/analysis/s_gr_47.png)
 
 This has the derivatives expected if w=q is analytic in q.
 
 Another test involves the Cauchy-Riemann equations.  The presence of the three
 basis vectors changes things slightly.
 
-![](images/Math/analysis/s_gr_48.gif)
+![](images/Math/analysis/s_gr_48.png)
 
-![](images/Math/analysis/s_gr_49.gif)
+![](images/Math/analysis/s_gr_49.png)
 
 This also solves a holonomic equation.
 
-![](images/Math/analysis/s_gr_50.gif)
+![](images/Math/analysis/s_gr_50.png)
 
 There are no off diagonal terms to compare.
 
@@ -274,35 +274,35 @@ noticeable change is that the role that the conjugate must play.  Consider the
 identity function w = q*1.  To show that this is analytic in q*1 requires that
 one always works with basis vectors of the q*1 variety.
 
-![](images/Math/analysis/s_gr_51.gif)
+![](images/Math/analysis/s_gr_51.png)
 
-![](images/Math/analysis/s_gr_52.gif)
+![](images/Math/analysis/s_gr_52.png)
 
 This also solves a first conjugate holonomic equation.
 
-![](images/Math/analysis/s_gr_53.gif)
+![](images/Math/analysis/s_gr_53.png)
 
 Power functions can be analyzed in exactly the same way:
 
-![](images/Math/analysis/s_gr_54.gif)
+![](images/Math/analysis/s_gr_54.png)
 
-![](images/Math/analysis/s_gr_55.gif)
+![](images/Math/analysis/s_gr_55.png)
 
-![](images/Math/analysis/s_gr_56.gif)
+![](images/Math/analysis/s_gr_56.png)
 
-![](images/Math/analysis/s_gr_57.gif)
+![](images/Math/analysis/s_gr_57.png)
 
-![](images/Math/analysis/s_gr_58.gif)
+![](images/Math/analysis/s_gr_58.png)
 
-![](images/Math/analysis/s_gr_59.gif)
+![](images/Math/analysis/s_gr_59.png)
 
 This time there are cross terms involved.
 
-![](images/Math/analysis/s_gr_60.gif)
+![](images/Math/analysis/s_gr_60.png)
 
-![](images/Math/analysis/s_gr_61.gif)
+![](images/Math/analysis/s_gr_61.png)
 
-![](images/Math/analysis/s_gr_62.gif)
+![](images/Math/analysis/s_gr_62.png)
 
 At first glance, one might think these are incorrect, since the signs of the
 derivatives are suppose to be opposite.  Actually they are, but it is hidden
@@ -318,9 +318,9 @@ a function happens to be analytic.
 
 This also solves a holonomic equation.
 
-![](images/Math/analysis/s_gr_63.gif)
+![](images/Math/analysis/s_gr_63.png)
 
-![](images/Math/analysis/s_gr_64.gif)
+![](images/Math/analysis/s_gr_64.png)
 
 Since power series can be analytic, this should open the door to all forms of
 analysis.  (I have done the case for the cube of q, and it too is analytic in
@@ -350,32 +350,32 @@ than its corresponding scalar.  To make the definition non-singular
 everywhere, multiply by the conjugate.  In the limit D D*/((D - D*)(D - D*))*
 approaches (1, 0), a scalar.
 
-[](images/Math/analysis/s_gr_65.gif)
+[](images/Math/analysis/s_gr_65.png)
 
-![](images/Math/analysis/s_gr_66.gif)
+![](images/Math/analysis/s_gr_66.png)
 
 To make this concrete, consider a simple example, f = q^2.  Apply the
 definition:
 
-![](images/Math/analysis/s_gr_67.gif)
+![](images/Math/analysis/s_gr_67.png)
 
-![](images/Math/analysis/s_gr_68.gif)
+![](images/Math/analysis/s_gr_68.png)
 
-![](images/Math/analysis/s_gr_69.gif)
+![](images/Math/analysis/s_gr_69.png)
 
 The second and fifth terms are unitary rotations of the 3-vector B.  Since the
 differential element D could be pointed anywhere, this is an arbitrary
 rotation. Define:
 
-![](images/Math/analysis/s_gr_70.gif)
+![](images/Math/analysis/s_gr_70.png)
 
 Substitute, and continue:
 
-![](images/Math/analysis/s_gr_71.gif)
+![](images/Math/analysis/s_gr_71.png)
 
-![](images/Math/analysis/s_gr_72.gif)
+![](images/Math/analysis/s_gr_72.png)
 
-![](images/Math/analysis/s_gr_73.gif)
+![](images/Math/analysis/s_gr_73.png)
 
 Look at how wonderfully strange this is!  The arbitrary rotation of the
 3-vector B means that this derivative is bound by an inequality.  If D is in
