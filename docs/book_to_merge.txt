@@ -9,7 +9,7 @@ Math/fit.book.md
 Math/tools.book.md
 Classical_physics/force.book.md
 Classical_physics/sho.book.md
-Classical_physics/conservative_force.book...md
+Classical_physics/conservative_force.book.md
 SR/problem_sets.md
 SR/problem_set_1.md
 Gravity/Measurement-101/measure.book.md
