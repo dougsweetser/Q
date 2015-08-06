@@ -20,7 +20,7 @@ direct approach.
 ![\(t, X\) times \(t prime , X prime\) = \(t t prime  - X dot X prime , t X
 prime  + X t prime  + X cross X prime\)](../images/Math/products/s_gr_1.gif)
 
-I call this the Grassman product (I don't know if anyone else does, but I need
+I call this the Grassman product (I do not know if anyone else does, but I need
 a label).  The inner product can also be called the symmetric product, because
 it does not change signs if the terms are reversed.
 
@@ -33,7 +33,7 @@ I have defined the anticommutator (the bold curly braces) in a non-standard
 way, including a factor of two so I do not have to keep remembering to write
 it.  The first term would be the Lorentz invariant interval if the two
 quaternions represented the same difference between two events in spacetime
-(i.e. t1=t2=delta t,...).  The invariant interval plays a central role in
+(i.e. t=t'=delta t,...).  The invariant interval plays a central role in
 special relativity.  The vector terms are a frame-dependent, symmetric product
 of space with time and does not appear on the stage of physics, but is still a
 valid measurement.
@@ -52,8 +52,8 @@ quaternions.
 ##  The Euclidean Inner and Outer Products
 
 Another important way to multiply a pair of quaternions involves first taking
-the transpose of one of the quaternions.  For a real-valued matrix
-representation, this is equivalent to multiplication by the conjugate which
+the conjugate of one of the quaternions.  For a real-valued matrix
+representation, this is equivalent to multiplication by the transpose which
 involves flipping the sign of the 3-vector.
 
 ![\(t, X\) times \(t prime , X prime\) conjugated = \(t, -X\) times \(t prime
@@ -90,5 +90,5 @@ invariant interval, appears to play a role in special relativity.  What is
 interesting to speculate about is the role of the Euclidean outer product.  It
 is possible that the antisymmetric, vector nature of the space/time product
 could be related to spin.  Whatever the interpretation, the Grassman and
-Euclidean inner and outer products seem destine to do useful work in physics.
+Euclidean inner and outer products seem destined to do useful work in physics.
 
