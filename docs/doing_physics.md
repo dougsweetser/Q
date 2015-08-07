@@ -140,7 +140,7 @@ direct approach.
 
 ![](images/Math/products/s_gr_1.png)
 
-I call this the Grassman product (I don't know if anyone else does, but I need
+I call this the Grassman product (I do not know if anyone else does, but I need
 a label).  The inner product can also be called the symmetric product, because
 it does not change signs if the terms are reversed.
 
@@ -152,7 +152,7 @@ I have defined the anticommutator (the bold curly braces) in a non-standard
 way, including a factor of two so I do not have to keep remembering to write
 it.  The first term would be the Lorentz invariant interval if the two
 quaternions represented the same difference between two events in spacetime
-(i.e. t1=t2=delta t,...).  The invariant interval plays a central role in
+(i.e. t=t'=delta t,...).  The invariant interval plays a central role in
 special relativity.  The vector terms are a frame-dependent, symmetric product
 of space with time and does not appear on the stage of physics, but is still a
 valid measurement.
@@ -169,8 +169,8 @@ quaternions.
 ##  The Euclidean Inner and Outer Products
 
 Another important way to multiply a pair of quaternions involves first taking
-the transpose of one of the quaternions.  For a real-valued matrix
-representation, this is equivalent to multiplication by the conjugate which
+the conjugate of one of the quaternions.  For a real-valued matrix
+representation, this is equivalent to multiplication by the transpose which
 involves flipping the sign of the 3-vector.
 
 ![](images/Math/products/s_gr_6.png)
@@ -201,7 +201,7 @@ invariant interval, appears to play a role in special relativity.  What is
 interesting to speculate about is the role of the Euclidean outer product.  It
 is possible that the antisymmetric, vector nature of the space/time product
 could be related to spin.  Whatever the interpretation, the Grassman and
-Euclidean inner and outer products seem destine to do useful work in physics.
+Euclidean inner and outer products seem destined to do useful work in physics.
 
 
 #  Scalars, Vectors, Tensors and All That
@@ -244,11 +244,11 @@ the transaction.  This process in known as an inner tensor product or a
 contraction.  The vectors in question must have the same number of dimensions.
 The metric defines how to form a scalar as the indices are examined one-by-
 one.  Metrics in math can be anything, but nature imposes constraints on which
-ones are important in physics.  An aside: mathematicians require the distance
+ones are important in physics.  An aside: mathematicians require that the distance
 is non-negative, but physicists do not.  I will be using the physics notion of
 a metric.  In looking at events in spacetime (a 4-dimensional vector), the
 axioms of special relativity require the Minkowski metric, which is a 4x4 real
-matrix which has down the diagonal 1, -1, -1, -1 and zeros elsewhere.  Some
+matrix that has (1, -1, -1, -1) down the diagonal and zeros elsewhere.  Some
 people prefer the signs to be flipped, but to be consistent with everything
 else on this site, I choose this convention.  Another popular choice is the
 Euclidean metric, which is the same as an identity matrix.  The result of
@@ -477,9 +477,9 @@ square of dq:
 ![](images/Math/analysis/s_gr_5.png)
 
 The scalar part is known in physics as the Minkowski interval between two
-events in flat spacetime.  If e0^2 does not equal one, then the metric would
+events in flat spacetime.  If e0^2^ does not equal one, then the metric would
 apply to a non-flat spacetime.  A metric that has been measured experimentally
-is the Schwarzchild metric of general relativity.  Set e0^2 = (1 - 2 GM/c^2
+is the Schwarzchild metric of general relativity.  Set e0^2^ = (1 - 2 GM/c^2^
 R), and calculate the square of dq:
 
 ![](images/Math/analysis/s_gr_6.png)
@@ -505,8 +505,8 @@ with rotations:
 ![](images/Math/analysis/s_gr_9.png)
 
 The conjugate as it is usually defined (q*) flips the sign of all but the
-scalar.  The q*1 flips the signs of all but the e1 term, and q*2 all but the
-e2 term.  The set q, q*, q*1, q*2 form the basis for quaternion analysis.  The
+scalar.  The q^\*1^ flips the signs of all but the e1 term, and q^\*2^ all but the
+e2 term.  The set q, q*, q^\*1^, q^\*2^ form the basis for quaternion analysis.  The
 conjugate of a conjugate should give back the original quaternion.
 
 ![](images/Math/analysis/s_gr_10.png)
@@ -544,8 +544,8 @@ H.  A future timelike derivative to be defined, the 3-vector must approach
 zero faster than the positive scalar.  If this is not the case, then this
 definition cannot be used.  Implementing these requirements involves two limit
 processes applied sequentially to a differential quaternion D.  First the
-limit of the three vector is taken as it goes to zero, (D - D*)/2 -&gt; 0.
-Second, the limit of the scalar is taken, (D + D*)/2 -&gt; +0 (the plus zero
+limit of the three vector is taken as it goes to zero, (D - D^\*^)/2 -&gt; 0.
+Second, the limit of the scalar is taken, (D + D^\*^)/2 -&gt; +0 (the plus zero
 indicates that it must be approached with a time greater than zero, in other
 words, from the future).  The net effect of these two limit processes is that
 D-&gt;0\.
@@ -614,8 +614,8 @@ with the complex case, which is:
 
 These are the same result up to two subedits.  Quaternions have three
 imaginary axes, which creates the factor of three.  The conjugate of a complex
-number is really doing the work of the first quaternion conjugate q*1 (which
-equals -z*), because z* flips the sign of the first 3-vector component, but no
+number is really doing the work of the first quaternion conjugate q^\*1^ (which
+equals -z^\*^), because z^\*^ flips the sign of the first 3-vector component, but no
 others.
 
 The derivative of a quaternion applies equally well to polynomials.
@@ -689,8 +689,8 @@ There are no off diagonal terms to compare.
 
 This exercise can be repeated for the other identity functions.  One
 noticeable change is that the role that the conjugate must play.  Consider the
-identity function w = q*1.  To show that this is analytic in q*1 requires that
-one always works with basis vectors of the q*1 variety.
+identity function w = q^\*1^.  To show that this is analytic in q^\*1^ requires that
+one always works with basis vectors of the q^\*1^ variety.
 
 ![](images/Math/analysis/s_gr_51.png)
 
@@ -765,10 +765,10 @@ A spacelike differential element is defined by taking the ratio of a
 differential quaternion element D to its 3-vector, D - D_*._  Let the norm of
 D approach zero.  To be defined, the three vector must approach zero faster
 than its corresponding scalar.  To make the definition non-singular
-everywhere, multiply by the conjugate.  In the limit D D*/((D - D*)(D - D*))*
+everywhere, multiply by the conjugate.  In the limit D D^\*^/((D - D^\*^)(D - D^\*^))*
 approaches (1, 0), a scalar.
 
-[](images/Math/analysis/s_gr_65.png)
+![](images/Math/analysis/s_gr_65.png)
 
 ![](images/Math/analysis/s_gr_66.png)
 
