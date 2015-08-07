@@ -307,7 +307,7 @@ This time there are cross terms involved.
 At first glance, one might think these are incorrect, since the signs of the
 derivatives are suppose to be opposite.  Actually they are, but it is hidden
 in an accounting trick :-)  For example, the derivative of u with respect to
-a1 has a factor of e1^2, which makes it negative.  The derivative of the first
+a1 has a factor of e1^2^, which makes it negative.  The derivative of the first
 component of V with respect to a0 is positive.  Keeping all the information
 about signs in the e's makes things look non-standard, but they are not.  
 
