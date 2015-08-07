@@ -65,9 +65,9 @@ squared over 9 e0 squared - da3 squared over 9 e0 squared, 2 da0 da1 over 3, 2
 da0 da2 over 3, 2 da0 da3 over 3\) ](../images/Math/analysis/s_gr_5.gif)
 
 The scalar part is known in physics as the Minkowski interval between two
-events in flat spacetime.  If e0^2 does not equal one, then the metric would
+events in flat spacetime.  If e0^2^ does not equal one, then the metric would
 apply to a non-flat spacetime.  A metric that has been measured experimentally
-is the Schwarzchild metric of general relativity.  Set e0^2 = (1 - 2 GM/c^2
+is the Schwarzchild metric of general relativity.  Set e0^2^ = (1 - 2 GM/c^2^
 R), and calculate the square of dq:
 
 ![dq squared = \(da0 squared \(1 - 2 G M over c squared r\) - dA dot dA over 9
@@ -97,9 +97,9 @@ with rotations:
 ![q conjugated second is defined to be \(- a0 e0, - a1 e1 over 3,  a2 e2 over
 3, - a3 e3 over 3\) = \(e2 q e2\) conjugated](../images/Math/analysis/s_gr_9.gif)
 
-The conjugate as it is usually defined (q*) flips the sign of all but the
-scalar.  The q*1 flips the signs of all but the e1 term, and q*2 all but the
-e2 term.  The set q, q*, q*1, q*2 form the basis for quaternion analysis.  The
+The conjugate as it is usually defined (q^\*^) flips the sign of all but the
+scalar.  The q^\*1^ flips the signs of all but the e1 term, and q^\*2^ all but the
+e2 term.  The set q, q*, q^\*1^, q^\*2^ form the basis for quaternion analysis.  The
 conjugate of a conjugate should give back the original quaternion.
 
 ![\(q conj\) conj = q, \(q conjugated first\) conjugated first = q, \(q
@@ -139,12 +139,12 @@ the simplest case, and look at a series of examples in detail.
 Definition: The future timelike derivative:
 
 Consider a covariant quaternion function f with a domain of H and a range of
-H.  A future timelike derivative to be defined, the 3-vector must approach
+H.  For a future timelike derivative to be defined, the 3-vector must approach
 zero faster than the positive scalar.  If this is not the case, then this
 definition cannot be used.  Implementing these requirements involves two limit
 processes applied sequentially to a differential quaternion D.  First the
-limit of the three vector is taken as it goes to zero, (D - D*)/2 -&gt; 0.
-Second, the limit of the scalar is taken, (D + D*)/2 -&gt; +0 (the plus zero
+limit of the three vector is taken as it goes to zero, (D - D^\*^)/2 -&gt; 0.
+Second, the limit of the scalar is taken, (D + D^\*^)/2 -&gt; +0 (the plus zero
 indicates that it must be approached with a time greater than zero, in other
 words, from the future).  The net effect of these two limit processes is that
 D-&gt;0\.
@@ -234,8 +234,8 @@ conjugated](../images/Math/analysis/s_gr_32.gif)
 
 These are the same result up to two subedits.  Quaternions have three
 imaginary axes, which creates the factor of three.  The conjugate of a complex
-number is really doing the work of the first quaternion conjugate q*1 (which
-equals -z*), because z* flips the sign of the first 3-vector component, but no
+number is really doing the work of the first quaternion conjugate q^\*1^ (which
+equals -z^\*^), because z^\*^ flips the sign of the first 3-vector component, but no
 others.
 
 The derivative of a quaternion applies equally well to polynomials.
@@ -334,8 +334,8 @@ There are no off diagonal terms to compare.
 
 This exercise can be repeated for the other identity functions.  One
 noticeable change is that the role that the conjugate must play.  Consider the
-identity function w = q*1.  To show that this is analytic in q*1 requires that
-one always works with basis vectors of the q*1 variety.
+identity function w = q^\*1^.  To show that this is analytic in q^\*1^ requires that
+one always works with basis vectors of the q^\*1^ variety.
 
 ![Let u = \(- a0 e0, 0, 0, 0\), V = \(0, a1 e1 over 3, - a2 e2 over 3, - a3 e3
 over 3\)](../images/Math/analysis/s_gr_51.gif)
@@ -428,11 +428,10 @@ A spacelike differential element is defined by taking the ratio of a
 differential quaternion element D to its 3-vector, D - D_*._  Let the norm of
 D approach zero.  To be defined, the three vector must approach zero faster
 than its corresponding scalar.  To make the definition non-singular
-everywhere, multiply by the conjugate.  In the limit D D*/((D - D*)(D - D*))*
+everywhere, multiply by the conjugate.  In the limit D D^\*^/((D - D^\*^)(D - D^\*^))*
 approaches (1, 0), a scalar.
 
-![the norm of the partial derivative of f with respect to q =
-](../images/Math/analysis/s_gr_65.gif)
+![the norm of the partial derivative of f with respect to q =](../images/Math/analysis/s_gr_65.gif)
 
 ![= the limit as the 3-vector \(0, D\) goes to 0 of \(the limit as the
 quaternion differential element \(d, D\) goes to the 3-vector \(0, D\) of
