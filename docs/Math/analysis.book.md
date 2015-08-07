@@ -53,7 +53,7 @@ orthogonal basis for the 3-vector such that:
 ![](images/Math/analysis/s_gr_4.png)
 
 This unusual relationship between the basis vectors is consistent with
-Hamilton's choice of 1, i, j, k if e0^2 = 1.  For that case, calculate the
+Hamilton's choice of 1, i, j, k if e0^2^ = 1.  For that case, calculate the
 square of dq:
 
 ![](images/Math/analysis/s_gr_5.png)
@@ -86,9 +86,9 @@ with rotations:
 
 ![](images/Math/analysis/s_gr_9.png)
 
-The conjugate as it is usually defined (q*) flips the sign of all but the
-scalar.  The q^\*1^ flips the signs of all but the e1 term, and q^\*2^ all but the
-e2 term.  The set q, q*, q^\*1^, q^\*2^ form the basis for quaternion analysis.  The
+The conjugate as it is usually defined (q^*^) flips the sign of all but the
+scalar.  The q^*1^ flips the signs of all but the e1 term, and q^*2^ all but the
+e2 term.  The set q, q^*^, q^*1^, q^*2^ form the basis for quaternion analysis.  The
 conjugate of a conjugate should give back the original quaternion.
 
 ![](images/Math/analysis/s_gr_10.png)
@@ -126,8 +126,8 @@ H.  A future timelike derivative to be defined, the 3-vector must approach
 zero faster than the positive scalar.  If this is not the case, then this
 definition cannot be used.  Implementing these requirements involves two limit
 processes applied sequentially to a differential quaternion D.  First the
-limit of the three vector is taken as it goes to zero, (D - D^\*^)/2 -&gt; 0.
-Second, the limit of the scalar is taken, (D + D^\*^)/2 -&gt; +0 (the plus zero
+limit of the three vector is taken as it goes to zero, (D - D^*^)/2 -&gt; 0.
+Second, the limit of the scalar is taken, (D + D^*^)/2 -&gt; +0 (the plus zero
 indicates that it must be approached with a time greater than zero, in other
 words, from the future).  The net effect of these two limit processes is that
 D-&gt;0\.
@@ -196,8 +196,8 @@ with the complex case, which is:
 
 These are the same result up to two subedits.  Quaternions have three
 imaginary axes, which creates the factor of three.  The conjugate of a complex
-number is really doing the work of the first quaternion conjugate q^\*1^ (which
-equals -z^\*^), because z^\*^ flips the sign of the first 3-vector component, but no
+number is really doing the work of the first quaternion conjugate q^*1^ (which
+equals -z^*^), because z^*^ flips the sign of the first 3-vector component, but no
 others.
 
 The derivative of a quaternion applies equally well to polynomials.
@@ -271,8 +271,8 @@ There are no off diagonal terms to compare.
 
 This exercise can be repeated for the other identity functions.  One
 noticeable change is that the role that the conjugate must play.  Consider the
-identity function w = q^\*1^.  To show that this is analytic in q^\*1^ requires that
-one always works with basis vectors of the q^\*1^ variety.
+identity function w = q^*1^.  To show that this is analytic in q^*1^ requires that
+one always works with basis vectors of the q^*1^ variety.
 
 ![](images/Math/analysis/s_gr_51.png)
 
@@ -344,10 +344,10 @@ differential element not cancelling.  The way around this is to take its norm,
 which is a scalar.
 
 A spacelike differential element is defined by taking the ratio of a
-differential quaternion element D to its 3-vector, D - D_*._  Let the norm of
+differential quaternion element D to its 3-vector, D - D^*^.  Let the norm of
 D approach zero.  To be defined, the three vector must approach zero faster
 than its corresponding scalar.  To make the definition non-singular
-everywhere, multiply by the conjugate.  In the limit D D^\*^/((D - D^\*^)(D - D^\*^))*
+everywhere, multiply by the conjugate.  In the limit D D^*^/((D - D^*^)(D - D^*^))*
 approaches (1, 0), a scalar.
 
 ![](images/Math/analysis/s_gr_65.png)
