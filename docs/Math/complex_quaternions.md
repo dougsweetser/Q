@@ -3,7 +3,7 @@
 What is a quaternion? Mathematicians might claim it was the independent
 inventions of Gauss, Hamilton, and Rodrigues. Unit quaternions are useful to
 do 3D rotations and as an esteemed member of the standard model. They are also
-one of many Clifford algebras, CL(0, 2) being its formal name.
+one of many Clifford algebras, *Cl*(0, 2) being its formal name.
 
 In this essay, the physics of space-time will drive the discussion, not
 accidents of history. The words for real and imaginary numbers arose from a
@@ -39,17 +39,16 @@ artistic director about the shoot: they all thought it would be easy. The key
 grip interrupted my mumbling to myself to ask what we were going to take a
 picture of? The math consultant on the set said anything and everything can be
 considered a way to represent the trivial group. The permutation operator,
-call it p, means epe=e. The permutation operator works on any number or object
+call it *p*, means *epe=e*. The permutation operator works on any number or object
 to be found in the Universe. Making a one frame film about everything did not
 sound practical.
 
-I remembered [Peano's work](https://en.wikipedia.org/wiki/Giuseppe_Peano) where
-he built number theory up from 0 and 1.  I will focus on two operators,
-addition and multiplication, because together those are needed to make a
-mathematical field. A mathematical field in turn is the ground floor needed
-for calculus, the study of change in space-time. For addition, only the
-trivial group {0} has closure.  One plus one makes two after all. Here is a
-representation of the topology, the way things are connected for zero.
+I remembered [Peano's work](https://en.wikipedia.org/wiki/Giuseppe_Peano) where he built number theory up from 0 and 1.  
+I will focus on two operators, addition and multiplication, because together 
+those are needed to make a mathematical field. A mathematical field in turn is 
+the ground floor needed for calculus, the study of change in space-time. For 
+addition, only the trivial group {0} has closure.  One plus one makes two after 
+all. Here is a representation of the topology, the way things are connected for zero.
 
 ![zero_plus_zero.jpg](../images/Math/complex_quaternions/image16.jpg)
 
@@ -58,19 +57,19 @@ black background. This image will get more complicated as new numbers are
 examined.
 
 The multiplication operator allows us to use either of the binary buddies to
-represent the trivial group. Here are the 4 needed qualities for e=1:
+represent the trivial group. Here are the 4 needed qualities for *e*=1:
 
-1. There is closure: 1 * 1 = 1
+1. There is closure: 1 x 1 = 1
 1. There is an identity: 1
 1. There is an inverse element in the group: 1
-1. The operations are associative: (1 * 1) * 1 = 1 * (1 * 1)
+1. The operations are associative: (1 x 1) x 1 = 1 x (1 x 1)
 
-The same can be done for e=0:
+The same can be done for *e*=0:
 
-1. There is closure: 0 * 0 = 0
+1. There is closure: 0 x 0 = 0
 1. There is an identity: 0
 1. There is an inverse element in the group: 0
-1. The operations are associative: (0 * 0) * 0 = 0 * (0 * 0)
+1. The operations are associative: (0 x 0) x 0 = 0 x (0 x 0)
 
 Notice I was careful not to talk about division. The operator is
 multiplication and the set needs an inverse of multiplication. The set has one
@@ -80,9 +79,9 @@ multiplication operator.
 There is a good reason to never mention subtraction or division as operators.
 Neither of them is associative:
 
-(a - b) - c != a - (b -c)
+(*a* - *b*) - *c* != *a* - (*b* -*c*)
 
-(a / b) / c != a / (b / c)
+(*a* / *b*) / *c* != *a* / (*b* / *c*)
 
 These two operators are so ingrained in me, it is hard to part with them, but
 I will do it for the sake of associativity and group theory :-)
@@ -91,7 +90,7 @@ Below is the product table, describing all possible multiplication products:
 
 ![Z1.png](../images/Math/complex_quaternions/image22.png)
 
-Trivial again because e * e = e.  The same information can be presented with
+Trivial again because *e* x *e* = *e*.  The same information can be presented with
 graph theory, where the cubes are vertices and the edges are the multipliers:
 
 ![trivial_multiplication.jpg](../images/Math/complex_quaternions/image29.jpg)
@@ -99,14 +98,14 @@ graph theory, where the cubes are vertices and the edges are the multipliers:
 The vertex in the graph is the cube, the edge is the pipe cleaner. The rule
 for multiplication is vertex times an edge goes to a vertex. In this simple
 case, the edge makes a loop. I also included a white straw as a way to
-represent the continuous version of the e=1 trivial group.
+represent the continuous version of the *e*=1 trivial group.
 
 Recall one of the fundamental differences between zero and one under
 multiplication:
 
-n * 1 = n
+n x 1 = n
 
-n * 0 = 0
+n x 0 = 0
 
 Think of the message these two simple equations tell. In the first case any
 number gets to stay just like themselves. In the second case, the number must
@@ -115,11 +114,11 @@ trivial group with the multiplication operator.
 
 Try to make the trivial group cover more ground by using the set of positive
 real numbers that do not have zero, **R**+ \\{0}. A continuous group is formed by
-multiplying the trivial group with e=1 times every element in the infinite set
+multiplying the trivial group with *e*=1 times every element in the infinite set
 **R**+ \\{0}. Each element in this continuous group will have a multiplicative
 inverse. This part of the story is exclusively about multiplication.
 
-Repeat this process exactly as before except to use e=0 as the representative
+Repeat this process exactly as before except to use *e*=0 as the representative
 of the trivial group. Zero times the positive reals without zero always
 generates a zero. The group remains trivial, having only one member.
 
@@ -131,16 +130,16 @@ of this mystery was an appreciation of the trivial group.
 
 ## The Trivial Film
 
-Here is the one frame trivial film for e=0:
+Here is the one frame trivial film for *e*=0:
 
 ![trivial_movie.jpg](../images/Math/complex_quaternions/image02.jpg)
 
-In space-time, now (e=0) goes on and on forever. The idea that this one frame
+In space-time, now (*e*=0) goes on and on forever. The idea that this one frame
 animation would last a billion years struck me as odd initially. Yet "now" is
 something that is always in space-time without anyone's intervention. Now
 requires no energy.
 
-I don't think I can honestly make an animation of the trivial group with e=1,
+I don't think I can honestly make an animation of the trivial group with *e*=1,
 or its continuous extension **R**+ \\{0}. The problem is with start of the film.
 It necessarily is in the future. Because zero is explicitly excluded, there is
 no now to start the film to then see what the future looks like based on a
@@ -150,14 +149,14 @@ Is the trivial group a mathematical field? It is time for me to open
 "Principles of Mathematical Analysis" by Rudin and turn to page 5. One needs
 both addition and multiplication to have group properties. Check. The
 distributive law must also hold. Check. All three of these work in the case
-for e=0. There is a stipulation (M4) that the multiplicative inverse is not
+for *e*=0. There is a stipulation (M4) that the multiplicative inverse is not
 equal to the additive inverse. Therefore the trivial group is not a
 mathematical field.
 
 I will define something called the trivial mathematical field. It has every
 rule set out in Rudin without the requirement that the additive inverse be
-distinct from the multiplicative one. The trivial group with e=0 is a trivial
-mathematical field. The trivial group with e=1 is not a trivial mathematical
+distinct from the multiplicative one. The trivial group with *e*=0 is a trivial
+mathematical field. The trivial group with *e*=1 is not a trivial mathematical
 field because addition is not closed.
 
 Some might complain that the trivial mathematical field is beyond dull. I
@@ -173,24 +172,21 @@ zero/now/observer and one/signal will remain.
 
 ## The Real Numbers
 
-Start by understanding the rules for multiplication that require the abelian
-cyclic group Z~2~, also known as the sign group. [http://groupprops.subwiki.org/
-wiki/Cyclic_group:Z~2~](http://www.google.com/url?q=http%3A%2F%2Fgroupprops.subw
-iki.org%2Fwiki%2FCyclic_group%3AZ2&sa=D&sntz=1&usg=AFQjCNEy1KjyUX9WG_fdfUicCHU
-9bp5Yrw) Here is the product table:
+Start by understanding the rules for multiplication that require the [abelian
+cyclic group Z~2~](http://groupprops.subwiki.org/wiki/Cyclic_group:Z2), also known as the sign group. Here is the product table:
 
 ![Z2.png](../images/Math/complex_quaternions/image08.png)
 
 In practice, the way to use a product table is to pick one value from the
 first column then multiply it by something from the top row to get the result
-from where they meet in the table. So e*e=e which is the trivial group product
-discussed in the previous section and e*i^2^=i^2^. Because the off diagonal
+from where they meet in the table. So *e* x *e* = *e* which is the trivial group product
+discussed in the previous section and *e* x *i^2^* = *i^2^*. Because the off diagonal
 elements are symmetric, the group is abelian, meaning the order of
 multiplication does not matter.
 
-The labels one uses for the product table (the e and i^2^) don't matter unless
+The labels one uses for the product table (the *e* and *i^2^*) don't matter unless
 one wants to tell a longer, logically consistent story. Since I have to pass
-through complex numbers on the way to quaternions, the i^2^ will be helpful. The
+through complex numbers on the way to quaternions, the *i^2^* will be helpful. The
 folks at groupprops.subwiki.org use x, but -1 is common. To be honest, I use
 -1 to check I did things right.
 
@@ -199,9 +195,9 @@ Graph theory can be used to communicate the same information:
 ![real_multiplication.jpg](../images/Math/complex_quaternions/image31.jpg)
 
 The vertices are the cubes, the edges are the pipe cleaners. The trivial group
-with e=0 in black is here. The trivial group with e=1 is here too. The gray
-cube with the white loop is not the trivial group since it involves both e and
-i^2^. The four products in the product table should be easy to find in the
+with *e*=0 in black is here. The trivial group with *e*=1 is here too. The gray
+cube with the white loop is not the trivial group since it involves both *e* and
+*i^2^*. The four products in the product table should be easy to find in the
 graph.
 
 If the information is exactly the same, why present both the product table and
@@ -212,18 +208,18 @@ have a precise visual representation of these ideas.
 
 It is common practice to not include the white loops. I am consistently
 against dropping "obvious" information. Explicit trumps implicit. The gray
-pipe cleaner is undirectional because the vertex e times i^2^ gets to the i^2^
-vertex, while i^2^ times i^2^ returns to e.
+pipe cleaner is undirectional because the vertex *e* times *i^2^* gets to the *i^2^*
+vertex, while *i^2^* times *i^2^* returns to *e*.
 
 While the finite groups may help us understand multiplication, to get closure
 with addition we often need infinite sets. Start with a finite example:
 
-e + i^2^ = 0
+*e* + *i^2^* = 0
 
 The astute reader will notice how this expression needs both possible
-representations for the trivial group: e=0 and e=1, the additive and
+representations for the trivial group: *e*=0 and *e*=1, the additive and
 multiplicative identities respectively. It is the multiplicative identity that
-can be used to cover all the real numbers as before: multiply e=1 and i^2^ by
+can be used to cover all the real numbers as before: multiply *e*=1 and *i^2^* by
 the set of positive reals without zero.
 
 A way to represent the real numbers addition is with the real number line:
@@ -265,7 +261,7 @@ inverse, that means there always is a time in the past that is equally far
 from now as a time in the future is from now.
 
 I will do a finite time animation first. This short film has three times: one
-for i^2^, 0, and e. Those frames represent the past, now, and future time
+for *i^2^*, 0, and *e*. Those frames represent the past, now, and future time
 respectively. My first discrete time number film titled "100" has an event in
 the past and nothing else.
 
@@ -278,15 +274,15 @@ I have put the short film on repeat. Here is the film titled "101":
 Notice the symmetry: the past looks exactly like the future. That is the case
 for half of the eight possible discrete videos.
 
-What does zero look like? It depends on which element one uses. If it is e=0,
-the observer, then now is a blank cube. If it is e=1, the signal, then we
+What does zero look like? It depends on which element one uses. If it is *e*=0,
+the observer, then now is a blank cube. If it is *e*=1, the signal, then we
 expect a box in the now cube.
 
 ![real.zero.2.gif](../images/Math/complex_quaternions/image30.gif)
 
 I hope you find this as troubling as I did initially. The roots go back to the
 two representations of the trivial group that have quite different properties.
-If e=0, that is the blank, always blank idea of now. This one is easy to
+If *e*=0, that is the blank, always blank idea of now. This one is easy to
 accept. It is also easy to accept the signal in the past as a white cube or in
 the future as a white cube. The idea of treating time as a number is that any
 moment can be made to be now. When a future signal becomes now, it will still
@@ -314,7 +310,7 @@ four billion years when the Sun becomes a red giant and envelopes the Earth. I
 really just need to understand Lie algebras better. That will have to await
 another day. Let me just assert there should be a way to go from the finite
 cyclic group Z~2~ to a continuous but finite group and union that with the
-trivial group with e=0, in other words, have a finite section of the time
+trivial group with *e*=0, in other words, have a finite section of the time
 number line including zero. Consider this graph of points on the time number
 line:
 
@@ -344,7 +340,7 @@ there is a bigger issue: the group Z~2~ looks, well, like it should involve two
 things. The same applies to the addition rule which has two continuous sets
 that meet at zero. The two sets have different labels, but otherwise are
 precisely the same sets. Time numbers are constructed from two different
-representations of the trivial group, e=0 and e=1. How can we use both?
+representations of the trivial group, *e*=0 and *e*=1. How can we use both?
 
 With real numbers, notation is easy: numbers come in 1-tuples: (1), (-2),
 (0)... No one actually wastes the effort to write parentheses. I propose a new
@@ -356,8 +352,8 @@ The rules for doublets are simple: one or two of the numbers inside the square
 brackets must be zero. A doublet without a zero is not allowed. The first one
 is the positive number, the second one is the additive inverse.
 
-An event described by a time number can be in the future ([a, 0]), in the past
-([0, b]), or now ([0, 0]), but never in the past and future. Events work that
+An event described by *a* time number can be in the future ([*a*, 0]), in the past
+([0, *b*]), or now ([0, 0]), but never in the past and future. Events work that
 way. Real numbers have the same property: no number can be both positive and
 negative.
 
@@ -365,7 +361,7 @@ Writing out an additive inverse is simplicity itself:
 
 ![additive_inverse.30.jpeg](../images/Math/complex_quaternions/image15.jpg)
 
-All this says is adding the time a in the future plus the time a in the past
+All this says is adding the time *a* in the future plus the time *a* in the past
 brings one to now.
 
 ## Hidden But Not a Hidden Variable
@@ -374,7 +370,7 @@ For the discrete time number animations, I had titles like "000" and "010".
 They were visually distinct. Perhaps triplets should be used instead of
 doublets for time numbers. I suspect that is the wrong approach. How can we
 learn about zero using addition and multiplication? Addition would provide no
-information since 0+a=a. Multiplication is no better, leaving us where we
+information since 0+*a*=*a*. Multiplication is no better, leaving us where we
 started - at now=0 no matter what number is used.
 
 One could just wait until now was in the past. The problem with such an
@@ -389,8 +385,7 @@ mathematical logic. Now is not subject to change. Now is.
 ## Complex Numbers
 
 Start as before by understanding the rules of multiplication. Those rules are
-contained in the [abelian cyclic group
-Z~4~](http://groupprops.subwiki.org/wiki/Cyclic_group:Z4). Here is the product table:
+contained in the [abelian cyclic group Z~4~](http://groupprops.subwiki.org/wiki/Cyclic_group:Z4). Here is the product table:
 
 ![Z4.png](../images/Math/complex_quaternions/image09.png)
 
@@ -399,7 +394,7 @@ learned about the products of complex numbers. Here again my expectations were
 wrong: I expected two things but have four. Fortunately the group theory nerds
 are on my side, saying the cyclic group Z~4~ over the complex numbers except
 zero is the reason for the rules of complex number multiplication.
-The trivial group with e=1 lives in the upper left hand corner. The cyclic 
+The trivial group with *e*=1 lives in the upper left hand corner. The cyclic 
 group Z~2~ is also there as the intersection of the first and third columns.
 
 The graph of the multiplication will show the same information as the product
@@ -407,13 +402,13 @@ table to a different part of the brain.
 
 ![complex_multiplication.jpg](../images/Math/complex_quaternions/image14.jpg)
 
-The edges with e and i^2^ in white loops and the gray cross are undirectional.
-The edge in yellow with a white bead is i, but with a black bead is i^3^. These
-edges are directional. The vertex e times i gets to i, but to go back, one
-needs to multiply i by i^3^ to get to e because four i's make an e. The i's go
-clockwise while i^3^'s go counterclockwise. This provides a simple data quality
-check. The graph for time number multiplication is the diagonal going from e
-to i^2^.
+The edges with *e* and *i^2^* in white loops and the gray cross are undirectional.
+The edge in yellow with a white bead is *i*, but with a black bead is *i^3^*. These
+edges are directional. The vertex *e* times *i* gets to *i*, but to go back, one
+needs to multiply *i* by *i^3^* to get to *e* because four *i*'s make an *e*. The *i*'s go
+clockwise while *i^3^*'s go counterclockwise. This provides a simple data quality
+check. The graph for time number multiplication is the diagonal going from *e*
+to *i^2^*.
 
 To make these discrete rules for multiplication cover more ground, construct a
 continuous group by multiplying each of the four elements in Z~4~ by the
@@ -422,14 +417,14 @@ complex numbers, but is silent about addition.
 
 Addition requires the time number rule plus a new one:
 
-e + i^2^ = 0
+*e* + *i^2^* = 0
 
-i + i^3^ = 0
+*i* + *i^3^* = 0
 
 These two rules again use both ways to represent the trivial group. The key
 thing to notice is that both rules share the same additive identity. That
-requires the real number line which contains e and i^2^, must intersect the
-imaginary one, with i and i^3^ like so:
+requires the real number line which contains *e* and *i^2^*, must intersect the
+imaginary one, with *i* and *i^3^* like so:
 
 ![complex_addition.jpg](../images/Math/complex_quaternions/image20.jpg)
 
@@ -443,15 +438,15 @@ What is in a name? That which we call a complex number by any other name would
 do math as sweet. To assert a connection with events in space-time, I will
 call complex numbers distance-time numbers. The time (or real) part is a
 measure from the origin to an event either in the past or the future. The
-distance is also relative to the origin. The distance is along i or its
-additive inverse i^3^.
+distance is also relative to the origin. The distance is along *i* or its
+additive inverse *i^3^*.
 
 Start with a finite, three frame animation which has a past, now and future
-spread in space from i^3^ to the origin out to i:
+spread in space from *i^3^* to the origin out to *i*:
 
 ![complex_motion.gif](../images/Math/complex_quaternions/image12.gif)
 
-Introduce a new operator, the conjugate, that puts i values into i^3^ and the
+Introduce a new operator, the conjugate, that puts *i* values into *i^3^* and the
 reverse. Repeat the above animation, but include the conjugate values:
 
 ![complex_conjugate.101.gif](../images/Math/complex_quaternions/image06.gif)
@@ -481,23 +476,23 @@ every possibility.
 
 For the continuous movies (not shown, imagine longer animations), multiplying
 by a time of 2 makes the distance to now twice as big. The product of two
-events at time=now which both have i values becomes an event in the past. The
-product of two time=now events, one with i, the other with i^3^, will be an
+events at time=now which both have *i* values becomes an event in the past. The
+product of two time=now events, one with *i*, the other with *i^3^*, will be an
 event in the future. If you find yourself fighting such an interpretation,
 recall that all that is happening is a left-to-right line scan of the complex
 plane.
 
 ## Distance-time 2-tuples of Doublets
 
-Addition requires 4 straws, one for e, i, i^2^, and i^3^ and the cube for e=0. The
-group Z~4~ has the first four elements and Z~1~ covers e=0. Two doublets should do
+Addition requires 4 straws, one for *e*, *i*, *i^2^*, and *i^3^* and the cube for *e*=0. The
+group Z~4~ has the first four elements and Z~1~ covers *e*=0. Two doublets should do
 the work:
 
 ![complex_to_d-t_numbers.30.jpeg](../images/Math/complex_quaternions/image13.jpg)
 
 The first doublet is better known as the real numbers, the second as the
 imaginary numbers. When animated, the first doublet is for time, in this case,
-an event in the future. The second number is a distance, this one along i^3^.
+an event in the future. The second number is a distance, this one along *i^3^*.
 
 ## Quaternions
 
@@ -518,7 +513,7 @@ Notice how the highlighted rows are identical. You should also be able to spot
 three columns that have the same property. This suggests we could introduce a
 new label that was a composition of these three rows:
 
-I^2^ = (i^2^ \+ j2 \+ k2)/3
+*I^2^* = (*i^2^* \+ *j^2^* \+ *k^2^*)/3
 
 Instead of a product table with 10x10 rows, the substitution would lead to one
 that was 8x8 which looks like so:
@@ -536,8 +531,8 @@ quarter of the product table. Notice how elements in that quarter are
 symmetric over the diagonal.  This is a sign that the three groups are
 abelian, meaning the order of multiplication does not matter. The same cannot
 be said for the quaternion group Q~8~. The off diagonal elements are the same if
-one of the terms is e or I^2^. Otherwise, the off-diagonal terms are the same
-element - and i, j, or k \- but will be to the first power on one side and a
+one of the terms is *e* or *I^2^*. Otherwise, the off-diagonal terms are the same
+element - and *i*, *j*, or *k* \- but will be to the first power on one side and a
 cube on the other. If you have played Sudoku, you will notice that each of the
 eight elements appears only once per row and once per column.
 
@@ -553,13 +548,13 @@ ones. You should be able to spot several complex planes, six in all.
 Addition must be just like before, only more complicated, four lines instead
 of two:
 
-e + i^2^ = 0
+*e* + *I^2^* = 0
 
-i + i^3^ = 0
+*i* + *i^3^* = 0
 
-j + j^3^ = 0
+*j* + *j^3^* = 0
 
-k + k^3^ = 0
+*k* + *k^3^* = 0
 
 All share the same zero, the additive inverse.
 
@@ -657,7 +652,7 @@ the three straws above act as one imaginary basis, the other three as the cube
 of that basis. The gray straw is the square of this new basis.
 
 Going from the cube to the plane looks like a good math puzzle. For each
-color, one of the complex planes involves e and I^2^. This would have to be the
+color, one of the complex planes involves *e* and *i^2^*. This would have to be the
 final plane. Then one would have to come up with a few rules about how to go
 from red-green-yellow to just one color.
 
@@ -668,7 +663,7 @@ how much it is left/right and up/down.
 For the time numbers, one approach is to take the results of the distance-time
 numbers and roll up the paper, so the plane become a tube along the time
 number line. Alternatively, one could either take the square of any imaginary
-value which then tosses things onto the I^2^ line. One might prefer to work with
+value which then tosses things onto the *i^2^* line. One might prefer to work with
 the norm of imaginary numbers that puts numbers onto e. For the animation, the
 only thing that counts is if there is a signal in the cube.
 
