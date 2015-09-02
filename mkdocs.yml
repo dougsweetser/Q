@@ -23,6 +23,7 @@ pages:
 - [Math/multiplying.md, Math, Easy multiplying]
 - [Math/products.md, Math, Products]
 - [Math/scalars_vectors.md, Math, 'Scalars, vectors, tensors and all that']
+- [Math/complex_quaternions.md, Math, Complex quaternions]
 - [Math/analysis.md, Math, Analysis]
 - [Math/topology.md, Math, Topology]
 - [Math/fit.md, Math, Where quaternions fit]
