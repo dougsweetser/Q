@@ -52,7 +52,7 @@
 
                 <div class="navbar-toggle">
                 
-                    <a rel="next" href="../scalars_vectors/">
+                    <a rel="next" href="../complex_quaternions/">
                         <i class="fa fa-arrow-left"></i> 
                     </a> Prev, Next
                 
@@ -107,6 +107,10 @@
                     
                         <li >
                             <a href="../scalars_vectors/">Scalars, vectors, tensors and all that</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../complex_quaternions/">Complex quaternions</a>
                         </li>
                     
                         <li class="active">
@@ -350,7 +354,7 @@
             <ul class="nav navbar-nav navbar-right">
                 
                 <li >
-                    <a rel="next" href="../scalars_vectors/">
+                    <a rel="next" href="../complex_quaternions/">
                         <i class="fa fa-arrow-left"></i> 
                     </a>
                 </li>
@@ -408,7 +412,7 @@ be defined:</p>
 <p>Imagine we want to do a simple binary operation such as subtraction, without
 having to specify the coordinate system chosen.  Subtraction will only work if
 the coordinate systems are the same, whether it is Cartesian, spherical or
-otherwise.  Let e0, e1, e2, and e3 be the shared, but unspecified, basis.  Now
+otherwise.  Let e<sub>0</sub>, e<sub>1</sub>, e<sub>2</sub>, and e<sub>3</sub> be the shared, but unspecified, basis.  Now
 we can define the difference between two quaternion q and q' that is
 independent of the coordinate system used for the measurement.</p>
 <p><img alt="dq = q prime  - q = ((a0 prime  - a0) e0, (a1 prime  - a1) e1/3, (a2
@@ -427,20 +431,20 @@ over 3, 2 da0 da2 e0 e2 over 3, 2 da0 da3 e0 e3 over 3)" src="../../images/Math/
 amount of intrinsic curvature should be equal, so that a transformation
 between two basis 3-vectors does not contain a hidden bump.  Should time be
 treated exactly like space?  The Schwarzschild metric of general relativity
-suggests otherwise.  Let e1, e2, and e3 form an independent, dimensionless,
+suggests otherwise.  Let e<sub>1</sub>, e<sub>2</sub>, and e<sub>3</sub> form an independent, dimensionless,
 orthogonal basis for the 3-vector such that:</p>
 <p><img alt="- 1 over e1 squared = - 1 over e2 squared = - 1 over e3 squared = e0
 squared" src="../../images/Math/analysis/s_gr_4.gif" /></p>
 <p>This unusual relationship between the basis vectors is consistent with
-Hamilton's choice of 1, i, j, k if e0^2 = 1.  For that case, calculate the
+Hamilton's choice of 1, i, j, k if e<sub>0</sub><sup>2</sup> = 1.  For that case, calculate the
 square of dq:</p>
 <p><img alt="dq squared = (da0 squared e0 squared - da1 squared over 9 e0 squared - da2
 squared over 9 e0 squared - da3 squared over 9 e0 squared, 2 da0 da1 over 3, 2
 da0 da2 over 3, 2 da0 da3 over 3) " src="../../images/Math/analysis/s_gr_5.gif" /></p>
 <p>The scalar part is known in physics as the Minkowski interval between two
-events in flat spacetime.  If e0<sup>2</sup> does not equal one, then the metric would
+events in flat spacetime.  If e<sub>0</sub><sup>2</sup> does not equal one, then the metric would
 apply to a non-flat spacetime.  A metric that has been measured experimentally
-is the Schwarzchild metric of general relativity.  Set e0<sup>2</sup> = (1 - 2 GM/c<sup>2</sup>
+is the Schwarzchild metric of general relativity.  Set e<sub>0</sub><sup>2</sup> = (1 - 2 GM/c<sup>2</sup>
 R), and calculate the square of dq:</p>
 <p><img alt="dq squared = (da0 squared (1 - 2 G M over c squared r) - dA dot dA over 9
 (1 - 2 G M over c squared r) , 2 da0 da1 over 3, 2 da0 da2 over 3, 2 da0 da3
@@ -463,8 +467,8 @@ with rotations:</p>
 <p><img alt="q conjugated second is defined to be (- a0 e0, - a1 e1 over 3,  a2 e2 over
 3, - a3 e3 over 3) = (e2 q e2) conjugated" src="../../images/Math/analysis/s_gr_9.gif" /></p>
 <p>The conjugate as it is usually defined (q<sup>*</sup>) flips the sign of all but the
-scalar.  The q<sup>*1</sup> flips the signs of all but the e1 term, and q<sup>*2</sup> all but the
-e2 term.  The set q, q*, q<sup>*1</sup>, q<sup>*2</sup> form the basis for quaternion analysis.  The
+scalar.  The q<sup>*1</sup> flips the signs of all but the e<sub>1</sub> term, and q<sup>*2</sup> all but the
+e<sub>2</sub> term.  The set q, q<sup>*</sup>, q<sup>*1</sup>, q<sup>*2</sup> form the basis for quaternion analysis.  The
 conjugate of a conjugate should give back the original quaternion.</p>
 <p><img alt="(q conj) conj = q, (q conjugated first) conjugated first = q, (q
 conjugated second) conjugated second = q" src="../../images/Math/analysis/s_gr_10.gif" /></p>
@@ -552,7 +556,7 @@ inverted)) =" src="../../images/Math/analysis/s_gr_29.gif" /></p>
 <p>Because the 3-vector goes to zero faster than the scalar for the differential
 element, after the first limit process, the remaining differential is a scalar
 so it commutes with any quaternion.  This is what is required to dance around
-the e1 and lead to the cancellation.</p>
+the e<sub>1</sub> and lead to the cancellation.</p>
 <p>The initial hypothesis was that complex analysis should be a self-evident
 subset of quaternion analysis.  So this quaternion derivative should match up
 with the complex case, which is:</p>
@@ -585,13 +589,13 @@ timelike derivative should not depend on the direction of the 3-vector.</p>
 <p>There are 4 types of quaternion derivatives and 4 component functions.  The
 following table describes the 16 derivatives for this set</p>
 <p><img alt="Reading each derivative for the 4 components a0, a1, a2, a3 in a row, the
-derivatives with respect to q are e0/2, - 3 e1/2, - 3 e2/3, 3 e3/3; the
-derivatives with respect to q conj are e0/2, 0, 0, 3 e3/3;the derivatives with
-respect to q conj1 are 0, - 3 e1/2, 0, 3 e3/3;the derivatives with respect to
-q conj2 are 0, 0, - 3 e2/2, 3 e3/3;" src="../../images/Math/analysis/s_gr_38.gif" /></p>
+derivatives with respect to q are e~0~/2, - 3 e~1~/2, - 3 e~2~/3, 3 e~3~/3; the
+derivatives with respect to q conj are e~0~/2, 0, 0, 3 e~3~/3;the derivatives with
+respect to q conj1 are 0, - 3 e~1~/2, 0, 3 e~3~/3;the derivatives with respect to
+q conj2 are 0, 0, - 3 e~2~/2, 3 e~3~/3;" src="../../images/Math/analysis/s_gr_38.gif" /></p>
 <p>This table will be used extensively to evaluate if a function is analytic
 using the chain rule.  Let's see if the identity function w = q is analytic.</p>
-<p><img alt="Let w = q = (a0 e0,  a1 e1 over 3, a2 e2 over 3, a3 e3 over
+<p><img alt="Let w = q = (a0 e0,  a1 e~1~ over 3, a2 e2 over 3, a3 e3 over
 3)" src="../../images/Math/analysis/s_gr_39.gif" /></p>
 <p>Use the chain rule to calculate the derivative will respect to each term:</p>
 <p><img alt="d w by d a0 times d a0 by d q = e0 e0 over 2 = 1
@@ -666,7 +670,7 @@ over 3" src="../../images/Math/analysis/s_gr_60.gif" /></p>
 <p>At first glance, one might think these are incorrect, since the signs of the
 derivatives are suppose to be opposite.  Actually they are, but it is hidden
 in an accounting trick :-)  For example, the derivative of u with respect to
-a1 has a factor of e1^2, which makes it negative.  The derivative of the first
+a1 has a factor of e<sub>1</sub><sup>2</sup>, which makes it negative.  The derivative of the first
 component of V with respect to a0 is positive.  Keeping all the information
 about signs in the e's makes things look non-standard, but they are not.  </p>
 <p>Note that these are three scalar equalities.  The other Cauchy-Riemann
@@ -696,10 +700,10 @@ which will not commute with most quaternions.  That will lead to the
 differential element not cancelling.  The way around this is to take its norm,
 which is a scalar.</p>
 <p>A spacelike differential element is defined by taking the ratio of a
-differential quaternion element D to its 3-vector, D - D_<em>._  Let the norm of
+differential quaternion element D to its 3-vector, D - D<sup>*</sup>.  Let the norm of
 D approach zero.  To be defined, the three vector must approach zero faster
 than its corresponding scalar.  To make the definition non-singular
-everywhere, multiply by the conjugate.  In the limit D D<sup>*</sup>/((D - D<sup>*</sup>)(D - D<sup>*</sup>))</em>
+everywhere, multiply by the conjugate.  In the limit D D<sup>*</sup>/((D - D<sup>*</sup>)(D - D<sup>*</sup>))*
 approaches (1, 0), a scalar.</p>
 <p><img alt="the norm of the partial derivative of f with respect to q =" src="../../images/Math/analysis/s_gr_65.gif" /></p>
 <p><img alt="= the limit as the 3-vector (0, D) goes to 0 of (the limit as the
