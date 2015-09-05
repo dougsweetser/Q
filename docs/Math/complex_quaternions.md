@@ -12,7 +12,7 @@ always have to be tied to space-time. Please consider this odd constraint a
 playful way to think differently about numbers for physics
 
 The method for constructing quaternions with the roots in space-time will
-start with finite groups. A discrete group can be made continuous. The theory
+start with discrete groups. A discrete group can be made continuous. The theory
 of Lie groups provides the background for such a process. Physics is about
 stuff in motion. With both "stuff" and "motion" broadly defined, animations
 will be provided.
@@ -33,7 +33,7 @@ Start with the trivial group. It has one member, call it the identity element
 e, so the entire set is {e}. Mathematicians have provided a horrible label for
 this group since it sounds unworthy of careful consideration. I was going to
 do the same until I thought about how I was going to make a short film of this
-finite group. It is the shortest of all possible films, lasting exactly one
+discrete group. It is the shortest of all possible films, lasting exactly one
 frame. I talked with the cinematographer, the lighting director, and the
 artistic director about the shoot: they all thought it would be easy. The key
 grip interrupted my mumbling to myself to ask what we were going to take a
@@ -211,8 +211,8 @@ against dropping "obvious" information. Explicit trumps implicit. The gray
 pipe cleaner is bi-directional because the vertex *e* times *i^2^* gets to the *i^2^*
 vertex, while *i^2^* times *i^2^* returns to *e*.
 
-While the finite groups may help us understand multiplication, to get closure
-with addition we often need infinite sets. Start with a finite example:
+While the discrete groups may help us understand multiplication, to get closure
+with addition we often need infinite sets. Start with a discrete example:
 
 *e* + *i^2^* = 0
 
@@ -260,7 +260,7 @@ from now to a future event. When one says that there is always an additive
 inverse, that means there always is a time in the past that is equally far
 from now as a time in the future is from now.
 
-I will do a finite time animation first. This short film has three times: one
+I will do a discrete time animation first. This short film has three times: one
 for *i^2^*, 0, and *e*. Those frames represent the past, now, and future time
 respectively. My first discrete time number film titled "100" has an event in
 the past and nothing else.
@@ -308,9 +308,9 @@ infinity. No critical reader will believe an animation started infinitely long
 ago in the past, not that I have the resources to keep a film going beyond
 four billion years when the Sun becomes a red giant and envelopes the Earth. I
 really just need to understand Lie algebras better. That will have to await
-another day. Let me just assert there should be a way to go from the finite
-cyclic group Z~2~ to a continuous but finite group and union that with the
-trivial group with *e*=0, in other words, have a finite section of the time
+another day. Let me just assert there should be a way to go from the discrete
+cyclic group Z~2~ to a continuous, smooth group and union that with the
+trivial group with *e*=0. In other words, have a limited section of the time
 number line including zero. Consider this graph of points on the time number
 line:
 
@@ -441,7 +441,7 @@ measure from the origin to an event either in the past or the future. The
 distance is also relative to the origin. The distance is along *i* or its
 additive inverse *i^3^*.
 
-Start with a finite, three frame animation which has a past, now and future
+Start with a discrete, three frame animation which has a past, now and future
 spread in space from *i^3^* to the origin out to *i*:
 
 ![complex_motion.gif](../images/Math/complex_quaternions/image12.gif)
@@ -456,7 +456,7 @@ opposite sides of the origin. This animation also happens to be symmetric in
 time - the past looks like the future. Together, these two symmetries are used
 in the continuous U(1) gauge symmetry of electromagnetism.
 
-There are a total of 2^3*3^=512 different animations in this finite universe
+There are a total of 2^3*3^=512 different animations in this discrete universe
 with three slots for time and three for space. One important upgrade from time
 to distance-time animations is now one can animate strings. In the time number
 animations, all we saw was blinking. With distance-time animations, there can
@@ -468,7 +468,7 @@ Where there is a string, one can start to make loops like so:
 
 ![loop.000.gif](../images/Math/complex_quaternions/image00.gif)
 
-One thing I ponder is whether the 512 different finite animations constitute a
+One thing I ponder is whether the 512 different discrete animations constitute a
 complete "alphabet" for the continuous complex plane. In other words, any and
 every pattern in a complex plane could be represented using a combination of
 the 512 discrete cases. Probably not, but they might be able to approximate
@@ -497,7 +497,7 @@ an event in the future. The second number is a distance, this one along *i^3^*.
 ## Quaternions
 
 The pattern used in this essay should be established. Start by explaining the
-multiplication rule using a finite group. Show the graph for that group. Write
+multiplication rule using a discrete group. Show the graph for that group. Write
 out the rules for addition and its topology. Show an animated version of the
 number. The only thing that changes is that the story gets more complicated.
 The logical consistency can be checked at any time by looking for the trivial
@@ -627,7 +627,7 @@ Here are the loops:
 ![loop.Q.gif](../images/Math/complex_quaternions/image34.gif)
 
 I did make a lot of arbitrary choices in the final panel. That is what having
-a finite space of 2.4x10^24^ possibilities is like.
+a discrete space of 2.4x10^24^ possibilities is like.
 
 There are also new things that can happen. For example, consider a dynamic
 membrane, an area that moves:
