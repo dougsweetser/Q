@@ -208,7 +208,7 @@ have a precise visual representation of these ideas.
 
 It is common practice to not include the white loops. I am consistently
 against dropping "obvious" information. Explicit trumps implicit. The gray
-pipe cleaner is undirectional because the vertex *e* times *i^2^* gets to the *i^2^*
+pipe cleaner is bi-directional because the vertex *e* times *i^2^* gets to the *i^2^*
 vertex, while *i^2^* times *i^2^* returns to *e*.
 
 While the finite groups may help us understand multiplication, to get closure
@@ -402,7 +402,7 @@ table to a different part of the brain.
 
 ![complex_multiplication.jpg](../images/Math/complex_quaternions/image14.jpg)
 
-The edges with *e* and *i^2^* in white loops and the gray cross are undirectional.
+The edges with *e* and *i^2^* in white loops and the gray cross are bi-directional.
 The edge in yellow with a white bead is *i*, but with a black bead is *i^3^*. These
 edges are directional. The vertex *e* times *i* gets to *i*, but to go back, one
 needs to multiply *i* by *i^3^* to get to *e* because four *i*'s make an *e*. The *i*'s go
