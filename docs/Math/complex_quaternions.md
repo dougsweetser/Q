@@ -48,7 +48,8 @@ I will focus on two operators, addition and multiplication, because together
 those are needed to make a mathematical field. A mathematical field in turn is 
 the ground floor needed for calculus, the study of change in space-time. For 
 addition, only the trivial group {0} has closure.  One plus one makes two after 
-all. Here is a representation of the topology, the way things are connected for zero.
+all.[^1] Here is a representation of the topology, the way things are connected 
+for zero.
 
 ![zero_plus_zero.jpg](../images/Math/complex_quaternions/image16.jpg)
 
@@ -688,3 +689,5 @@ precise about what I think a space-time numbers is, a really complex
 quaternion that may have untapped power to explain patterns of events in
 space-time.
 
+[^1]: All I mean to say is ({0}, +), ({0}, x), and ({1}, x) are 
+three ways to represent the trivial group, but ({1}, x) is not.
