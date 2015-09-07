@@ -43,13 +43,14 @@ call it *p*, means *epe=e*. The permutation operator works on any number or obje
 to be found in the Universe. Making a one frame film about everything did not
 sound practical.
 
-I remembered [Peano's work](https://en.wikipedia.org/wiki/Giuseppe_Peano) where he built number theory up from 0 and 1.  
+I remembered [Peano's work](https://en.wikipedia.org/wiki/Giuseppe_Peano) where  he built number theory up from 0 and 1.  
 I will focus on two operators, addition and multiplication, because together 
 those are needed to make a mathematical field. A mathematical field in turn is 
-the ground floor needed for calculus, the study of change in space-time. For 
-addition, only the trivial group {0} has closure.  One plus one makes two after 
-all.[^1] Here is a representation of the topology, the way things are connected 
-for zero.
+the ground floor needed for calculus, the study of change in space-time.  With 
+representation theory, one makes an abstract group concrete. For the two sets 
+of number {0} and {1} and the two operators addition and multiplication, one 
+can represent the trivial group with ({0}, +), ({0}, x), and ({1}, x) but not 
+({1}, +). Here is a way to view the topology, how numbers are connected.
 
 ![zero_plus_zero.jpg](../images/Math/complex_quaternions/image16.jpg)
 
@@ -156,9 +157,10 @@ mathematical field.
 
 I will define something called the trivial mathematical field. It has every
 rule set out in Rudin without the requirement that the additive inverse be
-distinct from the multiplicative one. The trivial group with *e*=0 is a trivial
-mathematical field. The trivial group with *e*=1 is not a trivial mathematical
-field because addition is not closed.
+distinct from the multiplicative one. The trivial group represented by the set 
+{0} and the addition and multiplication operators forms a trivial mathematical
+field. The trivial group represented by the set {1} and multiplication is not
+a trivial mathematical field.
 
 Some might complain that the trivial mathematical field is beyond dull. I
 argue that change can only be understood against a backdrop that has no
@@ -310,10 +312,10 @@ ago in the past, not that I have the resources to keep a film going beyond
 four billion years when the Sun becomes a red giant and envelopes the Earth. I
 really just need to understand Lie algebras better. That will have to await
 another day. Let me just assert there should be a way to go from the discrete
-cyclic group Z~2~ to a continuous, smooth group and union that with the
-trivial group with *e*=0. In other words, have a limited section of the time
-number line including zero. Consider this graph of points on the time number
-line:
+cyclic group Z~2~ to a continuous, smooth group of numbers that are all greater
+than a negative number *a* and less than a positive number *b*. In other words, 
+have a limited section of the time number line including zero. Consider this 
+graph of points on the time number line:
 
 ![line_w_3_dots.png](../images/Math/complex_quaternions/image17.png)
 
