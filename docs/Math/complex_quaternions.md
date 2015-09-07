@@ -116,7 +116,7 @@ trivial group with the multiplication operator.
 
 Try to make the trivial group cover more ground by using the set of positive
 real numbers that do not have zero, **R**+ \\{0}. A continuous group is formed by
-multiplying the trivial group with *e*=1 times every element in the infinite set
+multiplying the trivial group represented by *e*=1 times every element in the infinite set
 **R**+ \\{0}. Each element in this continuous group will have a multiplicative
 inverse. This part of the story is exclusively about multiplication.
 
@@ -132,7 +132,7 @@ of this mystery was an appreciation of the trivial group.
 
 ## The Trivial Film
 
-Here is the one frame trivial film for *e*=0:
+Here is the one frame trivial film represented by *e*=0:
 
 ![trivial_movie.jpg](../images/Math/complex_quaternions/image02.jpg)
 
@@ -141,11 +141,11 @@ animation would last a billion years struck me as odd initially. Yet "now" is
 something that is always in space-time without anyone's intervention. Now
 requires no energy.
 
-I don't think I can honestly make an animation of the trivial group with *e*=1,
-or its continuous extension **R**+ \\{0}. The problem is with start of the film.
-It necessarily is in the future. Because zero is explicitly excluded, there is
-no now to start the film to then see what the future looks like based on a
-math model.
+I don't think I can honestly make an animation of the trivial group represented 
+by *e*=1, or its continuous extension **R**+ \\{0}. The problem is with start of 
+the film. It necessarily is in the future. Because zero is explicitly excluded, 
+there is no now to start the film to then see what the future looks like based 
+on a math model.
 
 Is the trivial group a mathematical field? It is time for me to open
 "Principles of Mathematical Analysis" by Rudin and turn to page 5. One needs
@@ -198,10 +198,10 @@ Graph theory can be used to communicate the same information:
 ![real_multiplication.jpg](../images/Math/complex_quaternions/image31.jpg)
 
 The vertices are the cubes, the edges are the pipe cleaners. The trivial group
-with *e*=0 in black is here. The trivial group with *e*=1 is here too. The gray
-cube with the white loop is not the trivial group since it involves both *e* and
-*i^2^*. The four products in the product table should be easy to find in the
-graph.
+represented by *e*=0 in black is here. The trivial group represented by *e*=1 
+is here too. The gray cube with the white loop is not the trivial group since 
+it involves both *e* and *i^2^*. The four products in the product table should 
+be easy to find in the graph.
 
 If the information is exactly the same, why present both the product table and
 graph? The reason is biological: language is processed in a different part of
@@ -397,8 +397,9 @@ learned about the products of complex numbers. Here again my expectations were
 wrong: I expected two things but have four. Fortunately the group theory nerds
 are on my side, saying the cyclic group Z~4~ over the complex numbers except
 zero is the reason for the rules of complex number multiplication.
-The trivial group with *e*=1 lives in the upper left hand corner. The cyclic 
-group Z~2~ is also there as the intersection of the first and third columns.
+The trivial group represented by *e*=1 lives in the upper left hand corner. 
+The cyclic group Z~2~ is also there as the intersection of the first and third 
+columns.
 
 The graph of the multiplication will show the same information as the product
 table to a different part of the brain.
@@ -459,7 +460,7 @@ opposite sides of the origin. This animation also happens to be symmetric in
 time - the past looks like the future. Together, these two symmetries are used
 in the continuous U(1) gauge symmetry of electromagnetism.
 
-There are a total of 2^3*3^=512 different animations in this discrete universe
+There are a total of 2^3x3^=512 different animations in this discrete universe
 with three slots for time and three for space. One important upgrade from time
 to distance-time animations is now one can animate strings. In the time number
 animations, all we saw was blinking. With distance-time animations, there can
@@ -601,7 +602,7 @@ back, because there is both an additive and multiplicative inverse.
 The largest surprise was the size of the discrete possible animations. A cell
 could be filled in or blank. There is the past, now, and future. Space has
 3^3^=27 possibilities. The number of discrete films one could make with this
-limited palette is 2^3*27^=2^81^=\~2.4x10^24^. This so swamps the 512 possible
+limited palette is 2^3x27^=2^81^=\~2.4x10^24^. This so swamps the 512 possible
 discrete distance-time number of animations. Nature has impressive diversity.
 Space-time numbers - even the discrete collection - looks like it is large
 enough to encompass Nature's diversity.
@@ -690,6 +691,3 @@ For anyone who has made it to the end, thanks for reading. I hope I was
 precise about what I think a space-time numbers is, a really complex
 quaternion that may have untapped power to explain patterns of events in
 space-time.
-
-[^1]: All I mean to say is ({0}, +), ({0}, x), and ({1}, x) are 
-three ways to represent the trivial group, but ({1}, x) is not.
