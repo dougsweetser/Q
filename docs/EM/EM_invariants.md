@@ -45,14 +45,22 @@ phi plus the cross product of J and A](../images/EM/EM_invariants/current_coupli
 The electric and magentic fields can be written in terms of differential
 operators acting on a potential. Form the product:
 
-![The differential times the potential A equals the time
-derivative, Del times phi A equals the time derivative of phi minus the
-divergence of A, the time derivative of A plus the gradient of phi plus the
+![The conjugate of the differential times the potential A equals the time
+derivative, minus Del times phi A equals the time derivative of phi plus the
+divergence of A, the time derivative of A minus the gradient of phi minus the
 curl of A](../images/EM/EM_invariants/DA.png)
 
-The first term is a gauge term.  EM has gauge symmetry.  Set this to zero in a
-way that assures that no matter what gauge we pick - terms involving the time
-derivative of phi or divergence of A - the other terms are unchanged.
+The first term is a gauge term.  EM has gauge symmetry. If this particular
+gauge is set to zero, it is called the Lorenz gauge.
+
+Why was the conjugate taken of the differential operator? A differential
+element is like multiply by the inverse of really small numbers. Getting an
+inverse with quaternions uses the conjugate operator.
+
+With quaternions, it is simple to assure any gauge choice works. Set the first
+term equal to zero in a way that assures that no matter what gauge we pick - 
+terms involving the time derivative of phi or divergence of A - the other terms 
+are unchanged.
 
 ![One half Del times A minus the conjugate of Del times A equals zero the time
 derivative of A plus the gradient of phi plus the curl of
