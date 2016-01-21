@@ -41,7 +41,7 @@ quaternion potential has a scalar potential and three others for space no
 matter what one's choice of coordinate systems.  Construct the complete set of
 first order changes of a potential by taking the product.
 
-![](images/EM/derive_Maxwell_homogeneous_equations/DelA_eq_gauge_-E+B.png)
+![](images/EM/derive_Maxwell_homogeneous_equations/DelA_eq_gauge_E+B.png)
 
 Simple enough.
 
@@ -49,7 +49,7 @@ No, stop.  This is amazing enough to repeat.
 
 **The most basic complete quaternion derivative of a potential is EM**
 
-![](images/EM/derive_Maxwell_homogeneous_equations/DelA_eq_gauge_-E+B.png)
+![](images/EM/derive_Maxwell_homogeneous_equations/DelA_eq_gauge_E+B.png)
 
 But what about that first term?  One of the defining characteristic of light is
 how its interval is zero.  A photon cannot wear a watch.  Photons are timeless.

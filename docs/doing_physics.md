@@ -2209,9 +2209,17 @@ operators acting on a potential. Form the product:
 
 ![](images/EM/EM_invariants/DA.png)
 
-The first term is a gauge term.  EM has gauge symmetry.  Set this to zero in a
-way that assures that no matter what gauge we pick - terms involving the time
-derivative of phi or divergence of A - the other terms are unchanged.
+The first term is a gauge term.  EM has gauge symmetry. If this particular
+gauge is set to zero, it is called the Lorenz gauge.
+
+Why was the conjugate taken of the differential operator? A differential
+element is like multiply by the inverse of really small numbers. Getting an
+inverse with quaternions uses the conjugate operator.
+
+With quaternions, it is simple to assure any gauge choice works. Set the first
+term equal to zero in a way that assures that no matter what gauge we pick - 
+terms involving the time derivative of phi or divergence of A - the other terms 
+are unchanged.
 
 ![](images/EM/EM_invariants/DA_no_scalar.png)
 

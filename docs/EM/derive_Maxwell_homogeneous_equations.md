@@ -43,7 +43,7 @@ first order changes of a potential by taking the product.
 
 ![The differential times the potential A equals the time derivative, Del times phi A; which equals the time derivative of phi minus the
 divergence of A, the time derivative of A plus the gradient of phi plus the curl of A; which equals a gauge term, minus the electric field E plus the magnetic field
-B](../images/EM/derive_Maxwell_homogeneous_equations/DelA_eq_gauge_-E+B.png)
+B](../images/EM/derive_Maxwell_homogeneous_equations/DelA_eq_gauge_E+B.png)
 
 Simple enough.
 
@@ -53,7 +53,7 @@ No, stop.  This is amazing enough to repeat.
 
 ![The differential times the potential A equals the time derivative, Del times phi A; which equals the time derivative of phi minus the
 divergence of A, the time derivative of A plus the gradient of phi plus the curl of A; which equals a gauge term, minus the electric field E plus the magnetic field
-B](../images/EM/derive_Maxwell_homogeneous_equations/DelA_eq_gauge_-E+B.png)
+B](../images/EM/derive_Maxwell_homogeneous_equations/DelA_eq_gauge_E+B.png)
 
 But what about that first term?  One of the defining characteristic of light is
 how its interval is zero.  A photon cannot wear a watch.  Photons are timeless.
