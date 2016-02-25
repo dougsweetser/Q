@@ -48,7 +48,7 @@ operators acting on a potential. Form the product:
 ![The conjugate of the differential times the potential A equals the time
 derivative, minus Del times phi A equals the time derivative of phi plus the
 divergence of A, the time derivative of A minus the gradient of phi minus the
-curl of A](../images/EM/EM_invariants/DA.png)
+curl of A](../images/EM/EM_invariants/DA_star.png)
 
 The first term is a gauge term.  EM has gauge symmetry. If this particular
 gauge is set to zero, it is called the Lorenz gauge.
@@ -64,7 +64,7 @@ are unchanged.
 
 ![One half Del times A minus the conjugate of Del times A equals zero the time
 derivative of A plus the gradient of phi plus the curl of
-A](../images/EM/EM_invariants/DA_no_scalar.png)
+A](../images/EM/EM_invariants/DA_star-DA_star_star.png)
 
 There are two times of 3-vectors.  An axial vector will not change if the the
 order of the product is reverse.  A polar vector will flip signs by changing
@@ -73,11 +73,7 @@ possibilities:
 
 ![One half Del times A minus the conjugate of Del times A equals zero the time
 derivative of A plus the gradient of phi plus the curl of
-A](../images/EM/EM_invariants/DA_no_scalar.png)
-
-![One half A times Del minus the conjugate of A times Del equals zero the time
-derivative of A plus the gradient of phi minus the curl of
-A](../images/EM/EM_invariants/AD_no_scalar.png)
+A](../images/EM/EM_invariants/DA_and_AD.png)
 
 These should both be as "long" as each other, but will point in a different
 direction so long as the magnetic field B is not zero.  Zero is an invariant,
