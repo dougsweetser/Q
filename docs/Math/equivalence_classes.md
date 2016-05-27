@@ -85,6 +85,12 @@ in the future while the lower is in the past. A hyperbola travels between the
 two. Therefore one cannot say if a space-like event is in the past or the
 future. 
 
+The equivalence relation combines the one for time and causality:
+
+![](../images/Math/equivalence_classes/equivalence_future_time-like.png)
+
+This has equivalence relations in linear and quadratic function of quaternions.
+
 Combine the space and causality equivalence classes:
 
 ![](../images/Math/equivalence_classes/Two-tone_Time-like.png)
@@ -92,6 +98,14 @@ Combine the space and causality equivalence classes:
 Space is a solid color which makes total since one used the space equivalence
 class. It is time that is two tone, so left and right, up and down, and near
 and far depend on the motion of an observer.
+
+The equivalence relations would be the same as the previous four cases except
+that one would work with linear imaginary values.
+
+![](../images/Math/equivalence_classes/equivalence_future_time-like_right.png)
+
+The ability to combine equivalence classes suggest considerable power in this 
+purely geometric approach.
 
 ## Space + Time relativisticly may be gravity
 
@@ -106,7 +120,7 @@ zero when dt is zero and dR is zero. Thus, the curves must be dtdR. I call these
 space-times-time, an imaginary quantity. The equivalence relation is the
 imaginary twin of the one for special relativity:
 
-![](../images/Math/equivalence_classes/equivalence_space-times-time.png)
+![](../images/Math/equivalence_classes/equivalence_gravity.png)
 
 This equivalence could be divided further into each of the four quadrants, but
 that would be of questionable value. One of the more remarkable features of

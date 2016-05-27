@@ -12,6 +12,7 @@
 the trivial group and builds out to numbers appropriate for space-time events,
 including a small variation on quaternions.
 1. [Quaternion analysis](analysis.md)
+1. [Equivalence classes in space-time](equivalence_classes.md)
 1. [Topology](topology.md)
 1. [Where quaternions fit in math](fit.md)
 1. [Tools](tools.md)
