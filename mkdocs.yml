@@ -6,7 +6,7 @@ theme_dir: spacelab-mod
 
 dev_addr: 127.0.0.1:8004
 
-google_analytics: ['UA-9710248-1', 'quaternions.com']
+google_analytics: ['UA-9710248-1', 'dougsweetser.github.io/Q']
 
 markdown_extensions: 
     include:
