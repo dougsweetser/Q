@@ -3879,6 +3879,7 @@ git clone https://github.com/dougsweetser/Q.git
 
 1. [Where quaternions fit](math_structure.pdf) - 1 page
 1. [Space-time equivalence classes](EQ_classes_all_pages.pdf) - 7 pages
+1. [Space-time Geometries](Space-time_geometries.pdf) - 1 page
 1. [Quaternion space-times-time invariance as gravity](space-times-time_invariance.pdf) - 7 pages
 1. [Deriving the Maxwell source equations by hand](Maxwell_by_hand.pdf) - 1 page
 
