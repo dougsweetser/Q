@@ -141,6 +141,10 @@ inverse is one.
 
 ## SU(2) as the imaginary extension of U(1)
 
+The weak force as SU(2) as its gauge symmetry group. The group SU(2) is also
+known as the unit quaternions. Because it has three elements in its Lie algebra
+su(2), this requires think about representing space using three numbers.
+
 ![](../images/Math/equivalence_classes/SU2.png)
 
 
