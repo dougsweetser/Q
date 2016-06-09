@@ -37,7 +37,8 @@ a spatial difference of zero from the reference observer.
 ## Where is plus and minus one?
 
 Quaternions can be viewed as three complex numbers that share the same real
-value. The multiplication rule for complex numbers is the cyclic group Z~2~. 
+value, the three pairs being (t, x), (t, y) and (t, z) with t being the 
+shared real value. The multiplication rule for complex numbers is the cyclic group Z~2~. 
 This means that I^0^ or I^4^ are the same as +1, and I^2^ is the same as -1.
 Why bother? It helps make clear that the reals can mingle with the imaginary.
 The real and imaginary numbers are cut from the same cloth. It is allowed to
