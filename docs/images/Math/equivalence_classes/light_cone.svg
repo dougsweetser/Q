@@ -17,7 +17,7 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="light_cone.svg"
-   inkscape:export-filename="/Users/doug/Google Drive/Talks/Just_funny/Time.png"
+   inkscape:export-filename="/Users/doug/Google Drive/Talks/Just_funny/Time.no_label.png"
    inkscape:export-xdpi="199.97878"
    inkscape:export-ydpi="199.97878">
   <defs
@@ -726,7 +726,7 @@
      inkscape:label="label: time"
      id="g5223"
      inkscape:groupmode="layer"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <text
        xml:space="preserve"
@@ -817,7 +817,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Time past/future area"
-     style="display:none;opacity:1"
+     style="display:inline;opacity:1"
      sodipodi:insensitive="true">
     <rect
        style="opacity:0.3;fill:#000000;fill-opacity:0.99376945;stroke:none;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:3.9000001;stroke-opacity:1"
@@ -849,7 +849,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Space right/left area"
-     style="display:inline;opacity:1"
+     style="display:none;opacity:1"
      sodipodi:insensitive="true">
     <rect
        style="opacity:0.3;fill:#000000;fill-opacity:1;stroke:none;stroke-width:63.2641716;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:3.9000001;stroke-opacity:1"
