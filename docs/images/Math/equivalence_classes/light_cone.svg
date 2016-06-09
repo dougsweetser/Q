@@ -17,7 +17,7 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="light_cone.svg"
-   inkscape:export-filename="/Users/doug/Google Drive/Talks/Just_funny/Time.no_label.png"
+   inkscape:export-filename="/Users/doug/Google Drive/Talks/Just_funny/Time.png"
    inkscape:export-xdpi="199.97878"
    inkscape:export-ydpi="199.97878">
   <defs
@@ -375,15 +375,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.217768"
-     inkscape:cx="191.16387"
+     inkscape:cx="84.976027"
      inkscape:cy="810.38265"
      inkscape:document-units="px"
      inkscape:current-layer="layer26"
      showgrid="false"
      inkscape:window-width="1607"
      inkscape:window-height="991"
-     inkscape:window-x="20"
-     inkscape:window-y="76"
+     inkscape:window-x="107"
+     inkscape:window-y="118"
      inkscape:window-maximized="0"
      showguides="false" />
   <metadata
@@ -726,7 +726,7 @@
      inkscape:label="label: time"
      id="g5223"
      inkscape:groupmode="layer"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <text
        xml:space="preserve"
