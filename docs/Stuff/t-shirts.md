@@ -1,7 +1,7 @@
 # T-shirts
 
 If a physics idea fits on a t-shirt, that is a good thing. Here are four such
-designs.
+designs (at 1/3 the final resolution).
 
 ## Turquoise Einstein
 
