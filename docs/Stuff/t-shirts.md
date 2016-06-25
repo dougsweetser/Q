@@ -3,7 +3,17 @@
 If a physics idea fits on a t-shirt, that is a good thing. Here are four such
 designs (at 1/3 the final resolution).
 
+## Gray Albert
+36" x 36" oil on linen, 1995
+
+This is an oil painting done in 1995:
+![](../images/Stuff/T-shirts/gray_albert_t-shirt.png)
+The **most famous equation in physics** was written this way by Einstein in
+1905. The amount of energy one measures depends on a relative velocity in
+precisely this way.
+
 ## Turquoise Einstein
+36" x 36" oil on linen, 1995
 
 This is an oil painting done in 1995:
 ![](../images/Stuff/T-shirts/turquoise_einstein_t-shirt.png)
