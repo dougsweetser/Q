@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg4136"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   width="229.5"
+   height="297"
+   viewBox="0 0 229.5 297"
+   sodipodi:docname="gray_albert_t-shirt.svg"
+   inkscape:export-filename="gray_albert_t-shirt.png"
+   inkscape:export-xdpi="365.57999"
+   inkscape:export-ydpi="365.57999">
+  <metadata
+     id="metadata4142">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4140" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1298"
+     inkscape:window-height="922"
+     id="namedview4138"
+     showgrid="false"
+     inkscape:zoom="2.7037037"
+     inkscape:cx="106.97741"
+     inkscape:cy="131.8839"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4136" />
+  <image
+     sodipodi:absref="/Users/doug/Documents/Q/docs/images/Stuff/T-shirts/gray_albert.jpg"
+     xlink:href="gray_albert.jpg"
+     y="47.071079"
+     x="20.213472"
+     id="image4224"
+     style="image-rendering:optimizeQuality"
+     preserveAspectRatio="none"
+     height="187.71736"
+     width="188.33331" />
+  <image
+     sodipodi:absref="/Users/doug/Documents/Q/docs/images/Stuff/T-shirts/E=mc2_gamma.png"
+     xlink:href="E=mc2_gamma.png"
+     y="237.4726"
+     x="55.755135"
+     id="image4286"
+     style="image-rendering:optimizeQuality"
+     preserveAspectRatio="none"
+     height="43.232876"
+     width="117.98973" />
+</svg>
