@@ -177,7 +177,7 @@ A source for light **must be coherent** to create an interference pattern. That
 requires organization. The middle column is incoherent and never has an 
 interference pattern.
 
-### "The Speed of Light According to Rene Magritte"
+### "The Speed of Light According to Ren&eacute; Magritte"
 Mixed media, 60"x36", 1995
 
 The speed of light is about the relationship between time and space, not how
@@ -255,7 +255,7 @@ allowfullscreen></iframe>
 
 ### Light, Art, and Physics
 
-A talk about 2 of the works, "The Speed of Light According to Rene Magritte" 
+A talk about 2 of the works, "The Speed of Light According to Ren&eacute; Magritte" 
 and "Groups of Coherent Photons Behave Like Waves and Particles."
 
 <iframe width="840" height="630"
