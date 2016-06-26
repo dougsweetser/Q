@@ -16,7 +16,7 @@
    id="svg4850"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="groups_of_coherent_photons.svg"
+   sodipodi:docname="photons.svg"
    inkscape:export-filename="/Users/doug/Documents/Q/docs/images/Stuff/T-shirts/photons_big.png"
    inkscape:export-xdpi="300.01685"
    inkscape:export-ydpi="300.01685">
@@ -171,7 +171,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
      inkscape:cx="275.15046"
-     inkscape:cy="473.52294"
+     inkscape:cy="479.09938"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -204,13 +204,13 @@
     <image
        sodipodi:absref="/Users/doug/Documents/Q/docs/images/Stuff/Art/photons.jpg"
        xlink:href="photons.jpg"
-       y="330.87668"
-       x="62.707855"
-       id="image4271"
-       style="image-rendering:optimizeQuality"
-       preserveAspectRatio="none"
+       width="639.58429"
        height="402.30978"
-       width="639.58429" />
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeQuality"
+       id="image4271"
+       x="62.707855"
+       y="330.87668" />
   </g>
   <g
      inkscape:groupmode="layer"
