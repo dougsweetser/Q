@@ -139,7 +139,7 @@ think of multiple forms of geometry together as is done on this t-shirt.
 ![](../images/Stuff/Art/space-time_geometries.png)
 
 Newtonian physics has absolute time paired with absolute space (in gray).
-Einstein added the limiation that massless light is the only thing where time
+Einstein added the limitation that massless light is the only thing where time
 is space, the 45 degree angle. My new proposal for gravity takes the Newtonian
 absolutes and makes sure nothing crosses the lines. If space-time is a number
 and not a vector field, then one can see the symmetries that underlies both
