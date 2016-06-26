@@ -17,9 +17,9 @@
    height="297"
    viewBox="0 0 229.5 297"
    sodipodi:docname="gray_albert.svg"
-   inkscape:export-filename="gray_albert.png"
-   inkscape:export-xdpi="365.57999"
-   inkscape:export-ydpi="365.57999">
+   inkscape:export-filename="gray_albert_big.png"
+   inkscape:export-xdpi="955.75"
+   inkscape:export-ydpi="955.75">
   <metadata
      id="metadata4142">
     <rdf:RDF>
@@ -55,23 +55,23 @@
      inkscape:window-maximized="0"
      inkscape:current-layer="svg4136" />
   <image
-     sodipodi:absref="/Users/doug/Documents/Q/docs/images/Stuff/T-shirts/gray_albert.jpg"
+     sodipodi:absref="/Users/doug/Documents/Q/docs/images/Stuff/Art/gray_albert.jpg"
      xlink:href="gray_albert.jpg"
-     y="47.071079"
-     x="20.213472"
-     id="image4224"
-     style="image-rendering:optimizeQuality"
-     preserveAspectRatio="none"
+     width="188.33331"
      height="187.71736"
-     width="188.33331" />
-  <image
-     sodipodi:absref="/Users/doug/Documents/Q/docs/images/Stuff/T-shirts/E=mc2_gamma.png"
-     xlink:href="E=mc2_gamma.png"
-     y="237.4726"
-     x="55.755135"
-     id="image4286"
-     style="image-rendering:optimizeQuality"
      preserveAspectRatio="none"
+     style="image-rendering:optimizeQuality"
+     id="image4224"
+     x="20.213472"
+     y="47.071079" />
+  <image
+     sodipodi:absref="/Users/doug/Documents/Q/docs/images/Stuff/Art/E=mc2_gamma.png"
+     xlink:href="E=mc2_gamma.png"
+     width="117.98973"
      height="43.232876"
-     width="117.98973" />
+     preserveAspectRatio="none"
+     style="image-rendering:optimizeQuality"
+     id="image4286"
+     x="55.755135"
+     y="237.4726" />
 </svg>

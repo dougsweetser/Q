@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 """
+Outmatically makes 3 file sizes.
+
 usage: resize_4_fancybox.py -f FILE [-s SMALL] [-b BIG]
 
 optional arguments:
@@ -16,35 +18,31 @@ if __name__ == "__main__":
     ARGS = docopt(__doc__)
 
 file_name = ARGS['--file_name']
-small_width = float(ARGS['--small_width'])
-big_width = float(ARGS['--big_width'])
-
+file_root = file_name[:-4].replace('_big', '')
+file_ext = file_name[-3:]
 id_out = sp.check_output(["identify", file_name])
 match = re.search(r'\d\d+', str(id_out))
 image_width = float(match.group(0))
 
-small_scale = small_width / image_width * 100
-big_scale = big_width / image_width * 100
+widths = {'small': ARGS['--small_width'], 'big': ARGS['--big_width'], 
+          'nine':900}
+new_file = {}
 
-file_root = file_name[:-4]
-file_ext = file_name[-3:]
+for name, width in widths.items():
+    scale = float(width) / float(image_width) * 100
 
-if file_ext == 'gif':
-    small_file = "{fr}_{sw}.gif".format(fr=file_root, sw=small_width)
-    big_file = "{fr}_{bw}.gif".format(fr=file_root, bw=big_width)
+    if file_ext == 'gif':
+        new_file.update({name: "{fr}_{w}.gif".format(fr=file_root, w=width)})
 
-else:
-    small_file = "{fr}_{sw}.png".format(fr=file_root, sw=small_width)
-    big_file = "{fr}_{bw}.png".format(fr=file_root, bw=big_width)
+    else:
+        new_file.update({name: "{fr}_{w}.png".format(fr=file_root, w=width)})
 
-sp.run(["convert", file_name, "-resize", "{ss}%".format(ss=small_scale),
-        small_file])
-sp.run(["convert", file_name, "-resize", "{bs}%".format(bs=big_scale),
-        big_file])
+    sp.run(["convert", file_name, "-resize", "{s}%".format(s=scale),
+           new_file[name]])
 
 fancy = '''
 <a class="fancybox-button" rel="fancybox-button" 
     href="../../images/Stuff/Art/{bf}"> 
-<img src="../../images/Stuff/Art/{sf}" /> </a>'''.format(bf=big_file,
-                                                         sf=small_file)
+<img src="../../images/Stuff/Art/{sf}" /> </a>'''.format(bf=new_file['big'],
+                                                         sf=new_file['small'])
 print(fancy)
