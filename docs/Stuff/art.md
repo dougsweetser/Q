@@ -92,7 +92,7 @@ Click to enlarge, more info on each below...
 ## Einstein
 
 ### "Gray Albert"
-36" x 36", oil on linen, 1995, [hi res](../images/Stuff/Art/gray_albert_bit.png)
+36" x 36", oil on linen, 1995, [hi res](../images/Stuff/Art/gray_albert_big.png)
 
 This is an oil painting done in 1995:
 ![](../images/Stuff/Art/gray_albert_900.png)
