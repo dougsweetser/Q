@@ -6,66 +6,74 @@ theme_dir: spacelab-mod
 
 dev_addr: 127.0.0.1:8004
 
-google_analytics: ['UA-9710248-1', 'quaternions.com']
+google_analytics: ['UA-9710248-1', 'dougsweetser.github.io/Q']
 
 markdown_extensions: 
-    include:
-    subscript:
-    superscript:
-    footnotes:
+    - markdown_include.include
+    - subscript
+    - superscript
+    - footnotes
 
 pages:
-- [index.md, '']
-- [Math/math.md, Math, The Math]
-- [Math/overview.md, Math, Overview]
-- [Math/history.md, Math, History]
-- [Math/numbers_101.md, Math, Numbers 101]
-- [Math/multiplying.md, Math, Easy multiplying]
-- [Math/products.md, Math, Products]
-- [Math/scalars_vectors.md, Math, 'Scalars, vectors, tensors and all that']
-- [Math/complex_quaternions.md, Math, Complex quaternions]
-- [Math/analysis.md, Math, Analysis]
-- [Math/topology.md, Math, Topology]
-- [Math/fit.md, Math, Where quaternions fit]
-- [Math/tools.md, Math, Tools]
-  # - [Math/dynamic_graphs.md, Math, Dynamic graphs]
-- [Classical_physics/classical_physics.md, Classical, Classical physics]
-- [Classical_physics/force.md, Classical, Forces]
-- [Classical_physics/sho.md, Classical, Simple Harmonic Oscillators]
-- [Classical_physics/conservative_force.md, Classical, Conservative force]
-- [SR/special_relativity.md, SR, Special Relativity (SR)]
-- [SR/problem_sets.md, SR, Problem sets]
-- [SR/problem_set_1.md, SR, Problem set 1]
-- [Gravity/gravity.md, Gravity, Quaternion gravity]
-- [Gravity/Measurement-101/measure.md, Gravity, Measurement-101 - Measuring Events]
-- [Gravity/Measurement-101/special_relativity.md, Gravity, Measurement-101 - Special relaitivity]
-- [Gravity/Measurement-101/quaternion_gravity.md, Gravity, Measurement-101 - Quaternion Gravity]
-- [Gravity/Measurement-101/measure_it_all.md, Gravity, Measurement-101 - SR + QG: Special Relativity and Quaternion Gravity]
-- [Gravity/space-times-time_invariance.md, Gravity, Quaternion space-times-time invariance as gravity]
-- [Gravity/essays_on_gravitation.md, Gravity, Essays on gravitation contest]
-- [EM/em.md, EM, Electromagnetism]
-- [EM/derive_Euler-Lagrange.md, EM, Derive the Euler-Lagrange equations]
-- [EM/EM_invariants.md, EM, EM invariants]
-- [EM/derive_Maxwell_homogeneous_equations.md, EM, Derive the Maxwell homogeneous equations]
-- [EM/derive_Maxwell_source_equations.md, EM, Derive the Maxwell source equations]
-- [EM/Maxwell_by_hand.md, EM, Derive the Maxwell source equations by hand]
-- [QM/qm.md, QM, Quantum Mechanics]
-- [QM/bracket_notation.md, QM, Bracket notation and quaternions]
-- [QM/polar.md, QM, Multiplying polar representations]
-- [QM/uncertainty_principle.md, QM, Commutators and the uncertainty principle]
-- [QM/spin_and_angular_momentum.md, QM, Spin and angular momentum]
-- [QM/Schrodinger.md, QM, The Schrodinger equation]
-- [QM/Klein-Gordon.md, QM, The Klein-Gordon equation]
-- [QM/standard_model_symmetries.md, QM, Visualizing the standard model]
-- [QM/time_reversal.md, QM, Time reversal]
-- [Blogs/blogs.md, Blogs, Research Blogs]
-- [Blogs/Paper/Paper.md, Blogs, Paper rejection]
-- [Stuff/buttons.md, Stuff, Buttons]
-- [Stuff/pdfs/pdfs.md, Stuff, PDFs]
-- [About/professional_sketch.md, About, Professional sketch]
-- [About/personal_sketch.md, About, Personal Sketch]
-- [About/lindy_hop.md, About, Lindy Hop]
-- [About/bike.md, About, The bike]
-- [About/thanks.md, About, Thanks]
-- [About/todo.md, About, To do]
-- [About/contact_and_tip.md, About, Contact and tips]
+- '': index.md
+- Math:
+    - 'The Math': 'Math/math.md'
+    - 'Overview': 'Math/overview.md'
+    - 'History': 'Math/history.md'
+    - 'Numbers 101': 'Math/numbers_101.md'
+    - 'Easy multiplying': 'Math/multiplying.md'
+    - 'Products': 'Math/products.md'
+    - 'Scalars, vectors, tensors and all that': 'Math/scalars_vectors.md'
+    - 'Complex quaternions': 'Math/complex_quaternions.md'
+    - 'Quaternion equivalence classes': 'Math/equivalence_classes.md'
+    - 'Analysis': 'Math/analysis.md'
+    - 'Topology': 'Math/topology.md'
+    - 'Where quaternions fit': 'Math/fit.md'
+    - 'Math, Tools': 'Math/tools.md'
+  # - 'Math/dynamic_graphs.md, Math, Dynamic graphs'
+- Classical:
+    - 'Classical physics': 'Classical_physics/classical_physics.md'
+    - 'Forces': 'Classical_physics/force.md'
+    - 'Simple Harmonic Oscillators': 'Classical_physics/sho.md'
+    - 'Conservative force': 'Classical_physics/conservative_force.md'
+- SR:
+    - 'Special Relativity (SR)': 'SR/special_relativity.md'
+    - 'Problem sets': 'SR/problem_sets.md' 
+    - 'Problem set 1': 'SR/problem_set_1.md'
+- Gravity:
+    - 'Quaternion gravity': 'Gravity/gravity.md'
+    - 'Measurement-101 - Measuring Events': 'Gravity/Measurement-101/measure.md' 
+    - 'Gravity, Measurement-101 - Special relaitivity': 'Gravity/Measurement-101/special_relativity.md' 
+    - 'Measurement-101 - Quaternion Gravity': 'Gravity/Measurement-101/quaternion_gravity.md'
+    - 'Measurement-101 - SR + QG: Special Relativity and Quaternion Gravity': 'Gravity/Measurement-101/measure_it_all.md'
+    - 'Quaternion space-times-time invariance as gravity': 'Gravity/space-times-time_invariance.md'
+    - 'Essays on gravitation contest': 'Gravity/essays_on_gravitation.md'
+- EM:
+    - 'Electromagnetism': 'EM/em.md'
+    - 'Derive the Euler-Lagrange equations': 'EM/derive_Euler-Lagrange.md'
+    - 'EM invariants': 'EM/EM_invariants.md'
+    - 'Derive the Maxwell homogeneous equations': 'EM/derive_Maxwell_homogeneous_equations.md'
+    - 'Derive the Maxwell source equations': 'EM/derive_Maxwell_source_equations.md'
+    - 'Derive the Maxwell source equations by hand': 'EM/Maxwell_by_hand.md'
+- QM:
+    - 'Quantum Mechanics': 'QM/qm.md'
+    - 'Bracket notation and quaternions': 'QM/bracket_notation.md'
+    - 'Multiplying polar representations': 'QM/polar.md'
+    - 'Commutators and the uncertainty principle': 'QM/uncertainty_principle.md'
+    - 'Spin and angular momentum': 'QM/spin_and_angular_momentum.md'
+    - 'The Schrodinger equation': 'QM/Schrodinger.md'
+    - 'The Klein-Gordon equation': 'QM/Klein-Gordon.md'
+    - 'Visualizing the standard model': 'QM/standard_model_symmetries.md'
+    - 'Time reversal': 'QM/time_reversal.md'
+- Art + PDFs:
+    - 'Art Portfolio': 'Stuff/art.md'
+    - 'Buttons': 'Stuff/buttons.md'
+    - 'PDFs': 'Stuff/pdfs/pdfs.md'
+- About:
+    - 'Professional sketch': 'About/professional_sketch.md'
+    - 'Personal Sketch': 'About/personal_sketch.md'
+    - 'Lindy Hop': 'About/lindy_hop.md'
+    - 'The bike': 'About/bike.md'
+    - 'Thanks': 'About/thanks.md'
+    - 'To do': 'About/todo.md'
+    - 'Contact and tips': 'About/contact_and_tip.md'
