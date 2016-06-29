@@ -65,10 +65,12 @@ pages:
     - 'The Klein-Gordon equation': 'QM/Klein-Gordon.md'
     - 'Visualizing the standard model': 'QM/standard_model_symmetries.md'
     - 'Time reversal': 'QM/time_reversal.md'
+
 - Art + PDFs:
     - 'Art Portfolio': 'Stuff/art.md'
     - 'Buttons': 'Stuff/buttons.md'
     - 'PDFs': 'Stuff/pdfs/pdfs.md'
+    - 'Art Hi Res': 'Stuff/art_hi_res.md'
 - About:
     - 'Professional sketch': 'About/professional_sketch.md'
     - 'Personal Sketch': 'About/personal_sketch.md'
