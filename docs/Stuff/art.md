@@ -92,7 +92,7 @@ Click to enlarge, more info on each below...
 ## Einstein
 
 ### "Gray Albert"
-36" x 36", oil on linen, 1995
+36" x 36", oil on linen, 1995, [hi res](../images/Stuff/Art/gray_albert_big.png)
 
 This is an oil painting done in 1995:
 ![](../images/Stuff/Art/gray_albert_900.png)
@@ -102,7 +102,7 @@ The **most famous equation in physics** was written this way by Einstein in
 precisely this way.
 
 ### "Turquoise Einstein"
-36" x 36", oil on linen, 1995
+36" x 36", oil on linen, 1995, [hi res](../images/Stuff/Art/turquoise_einstein_big.png)
 
 This is an oil painting done in 1995:
 ![](../images/Stuff/Art/turquoise_einstein_900.png)
@@ -121,7 +121,7 @@ the union of space and time can be used.
 ## Gravity
 
 ### "Play in Space-time"
-Marker drawing on paper, 8.5"x11", 2015
+Marker drawing on paper, 8.5"x11", 2015, [hi res](../images/Stuff/Art/play_in_space-time_big.png)
 Elle and Doug Sweetser
 
 This graphic was developed in collaboration with my daughter to explain a new
@@ -132,11 +132,11 @@ Balloon girl and prone boy agree on the value of space-times-time which results
 from squaring a quaternion.
 
 ### "Space-time Geometries"
-Computer graphic, 2016
+Computer graphic, 2016, [hi res](../images/Stuff/Art/space-time_geometries_big.png)
 
 Nature knows how to do many forms of physics simultaneously. Thus we need to 
 think of multiple forms of geometry together as is done on this t-shirt.
-![](../images/Stuff/Art/space-time_geometries.png)
+![](../images/Stuff/Art/space-time_geometries_900.png)
 
 Newtonian physics has absolute time paired with absolute space (in gray).
 Einstein added the limitation that massless light is the only thing where time
@@ -146,9 +146,9 @@ and not a vector field, then one can see the symmetries that underlies both
 electromagnetism and the weak force.
 
 ### "Small Apple"
+Pastel on paper + computer, 3"x6", 2005, [hi res](../images/Stuff/Art/xmas_apple_card_big.png)
 
 Simple, silent, and dimensionless
-
 ![](../images/Stuff/Art/xmas_apple_card_900.png)
 
     Gravity written wihout units
@@ -167,8 +167,7 @@ From a Christmas card written after my daughter was born.
 ## Quantum
 
 ### "Groups of Coherent Photons Behave Like Waves and Particles"
-36"x24", Computer graphic, 1995
-
+36"x24", Computer graphic, 1995, [hi res](../images/Stuff/Art/photons_big.png)
 It's the source, not the slits.
 
 ![](../images/Stuff/Art/photons_900.png)
@@ -178,7 +177,7 @@ requires organization. The middle column is incoherent and never has an
 interference pattern.
 
 ### "The Speed of Light According to Ren&eacute; Magritte"
-Mixed media, 60"x36", 1995
+Mixed media, 60"x36", 1995, [hi res](../images/Stuff/Art/speed_of_light_big.png)
 
 The speed of light is about the relationship between time and space, not how
 fast something is going.
@@ -193,7 +192,6 @@ one can tell. Photons get one chance to tell one story and then they are gone.
 Mixed media, 3x3", 1995
 
 The field equations of general relativity and the Dirac equation.
-
 ![](../images/Stuff/Art/big_equations_900.png)
 
 The field equations of general relativity cover the big stuff of the Universe.
@@ -222,18 +220,15 @@ are i, j, and k, each being positive or negative depending on if it has white
 or black bead respectively.
 
 ### "Drawing Negative Infinity"
-Computer graphic, 16"x10", 1995
-
+Computer graphic, 16"x10", 1995, [hi res](../images/Stuff/Art/drawing_negative_infinity_big.png)
 ![](../images/Stuff/Art/drawing_negative_infinity_900.png)
 
 ### "Drawing Zero"
-Computer graphic, 12"x12", 1995
-
+Computer graphic, 12"x12", 1995, [hi res](../images/Stuff/Art/drawing_zero_big.png)
 ![](../images/Stuff/Art/drawing_zero_900.png)
 
 ### "Drawing Positive Infinity"
-Computer graphic, 16"x10", 1995
-
+Computer graphic, 16"x10", 1995, [hi res](../images/Stuff/Art/drawing_positive_infinity_big.png)
 ![](../images/Stuff/Art/drawing_positive_infinity_900.png)
 
 
