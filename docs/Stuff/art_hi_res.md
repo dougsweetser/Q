@@ -1,4 +1,6 @@
-# _Art Portfolio at Hi Resolution
+# Art Portfolio at Hi Resolution
+
+Note: it is easier to [browse this page](art.md).
 
 ## Einstein
 
