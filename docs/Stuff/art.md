@@ -92,7 +92,8 @@ Click to enlarge, more info on each below...
 ## Einstein
 
 ### "Gray Albert"
-36" x 36", oil on linen, 1995, [buy as t-shirt & stuff](http://www.redbubble.com/people/visualphysics/works/22331790-gray-albert) [hi res](../images/Stuff/Art/gray_albert_big.png)
+36" x 36", oil on linen, 1995
+<br>[buy as a t-shirt & stuff](http://www.redbubble.com/people/visualphysics/works/22331790-gray-albert), [hi res](../images/Stuff/Art/gray_albert_big.png)
 
 This is an oil painting done in 1995:
 ![](../images/Stuff/Art/gray_albert_900.png)
@@ -103,7 +104,7 @@ precisely this way.
 
 ### "Turquoise Einstein"
 36" x 36", oil on linen, 1995 
-[buy as t-shirt & stuff](http://www.redbubble.com/people/visualphysics/works/22331871-turquoise-einstein), [hi res](../images/Stuff/Art/turquoise_einstein_big.png)
+<br>[buy as a t-shirt & stuff](http://www.redbubble.com/people/visualphysics/works/22331871-turquoise-einstein), [hi res](../images/Stuff/Art/turquoise_einstein_big.png)
 
 This is an oil painting done in 1995:
 ![](../images/Stuff/Art/turquoise_einstein_900.png)
@@ -123,8 +124,8 @@ the union of space and time can be used.
 
 ### "Play in Space-time"
 Marker drawing on paper, 8.5"x11", 2015
-[buy as t-shirt & stuff](http://www.redbubble.com/people/visualphysics/works/22331937-play-in-space-time), [hi res](../images/Stuff/Art/play_in_space-time_big.png)
 Elle and Doug Sweetser
+<br>[buy as a t-shirt & stuff](http://www.redbubble.com/people/visualphysics/works/22331937-play-in-space-time), [hi res](../images/Stuff/Art/play_in_space-time_big.png)
 
 This graphic was developed in collaboration with my daughter to explain a new
 purely geometric approach to gravity. 
@@ -135,7 +136,7 @@ from squaring a quaternion.
 
 ### "Space-time Geometries"
 Computer graphic, 2016
-[buy as t-shirt & stuff](http://www.redbubble.com/people/visualphysics/works/22331988-space-time-geometries), [hi res](../images/Stuff/Art/space-time_geometries_big.png)
+<br>[buy as a t-shirt & stuff](http://www.redbubble.com/people/visualphysics/works/22331988-space-time-geometries), [hi res](../images/Stuff/Art/space-time_geometries_big.png)
 
 Nature knows how to do many forms of physics simultaneously. Thus we need to 
 think of multiple forms of geometry together as is done on this t-shirt.
@@ -150,7 +151,7 @@ electromagnetism and the weak force.
 
 ### "Small Apple"
 Pastel on paper + computer, 3"x6", 2005
-[buy as t-shirt & stuff](http://www.redbubble.com/people/visualphysics/works/22332132-tiny-dimensionless-apple-falling?), [hi res](../images/Stuff/Art/xmas_apple_card_big.png)
+<br>[buy as a t-shirt & stuff](http://www.redbubble.com/people/visualphysics/works/22332132-tiny-dimensionless-apple-falling?), [hi res](../images/Stuff/Art/xmas_apple_card_big.png)
 
 Simple, silent, and dimensionless
 ![](../images/Stuff/Art/xmas_apple_card_900.png)
@@ -172,7 +173,7 @@ From a Christmas card written after my daughter was born.
 
 ### "Groups of Coherent Photons Behave Like Waves and Particles"
 36"x24", Computer graphic, 1995
-[hi res](../images/Stuff/Art/photons_big.png)
+<br>[buy as a t-shirt & stuff](http://www.redbubble.com/people/visualphysics/works/22337065-groups-of-coherent-particles-are-waves-and-particles), [hi res](../images/Stuff/Art/photons_big.png)
 It's the source, not the slits.
 
 ![](../images/Stuff/Art/photons_900.png)
@@ -183,7 +184,7 @@ interference pattern.
 
 ### "The Speed of Light According to Ren&eacute; Magritte"
 Mixed media, 60"x36", 1995
-[hi res](../images/Stuff/Art/speed_of_light_big.png)
+<br>[buy t-shirts & stuff](http://www.redbubble.com/people/visualphysics/works/22337263-the-speed-of-light-according-to-ren-magritte), [hi res](../images/Stuff/Art/speed_of_light_big.png)
 
 The speed of light is about the relationship between time and space, not how
 fast something is going.
