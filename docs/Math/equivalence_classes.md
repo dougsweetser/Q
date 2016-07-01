@@ -27,7 +27,7 @@ far separated by here. Look at the first case:
 Notice that there is one line that divides space-time. The equivalence classes 
 all are straight.
 
-For space, the equivalnce relation isolates the imaginary values:
+For space, the equivalence relation isolates the imaginary values:
 
 ![](../images/Math/equivalence_classes/equivalence_right_and_left.png)
 
@@ -37,12 +37,16 @@ a spatial difference of zero from the reference observer.
 ## Where is plus and minus one?
 
 Quaternions can be viewed as three complex numbers that share the same real
-value, the three pairs being (t, x), (t, y) and (t, z) with t being the 
-shared real value. The multiplication rule for complex numbers is the cyclic group Z~2~. 
-This means that I^0^ or I^4^ are the same as +1, and I^2^ is the same as -1.
-Why bother? It helps make clear that the reals can mingle with the imaginary.
-The real and imaginary numbers are cut from the same cloth. It is allowed to
-work with a factor of "I" that is raised to a number that is not an integer.
+value where the product of any two imaginaries is plus or minus the third
+imaginary number, the sign depending on the order of the product. The three
+pairs of complex numbers are (t, x), (t, y) and (t, z) with t being the shared
+real value. The multiplication rule for complex numbers is the cyclic group
+Z~2~.  This means that I^0^ or I^4^ are the same as +1, and I^2^ is the same as
+-1.  Why bother? It helps make clear that the reals can mingle with the
+imaginary.  The real and imaginary numbers are cut from the same cloth. It is
+allowed to work with a factor of "I" that is raised to a number that is not an
+integer. The rules for multiplying the three complex numbers together are
+found in the larger quaternion group Q~8~.
 
 ## Time + space equivalence classes
 
@@ -56,7 +60,7 @@ space are absolutes and do not mix with each other.
 ## The light cone as a divider of space-time
 
 Light has an interval of zero: the changes in time are exactly equal to the 
-changes in space. Space-time is seperated into two regions where the origin
+changes in space. Space-time is separated into two regions where the origin
 can have a causal relationship with other event - the time-like areas - and 
 there are the regions that are too far away in space-time for a photon to reach
 the origin:
@@ -68,7 +72,7 @@ class as a straight line because that line would then not remain in the separate
 regions. If two events are the same interval away from the origin, then they are
 both on the same hyperbola.
 
-The equivlance relation uses the square of a quaternion:
+The equivalence relation uses the square of a quaternion:
 
 ![](../images/Math/equivalence_classes/equivalence_time-like_space-like.png)
 
@@ -76,7 +80,7 @@ The only thing that is different in the equivalence relation between time and
 this one for special relativity is using a quaternion to the first or second
 power respectively.
 
-Combine the time and causality equivlance classes:
+Combine the time and causality equivalence classes:
 
 ![](../images/Math/equivalence_classes/Two-tone_Space-like.png)
 
@@ -108,7 +112,7 @@ that one would work with linear imaginary values.
 The ability to combine equivalence classes suggest considerable power in this 
 purely geometric approach.
 
-## Space + Time relativisticly may be gravity
+## Relativistic space + time may be gravity
 
 In the classical combination of time and space, the two did not mix. Now allow
 the two to mix. The result should look like a light cone rotated by 45 degrees.
