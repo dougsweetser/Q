@@ -102,7 +102,8 @@ The **most famous equation in physics** was written this way by Einstein in
 precisely this way.
 
 ### "Turquoise Einstein"
-36" x 36", oil on linen, 1995, [buy as t-shirt & stuff](http://www.redbubble.com/people/visualphysics/works/22331871-turquoise-einstein) [hi res](../images/Stuff/Art/turquoise_einstein_big.png)
+36" x 36", oil on linen, 1995 
+[buy as t-shirt & stuff](http://www.redbubble.com/people/visualphysics/works/22331871-turquoise-einstein), [hi res](../images/Stuff/Art/turquoise_einstein_big.png)
 
 This is an oil painting done in 1995:
 ![](../images/Stuff/Art/turquoise_einstein_900.png)
@@ -121,7 +122,8 @@ the union of space and time can be used.
 ## Gravity
 
 ### "Play in Space-time"
-Marker drawing on paper, 8.5"x11", 2015, [buy as t-shirt & stuff](http://www.redbubble.com/people/visualphysics/works/22331937-play-in-space-time) [hi res](../images/Stuff/Art/play_in_space-time_big.png)
+Marker drawing on paper, 8.5"x11", 2015
+[buy as t-shirt & stuff](http://www.redbubble.com/people/visualphysics/works/22331937-play-in-space-time), [hi res](../images/Stuff/Art/play_in_space-time_big.png)
 Elle and Doug Sweetser
 
 This graphic was developed in collaboration with my daughter to explain a new
@@ -132,7 +134,8 @@ Balloon girl and prone boy agree on the value of space-times-time which results
 from squaring a quaternion.
 
 ### "Space-time Geometries"
-Computer graphic, 2016, [buy as t-shirt & stuff](http://www.redbubble.com/people/visualphysics/works/22331988-space-time-geometries) [hi res](../images/Stuff/Art/space-time_geometries_big.png)
+Computer graphic, 2016
+[buy as t-shirt & stuff](http://www.redbubble.com/people/visualphysics/works/22331988-space-time-geometries), [hi res](../images/Stuff/Art/space-time_geometries_big.png)
 
 Nature knows how to do many forms of physics simultaneously. Thus we need to 
 think of multiple forms of geometry together as is done on this t-shirt.
@@ -146,7 +149,8 @@ and not a vector field, then one can see the symmetries that underlies both
 electromagnetism and the weak force.
 
 ### "Small Apple"
-Pastel on paper + computer, 3"x6", 2005, [buy as t-shirt & stuff](http://www.redbubble.com/people/visualphysics/works/22332132-tiny-dimensionless-apple-falling?) [hi res](../images/Stuff/Art/xmas_apple_card_big.png)
+Pastel on paper + computer, 3"x6", 2005
+[buy as t-shirt & stuff](http://www.redbubble.com/people/visualphysics/works/22332132-tiny-dimensionless-apple-falling?), [hi res](../images/Stuff/Art/xmas_apple_card_big.png)
 
 Simple, silent, and dimensionless
 ![](../images/Stuff/Art/xmas_apple_card_900.png)
@@ -167,7 +171,8 @@ From a Christmas card written after my daughter was born.
 ## Quantum
 
 ### "Groups of Coherent Photons Behave Like Waves and Particles"
-36"x24", Computer graphic, 1995, [hi res](../images/Stuff/Art/photons_big.png)
+36"x24", Computer graphic, 1995
+[hi res](../images/Stuff/Art/photons_big.png)
 It's the source, not the slits.
 
 ![](../images/Stuff/Art/photons_900.png)
@@ -177,7 +182,8 @@ requires organization. The middle column is incoherent and never has an
 interference pattern.
 
 ### "The Speed of Light According to Ren&eacute; Magritte"
-Mixed media, 60"x36", 1995, [hi res](../images/Stuff/Art/speed_of_light_big.png)
+Mixed media, 60"x36", 1995
+[hi res](../images/Stuff/Art/speed_of_light_big.png)
 
 The speed of light is about the relationship between time and space, not how
 fast something is going.
@@ -220,29 +226,34 @@ are i, j, and k, each being positive or negative depending on if it has white
 or black bead respectively.
 
 ### "Drawing Negative Infinity"
-Computer graphic, 16"x10", 1995, [hi res](../images/Stuff/Art/drawing_negative_infinity_big.png)
+Computer graphic, 16"x10", 1995
+[hi res](../images/Stuff/Art/drawing_negative_infinity_big.png)
 ![](../images/Stuff/Art/drawing_negative_infinity_900.png)
 
 ### "Drawing Zero"
-Computer graphic, 12"x12", 1995, [hi res](../images/Stuff/Art/drawing_zero_big.png)
+Computer graphic, 12"x12", 1995
+[hi res](../images/Stuff/Art/drawing_zero_big.png)
 ![](../images/Stuff/Art/drawing_zero_900.png)
 
 ### "Drawing Positive Infinity"
-Computer graphic, 16"x10", 1995, [hi res](../images/Stuff/Art/drawing_positive_infinity_big.png)
+Computer graphic, 16"x10", 1995
+[hi res](../images/Stuff/Art/drawing_positive_infinity_big.png)
 ![](../images/Stuff/Art/drawing_positive_infinity_900.png)
 
 
 ## Videos
 
-### A tour
+### A 6 minute tour
 
-A 6 minute tour of the works.
+A walk through my townhouse.
 
 <iframe width="1020" height="630"
 src="https://www.youtube.com/embed/zaFRDYXWWP4" frameborder="0"
 allowfullscreen></iframe>
 
 ### Einstein!
+
+Thoughts on the great thinker.
 
 <iframe width="840" height="630"
 src="https://www.youtube.com/embed/k_psORscNpw" frameborder="0"
