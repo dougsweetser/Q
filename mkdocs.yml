@@ -70,7 +70,6 @@ pages:
     - 'Art Portfolio': 'Stuff/art.md'
     - 'Buttons': 'Stuff/buttons.md'
     - 'PDFs': 'Stuff/pdfs/pdfs.md'
-    - 'Art Hi Res': 'Stuff/art_hi_res.md'
 - About:
     - 'Professional sketch': 'About/professional_sketch.md'
     - 'Personal Sketch': 'About/personal_sketch.md'
