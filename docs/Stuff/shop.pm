@@ -5,7 +5,7 @@
 Really, there is nothing old fashioned.  Most of the merchandize is available
 at [RedBubble.com](http://www.redbubble.com/people/visualphysics/shop).
 
-![](../images/Shop/redbubble_shop.png)
+![](../images/Stuff/redbubble_shop.png)
 
 The t-shirts with shipping run about $30.  That is not a great price.  The
 reason is that these are created one at a time off of a high quality t-shirt

@@ -66,10 +66,11 @@ pages:
     - 'Visualizing the standard model': 'QM/standard_model_symmetries.md'
     - 'Time reversal': 'QM/time_reversal.md'
 
-- Art + PDFs:
+- Art/PDFs/Shop:
     - 'Art Portfolio': 'Stuff/art.md'
     - 'Buttons': 'Stuff/buttons.md'
     - 'PDFs': 'Stuff/pdfs/pdfs.md'
+    - 'Shop': 'Stuff/shop.md'
 - About:
     - 'Professional sketch': 'About/professional_sketch.md'
     - 'Personal Sketch': 'About/personal_sketch.md'

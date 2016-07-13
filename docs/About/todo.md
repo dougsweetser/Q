@@ -11,10 +11,6 @@
     * personal (gallery? mac mini iPhoto)
     * pop sci
     * how done
-1. Stuff pages
-    * pdfs
-    * t-shirts
-    * tsup DVDs
 1. Redirect page for qindex.html - Keep world alive
 1. Symmetries - check content and presentation
 1. Sites, add SRQ
@@ -35,10 +31,6 @@
     * lindy
     * contacts/ tips - web sites, twitter
     * thanks
-1. Stuff pages
-    * pdfs
-    * t-shirts
-    * tsup DVDs
 1. EM
 1. EM, by hand
 1. EM, redo classical 
@@ -76,3 +68,5 @@ leanpub.com, markua
 1. Popup window function - Have content here, link to sites.
 1. PDF in markdown? ![]()  Nope.  lyx->html->html2txt  edit
 1. Search - not obvious how to do
+1. Stuff pages
+    * tsup DVDs
