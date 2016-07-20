@@ -6,9 +6,15 @@ The entire site is available a number of ways.
 
 Avaible for [$10 is a pdf, epub, or mobi file](https://leanpub.com/doingphysicswithquaternions).
 
+Put the site on your own computer.  At the command line, run:
+
 git clone https://github.com/dougsweetser/Q.git
 
-## Bit of this site
+A collection of 6 problem sets solved using only real-valued quaternions is
+available for [$1.99 as a pdf, epub, or mobi file](https://leanpub.com/SRQ)
+
+
+## Bits of this site
 
 1. [Where quaternions fit](math_structure.pdf) - 1 page
 1. [Space-time equivalence classes](EQ_classes_all_pages.pdf) - 10 pages
