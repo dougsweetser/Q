@@ -21,4 +21,5 @@ jargon. On the occassion when these obscure discussion did reach me, it made
 the time investment worthwhile. Mathematical physics is a difficult art, so it
 was nice when I felt I understood a subtle issue.
 
-Every community has its characters.
+Every community has its characters. A few times a year, [Lubos%C5% Motl](https://en.wikipedia.org/wiki/Lubo%C5%A1_Motl)
+
