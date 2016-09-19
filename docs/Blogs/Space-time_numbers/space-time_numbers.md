@@ -98,5 +98,148 @@ found in a quaternion.
 A quaternion with a norm of one is a way to represent the group SU(2), also
 known as a unit quaternion. A unit quaternion sits in the middle of the
 standard model, U(1)xSU(2)xSU(3). It remains an open riddle why the standard
-model has these three particular Lie groups. 
+model has these three particular Lie groups. As is well-known, once you have
+SU(2), then U(1) is necessarily a subgroup of SU(2). It makes me speculate that
+a new approach to these symmetries might manage their natural overlap in a more
+compact way. Until such an idea can be made more precise, consider this an odd
+partical physics fantasy.
 
+** Concerns About Quaternions
+
+Full disclosure: I own the domain quaternions.com whose tagline in "Doing
+Physics with Quaternions." There are books and articles in the literature that
+claim that complex-valued quaternions are needed to derive the Maxwell
+equations or represent the Lorentz group. I can understand why one would have
+no interest in using quaternions given such limitations. Those are show
+stoppers. Yet I have succeeded in both cases with real-valued quaternions (and
+the answers are not that difficult once you know that an answer does exist). It
+is reasonable to suspect I am a zealot on the subject. I prefer to promote
+logical consistency. Nature uses one set of rules, so why don't physicists?
+Real and complex numbers come with enough mathematical structure to do
+calculus. Yet they are too small to work directly in classical three
+dimensional space without additional background mathematical structure, namely
+a vector space. Even that is not enough since there is no means to handle
+angular momentum. Quaternions can handle three classical dimensions, including
+the rotation. This should be an obvious point, but it is not.
+
+Since is an art of reductionism. The real numbers appear to be too complicated
+as a starting point. Addition utilizes the real number line wich is the fusion
+of the positive real numbers, then zero, then the negaitve real numbers. I
+appreciate how practical this is. Yet I see two sets of positve real numbers.
+One set is labeled "positive", the other "negative", but otherwise they are the
+same. The rule of multiplication can be found in the Abelian sign group
+Z<sub>2</sub>. This opens up the reductionist question about the trivial group
+Z<sub>1</sub>.
+
+Using zero and one, there are three ways to represent the trivial group Z<sub>1</sub>.
+
+(+, {0})
+(\*, {0})
+(\*, {1})
+
+I found this intersing enough to devote an entire blog to the subject. The
+first two look like together they could form a mathematical field. There is a
+rule in the definition that disqualifies that because the trivial group cannot
+be changed. To me that is interesting, a logical contrast to calculus. Only the
+third representation of the trivial group can be used to form a continuous
+group. Only the third group can be used to form the positive and the negative
+real numbers. If one starts from the real numbers, then zero and one are just
+different points on the same line. Starting with the trivial group gives zero
+and one a more nuanced relationship.
+
+Quaternions as a vector space over four real numbers have four zeroes. For
+events in space-time, I call zero "here-now". Every observer should have but
+one here-now, not four. 
+
+![](R4_4_zeros.png)
+
+A star topology allows there to be one zero share amoungst eight unities:
+
+![](Q8_one_zero_eight_ones.png)
+
+The origin is now quite complicated. In one area of study, relativistic quantum
+field theory, there is a notion of the sum of all possible histories. The odds
+of a series of events for particles going forward in time have to be added to
+the the events going backwards in time with the antiparticles. A star topology
+might allow for such a seamingly crazy pattern of paths. 
+
+The rules for multiplication should come straight from group theory. The
+quaternion group Q<sub>8</sub> has the right name for the job. What is
+offputting is the "eight", twice as big as Hamilton's reveared four. Write out
+the product table for the quaternion group Q<sub>8</sub>:
+
+Although it might look like a square matrix, a product table is not equivalent
+to a matrix. Let me make the difference concrete. Square the simple
+quqaternions which is also a complex number (1, 2, 0, 0) to generate (-3, 4, 0,
+0). Using the product table, one starts with 1 I<sup>0</sup> + 2 i<sup>1</sup>.
+and ends with 1 I<sup>0</sup> + 4 I<sup>2</sup> + 4 I<sup>1</sup>. It is also
+true that 1 I<sup>0</sup> + 4 I<sup>2</sup> = 3 I<sup>2</sup>. There is an
+equivalence relationship between working with the quaternion group
+Q<sub>8</sub> and Hamilton's 4D quaternions. To be equivaalent, one needs to
+reduce the Q<sub>8</sub> result. Reducing means to calculate the differences
+between the additive pairs (I<sup>0</sup>, I<sup>2</sup>), (i<sup>1</sup>, 
+i<sup>3</sup>), (j<sup>1</sup>, j<sup>3</sup>), and (k<sup>1</sup>, k<sup>3</sup>).
+so that one or possibly both are zero.
+
+** Space-time Numbers
+
+The needs of relativistic quantum field theory appear to require a new type of
+number, one that is a technical variation on Hamilton's 4D quaternions. I will
+call these numbers space-time numbers. The sets of positive real numbers
+labeled I<sup>0</sup>, i<sup>1</sup>, j<sup>1</sup>, and k<sup>1</sup> each
+have additive inverses, I<sup>2</sup>, i<sup>3</sup>, j<sup>3</sup>, and 
+k<sup>3</sup> respectively. The discrete zero set {0} separates the two sides.
+Together, these four real lines - (I<sup>0</sup>, {0}, I<sup>2</sup>), 
+(i<sup>1</sup>, {0}, i<sup>3</sup>), (j<sup>1</sup>, {0}, j<sup>3</sup>), and  
+(k<sup>1</sup>, {0}, k<sup>3</sup>) - meet together at zero to form a star
+topology. Products are formed for space-time numbers using the product table of
+the quaternion group Q<sub>8</sub>.
+
+** Why Bother?
+
+Classical mechanics, classical quantum mechanics, and relativistic quantum feild theory
+all have their own examples of simple harmonic motion. This is the equation
+that governs classical simple harmonic motion:
+
+![](simple_harmonic_motion.png)
+
+Space is treated like a pure quaternion as Hamilton prefered. The operator is
+a pure scalar. Space and time do not mix as operators. This is the sign that
+the equation is classical. In classical quantum mechanics such as the
+Schrödinger equation, one time derivative and two spatial derivates act on the
+same wave function. In relativistic quantum field theory such as the
+Klein-Gordon equation, second order space and time derivatives act on the same
+wave function.
+
+Operators are extremely efficient means for describing patterns of numbers.
+Since operators are a summary tool, one would hope the same pattern could be
+seen in the numbers themselves. Perhaps problems in classical physics always
+use the reduced form of space-time numbers. There is no possibility of
+ambiguity about where a mass is in classical physics. In classical quantum
+mechanics, the time portion may well remain in the reduced form, while the
+spatial terms are not reduced, having non-zero values in a position and its
+additive inverse. In relativistic quantum field theory, it may be that all
+eight numbers are non-zero, a means to represent particles going forward in
+time and their antiparticles going backwards in time.
+
+** Enormous Remaining Tasks for Space-time Numbers
+
+The definition of a derivative has long been established for both real and
+complex numbers. Since both of those numbers are subgroups of space-time
+numbers, they will apply when a space-time number is of that form. The more
+general definition of a derivative for a quaternion and these proposed
+space-time numbers continues to be an area of study in mathematics. The reason
+for the problem is that it is not obvious how to deal with the fact that the
+differential element does not commute in the limit definition. The
+differential element could go on the left or the right but the results are 
+different. Some work with left-hand derivatives, but this approach appears to
+fail since one cannot show that a simple polinomial like q<sup>2</sup> is
+analytic in q.
+
+My own assessment is that mathematicians are trying to make baby steps away
+from the familiar limit definition. Instead, one should use lessons found in
+relativistic quantum field theory as a guide knowing the far more simple case
+for the derivative of real number derivatives is there when all the other
+complicated makes no contribution.
+
+My own prelimiary efforts on this subject 
