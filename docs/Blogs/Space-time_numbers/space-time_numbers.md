@@ -195,6 +195,45 @@ Together, these four real lines - (I<sup>0</sup>, {0}, I<sup>2</sup>),
 topology. Products are formed for space-time numbers using the product table of
 the quaternion group Q<sub>8</sub>.
 
+** Nomemclature
+
+How should one write a space-time number? This is a minor challenge since we
+are all trained from the earliest days to use minus signs. My proposal is to
+use something I call doublet notation. We know two minus five is minus three.
+In the world of real numbers, that is just:
+
+2 - 5 = -3
+
+For doublet notation, we have places to store the two and the additive inverse
+of five:
+
+(2, 0) + (0, 5) = (2, 5)
+
+So where is the three? That is obtained by reducing this doublet. That means
+taking the difference between the two positions and letting the bigger one win
+like so:
+
+(2, 5) = (0, 3)
+
+When doing problems with algebra, it is often the case that one does not know
+what the sign is.  In that case, the convension will be to keep the paratheses
+but drop the comma:
+
+(3, 0) + (x) = (0, 4)
+
+If one then goes and solves for x, the value is (0, 7). The only time one can
+skip the parantheses is for zero. For example, here is a norm as a quaternion
+and as a space-time number:
+
+q: (1, 2, 3, 4) * (1, -2, -3, -4) = (29, 0, 0, 0)
+
+stn:  ((1, 0), (2, 0), (3, 0), (4, 0)) * 
+       (1, 0), (0, 2), (0, 3), (0, 4)) = ((29, 0), 0, 0, 0)
+
+The space-time number norm comes in a reduced form.
+
+
+
 ** Why Bother?
 
 Classical mechanics, classical quantum mechanics, and relativistic quantum feild theory
