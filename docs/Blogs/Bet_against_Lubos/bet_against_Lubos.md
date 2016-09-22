@@ -22,4 +22,19 @@ the time investment worthwhile. Mathematical physics is a difficult art, so it
 was nice when I felt I understood a subtle issue.
 
 Every community has its characters. A few times a year, [Lubos%C5% Motl](https://en.wikipedia.org/wiki/Lubo%C5%A1_Motl)
+A few times a year, Lubos Motl would jump into a thread. If you know Lubos, you
+know Lubos. The comments would get sharper, more biting when Lubos joined the
+discussion.Lubos was strongly of the opinion that work on strings was the
+correct direction to go. If you disagreed, then you were a complete and total
+moron. I wondered if he was real or a bit of fiction.
 
+Lubos Motl is real. It became clear to me after one exchange that I could not
+have a rational argument with the man. He was right, I was wrong. He does have
+a number of technical accomplishments. I have seen him lucidly describe issues
+in high energy physics. In a programming contest sponsored by CERN to write a
+program to pluck out a signal from a large dataset, I know he was in the
+running but did not track his final place. He is active on the Internet. At
+physics.stackexchange.com, he has over 130k reputation points. I have 34,
+total.
+
+A question I posed myself was how to deal with him.
