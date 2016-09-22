@@ -37,4 +37,27 @@ running but did not track his final place. He is active on the Internet. At
 physics.stackexchange.com, he has over 130k reputation points. I have 34,
 total.
 
-A question I posed myself was how to deal with him.
+A question I posed myself was how to deal with him. Rational discussions were
+rules out. A bet would not work since we are not of equal stature in the
+physics community. I wanted something one-sided and long term. My idea back in
+2004 was to write Lubos a check that I would mail him if any time in ten years
+there was a consensus in the physics community that more than four dimensions 
+were needed to describe gravity and the standard model. Here are the two checks
+because I changed banks somewhere in the middle:
+
+![]()
+
+This is my documentation that I believe Lubos is wrong about the direction
+physics should go. In 2014, I did not send him the check.
+
+When grounded in current high energy physics, I will listen to his views. I am
+a skeptic, which means to me I will invest a small amount of effort to
+understand another person's vision. With Lubos, I am a cynic, one who dismisses
+the argument withoug any efforts because of my perception of a bad track
+record. I know people are cynical about my work (see the Becket quaote at the
+end of this blog). I ignore is promotion of work on strings. Note, I now always
+use the phrase "work on strings" because such research never formed a
+scientific theory, a coherent intellectual structure that can be used to make
+many predictions confirmed by experiment.
+
+In the Spring of 2015, I came up with a new approach to gravity.
