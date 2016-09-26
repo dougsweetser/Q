@@ -60,4 +60,39 @@ use the phrase "work on strings" because such research never formed a
 scientific theory, a coherent intellectual structure that can be used to make
 many predictions confirmed by experiment.
 
-In the Spring of 2015, I came up with a new approach to gravity.
+In the Spring of 2015, I came up with a new approach to gravity. That story was
+detailed in the previous blog. The starting point is to carefully consider the
+square of a quaternion. Surely someone else has already thought about this. A 
+Google search brought me to this question on physics.stackexchange.com which I
+will quote in full [](http://physics.stackexchange.com/questions/7292/quaternions-and-4-vectors/175223#175223):
+
+    I recently realised that quaternions could be used to write intervals or norms of vectors in special relativity:
+
+    ![](quaternion_squared_question.png)
+
+    Is it useful? Is it used? Does it bring anything? Or is it just funny?
+
+    Isaac, March 20, 2011, 939 reputation points
+
+People ask questions on physics stackexchange because they don't know the 
+answer. Often the question itself is not well-formed. I know I have made that
+mistake myself. In those cases, comments are posed right under the question
+which then gets edited until the question is well-formed and people provide
+suggested answers.
+
+The one line of math is not well-formed for three different reasons. Let me go
+from mini, to minor, silent, to train wreck. The mini issue is that quaternions as a four
+vector have four basis elements, not just three. To make the basis for the time
+term explicit instead of implicit, I have often used the letter "e" to complete
+the collection with i, j, and k. The minor issue is that one should not mix the
+tuple notation - the paratheses - with the vector notation. It took quite a bit
+of polite pestering from David Halliday for me to finally see that issue. The
+lefthand side should be written as:
+
+![](two_ways_to_write_a_quaternion.png)
+
+Pick one and stick with it. I favor the first form since it uses fewer marks on
+a page.
+
+Note that either way it is written, there is no subscript or a superscript. I 
+call this the silent error. In special relativity
