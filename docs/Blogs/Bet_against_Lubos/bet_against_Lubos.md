@@ -95,4 +95,9 @@ Pick one and stick with it. I favor the first form since it uses fewer marks on
 a page.
 
 Note that either way it is written, there is no subscript or a superscript. I 
-call this the silent error. In special relativity
+call this the silent error. In mathematics, a vector can be added to another
+vector or multiplied by another scalar. In physics, a 4-vector means something
+more specific. Not only does it have those qualities, but it also lives in
+either a tangent or a cotangent space of a manifold. That is signified by the
+subscript or superscript. An interval results by contracting with a metric
+tensor. In flat space-time, there is one tangent or cotangent space for all.
