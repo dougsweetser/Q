@@ -101,3 +101,17 @@ more specific. Not only does it have those qualities, but it also lives in
 either a tangent or a cotangent space of a manifold. That is signified by the
 subscript or superscript. An interval results by contracting with a metric
 tensor. In flat space-time, there is one tangent or cotangent space for all.
+In curved space-time, every point has its own tangent space. One has to specify
+the path to do any calcultion of an interval since different paths will have
+different sets of tangent spaces. This is different from a quaternion-based
+calculation where there is only one rule for calculating squares. Apple, meet
+orange. Quaternions work in the manifold, the special relativity interval is
+in the tangent space of the manifold.
+
+A quaternion multiplied by a quaternion generates a quaternion. The train-wreck
+error was that the result of the calculation was plain old-fashioned wrong.
+Here is the correct answer:
+
+![](quaternion_squared.png)
+
+
