@@ -110,8 +110,168 @@ in the tangent space of the manifold.
 
 A quaternion multiplied by a quaternion generates a quaternion. The train-wreck
 error was that the result of the calculation was plain old-fashioned wrong.
-Here is the correct answer:
+Here is a pedantic way to write the square of a quaternion:
 
 ![](quaternion_squared.png)
 
+The fact that the original poster ignored thre three imaginary terms is
+interesting. It shows the bias of talking about what is familiar, ignoring the
+strange. The Lorentz invariant interval of special relativity is familiar. The
+terms I call space-times-time - (2tx, 2ty, 2tz) - are not.
 
+The top voted reply by Peter Morgan was a suggestion to go study Clifford
+algebas, reading what John Baez has written about often on SPR and kept on his
+web site. Further study is always a good thing, but why not stay focused on the
+question at hand?
+
+Morgan writes out all the correct terms for the square of a quaternion in his
+answer:
+
+    Isaac, this is how I think your derivation ought to go, if we just use
+
+    The xy,yz,zx terms cancel nicely, but the  tx, ty, tz terms don't,
+    unless we do as Luboš did and introduce the conjugate
+    q<super>*</super>=t−ix−jy−kz. This, however, doesn't do what I take you to be
+    trying to do. So, instead, ...
+
+STOP. There is no need for an instead. Why does Morgan *presume* that the three
+space-times-time terms must be equal to zero? As John Baez has pointed out, a
+metric tensor is a machine that can take in two 4-vectors and spit out one
+number in return. A metric tensor has formally nothing to say about the three
+space-times-time terms. Silence does not mean zero. If one starts with four
+pieces of information with an event, then one should end up with four pieces of
+information so that information is not lost. The standdard approach to
+calculating intervals does lose information.  If you have two observers and
+those two observers are moving at a constant velocity to each other along the x
+axix only, we know the following:
+
+![](full_square.png)
+
+Seeing the two intervals are equal will say that the two observers are moving
+at a constant velocity to each other. It also says nonthing about what that
+motion is. An analysis of the three space-times-time terms will reveal the
+exact motion. That is great information to know. Space-times-time data is
+useful.
+
+The invariant interval of special relativity can be represent using analytic
+geometry. The familiar light cone has hyperbolas that are curves with equal
+intervals.
+
+![](Light.no_label.png)
+
+I could write three such graphs for each of the imaginary sptial directions,
+but have combined them for simplicity. The time like intervals are always
+positive real numbers. The space-like intervals are always negative real
+numbers. An interval of zero is a path only the massless photon and gluon can
+travel.
+
+Now ask the question in reverse: what if two observers agree to the
+space-times-time value, but disagree about the interval? What area of physics
+is involved? The only subject I know where the metric changes is gravity. If
+one insists on preserving the space-times-time value and being consistent with
+weak gravitational field tests, open up Misner, Thorne, and Wheeler to equation
+40.2:
+
+
+Observers at different hieghts in a gravitational field will make different
+measurements of dt, dx, dy, and dz. The intervals will be different. Yet their
+space-times-time calculations will be the same.
+
+Use analytic geometry to draw constant space-times-time curves:
+
+![](Gravity.no_label.png)
+
+This graph is the light cone graph rotated by 45 degrees. The constant
+space-times-time hyperbolas are positive or negative imaginary numbers.
+
+We finally get to Lubos's reply.  I will quote it in full:
+
+    It's just funny. Note that your equation doesn't actually use any single
+    general quaternion. You only use the i,j,ki,j,k imaginary units in an *ad hoc*
+    way to get three minus signs whenever you need them.
+
+    If you were using an actual quaternion
+
+    ![](q_vector.png)
+
+    then the only semi-natural real bilinear invariant you may construct out of it
+    is
+
+    ![](q_norm.png)
+
+    se the 4 real components in a quaternion still have the Euclidean, rather than
+    Minkowskian, signature. But even for a 4-dimensional Euclidean space, the
+    quaternions are actually just a game because we haven't really used the main
+    nontrivial structure of the quaternions, their multiplication, in any
+    nontrivial way. Quaternions are not genuine quaternions if you never use the
+    relations *ij=−ji=k* and its cyclic permutations - and we haven't used
+    them above. We only used the fact that *i, j* etc. anticommute with each other,
+    but we didn't really care what their product is.
+
+    Because we haven't really used those relations, we haven't used full
+    quaternions - except as a meaningless bookkeeping device. In the same way, one
+    may organize 8 real numbers under the umbrella of a single "octonion" except
+    that if the complicated and cool octonion multiplication table - with the G<sub>2</sub>
+    automorphism group - is never employed, it's clear that the "octonion"
+    interpretation was just a game to give a name to a collection of 8 numbers. But
+    not every collection of 4 or 8 numbers deserves to be called "quaternion" and
+    "octonion", even though, of course, one may get the individual components out
+    of the "quaternion" and "octonion", too.
+
+    In the very same way, a general pair of two real numbers is simply not a
+    complex number. By its very essence, a complex number must act as one number -
+    so there must be a notion of holomorphy required somewhere or everywhere in the
+    formalism - rather than two numbers. The references linked in the other answers
+    don't understand the purpose and relevance of all those mathematical
+    structures, so they lead to incorrect answers to the fundamental question
+    whether the trick is real or just a fun. The right answer is that it is just a
+    fun, and your fun even used a wrong signature that differs from a somewhat more
+    natural fun.
+
+This is a defensible position. As such, I have no doubt if asked today Lubos
+will still consider it a flawless answer. My comments that follow are not
+directed toward Lubos who has demonstrated the intellectual flexibility of a
+stapler. Rather it is for the entertainment of people who like taking down
+folks with more than 130,000 reputation points.
+
+Lubos completely ignores the original poster's question which is typical of his
+sytle. There is nothing *ad hoc* about the rule for multiply quaternions on a
+four dimensional real manifold to assure that an inverse exists unless the 
+quaternion is zero. The original post was asking about something that is
+central to special relativity, the real-valued interval.
+
+Here is the misdirection play:
+
+    ...then the only semi-natural real bilinear invariant you may construct out of
+    it is...
+
+I have no notion of what "semi-natural" might mean. What does it take to be
+fully natural? All that is going on is that Lubos is making a similar
+assumption that if one does an operation to get the Lorentz invariant interval,
+the other terms necessarily should be zero. That cannot be done with
+quaternions, and that is a good thing.
+
+The real flaw in the statement is the inclusion of the word "invariant".
+Invariant by itself is meaningless. One is required to list the transformations
+that keep the value invariant. The rotation group SO(3) would point the
+imaginary spatial vector in a new direction leaving the norm unchanged. The
+group U(1) would also neave the quaternion norm unaltered. The group U(1) is
+the gauge group symmetry of electromagnetism. Quaternions are a normed division
+algebra. Since the norm of U(1) is one, that would mean anytime one took the
+norm of a quaternion expression - no matter how complicated - that norm would
+be invariant if multiplied by a member of U(1). The same goes for the unitary
+quaternion SU(2) which is the gauge group for the weak force.
+
+This is the power of using quaternions as a unified algebra. Anytime one takes
+the norm of any quaternion expression, we know that norm will not change under
+an electro-weak tranformation without doing a thing. I consider that fully
+natural.
+
+Lubos makes the same trainwreck error that the original poster did. A
+quaternion times the conjugate of a quaternion creates a quaternion. The right
+answer for the calculation of the norm is:
+
+![](q_norm_corrected.png)
+
+The full quaternion algebra is required for all these calcellations. There is
+often interesting physics at nearby point. Think about (q+dq)q<sup>*</sup>. 
