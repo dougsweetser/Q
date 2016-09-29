@@ -199,7 +199,7 @@ We finally get to Lubos's reply.  I will quote it in full:
 
     ![](q_norm.png)
 
-    se the 4 real components in a quaternion still have the Euclidean, rather than
+    so the 4 real components in a quaternion still have the Euclidean, rather than
     Minkowskian, signature. But even for a 4-dimensional Euclidean space, the
     quaternions are actually just a game because we haven't really used the main
     nontrivial structure of the quaternions, their multiplication, in any
@@ -274,4 +274,67 @@ answer for the calculation of the norm is:
 ![](q_norm_corrected.png)
 
 The full quaternion algebra is required for all these calcellations. There is
-often interesting physics at nearby point. Think about (q+dq)q<sup>*</sup>. 
+often interesting physics at nearby point. Think about (q+dq)q<sup>\*</sup>. The
+nieghborhood of norm will use the three imaginaries. Do I know of even one
+problem in physics that can be addressed by exploring the neighborhood of a
+norm? The direct answer is no. Since I have both U(1) and SU(2) symmetry, it
+does strike me as something that is worth further study.
+
+Anytime one has a simple agelbraic expression, it means there is a graph one
+should generate. The symmetry of U(1) is known as a unit circle in a complex
+plane:
+
+![](U1.no_label.png)
+
+All three spatial dimensions are bundled together as one imaginary factor. If
+the three imaginaries are kept separate, a graph of SU(2) results which I am
+suggeting as a sphere:
+
+![](SU2.no_label.png)
+
+To be honest, I don't deeply understand these graphs at this point. That can be
+a sign one is doing research: things are precisely defined but all the
+implications are not clear. One can be inside the circle or sphere, on the
+circle or sphere, or outsite. It will take many particles to create such a
+structure since half the points have a space-like separation. How exactly is
+this related to charge conservation?
+
+Lubos wrote "so the 4 real components in a quaternion still have the
+Euclidean, rather than Minkowskian, signature. I call this sophisticated
+garbage. The Minkowski metric tensor thakes two 4-vectors and returns one real
+number. The elements along the diagonal of the 4x4 matrix are +--- or -+++ for
+a signature of +2 or -2 respectively. If instead one works with a Euclidean
+metric tensor, then all the elements on the diagonal are ++++ for a signature
+of +4.
+
+Quaternions don't use a metric tensor. Ever. QUaternions are neither covariant
+nor contravariant 4-vectors living in a tangent space. If one represents a
+quaternion as a matrix, onlyt the first term of that lives along the diagonal
+of the 4x4 matrix. The signature of the matrix is either +4 or -4, depending
+only on the sign of the first term. There is nothing wrong with working with
+both the square of a quaternion *and* the norm of a quaternion. This is
+different from the situation using metric tensors where such a choice needs
+to be addressed.
+
+It was great to read this:
+
+    In the very same way, a general pair of two real numbers is simply not a
+    complex number. By its very essence, a complex number must act as one number -
+    so there must be a notion of holomorphy required somewhere or everywhere in the
+    formalism - rather than two numbers.
+
+Initially, I did think of a quaternion only as a collection of rules one
+applies to four real numbers. With complex numbers, one does not have to deal
+exclusively with the manifold R<sup>2</sup> as they are always introduced.
+Instead one can work with the complex manifold. One then works with z and its
+conjugate z<sup>\*</sup>. With a quaternion manifold, two more conjugates are
+required. The first conjugate will keep one of the spatial elements positive
+while flipping the other three terms. The second conjugate will keep a
+different spatial element positive while filling the other three. To keep the
+sign of the third one the same while flipping all the others, no more
+conjugates are required. Instead, multiply by minus one times all three
+conjugates to do the job. There are few people who think about quaternions as
+more than just funny, and fewer still who consider it to be one number.
+
+It was this idea of a quaternion as one number that drove me to develop
+space-time numbers.
