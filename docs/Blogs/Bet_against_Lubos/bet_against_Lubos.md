@@ -337,4 +337,24 @@ conjugates to do the job. There are few people who think about quaternions as
 more than just funny, and fewer still who consider it to be one number.
 
 It was this idea of a quaternion as one number that drove me to develop
-space-time numbers.
+space-time numbers. I have blogged about them earlier. Instead of four numbers,
+there are 8 just like the quaternion group Q<sub>8</sub>. Space-times-time
+numbers do not use the real number, starting instead with more basic
+incredient like zero, one, and the set of positive numbers. There is an
+equivalence relation so one can always go from the space-times-time numbers to
+quaternions.
+
+Quaternion bashing is an old sport. With little effort, one could cite the
+literature in support of of Lubos' replay. Let's compile of list of "just
+funny" links one can make between the two simple quaternion functions of a
+square and norm with physics. Start with two observers looking at the
+difference between two events (which eliminates the need to agree about the
+origin). Let both observers square the values they obtained. If both intervals
+are the same, then the space-times-time values can be used to figure out how
+one observer is moving steadily relative to the other. If the three
+space-times-time values are identical, then the difference in the invervals can
+be used to determine the difference in GM/c<sup>2</sub>R between betweeen the
+two observers. If the norms are the smae, then there exists both a U(1) and an
+SU(2) transformation between the two. At this point, I have not idea what that
+means. I do believe that someday it will be useful. I like betting against
+Lubos.
