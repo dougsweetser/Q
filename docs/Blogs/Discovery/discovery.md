@@ -44,4 +44,36 @@ Nothing.
 I have a crazy number of constraints in my life between work, family, diabetes,
 and this research effort. With so little freedom, I have to make good choices
 about what questions are good to think about. While walking the dog or shopping
-for 2$ milk for my daughter, I questioned how good was the question itself?
+for 2% milk for my daughter, I questioned how good was the question itself?
+
+Einstein figured out the physics of special relativity. The physics had logical
+consequences such as two inertial observers could disagree about events being 
+simultaneous. He was not a math guy. Eventually he was told that the interval
+was calculated using a metric tensor contracting contravariant 4-vectors. He
+figured out based on his deep thinking about physics, that such a metric would
+have to be dynamic in order to explain gravity.
+
+What if instead, Einstein had been told that the math he was doing used the 
+square of a quaternion? That would not change the ability to do any problems in
+special relativity. I say this based on taking  8.033, Classical and 
+Relativitic Mechanics at MIT in the fall of 1997 and solving every problem set
+using quaternions (50+ problems in all). I have no doubt that in such an 
+alternative history, in less than two months we would have a simple set of
+logical questions. Consider two observers looking at a pair of events. They both
+calculate the difference between the events. They then square this difference.
+What is the relationship between the two observers in these four cases:
+
+1. Both observers agree on the interval and the space-times-time.
+2. Both observers agree on the interval and disagree on the space-times-time.
+3. Both observers disagree on the interval and agree on the space-times-time.
+4. Both observers disagree on the interval and space-times-time.
+
+Case 1 is simple. Nature is consistent. The observers are not moving relative
+to each other. There is no material difference between the two.
+
+Case 2 is special relativity. 
+
+Case 3 requires some thought. Case 2 covers observers travelling at a constant
+velocity relative to each other, inertial observers, so this must be a 
+different situation, non-inertial observers. How could they agree on their
+space-times-time? One would have to go up while the other went down.
