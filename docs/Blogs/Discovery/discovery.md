@@ -77,3 +77,23 @@ Case 3 requires some thought. Case 2 covers observers travelling at a constant
 velocity relative to each other, inertial observers, so this must be a 
 different situation, non-inertial observers. How could they agree on their
 space-times-time? One would have to go up while the other went down.
+
+Imagine two observers. One is lying down on the surface of a planet, the other
+is up high, carried aloft by some balloons. Balloon girl's heart will be able
+to beat faster since she is not under as much stress from gravity. Her meter
+stick will expand too. When she makes a measurement of a pair of events, the
+time difference will increase due to the faster heart beat while the measured
+distance will be smaller with a larger meter stick. The lying down man would
+experience the opposite effects. His heart would beat more slowly while his
+meter stick got more compressed. That would make the measurements of a time
+difference larger, but of a distance difference smaller.
+
+In physics, details matter. While it is the case that boing higher in a
+gravitational field does make the measurements of time increase and space
+decrease, how do they change exactly? With general relativity, the answer
+cannot be answered until one has said explicitly what is the choice of
+coordinates. At some point, I wondered, could there be any overlap between
+the space-times-time invariance proposal for gravity and standard general
+relativity? The chapter I studied most closely in Misner, Thorne, and Wheeler
+was Chapter 40, "Solar-System Experiments". The first unnumbered equation is
+the Schwarzschild solution in Schwarzschild spherical coordinates.
