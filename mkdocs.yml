@@ -69,7 +69,7 @@ pages:
     - 'Art Portfolio': 'Stuff/art.md'
     - 'Buttons': 'Stuff/buttons.md'
     - 'PDFs': 'Stuff/pdfs/pdfs.md'
-    - 'Talks on Gravity': 'Talks/talks.md'
+    - 'Talks on Gravity': 'Stuff/Talks/talks.md'
 - About:
     - 'Professional sketch': 'About/professional_sketch.md'
     - 'Personal Sketch': 'About/personal_sketch.md'
