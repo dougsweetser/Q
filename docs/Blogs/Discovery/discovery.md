@@ -96,4 +96,13 @@ coordinates. At some point, I wondered, could there be any overlap between
 the space-times-time invariance proposal for gravity and standard general
 relativity? The chapter I studied most closely in Misner, Thorne, and Wheeler
 was Chapter 40, "Solar-System Experiments". The first unnumbered equation is
-the Schwarzschild solution in Schwarzschild spherical coordinates.
+the Schwarzschild solution in Schwarzschild spherical coordinates. Here is a
+minor rewrite, the Cartesian form:
+
+![](Schwarzschild_solution.png)
+
+It is easy to construct an ad hoc proposal that would be consistent with this
+result of solving the Einstein field equations and the space-times-time
+invariance as gravity proposal:
+
+
