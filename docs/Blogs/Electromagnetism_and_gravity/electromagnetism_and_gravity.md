@@ -1,4 +1,4 @@
-* Electromagnetism in a gravity field for the quaternion gravity proposal
+# Electromagnetism in a gravity field for the quaternion gravity proposal
 
 Gravity is king, effecting everything. In this blog, the details of gravity's
 effects on light will be detailed for both general relativity and the
@@ -45,7 +45,7 @@ calculate these two fields using an antisymmetric, rank-2 tensor. Write out the
 definition of the electromagnetic field strength tensor using covariant
 derivatives:
 
-![](b_filed_def.png)
+![](b_field_def.png)
 
 There are a number of assumptions that go into this calculation. There are a
 great many choices one could make about the connection. I use the ones that are
@@ -56,7 +56,7 @@ electromagnetic field strength tensor is "manifestly covariant".
 
 Consider a box with a stable electric and magnetic field in it. Move that box
 anywhere you like in a gravitational field, even close to a black hole. The
-strength of the E and B field will not change. What will change is a
+strength of the __*E*__ and __*B*__ field will not change. What will change is a
 measurement of the energy density of that field. The reasons is that the energy
 depends on the sum of squares of these two fields. The squaring operation
 requires the use a metric tensor which does vary as one moves around a
