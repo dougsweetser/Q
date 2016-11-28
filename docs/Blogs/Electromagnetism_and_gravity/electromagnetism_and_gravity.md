@@ -61,3 +61,7 @@ measurement of the energy density of that field. The reasons is that the energy
 depends on the sum of squares of these two fields. The squaring operation
 requires the use a metric tensor which does vary as one moves around a
 gravitational field. 
+
+There is still a problem with claiming that neither field changes. We know that
+general relativity says that in a gravity field, the time portion of a
+measurement will get smaller while the space measurement gets bigger.
