@@ -64,4 +64,21 @@ gravitational field.
 
 There is still a problem with claiming that neither field changes. We know that
 general relativity says that in a gravity field, the time portion of a
-measurement will get smaller while the space measurement gets bigger.
+measurement will get smaller while the space measurement gets bigger. Write out
+the definition:
+
+![](E_and_B_def.png)
+
+The electric field __*E*__ has two parts: a time operator acting on a spatial
+potential and a spatial operator acting on a temporal potential. If temporal
+things get smaller, that might balance out the increase in the spatial terms.
+The same cannot be said about the magnetic field __*B*__. A spatial operator
+acting on a spatial potential can only grow larger. 
+
+In general relativity, there is an additional requirement. All elements used
+must transform as tensors. It is this requirement that leads to a term that
+removes any change to the magnetic field __*B*__. The details of the math
+tool trumps physical interpretation. This is neither a good nor bad thing. In
+terms of logical consistency, it would be nonsense to say there magnetic field is
+the one thing that does not transform like a tensor since it is part of the
+second rank anti-symmetric field strength tensor.
