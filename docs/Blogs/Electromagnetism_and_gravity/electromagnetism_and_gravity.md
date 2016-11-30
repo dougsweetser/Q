@@ -82,3 +82,17 @@ tool trumps physical interpretation. This is neither a good nor bad thing. In
 terms of logical consistency, it would be nonsense to say there magnetic field is
 the one thing that does not transform like a tensor since it is part of the
 second rank anti-symmetric field strength tensor.
+
+This is the first time however that I can say I have an issue with general
+relativity that has to do with the physical logic. If time-like things get
+smaller, and space-like things get larger, than the magnetic field must get
+larger due to gravity. 
+
+What physical reason is there to expect an eletric field to behave differently
+from a magnetic field since both are part of the same electromagentic field? I
+think of the electric field as a measure of quantized electric charge. Say
+there were only three such charges in a volume. It would not matter where those
+three charges were in a gravity field, the electric field stays the same. The
+magenetic field would be those three charges in motion. It is motion that is
+always effected by gravity. Therefore magnetism, charges in motion, must be
+changed due to where it is in a magnetic field.
