@@ -95,4 +95,31 @@ there were only three such charges in a volume. It would not matter where those
 three charges were in a gravity field, the electric field stays the same. The
 magenetic field would be those three charges in motion. It is motion that is
 always effected by gravity. Therefore magnetism, charges in motion, must be
-changed due to where it is in a magnetic field.
+changed due to where it is in a gravitational field.
+
+There is another way to see that the current situation with electromagnetism
+and general relativity is odd. Imagine a pair of identical boxes that have a 
+certain electric and magnetic field inside of them. One box is closer to a
+gravitational source than the other. To figure out the metric tensor, one could
+send a photon from the lower box to the upper box and determine how much the
+photon was gravitationally redshifted. Thus one is using a photo to determine
+the gravitational field. A photon is an excitation of the eletromagnetic field.
+It seams odd to me that only the travelling photon can know about the change in
+the gravitational field and not the fields themselves.
+
+## Big Consequences to Being a Little Different
+
+This blog has provided a few physical reasons to argue that while an electric
+field might not change in a gravity field, there is a way to justifying the
+magnetic field would change. However space changes in a gravity field,
+magnetism is only uses spatial terms. Magnetism is charge in motion, and motion
+is what is altered by gravity. It is not logically consistent to use photons to
+detail the strength of a graavity field but not be able to do the same with the
+electric and magnetic fields themselves.
+
+The math machinery of exterior derivatives is clear, consistent, and
+well-studied. The curl is independent of the metric, so there is no way it can
+change. One would need to abandon tensors. Yet one cannot abandon tensors
+because tensors cover everything, even real and complex numbers.
+
+The real and complex numbers are tensors of rank 0.
