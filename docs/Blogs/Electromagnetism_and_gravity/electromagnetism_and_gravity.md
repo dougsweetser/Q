@@ -114,12 +114,22 @@ field might not change in a gravity field, there is a way to justifying the
 magnetic field would change. However space changes in a gravity field,
 magnetism is only uses spatial terms. Magnetism is charge in motion, and motion
 is what is altered by gravity. It is not logically consistent to use photons to
-detail the strength of a graavity field but not be able to do the same with the
+detail the strength of a gravity field but not be able to do the same with the
 electric and magnetic fields themselves.
 
 The math machinery of exterior derivatives is clear, consistent, and
 well-studied. The curl is independent of the metric, so there is no way it can
-change. One would need to abandon tensors. Yet one cannot abandon tensors
-because tensors cover everything, even real and complex numbers.
+change due to changes in the metric tensor. One would need to abandon tensors.
+Yet one cannot abandon tensors because tensors cover everything, even real and
+complex numbers.
 
-The real and complex numbers are tensors of rank 0.
+The real and complex numbers are tensors of rank 0. They have their own
+"private" rules for adding, subtracting, multiplying, and dividing. Those rules
+do not change in flat or curved space-time. They are effectively "on for the
+ride" when one decides coordinates, picks metrics and connections, and all that
+jazz.
+
+In my work, I only use tensors of rank 0 for every step of the mathematical
+analysis of patterns of events in space-time. This makes the logic of
+operations universal no matter what kind of physics domain is in play:
+classical, relativistic, quantum or combinations of these. 
