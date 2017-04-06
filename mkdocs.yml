@@ -72,6 +72,7 @@ pages:
     - 'Talks on Gravity': 'Stuff/Talks/talks.md'
 - About:
     - 'Professional sketch': 'About/professional_sketch.md'
+    - 'Resume': 'About/resume.md'
     - 'Personal Sketch': 'About/personal_sketch.md'
     - 'Lindy Hop': 'About/lindy_hop.md'
     - 'The bike': 'About/bike.md'
