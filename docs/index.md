@@ -2,6 +2,9 @@
 Doug](images/Index/turq_einstein_txyz_doug.jpg) ![Doing
 Physics with Quaternions](images/Index/banner.jpg)
 
+Follow new insights on Twitter: [visualphysics](https://twitter.com/visualphysics)
+<br>Support research via Patreon: [https://www.patreon.com/dougsweetser](https://www.patreon.com/dougsweetser)
+
 | [![](images/Index/txyz.jpg) <br/> <font class="fa-2x"> Math </font>](Math/math.md) | [![Force equals mass times acceleration](images/Index/fma.jpg) <br/> <font class="fa-2x"> Classical Physics </font>](Classical_physics/classical_physics.md) | 
 | :---:   | :--:      | 
 | [![energy equals gamma m c squared](images/Index/egmc2.jpg) <br/> <font class="fa-2x">**Special Relativity**</font>](SR/special_relativity.md) | [![F equals minus G M m over R squared](images/Index/fgmmr2.jpg) <br/> <font class="fa-2x"> **Quaternion Gravity!** </font>](Gravity/gravity.md) | 
