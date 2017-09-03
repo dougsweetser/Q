@@ -3899,6 +3899,7 @@ available for [$1.99 as a pdf, epub, or mobi file](https://leanpub.com/SRQ)
 
 ## Bits of this site
 
+1. [Space-times-time invariance as gravity in 2 pages](quaternion_gravity_in_2_pages.pdf) - 2 pages
 1. [Where quaternions fit](math_structure.pdf) - 1 page
 1. [Space-time equivalence classes](EQ_classes_all_pages.pdf) - 10 pages
 1. [Space-time Geometries](Space-time_geometries.pdf) - 1 page
