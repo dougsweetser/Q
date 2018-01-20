@@ -70,6 +70,7 @@ pages:
     - 'Buttons': 'Stuff/buttons.md'
     - 'PDFs': 'Stuff/pdfs/pdfs.md'
     - 'Talks on Gravity': 'Stuff/Talks/talks.md'
+    - 'Buy Stuff': 'Stuff/shop.md'
 - About:
     - 'Professional sketch': 'About/professional_sketch.md'
     - 'Resume': 'About/resume.md'
