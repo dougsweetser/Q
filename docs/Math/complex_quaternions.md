@@ -22,7 +22,7 @@ the real numbers, the complex numbers, and the quaternions. Going into this
 much detail requires my longest essay ever. To provide an overview, here is one
 image with the information:
 
-![motion.gif](../images/Math/complex_quaternions/image27.gif)
+![motion.gif](../images/Math/complex_quaternions/all_animation.gif)
 
 In this essay we will discuss each area to understand the logic of numbers
 Nature may use to account for everything.
