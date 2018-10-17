@@ -22,7 +22,7 @@ the real numbers, the complex numbers, and the quaternions. Going into this
 much detail requires my longest essay ever. To provide an overview, here is one
 image with the information:
 
-![motion.gif](../images/Math/complex_quaternions/image27.gif)
+![motion.gif](../images/Math/complex_quaternions/all_animation.gif)
 
 In this essay we will discuss each area to understand the logic of numbers
 Nature may use to account for everything.
@@ -195,7 +195,7 @@ folks at groupprops.subwiki.org use x, but -1 is common. To be honest, I use
 
 Graph theory can be used to communicate the same information:
 
-![real_multiplication.jpg](../images/Math/complex_quaternions/image31.jpg)
+![real_multiplication.jpg](../images/Math/complex_quaternions/Rx_800.png)
 
 The vertices are the cubes, the edges are the pipe cleaners. The trivial group
 represented by *e*=0 in black is here. The trivial group represented by *e*=1 
@@ -227,7 +227,7 @@ the set of positive reals without zero.
 
 A way to represent the real numbers addition is with the real number line:
 
-![real_addition.jpg](../images/Math/complex_quaternions/image03.jpg)
+![real_addition.jpg](../images/Math/complex_quaternions/R+_800.png)
 
 What is this figure really? It is not a graph which has a vertex, edge, and
 vertex. I look at it as a statement of topology: the positive numbers connect
@@ -404,7 +404,7 @@ columns.
 The graph of the multiplication will show the same information as the product
 table to a different part of the brain.
 
-![complex_multiplication.jpg](../images/Math/complex_quaternions/image14.jpg)
+![complex_multiplication.jpg](../images/Math/complex_quaternions/Cx_800.png)
 
 The edges with *e* and *i^2^* in white loops and the gray cross are bi-directional.
 The edge in yellow with a white bead is *i*, but with a black bead is *i^3^*. These
@@ -430,7 +430,7 @@ thing to notice is that both rules share the same additive identity. That
 requires the real number line which contains *e* and *i^2^*, must intersect the
 imaginary one, with *i* and *i^3^* like so:
 
-![complex_addition.jpg](../images/Math/complex_quaternions/image20.jpg)
+![complex_addition.jpg](../images/Math/complex_quaternions/C+_800.png)
 
 This is the complex plane. Addition works like one would expect. Multiplying
 by a time number expands or contracts how long something is around.
@@ -543,7 +543,7 @@ eight elements appears only once per row and once per column.
 The graph for multiplication using the quaternion group Q~8~ is the most complex
 we have seen so far:
 
-![Q8_graph.png](../images/Math/complex_quaternions/image07.png)
+![Q8_graph.png](../images/Math/complex_quaternions/Qx.png)
 
 The complex planes run along diagonals. One error checking technique I use is
 to make sure the white directional beads go in a circle opposite of the black
@@ -562,7 +562,7 @@ of two:
 
 All share the same zero, the additive inverse.
 
-![q_addition.jpg](../images/Math/complex_quaternions/image10.jpg)
+![q_addition.jpg](../images/Math/complex_quaternions/Q+.png)
 
 When I constructed this with a hot glue gun, it was simple enough to have six
 straws line up and pass through the cube which has six faces. It was
@@ -576,7 +576,7 @@ One thing should be striking: complex numbers look like they are great to deal
 with flat planes, while quaternions are obviously designed for the animated 3D
 world we live in:
 
-![c_vs_q.jpg](../images/Math/complex_quaternions/image21.jpg)
+![c_vs_q.jpg](../images/Math/complex_quaternions/CQ_800.png)
 
 Modern mathematical physics uses complex numbers and avoids quaternions.
 Visually, I can no longer defend the status quo.
