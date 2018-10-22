@@ -7,5 +7,7 @@
     * [Special relativity](Measurement-101/special_relativity.md)
     * [Quaternion gravity](Measurement-101/quaternion_gravity.md)
     * [SR + GR: Special relativity and quaternion gravity](Measurement-101/measure_it_all.md)
+1. [Three roads to quaternion gravity](three_roads_to_quaternion_gravity.pdf)
+   2018, 13 pages.
 1. [Quaternion space-times-time invariance as gravity](space-times-time_invariance.md)
 1. [The *2015 Essays on Gravitation* contest](essays_on_gravitation.md)
