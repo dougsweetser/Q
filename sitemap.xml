@@ -1,374 +1,283 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-    
     <url>
-     <loc>None/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
-        
     <url>
-     <loc>None/Math/math/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/Math/overview/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/Math/history/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/Math/numbers_101/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/Math/multiplying/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/Math/products/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/Math/scalars_vectors/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/Math/complex_quaternions/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/Math/equivalence_classes/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/Math/analysis/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/Math/topology/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/Math/fit/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/Math/tools/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
     <url>
-     <loc>None/Classical_physics/classical_physics/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/Classical_physics/force/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/Classical_physics/sho/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/Classical_physics/conservative_force/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
     <url>
-     <loc>None/SR/special_relativity/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/SR/problem_sets/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/SR/problem_set_1/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
     <url>
-     <loc>None/Gravity/gravity/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/Gravity/Measurement-101/measure/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/Gravity/Measurement-101/special_relativity/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/Gravity/Measurement-101/quaternion_gravity/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/Gravity/Measurement-101/measure_it_all/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/Gravity/space-times-time_invariance/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/Gravity/essays_on_gravitation/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
     <url>
-     <loc>None/EM/em/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/EM/derive_Euler-Lagrange/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/EM/EM_invariants/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/EM/derive_Maxwell_homogeneous_equations/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/EM/derive_Maxwell_source_equations/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/EM/Maxwell_by_hand/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
     <url>
-     <loc>None/QM/qm/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/QM/bracket_notation/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/QM/polar/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/QM/uncertainty_principle/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/QM/spin_and_angular_momentum/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/QM/Schrodinger/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/QM/Klein-Gordon/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/QM/standard_model_symmetries/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/QM/time_reversal/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
     <url>
-     <loc>None/Stuff/art/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/Stuff/buttons/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/Stuff/pdfs/pdfs/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/Stuff/Talks/talks/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/Stuff/shop/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
     <url>
-     <loc>None/About/professional_sketch/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/About/resume/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/About/personal_sketch/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/About/lindy_hop/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/About/bike/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/About/thanks/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/About/todo/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>None/About/contact_and_tip/</loc>
+     <loc>None</loc>
      <lastmod>2018-10-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
 </urlset>

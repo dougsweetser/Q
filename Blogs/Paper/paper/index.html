@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="sweetser@alum.mit.edu">
+        
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Paper CQG-102165 on Quaternion Gravity Rejected - Q</title>
+        <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-9710248-1', 'dougsweetser.github.io/Q');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../../..">Q</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="../../.."></a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Math <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../../Math/math/">The Math</a>
+</li>
+                                    
+<li >
+    <a href="../../../Math/overview/">Overview</a>
+</li>
+                                    
+<li >
+    <a href="../../../Math/history/">History</a>
+</li>
+                                    
+<li >
+    <a href="../../../Math/numbers_101/">Numbers 101</a>
+</li>
+                                    
+<li >
+    <a href="../../../Math/multiplying/">Easy multiplying</a>
+</li>
+                                    
+<li >
+    <a href="../../../Math/products/">Products</a>
+</li>
+                                    
+<li >
+    <a href="../../../Math/scalars_vectors/">Scalars, vectors, tensors and all that</a>
+</li>
+                                    
+<li >
+    <a href="../../../Math/complex_quaternions/">Complex quaternions</a>
+</li>
+                                    
+<li >
+    <a href="../../../Math/equivalence_classes/">Quaternion equivalence classes</a>
+</li>
+                                    
+<li >
+    <a href="../../../Math/analysis/">Analysis</a>
+</li>
+                                    
+<li >
+    <a href="../../../Math/topology/">Topology</a>
+</li>
+                                    
+<li >
+    <a href="../../../Math/fit/">Where quaternions fit</a>
+</li>
+                                    
+<li >
+    <a href="../../../Math/tools/">Math, Tools</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classical <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../../Classical_physics/classical_physics/">Classical physics</a>
+</li>
+                                    
+<li >
+    <a href="../../../Classical_physics/force/">Forces</a>
+</li>
+                                    
+<li >
+    <a href="../../../Classical_physics/sho/">Simple Harmonic Oscillators</a>
+</li>
+                                    
+<li >
+    <a href="../../../Classical_physics/conservative_force/">Conservative force</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">SR <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../../SR/special_relativity/">Special Relativity (SR)</a>
+</li>
+                                    
+<li >
+    <a href="../../../SR/problem_sets/">Problem sets</a>
+</li>
+                                    
+<li >
+    <a href="../../../SR/problem_set_1/">Problem set 1</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gravity <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../../Gravity/gravity/">Quaternion gravity</a>
+</li>
+                                    
+<li >
+    <a href="../../../Gravity/Measurement-101/measure/">Measurement-101 - Measuring Events</a>
+</li>
+                                    
+<li >
+    <a href="../../../Gravity/Measurement-101/special_relativity/">Gravity, Measurement-101 - Special relaitivity</a>
+</li>
+                                    
+<li >
+    <a href="../../../Gravity/Measurement-101/quaternion_gravity/">Measurement-101 - Quaternion Gravity</a>
+</li>
+                                    
+<li >
+    <a href="../../../Gravity/Measurement-101/measure_it_all/">Measurement-101 - SR + QG: Special Relativity and Quaternion Gravity</a>
+</li>
+                                    
+<li >
+    <a href="../../../Gravity/space-times-time_invariance/">Quaternion space-times-time invariance as gravity</a>
+</li>
+                                    
+<li >
+    <a href="../../../Gravity/essays_on_gravitation/">Essays on gravitation contest</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">EM <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../../EM/em/">Electromagnetism</a>
+</li>
+                                    
+<li >
+    <a href="../../../EM/derive_Euler-Lagrange/">Derive the Euler-Lagrange equations</a>
+</li>
+                                    
+<li >
+    <a href="../../../EM/EM_invariants/">EM invariants</a>
+</li>
+                                    
+<li >
+    <a href="../../../EM/derive_Maxwell_homogeneous_equations/">Derive the Maxwell homogeneous equations</a>
+</li>
+                                    
+<li >
+    <a href="../../../EM/derive_Maxwell_source_equations/">Derive the Maxwell source equations</a>
+</li>
+                                    
+<li >
+    <a href="../../../EM/Maxwell_by_hand/">Derive the Maxwell source equations by hand</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">QM <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../../QM/qm/">Quantum Mechanics</a>
+</li>
+                                    
+<li >
+    <a href="../../../QM/bracket_notation/">Bracket notation and quaternions</a>
+</li>
+                                    
+<li >
+    <a href="../../../QM/polar/">Multiplying polar representations</a>
+</li>
+                                    
+<li >
+    <a href="../../../QM/uncertainty_principle/">Commutators and the uncertainty principle</a>
+</li>
+                                    
+<li >
+    <a href="../../../QM/spin_and_angular_momentum/">Spin and angular momentum</a>
+</li>
+                                    
+<li >
+    <a href="../../../QM/Schrodinger/">The Schrodinger equation</a>
+</li>
+                                    
+<li >
+    <a href="../../../QM/Klein-Gordon/">The Klein-Gordon equation</a>
+</li>
+                                    
+<li >
+    <a href="../../../QM/standard_model_symmetries/">Visualizing the standard model</a>
+</li>
+                                    
+<li >
+    <a href="../../../QM/time_reversal/">Time reversal</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Art + PDFs <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../../Stuff/art/">Art Portfolio</a>
+</li>
+                                    
+<li >
+    <a href="../../../Stuff/buttons/">Buttons</a>
+</li>
+                                    
+<li >
+    <a href="../../../Stuff/pdfs/pdfs/">PDFs</a>
+</li>
+                                    
+<li >
+    <a href="../../../Stuff/Talks/talks/">Talks on Gravity</a>
+</li>
+                                    
+<li >
+    <a href="../../../Stuff/shop/">Buy Stuff</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../../About/professional_sketch/">Professional sketch</a>
+</li>
+                                    
+<li >
+    <a href="../../../About/resume/">Resume</a>
+</li>
+                                    
+<li >
+    <a href="../../../About/personal_sketch/">Personal Sketch</a>
+</li>
+                                    
+<li >
+    <a href="../../../About/lindy_hop/">Lindy Hop</a>
+</li>
+                                    
+<li >
+    <a href="../../../About/bike/">The bike</a>
+</li>
+                                    
+<li >
+    <a href="../../../About/thanks/">Thanks</a>
+</li>
+                                    
+<li >
+    <a href="../../../About/todo/">To do</a>
+</li>
+                                    
+<li >
+    <a href="../../../About/contact_and_tip/">Contact and tips</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#paper-cqg-102165-on-quaternion-gravity-rejected">Paper CQG-102165 on Quaternion Gravity Rejected</a></li>
+            <li><a href="#abstract">Abstract</a></li>
+            <li><a href="#emotional-response-to-the-rejection">Emotional Response to the Rejection</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="paper-cqg-102165-on-quaternion-gravity-rejected">Paper CQG-102165 on Quaternion Gravity Rejected</h1>
+<p>In the Spring of 2015, I developed a new approach to gravity. It was my
+responsibility to give the peer-review system a try with the paper "Quaternion
+Space-Times-Time Invariance as Gravity". This effort was doomed because I am
+not a peer of a Ph.D. level physicist. I cannot walk their walk, cannot talk
+their talk. And of course the idea could be wrong. I submitted the paper to the
+Journal Classical and Quantum Gravity. I have never been able to read and
+understand an abstract in that journal because it was too dense with jargon.
+The title of the jorunal did sound relevant. Here was the abstract I submitted:</p>
+<h2 id="abstract">Abstract</h2>
+<p>The square of a quaternion luckily has the Lorentz invariant
+interval of special relativity as its first term. The other three
+space-times-time terms are commonly ignored. Ways to vary a quaternion with a
+continuous function that leave the interval in the square invariant are
+discussed. One method uses exponentials, leading to the hyperbolic functions
+found useful in special relativity. Using the same approach to keep the
+space-times-time invariant leads to a dynamic interval term. By preserving the
+space-times-time terms using an exponential function and the geometric source
+mass, an interval term is found that is similar but experimentally distinct
+from the Schwarzschild metric applied to space-time 4-vectors. Space-times-time
+invariance is not a field theory, so gravitons are not necessary and
+quantization is moot.</p>
+<p>The paper was given to one reviewer who provided this one line critique:</p>
+<p>The scientific level of the paper is much below standards adopted in the
+Classical and Quantum Gravity Journal.</p>
+<p>As this is one line, there is not much one can learn from the limited time and
+effort the reviewer devoted to the paper. The paper was so much below standards
+that nothing specific needed to be pointed out. </p>
+<p>We will never know what was the reason for the one line reject. Here are a few
+possibilities: </p>
+<ol>
+<li>
+<p>I used a home address, not one from a University. This says to
+the reviewer that we are not peers, I live in a much lower level cave.  In my
+experience, most such works are not worthy of comment. I have had one exception
+from an engineer in Mexico city about quaternion triple products and gamma
+matrices.  </p>
+</li>
+<li>
+<p>"Quaternions" were in the title, abstract, and paper. In my
+experience, about half of very technical folks don't know what a quaternion is.
+If the reviewer had no working knowledge of quaternion, the paper would be dead
+on the first word in the title. A good third of the folks who do know about
+quaternions hold them in disdain, a leftover from Lord Kelvin's contempt.
+"Space-times-time" is a made up word. Guilty, but what was I supposed to do?</p>
+</li>
+<li>
+<p>Not a field theory? No. N. O. Newton's theory of gravity is a scalar field
+theory. Einstein's general relativity is a metric field theory. All sensible
+proposal for gravity to date have been field theories. Climb on board.</p>
+</li>
+<li>
+<p>Gravitons are not necessary? The name of the journal is "Classical and Quantum
+Gravity". People get jobs in quantum gravity. You cannot have a field theory
+without a particle to mediate it (true by the way, but quaternion gravity is
+like special relativity, math rules for all calculations and thus not a field).</p>
+</li>
+<li>
+<p>The reviewer read the entire article, looked at the references, and concluded
+the scientific level was well below the standard adopted by "Classical and
+Quantum Gravity".  </p>
+</li>
+</ol>
+<p>Reviewers are not paid. They are busy. One or a combination of these could
+explain the one-liner.</p>
+<p>I learned of a nice way to be more formal in the description of this work. I
+had to pay 50 reputation points at math.stackexchange.com, but it was well
+worth it.</p>
+<p>The proposal depends on a math idea known as equivalence classes. An
+equivalence class in an operation on a structure that preserves that structure
+while having the properties of being reflexive, symmetric, and transitive.</p>
+<p>In order to think about intervals in space-time using quaternion requires two
+preliminary steps. First one must look at the difference between events. What
+this does is eliminate any role for the origin where an observer happens to be.
+Imagine one had three observers lined up in a row each one meter apart looking
+at a pair of events. Each would have different values for the spatial terms for
+the individual events, but the dq (delta quaternion) could be the same. The
+next requirement concerns the choice of coordinates. This is a subject where my
+lack of education costs me. I know how to make what I call a distance function
+(call it D) in Euclidean coordinates. Here you do nothing. Unlike what people
+expect, the distance function has four parts to it because changing math
+structure is evil in my book. I know how to create a distance function in
+cylindrical (t, r, theta, z) and spherical coordinates (t, r, theta, phi). I
+would also assert but be unable to prove that no matter what choice one makes
+for coordinate systems in space-time, there must exist a distance function that
+can be created with quaternions such that the first term of the square of D(dq)
+is identical to a 4-vector metric contraction. This whole discussion needs to
+be couched in differential geometry language which I don't speak. Too bad for
+my team.</p>
+<p>The bottom line is that I am studying equivalence classes of the square of
+distance functions on delta quaternions of events in space-time. Imagine two
+observers looking at the same pair of events in space-time. Due to difference
+between the observers, the two delta quaternions are not the same: dq != dq'.
+As a consequence, neither the distance function, nor the square of the distance
+function of the delta quaternions are not equal either. Why are they not equal?
+In the first case, the primed observer is moving at a steady velocity relative
+to the other observer. Special relativity can be interpreted as this
+equivalence class:</p>
+<p>Let me read this one off. The distance functions on a delta quaternion are
+both quaternions. We say the two are equivalent if the real part (the funny
+looking R) of the square of the distance function on the delta quaternions are
+the same. I claim that is a different way to describe special relativity. The
+focus is on what is invariant instead of on group theory or transformation
+properties, both of which are valid approaches to special relativity. The
+imaginary part will necessarily be different. Those differences could be used
+to determine precisely how the primed observer is moving relative to the
+unprimed observer. This is a good additional feature to have.</p>
+<p>In the second case, the two observers are not moving relative to each other.
+Instead they are at different distances from a gravitational source. The
+quaternion gravity proposal is that this approximate symmetry in the standard
+approach is actually exact:</p>
+<p>This time they are equivalent if the imaginary parts are equal. This means that
+the real part is different.</p>
+<h2 id="emotional-response-to-the-rejection">Emotional Response to the Rejection</h2>
+<p>Nature doesn't care if we understand gravity. I don't care if the physics
+community does either. The review was what I expected. I cannot change my
+affiliation (none) which makes the odds of acceptance under 2%. I need
+quaternions everywhere, lower that by 50%, then the quqaternion cynics are a
+third of that. A made up word like "space-times-time" takes another 50% cut.
+The starting odds are under 0.2%. The odds are greater that 80% that the
+reviewer has written a technical paper on quantum gravity and 100% that the
+reviewer has peers who have written such papers. Admitting the entire research
+effort into quantum gravity is wrong - and that is interesting - is not part of
+high scientific level supported by journals.</p>
+<p>I did spend a few moment wondering about life if the paper had been accepted.
+It would be interesting, but the stress level would be absurd.</p>
+<p>This paper was a form of intellectual insurance. If the core idea here is
+wrong, this blog and CQG-102165 do not matter. If the core idea is right, it is
+the tradition of science that correct ideas eventually get recognized and
+obliterate much of the work in vogue. Such a shift requires a social nucleus
+with technical credibility.</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "previous": 80, "search": 83, "next": 78};
+        </script>
+        <script src="../../../js/base.js" defer></script>
+        <script src="../../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
