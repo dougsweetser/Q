@@ -2,9 +2,9 @@
 
 ![](http://world.std.com/~sweetser/Images/space300.gif)
 
-| [![Definition of Spacetime](../images/Stuff/Buttons/spacetime.jpg)](info.html#spacetime) | [![The General Equivalence Principle](../images/Stuff/Buttons/equivalence.jpg)](info.html#equivalence) | [![Unified Field Theory](../images/Stuff/Buttons/unified.jpg)](info.html#unified) |
+| [![Definition of Spacetime](../images/Stuff/Buttons/spacetime.jpg)] | [![The General Equivalence Principle](../images/Stuff/Buttons/equivalence.jpg)] | [![Unified Field Theory](../images/Stuff/Buttons/unified.jpg)] |
 | -- | -- | -- |
-| [![Justify Your Love for the Standard Model](../images/Stuff/Buttons/justify.jpg)](info.html#justify) | [![No Dark Matter Needed](../images/Stuff/Buttons/dark.jpg)](info.html#dark) | |
+| [![Justify Your Love for the Standard Model](../images/Stuff/Buttons/justify.jpg)] | [![No Dark Matter Needed](../images/Stuff/Buttons/dark.jpg)] | |
 
   
 Promote the Doing Physics with Quaternions Project, and look cool :-)  
