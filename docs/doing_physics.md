@@ -412,9 +412,21 @@ date.
 
 Doing physics with quaternions is unnecessary, unless physics runs into a
 compatibility issue.  Constraining general relativity and quantum mechanics to
-work within the same topological algebraic field may be the way to unite these
+work within the same division algebra may be the way to unite these
 two separately successful areas.
 
+**Update**: Quaternions, the number, cannot do the work of quantum mechanics
+which requires at a minimum a complex-valued Hilbert space. A current area of
+study is to form a quaternion-valued Hilbert space using quaternion series. It
+is easy enough to casually reject such an effort since a quality of quantum
+mechanics is that so many terms do commute, the critical exceptions being few
+terms that do not because they are complementary. Quaternion also commute *if
+they point in the same direction*. That is how physical experiments work, one
+looks in a very precise direction. If that is how experiments are done in the
+lab, then the math should reflect such precision. Since the 1920s, the only
+direction allowed is (0, i, 0, 0).  I call this idea: **Don't point like a
+drunk, do point with precision**. This is a [work in slow
+progress](https://github.com/dougsweetser/QM).
 
 #  Quaternion Analysis
 
@@ -4214,7 +4226,7 @@ projects. Peer review the results.
 
 ## ...and family*
 
-Darra Garrison.
+Darra Garrison and **Ellie**.
 
 Arthur, Cindy, Teddy, Grace, Asa (and...?) Sweetser.
 
