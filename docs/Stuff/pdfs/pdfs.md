@@ -37,7 +37,7 @@ analysis can really begin.
 Howell and Lafon's paper (1975, 13 pages) on the efficiency of quaternion
 multiplication.
 1. [Silberstein's paper, "Quaternionic Form of Relativity"](Silberstein-Relativity.pdf), (1912, 20 pages) on using biquaternions for quaternion
-special relativity. Biquaternions are NOT an algebraic field, and are not used
+special relativity. Biquaternions are NOT a division algebra, and are not used
 in any operations on this web site.
 
 ## Gimble lock

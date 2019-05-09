@@ -1,7 +1,7 @@
 #  Unifying the Representation of Spin and Angular Momentum
 
 I will show how to represent both integral and half-integral spin within the
-same quaternion algebraic field.  This involves using quaternion
+same quaternion division algebra.  This involves using quaternion
 automorphisms.  First a sketch of why this might work will be provided.
 Second, small rotations in a plane around two axes will be used to show how
 the resulting vector points in an opposite way, depending on which involution

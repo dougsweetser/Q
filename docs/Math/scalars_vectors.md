@@ -220,6 +220,11 @@ date.
 
 Doing physics with quaternions is unnecessary, unless physics runs into a
 compatibility issue.  Constraining general relativity and quantum mechanics to
-work within the same topological algebraic field may be the way to unite these
-two separately successful areas.
+work within the same division may be the way to unite these
+two separately successful areas. 
+
+**Update** Nope, not going to work according to my current efforts. An new
+symmetry is at the heart of gravity, basically the great Minkowski light cone
+rotated by 45 degrees. Quantum mechanics need quaternion series which is
+neither normed or a division algebra (it is a semi-group instead).
 

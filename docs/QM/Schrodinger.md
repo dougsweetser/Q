@@ -169,7 +169,7 @@ constraints in place, I expect that this equation will behave exactly like the
 Schr&ouml;dinger equation.  As the constraints are removed, this proposal becomes
 richer.  There is a damper to quench runaway terms.  The 3-vector I becomes
 quite the nightmare to deal with, but it should be possible, given we are
-dealing with a topological algebraic field.
+dealing with a division algebra.
 
 ##  Implications
 

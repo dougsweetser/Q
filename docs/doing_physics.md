@@ -412,21 +412,9 @@ date.
 
 Doing physics with quaternions is unnecessary, unless physics runs into a
 compatibility issue.  Constraining general relativity and quantum mechanics to
-work within the same division algebra may be the way to unite these
+work within the same topological algebraic field may be the way to unite these
 two separately successful areas.
 
-**Update**: Quaternions, the number, cannot do the work of quantum mechanics
-which requires at a minimum a complex-valued Hilbert space. A current area of
-study is to form a quaternion-valued Hilbert space using quaternion series. It
-is easy enough to casually reject such an effort since a quality of quantum
-mechanics is that so many terms do commute, the critical exceptions being few
-terms that do not because they are complementary. Quaternion also commute *if
-they point in the same direction*. That is how physical experiments work, one
-looks in a very precise direction. If that is how experiments are done in the
-lab, then the math should reflect such precision. Since the 1920s, the only
-direction allowed is (0, i, 0, 0).  I call this idea: **Don't point like a
-drunk, do point with precision**. This is a [work in slow
-progress](https://github.com/dougsweetser/QM).
 
 #  Quaternion Analysis
 
@@ -3094,7 +3082,7 @@ connections where none appeared before.
 #  Unifying the Representation of Spin and Angular Momentum
 
 I will show how to represent both integral and half-integral spin within the
-same quaternion algebraic field.  This involves using quaternion
+same quaternion division algebra.  This involves using quaternion
 automorphisms.  First a sketch of why this might work will be provided.
 Second, small rotations in a plane around two axes will be used to show how
 the resulting vector points in an opposite way, depending on which involution
@@ -3444,7 +3432,7 @@ constraints in place, I expect that this equation will behave exactly like the
 Schr&ouml;dinger equation.  As the constraints are removed, this proposal becomes
 richer.  There is a damper to quench runaway terms.  The 3-vector I becomes
 quite the nightmare to deal with, but it should be possible, given we are
-dealing with a topological algebraic field.
+dealing with a division algebra.
 
 ##  Implications
 
@@ -3932,7 +3920,7 @@ analysis can really begin.
 Howell and Lafon's paper (1975, 13 pages) on the efficiency of quaternion
 multiplication.
 1. [Silberstein's paper, "Quaternionic Form of Relativity"](Silberstein-Relativity.pdf), (1912, 20 pages) on using biquaternions for quaternion
-special relativity. Biquaternions are NOT an algebraic field, and are not used
+special relativity. Biquaternions are NOT a division algebra, and are not used
 in any operations on this web site.
 
 ## Gimble lock
@@ -4226,7 +4214,7 @@ projects. Peer review the results.
 
 ## ...and family*
 
-Darra Garrison and **Ellie**.
+Darra Garrison.
 
 Arthur, Cindy, Teddy, Grace, Asa (and...?) Sweetser.
 
