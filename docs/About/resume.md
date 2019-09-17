@@ -52,9 +52,7 @@ every continent.
 [YouTube Videos](http://www.youtube.com/user/sweetser)  
 Have produced more than 50 videos with over 350,000 views. Provides the main
 channel for the "Stand-Up Physicist" educational project. These 20+ minute
-shows have aired on two local Massachusetts cable channels (Acton and Auburn),
-but have reach far more people than the [page devoted to the
-shows](tsup/tsup.html).
+shows have aired on two local Massachusetts cable channels (Acton and Auburn).
 
 **[Command Line Quaternions](http://quaternions.sf.net/)**  
 An open source project to that makes animation out of quaternion expressions.
@@ -77,6 +75,19 @@ core hypothesis: events from any object in spacetime are described by the
 mathematics of a division altegra, known as the quaternions.  This
 is an old goal, but Doug has made a number of new insights, including a new way
 of expressing the Maxwell equations.
+
+In 2015, developed a new approach to gravity. Minkowski space-time has its core
+invariance principle, the light-cone. Energy-momentum together for an affine
+space for space-time. Here the invariance has zeros along the energy and
+momentum axes. All the inviants look like the light-cone rotated by 45 degrees.
+It is my proposal that this **is** gravity, a symmetry where one uses escape
+velocities for the hypberbolic curves.
+
+Research has begun on using quaternion series (a semi-group with inverses) to
+do all the work of quantum mechanics. There are world-lines outside of an
+observer at the origin of space-time (0, 0, 0, 0). It it my proposal that the
+machinery of quantum mechanics is desgined to be able to make precise
+statements about space-like world lines.
 
 **Publication record**
 
