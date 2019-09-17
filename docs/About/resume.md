@@ -23,12 +23,16 @@ Computer languages: Python, Perl, and C
 Operating systems: Macintosh, Linux  
 
 **Lead Spider, Black Duck Software, Burlington, MA 2004-present**
+*** Black Duck was purcased by Synopsys Inc in 2017 for \$565 million ***
 
 The 9th employee of a startup that has grown into an emerging international
 company. Have been involved in constructing the knowledgebase of all open
 source projects. Work involves a mix of adding projects using in-house tools,
 looking to automate processes, and working on the quality of the Postgres
 database. Responsible for monthly releases of two product lines.
+
+Experienced in Test Driven Development. Works daily with PostgreSQL. Working
+knowledge of Jenkins, Airflow, and Flask.
 
 **Assistant Manager, Customer Accounts, Software Tool & Die, 1998-2002**
 

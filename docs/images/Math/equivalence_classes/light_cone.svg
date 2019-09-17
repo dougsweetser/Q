@@ -17,7 +17,7 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="light_cone.svg"
-   inkscape:export-filename="/Users/doug/Google Drive/Talks/Just_funny/Light_and_gravity.png"
+   inkscape:export-filename="/Users/doug/workspace/Q/docs/images/Math/equivalence_classes/gravity.simplest.png"
    inkscape:export-xdpi="199.97878"
    inkscape:export-ydpi="199.97878">
   <defs
@@ -375,15 +375,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.5681988"
-     inkscape:cx="192.09844"
-     inkscape:cy="759.79673"
+     inkscape:cx="177.60545"
+     inkscape:cy="840.35385"
      inkscape:document-units="px"
-     inkscape:current-layer="g6501"
+     inkscape:current-layer="g7531"
      showgrid="false"
      inkscape:window-width="1607"
      inkscape:window-height="991"
-     inkscape:window-x="35"
-     inkscape:window-y="104"
+     inkscape:window-x="22"
+     inkscape:window-y="9"
      inkscape:window-maximized="0"
      showguides="false" />
   <metadata
@@ -474,8 +474,7 @@
      style="display:none"
      inkscape:label="label: light"
      id="g5278"
-     inkscape:groupmode="layer"
-     sodipodi:insensitive="true">
+     inkscape:groupmode="layer">
     <text
        sodipodi:linespacing="110%"
        id="text5280"
@@ -492,29 +491,29 @@
          x="212.27945"
          sodipodi:role="line"
          id="tspan5284"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle"> dt - dR</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle">t - R</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.59334946px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="305.94205"
+       x="273.94205"
        y="416.46469"
        id="text5288"
        sodipodi:linespacing="110%"><tspan
          sodipodi:role="line"
          id="tspan5290"
-         x="305.94205"
+         x="273.94205"
          y="416.46469"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.728899px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">2</tspan></text>
     <text
        sodipodi:linespacing="110%"
        id="text5292"
        y="416.46469"
-       x="187.94205"
+       x="175.94205"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.59334946px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.728899px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
          y="416.46469"
-         x="187.94205"
+         x="175.94205"
          id="tspan5294"
          sodipodi:role="line">2</tspan></text>
   </g>
@@ -522,7 +521,8 @@
      inkscape:groupmode="layer"
      id="g6501"
      inkscape:label="label: light and gravity"
-     style="display:inline">
+     style="display:none"
+     sodipodi:insensitive="true">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.5px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -934,7 +934,7 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="light cone"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        style="opacity:0.5;fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:1.00613725px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1028,7 +1028,7 @@
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="light line"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -1047,7 +1047,7 @@
      inkscape:label="graph lightcone"
      inkscape:groupmode="layer"
      id="layer1"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.62912375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.51649507, 2.51649507;stroke-dashoffset:3.9000001;stroke-opacity:1;marker-start:url(#marker4743)"
@@ -1093,7 +1093,7 @@
          y="280.35526">Light</tspan></text>
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      id="g4520"
      inkscape:groupmode="layer"
      inkscape:label="graph text"
@@ -1197,7 +1197,7 @@
      inkscape:label="graph dt dR"
      inkscape:groupmode="layer"
      id="g4581"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.25824749;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
@@ -1233,10 +1233,49 @@
          y="64.630745">dt</tspan></text>
   </g>
   <g
+     style="display:inline"
+     id="g7531"
+     inkscape:groupmode="layer"
+     inkscape:label="graph t R"
+     sodipodi:insensitive="true">
+    <path
+       inkscape:connector-curvature="0"
+       id="path7533"
+       d="m 63.616931,195.68149 296.148109,0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.25824749;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.25824749;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker4452);marker-end:url(#marker4480)"
+       d="m 211.69099,47.60744 0,296.14811"
+       id="path7535"
+       inkscape:connector-curvature="0" />
+    <text
+       sodipodi:linespacing="110%"
+       id="text7537"
+       y="185.41615"
+       x="342.13974"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.31056976px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="185.41615"
+         x="342.13974"
+         id="tspan7539"
+         sodipodi:role="line">dR</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.31056976px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="221.58427"
+       y="64.630745"
+       id="text7541"
+       sodipodi:linespacing="110%"><tspan
+         y="64.630745"
+         x="221.58427"
+         id="tspan7543"
+         sodipodi:role="line">dt</tspan></text>
+  </g>
+  <g
      inkscape:groupmode="layer"
      id="layer15"
      inkscape:label="light 1's"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#999999;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -1567,6 +1606,54 @@
          x="336.491"
          y="177.23056"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">1</tspan></text>
+    <text
+       sodipodi:linespacing="110%"
+       id="text4715"
+       y="216.30164"
+       x="74.389473"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.75px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         y="216.30164"
+         x="74.389473"
+         id="tspan4717"
+         sodipodi:role="line">I</tspan></text>
+    <text
+       sodipodi:linespacing="110%"
+       id="text4719"
+       y="209.23056"
+       x="84.490997"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         y="209.23056"
+         x="84.490997"
+         id="tspan4721"
+         sodipodi:role="line">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="74.946259"
+       y="185.0732"
+       id="text4723"
+       sodipodi:linespacing="110%"><tspan
+         sodipodi:role="line"
+         id="tspan4725"
+         x="74.946259"
+         y="185.0732"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.75px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">I</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="85.047791"
+       y="178.00212"
+       id="text4727"
+       sodipodi:linespacing="110%"><tspan
+         sodipodi:role="line"
+         id="tspan4729"
+         x="85.047791"
+         y="178.00212"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">3</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -2357,7 +2444,7 @@
      inkscape:groupmode="layer"
      id="layer11"
      inkscape:label="Light text"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <g
        style="display:inline;opacity:1"
@@ -2446,7 +2533,7 @@
      inkscape:groupmode="layer"
      id="layer17"
      inkscape:label="Gravity text"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <g
        id="g5169"
@@ -2648,7 +2735,7 @@
      inkscape:groupmode="layer"
      id="layer25"
      inkscape:label="equivalent light"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <text
        xml:space="preserve"
@@ -2664,16 +2751,16 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="178.51947"
-       y="131.73454"
+       x="180.51947"
+       y="133.73454"
        id="text4831"
        sodipodi:linespacing="110%"><tspan
          sodipodi:role="line"
          id="tspan4837"
-         x="178.51947"
-         y="131.73454">dt<tspan
+         x="180.51947"
+         y="133.73454">t<tspan
    style="font-size:64.99999762%;baseline-shift:super"
-   id="tspan4841">2</tspan>-dR<tspan
+   id="tspan4841">2</tspan>-R<tspan
    style="font-size:64.99999762%;letter-spacing:3px;baseline-shift:super"
    id="tspan4839">2</tspan><tspan
    style="letter-spacing:3px"
@@ -2681,17 +2768,17 @@
     <text
        sodipodi:linespacing="110%"
        id="text4843"
-       y="-268.15549"
-       x="142.93141"
+       y="-264.15549"
+       x="164.93141"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
        transform="matrix(0,1,-1,0,0,0)"><tspan
          sodipodi:role="line"
          id="tspan4851"
-         x="142.93141"
-         y="-268.15549">dt<tspan
+         x="164.93141"
+         y="-264.15549">t<tspan
    style="font-size:64.99999762%;baseline-shift:super"
-   id="tspan4869">2</tspan>-dR<tspan
+   id="tspan4869">2</tspan>-R<tspan
    style="font-size:64.99999762%;letter-spacing:3px;baseline-shift:super"
    id="tspan4867">2</tspan><tspan
    style="letter-spacing:3px"
@@ -2709,9 +2796,9 @@
          sodipodi:role="line"
          id="tspan4861"
          x="143.55267"
-         y="9.2643299">dt<tspan
+         y="9.2643299">t<tspan
    style="font-size:64.99999762%;baseline-shift:super"
-   id="tspan4863">2</tspan>-dR<tspan
+   id="tspan4863">2</tspan>-R<tspan
    style="font-size:64.99999762%;letter-spacing:3px;baseline-shift:super"
    id="tspan4865">2</tspan><tspan
    style="letter-spacing:3px"
@@ -2721,7 +2808,7 @@
      inkscape:groupmode="layer"
      id="layer26"
      inkscape:label="equivalent gravity"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
