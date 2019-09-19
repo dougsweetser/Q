@@ -22,7 +22,7 @@ Computer languages: Python, Perl, and C
 Operating systems: Macintosh, Linux  
 
 ### Lead Spider, Black Duck Software, Burlington, MA 2004-present
-#### Black Duck was purcased by Synopsys Inc in 2017 for \$565 million
+#### Black Duck was purcased by Synopsys Inc in 2017 for $565 million
 
 The 9th employee of a startup that has grown into an emerging international
 company. Have been involved in constructing the knowledgebase of all open
@@ -75,7 +75,7 @@ is an old goal, but Doug has made a number of new insights, including a new way
 of expressing the Maxwell equations.
 
 In 2015, developed a new approach to gravity. Minkowski space-time has its core
-invariance principle, the light-cone. Energy-momentum together for an affine
+invariance principle, the light-cone. Energy-momentum together form an affine
 space for space-time. Here the invariance has zeros along the energy and
 momentum axes. All the inviants look like the light-cone rotated by 45 degrees.
 It is my proposal that this **is** gravity, a symmetry where one uses escape
