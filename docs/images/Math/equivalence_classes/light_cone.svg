@@ -17,7 +17,7 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="light_cone.svg"
-   inkscape:export-filename="/Users/doug/workspace/Q/docs/images/Math/equivalence_classes/light.causality.simplest.png"
+   inkscape:export-filename="/Users/doug/workspace/Q/docs/images/Math/equivalence_classes/light.causality.simple.png"
    inkscape:export-xdpi="199.97878"
    inkscape:export-ydpi="199.97878">
   <defs
@@ -376,7 +376,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="2.217768"
      inkscape:cx="219.71289"
-     inkscape:cy="1022.5331"
+     inkscape:cy="710.31168"
      inkscape:document-units="px"
      inkscape:current-layer="g5278"
      showgrid="false"
@@ -471,52 +471,31 @@
          y="430.97012"> R + t</tspan></text>
   </g>
   <g
-     style="display:none"
+     style="display:inline"
      inkscape:label="label: light"
      id="g5278"
-     inkscape:groupmode="layer"
-     sodipodi:insensitive="true">
+     inkscape:groupmode="layer">
     <text
        sodipodi:linespacing="110%"
        id="text5280"
-       y="386.97012"
+       y="376.97012"
        x="212.27945"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.31056976px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
-         y="386.97012"
+         y="376.97012"
          x="212.27945"
          id="tspan5282"
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle">Causality</tspan><tspan
-         y="430.97012"
+         y="420.97012"
          x="212.27945"
          sodipodi:role="line"
          id="tspan5284"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle">t - R</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.59334946px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="273.94205"
-       y="416.46469"
-       id="text5288"
-       sodipodi:linespacing="110%"><tspan
-         sodipodi:role="line"
-         id="tspan5290"
-         x="273.94205"
-         y="416.46469"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.728899px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">2</tspan></text>
-    <text
-       sodipodi:linespacing="110%"
-       id="text5292"
-       y="416.46469"
-       x="175.94205"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.59334946px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.728899px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
-         y="416.46469"
-         x="175.94205"
-         id="tspan5294"
-         sodipodi:role="line">2</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle">t<tspan
+   style="font-size:65%;baseline-shift:super"
+   id="tspan6120">2</tspan> - R<tspan
+   style="font-size:65%;baseline-shift:super"
+   id="tspan6118">2</tspan></tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -528,18 +507,18 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.5px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="211.64177"
-       y="390.94128"
+       y="368.94128"
        id="text6503"
        sodipodi:linespacing="110%"><tspan
          sodipodi:role="line"
          id="tspan6531"
          x="211.64177"
-         y="390.94128"
+         y="368.94128"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.5px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle">Light and Gravity</tspan><tspan
          sodipodi:role="line"
          id="tspan6533"
          x="211.64177"
-         y="421.19128"
+         y="399.19128"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.5px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle">(t<tspan
    style="font-size:64.99999762%;baseline-shift:super"
    id="tspan6543">2</tspan> - R<tspan
@@ -547,7 +526,7 @@
    id="tspan6545">2</tspan>, 2tR)</tspan><tspan
          sodipodi:role="line"
          x="211.64177"
-         y="451.44128"
+         y="429.44128"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.5px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle"
          id="tspan4797">(E<tspan
    style="font-size:64.99999762%;baseline-shift:super"
@@ -737,24 +716,23 @@
      inkscape:groupmode="layer"
      id="g5339"
      inkscape:label="label: gravity"
-     style="display:none"
-     sodipodi:insensitive="true">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.31056976px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="212.27945"
-       y="386.97012"
+       y="376.97012"
        id="text5341"
        sodipodi:linespacing="110%"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:center;letter-spacing:0px;writing-mode:lr-tb;text-anchor:middle"
          id="tspan5343"
          sodipodi:role="line"
          x="212.27945"
-         y="386.97012">Gravity</tspan><tspan
+         y="376.97012">Gravity</tspan><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:center;letter-spacing:0px;writing-mode:lr-tb;text-anchor:middle"
          sodipodi:role="line"
          x="212.27945"
-         y="430.97012"
+         y="420.97012"
          id="tspan5345">EP</tspan></text>
   </g>
   <g
@@ -1293,7 +1271,9 @@
          sodipodi:role="line"
          id="tspan11690"
          x="342.13974"
-         y="185.41615">R, P</tspan></text>
+         y="185.41615">R<tspan
+   style="letter-spacing:4px"
+   id="tspan4737">,P</tspan></tspan></text>
     <text
        sodipodi:linespacing="110%"
        id="text11692"
@@ -1304,7 +1284,9 @@
          sodipodi:role="line"
          id="tspan11694"
          x="221.58427"
-         y="64.630745">t, E</tspan></text>
+         y="64.630745">t<tspan
+   style="letter-spacing:4px"
+   id="tspan4741">,E</tspan></tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
