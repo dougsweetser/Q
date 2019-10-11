@@ -17,7 +17,7 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="light_cone.svg"
-   inkscape:export-filename="/Users/doug/workspace/Q/docs/images/Math/equivalence_classes/all.min.png"
+   inkscape:export-filename="/Users/doug/workspace/Q/docs/images/Math/equivalence_classes/light.causality.simplest.png"
    inkscape:export-xdpi="199.97878"
    inkscape:export-ydpi="199.97878">
   <defs
@@ -376,14 +376,14 @@
      inkscape:pageshadow="2"
      inkscape:zoom="2.217768"
      inkscape:cx="219.71289"
-     inkscape:cy="738.33155"
+     inkscape:cy="1022.5331"
      inkscape:document-units="px"
-     inkscape:current-layer="layer19"
+     inkscape:current-layer="g5278"
      showgrid="false"
      inkscape:window-width="1607"
      inkscape:window-height="991"
-     inkscape:window-x="36"
-     inkscape:window-y="0"
+     inkscape:window-x="11"
+     inkscape:window-y="188"
      inkscape:window-maximized="0"
      showguides="false" />
   <metadata
@@ -402,7 +402,7 @@
      inkscape:groupmode="layer"
      id="layer19"
      inkscape:label="label: space-time"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <text
        xml:space="preserve"
@@ -492,7 +492,7 @@
          x="212.27945"
          sodipodi:role="line"
          id="tspan5284"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle">t - R</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle">t - R</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.59334946px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -942,7 +942,7 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="light cone"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <path
        style="opacity:0.5;fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:1.00613725px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1036,7 +1036,7 @@
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="light line"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -1055,7 +1055,7 @@
      inkscape:label="graph lightcone"
      inkscape:groupmode="layer"
      id="layer1"
-     style="display:none">
+     style="display:inline">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.62912375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.51649507, 2.51649507;stroke-dashoffset:3.9000001;stroke-opacity:1;marker-start:url(#marker4743)"
        d="M 94.80304,79.972435 326.76454,311.29842"
@@ -1229,7 +1229,7 @@
          y="64.630745">E</tspan></text>
   </g>
   <g
-     style="display:none"
+     style="display:inline"
      id="g7531"
      inkscape:groupmode="layer"
      inkscape:label="graph t R"
@@ -1310,7 +1310,7 @@
      inkscape:groupmode="layer"
      id="layer15"
      inkscape:label="light 1's"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#999999;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -2568,11 +2568,10 @@
      inkscape:groupmode="layer"
      id="layer17"
      inkscape:label="Gravity text"
-     style="display:none"
-     sodipodi:insensitive="true">
+     style="display:none">
     <g
        id="g5169"
-       transform="translate(-16.683441,-140.23108)">
+       transform="translate(-20.683441,-136.23108)">
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:125%;font-family:Palatino;-inkscape-font-specification:'Palatino, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2990,11 +2989,11 @@
          id="tspan5550"
          x="95.013435"
          y="272.57355"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">dt<tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">t<tspan
    style="font-size:64.99999762%;baseline-shift:super"
    id="tspan5564">2</tspan><tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;letter-spacing:3px;writing-mode:lr-tb;text-anchor:start"
-   id="tspan5554">+</tspan>dR<tspan
+   id="tspan5554">+</tspan>R<tspan
    style="font-size:64.99999762%;letter-spacing:3px;baseline-shift:super"
    id="tspan5566">2</tspan><tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;letter-spacing:3px;writing-mode:lr-tb;text-anchor:start"
@@ -3046,11 +3045,11 @@
          y="299.79077"
          x="164.98317"
          id="tspan5857"
-         sodipodi:role="line">dt<tspan
+         sodipodi:role="line">t<tspan
    id="tspan5859"
    style="font-size:64.99999762%;baseline-shift:super">2</tspan><tspan
    id="tspan5861"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;letter-spacing:3px;writing-mode:lr-tb;text-anchor:start">+</tspan>dR<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;letter-spacing:3px;writing-mode:lr-tb;text-anchor:start">+</tspan>R<tspan
    id="tspan5863"
    style="font-size:64.99999762%;letter-spacing:3px;baseline-shift:super">2</tspan><tspan
    id="tspan5865"
@@ -3125,15 +3124,15 @@
          y="311.3559"
          x="120.83923"
          id="tspan5977"
-         sodipodi:role="line">dt<tspan
+         sodipodi:role="line">t<tspan
    id="tspan5979"
    style="font-size:64.99999762%;baseline-shift:super">2</tspan><tspan
    id="tspan5981"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;letter-spacing:3px;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start">+</tspan>dx<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;letter-spacing:3px;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start">+</tspan>x<tspan
    id="tspan5983"
-   style="font-size:64.99999762%;baseline-shift:super">2</tspan>+dy<tspan
+   style="font-size:64.99999762%;baseline-shift:super">2</tspan>+y<tspan
    id="tspan5985"
-   style="font-size:64.99999762%;baseline-shift:super">2</tspan>+dz<tspan
+   style="font-size:64.99999762%;baseline-shift:super">2</tspan>+z<tspan
    id="tspan5987"
    style="font-size:64.99999762%;letter-spacing:3px;baseline-shift:super">2</tspan><tspan
    id="tspan5989"
@@ -3157,15 +3156,15 @@
          id="tspan6005"
          x="95.651108"
          y="286.57355"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start">dt<tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start">t<tspan
    style="font-size:64.99999762%;baseline-shift:super"
    id="tspan6007">2</tspan><tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;letter-spacing:3px;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start"
-   id="tspan6009">+</tspan>dx<tspan
+   id="tspan6009">+</tspan>x<tspan
    style="font-size:64.99999762%;baseline-shift:super"
-   id="tspan6011">2</tspan>+dy<tspan
+   id="tspan6011">2</tspan>+y<tspan
    style="font-size:64.99999762%;baseline-shift:super"
-   id="tspan6013">2</tspan>+dz<tspan
+   id="tspan6013">2</tspan>+z<tspan
    style="font-size:64.99999762%;letter-spacing:3px;baseline-shift:super"
    id="tspan6015">2</tspan><tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:110.00000238%;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:start;letter-spacing:3px;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start"
