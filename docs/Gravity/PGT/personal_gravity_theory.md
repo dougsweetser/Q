@@ -29,7 +29,7 @@ energy momentum, with zeroes in black and invariants in gray:
 
 | Space-time | Energy-Momentum |
 | :---: | :-----------: |
-| ![Minkowski lightcone](images/Math/equivalence_classes/light.causality.simple.30.png) | ![](images/Math/equivalence_classes/gravity.labeled.30.png) |
+| ![Minkowski lightcone](../images/Math/equivalence_classes/light.causality.simple.30.png) | ![](../images/Math/equivalence_classes/gravity.labeled.30.png) |
 
 Treat space-time as a quaternion, with time t being real and space R being
 three imaginaries. Treat energy-momentum as a quaternion, with energy E as
@@ -39,7 +39,7 @@ real number of space-time squared? What sort of physics would arise if two
 observers agree on the imaginary value of energy-momentum squared? Show your
 PGT is consistent with some tests of gravity. Is it consistent with all tests?
 
-hint: ![](images/Gravity/PGT/gravity_EP_squared.png) 
+hint: ![E -> E' = E/gamma_esc, P -> P' = gamma P](../images/Gravity/PGT/gravity_EP_squared.png) 
 
 B. Derive the transformation law found in the hint above. Note: I did not
 answer this question myself, it was the work of Purple Penguin. Hint. Set up a
