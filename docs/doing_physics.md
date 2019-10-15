@@ -3905,6 +3905,8 @@ available for [$1.99 as a pdf, epub, or mobi file](https://leanpub.com/SRQ)
 1. [Space-time Geometries](Space-time_geometries.pdf) - 1 page
 1. [Quaternion space-times-time invariance as gravity](space-times-time_invariance.pdf) - 7 pages
 1. [Deriving the Maxwell source equations by hand](Maxwell_by_hand.pdf) - 1 page
+1. [PGT - Personal Gravity Theory Homework Assignment](PGT_homework.pdf) - 1
+   page
 
 ## Other people's efforts
 
