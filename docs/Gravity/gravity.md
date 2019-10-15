@@ -11,3 +11,4 @@
    2018, 13 pages, technical paper
 1. [Quaternion space-times-time invariance as gravity](space-times-time_invariance.md)
 1. [The *2015 Essays on Gravitation* contest](essays_on_gravitation.md)
+1. [The PGT - Personal Gravity Theory - Homework Assignment](PGT/personal_gravity_theory.md)
