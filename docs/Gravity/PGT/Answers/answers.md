@@ -1,3 +1,3 @@
-# List of PGT Homework Contest
+# List of PGT Homework Contest Winners
 
-Nothing to see, move along.
+Nothing to see yet, move along.
