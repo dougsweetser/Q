@@ -17,9 +17,9 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="space-time_geometries.svg"
-   inkscape:export-filename="/Users/doug/workspace/Q/docs/images/Math/equivalence_classes/space-time_geometries.png"
-   inkscape:export-xdpi="199.979"
-   inkscape:export-ydpi="199.979">
+   inkscape:export-filename="/Users/doug/workspace/Q/docs/images/Math/equivalence_classes/space-time_geometries_600dbi.png"
+   inkscape:export-xdpi="600.00647"
+   inkscape:export-ydpi="600.00647">
   <defs
      id="defs4852">
     <filter
@@ -189,43 +189,43 @@
     <image
        sodipodi:absref="/Users/doug/workspace/Q/docs/images/Math/equivalence_classes/electro_weak.min.png"
        xlink:href="electro_weak.min.png"
-       y="493.49078"
-       x="401.79288"
+       width="314.54999"
+       height="301.04999"
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeQuality"
        id="image6823"
+       x="401.79288"
+       y="493.49078" />
+    <image
+       sodipodi:absref="/Users/doug/workspace/Q/docs/images/Math/equivalence_classes/Space+Time.min.png"
+       xlink:href="Space+Time.min.png"
+       y="130.63362"
+       x="37.582161"
+       id="image10255"
        style="image-rendering:optimizeQuality"
        preserveAspectRatio="none"
        height="301.04999"
        width="314.54999" />
     <image
-       sodipodi:absref="/Users/doug/workspace/Q/docs/images/Math/equivalence_classes/Space+Time.min.png"
-       xlink:href="Space+Time.min.png"
-       width="314.54999"
-       height="301.04999"
-       preserveAspectRatio="none"
-       style="image-rendering:optimizeQuality"
-       id="image10255"
-       x="37.582161"
-       y="130.63362" />
-    <image
        sodipodi:absref="/Users/doug/workspace/Q/docs/images/Math/equivalence_classes/light.min.png"
        xlink:href="light.min.png"
-       y="130.63362"
-       x="405.84286"
-       id="image4521"
-       style="image-rendering:optimizeQuality"
-       preserveAspectRatio="none"
+       width="306.45001"
        height="301.04999"
-       width="306.45001" />
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeQuality"
+       id="image4521"
+       x="405.84286"
+       y="130.63362" />
     <image
        sodipodi:absref="/Users/doug/workspace/Q/docs/images/Math/equivalence_classes/Gravity.no_label.png"
        xlink:href="Gravity.no_label.png"
-       y="493.49078"
-       x="38.557152"
-       id="image4583"
-       style="image-rendering:optimizeQuality"
-       preserveAspectRatio="none"
+       width="300.60001"
        height="300.60001"
-       width="300.60001" />
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeQuality"
+       id="image4583"
+       x="38.557152"
+       y="493.49078" />
   </g>
   <g
      inkscape:groupmode="layer"
