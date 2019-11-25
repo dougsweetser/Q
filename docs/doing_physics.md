@@ -3910,18 +3910,20 @@ available for [$1.99 as a pdf, epub, or mobi file](https://leanpub.com/SRQ)
 
 ## Other people's efforts
 
-1. [Sudbery's first paper, "Quaternion Analysis"](Quaternionic-analysis-memo.pdf), (memo, 1977, 44 pages) on why quaternion analysis is no
+1. [Gauss's notebook](Gauss_quaternion_pages.pdf) - Written in 1819, published
+   1900, 6 pages. All calculations, no discussion.
+1. [Sudbery's first paper, "Quaternion Analysis"](Quaternionic-analysis-memo.pdf), memo, 1977, 44 pages, on why quaternion analysis is no
 good.
-1. [Sudbery's second paper, same title](Quaternionic-analysis.pdf), (1979, 28 pages) on the topic. Please look to my work
+1. [Sudbery's second paper, same title](Quaternionic-analysis.pdf), 1979, 28 pages on the topic. Please look to my work
 above on quaternion analysis for a much better alternative!.
 1. [C. A. Deavours paper, "The Quaternion Calculus"](deavours.pdf). My critique is that using his
 definition of a quaternion derivative, if a function like f=q is analytic in q,
 f^2 is not. That indicates a better definition must be found before quaternion
 analysis can really begin.
 1. [Salamin's paper, "Application of quaternions to computation with rotations"](stanfordaiwp79-salamin.pdf), (1979, 9 pages) on rotations.
-Howell and Lafon's paper (1975, 13 pages) on the efficiency of quaternion
+Howell and Lafon's paper, 1975, 13 pages, on the efficiency of quaternion
 multiplication.
-1. [Silberstein's paper, "Quaternionic Form of Relativity"](Silberstein-Relativity.pdf), (1912, 20 pages) on using biquaternions for quaternion
+1. [Silberstein's paper, "Quaternionic Form of Relativity"](Silberstein-Relativity.pdf), 1912, 20 pages, on using biquaternions for quaternion
 special relativity. Biquaternions are NOT a division algebra, and are not used
 in any operations on this web site.
 
