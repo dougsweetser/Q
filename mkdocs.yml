@@ -57,6 +57,7 @@ pages:
     - 'Derive the Maxwell source equations': 'EM/derive_Maxwell_source_equations.md'
     - 'Derive the Maxwell source equations by hand': 'EM/Maxwell_by_hand.md'
 - QM:
+    - "Bell's Future QM Interpretation": "QM/BellsFuture.md"
     - 'Quantum Mechanics': 'QM/qm.md'
     - 'Bracket notation and quaternions': 'QM/bracket_notation.md'
     - 'Multiplying polar representations': 'QM/polar.md'
