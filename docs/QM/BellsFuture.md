@@ -1,9 +1,9 @@
-# Bell's Future Quantum Mechanics Interpretation
+# Bell's Future Quantum Mechanics - a Novel Interpretation
 
 This essay provides an introduction to a new interpretation for 
 quantum mechanics. Here it is in two sentences:
 
-    Bell's inequality backed by experimental evidence shwos that
+    Bell's inequality backed by experimental evidence shows that
     quantum mechanics must be non-local, thus the wave function
     is space-like separated from the observer at the origin, 
     here-now. The product of the wave function and its conjugate
@@ -230,7 +230,7 @@ interpretation, all calculations will be the same.
 Quaternion quantum mechanics has been studied and presented
 in a book-length form by Stephen Adler. The topic has been
 commented on in a December 2018 blog by Scott Aaronson where
-he came to the conclusion that quaternion series quantum
+he came to the conclusion that quaternion quantum
 mechanics was a "complete dumpster fire" because it would
 allow superluminal transfer of information. I agree, any 
 algebraic system that allows superluminal transformation is
