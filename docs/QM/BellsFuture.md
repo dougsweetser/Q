@@ -285,3 +285,11 @@ future.
 
 Bell's future quantum mechanics looks bright. I hope this idea
 goes viral in a good way.
+
+## Other Presentations
+
+[8 page PDF](http://bit.ly/BellsFuturePDF)
+
+[You Tube, 3 minutes](http://bit.ly/BellsFutureYT3)
+
+[You Tube, 23 minutes](http://bit.ly/BellsFutureYT23)

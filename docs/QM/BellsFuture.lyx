@@ -92,7 +92,7 @@ sweetser@alum.mit.edu
 \end_layout
 
 \begin_layout Date
-2020, June 15
+2020, June 17, v 1.1
 \end_layout
 
 \begin_layout Standard
@@ -413,8 +413,24 @@ y.
 \end_layout
 
 \begin_layout Standard
-Notice how Einstein causality and Bell's future combine to cover all of
- space-time.
+\begin_inset Graphics
+	filename /Users/doug/workspace/Q/docs/images/QM/BellsFuture/Bells_future_QM_Bell.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The past lightcone has been darkened to indicate it is not part of quantum
+ mechanics - only non-local-to-the-observer events are.
+ Notice how little of the time-like future is included: just the time axis
+ with the spatial terms set to 0, 0, 0.
+ 
+\end_layout
+
+\begin_layout Standard
+Einstein causality and Bell's future combine to cover all of space-time.
  Both relativity and quantum mechanics were born and matured in the same
  time window, and at for Einstein, in the same mind.
 \end_layout
