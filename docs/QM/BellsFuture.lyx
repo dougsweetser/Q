@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -26,6 +26,8 @@ figs-within-sections
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -55,6 +57,7 @@ figs-within-sections
 \suppress_date true
 \justification true
 \use_refstyle 0
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -65,7 +68,10 @@ figs-within-sections
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -92,27 +98,36 @@ sweetser@alum.mit.edu
 \end_layout
 
 \begin_layout Date
-2020, June 17, v 1.1
+2020, August, v 1.2
 \end_layout
 
 \begin_layout Standard
 This essay provides an introduction to a new interpretation for quantum
  mechanics.
- Here it is in two sentences:
+ Here is the idea in two sentences:
 \end_layout
 
 \begin_layout Quotation
-Bell's inequality, backed by experimental evidence
+
+\series bold
+Bell's
+\series default
+ inequality, backed by experimental evidence
 \begin_inset CommandInset citation
 LatexCommand cite
 key "aspect1982,aspect19822"
+literal "true"
 
 \end_inset
 
 , shows that quantum mechanics must be non-local, thus the wave function
  is space-like separated from the observer at the origin, here-now.
  The product of the wave function and its conjugate provide the odds for
- an interaction with the observer happening here (0, 0, 0) in the future.
+ an interaction with the observer happening here (0, 0, 0) in the 
+\series bold
+future
+\series default
+.
 \end_layout
 
 \begin_layout Standard
@@ -130,7 +145,7 @@ Start with a Minkowski space-time graph.
  Quantum mechanics is non-local, ergo delete all local information - delete
  the past lightcone! The wave function has to reside in the space-like regions
  of space-time.
- The conjugate of the wave function goes on the other side.
+ The conjugate of the wave function goes on the other side of the lightcone.
  The product of the wave function and its conjugate is necessarily in the
  future at the spatial origin (here, or (0, 0, 0)).
  Quantum mechanics has always been about the future.
@@ -150,17 +165,25 @@ In 1935, Einstein, Polodsky, and Rosen (EPR)
 \begin_inset CommandInset citation
 LatexCommand cite
 key "EPR1935"
+literal "true"
 
 \end_inset
 
- proposed that variables hidden in the past light cone could explain how
+ proposed that variables hidden in the past lightcone could explain how
  quantum mechanics worked.
- The claimed inherent uncertainty of quantum mechanics could be traded for
- something more real, variables that are hidden.
- This was not an easy to dismiss proposal given Einstein's stature.
+ The inherent uncertainty of quantum mechanics could be traded for something
+ more real, variables that are hidden.
+ This proposal was not an easy to dismiss given Einstein's stature.
  It took until the 1960s when John Bell found an inequality that could test
  if variables are hidden in the past lightcone or the entangled states of
  quantum mechanics where somehow real because quantum information was non-local.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bell1964,bell1966"
+literal "false"
+
+\end_inset
+
  If one asks the same question the same way, both models make identical
  predictions.
  If questions are asked at a different angle, the hidden variable hypothesis
@@ -169,6 +192,599 @@ key "EPR1935"
  A huge experimental effort from the 1980s until today has always confirmed
  the same result: quantum mechanics is non-local and hidden variable models
  are wrong.
+\end_layout
+
+\begin_layout Section
+Totally-ordered and Disordered Sets in Space-time under Lorentz Transformations
+\end_layout
+
+\begin_layout Standard
+In Einstein's first paper on special relativity in 1905, he shows how simultanei
+ty is not an invariant under a Lorentz transformation.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "einstein1905"
+literal "false"
+
+\end_inset
+
+ While there may be an observer that says events 
+\emph on
+A
+\emph default
+ and 
+\emph on
+B
+\emph default
+ happened at the same moment in time, a second observer may say 
+\emph on
+A
+\emph default
+ happend before 
+\emph on
+B
+\emph default
+ while a third reports 
+\emph on
+B
+\emph default
+ happened before 
+\emph on
+A
+\emph default
+.
+ Is there something that all three observers can agree upon about events
+ 
+\emph on
+A
+\emph default
+ and 
+\emph on
+B
+\emph default
+, that is invariant under a proper Lorentz transformation? So long as the
+ observers have put in the effort to agree about their choices in coordinates
+ and the origin, then the three observers will all agree on the ordering
+ in space of these events in space.
+ If the first observer says 
+\emph on
+A
+\emph default
+ is left of 
+\emph on
+B
+\emph default
+, then so do observers two and three.
+ If events 
+\emph on
+A
+\emph default
+ and 
+\emph on
+B
+\emph default
+ were in the same location for one of the dimensions, they would remain
+ together.
+ A totally-ordered set means one can say exactly one of three things about
+ any pair of numbers: one is bigger than the other, one is less than the
+ other, or both have the same value.
+ An axis on a graph is a totally-ordered set.
+ Here we are thinking about pairs of events that can be connected by a straight
+ line that runs through the origin.
+ Under a Lorentz transformation, the time for these pairs can switch order
+ depending on the intertial observer chosen.
+ I will call this a disordered set of events in time for space-like separated
+ events under proper Lorentz transformations.
+ The measurements of space will form a totally-ordered set.
+\end_layout
+
+\begin_layout Standard
+The same exercise can be repeated for all time-like pairs events that fall
+ on a line running through the origin.
+ These pairs of events will be totally-ordered in time: event 
+\emph on
+A
+\emph default
+ did happen before event 
+\emph on
+B
+\emph default
+ and all observers agree to that.
+ If event A was simultaneous to event 
+\emph on
+B
+\emph default
+, that will remain true for all possible inertial observers.
+ To be time-like, simultaneous, and be on a line through the orgin requires
+ that the spatial location of A is idential to B.
+ What is disordered are measurements of space.
+ If event 
+\emph on
+A
+\emph default
+ is located at the same place as event B for one observer, a different obserser
+ could put 
+\emph on
+A
+\emph default
+ left of 
+\emph on
+B
+\emph default
+.
+ The third observer may see event 
+\emph on
+A
+\emph default
+ to the right of 
+\emph on
+B
+\emph default
+, and so on.
+\end_layout
+
+\begin_layout Standard
+Pairs of light-like events remain totally-ordered in both time and the three
+ directions of space.
+ Since everything in the light-cone travels at the same speed, there is
+ no way for one event to 
+\begin_inset Quotes eld
+\end_inset
+
+catch up
+\begin_inset Quotes erd
+\end_inset
+
+ to another.
+ Here is a summary:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="13" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Relation to Origin
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+space-time component
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ordering
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+space-like
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $t$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+disordered
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x_{1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+totally-ordered
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+totally-ordered
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x_{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+totally-ordered
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+time-like
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $t$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+totally-ordered
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x_{1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+disordered
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+disordered
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x_{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+disordered
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+light-like
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $t$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+totally-ordered
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x_{1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+totally-ordered
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+totally-ordered
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x_{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+totally-ordered
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Why is this table relevant to the topic at hand? Consider what is meant
+ by 
+\begin_inset Quotes eld
+\end_inset
+
+causality
+\begin_inset Quotes erd
+\end_inset
+
+.
+ It is a Rube Goldberg machine at work: this happens, then that, finally
+ the end.
+ In other words, events are totally-ordered in time.
+ That is possible for time-like and light-like events.
+ Space-like events are disordered in time under Lorentz tranformations.
+ Causality for sets of space-like events has to be fundamentally different
+ that for time-like and light-like events.
+ 
 \end_layout
 
 \begin_layout Section
@@ -241,13 +857,14 @@ Noice how three spatial dimensions are written explicity in the space-time
  begun in the 1970s created a significant investigation into higher spatial
  dimensions.
  I believe all such work will have no lasting value.
- More recently, people have been championing the multi-verse.
+ More recently, people have been championing a multi-verse thesis.
  A multi-verse has multiple space-times.
  Again, I believe all such work witll have no lasting value.
 \end_layout
 
 \begin_layout Standard
-I am radical conservative circa 1960s in regards to space-time.
+I am radical conservative circa 1960s in regards to precisely three dimensions
+ for space and one for time.
 \end_layout
 
 \begin_layout Subsection
@@ -255,11 +872,12 @@ Technical Tangent: quaternions
 \end_layout
 
 \begin_layout Standard
-The graph reveals that I am a 1908 Minkowski radical.
+The previous section reveals that I am a 1908 Minkowski radical.
  He wrote
 \begin_inset CommandInset citation
 LatexCommand cite
 key "minkowski2012"
+literal "true"
 
 \end_inset
 
@@ -274,12 +892,16 @@ Henceforth space by itself, and time by itself, are doomed to fade away
 
 \begin_layout Standard
 If an event in space-time is just a bag of numbers (a vector with scant
- structure), it is OK to ask if the bag can be expanded as higher dimensional
- research does.
+ structure), it is OK to ask if the bag can be expanded as research into
+ higher dimensions does.
  If an event is just one number, the bag cannot be expanded.
- I study a kind of number with that property, quaternions.
- A breadcrumb appears on how the axes are labeled with power series of the
- 3-vector I (
+ I study a kind of number with that property, called the quaternions.
+ A sublte hint appears on how the axes are labeled with power series of
+ the 3-vector 
+\begin_inset Formula $I$
+\end_inset
+
+ (
 \begin_inset Formula $I^{0}$
 \end_inset
 
@@ -310,7 +932,7 @@ Quaternions are not central to Bell's future quantum mechanics
 \end_layout
 
 \begin_layout Standard
-In summary, space-time is everything we know, everything we do not know,
+In summary, space-time is everything we know and everything we do not know,
  all on the same stage.
 \end_layout
 
@@ -360,8 +982,8 @@ The only kinds of events that can change an observer at the origin are events
 Einstein was adroit at working with the space-like regions, realizing for
  example that events that are simultaneous in one reference frame will not
  be so in another.
- If one decides to restrict to the study causality, that is the reason to
- black out the space-time regions.
+ If one decides to be restricted to the study causality, that is the reason
+ to black out the space-time regions.
  Why did something happen? The answer is in the past lightcone, not the
  space-like region.
 \end_layout
@@ -376,6 +998,7 @@ This is from a
 LatexCommand href
 name "Wikipedia discussion of EPR paper"
 target "https://en.wikipedia.org/wiki/EPR_paradox#The_paradox"
+literal "false"
 
 \end_inset
 
@@ -392,8 +1015,8 @@ The 1935 EPR paper condensed the philosophical discussion into a physical
  They postulate that these elements of reality are, in modern terminology,
  local, in the sense that each belongs to a certain point in spacetime.
  Each element may, again in modern terminology, only be influenced by events
- which are located in the backward light cone of its point in spacetime
- (i.e., the past).
+ which are located in the backward lightcone of its point in spacetime (i.e.,
+ the past).
   These claims are founded on assumptions about nature that constitute what
  is now known as local realism.
 \end_layout
@@ -403,7 +1026,7 @@ It was the clause
 \begin_inset Quotes eld
 \end_inset
 
-only be influenced by events which are located in the backward light cone
+only be influenced by events which are located in the backward lightcone
 \begin_inset Quotes erd
 \end_inset
 
@@ -414,7 +1037,7 @@ y.
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename /Users/doug/workspace/Q/docs/images/QM/BellsFuture/Bells_future_QM_Bell.jpg
+	filename /home/doug/workspace/q/docs/images/QM/BellsFuture/Bells_future_QM_Bell.jpg
 
 \end_inset
 
@@ -432,7 +1055,8 @@ The past lightcone has been darkened to indicate it is not part of quantum
 \begin_layout Standard
 Einstein causality and Bell's future combine to cover all of space-time.
  Both relativity and quantum mechanics were born and matured in the same
- time window, and at for Einstein, in the same mind.
+ time window, and at for Einstein, in the same mind in the same Spring/Summer
+ of 1905.
 \end_layout
 
 \begin_layout Section
@@ -440,10 +1064,11 @@ Repeat the Exercise for Tangent Spaces
 \end_layout
 
 \begin_layout Standard
-Space-time records where-when things are: location, location, location.
+Space-time records where-when things are: location, location, location at
+ one moment in time.
  Space-time formally has no information about change.
  Change lives in tangent spaces.
- Which tangent space is used determines what change is under study.
+ Which tangent space is used determines what kind of change is under study.
  The most common one is energy-momentum.
  Tangent spaces can also be broken up into the same four types: all, classical,
  relativistic, and quantum:
@@ -475,10 +1100,10 @@ Imagine one were to study the classical motion of a rock.
 \begin_layout Standard
 Physicists have studied all combinations of the base space space-time with
  the tangent space energy-momentum.
- There is both classical and relativistic quantum mechanics.
+ For example, there is both classical and relativistic quantum mechanics.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Uncool Sidebar: The Base Space is the Base
 \end_layout
 
@@ -488,7 +1113,8 @@ The base space, space-time, cannot be changed by anything.
  who have made a serious study of Einstein's general relativity.
  Tens of thousands of times it has been repeated: gravity bends space-time.
  I am not in denial of the words.
- I do feel compelled to at least question the link to the math.
+ I do feel compelled to at least question the link from words to the more
+ precise math.
  Gravity alters a tangent space of space-time as seen by the dt and dR in
  metric solutions.
  Space-time has Lorentz symmetry and its origin.
@@ -508,17 +1134,21 @@ Momentum versus a Momentum State
 Why use momentum in relativity, but momentum states in quantum mechanics?
  Momentum from the past lightcone can change the motion of the observer
  at the origin.
- The entire chain of events leading to that chang in the observer can be
+ The entire chain of events leading to that change in the observer can be
  known.
  A space-like momentum state is different.
  Momentum states may never change the observer at the origin, here-now.
  The precise odds of a momentum state changing the momentum of an observer
  can be calculated.
  In the future, if an interaction does occur, it will change the path of
- the observer in the usual way.
+ the observer the usual amount.
  The entire chain of events leading to this momentum change cannot be known
  because they are space-like separated.
- The observer is necessarily blind-sided by a momentum state.
+ The observer is 
+\emph on
+necessarily
+\emph default
+ blind-sided by a momentum state.
 \end_layout
 
 \begin_layout Standard
@@ -526,7 +1156,8 @@ The same story applies to energy versus an energy state.
  Observers can absorb energy from the past lightcone and heat up.
  Observers cannot absorb energy from an energy state as it is too far away.
  The can in the futur absorb the energy to the same effect.
- We can calculate the odds.
+ We calculate the exact odds of that happening to the observer at the spatial
+ origin in the future.
 \end_layout
 
 \begin_layout Section
@@ -553,7 +1184,7 @@ For a complex-valued wave function, the conjugate is simple to construct.
  calculations will be the same.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Dull Quaterion Series Quantum Mechanics
 \end_layout
 
@@ -605,11 +1236,14 @@ point-with-precision
  experimental apperatus.
  It is common to use tables that isolate the vibrations of the surroundings
  from the experiment.
- The precision of location known at the bench is apply to the math used.
+ The precision of location known at the bench should also apply to the math
+ used.
  Quaternions that point in the same direction commute.
  A quaternion series is not a division algebra like the quaternions.
  Instead it is a semi-group with inverses.
  A semi-group has more than one inverse.
+ Two non-zero quaternion series can be orthogonal, so the inner product
+ is zero.
 \end_layout
 
 \begin_layout Standard
@@ -623,9 +1257,198 @@ For quaternion-valued wave functions, the conjugate has a physical meaning:
 \end_layout
 
 \begin_layout Standard
-The Bell's future quantum mechanics interpretation in no way depends on
- quaternion series quantum mechanics being a viable algebric approach to
- doing calculations.
+The Bell's future quantum mechanics interpretation could be embraced with
+ complex-valued quantum mechanics instead of quaternion series quantum mechanics.
+ As a physicist, I prefer the physical interpretation available with quaternion
+ series.
+\end_layout
+
+\begin_layout Section
+Entagled States
+\end_layout
+
+\begin_layout Standard
+As an exercise for quaternion series quantum mechanics, I figured out how
+ to prove the CHSH inequality which is one way to test for the non-local
+ nature of quantum mechanics.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "clauser1969"
+literal "false"
+
+\end_inset
+
+ The first part of the exercise is to use quaternions of the form 
+\begin_inset Formula $(a,b,0,0)$
+\end_inset
+
+, in other words the standard complex-valued calculation.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "sweetser2019"
+literal "false"
+
+\end_inset
+
+ To generalize to quaternions, all that is needed is that the spatial 3-vector
+ has a norm of one.
+ Here is the entangled state used in the calculation:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+|\psi_{s}>=\frac{1}{\sqrt{2}}(|0>\otimes|1>-|1>\otimes|0>)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+How can one represent this information on a Minkowski space-time diagram?
+ What does it mean to have three observers, Alice who sees the state, Bob
+ who does not, or Charlie who does?
+\end_layout
+
+\begin_layout Standard
+There are four lightcones to keep track of in space-time: The Originating
+ lightcone that creates the entangled state and the three for observers
+ Alice, Bob, and Charlie.
+ There are six moments in space-time that will be depicted:
+\end_layout
+
+\begin_layout Enumerate
+The moment the entangled state is created
+\end_layout
+
+\begin_layout Enumerate
+The signals first approaching the three observers
+\end_layout
+
+\begin_layout Enumerate
+Alice getting the signal
+\end_layout
+
+\begin_layout Enumerate
+Bob missing the signal
+\end_layout
+
+\begin_layout Enumerate
+Charlie getting the signal
+\end_layout
+
+\begin_layout Enumerate
+After the signal is found by Alice and Charlie
+\end_layout
+
+\begin_layout Standard
+Here are all six states:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /home/doug/workspace/q/docs/images/QM/BellsFuture/entagled_states.1-6.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The largest lightcone is where the entangled state with two qubits is created
+ at time 
+\begin_inset Formula $t=1$
+\end_inset
+
+.
+ The two qubits go their separate ways along the 
+\emph on
+i
+\emph default
+ axis at time 
+\begin_inset Formula $t=2$
+\end_inset
+
+.
+ Notice how they are space-like separated.
+ That is one consequence of Bell's inequality: the qubits need to have a
+ space-like relationship to necessariy be non-local.
+ One qubit arrives at observer Alice at time 
+\begin_inset Formula $t=3$
+\end_inset
+
+ where she determines that the state she gets to measure is 
+\begin_inset Formula $|0>|1>$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Bob will never see any signals that Alice does.
+ Notice how the qubits travel along 
+\begin_inset Formula $i=1$
+\end_inset
+
+, 
+\begin_inset Formula $j=0$
+\end_inset
+
+, but Bob has a non-zero 
+\begin_inset Formula $j$
+\end_inset
+
+ value.
+ This is consistent with how experiments are done in a lab.
+ Everything on a light table has to be precisely aligned before one collects
+ correlation data.
+ Experimentally, this is not a surprise.
+ What is different here is that with quaternion series quantum mechanics,
+ that same issue can be seen in the algebra.
+ Of course the experimentalist could place a mirror so the signal does get
+ to Bob.
+ In that case, the mathematician would do a spatial rotation on the entangled
+ state of precisely the same form.
+ Changes at the bench can be accounted for in the math.
+\end_layout
+
+\begin_layout Standard
+Charlie is able to see the qubit at time 
+\begin_inset Formula $t=5$
+\end_inset
+
+, measuring a state of 
+\begin_inset Formula $|1>|0>$
+\end_inset
+
+.
+ The two qubits have been absorbed by Alice and Charlie, so there is no
+ more entagled state at time 
+\begin_inset Formula $t=6$
+\end_inset
+
+, just two observerations by two observers.
+\end_layout
+
+\begin_layout Standard
+The proof of non-locality remains a subtle craft.
+ If the same question about the same event is asked the same way by two
+ observers, one cannot distinguish between hidden local-variable theories
+ and non-local quantum mechanics.
+ Only by collecting data when there are differences between the measuring
+ angle for Alice and Charlie can it be shown that the math of the entangled
+ state must govern the description of the two qubits, even after one qubit
+ is known to Alice.
+ It remains about the odds 
+\emph on
+in the future
+\emph default
+ that Alice and Charlie see signals depending on the angle.
+ I suspect few will care about Bob who collects no data but whose sad plight
+ can be explained using quaternion series instead of complex numbers to
+ form the Hilbert space needed in quantum mechanics.
 \end_layout
 
 \begin_layout Section
@@ -637,13 +1460,13 @@ There are at least 20 intepretations of quantum mechanics.
  Nearly all of them make the same predictions as does this one.
  I have seen Sean Carroll take a poll of graduate students to find their
  favorite.
- This is not the was physics works.
+ This is not the way physics works.
  Physics is a contact sport with only one eventual winner.
 \end_layout
 
 \begin_layout Standard
 Physics by subtraction defines areas of study.
- Newton's classical physics uses only the axes.
+ Newton's classical physics uses only a narrow width around the axes.
  Causality in special relativity uses only the past lightcone.
  By contrast, quantum mechancis uses nothing from the past lightcone.
  Quantum mechanics uses space-like states to calculate the odds of interactions
