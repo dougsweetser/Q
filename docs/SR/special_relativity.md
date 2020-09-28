@@ -42,3 +42,13 @@ factor of two on the angles, but I just accept it as is.
 There are several places in the phyisics literature where it is claimed that
 only complex-valued quaternions can represent the Lorentz group. Sometimes it
 is good to just play until things work.
+
+## Totally-ordered sets in special relativity
+
+Einstein showed in his first paper that the idea of simultaneous depends on the
+inertial observer. This may lead one to think that all orderings depend on
+the choice of observer. If we restrict ourselves to straight lines that run
+through the origin, then [there are some totally-ordered sets|totally_ordered_sets_in_space-time.md]. The subject came
+up as part of a novel interpretation of quantum mechanics I am calling [Bell's
+future quantum mechanics|https://bit.ly/BellsFuture]. Click on the links to see more
+details.
