@@ -10,9 +10,13 @@ google_analytics: ['UA-9710248-1', 'dougsweetser.github.io/Q']
 
 markdown_extensions: 
     - markdown_include.include
-    - subscript
-    - superscript
     - footnotes
+
+plugins:
+    - exclude:
+        glob:
+            - "*book.md*"
+            - "doing_physics.md"
 
 pages:
 - '': index.md
@@ -40,6 +44,7 @@ pages:
     - 'Special Relativity (SR)': 'SR/special_relativity.md'
     - 'Problem sets': 'SR/problem_sets.md' 
     - 'Problem set 1': 'SR/problem_set_1.md'
+    - 'Totally ordered_sets in Space-time': 'SR/totally_ordered_sets_in_space-time.md'
 - Gravity:
     - 'Quaternion gravity': 'Gravity/gravity.md'
     - 'Measurement-101 - Measuring Events': 'Gravity/Measurement-101/measure.md' 
@@ -73,6 +78,17 @@ pages:
     - 'PDFs': 'Stuff/pdfs/pdfs.md'
     - 'Talks on Gravity': 'Stuff/Talks/talks.md'
     - 'Buy Stuff': 'Stuff/shop.md'
+- Blogs:
+    - 'Some writings': 'Blogs/blogs.md'
+    - 'Bet against Lubos': 'Blogs/Bet_against_Lubos/bet_against_Lubos.md'
+    - 'Discovery': 'Blogs/Discovery/discovery.md'
+    - 'Electromagnetism and gravity': 'Blogs/Electromagnetism_and_gravity/electromagnetism_and_gravity.md'
+    - 'Outreach efforts': 'Blogs/Outreach_efforts/outreach_efforts.md'
+    - 'Paper': 'Blogs/Paper/paper.md'
+    - 'Space-time numbers': 'Blogs/Space-time_numbers/space-time_numbers.md'
+    - 'The Plan': 'Blogs/The_plan/the_plan.md'
+    - 'Working with space-time numbers': 'Blogs/Working_with_space-time_numbers/working_with_space-time_numbers.md'
+    - 'Zero and one': 'Blogs/Zero_and_one/zero_and_one.md'
 - About:
     - 'Professional sketch': 'About/professional_sketch.md'
     - 'Resume': 'About/resume.md'
