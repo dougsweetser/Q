@@ -6,7 +6,7 @@ twitter: visualphysics
 
 If it is really important to you, a google hangout can be arranged.
 
-{! /Users/doug/Documents/Q/docs/About/web_sites.md !}
+{! ~/workspace/Q/docs/About/web_sites.md !}
 
 
 ## Tip Jar

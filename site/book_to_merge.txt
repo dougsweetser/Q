@@ -12,6 +12,7 @@ Classical_physics/sho.book.md
 Classical_physics/conservative_force.book.md
 SR/problem_sets.md
 SR/problem_set_1.book.md
+SR/totally_ordered_sets_in_space-time.md
 Gravity/Measurement-101/measure.book.md
 Gravity/Measurement-101/special_relativity.book.md
 Gravity/Measurement-101/quaternion_gravity.book.md
@@ -23,6 +24,7 @@ EM/EM_invariants.book.md
 EM/derive_Maxwell_homogeneous_equations.book.md
 EM/derive_Maxwell_source_equations.book.md
 EM/Maxwell_by_hand.book.md
+QM/BellsFuture.book.md
 QM/bracket_notation.book.md
 QM/polar.book.md
 QM/uncertainty_principle.book.md
