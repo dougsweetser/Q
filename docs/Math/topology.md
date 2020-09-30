@@ -35,7 +35,7 @@ together with a collection T of subsets of H with these properties:
 
 T is the topology on H.  The subsets of H in T are open sets.  Quaternions
 form a topology because they are what mathematicians call a metric space,
-since q^\*^ q evaluates to a real positive number or equals zero only if q is
+since q<sup>*</sup> q evaluates to a real positive number or equals zero only if q is
 zero.  Note: this is not the meaning of metric used by physicists.  For
 example, the Minkowski metric can be negative or zero even if a point is not
 zero.  To keep the same word with two meanings distinct, I will refer to one
@@ -44,9 +44,9 @@ labels are not used  in general since context usually determines which one is
 in play.
 
 An important component to standard approaches to general relativity is product
-spaces.  This is how a topology for R^n^ is created.  Events in spacetime
-require R^4^, one place for time, three for space.  Mathematicians get to make
-choices: what would change if work was done in R^2^, R^3^, or R^5^?  The
+spaces.  This is how a topology for <sup>^</sup>^ is created.  Events in spacetime
+require R<sup>4</sup>, one place for time, three for space.  Mathematicians get to make
+choices: what would change if work was done in R<sup>2</sup>, R<sup>3</sup>, or R<sup>5</sup>?  The
 precision of this notion, together with the freedom to make choices, makes
 exploring these decisions fun (for those few who can understand what is going
 on :-)
@@ -256,18 +256,18 @@ bound and its absolute value attains a maximum and minimum values.
 
 [end translation of Wald]
 
-##  R^1^ versus R^n^
+##  R<sup>1</sup> versus R<sup>n</sup>
 
 It is important to note that these theorems for quaternions are build directly
-on top of theorems for real numbers, R^1^.  Only the domain needs to be changed
-to H^1^.  Wald continues with theorems on product spaces, specifically
-Tychonoff's Theorem, so that the above theorems can be extended to R^n^.  In
-particular, the product space R^4^ should have the same topology as the
+on top of theorems for real numbers, R<sup>1</sup>.  Only the domain needs to be changed
+to H<sup>1</sup>.  Wald continues with theorems on product spaces, specifically
+Tychonoff's Theorem, so that the above theorems can be extended to R<sup>n</sup>.  In
+particular, the product space R<sup>4</sup> should have the same topology as the
 quaternions.
 
 Hopefully, subtlety matters in the discussion of the logical foundations of
-general relativity.  Both R^1^ and H^1^ have a rule for multiplication, but H^1^
-has an antisymmetric component.  This is a description of a difference.  R^4^
+general relativity.  Both R<sup>1</sup> and H<sup>1</sup> have a rule for multiplication, but H<sup>1</sup>
+has an antisymmetric component.  This is a description of a difference.  R<sup>4</sup>
 does not come equipped with a rule for multiplication, so it is qualitatively
 different, even if topologically similar to the quaternions.
 
