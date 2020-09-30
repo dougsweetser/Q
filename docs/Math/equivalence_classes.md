@@ -65,7 +65,7 @@ can have a causal relationship with other event - the time-like areas - and
 there are the regions that are too far away in space-time for a photon to reach
 the origin:
 
-![](../images/Math/equivalence_classes/Light.png)
+![](../images/Math/equivalence_classes/light.png)
 
 These regions are separate. It no longer makes sense to draw an equivalence
 class as a straight line because that line would then not remain in the separate

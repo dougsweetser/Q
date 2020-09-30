@@ -2,10 +2,10 @@
 
 This graphic says most of it...
 
-<a id="single_1" href="../../../images/Gravity/Measurement-101/all_900.gif"
+<a id="single_1" href="../../images/Gravity/Measurement-101/all_900.gif"
 title="Four ways to see two events">
-    <img class='visible-xs' src="../../../images/Gravity/Measurement-101/all_400.gif" alt="" />
-    <img class='hidden-xs' src="../../../images/Gravity/Measurement-101/all_600.gif" alt="" /></a>  
+    <img class='visible-xs' src="../../images/Gravity/Measurement-101/all_400.gif" alt="" />
+    <img class='hidden-xs' src="../../images/Gravity/Measurement-101/all_600.gif" alt="" /></a>  
 
 Start with the reference square which has an interval of 16 and a space-times
 time of 30.
@@ -54,7 +54,7 @@ inverse that depens on the M/R ratio is an obvious thing to propose.
 ![e to the -z dt, e to the z dR sub i over c squared equals e to the -2 z dt
 squared - e to the 2 z dR sub i squared, 2 dt dR sub i over c equals e to the -
 2 G M c squared R dt squared - e to the 2 G M over c squared R dR sub i
-squared, 2 dt dR sub i if z = G M over c squared R](../../../images/Gravity/exp_GMc2R.png)
+squared, 2 dt dR sub i if z = G M over c squared R](../../images/Gravity/exp_GMc2R.png)
 
 The interval looks just like the Rosen bi-metric proposal, even though
 quaternion gravity uses no metrics. The Rosen metric is known to be consistent

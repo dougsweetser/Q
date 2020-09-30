@@ -2,10 +2,10 @@
 
 Looking down or looking from below changes time and space measurements in opposite ways.
 
-<a id="single_1" href="../../../images/Gravity/Measurement-101/QG_900.gif"
+<a id="single_1" href="../../images/Gravity/Measurement-101/QG_900.gif"
 title="Four ways to see two events">
-    <img class='visible-xs' src="../../../images/Gravity/Measurement-101/QG_400.gif" alt="" />
-    <img class='hidden-xs' src="../../../images/Gravity/Measurement-101/QG_600.gif" alt="" /></a>  
+    <img class='visible-xs' src="../../images/Gravity/Measurement-101/QG_400.gif" alt="" />
+    <img class='hidden-xs' src="../../images/Gravity/Measurement-101/QG_600.gif" alt="" /></a>  
 
 If one kid is at a different height in a gravity field to another, then
 time measurements get smaller while spatial ones get bigger. That is standard 
@@ -49,7 +49,7 @@ exponential experienced by the space term, like so:
 ![e to the -z dt, e to the z dR sub i over c squared equals e to the -2 z dt
 squared - e to the 2 z dR sub i squared, 2 dt dR sub i over c equals e to the -
 2 G M c squared R dt squared - e to the 2 G M over c squared R dR sub i
-squared, 2 dt dR sub i if z = G M over c squared R](../../../images/Gravity/exp_GMc2R.png)
+squared, 2 dt dR sub i if z = G M over c squared R](../../images/Gravity/exp_GMc2R.png)
 
 The resulting exponential interval has the same form as the Rosen metric. The Rosen
 matric makes the same experimental predictions as the Schwarzschild metric for

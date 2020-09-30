@@ -2,6 +2,7 @@
 
 # Quantum mechanics
 
+1. [Bell's Future Quantum Mechanics Interpretation](BellsFuture.md)
 1. [Bracket notation using quaternions](bracket_notation.md)
 1. [Multiplying polar quaternions](polar.md)
 1. [The uncertainty principle](uncertainty_principle.md)

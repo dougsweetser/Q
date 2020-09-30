@@ -2,7 +2,7 @@ site_name: Q
 
 site_author: sweetser@alum.mit.edu
 
-theme_dir: spacelab-mod
+theme: spacelab
 
 dev_addr: 127.0.0.1:8004
 
@@ -18,7 +18,7 @@ plugins:
             - "*book.md*"
             - "doing_physics.md"
 
-pages:
+nav:
 - '': index.md
 - Math:
     - 'The Math': 'Math/math.md'
@@ -62,8 +62,8 @@ pages:
     - 'Derive the Maxwell source equations': 'EM/derive_Maxwell_source_equations.md'
     - 'Derive the Maxwell source equations by hand': 'EM/Maxwell_by_hand.md'
 - QM:
-    - "Bell's Future QM Interpretation": "QM/BellsFuture.md"
     - 'Quantum Mechanics': 'QM/qm.md'
+    - "Bell's Future QM Interpretation": "QM/BellsFuture.md"
     - 'Bracket notation and quaternions': 'QM/bracket_notation.md'
     - 'Multiplying polar representations': 'QM/polar.md'
     - 'Commutators and the uncertainty principle': 'QM/uncertainty_principle.md'
