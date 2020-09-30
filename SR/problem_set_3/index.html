@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="sweetser@alum.mit.edu">
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>8.033 Problem Set 3: The Lorentz transformation and addition of velocities - Q</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/color-brewer.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-9710248-1', 'dougsweetser.github.io/Q');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Q</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link"></a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Math <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Math/math/" class="dropdown-item">The Math</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/overview/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/history/" class="dropdown-item">History</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/numbers_101/" class="dropdown-item">Numbers 101</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/multiplying/" class="dropdown-item">Easy multiplying</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/products/" class="dropdown-item">Products</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/scalars_vectors/" class="dropdown-item">Scalars, vectors, tensors and all that</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/complex_quaternions/" class="dropdown-item">Complex quaternions</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/equivalence_classes/" class="dropdown-item">Quaternion equivalence classes</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/analysis/" class="dropdown-item">Analysis</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/topology/" class="dropdown-item">Topology</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/fit/" class="dropdown-item">Where quaternions fit</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/tools/" class="dropdown-item">Math, Tools</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Classical <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Classical_physics/classical_physics/" class="dropdown-item">Classical physics</a>
+</li>
+                                    
+<li>
+    <a href="../../Classical_physics/force/" class="dropdown-item">Forces</a>
+</li>
+                                    
+<li>
+    <a href="../../Classical_physics/sho/" class="dropdown-item">Simple Harmonic Oscillators</a>
+</li>
+                                    
+<li>
+    <a href="../../Classical_physics/conservative_force/" class="dropdown-item">Conservative force</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">SR <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../special_relativity/" class="dropdown-item">Special Relativity (SR)</a>
+</li>
+                                    
+<li>
+    <a href="../problem_sets/" class="dropdown-item">Problem sets</a>
+</li>
+                                    
+<li>
+    <a href="../problem_set_1/" class="dropdown-item">Problem set 1</a>
+</li>
+                                    
+<li>
+    <a href="../totally_ordered_sets_in_space-time/" class="dropdown-item">Totally ordered_sets in Space-time</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Gravity <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Gravity/gravity/" class="dropdown-item">Quaternion gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement-101/measure/" class="dropdown-item">Measurement-101 - Measuring Events</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement-101/special_relativity/" class="dropdown-item">Gravity, Measurement-101 - Special relaitivity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement-101/quaternion_gravity/" class="dropdown-item">Measurement-101 - Quaternion Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement-101/measure_it_all/" class="dropdown-item">Measurement-101 - SR + QG: Special Relativity and Quaternion Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/space-times-time_invariance/" class="dropdown-item">Quaternion space-times-time invariance as gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/essays_on_gravitation/" class="dropdown-item">Essays on gravitation contest</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/PGT/personal_gravity_theory/" class="dropdown-item">PGT - Personal Gravity Theory</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">EM <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../EM/em/" class="dropdown-item">Electromagnetism</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/derive_Euler-Lagrange/" class="dropdown-item">Derive the Euler-Lagrange equations</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/EM_invariants/" class="dropdown-item">EM invariants</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/derive_Maxwell_homogeneous_equations/" class="dropdown-item">Derive the Maxwell homogeneous equations</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/derive_Maxwell_source_equations/" class="dropdown-item">Derive the Maxwell source equations</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/Maxwell_by_hand/" class="dropdown-item">Derive the Maxwell source equations by hand</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">QM <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../QM/qm/" class="dropdown-item">Quantum Mechanics</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/BellsFuture/" class="dropdown-item">Bell's Future QM Interpretation</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/bracket_notation/" class="dropdown-item">Bracket notation and quaternions</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/polar/" class="dropdown-item">Multiplying polar representations</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/uncertainty_principle/" class="dropdown-item">Commutators and the uncertainty principle</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/spin_and_angular_momentum/" class="dropdown-item">Spin and angular momentum</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/Schrodinger/" class="dropdown-item">The Schrodinger equation</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/Klein-Gordon/" class="dropdown-item">The Klein-Gordon equation</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/standard_model_symmetries/" class="dropdown-item">Visualizing the standard model</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/time_reversal/" class="dropdown-item">Time reversal</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Art + PDFs <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Stuff/art/" class="dropdown-item">Art Portfolio</a>
+</li>
+                                    
+<li>
+    <a href="../../Stuff/buttons/" class="dropdown-item">Buttons</a>
+</li>
+                                    
+<li>
+    <a href="../../Stuff/pdfs/pdfs/" class="dropdown-item">PDFs</a>
+</li>
+                                    
+<li>
+    <a href="../../Stuff/Talks/talks/" class="dropdown-item">Talks on Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Stuff/shop/" class="dropdown-item">Buy Stuff</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blogs <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Blogs/blogs/" class="dropdown-item">Some writings</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Bet_against_Lubos/bet_against_Lubos/" class="dropdown-item">Bet against Lubos</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Discovery/discovery/" class="dropdown-item">Discovery</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Electromagnetism_and_gravity/electromagnetism_and_gravity/" class="dropdown-item">Electromagnetism and gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Outreach_efforts/outreach_efforts/" class="dropdown-item">Outreach efforts</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Paper/paper/" class="dropdown-item">Paper</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Space-time_numbers/space-time_numbers/" class="dropdown-item">Space-time numbers</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/The_plan/the_plan/" class="dropdown-item">The Plan</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Working_with_space-time_numbers/working_with_space-time_numbers/" class="dropdown-item">Working with space-time numbers</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Zero_and_one/zero_and_one/" class="dropdown-item">Zero and one</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../About/professional_sketch/" class="dropdown-item">Professional sketch</a>
+</li>
+                                    
+<li>
+    <a href="../../About/resume/" class="dropdown-item">Resume</a>
+</li>
+                                    
+<li>
+    <a href="../../About/personal_sketch/" class="dropdown-item">Personal Sketch</a>
+</li>
+                                    
+<li>
+    <a href="../../About/lindy_hop/" class="dropdown-item">Lindy Hop</a>
+</li>
+                                    
+<li>
+    <a href="../../About/bike/" class="dropdown-item">The bike</a>
+</li>
+                                    
+<li>
+    <a href="../../About/thanks/" class="dropdown-item">Thanks</a>
+</li>
+                                    
+<li>
+    <a href="../../About/todo/" class="dropdown-item">To do</a>
+</li>
+                                    
+<li>
+    <a href="../../About/contact_and_tip/" class="dropdown-item">Contact and tips</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#8033-problem-set-3-the-lorentz-transformation-and-addition-of-velocities" class="nav-link">8.033 Problem Set 3: The Lorentz transformation and addition of velocities</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#lorentz-transformations" class="nav-link">Lorentz transformations</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#baranger-inverse-of-a-boost" class="nav-link">Baranger: Inverse of a boost</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#baranger-boosting-photons" class="nav-link">Baranger: Boosting photons</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#baranger-the-ladder-in-the-barn" class="nav-link">Baranger: The ladder in the barn</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#rh-2-34-2-flashes-at-different-places-or-are-they" class="nav-link">R&amp;H: 2-34 2 flashes at different places - or are they?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#rh-2-59-watching-the-decay-of-a-moving-nucleus" class="nav-link">R&amp;H: 2-59 Watching the decay of a moving nucleus</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#baranger-boosting-boosted-frames" class="nav-link">Baranger: Boosting boosted frames</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#french-5-7-2-ways-to-double-a-boost" class="nav-link">French: 5-7 2 ways to double a boost</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#initialization-functions" class="nav-link">Initialization functions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="8033-problem-set-3-the-lorentz-transformation-and-addition-of-velocities">8.033 Problem Set 3: The Lorentz transformation and addition of velocities</h1>
+<h2 id="lorentz-transformations">Lorentz transformations</h2>
+<h2 id="baranger-inverse-of-a-boost">Baranger: Inverse of a boost</h2>
+<p>Q: Start from the 4 Lorentz equations giving the variables T, X, Y, and Z in
+terms of t, x, y and z, and solve these equations for t, x, y and z in terms
+of T, X, Y, and Z. Make sure the result is what you expected.</p>
+<p>A: The problem will be solved for a boost transformation without any angular
+momentum (the case for y and z not equal to zero just gets messier, not
+deeper).</p>
+<p><img alt="[Graphics:ps3gr1.
+gif]" src="../../images/SR/problem_set_3/ps3gr1.gif" /></p>
+<p><img alt="[Graphics:ps3gr3.gif]" src="../../images/SR/problem_set_3/ps3gr3.gif" /></p>
+<p>L q = q', so q = L^-1 q'. L's inverse always exists and is straight forward to
+calculate: the inverse is the transpose divided by the square of the norm.</p>
+<p><img alt="[Graphics:ps3gr4.
+gif]" src="../../images/SR/problem_set_3/ps3gr4.gif" /></p>
+<p><img alt="[Graphics:ps3gr5.
+gif]" src="../../images/SR/problem_set_3/ps3gr5.gif" /></p>
+<p><img alt="[Graphics:ps3gr6.gif]" src="../../images/SR/problem_set_3/ps3gr6.gif" /></p>
+<p>(The inverse was big and ugly, that's why it was hidden from view, but it does
+work! The things that change are the sign of the second component and the
+normalization factor which is quite bulky).</p>
+<h2 id="baranger-boosting-photons">Baranger: Boosting photons</h2>
+<p>Q: In frame S, a flash of light is emitted at the origin and is absorbed on
+the x axis at x = d. Answer the following questions from the point of view of
+frame S', moving in the standard way: (a) What is the spatial separation d'
+between the point of emission and the point of absorption of the light? (b)
+How much time elapses between the emission and the absorption?</p>
+<p>A: (a) In frame S, the point of absorption is q[d, d, 0, 0]. Boost this to
+frame S', and look at the x component.</p>
+<p><img alt="[Graphics:ps3gr7.
+gif]" src="../../images/SR/problem_set_3/ps3gr7.gif" /></p>
+<p><img alt="[Graphics:ps3gr8.gif]" src="../../images/SR/problem_set_3/ps3gr8.gif" /></p>
+<p>The separation is
+<img alt="[Graphics:ps3gr9.gif]" src="../../images/SR/problem_set_3/ps3gr9.gif" />presuming frame S'
+is moving in the same direction as the light.</p>
+<p>(b) The elapsed time is the first component of the transformed quaternion from
+above, or <img alt="[Graphics:ps3gr10.gif]" src="../../images/SR/problem_set_3/ps3gr10.gif" />.</p>
+<h2 id="baranger-the-ladder-in-the-barn">Baranger: The ladder in the barn</h2>
+<p>Q: (long) Manuel wants to demonstrate the Lorentz length contraction by
+fitting his 10 m ladder inside his 8 m garage. He ties the ladder on top of
+his station wagon and asks his friend Linda to drive the wagon into the open
+door of the garage. Linda drives it at the speed of 0.8c, than therefore gamma
+= 5/3, which makes the ladder only 6 m long. Manuel is standing by the door
+and, as soon as the rear end of the ladder has passed, he shuts the door. He
+now has the entire ladder inside the 8 m garage, just as he said he would.
+However, this garage also has a back door and, since the brakes on the wagon
+are a little worn out, Manuel has instructed his other friend Gwen to open the
+back door at the precise instant that the front end of the ladder is about to
+hit it. It's OK, says Manuel, because the ladder was actually inside the
+garage, with both doors shut, for a finite amount of time, and that is all he
+wanted to prove. But it turns out that Gwen's cat, CloudNine, was sitting all
+the time on the ladder on top of the wagon, and CloudNine disagrees totally.
+He says: the ladder was really 10 m, while the garage was Lorentz contracted
+and only 8 m x 3/5 = 4.8 m, and obviously that the ladder was never, never
+totally inside the garage. CloudNine looks in good health; the ladder is still
+in one piece. What's going on? Who is right?<br />
+INSTRUCTIONS: Define 4 separate events. Choose coordinates in two frames.
+Elaborate the 2 descriptions of what happened, Manuel's and CloudNine's,
+giving precise numbers for all the events. Show that these two descriptions
+are actually totally consistent, given the known laws of special relativity.</p>
+<p>A. From the viewpoint of the barn, the ladder is contracted. This involves
+boosting the end of the ladder, and subtracting where the start of the ladder
+has moved to at a simultaneous time.</p>
+<p><img alt="[Graphics:ps3gr11
+.gif]" src="../../images/SR/problem_set_3/ps3gr11.gif" /></p>
+<p><img alt="[Graphics:ps3gr12
+.gif]" src="../../images/SR/problem_set_3/ps3gr12.gif" /></p>
+<p><img alt="[Graphics:ps3gr13
+.gif]" src="../../images/SR/problem_set_3/ps3gr13.gif" /></p>
+<p><img alt="[Graphics:ps3gr14.gif]" src="../../images/SR/problem_set_3/ps3gr14.gif" /></p>
+<p>Manuel observes (correctly) that the ladder appears to be length contracted to
+6 m in his reference frame.</p>
+<p>Repeat this exercise for the cat frame looking at the length of the barn.</p>
+<p><img alt="[Graphics:ps3gr15
+.gif]" src="../../images/SR/problem_set_3/ps3gr15.gif" /></p>
+<p><img alt="[Graphics:ps3gr16
+.gif]" src="../../images/SR/problem_set_3/ps3gr16.gif" /></p>
+<p><img alt="[Graphics:ps3gr17
+.gif]" src="../../images/SR/problem_set_3/ps3gr17.gif" /></p>
+<p><img alt="[Graphics:ps3gr18.gif]" src="../../images/SR/problem_set_3/ps3gr18.gif" /></p>
+<p>The barn is only 4.8m long from the cat's reference frame.</p>
+<p>Manuel and the cat make correct statements about length contraction from their
+own reference frames.</p>
+<p>What makes this problem confusing to discuss is that the doors of the barn and
+the ends of the ladder are spacelike separated, so the order of events in time
+can be reversed depending on the reference frame.</p>
+<p>The reference event chosen for the following spacetime diagrams (created in
+the program Spacetime by Prof. Edwin F. Taylor) is Manuel meeting the start of
+the ladder. The end of the barn and the end of the ladder must be located on
+invariant hyperbolae 8 and 10 meters long respectively. Gwen must open the
+door somewhere on the barn's 8 meter hyperbola. Manuel's dream will only come
+true if the reference event and the two ends are not separated by Gwen's
+action. This is not the case as seen in the figure below:</p>
+<p><img alt="barn and ladder" src="../../images/SR/problem_set_3/barn.jpg" /></p>
+<p>Gwen always opens the far barn door before both ends of the ladder and barn
+are together with Manuel and the start of the ladder, averting disaster. The
+barn stays in one piece and we have had fun with moving objects with spacelike
+separations.</p>
+<h2 id="rh-2-34-2-flashes-at-different-places-or-are-they">R&amp;H: 2-34 2 flashes at different places - or are they?</h2>
+<p>Q: An observer S sees a flash of red light 1200 m from his position and a
+flash of blue light 720 m closer to him and on the same straight line. He
+measures the time interval between the occurrences of the flashes to be 5
+microseconds, the red flash occurring first. (a) What is the relative velocity
+<strong>v</strong> of a second observer S' who would record these flashes as occurring at
+the same place? (b) From the point of view of S', which flash occurs first?
+(c) What time between them would S' measure?</p>
+<p>A: (a) Boost both red and blue lights by beta into frame S'.</p>
+<p><img alt="[Graphics:ps3gr19
+.gif]" src="../../images/SR/problem_set_3/ps3gr19.gif" /></p>
+<p><img alt="[Graphics:ps3gr20
+.gif]" src="../../images/SR/problem_set_3/ps3gr20.gif" /></p>
+<p>Set the distances equal to each other (the second components of the boosted
+quaternions) and solve.</p>
+<p><img alt="[Graphics:ps3gr21
+.gif]" src="../../images/SR/problem_set_3/ps3gr21.gif" /></p>
+<p><img alt="[Graphics:ps3gr22.gif]" src="../../images/SR/problem_set_3/ps3gr22.gif" /></p>
+<p>The second observer moves toward the first observer at a relative speed of
+0.48c.</p>
+<p>(b) Substitute the value for v/c into the boosted time for the events.</p>
+<p><img alt="[Graphics:ps3gr23
+.gif]" src="../../images/SR/problem_set_3/ps3gr23.gif" /></p>
+<p><img alt="[Graphics:ps3gr24.gif]" src="../../images/SR/problem_set_3/ps3gr24.gif" /></p>
+<p><img alt="[Graphics:ps3gr25
+.gif]" src="../../images/SR/problem_set_3/ps3gr25.gif" /></p>
+<p><img alt="[Graphics:ps3gr26.gif]" src="../../images/SR/problem_set_3/ps3gr26.gif" /></p>
+<p>The red light happens first for observer S'.</p>
+<p>(c) Calculate the difference between the first two components of the
+quaternions.</p>
+<p><img alt="[Graphics:ps3gr27
+.gif]" src="../../images/SR/problem_set_3/ps3gr27.gif" /></p>
+<p><img alt="[Graphics:ps3gr28.gif]" src="../../images/SR/problem_set_3/ps3gr28.gif" /></p>
+<p>The time difference is 4.39 microseconds.</p>
+<h3 id="addition-of-velocities">Addition of velocities</h3>
+<p>If a quaternion is normalized to its interval, it becomes:</p>
+<p><img alt="[Graphics:ps3gr29
+.gif]" src="../../images/SR/problem_set_3/ps3gr29.gif" /></p>
+<p>If a quaternion is normalized to its interval and the first term which is
+gamma, the result is a quaternion characterizing the velocities:</p>
+<p><img alt="[Graphics:ps3gr30
+.gif]" src="../../images/SR/problem_set_3/ps3gr30.gif" /></p>
+<p>This quaternion can be formed from any quaternion and boosted accordingly.</p>
+<p>For this series of problems, we need a more general boost quaternion, one
+where y and z are not zero.</p>
+<p><img alt="[Graphics:ps3gr31
+.gif]" src="../../images/SR/problem_set_3/ps3gr31.gif" /></p>
+<p><img alt="[Graphics:ps3gr32
+.gif]" src="../../images/SR/problem_set_3/ps3gr32.gif" /></p>
+<p>Define the function Lambda to do the general boost along x.</p>
+<p><img alt="[Graphics:ps3gr33
+.gif]" src="../../images/SR/problem_set_3/ps3gr33.gif" /></p>
+<h2 id="rh-2-59-watching-the-decay-of-a-moving-nucleus">R&amp;H: 2-59 Watching the decay of a moving nucleus</h2>
+<p>Q: A radioactive nucleus moves with a uniform velocity of 0.050c along the x
+axis of a reference frame S fixed with respect to the laboratory. It decays by
+emitting an electron whose speed, measured in a reference frame S' moving with
+the nucleus, is 0.80c. Consider first the case in which the emitted electron
+travels (a) along the common x-x' axis and (b) along the y' axis and find, for
+each case, its velocity as measured in frame S. (c) Suppose, however, that the
+emitted electron, viewed now from frame S, travels along the y axis of that
+frame with a speed of 0.80c. What is its velocity as measured in frame S'?</p>
+<p>A: (a) Boost the velocity quaternion by -0.05c, and keep it as a velocity
+quaternion by normalizing it with the resulting gamma.</p>
+<p><img alt="[Graphics:ps3gr34
+.gif]" src="../../images/SR/problem_set_3/ps3gr34.gif" /></p>
+<p><img alt="[Graphics:ps3gr35.gif]" src="../../images/SR/problem_set_3/ps3gr35.gif" /></p>
+<p>The relative velocity in frame S is 0.817c along the x axis.</p>
+<p>(b) Do that again, with y = 0.8.</p>
+<p><img alt="[Graphics:ps3gr36
+.gif]" src="../../images/SR/problem_set_3/ps3gr36.gif" /></p>
+<p><img alt="[Graphics:ps3gr37.gif]" src="../../images/SR/problem_set_3/ps3gr37.gif" /></p>
+<p>The magnitude and angle of the velocity vector can be calculated.</p>
+<p><img alt="[Graphics:ps3gr38
+.gif]" src="../../images/SR/problem_set_3/ps3gr38.gif" /></p>
+<p><img alt="[Graphics:ps3gr39.gif]" src="../../images/SR/problem_set_3/ps3gr39.gif" /></p>
+<p><img alt="[Graphics:ps3gr40
+.gif]" src="../../images/SR/problem_set_3/ps3gr40.gif" /></p>
+<p><img alt="[Graphics:ps3gr41.gif]" src="../../images/SR/problem_set_3/ps3gr41.gif" /></p>
+<p>The velocity vector is 0.8005c 3.58 degrees to the right of the y axis.</p>
+<p>(c) Repeat the calculation, switching the sign of the boost.</p>
+<p><img alt="[Graphics:ps3gr42
+.gif]" src="../../images/SR/problem_set_3/ps3gr42.gif" /></p>
+<p><img alt="[Graphics:ps3gr43.gif]" src="../../images/SR/problem_set_3/ps3gr43.gif" /></p>
+<p>A similar quaternion to b, so the velocity vector is 0.80056c, but 3.57
+degrees to the left of the y axis.</p>
+<h2 id="baranger-boosting-boosted-frames">Baranger: Boosting boosted frames</h2>
+<p>Q: (a) Frame S' moves with respect to frame S with velocity beta1 in the +x
+direction. Frame S'' moves with respect to frame S' with velocity beta2 also
+in the + x direction. Frame S" moves with respect to frame S with velocity
+Beta, also in the +x direction. Let gamma1, gamma2, and Gamma be the 3 Lorentz
+factors corresponding to these 3 velocities, respectively. Prove the formula</p>
+<p><img alt="[Graphics:ps3gr44
+.gif]" src="../../images/SR/problem_set_3/ps3gr44.gif" /></p>
+<p>(b) 2 identical particles are having a head-on collision. In their center-of-
+mass frame, each has a Lorentz factor gamma. Assume gamma &gt;&gt; 1. Now
+look at them in the Lab frame in which one of them is at rest, and call Gamma
+the Lorentz factor of the projectile particle. Show that Gamma is
+approximately equal to
+<img alt="[Graphics:ps3gr45.gif]" src="../../images/SR/problem_set_3/ps3gr45.gif" />.</p>
+<p>A: (a) From the reference frame of S', beta1 is towards it (so is negative)
+and beta2 is away from S' (so it is positive).</p>
+<p><img alt="[Graphics:ps3gr46
+.gif]" src="../../images/SR/problem_set_3/ps3gr46.gif" /></p>
+<p><img alt="[Graphics:ps3gr47.gif]" src="../../images/SR/problem_set_3/ps3gr47.gif" /></p>
+<p><img alt="[Graphics:ps3gr48
+.gif]" src="../../images/SR/problem_set_3/ps3gr48.gif" /></p>
+<p><img alt="[Graphics:ps3gr49.gif]" src="../../images/SR/problem_set_3/ps3gr49.gif" /></p>
+<p>The first term is the gamma being sought. Note that the second term divided by
+the first term gives the expected addition of relative velocities for frame
+S'. The sign is opposite for frame S.</p>
+<p>(b) If gamma &gt;&gt; 1, use the approximation for beta of one minus epsilon,
+where epsilon is a small number. Plug into the results from part (a).</p>
+<p><img alt="[Graphics:ps3gr50
+.gif]" src="../../images/SR/problem_set_3/ps3gr50.gif" /></p>
+<p><img alt="[Graphics:ps3gr51.gif]" src="../../images/SR/problem_set_3/ps3gr51.gif" /></p>
+<p>Square gamma.</p>
+<p><img alt="[Graphics:ps3gr52
+.gif]" src="../../images/SR/problem_set_3/ps3gr52.gif" /></p>
+<p><img alt="[Graphics:ps3gr53.gif]" src="../../images/SR/problem_set_3/ps3gr53.gif" /></p>
+<p>Substitute back into Gamma big.</p>
+<p><img alt="[Graphics:ps3gr54
+.gif]" src="../../images/SR/problem_set_3/ps3gr54.gif" /></p>
+<p><img alt="[Graphics:ps3gr55.gif]" src="../../images/SR/problem_set_3/ps3gr55.gif" /></p>
+<p>Gamma for the projectile particle is the first term of the above quaternion,
+approximately <img alt="[Graphics:ps3gr56.gif]" src="../../images/SR/problem_set_3/ps3gr56.gif" />.</p>
+<h2 id="french-5-7-2-ways-to-double-a-boost">French: 5-7 2 ways to double a boost</h2>
+<p>Q: An inertial system S1 has a constant velocity v1 along the x axis relative
+to an inertial system S. Inertial system S2 has a velocity v2 relative to S1.
+Two successive Lorentz transformations enable up to go from (t, x, y, z) to
+(t1, x1, y1, z1) and then from (t1, x1, y1, z1) to (t2, x2, y2, z2). Show that
+this gives the same result as a single Lorentz transformation from (t, x, y,
+z) to (t2, x2, y2, z2) provided we take the velocity of S1 relative to S as<br />
+<img alt="[Graphics:ps3gr57.gif]" src="../../images/SR/problem_set_3/ps3gr57.gif" /> .</p>
+<p>A: Boost once, then again.</p>
+<p><img alt="[Graphics:ps3gr58
+.gif]" src="../../images/SR/problem_set_3/ps3gr58.gif" /></p>
+<p><img alt="[Graphics:ps3gr59.gif]" src="../../images/SR/problem_set_3/ps3gr59.gif" /></p>
+<p><img alt="[Graphics:ps3gr60
+.gif]" src="../../images/SR/problem_set_3/ps3gr60.gif" /></p>
+<p><img alt="[Graphics:ps3gr61.gif]" src="../../images/SR/problem_set_3/ps3gr61.gif" /></p>
+<p>Now boost once using the addition of velocities rule.</p>
+<p><img alt="[Graphics:ps3gr62
+.gif]" src="../../images/SR/problem_set_3/ps3gr62.gif" /></p>
+<p><img alt="[Graphics:ps3gr63.gif]" src="../../images/SR/problem_set_3/ps3gr63.gif" /></p>
+<p>These two quaternions are identical, as expected.</p>
+<h2 id="initialization-functions">Initialization functions</h2>
+<p>There are a few tools required to solve problems in special relativity using
+quaternions to characterize events in spacetime. The most basic are a round
+value for c and gamma.</p>
+<p><img alt="[Graphics:ps3gr64
+.gif]" src="../../images/SR/problem_set_3/ps3gr64.gif" /></p>
+<p><img alt="[Graphics:ps3gr65
+.gif]" src="../../images/SR/problem_set_3/ps3gr65.gif" /></p>
+<p>Define a function for quaternions using its matrix representation.</p>
+<p><img alt="[Graphics:ps3gr66
+.gif]" src="../../images/SR/problem_set_3/ps3gr66.gif" /></p>
+<p>A quaternion L that transforms a quaternion (L q[<strong>x</strong>] = q[<strong>x'</strong>]) identical
+to how the Lorentz transformation acts on 4-vectors<br />
+(Lambda <strong>x</strong> = <strong>x'</strong>) should exist. These are described in detail in the
+notebook "A different algebra for boosts." For boosts along the x axis with y
+= z = 0, the general function for L is</p>
+<p><img alt="[Graphics:ps3gr67
+.gif]" src="../../images/SR/problem_set_3/ps3gr67.gif" /></p>
+<p>Most of the problems here involve much simpler cases for L, where t or x is
+zero, or t is equal to x.</p>
+<p>If t = 0, then</p>
+<p><img alt="[Graphics:ps3gr68
+.gif]" src="../../images/SR/problem_set_3/ps3gr68.gif" /></p>
+<p><img alt="[Graphics:ps3gr69.gif]" src="../../images/SR/problem_set_3/ps3gr69.gif" /></p>
+<p>If x = 0, then</p>
+<p><img alt="[Graphics:ps3gr70
+.gif]" src="../../images/SR/problem_set_3/ps3gr70.gif" /></p>
+<p><img alt="[Graphics:ps3gr71.gif]" src="../../images/SR/problem_set_3/ps3gr71.gif" /></p>
+<p>If t = x, then</p>
+<p><img alt="[Graphics:ps3gr72
+.gif]" src="../../images/SR/problem_set_3/ps3gr72.gif" /></p>
+<p><img alt="[Graphics:ps3gr73.gif]" src="../../images/SR/problem_set_3/ps3gr73.gif" /></p>
+<p>Note: this is for redshifts. Blueshifts have a plus instead of the minus.</p>
+<p>The problems are from "Basic Concepts in Relativity" by Resnick and Halliday,
+1992 by Macmillian Publishing, "Special Relativity" by A. P. French, 1966,
+1968 by MIT, and Prof. M. Baranger of MIT.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

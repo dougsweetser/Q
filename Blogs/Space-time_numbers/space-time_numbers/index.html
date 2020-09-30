@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="sweetser@alum.mit.edu">
+        
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Space-time numbers - Q</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/color-brewer.min.css">
+
+        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-9710248-1', 'dougsweetser.github.io/Q');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../../..">Q</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../../.." class="nav-link"></a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Math <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Math/math/" class="dropdown-item">The Math</a>
+</li>
+                                    
+<li>
+    <a href="../../../Math/overview/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../Math/history/" class="dropdown-item">History</a>
+</li>
+                                    
+<li>
+    <a href="../../../Math/numbers_101/" class="dropdown-item">Numbers 101</a>
+</li>
+                                    
+<li>
+    <a href="../../../Math/multiplying/" class="dropdown-item">Easy multiplying</a>
+</li>
+                                    
+<li>
+    <a href="../../../Math/products/" class="dropdown-item">Products</a>
+</li>
+                                    
+<li>
+    <a href="../../../Math/scalars_vectors/" class="dropdown-item">Scalars, vectors, tensors and all that</a>
+</li>
+                                    
+<li>
+    <a href="../../../Math/complex_quaternions/" class="dropdown-item">Complex quaternions</a>
+</li>
+                                    
+<li>
+    <a href="../../../Math/equivalence_classes/" class="dropdown-item">Quaternion equivalence classes</a>
+</li>
+                                    
+<li>
+    <a href="../../../Math/analysis/" class="dropdown-item">Analysis</a>
+</li>
+                                    
+<li>
+    <a href="../../../Math/topology/" class="dropdown-item">Topology</a>
+</li>
+                                    
+<li>
+    <a href="../../../Math/fit/" class="dropdown-item">Where quaternions fit</a>
+</li>
+                                    
+<li>
+    <a href="../../../Math/tools/" class="dropdown-item">Math, Tools</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Classical <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Classical_physics/classical_physics/" class="dropdown-item">Classical physics</a>
+</li>
+                                    
+<li>
+    <a href="../../../Classical_physics/force/" class="dropdown-item">Forces</a>
+</li>
+                                    
+<li>
+    <a href="../../../Classical_physics/sho/" class="dropdown-item">Simple Harmonic Oscillators</a>
+</li>
+                                    
+<li>
+    <a href="../../../Classical_physics/conservative_force/" class="dropdown-item">Conservative force</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">SR <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../SR/special_relativity/" class="dropdown-item">Special Relativity (SR)</a>
+</li>
+                                    
+<li>
+    <a href="../../../SR/problem_sets/" class="dropdown-item">Problem sets</a>
+</li>
+                                    
+<li>
+    <a href="../../../SR/problem_set_1/" class="dropdown-item">Problem set 1</a>
+</li>
+                                    
+<li>
+    <a href="../../../SR/totally_ordered_sets_in_space-time/" class="dropdown-item">Totally ordered_sets in Space-time</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Gravity <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Gravity/gravity/" class="dropdown-item">Quaternion gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../../Gravity/Measurement-101/measure/" class="dropdown-item">Measurement-101 - Measuring Events</a>
+</li>
+                                    
+<li>
+    <a href="../../../Gravity/Measurement-101/special_relativity/" class="dropdown-item">Gravity, Measurement-101 - Special relaitivity</a>
+</li>
+                                    
+<li>
+    <a href="../../../Gravity/Measurement-101/quaternion_gravity/" class="dropdown-item">Measurement-101 - Quaternion Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../../Gravity/Measurement-101/measure_it_all/" class="dropdown-item">Measurement-101 - SR + QG: Special Relativity and Quaternion Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../../Gravity/space-times-time_invariance/" class="dropdown-item">Quaternion space-times-time invariance as gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../../Gravity/essays_on_gravitation/" class="dropdown-item">Essays on gravitation contest</a>
+</li>
+                                    
+<li>
+    <a href="../../../Gravity/PGT/personal_gravity_theory/" class="dropdown-item">PGT - Personal Gravity Theory</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">EM <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../EM/em/" class="dropdown-item">Electromagnetism</a>
+</li>
+                                    
+<li>
+    <a href="../../../EM/derive_Euler-Lagrange/" class="dropdown-item">Derive the Euler-Lagrange equations</a>
+</li>
+                                    
+<li>
+    <a href="../../../EM/EM_invariants/" class="dropdown-item">EM invariants</a>
+</li>
+                                    
+<li>
+    <a href="../../../EM/derive_Maxwell_homogeneous_equations/" class="dropdown-item">Derive the Maxwell homogeneous equations</a>
+</li>
+                                    
+<li>
+    <a href="../../../EM/derive_Maxwell_source_equations/" class="dropdown-item">Derive the Maxwell source equations</a>
+</li>
+                                    
+<li>
+    <a href="../../../EM/Maxwell_by_hand/" class="dropdown-item">Derive the Maxwell source equations by hand</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">QM <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../QM/qm/" class="dropdown-item">Quantum Mechanics</a>
+</li>
+                                    
+<li>
+    <a href="../../../QM/BellsFuture/" class="dropdown-item">Bell's Future QM Interpretation</a>
+</li>
+                                    
+<li>
+    <a href="../../../QM/bracket_notation/" class="dropdown-item">Bracket notation and quaternions</a>
+</li>
+                                    
+<li>
+    <a href="../../../QM/polar/" class="dropdown-item">Multiplying polar representations</a>
+</li>
+                                    
+<li>
+    <a href="../../../QM/uncertainty_principle/" class="dropdown-item">Commutators and the uncertainty principle</a>
+</li>
+                                    
+<li>
+    <a href="../../../QM/spin_and_angular_momentum/" class="dropdown-item">Spin and angular momentum</a>
+</li>
+                                    
+<li>
+    <a href="../../../QM/Schrodinger/" class="dropdown-item">The Schrodinger equation</a>
+</li>
+                                    
+<li>
+    <a href="../../../QM/Klein-Gordon/" class="dropdown-item">The Klein-Gordon equation</a>
+</li>
+                                    
+<li>
+    <a href="../../../QM/standard_model_symmetries/" class="dropdown-item">Visualizing the standard model</a>
+</li>
+                                    
+<li>
+    <a href="../../../QM/time_reversal/" class="dropdown-item">Time reversal</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Art + PDFs <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Stuff/art/" class="dropdown-item">Art Portfolio</a>
+</li>
+                                    
+<li>
+    <a href="../../../Stuff/buttons/" class="dropdown-item">Buttons</a>
+</li>
+                                    
+<li>
+    <a href="../../../Stuff/pdfs/pdfs/" class="dropdown-item">PDFs</a>
+</li>
+                                    
+<li>
+    <a href="../../../Stuff/Talks/talks/" class="dropdown-item">Talks on Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../../Stuff/shop/" class="dropdown-item">Buy Stuff</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blogs <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../blogs/" class="dropdown-item">Some writings</a>
+</li>
+                                    
+<li>
+    <a href="../../Bet_against_Lubos/bet_against_Lubos/" class="dropdown-item">Bet against Lubos</a>
+</li>
+                                    
+<li>
+    <a href="../../Discovery/discovery/" class="dropdown-item">Discovery</a>
+</li>
+                                    
+<li>
+    <a href="../../Electromagnetism_and_gravity/electromagnetism_and_gravity/" class="dropdown-item">Electromagnetism and gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Outreach_efforts/outreach_efforts/" class="dropdown-item">Outreach efforts</a>
+</li>
+                                    
+<li>
+    <a href="../../Paper/paper/" class="dropdown-item">Paper</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Space-time numbers</a>
+</li>
+                                    
+<li>
+    <a href="../../The_plan/the_plan/" class="dropdown-item">The Plan</a>
+</li>
+                                    
+<li>
+    <a href="../../Working_with_space-time_numbers/working_with_space-time_numbers/" class="dropdown-item">Working with space-time numbers</a>
+</li>
+                                    
+<li>
+    <a href="../../Zero_and_one/zero_and_one/" class="dropdown-item">Zero and one</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../About/professional_sketch/" class="dropdown-item">Professional sketch</a>
+</li>
+                                    
+<li>
+    <a href="../../../About/resume/" class="dropdown-item">Resume</a>
+</li>
+                                    
+<li>
+    <a href="../../../About/personal_sketch/" class="dropdown-item">Personal Sketch</a>
+</li>
+                                    
+<li>
+    <a href="../../../About/lindy_hop/" class="dropdown-item">Lindy Hop</a>
+</li>
+                                    
+<li>
+    <a href="../../../About/bike/" class="dropdown-item">The bike</a>
+</li>
+                                    
+<li>
+    <a href="../../../About/thanks/" class="dropdown-item">Thanks</a>
+</li>
+                                    
+<li>
+    <a href="../../../About/todo/" class="dropdown-item">To do</a>
+</li>
+                                    
+<li>
+    <a href="../../../About/contact_and_tip/" class="dropdown-item">Contact and tips</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a rel="prev" href="../../Paper/paper/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../../The_plan/the_plan/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<ul>
+<li>Quaternions versus Space-time Numbers</li>
+</ul>
+<p>The history of the 4D division algebra know as quaternions will be lightly
+sketched. Are these good enough to describe all the patterns of events in
+space-time? I will argue that two specific issues dealing with the rules of
+addition and multiplication require a variation on quaternions I call
+"space-time numbers." It is simple enough to convert a space-time number into a
+quaternion (but not the reverse).</p>
+<p>** The Multiple Discoveries of Quaternions</p>
+<p>A quaternion is a division algebra like the real and complex numbers, but with
+four degrees of freedom. Gauss was the first to work out the algebra in one of
+his notebooks. He did not publish the results, possibly thinking they were not
+interesting enough. Today, most practical physicists do not consider
+quaternions to be worthy of much study.</p>
+<p>Rodrigues figured out how to use quaternions to do rotations in three
+dimensional space. There are several technical reasons why rotations should
+always be done with quaternions instead of Euler angles, but I will skip a
+detailed discussion of that subject. Rotations in 3D space remain the
+one-trick-pony use of quaternions by both rocket scientists and game designers.</p>
+<p>Hamilton spent a decade trying to figure out a consistent set of rule to add,
+subtract, multiply and divide triplets of numbers. The first three are easy,
+but making sure division always works cannot be done with triplets. Hamilton
+realized on a walk with his wife that a fourth number was required, leading to
+a famous bit of vandalism as he carved the rules onto a bridge. The "fourness"
+of this new number was such a jump for Hamilton that he included it in the name
+itself, the quaternions. Hamilton was so adverse to the 4D nature of
+quaternions that the day after his discovery, he created the "pure quaternion"
+where the first term was zero. I have not become a scholar of his efforts since
+many of his contemporaries where unable to understand his written works.</p>
+<p>The rules of quaternion algebra are simple and should be familiar to those who
+have worked with complex numbers and vector algebra. A quaternion is a four
+dimensional vector space over the real numbers. This means they can be added,
+subtracted, or multiplied by a scalar. Care must be used to not call a
+quaternion a 4-vector, a term that appears in differential geometry that brings
+tangent and cotangent spaces into play. As a vector space over the real
+numbers, quaternions are a group with the addition operator. The identity
+element is zero.</p>
+<p>To andle the multiplication operator, one needs a few rules:</p>
+<p><img alt="" src="../quaternion_multiplication_rules.png" /></p>
+<p>One can make different choices for the signs, but this is the set that Hamilton
+used. For use in symbolic math packages, I have found the 4x4 real matrix
+representation is useful:</p>
+<p><img alt="" src="../quaternion_matrix.png" /></p>
+<p>The matrix representation has the rules of multiplicaiton built in. Because it
+is a matrix, it also has addition and what is necessary to invert the matrix.
+The inverse of this matrix is the transpose of the matrix which always
+necessarily exists divided by the norm of the matrix which is the sum of the
+squares of each real-valued term.</p>
+<p>Technical note: I define the norm as the product of a quaternion with its
+conjugate:</p>
+<p><img alt="" src="../quaternion_norm.png" /></p>
+<p>Notice the 3 zeroes. What is usually done is not include the three zeroes. They
+matter to me for two reasons. First, the product of two quaternions is
+necessarily another quaternion. This is obvious when one does programming since
+the data structure stays the same. Second, much of calculus is the study of
+change near interesting points. There may be times one want to study say q<sup>*</sup>(q+da), 
+then nothing needs to be modified.
+[end note]</p>
+<p>The norm will only equal zero for the zero quaternion. Therefore a
+multiplicative inverse will exist in all cases except for zero, just as is the
+case for the real and imaginary numbers.</p>
+<p>For completeness, it should be noted that a quaternion can also be represented
+by a 2x2 matrix with complex values. In my own experience with Mathematica, the
+complex representation led to odd results.</p>
+<p>A quaternion can be viewed as a <a href="https://en.wikipedia.org/wiki/Clifford_algebra">Clifford algebra</a>, specifically
+Cl<sub>0, 2</sub>(R). Clifford algebras are also know as geometric algebra based
+on a modern outreach effort by David Hestenes using the term Clifford did as
+being more descriptive. That goal is to have a big tent of algebras, picking
+the one that best fits the job at hand. This is different from my own research
+work which is to find one structure that is powerful enough to do it all as
+Nature does it all. The real and complex numbers are Cl<sub>0, 0</sub>(R) and
+Cl<sub>0, 1</sub>(R) respectively. Both the real and complex numbers are
+subgroups of quaternions. The real numbers are the diagonal of the matrix
+representation. There are three complex numbers in every equations: the
+diagonal plus any of the other three terms. One could also lump all three
+imaginary numbers together and the result is a complex number. Multiplication
+for real and complex numbers commutes, so they are both mathematical fields.
+The sum of these parts, the quaternions, by contrast is not a mathematical
+field because the order of multiplication matters to the cross product terms
+found in a quaternion.</p>
+<p>A quaternion with a norm of one is a way to represent the group SU(2), also
+known as a unit quaternion. A unit quaternion sits in the middle of the
+standard model, U(1)xSU(2)xSU(3). It remains an open riddle why the standard
+model has these three particular Lie groups. As is well-known, once you have
+SU(2), then U(1) is necessarily a subgroup of SU(2). It makes me speculate that
+a new approach to these symmetries might manage their natural overlap in a more
+compact way. Until such an idea can be made more precise, consider this an odd
+partical physics fantasy.</p>
+<p>** Concerns About Quaternions</p>
+<p>Full disclosure: I own the domain quaternions.com whose tagline in "Doing
+Physics with Quaternions." There are books and articles in the literature that
+claim that complex-valued quaternions are needed to derive the Maxwell
+equations or represent the Lorentz group. I can understand why one would have
+no interest in using quaternions given such limitations. Those are show
+stoppers. Yet I have succeeded in both cases with real-valued quaternions (and
+the answers are not that difficult once you know that an answer does exist). It
+is reasonable to suspect I am a zealot on the subject. I prefer to promote
+logical consistency. Nature uses one set of rules, so why don't physicists?
+Real and complex numbers come with enough mathematical structure to do
+calculus. Yet they are too small to work directly in classical three
+dimensional space without additional background mathematical structure, namely
+a vector space. Even that is not enough since there is no means to handle
+angular momentum. Quaternions can handle three classical dimensions, including
+the rotation. This should be an obvious point, but it is not.</p>
+<p>Since is an art of reductionism. The real numbers appear to be too complicated
+as a starting point. Addition utilizes the real number line wich is the fusion
+of the positive real numbers, then zero, then the negaitve real numbers. I
+appreciate how practical this is. Yet I see two sets of positve real numbers.
+One set is labeled "positive", the other "negative", but otherwise they are the
+same. The rule of multiplication can be found in the Abelian sign group
+Z<sub>2</sub>. This opens up the reductionist question about the trivial group
+Z<sub>1</sub>.</p>
+<p>Using zero and one, there are three ways to represent the trivial group Z<sub>1</sub>.</p>
+<p>(+, {0})
+(*, {0})
+(*, {1})</p>
+<p>I found this intersing enough to devote an entire blog to the subject. The
+first two look like together they could form a mathematical field. There is a
+rule in the definition that disqualifies that because the trivial group cannot
+be changed. To me that is interesting, a logical contrast to calculus. Only the
+third representation of the trivial group can be used to form a continuous
+group. Only the third group can be used to form the positive and the negative
+real numbers. If one starts from the real numbers, then zero and one are just
+different points on the same line. Starting with the trivial group gives zero
+and one a more nuanced relationship.</p>
+<p>Quaternions as a vector space over four real numbers have four zeroes. For
+events in space-time, I call zero "here-now". Every observer should have but
+one here-now, not four. </p>
+<p><img alt="" src="../R4_4_zeros.png" /></p>
+<p>A star topology allows there to be one zero share amoungst eight unities:</p>
+<p><img alt="" src="../Q8_one_zero_eight_ones.png" /></p>
+<p>The origin is now quite complicated. In one area of study, relativistic quantum
+field theory, there is a notion of the sum of all possible histories. The odds
+of a series of events for particles going forward in time have to be added to
+the the events going backwards in time with the antiparticles. A star topology
+might allow for such a seamingly crazy pattern of paths. </p>
+<p>The rules for multiplication should come straight from group theory. The
+quaternion group Q<sub>8</sub> has the right name for the job. What is
+offputting is the "eight", twice as big as Hamilton's reveared four. Write out
+the product table for the quaternion group Q<sub>8</sub>:</p>
+<p>Although it might look like a square matrix, a product table is not equivalent
+to a matrix. Let me make the difference concrete. Square the simple
+quqaternions which is also a complex number (1, 2, 0, 0) to generate (-3, 4, 0,
+0). Using the product table, one starts with 1 I<sup>0</sup> + 2 i<sup>1</sup>.
+and ends with 1 I<sup>0</sup> + 4 I<sup>2</sup> + 4 I<sup>1</sup>. It is also
+true that 1 I<sup>0</sup> + 4 I<sup>2</sup> = 3 I<sup>2</sup>. There is an
+equivalence relationship between working with the quaternion group
+Q<sub>8</sub> and Hamilton's 4D quaternions. To be equivaalent, one needs to
+reduce the Q<sub>8</sub> result. Reducing means to calculate the differences
+between the additive pairs (I<sup>0</sup>, I<sup>2</sup>), (i<sup>1</sup>, 
+i<sup>3</sup>), (j<sup>1</sup>, j<sup>3</sup>), and (k<sup>1</sup>, k<sup>3</sup>).
+so that one or possibly both are zero.</p>
+<p>** Space-time Numbers</p>
+<p>The needs of relativistic quantum field theory appear to require a new type of
+number, one that is a technical variation on Hamilton's 4D quaternions. I will
+call these numbers space-time numbers. The sets of positive real numbers
+labeled I<sup>0</sup>, i<sup>1</sup>, j<sup>1</sup>, and k<sup>1</sup> each
+have additive inverses, I<sup>2</sup>, i<sup>3</sup>, j<sup>3</sup>, and 
+k<sup>3</sup> respectively. The discrete zero set {0} separates the two sides.
+Together, these four real lines - (I<sup>0</sup>, {0}, I<sup>2</sup>), 
+(i<sup>1</sup>, {0}, i<sup>3</sup>), (j<sup>1</sup>, {0}, j<sup>3</sup>), and<br />
+(k<sup>1</sup>, {0}, k<sup>3</sup>) - meet together at zero to form a star
+topology. Products are formed for space-time numbers using the product table of
+the quaternion group Q<sub>8</sub>.</p>
+<p>** Nomemclature</p>
+<p>How should one write a space-time number? This is a minor challenge since we
+are all trained from the earliest days to use minus signs. My proposal is to
+use something I call doublet notation. We know two minus five is minus three.
+In the world of real numbers, that is just:</p>
+<p>2 - 5 = -3</p>
+<p>For doublet notation, we have places to store the two and the additive inverse
+of five:</p>
+<p>(2, 0) + (0, 5) = (2, 5)</p>
+<p>So where is the three? That is obtained by reducing this doublet. That means
+taking the difference between the two positions and letting the bigger one win
+like so:</p>
+<p>(2, 5) = (0, 3)</p>
+<p>When doing problems with algebra, it is often the case that one does not know
+what the sign is.  In that case, the convension will be to keep the paratheses
+but drop the comma:</p>
+<p>(3, 0) + (x) = (0, 4)</p>
+<p>If one then goes and solves for x, the value is (0, 7). The only time one can
+skip the parantheses is for zero. For example, here is a norm as a quaternion
+and as a space-time number:</p>
+<p>q: (1, 2, 3, 4) * (1, -2, -3, -4) = (29, 0, 0, 0)</p>
+<p>stn:  ((1, 0), (2, 0), (3, 0), (4, 0)) * 
+       (1, 0), (0, 2), (0, 3), (0, 4)) = ((29, 0), 0, 0, 0)</p>
+<p>The space-time number norm comes in a reduced form.</p>
+<p>** Why Bother?</p>
+<p>Classical mechanics, classical quantum mechanics, and relativistic quantum feild theory
+all have their own examples of simple harmonic motion. This is the equation
+that governs classical simple harmonic motion:</p>
+<p><img alt="" src="../simple_harmonic_motion.png" /></p>
+<p>Space is treated like a pure quaternion as Hamilton prefered. The operator is
+a pure scalar. Space and time do not mix as operators. This is the sign that
+the equation is classical. In classical quantum mechanics such as the
+Schrödinger equation, one time derivative and two spatial derivates act on the
+same wave function. In relativistic quantum field theory such as the
+Klein-Gordon equation, second order space and time derivatives act on the same
+wave function.</p>
+<p>Operators are extremely efficient means for describing patterns of numbers.
+Since operators are a summary tool, one would hope the same pattern could be
+seen in the numbers themselves. Perhaps problems in classical physics always
+use the reduced form of space-time numbers. There is no possibility of
+ambiguity about where a mass is in classical physics. In classical quantum
+mechanics, the time portion may well remain in the reduced form, while the
+spatial terms are not reduced, having non-zero values in a position and its
+additive inverse. In relativistic quantum field theory, it may be that all
+eight numbers are non-zero, a means to represent particles going forward in
+time and their antiparticles going backwards in time.</p>
+<p>** Enormous Remaining Tasks for Space-time Numbers</p>
+<p>The definition of a derivative has long been established for both real and
+complex numbers. Since both of those numbers are subgroups of space-time
+numbers, they will apply when a space-time number is of that form. The more
+general definition of a derivative for a quaternion and these proposed
+space-time numbers continues to be an area of study in mathematics. The reason
+for the problem is that it is not obvious how to deal with the fact that the
+differential element does not commute in the limit definition. The
+differential element could go on the left or the right but the results are 
+different. Some work with left-hand derivatives, but this approach appears to
+fail since one cannot show that a simple polinomial like q<sup>2</sup> is
+analytic in q.</p>
+<p>My own assessment is that mathematicians are trying to make baby steps away
+from the familiar limit definition. Instead, one should use lessons found in
+relativistic quantum field theory as a guide knowing the far more simple case
+for the derivative of real number derivatives is there when all the other
+complicated makes no contribution.</p>
+<p>My own prelimiary efforts on this subject </p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js" defer></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
