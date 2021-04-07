@@ -1667,7 +1667,7 @@ or West, and up or down would depend on the inertial observer.
 
 The subject of all totally ordered sets in space-time came up while thinking
 about causality in quantum mechanics. [Bell's Future Quantum
-Mechanics|https://bit.ly/BellsFuture] is a page devoted to the new
+Mechanics](https://bit.ly/BellsFuture) is a page devoted to the new
 interpretation. See the bottom of the page for other presentations of the idea.
 
 # Measure the difference between space-time events
