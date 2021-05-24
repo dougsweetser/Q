@@ -2,3 +2,4 @@
 site
 archive
 .ipynb_checkpoints
+.DS_Store
