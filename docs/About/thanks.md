@@ -126,7 +126,7 @@ projects. Peer review the results.
 
 ## ...and family*
 
-Darra Garrison.
+Darra Garrison and my daughter Elle.
 
 Arthur, Cindy, Teddy, Grace, Asa (and...?) Sweetser.
 
