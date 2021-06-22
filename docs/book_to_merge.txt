@@ -13,6 +13,7 @@ Classical_physics/conservative_force.book.md
 SR/problem_sets.md
 SR/problem_set_1.book.md
 SR/totally_ordered_sets_in_space-time.md
+Gravity/three_roads_to_quaternion_gravity.md
 Gravity/Measurement-101/measure.book.md
 Gravity/Measurement-101/special_relativity.book.md
 Gravity/Measurement-101/quaternion_gravity.book.md
