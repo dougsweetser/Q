@@ -44,14 +44,14 @@ labels are not used  in general since context usually determines which one is
 in play.
 
 An important component to standard approaches to general relativity is product
-spaces.  This is how a topology for <sup>^</sup>^ is created.  Events in spacetime
+spaces.  This is how a topology for <sup>^</sup>^ is created.  Events in space-time
 require R<sup>4</sup>, one place for time, three for space.  Mathematicians get to make
 choices: what would change if work was done in R<sup>2</sup>, R<sup>3</sup>, or R<sup>5</sup>?  The
 precision of this notion, together with the freedom to make choices, makes
 exploring these decisions fun (for those few who can understand what is going
 on :-)
 
-By working with H, product spaces are unnecessary.  Events in spacetime can be
+By working with H, product spaces are unnecessary.  Events in space-time can be
 members of an open set in H. Time is the scalar, space the 3-vector.  There is
 no choice to be made.
 

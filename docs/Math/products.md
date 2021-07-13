@@ -32,11 +32,11 @@ it does not change signs if the terms are reversed.
 I have defined the anticommutator (the bold curly braces) in a non-standard
 way, including a factor of two so I do not have to keep remembering to write
 it.  The first term would be the Lorentz invariant interval if the two
-quaternions represented the same difference between two events in spacetime
+quaternions represented the same difference between two events in space-time
 (i.e. t=t'=delta t,...).  The invariant interval plays a central role in
 special relativity.  The vector terms are a frame-dependent, symmetric product
 of space with time and does not appear on the stage of physics, but is still a
-valid measurement.
+valid measurement. A label for these three terms is space-times-time.
 
 The Grassman outer product is antisymmetric and is formed with a commutator.
 
@@ -46,8 +46,11 @@ be](../images/Math/products/s_gr_4.gif)
 ![\(\(t, X\) times \(t prime , X prime\) - \(t prime , X prime\) times \(t,
 X\)\) over 2 = \(0, X cross X prime\)](../images/Math/products/s_gr_5.gif)
 
-This is the cross product defined for two 3-vectors.  It is unchanged for
-quaternions.
+This looks like the cross product defined for two 3-vectors. It is
+unconventional because there necessarily must be the zero in the first
+position. To help mark this difference, call this the cross_q product, implying
+the result must fill in the four positions unlike the cross products in wide
+use.
 
 ##  The Euclidean Inner and Outer Products
 

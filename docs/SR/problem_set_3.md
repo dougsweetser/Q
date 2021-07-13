@@ -130,8 +130,8 @@ What makes this problem confusing to discuss is that the doors of the barn and
 the ends of the ladder are spacelike separated, so the order of events in time
 can be reversed depending on the reference frame.
 
-The reference event chosen for the following spacetime diagrams (created in
-the program Spacetime by Prof. Edwin F. Taylor) is Manuel meeting the start of
+The reference event chosen for the following space-time diagrams (created in
+the program Space-time by Prof. Edwin F. Taylor) is Manuel meeting the start of
 the ladder. The end of the barn and the end of the ladder must be located on
 invariant hyperbolae 8 and 10 meters long respectively. Gwen must open the
 door somewhere on the barn's 8 meter hyperbola. Manuel's dream will only come
@@ -407,7 +407,7 @@ These two quaternions are identical, as expected.
 ##  Initialization functions
 
 There are a few tools required to solve problems in special relativity using
-quaternions to characterize events in spacetime. The most basic are a round
+quaternions to characterize events in space-time. The most basic are a round
 value for c and gamma.
 
 ![\[Graphics:ps3gr64

@@ -53,7 +53,7 @@ day job, but work study physics in the background.
 
 Boston was the perfect city in the 1990s to study physics on the side. I took a 
 Harvard Extension class on Special Relativity taught by Edwin F. Taylor as he 
-was writing the book "Spacetime Physics" with Johnathon Wheeler. Taylor would 
+was writing the book "Space-time Physics" with Johnathon Wheeler. Taylor would 
 bring in a new chapter from Copy Copy, and we were assigned to critique it.  
 Thus became my respectful skeptical analysis of physics. I decide to keep a day 
 job, but work study physics in the background.

@@ -35,5 +35,5 @@ QUaternions](https://leanpub.com/doingphysicswithquaternions), $9.99
 [Special Relativity and Classical Field Theory: The Theoretical Minimum](https://www.amazon.com/gp/product/0465093345/ref=as_li_tl?ie=UTF8&tag=quaternions-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0465093345&linkId=9685be6eeea896a423392e9fc94d22d6)
 <br>Leonard Susskind and Art Friedman
 
-[Spacetime Physics](https://www.amazon.com/gp/product/0716723271/ref=as_li_tl?ie=UTF8&tag=quaternions-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0716723271&linkId=5935bbe059ecafb29097982c4d2a98d2)
+[Space-time Physics](https://www.amazon.com/gp/product/0716723271/ref=as_li_tl?ie=UTF8&tag=quaternions-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0716723271&linkId=5935bbe059ecafb29097982c4d2a98d2)
 <br>Edwin F. Taylor and John A. Wheeler

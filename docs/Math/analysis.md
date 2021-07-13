@@ -11,7 +11,7 @@ This idea can be defined precisely.  All that is required is that the
 magnitude of the vector goes to zero faster than the scalar.  This might
 initially appears as an unreasonable constraint.  However, there is an
 important application in physics.  Consider a set of quaternions that
-represent events in spacetime.  If the magnitude of the 3-space vector is less
+represent events in space-time.  If the magnitude of the 3-space vector is less
 than the time scalar, events are separated by a timelike interval.  It
 requires a speed less than the speed of light to connect the events.  This is
 true no matter what coordinate system is chosen.
@@ -65,8 +65,8 @@ squared over 9 e0 squared - da3 squared over 9 e0 squared, 2 da0 da1 over 3, 2
 da0 da2 over 3, 2 da0 da3 over 3\) ](../images/Math/analysis/s_gr_5.gif)
 
 The scalar part is known in physics as the Minkowski interval between two
-events in flat spacetime.  If e~0~^2^ does not equal one, then the metric would
-apply to a non-flat spacetime.  A metric that has been measured experimentally
+events in flat space-time.  If e~0~^2^ does not equal one, then the metric would
+apply to a non-flat space-time.  A metric that has been measured experimentally
 is the Schwarzchild metric of general relativity.  Set e~0~^2^ = (1 - 2 GM/c^2^
 R), and calculate the square of dq:
 
@@ -128,7 +128,7 @@ reminiscent of spin.  A tighter link will need to be examined.
 
 Instead of the standard approach to quaternion analysis which focuses on left
 versus right derivatives, I concentrate on the ratio of scalars to 3-vectors.
-This is natural when thinking about the structure of Minkowski spacetime,
+This is natural when thinking about the structure of Minkowski space-time,
 where the ratio of the change in time to the change in 3-space defines five
 separate regions: timelike past, timelike future, lightlike past, lightlike
 future, and spacelike.  There are no continuous Lorentz transformations to
@@ -410,7 +410,7 @@ q).
 ##  4 Other Derivatives
 
 So far, this work has only involved future timelike derivatives.  There are
-five other regions of spacetime to cover.  The simplest next case is for past
+five other regions of space-time to cover.  The simplest next case is for past
 timelike derivatives.  The only change is in the limit, where the scalar
 approaches zero from below.  This will make many derivatives look time
 symmetric, which is the case for most laws of physics.

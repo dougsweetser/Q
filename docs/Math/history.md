@@ -37,7 +37,7 @@ dimensions.  In order to make the speed of light constant for all inertial
 observers, space and time had to be united.  Here was a topic tailor-made for a
 4D tool, but Albert was not a math buff, and built a machine that worked from
 locally available parts.  We can say now that Einstein discovered Minkowski
-spacetime and the Lorentz transformation, the tools required to solve problems
+space-time and the Lorentz transformation, the tools required to solve problems
 in special relativity.
 
 Today, quaternions are of interest to historians of mathematics.  Vector

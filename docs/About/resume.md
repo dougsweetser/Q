@@ -69,7 +69,7 @@ password protected minutes.
 ### Doing physics with quaternions
 This research project entails trying to reformulate all the fundamental
 equations of physics.  The reason for such a large task is to start from one
-core hypothesis: events from any object in spacetime are described by the
+core hypothesis: events from any object in space-time are described by the
 mathematics of a division altegra, known as the quaternions.  This
 is an old goal, but Doug has made a number of new insights, including a new way
 of expressing the Maxwell equations.

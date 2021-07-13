@@ -75,7 +75,7 @@ along the z axis.  This analysis is confined to the z axis at the origin, a
 significant but not unreasonable constraint.  Second, these rotations are
 written with generalized coordinates instead of the very familiar and
 comfortable x, y, z.  This extra effort will be useful when considering how
-rotations are effected by curved spacetime.  This machinery is also necessary
+rotations are effected by curved space-time.  This machinery is also necessary
 to do quaternion analysis (please see that section, it's great :-)
 
 There are similar rotations around the first and second axes at the origin;

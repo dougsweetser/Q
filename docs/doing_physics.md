@@ -80,7 +80,7 @@ dimensions.  In order to make the speed of light constant for all inertial
 observers, space and time had to be united.  Here was a topic tailor-made for a
 4D tool, but Albert was not a math buff, and built a machine that worked from
 locally available parts.  We can say now that Einstein discovered Minkowski
-spacetime and the Lorentz transformation, the tools required to solve problems
+space-time and the Lorentz transformation, the tools required to solve problems
 in special relativity.
 
 Today, quaternions are of interest to historians of mathematics.  Vector
@@ -162,7 +162,7 @@ it does not change signs if the terms are reversed.
 I have defined the anticommutator (the bold curly braces) in a non-standard
 way, including a factor of two so I do not have to keep remembering to write
 it.  The first term would be the Lorentz invariant interval if the two
-quaternions represented the same difference between two events in spacetime
+quaternions represented the same difference between two events in space-time
 (i.e. t=t'=delta t,...).  The invariant interval plays a central role in
 special relativity.  The vector terms are a frame-dependent, symmetric product
 of space with time and does not appear on the stage of physics, but is still a
@@ -266,7 +266,7 @@ The metric defines how to form a scalar as the indices are examined one-by-
 one.  Metrics in math can be anything, but nature imposes constraints on which
 ones are important in physics.  An aside: mathematicians require that the distance
 is non-negative, but physicists do not.  I will be using the physics notion of
-a metric.  In looking at events in spacetime (a 4-dimensional vector), the
+a metric.  In looking at events in space-time (a 4-dimensional vector), the
 axioms of special relativity require the Minkowski metric, which is a 4x4 real
 matrix that has (1, -1, -1, -1) down the diagonal and zeros elsewhere.  Some
 people prefer the signs to be flipped, but to be consistent with everything
@@ -284,7 +284,7 @@ tensor product of a set of basis vectors.
 ##  What Are Quaternions?
 
 Quaternions could be viewed as the outer tensor product of a scalar and a
-3-vector.  Under rotation for an event in spacetime represented by a
+3-vector.  Under rotation for an event in space-time represented by a
 quaternion, time is unchanged, but the 3-vector for space would be rotated.
 The treatment of scalars is the same as above, but the notion of vectors is
 far more restrictive, as restrictive as the notion of scalars. Quaternions can
@@ -408,7 +408,7 @@ the Minkowski interval](images/Math/scalars_vectors/s_gr_11.gif)
 ![\(I q\) conjugated times I q = \(t squared + X dot X, 0\), the Euclidean
 norm](images/Math/scalars_vectors/s_gr_12.gif)
 
-In order to change from wrist watch time (the interval in spacetime) to the
+In order to change from wrist watch time (the interval in space-time) to the
 norm of a Hilbert space does not require any change in the transformation
 quaternion, only a change in the multiplication step. Therefore a
 transformation which generates the Schwarzschild interval of general
@@ -469,7 +469,7 @@ This idea can be defined precisely.  All that is required is that the
 magnitude of the vector goes to zero faster than the scalar.  This might
 initially appears as an unreasonable constraint.  However, there is an
 important application in physics.  Consider a set of quaternions that
-represent events in spacetime.  If the magnitude of the 3-space vector is less
+represent events in space-time.  If the magnitude of the 3-space vector is less
 than the time scalar, events are separated by a timelike interval.  It
 requires a speed less than the speed of light to connect the events.  This is
 true no matter what coordinate system is chosen.
@@ -523,8 +523,8 @@ squared over 9 e0 squared - da3 squared over 9 e0 squared, 2 da0 da1 over 3, 2
 da0 da2 over 3, 2 da0 da3 over 3\) ](images/Math/analysis/s_gr_5.gif)
 
 The scalar part is known in physics as the Minkowski interval between two
-events in flat spacetime.  If e~0~^2^ does not equal one, then the metric would
-apply to a non-flat spacetime.  A metric that has been measured experimentally
+events in flat space-time.  If e~0~^2^ does not equal one, then the metric would
+apply to a non-flat space-time.  A metric that has been measured experimentally
 is the Schwarzchild metric of general relativity.  Set e~0~^2^ = (1 - 2 GM/c^2^
 R), and calculate the square of dq:
 
@@ -586,7 +586,7 @@ reminiscent of spin.  A tighter link will need to be examined.
 
 Instead of the standard approach to quaternion analysis which focuses on left
 versus right derivatives, I concentrate on the ratio of scalars to 3-vectors.
-This is natural when thinking about the structure of Minkowski spacetime,
+This is natural when thinking about the structure of Minkowski space-time,
 where the ratio of the change in time to the change in 3-space defines five
 separate regions: timelike past, timelike future, lightlike past, lightlike
 future, and spacelike.  There are no continuous Lorentz transformations to
@@ -868,7 +868,7 @@ q).
 ##  4 Other Derivatives
 
 So far, this work has only involved future timelike derivatives.  There are
-five other regions of spacetime to cover.  The simplest next case is for past
+five other regions of space-time to cover.  The simplest next case is for past
 timelike derivatives.  The only change is in the limit, where the scalar
 approaches zero from below.  This will make many derivatives look time
 symmetric, which is the case for most laws of physics.
@@ -989,14 +989,14 @@ labels are not used  in general since context usually determines which one is
 in play.
 
 An important component to standard approaches to general relativity is product
-spaces.  This is how a topology for <sup>^</sup>^ is created.  Events in spacetime
+spaces.  This is how a topology for <sup>^</sup>^ is created.  Events in space-time
 require R<sup>4</sup>, one place for time, three for space.  Mathematicians get to make
 choices: what would change if work was done in R<sup>2</sup>, R<sup>3</sup>, or R<sup>5</sup>?  The
 precision of this notion, together with the freedom to make choices, makes
 exploring these decisions fun (for those few who can understand what is going
 on :-)
 
-By working with H, product spaces are unnecessary.  Events in spacetime can be
+By working with H, product spaces are unnecessary.  Events in space-time can be
 members of an open set in H. Time is the scalar, space the 3-vector.  There is
 no choice to be made.
 
@@ -1688,7 +1688,7 @@ overrun with the problem set answers, they were moved to a separate book.
 ##  Preamble: Initiation functions
 
 There are a few tools required to solve problems in special relativity using
-quaternions to characterize events in spacetime. The most basic are gamma and
+quaternions to characterize events in space-time. The most basic are gamma and
 a round value for c.
 
 ![\[Graphics:ps1gr1.
@@ -2716,11 +2716,11 @@ space-times-time was an invariant, but their intervals were different? It is
 suggestive that a defining characteristic of general relativity is that
 intervals vary at different places in a gravitational field.
 
-The invariant interval of special relativity in flat spacetime is generated by
+The invariant interval of special relativity in flat space-time is generated by
 contracting a 4-vector using the Minkowski metric. With such a simple system,
 other products are omitted, namely, any with the space-times-time form, dtdxi.
 Such terms could appear if one used a metric with non-diagonal components
-which are unnecessary for flat spacetime.
+which are unnecessary for flat space-time.
 
 There is a type of math that naturally embraces space-times-time terms. All
 are familiar with real numbers, a mathematical field that allows for addition,
@@ -3732,7 +3732,7 @@ the space-like region.
 This is from a [Wikipedia discussion of EPR paper](https://en.wikipedia.org/wiki/EPR_paradox#The_paradox
 ):
 
-    The 1935 EPR paper condensed the philosophical discussion into a physical argument. The authors claim that given a specific experiment, in which the outcome of a measurement is known before the measurement takes place, there must exist something in the real world, an "element of reality", that determines the measurement outcome. They postulate that these elements of reality are, in modern terminology, local, in the sense that each belongs to a certain point in spacetime. Each element may, again in modern terminology, only be influenced by events which are located in the backward light cone of its point in spacetime (i.e., the past).  These claims are founded on assumptions about nature that constitute what is now known as local realism.
+    The 1935 EPR paper condensed the philosophical discussion into a physical argument. The authors claim that given a specific experiment, in which the outcome of a measurement is known before the measurement takes place, there must exist something in the real world, an "element of reality", that determines the measurement outcome. They postulate that these elements of reality are, in modern terminology, local, in the sense that each belongs to a certain point in space-time. Each element may, again in modern terminology, only be influenced by events which are located in the backward light cone of its point in space-time (i.e., the past).  These claims are founded on assumptions about nature that constitute what is now known as local realism.
 
 It was the clause "only be influenced by events which are
 located in the backward light cone" that caught my attention. If
@@ -4557,7 +4557,7 @@ along the z axis.  This analysis is confined to the z axis at the origin, a
 significant but not unreasonable constraint.  Second, these rotations are
 written with generalized coordinates instead of the very familiar and
 comfortable x, y, z.  This extra effort will be useful when considering how
-rotations are effected by curved spacetime.  This machinery is also necessary
+rotations are effected by curved space-time.  This machinery is also necessary
 to do quaternion analysis (please see that section, it's great :-)
 
 There are similar rotations around the first and second axes at the origin;
@@ -5165,8 +5165,8 @@ that is
 ## SU(2) - Like S2, the Partial Sphere
 
 The graphs of S2 were all paper thin or fleeting. They do not "fill up"
-spacetime. The next graph, generated by putting random quaternions into the
-expression exp(q-q*), fills up spacetime.  What was  
+space-time. The next graph, generated by putting random quaternions into the
+expression exp(q-q*), fills up space-time.  What was  
 up/down | What is | What can be  
 ---|---|---  
 ![](images/QM/standard_model_symmetries/su2_004.png) |
@@ -5180,14 +5180,14 @@ near/far | What was
 left/right | What can be  
 that is  
 ![SU\(2\) algebra](images/QM/standard_model_symmetries/su2_representation.png)  
-Although more of spacetime appears filled, only places were time is greater
+Although more of space-time appears filled, only places were time is greater
 than zero have a chance to have an event.
 
 ## U(1)xSU(2) - Like the Complete Quaternion Sphere S3
 
 SU(2) has only three of the four degrees of freedom available to a quaternion.
-There is no way to fill up all of spacetime with just SU(2). Now fill
-spacetime in by multiplying by itself, or q/|q| exp(q-q*)  What was  
+There is no way to fill up all of space-time with just SU(2). Now fill
+space-time in by multiplying by itself, or q/|q| exp(q-q*)  What was  
 up/down | What is | What can be  
 ---|---|---  
 ![](images/QM/standard_model_symmetries/u1xsu2_003.png) |
@@ -5227,7 +5227,7 @@ left/right | What can be
 that is  
 ![The standard model
 algebra](images/QM/standard_model_symmetries/u1xsu2xsu3_representation.png)  
-Notice how all of spacetime is filled evenly with events. A product of two
+Notice how all of space-time is filled evenly with events. A product of two
 quaternions that uses a conjugate different from a standard product because
 multiplication is no longer associative ((a b)*c does not equal a* (b c)). The
 norms are preserved, so the norm will remain 1. Eight independent number are
@@ -5244,7 +5244,7 @@ part of the calculation of a quaternion product.
 ![algebra for gravity and the standard
 model](images/QM/standard_model_symmetries/diffmxu1xsu2xsu3_representation.png)  
 The group Diff(M) is all diffeomorphisms of a compact smooth manifold. It is
-at the heart of general relativity. One can imagine this spacetime filling
+at the heart of general relativity. One can imagine this space-time filling
 sphere on any compact smooth manifold.
 
 What happens if q=q'? That is shown below:
@@ -5263,17 +5263,17 @@ near/far | What was
 left/right | What can be  
 that is  
 The standard model is about the group symmetry of the quaternion
-multiplication identity in spacetime.
+multiplication identity in space-time.
 
 OK, but what does that mean? Here is my take. Observers sit at here-now in
-spacetime, or numerically at (0, 0, 0, 0). An observer sees something out
+space-time, or numerically at (0, 0, 0, 0). An observer sees something out
 there, and tries to characterize the "thingie". The basic bit of information
 it can classify is an event. Whatever set of events is collected, they are all
 tied up in describing this one thingie out there. Every event contributes to
 the description of the thingie, and so makes a group. The multiplicative
 identity of a quaternion, (1, 0, 0, 0) is a way to represent the thingie.
 Almost none of the events map to (1, 0, 0, 0). The events are scattered all
-around spacetime. U(1)xSU(2)xSU(3) is the way to cow-rope all the events and
+around space-time. U(1)xSU(2)xSU(3) is the way to cow-rope all the events and
 bring them home, while remaining part of the same group, the one thing being
 observed.
 
@@ -5356,7 +5356,7 @@ laws of physics.
 #  Buttons
 
 
-| [![Definition of Spacetime](images/Stuff/Buttons/spacetime.jpg)] | [![The General Equivalence Principle](images/Stuff/Buttons/equivalence.jpg)] | [![Unified Field Theory](images/Stuff/Buttons/unified.jpg)] |
+| [![Definition of Space-time](images/Stuff/Buttons/space-time.jpg)] | [![The General Equivalence Principle](images/Stuff/Buttons/equivalence.jpg)] | [![Unified Field Theory](images/Stuff/Buttons/unified.jpg)] |
 | -- | -- | -- |
 | [![Justify Your Love for the Standard Model](images/Stuff/Buttons/justify.jpg)] | [![No Dark Matter Needed](images/Stuff/Buttons/dark.jpg)] | |
 
@@ -5366,7 +5366,7 @@ Promote the Doing Physics with Quaternions Project, and look cool :-)
 These 5 buttons represent a visual presentation of some of the key ideas
 behind my efforts to unify gravity and electromagnetism.  
   
-![Definition of Spacetime](images/Stuff/Buttons/spacetime.jpg) 
+![Definition of Space-time](images/Stuff/Buttons/space-time.jpg) 
 
 Fine cuisine depends on starting with the best ingredients. Great physics
 depends on using new powerful math.  An event in space-time has one dimension
@@ -5570,7 +5570,7 @@ day job, but work study physics in the background.
 
 Boston was the perfect city in the 1990s to study physics on the side. I took a 
 Harvard Extension class on Special Relativity taught by Edwin F. Taylor as he 
-was writing the book "Spacetime Physics" with Johnathon Wheeler. Taylor would 
+was writing the book "Space-time Physics" with Johnathon Wheeler. Taylor would 
 bring in a new chapter from Copy Copy, and we were assigned to critique it.  
 Thus became my respectful skeptical analysis of physics. I decide to keep a day 
 job, but work study physics in the background.

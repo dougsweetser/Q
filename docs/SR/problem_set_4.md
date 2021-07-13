@@ -61,7 +61,7 @@ Q: A pulsed radar source is at rest at the point x = 0. A large meteorite
 moves with constant velocity v toward the source; it is at the point x = -d at
 t = 0. A first radar pulse is emitted by the source at t = 0, and a second
 pulse at t = to (to &lt;&lt; d/c). The pulses are reflected by the meteorite
-and return to the source. (a) Draw in spacetime graph (1) the source, (2) the
+and return to the source. (a) Draw in space-time graph (1) the source, (2) the
 meteorite, (3) the two outgoing pulses, (4) the reflected pulses. (b) Evaluate
 the time interval between the arrivals at x = 0 of the two reflected pulses.
 (c) Evaluate the time interval between the arrivals as the meteorite of the
@@ -70,8 +70,8 @@ Answer (b) and (c) first with a well-chosen Lorentz transformation. Then
 answer again, this time using the Doppler effect and the results of the above
 problem (French 5-9).
 
-A: (a) This spacetime graph of the meteorite was constructed in the program
-"Spacetime" by Prof. Edwin F. Taylor.
+A: (a) This space-time graph of the meteorite was constructed in the program
+"Space-time" by Prof. Edwin F. Taylor.
 
 ![radar
 reflection](../images/SR/problem_set_4/radar.jpg)
@@ -448,18 +448,18 @@ timelike in the future.
 
 ##  R&amp;H: 2-42 The interval is invariant - check it out
 
-Q: Two events occur on the x axis of reference frame S, their spacetime
+Q: Two events occur on the x axis of reference frame S, their space-time
 coordinates being event1 = q[5 us, 720 m,0,0 ] and event 2 = [2 us, 1200 m,0,0
-]. (a) What is the square of the spacetime interval for these two events? (b)
+]. (a) What is the square of the space-time interval for these two events? (b)
 What are the coordinates of these events in a frame S' that moves at speed
 0.60c in the direction of increasing x? Calculate the square of the interval
 in this frame and compare it to the value calculated for frame S. (c) What are
 the coordinates of these events in a frame S" that moves at a speed of 0.95c
-in the direction of decreasing x? Again calculate the square of the spacetime
+in the direction of decreasing x? Again calculate the square of the space-time
 interval and compare it with the values found in (a) and (b). Do your
-calculations bear out the invariance of the spacetime interval?
+calculations bear out the invariance of the space-time interval?
 
-A: (a) The square of the spacetime interval between events 1 and 2 is the
+A: (a) The square of the space-time interval between events 1 and 2 is the
 first term of difference between the quaternions squared.
 
 ![\[Graphics:ps4gr75
@@ -515,9 +515,9 @@ square of a boosted quaternion.
 
 ##  R&amp;H: 2-43 An event pair - timelike or spacelike?
 
-Q: Two events occur on the x axis of reference frame S, their spacetime
+Q: Two events occur on the x axis of reference frame S, their space-time
 coordinates being event1 = q[5 us, 200 m,0,0] and event 2 = [2 us, 1200
-m,0,0]. (a) What is the square of the spacetime interval for these two events?
+m,0,0]. (a) What is the square of the space-time interval for these two events?
 (b) What is the proper distance interval between them? (c) If two events
 possess a (mathematically real) proper distance interval, it should be
 possible to find a frame S' in which these events would be seen to occur
@@ -525,7 +525,7 @@ simultaneously. Find this frame. (d) Can you calculate a (mathematically real)
 proper time interval for this pair of events? (e) Would you describe this pair
 of events as timelike? Spacelike? Lightlike?
 
-A: (a) The square of the spacetime interval between events 1 and 2 is the
+A: (a) The square of the space-time interval between events 1 and 2 is the
 first term of difference between the quaternions squared.
 
 ![\[Graphics:ps4gr87
@@ -573,7 +573,7 @@ measure of proper time.
 
 ##  R&amp;H: 2-44 An event pair - spacelike or timelike?
 
-Q: Two events occur on the x axis of reference frame S, their spacetime
+Q: Two events occur on the x axis of reference frame S, their space-time
 coordinates being event1 = q[5 us, 720 m,0,0] and event 2 = [2 us, 1200
 m,0,0]. (a) Using the data from problem 2-42 above, calculate the proper time
 interval for this pair of events. The proper time interval that you have
@@ -914,7 +914,7 @@ instantaneous change of reference frame experienced by A.
 ##  Initialization functions
 
 There are a few tools required to solve problems in special relativity using
-quaternions to characterize events in spacetime. The most basic are a round
+quaternions to characterize events in space-time. The most basic are a round
 value for c and gamma.
 
 ![\[Graphics:ps4gr14

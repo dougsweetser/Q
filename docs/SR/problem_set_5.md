@@ -538,7 +538,7 @@ The mass of the incoming projectile is 588 MeV.
 ##  Initialization functions
 
 There are a few tools required to solve problems in special relativity using
-quaternions to characterize events in spacetime. The most basic are a round
+quaternions to characterize events in space-time. The most basic are a round
 value for c and gamma.
 
 ![\[Graphics:ps5gr11

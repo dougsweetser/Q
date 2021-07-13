@@ -134,7 +134,7 @@ the space-like region.
 This is from a [Wikipedia discussion of EPR paper](https://en.wikipedia.org/wiki/EPR_paradox#The_paradox
 ):
 
-    The 1935 EPR paper condensed the philosophical discussion into a physical argument. The authors claim that given a specific experiment, in which the outcome of a measurement is known before the measurement takes place, there must exist something in the real world, an "element of reality", that determines the measurement outcome. They postulate that these elements of reality are, in modern terminology, local, in the sense that each belongs to a certain point in spacetime. Each element may, again in modern terminology, only be influenced by events which are located in the backward light cone of its point in spacetime (i.e., the past).  These claims are founded on assumptions about nature that constitute what is now known as local realism.
+    The 1935 EPR paper condensed the philosophical discussion into a physical argument. The authors claim that given a specific experiment, in which the outcome of a measurement is known before the measurement takes place, there must exist something in the real world, an "element of reality", that determines the measurement outcome. They postulate that these elements of reality are, in modern terminology, local, in the sense that each belongs to a certain point in space-time. Each element may, again in modern terminology, only be influenced by events which are located in the backward light cone of its point in space-time (i.e., the past).  These claims are founded on assumptions about nature that constitute what is now known as local realism.
 
 It was the clause "only be influenced by events which are
 located in the backward light cone" that caught my attention. If

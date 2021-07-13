@@ -40,7 +40,7 @@ The metric defines how to form a scalar as the indices are examined one-by-
 one.  Metrics in math can be anything, but nature imposes constraints on which
 ones are important in physics.  An aside: mathematicians require that the distance
 is non-negative, but physicists do not.  I will be using the physics notion of
-a metric.  In looking at events in spacetime (a 4-dimensional vector), the
+a metric.  In looking at events in space-time (a 4-dimensional vector), the
 axioms of special relativity require the Minkowski metric, which is a 4x4 real
 matrix that has (1, -1, -1, -1) down the diagonal and zeros elsewhere.  Some
 people prefer the signs to be flipped, but to be consistent with everything
@@ -58,7 +58,7 @@ tensor product of a set of basis vectors.
 ##  What Are Quaternions?
 
 Quaternions could be viewed as the outer tensor product of a scalar and a
-3-vector.  Under rotation for an event in spacetime represented by a
+3-vector.  Under rotation for an event in space-time represented by a
 quaternion, time is unchanged, but the 3-vector for space would be rotated.
 The treatment of scalars is the same as above, but the notion of vectors is
 far more restrictive, as restrictive as the notion of scalars. Quaternions can
@@ -182,7 +182,7 @@ the Minkowski interval](../images/Math/scalars_vectors/s_gr_11.gif)
 ![\(I q\) conjugated times I q = \(t squared + X dot X, 0\), the Euclidean
 norm](../images/Math/scalars_vectors/s_gr_12.gif)
 
-In order to change from wrist watch time (the interval in spacetime) to the
+In order to change from wrist watch time (the interval in space-time) to the
 norm of a Hilbert space does not require any change in the transformation
 quaternion, only a change in the multiplication step. Therefore a
 transformation which generates the Schwarzschild interval of general

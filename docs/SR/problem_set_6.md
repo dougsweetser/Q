@@ -346,7 +346,7 @@ in the center of mass frame.
 ##  Post ramble:  Initialization functions
 
 There are a few tools required to solve problems in special relativity  using
-quaternions to characterize events in spacetime.  The most basic are a round
+quaternions to characterize events in space-time.  The most basic are a round
 value for c and gamma.
 
 ![](../images/SR/problem_set_6/s_gr_84.gif)

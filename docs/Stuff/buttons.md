@@ -1,7 +1,7 @@
 #  Buttons
 
 
-| [![Definition of Spacetime](../images/Stuff/Buttons/spacetime.jpg)] | [![The General Equivalence Principle](../images/Stuff/Buttons/equivalence.jpg)] | [![Unified Field Theory](../images/Stuff/Buttons/unified.jpg)] |
+| [![Definition of Space-time](../images/Stuff/Buttons/space-time.jpg)] | [![The General Equivalence Principle](../images/Stuff/Buttons/equivalence.jpg)] | [![Unified Field Theory](../images/Stuff/Buttons/unified.jpg)] |
 | -- | -- | -- |
 | [![Justify Your Love for the Standard Model](../images/Stuff/Buttons/justify.jpg)] | [![No Dark Matter Needed](../images/Stuff/Buttons/dark.jpg)] | |
 
@@ -11,7 +11,7 @@ Promote the Doing Physics with Quaternions Project, and look cool :-)
 These 5 buttons represent a visual presentation of some of the key ideas
 behind my efforts to unify gravity and electromagnetism.  
   
-![Definition of Spacetime](../images/Stuff/Buttons/spacetime.jpg) 
+![Definition of Space-time](../images/Stuff/Buttons/space-time.jpg) 
 
 Fine cuisine depends on starting with the best ingredients. Great physics
 depends on using new powerful math.  An event in space-time has one dimension

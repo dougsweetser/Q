@@ -3,7 +3,7 @@
 ##  Preamble: Initiation functions
 
 There are a few tools required to solve problems in special relativity using
-quaternions to characterize events in spacetime. The most basic are gamma and
+quaternions to characterize events in space-time. The most basic are gamma and
 a round value for c.
 
 ![\[Graphics:ps1gr1.

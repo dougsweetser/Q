@@ -425,7 +425,7 @@ them does he find?
 (b) Which flash does he say occurs first?
 
 A: (a) For the first observer, the blue flash stays at the origin. The red
-flash is boosted to a new location in spacetime.
+flash is boosted to a new location in space-time.
 
 ![\[Graphics:ps2gr68
 .gif\]](../images/SR/problem_set_2/ps2gr68.gif)
@@ -612,7 +612,7 @@ to return, for a total of 27 years.
 ##  Initialization functions
 
 There are a few tools required to solve problems in special relativity using
-quaternions to characterize events in spacetime. The most basic are a round
+quaternions to characterize events in space-time. The most basic are a round
 value for c and gamma.
 
 ![\[Graphics:ps2gr90
