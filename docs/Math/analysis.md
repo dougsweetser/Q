@@ -12,7 +12,7 @@ magnitude of the vector goes to zero faster than the scalar.  This might
 initially appears as an unreasonable constraint.  However, there is an
 important application in physics.  Consider a set of quaternions that
 represent events in space-time.  If the magnitude of the 3-space vector is less
-than the time scalar, events are separated by a timelike interval.  It
+than the time scalar, events are separated by a time-like interval.  It
 requires a speed less than the speed of light to connect the events.  This is
 true no matter what coordinate system is chosen.
 
@@ -124,22 +124,22 @@ reverse order of the elements.  The first and second conjugates point things
 in exactly the opposite way.  The property of going "half way around" is
 reminiscent of spin.  A tighter link will need to be examined.
 
-##  Future Timelike Derivative
+##  Future Time-like Derivative
 
 Instead of the standard approach to quaternion analysis which focuses on left
 versus right derivatives, I concentrate on the ratio of scalars to 3-vectors.
 This is natural when thinking about the structure of Minkowski space-time,
 where the ratio of the change in time to the change in 3-space defines five
-separate regions: timelike past, timelike future, lightlike past, lightlike
-future, and spacelike.  There are no continuous Lorentz transformations to
+separate regions: time-like past, time-like future, light-like past, light-like
+future, and space-like.  There are no continuous Lorentz transformations to
 link these regions.  Each region will require a separate definition of the
 derivative, and they will each have distinct properties.  I will start with
 the simplest case, and look at a series of examples in detail.
 
-Definition: The future timelike derivative:
+Definition: The future time-like derivative:
 
 Consider a covariant quaternion function f with a domain of H and a range of
-H.  For a future timelike derivative to be defined, the 3-vector must approach
+H.  For a future time-like derivative to be defined, the 3-vector must approach
 zero faster than the positive scalar.  If this is not the case, then this
 definition cannot be used.  Implementing these requirements involves two limit
 processes applied sequentially to a differential quaternion D.  First the
@@ -259,9 +259,9 @@ to show that all polynomials gave the expected results.
 
 Mathematicians might be concerned by this result, because if the 3-vector D
 goes to -D nothing will change about the quaternion derivative.  This is
-actually consistent with principles of special relativity.  For timelike
+actually consistent with principles of special relativity.  For time-like
 separated events, right and left depend on the inertial reference frame, so a
-timelike derivative should not depend on the direction of the 3-vector.
+time-like derivative should not depend on the direction of the 3-vector.
 
 ##  Analytic Functions
 
@@ -409,13 +409,13 @@ q).
 
 ##  4 Other Derivatives
 
-So far, this work has only involved future timelike derivatives.  There are
+So far, this work has only involved future time-like derivatives.  There are
 five other regions of space-time to cover.  The simplest next case is for past
-timelike derivatives.  The only change is in the limit, where the scalar
+time-like derivatives.  The only change is in the limit, where the scalar
 approaches zero from below.  This will make many derivatives look time
 symmetric, which is the case for most laws of physics.
 
-A more complicated case involves spacelike derivatives.  In the spacelike
+A more complicated case involves space-like derivatives.  In the space-like
 region, changes in time go to zero faster than the absolute value of the
 3-vector.  Therefore the order of the limit processes is reversed.  This time
 the scalar approaches zero, then the 3-vector.  This creates a problem,
@@ -424,7 +424,7 @@ which will not commute with most quaternions.  That will lead to the
 differential element not cancelling.  The way around this is to take its norm,
 which is a scalar.
 
-A spacelike differential element is defined by taking the ratio of a
+A space-like differential element is defined by taking the ratio of a
 differential quaternion element D to its 3-vector, D - D^*^.  Let the norm of
 D approach zero.  To be defined, the three vector must approach zero faster
 than its corresponding scalar.  To make the definition non-singular
@@ -473,13 +473,13 @@ Look at how wonderfully strange this is!  The arbitrary rotation of the
 3-vector B means that this derivative is bound by an inequality.  If D is in
 direction of B, then it will be an equality, but D could also be in the
 opposite direction, leading to a destruction of a contribution from the
-3-vector.  The spacelike derivative can therefore interfere with itself.  This
-is quite a natural thing to do in quantum mechanics.  The spacelike derivative
+3-vector.  The space-like derivative can therefore interfere with itself.  This
+is quite a natural thing to do in quantum mechanics.  The space-like derivative
 is positive definite, and could be used to define a Banach space.
 
-Defining the lightlike derivative, where the change in time is equal to the
+Defining the light-like derivative, where the change in time is equal to the
 change in space, will require more study.  It may turn out that this
 derivative is singular everywhere, but it will require some skill to find a
-technically viable compromise between the spacelike and timelike derivative to
-synthesis the lightlike derivative.
+technically viable compromise between the space-like and time-like derivative to
+synthesis the light-like derivative.
 

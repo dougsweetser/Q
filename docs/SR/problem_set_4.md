@@ -425,11 +425,11 @@ a forward cone of half angle 5 degrees.
 
 ##  **Four-Vector Invariants**
 
-##  Baranger: Decay of a particle - timelike or spacelike?
+##  Baranger: Decay of a particle - time-like or space-like?
 
 Q: In event 1, an unstable particle is produced in the target of an
 accelerator. In event 2, this particle decays 5 meters away. Is the interval
-between these two events timelike or spacelike? Why?
+between these two events time-like or space-like? Why?
 
 A: The speed of the particle must be less than one, or x/t &lt; 1\. If event 1
 is at the origin and event 2 has a spatial position of 5m, it must have a time
@@ -444,7 +444,7 @@ quaternion.
 ![\[Graphics:ps4gr74.gif\]](../images/SR/problem_set_4/ps4gr74.gif)
 
 The square of the interval a^2 + 10a is always positive, so the interval is
-timelike in the future.
+time-like in the future.
 
 ##  R&amp;H: 2-42 The interval is invariant - check it out
 
@@ -513,7 +513,7 @@ Again, the square of the interval between the boosted events is the same. The
 first term of the square of a quaternion is identical to the first term of a
 square of a boosted quaternion.
 
-##  R&amp;H: 2-43 An event pair - timelike or spacelike?
+##  R&amp;H: 2-43 An event pair - time-like or space-like?
 
 Q: Two events occur on the x axis of reference frame S, their space-time
 coordinates being event1 = q[5 us, 200 m,0,0] and event 2 = [2 us, 1200
@@ -523,7 +523,7 @@ possess a (mathematically real) proper distance interval, it should be
 possible to find a frame S' in which these events would be seen to occur
 simultaneously. Find this frame. (d) Can you calculate a (mathematically real)
 proper time interval for this pair of events? (e) Would you describe this pair
-of events as timelike? Spacelike? Lightlike?
+of events as time-like? Space-like? Light-like?
 
 A: (a) The square of the space-time interval between events 1 and 2 is the
 first term of difference between the quaternions squared.
@@ -568,10 +568,10 @@ each other, and solve for beta.
 In frame S', the events will appear simultaneous for v/c = 0.9 in the
 direction of decreasing x.
 
-(d) &amp; (e) For events that are spacelike separated, there is no meaningful
+(d) &amp; (e) For events that are space-like separated, there is no meaningful
 measure of proper time.
 
-##  R&amp;H: 2-44 An event pair - spacelike or timelike?
+##  R&amp;H: 2-44 An event pair - space-like or time-like?
 
 Q: Two events occur on the x axis of reference frame S, their space-time
 coordinates being event1 = q[5 us, 720 m,0,0] and event 2 = [2 us, 1200
@@ -583,10 +583,10 @@ three given frames of problem 2-42. Is it? (b) If two events possess a
 frame S' in which these events would be seen to occur at the same place. Find
 this frame. (c) Can you calculate a (mathematically real) proper distance
 interval for this pair of events? (d) Would you describe this pair of events
-as timelike? Spacelike? Lightlike?
+as time-like? Space-like? Light-like?
 
 A: (a) To make this question more of a challenge, let's define a quaternion
-"Ltau" which maps an arbitrary timelike quaternion to its proper time:  
+"Ltau" which maps an arbitrary time-like quaternion to its proper time:  
   
 Ltau . q[t,x,y,z] = q[tau, 0, 0, 0] .  
   
@@ -679,7 +679,7 @@ each other, and solve for beta.
 
 The frame must move a speed 0.53c in the direction of decreasing x.
 
-(c) &amp; (d) The interval is timelike. It is not meaningful to search for a
+(c) &amp; (d) The interval is time-like. It is not meaningful to search for a
 proper distance between these two events.
 
 ##  **The Twin Paradox**

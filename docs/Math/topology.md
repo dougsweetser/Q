@@ -112,26 +112,26 @@ the causality of that collection of events.
 times \(x - a\) is less than the upper bound \(U,
 0\)](../images/Math/topology/s_gr_8.gif)
 
-![timelike events:  the scalar of \(\(x - a\) squared\) is greater than 0
+![time-like events:  the scalar of \(\(x - a\) squared\) is greater than 0
 ](../images/Math/topology/s_gr_9.gif)
 
-![lightlike events:  the scalar of \(\(x - a\) squared\) =
+![light-like events:  the scalar of \(\(x - a\) squared\) =
 0](../images/Math/topology/s_gr_10.gif)
 
-![spacelike events:  the scalar of \(\(x - a\) squared\) is less than
+![space-like events:  the scalar of \(\(x - a\) squared\) is less than
 0](../images/Math/topology/s_gr_11.gif)
 
-A proper time can have exactly the same absolute value as a pure spacelike
+A proper time can have exactly the same absolute value as a pure space-like
 separation, so these two will be included in the same sets, whether open,
 closed or on a boundary.
 
 There is no correlation the reverse way either.  Take for example a collection
-of lightlike events.  Even though they all share exactly the same interval -
+of light-like events.  Even though they all share exactly the same interval -
 namely zero - their absolute value can vary all over the map, not staying
 within limits.
 
 Although independent, these two ideas can be combined synergistically.
-Consider an open set S of timelike intervals.
+Consider an open set S of time-like intervals.
 
 ![the set S = {x, a are elements of H, a is fixed; U, L are elements of R |
 \(L, 0\) is less than \(x - a\) conjugated times \(x - a\) is less than \(U,
@@ -139,7 +139,7 @@ Consider an open set S of timelike intervals.
 0}](../images/Math/topology/s_gr_12.gif)
 
 The set S could depict a classical world history since they are causally
-linked and have good topological properties.  A closed set of lightlike events
+linked and have good topological properties.  A closed set of light-like events
 could be a focus of quantum electrodynamics.  Topology plus causality could be
 the key for subdividing different regions of physics.
 

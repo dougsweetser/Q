@@ -127,7 +127,7 @@ Manuel and the cat make correct statements about length contraction from their
 own reference frames.
 
 What makes this problem confusing to discuss is that the doors of the barn and
-the ends of the ladder are spacelike separated, so the order of events in time
+the ends of the ladder are space-like separated, so the order of events in time
 can be reversed depending on the reference frame.
 
 The reference event chosen for the following space-time diagrams (created in
@@ -142,7 +142,7 @@ action. This is not the case as seen in the figure below:
 
 Gwen always opens the far barn door before both ends of the ladder and barn
 are together with Manuel and the start of the ladder, averting disaster. The
-barn stays in one piece and we have had fun with moving objects with spacelike
+barn stays in one piece and we have had fun with moving objects with space-like
 separations.
 
 ##  R&amp;H: 2-34 2 flashes at different places - or are they?
