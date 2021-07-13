@@ -82,7 +82,7 @@ enterprise. I just wish I had capital (a frequent lament : )
 
 ## Lindy Hop
 
-Darra Garrison. Someday, you may get to stomp at the Savoy. That would make a
+Darra Sweetser. Someday, you may get to stomp at the Savoy. That would make a
 cool road trip!
 
 Tony and Aurelie Tye, Hop to the Beat Dance Studios. You cats know how to
@@ -115,7 +115,7 @@ makes my approximation better in the long run.
 Michael Phillips. Hope I can get some respect for my work like you do at the
 Wall Street Journal. Sorry, so far there is no economic angle for my various
 projects, otherwise I'd give you the inside scoop. (I hope you have finally
-"awakened to the fas cination that is Harvard.")
+"awakened to the fascination that is Harvard.")
 
 Dean & Leslie Potashner. We will get on Letterman so day!
 
@@ -126,7 +126,7 @@ projects. Peer review the results.
 
 ## ...and family*
 
-Darra Garrison and my daughter Elle.
+Darra Sweetser and my daughter Elle.
 
 Arthur, Cindy, Teddy, Grace, Asa (and...?) Sweetser.
 

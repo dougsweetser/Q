@@ -1,4 +1,4 @@
-Three Roads to Quaternion Gravity
+# Three Roads to Quaternion Gravity
 
 D. B. Sweetser
 
@@ -22,7 +22,7 @@ variant of special relativity.
 
 sweetser\@alum.mit.edu
 
-[]{#anchor}Conserving Changes in Space-times-time
+## Conserving Changes in Space-times-time
 =================================================
 
 The views of space and time which I wish to lay before you have sprung
@@ -124,7 +124,7 @@ coordinate-free form:
 The quaternion gravity proposal is that the second term above will be
 constant in a simple gravitational field.
 
-[]{#anchor}Relaxed Relativity Transformations
+## Relaxed Relativity Transformations
 =============================================
 
 In special relativity, all observers agree on the speed of light . I ask
@@ -176,7 +176,7 @@ for observer *B*. The same applies to changes in space at the spatial
 origin, where , . The non-zero constant space-times-time values will be
 parabolas that approach each axis:
 
-![](../images/Gravity/Three_roads/constant_intervals_space-times-time.png){width="3.93701in" height="2.624671916in"}
+![](../images/Gravity/Three_roads/constant_intervals_space_times_time.png)
 
 The familiar constant intervals of the light cone are rotated 45 degrees
 to form the constant space-times-time graph. The mathematical
@@ -207,8 +207,7 @@ the unprimed to the doubly primed reference frame. Consider a bar of
 length L in the unprimed frame emitting two photons from the ends of
 that bar simultaneously in the unprimed frame.
 
-![](../images/Gravity/Three_roads/measure_length.png){width="436.3636363636364pt"
-height="290.90909090909093pt"}
+![](../images/Gravity/Three_roads/measure_length.png)
 
 The two events will be simultaneous in the doubly primed frame. Say
 gamma was 2. Then it would appear to take twice as long to appear in the
@@ -226,7 +225,7 @@ the speed of light is not , but changes by a factor of gamma squared, .
 The square alters the interval but leaves the space-times-time constant.
 To this point, this is just a math exercise.
 
-[]{#anchor}Teaching Newtonian Gravity New Tricks
+## Teaching Newtonian Gravity New Tricks
 ================================================
 
 Newton's theory of gravity produces a field where every point in
@@ -341,7 +340,7 @@ solution of general relativity since the first order expressions have an
 identical form. This form of the proposal may be more convenient for
 some calculations.
 
-[]{#anchor}Extreme Gravity
+## Extreme Gravity
 ==========================
 
 Black holes, quantum gravity, and gravitational waves are three topics
@@ -407,7 +406,7 @@ used in the exponential can be a function of time. Yet it is far to
 early to claim the proposal can be consistent with the gravity wave data
 collected to date.
 
-[]{#anchor}Quaternion Gravity as a Simpler Competitor to General Relativity
+## Quaternion Gravity as a Simpler Competitor to General Relativity
 ===========================================================================
 
 Some have argued that there is no simpler metric theory possible than

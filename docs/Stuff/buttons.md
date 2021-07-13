@@ -1,6 +1,5 @@
 #  Buttons
 
-![](http://world.std.com/~sweetser/Images/space300.gif)
 
 | [![Definition of Spacetime](../images/Stuff/Buttons/spacetime.jpg)] | [![The General Equivalence Principle](../images/Stuff/Buttons/equivalence.jpg)] | [![Unified Field Theory](../images/Stuff/Buttons/unified.jpg)] |
 | -- | -- | -- |

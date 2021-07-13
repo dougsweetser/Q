@@ -46,10 +46,10 @@ characterized by the following:
 ![\(T + e,T, 0, 0\)](../images/QM/time_reversal/s_gr_6.gif)
 
 Find out what quaternion is required to reverse time for this relativistic
-interval to first order in epsilon.
+interval to first order in epsilon.
 
 ![R= \(t squared -\(T+ e\) squared ,2 T \(T+e\), 0, 0\) all over t squared +
-\(T + e\) squared](../images/QM/time_reversal/s_gr_7.gif)
+\(T + e\) squared](../images/QM/time_reversal/s_gr_7.gif)
 
 This approaches q[-e/T, 1, 0, 0], almost a pure vector, a result distinct from
 the classical case.

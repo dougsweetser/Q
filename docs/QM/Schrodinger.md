@@ -21,7 +21,7 @@ might serve to damp runaway terms.
 
 ##  The Quaternion Wave Function
 
-The derivation starts from a curious place :-)  Write out classical angular
+The derivation starts from a curious place :-)  Write out classical angular
 momentum with quaternions.
 
 ![\(0, L\) = \(0, R Cross P\) = the odd part of \(0, R\) times \(0, P\)](../images/QM/Schrodinger/s_gr_2.gif)
