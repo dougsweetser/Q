@@ -41,7 +41,7 @@ tangent and cotangent spaces into play. As a vector space over the real
 numbers, quaternions are a group with the addition operator. The identity
 element is zero.
 
-To andle the multiplication operator, one needs a few rules:
+To handle the multiplication operator, one needs a few rules:
 
 ![](quaternion_multiplication_rules.png)
 
@@ -51,7 +51,7 @@ representation is useful:
 
 ![](quaternion_matrix.png)
 
-The matrix representation has the rules of multiplicaiton built in. Because it
+The matrix representation has the rules of multiplication built in. Because it
 is a matrix, it also has addition and what is necessary to invert the matrix.
 The inverse of this matrix is the transpose of the matrix which always
 necessarily exists divided by the norm of the matrix which is the sum of the
@@ -102,7 +102,7 @@ model has these three particular Lie groups. As is well-known, once you have
 SU(2), then U(1) is necessarily a subgroup of SU(2). It makes me speculate that
 a new approach to these symmetries might manage their natural overlap in a more
 compact way. Until such an idea can be made more precise, consider this an odd
-partical physics fantasy.
+partial physics fantasy.
 
 ** Concerns About Quaternions
 
@@ -122,10 +122,10 @@ a vector space. Even that is not enough since there is no means to handle
 angular momentum. Quaternions can handle three classical dimensions, including
 the rotation. This should be an obvious point, but it is not.
 
-Since is an art of reductionism. The real numbers appear to be too complicated
-as a starting point. Addition utilizes the real number line wich is the fusion
-of the positive real numbers, then zero, then the negaitve real numbers. I
-appreciate how practical this is. Yet I see two sets of positve real numbers.
+Science is an art of reductionism. The real numbers appear to be too complicated
+as a starting point. Addition utilizes the real number line which is the fusion
+of the positive real numbers, then zero, then the negative real numbers. I
+appreciate how practical this is. Yet I see two sets of positive real numbers.
 One set is labeled "positive", the other "negative", but otherwise they are the
 same. The rule of multiplication can be found in the Abelian sign group
 Z<sub>2</sub>. This opens up the reductionist question about the trivial group
@@ -137,7 +137,7 @@ Using zero and one, there are three ways to represent the trivial group Z<sub>1<
 (\*, {0})
 (\*, {1})
 
-I found this intersing enough to devote an entire blog to the subject. The
+I found this interesting enough to devote an entire blog to the subject. The
 first two look like together they could form a mathematical field. There is a
 rule in the definition that disqualifies that because the trivial group cannot
 be changed. To me that is interesting, a logical contrast to calculus. Only the
@@ -153,29 +153,29 @@ one here-now, not four.
 
 ![](R4_4_zeros.png)
 
-A star topology allows there to be one zero share amoungst eight unities:
+A star topology allows there to be one zero share among eight unities:
 
 ![](Q8_one_zero_eight_ones.png)
 
 The origin is now quite complicated. In one area of study, relativistic quantum
 field theory, there is a notion of the sum of all possible histories. The odds
 of a series of events for particles going forward in time have to be added to
-the the events going backwards in time with the antiparticles. A star topology
-might allow for such a seamingly crazy pattern of paths. 
+the events going backwards in time with the antiparticles. A star topology
+might allow for such a seemingly crazy pattern of paths. 
 
 The rules for multiplication should come straight from group theory. The
 quaternion group Q<sub>8</sub> has the right name for the job. What is
-offputting is the "eight", twice as big as Hamilton's reveared four. Write out
+off-putting is the "eight", twice as big as Hamilton's revered four. Write out
 the product table for the quaternion group Q<sub>8</sub>:
 
 Although it might look like a square matrix, a product table is not equivalent
 to a matrix. Let me make the difference concrete. Square the simple
-quqaternions which is also a complex number (1, 2, 0, 0) to generate (-3, 4, 0,
+quaternions which is also a complex number (1, 2, 0, 0) to generate (-3, 4, 0,
 0). Using the product table, one starts with 1 I<sup>0</sup> + 2 i<sup>1</sup>.
 and ends with 1 I<sup>0</sup> + 4 I<sup>2</sup> + 4 I<sup>1</sup>. It is also
 true that 1 I<sup>0</sup> + 4 I<sup>2</sup> = 3 I<sup>2</sup>. There is an
 equivalence relationship between working with the quaternion group
-Q<sub>8</sub> and Hamilton's 4D quaternions. To be equivaalent, one needs to
+Q<sub>8</sub> and Hamilton's 4D quaternions. To be equivalent, one needs to
 reduce the Q<sub>8</sub> result. Reducing means to calculate the differences
 between the additive pairs (I<sup>0</sup>, I<sup>2</sup>), (i<sup>1</sup>, 
 i<sup>3</sup>), (j<sup>1</sup>, j<sup>3</sup>), and (k<sup>1</sup>, k<sup>3</sup>).
@@ -195,7 +195,7 @@ Together, these four real lines - (I<sup>0</sup>, {0}, I<sup>2</sup>),
 topology. Products are formed for space-time numbers using the product table of
 the quaternion group Q<sub>8</sub>.
 
-** Nomemclature
+** Nomenclature
 
 How should one write a space-time number? This is a minor challenge since we
 are all trained from the earliest days to use minus signs. My proposal is to
@@ -216,13 +216,13 @@ like so:
 (2, 5) = (0, 3)
 
 When doing problems with algebra, it is often the case that one does not know
-what the sign is.  In that case, the convension will be to keep the paratheses
+what the sign is.  In that case, the convention will be to keep the parentheses
 but drop the comma:
 
 (3, 0) + (x) = (0, 4)
 
 If one then goes and solves for x, the value is (0, 7). The only time one can
-skip the parantheses is for zero. For example, here is a norm as a quaternion
+skip the parentheses is for zero. For example, here is a norm as a quaternion
 and as a space-time number:
 
 q: (1, 2, 3, 4) * (1, -2, -3, -4) = (29, 0, 0, 0)
@@ -236,16 +236,16 @@ The space-time number norm comes in a reduced form.
 
 ** Why Bother?
 
-Classical mechanics, classical quantum mechanics, and relativistic quantum feild theory
+Classical mechanics, classical quantum mechanics, and relativistic quantum field theory
 all have their own examples of simple harmonic motion. This is the equation
 that governs classical simple harmonic motion:
 
 ![](simple_harmonic_motion.png)
 
-Space is treated like a pure quaternion as Hamilton prefered. The operator is
+Space is treated like a pure quaternion as Hamilton preferred. The operator is
 a pure scalar. Space and time do not mix as operators. This is the sign that
 the equation is classical. In classical quantum mechanics such as the
-Schrödinger equation, one time derivative and two spatial derivates act on the
+Schrödinger equation, one time derivative and two spatial derivatives act on the
 same wave function. In relativistic quantum field theory such as the
 Klein-Gordon equation, second order space and time derivatives act on the same
 wave function.
@@ -272,7 +272,7 @@ for the problem is that it is not obvious how to deal with the fact that the
 differential element does not commute in the limit definition. The
 differential element could go on the left or the right but the results are 
 different. Some work with left-hand derivatives, but this approach appears to
-fail since one cannot show that a simple polinomial like q<sup>2</sup> is
+fail since one cannot show that a simple polynomial like q<sup>2</sup> is
 analytic in q.
 
 My own assessment is that mathematicians are trying to make baby steps away
@@ -281,4 +281,4 @@ relativistic quantum field theory as a guide knowing the far more simple case
 for the derivative of real number derivatives is there when all the other
 complicated makes no contribution.
 
-My own prelimiary efforts on this subject 
+These are my own preliminary efforts on this subject. 

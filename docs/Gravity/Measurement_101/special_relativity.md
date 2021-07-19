@@ -2,14 +2,11 @@
 
 Walking changes how one measures deadly supernovae.
 
-<a id="single_1" href="../../../images/Gravity/Measurement-101/SR_900.gif"
-title="Four ways to see two events">
-  <img class='visible-xs' src="../../../images/Gravity/Measurement-101/SR_400.gif" alt="" />
-  <img class='hidden-xs' src="../../../images/Gravity/Measurement-101/SR_600.gif" alt="" /></a> 
+<img src="../../../images/Gravity/Measurement_101/SR_900.gif"/>
 
 As long as the kids move at a constant rate, special relativity comes into play.
 
-Relativity is not an arbitrary change, but increadibly precise change.
+Relativity is not an arbitrary change, but incredibly precise change.
 
 And there is that interval that is *exactly* the same size.
 
@@ -18,9 +15,8 @@ didn't want to write _lots_ of zeros).
 
 ## Page-cast
 
-A brief explantion of this page.
+A brief explanation of this page.
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/qg9DNIcSjQU" frameborder="0" allowfullscreen></iframe>
 
 ## For nerds
 

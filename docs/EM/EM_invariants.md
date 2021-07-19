@@ -4,19 +4,19 @@ To derive the field equations of electromagnetism (EM), we need to find Lorentz
 invariants that use the electric (E) and magnetic (B) fields of EM that then
 get plugged into the Euler-Lagrange equation.
 
-An invariant is something all observers can agree on.  The Egyptions fiture out
+An invariant is something all observers can agree on.  The Egyptians figure out
 one long ago:
 
 ![3 squared plus 4 squared equals 5 squared](../images/EM/EM_invariants/32+42_eq_52.png)
 
 This was the basis for surveying in the flood plains of the Nile. It remains
-true today.  The 3D Egyptions know we could also include a third spacial
+true today.  The 3D Egyptians know we could also include a third spacial
 dimension:
 
-![a squared plut b squared plus c squared equals R
+![a squared plus b squared plus c squared equals R
 squared](../images/EM/EM_invariants/a2+b2+c2_eq_R2.png)
 
-Einstein showed that Egyptions in rockets could only agree on the inverval
+Einstein showed that Egyptians in rockets could only agree on the interval
 between events.
 
 ![d tau squared equals d t squared minus d R squared over the speed of light c
@@ -32,7 +32,7 @@ squared](../images/EM/EM_invariants/dtau2_eq_f_dt2-g_dR2.png)
 Masters of general relativity can figure out the dynamic functions for _f_ and _g_
 in only a few special cases because the math remains so difficult. The proposal
 described in this site, quaternion gravity, should make this issue tractable
-since then one has an algebra problem instead of ten nonliner differential
+since then one has an algebra problem instead of ten nonlinear differential
 equations to solve.  For the rest of the discussion of EM, it is assumed f and
 g are equal to one since it makes the math simple.
 
@@ -42,7 +42,7 @@ the current with the potential by multiplying them together:
 ![J times A equals rho, J times phi, A equals r phi minus J dot A, phi A plus J
 phi plus the cross product of J and A](../images/EM/EM_invariants/current_coupling.png)
 
-The electric and magentic fields can be written in terms of differential
+The electric and magnetic fields can be written in terms of differential
 operators acting on a potential. Form the product:
 
 ![The differential times the potential A equals the time
@@ -58,7 +58,7 @@ derivative of phi or divergence of A - the other terms are unchanged.
 derivative of A plus the gradient of phi plus the curl of
 A](../images/EM/EM_invariants/DA_no_scalar.png)
 
-There are two times of 3-vectors.  An axial vector will not change if the the
+There are two times of 3-vectors.  An axial vector will not change if the
 order of the product is reverse.  A polar vector will flip signs by changing
 the order.  That is a property of cross products and curls.  Here are the two
 possibilities:
@@ -74,7 +74,7 @@ A](../images/EM/EM_invariants/AD_no_scalar.png)
 These should both be as "long" as each other, but will point in a different
 direction so long as the magnetic field B is not zero.  Zero is an invariant,
 so take the difference of the norms of both of these, and that will always,
-necssarily, be equal to zero.
+necessarily, be equal to zero.
 
 ![The norm of minus E plus B equals E squared minus 2 E dot B plus B squared.
 The norm of minus E minus B equals E squared plus 2 E dot B plus B squared. The
@@ -82,7 +82,7 @@ second norm minus the first is 4 E dot
 B](../images/EM/EM_invariants/norms_of_E_B.png)
 
 The dot product of the electric and magnetic field will be used to derive the
-homogenous Maxwell equations, the no monopoles and Faraday's law.
+homogeneous Maxwell equations, the no monopoles and Faraday's law.
 
 The product of the two ways to multiply a differential and a potential also
 form an invariant:

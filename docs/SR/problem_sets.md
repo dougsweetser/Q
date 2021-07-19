@@ -9,13 +9,13 @@ Quaternions](http://dougsweetser.github.io/SRQ)
 
 In early 1997, I had a meeting with a famous physicist to discuss my research 
 project. Actually, I sat outside his door and talked with him to and from the 
-chinese food truck. He thought my project was "Interesting, but not very 
+Chinese food truck. He thought my project was "Interesting, but not very 
 interesting." The reason was that I had a few math widgets, but no theory. I 
 thanked him for his time.
 
 Now I had to find a theory. This is a crazy assignment. I decided to begin my 
 search by posing a question: define a brief definition of time that must be two 
-sentences or less and only be about phyiscs or math, not philosophy. My runon 
+sentences or less and only be about physics or math, not philosophy. My run-on 
 sentence answer used quaternions as a definition of events in space-time.
 
 To test the hypothesis, I asked the professor who taught the class if I could 

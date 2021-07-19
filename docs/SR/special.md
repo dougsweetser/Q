@@ -2,8 +2,8 @@
 
 ## The **special** in special relativity
 
-Einstien's theory of special relativity applied only to one paricular class of
-observers: those that were travelling at a constant velocity.  Any deviation
+Einstein's theory of special relativity applied only to one particular class of
+observers: those that were traveling at a constant velocity.  Any deviation
 from constant motion - caused by going around a corner or sitting in a
 gravitational field - and special relativity does not apply.  Einstein turned
 to his friends skilled in the mathematical arts for a way to deal with other

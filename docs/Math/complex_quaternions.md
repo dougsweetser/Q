@@ -7,7 +7,7 @@ one of many Clifford algebras, *Cl*(0, 2) being its formal name.
 
 In this essay, the physics of space-time will drive the discussion, not
 accidents of history. The words for real and imaginary numbers arose from a
-catfight between mathematicians over complex numbers. The labels I will use
+cat fight between mathematicians over complex numbers. The labels I will use
 always have to be tied to space-time. Please consider this odd constraint a
 playful way to think differently about numbers for physics
 
@@ -175,7 +175,7 @@ zero/now/observer and one/signal will remain.
 
 ## The Real Numbers
 
-Start by understanding the rules for multiplication that require the [abelian
+Start by understanding the rules for multiplication that require the [Abelian
 cyclic group Z~2~](http://groupprops.subwiki.org/wiki/Cyclic_group:Z2), also known as the sign group. Here is the product table:
 
 ![Z2.png](../images/Math/complex_quaternions/image08.png)
@@ -184,7 +184,7 @@ In practice, the way to use a product table is to pick one value from the
 first column then multiply it by something from the top row to get the result
 from where they meet in the table. So *e* x *e* = *e* which is the trivial group product
 discussed in the previous section and *e* x *i^2^* = *i^2^*. Because the off diagonal
-elements are symmetric, the group is abelian, meaning the order of
+elements are symmetric, the group is Abelian, meaning the order of
 multiplication does not matter.
 
 The labels one uses for the product table (the *e* and *i^2^*) don't matter unless
@@ -533,7 +533,7 @@ is consistent with the story told so far.
 The trivial group Z~1~ and cyclic groups Z~2~ and Z~4~ live in the upper left hand
 quarter of the product table. Notice how elements in that quarter are
 symmetric over the diagonal.  This is a sign that the three groups are
-abelian, meaning the order of multiplication does not matter. The same cannot
+Abelian, meaning the order of multiplication does not matter. The same cannot
 be said for the quaternion group Q~8~. The off diagonal elements are the same if
 one of the terms is *e* or *I^2^*. Otherwise, the off-diagonal terms are the same
 element - and *i*, *j*, or *k* \- but will be to the first power on one side and a
@@ -656,8 +656,6 @@ the three straws above act as one imaginary basis, the other three as the cube
 of that basis. The gray straw is the square of this new basis.
 
 Going from the cube to the plane looks like a good math puzzle. For each
-color, one of the complex planes involves *e* and *i^2^*. This would have to be the
-final plane. Then one would have to come up with a few rules about how to go
 from red-green-yellow to just one color.
 
 To get the animation to be like a distance-time, only count two of the three

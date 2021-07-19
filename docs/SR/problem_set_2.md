@@ -103,7 +103,7 @@ The clock in rocket B reads one o'clock plus 4.99 microseconds.
 Q: At noon a rocketship passes the Earth with a velocity 0.8c. Observers on
 the ship and on the Earth agree that it is noon.  
 (a) At 12:30 P.M. as read by a rocketship clock, the ship passes an
-interplanetary navigational station that is fixed rel ative to the Earth and
+interplanetary navigational station that is fixed relative to the Earth and
 whose clocks read Earth time. What time is it at the station? (b) How far from
 the Earth (in Earth coordinates) is the station?  
 (c) At 12:30 P.M. rocketship time the ship reports by radio back to Earth.
@@ -351,7 +351,7 @@ Set the time component of the quaternion equal to 16 microseconds.
     
 ![\[Graphics:ps2gr58.gif\]](../images/SR/problem_set_2/ps2gr58.gif)
 
-The muon is travelling 0.9905 c.
+The muon is traveling 0.9905 c.
 
 ##  R &amp; H: 2-25 Decay in flight (III)
 
@@ -377,7 +377,7 @@ The average lifetime is 4.4 x
 Q: In the target area of an accelerator laboratory there is a straight
 evacuated tube 300 m long. A momentary burst of 1 million radioactive
 particles enters at one end of the tube, moving at a speed of 0.80c. Half of
-them arrive at the other end wi thout having decayed. (a) How long is the tube
+them arrive at the other end without having decayed. (a) How long is the tube
 as measured by an observer moving with the particles? (b) What is the half-
 life of the particles in this same reference frame? (c) With what speed is the
 tube measured to move in this frame?
@@ -420,7 +420,7 @@ The tube looks like it is moving 0.8c in the rest frame of the particles.
 Q: An experimenter arranges to trigger two flashbulbs simultaneously, a blue
 flash located at the origin of his reference frame and a red flash at x = 30
 km. A second observer is moving at a speed of 0.25c in the direction of
-increasing x, and also v iews these flashes. (a) What time interval between
+increasing x, and also views these flashes. (a) What time interval between
 them does he find?  
 (b) Which flash does he say occurs first?
 
@@ -543,7 +543,7 @@ The lifetime is 5.7 ns.
 Q: The train is moving with a velocity v. At the head of the train, the
 engineer compares her clock C'1 with a stationary clock C1 outside as she
 passes it, and finds that both clocks read time zero. At the same moment (for
-the train frame) the cond uctor in the caboose compares his clock C'2 (which
+the train frame) the conductor in the caboose compares his clock C'2 (which
 therefore also reads zero) with a stationary clock C2 he happens to be
 passing. What does C2 read? The distance between the clocks C'1 and C'2
 measured by people on the train is L.
@@ -569,7 +569,7 @@ Q: Some inhabitants of the Andromeda nebula are traveling through the Milky
 Way in a flying saucer whose constant velocity equals 0.8c. Going by the
 Earth, they find out that it is A. D. 1996 here and they synchronize their
 clocks with ours. In A. D . 2005, mankind blows up the Earth. At what time, on
-their clock, do the travellers in the flying saucer learn of this event,
+their clock, do the travelers in the flying saucer learn of this event,
 assuming that they have been watching us all along through a telescope. Try a
 few ways of doing this problem.
 
@@ -584,7 +584,7 @@ t + 9 yr.
     
 ![\[Graphics:ps2gr85.gif\]](../images/SR/problem_set_2/ps2gr85.gif)
 
-The saucer has travelled a distance d = v t. Calculate the interval which will
+The saucer has traveled a distance d = v t. Calculate the interval which will
 give the saucer's proper time.
 
 ![\[Graphics:ps2gr86
@@ -629,7 +629,7 @@ Define a function for quaternions using its matrix representation.
 A quaternion L that transforms a quaternion (L q[**x**] = q[**x'**]) identical
 to how the Lorentz transformation acts on 4-vectors  
 (Lambda **x** = **x'**) should exist. These are described in detail in the
-notebook "A different al gebra for boosts." For boosts along the x axis with y
+notebook "A different algebra for boosts." For boosts along the x axis with y
 = z = 0, the general function for L is
 
 ![\[Graphics:ps2gr93

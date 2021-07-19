@@ -189,14 +189,11 @@ conjugated](../images/QM/uncertainty_principle/s_gr_22.gif)
 ![commutator: \[A, B\] maps to \[A,
 B\]](../images/QM/uncertainty_principle/s_gr_25.gif)
 
-![norm: <psi|psi> maps to q conjugated times
-q](../images/QM/uncertainty_principle/s_gr_26.gif)
+![norm: <psi|psi> maps to q conjugated times q](../images/QM/uncertainty_principle/s_gr_26.gif)
 
-![expectation of A: <psi|A psi> maps to q conjugated A
-q](../images/QM/uncertainty_principle/s_gr_27.gif)
+![expectation of A: <psi|A psi> maps to q conjugated A q](../images/QM/uncertainty_principle/s_gr_27.gif)
 
-![A is Hermitian maps to \(0, A\) is anti-
-Hermitian](../images/QM/uncertainty_principle/s_gr_28.gif)
+![A is Hermitian maps to \(0, A\) is anti-Hermitian](../images/QM/uncertainty_principle/s_gr_28.gif)
 
 ![The square of the standard deviation: dA squared = <psi | A squared  psi> -<psi| A psi> squared maps to  DA squared](../images/QM/uncertainty_principle/s_gr_29.gif)
 

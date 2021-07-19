@@ -738,7 +738,7 @@ tortoise.
 Q: Einstein, in his first paper on the special theory of relativity, wrote the
 following: "If one of the two synchronous clocks at A is moved in a closed
 curve with constant velocity until it returns to A, the journey lasting t
-seconds, then by the clock that has remained at rest the travelled clock on
+seconds, then by the clock that has remained at rest the traveled clock on
 its arrival at A will be t v^2/2 c^2 seconds slow." Prove this statement.
 (Note: Elsewhere in his paper Einstein indicated that this result is an
 approximation, valid only for v &lt;&lt; c.)
@@ -777,8 +777,8 @@ the critical parameter to determine if the clocks will run at different enough
 rates to have the parents return younger than their children.
 
 The second question concerns reversing the aging process. The aging process
-will appear to procede in the same manor for both parent and child. Why is
-this not reversable? Find the quaternion that reverses time.  
+will appear to proceed in the same manor for both parent and child. Why is
+this not reversible? Find the quaternion that reverses time.  
   
 LTimeRev q[t, x, y, z] = q[-t, x, y, z]  
   

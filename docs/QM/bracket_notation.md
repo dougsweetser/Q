@@ -253,6 +253,6 @@ not play a critical role.  It is the properties of the Hilbert space over the
 field of quaternions that is harnessed to solve problems.  It is my opinion
 that since the product of a transpose of a quaternion with a quaternion
 already has the properties of a norm in a Hilbert space, there is no need to
-imbed quaternions again within another Hilbert space.  I like a close shave
+embed quaternions again within another Hilbert space.  I like a close shave
 with Occam's razor.
 

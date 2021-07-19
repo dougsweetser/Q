@@ -59,20 +59,20 @@ all of space:
 
 ![All of God's Physics](../images/QM/BellsFuture/Bells_future_QM_all.jpg)
 
-I hope the gentle reader is not offput by referencing a diety.
+I hope the gentle reader is not put off by referencing a deity.
 The word choice was made because it is my belief that all of
 physics, both that that is currently known which is the vast
 majority, and that which remain unknown, must live only in 
 3D space + time, or space-time. I am more concerned with why parity is not conserved
 for beta decay than any biblical issue.
 
-Noice how three spatial dimensions are written explicity in
+Notice how three spatial dimensions are written explicitly in
 the space-time graph. Starting from studies done with five dimensions in the 1920s, research
 begun in the 1970s created a significant investigation into higher
 spatial dimensions. I believe all such work will have no lasting
 value. More recently, people have been championing the 
 multi-verse. A multi-verse has multiple space-times. Again, I 
-believe all such work witll have no lasting value.
+believe all such work will have no lasting value.
 
 I am radical conservative circa 1960s in regards to space-time.
 
@@ -110,7 +110,7 @@ physics.
 
 ![](../images/QM/BellsFuture/Bells_future_QM_Newton.jpg)
 
-Space is abosulte. Time is absolute. There is no way in Newtonian
+Space is absolute. Time is absolute. There is no way in Newtonian
 physics to rotate space into time. This is the physics we 
 experience everyday. 
 
@@ -193,7 +193,7 @@ End sidebar
 Why use momentum in relativity, but momentum states in quantum
 mechanics? Momentum from the past lightcone can change the 
 motion of the observer at the origin. The entire chain of events
-leading to that chang in the observer can be known. A space-like
+leading to that change in the observer can be known. A space-like
 momentum state is different. Momentum states may never change
 the observer at the origin, here-now. The precise odds of a 
 momentum state changing the momentum of an observer can be
@@ -206,7 +206,7 @@ necessarily blind-sided by a momentum state.
 The same story applies to energy versus an energy state. 
 Observers can absorb energy from the past lightcone and heat up.
 Observers cannot absorb energy from an energy state as it is too
-far away. The can in the futur absorb the energy to the same
+far away. The can in the future absorb the energy to the same
 effect. We can calculate the odds.
 
 ## The Wave Function
@@ -221,7 +221,7 @@ is a refinement one will have to include with care later.
 For a complex-valued wave function, the conjugate is simple to
 construct. The product of a wave function and its conjugate
 evaluates to a positive real number. If properly normalized,
-the postive number is the odds of an interation happening. 
+the positive number is the odds of an interaction happening. 
 Nothing unusual is happening under the Bell's future 
 interpretation, all calculations will be the same.
 
@@ -234,7 +234,7 @@ he came to the conclusion that quaternion quantum
 mechanics was a "complete dumpster fire" because it would
 allow superluminal transfer of information. I agree, any 
 algebraic system that allows superluminal transformation is
-boring and deserves no futher study. I was suprised that this
+boring and deserves no futher study. I was surprised that this
 flaw was known to Adler as he admitted to Aaronson.
 
 In a rapid exchange I had with Aaronson, I came up with the idea
@@ -245,8 +245,8 @@ new name.
 
 As I considered it more, a better name would have been 
 "point-with-precision" quaternion series quantum mechanics.
-In the lab, physics experiments are reknown for their precision
-of the experimental apperatus. It is common to use tables that
+In the lab, physics experiments are known for their precision
+of the experimental apparatus. It is common to use tables that
 isolate the vibrations of the surroundings from the experiment.
 The precision of location known at the bench is apply to the
 math used. Quaternions that point in the same direction commute.
@@ -270,7 +270,7 @@ algebric approach to doing calculations.
 
 ## Interpretations of Quantum Mechanics
 
-There are at least 20 intepretations of quantum mechanics. Nearly
+There are at least 20 interpretations of quantum mechanics. Nearly
 all of them make the same predictions as does this one. I have 
 seen Sean Carroll take a poll of graduate students to find their
 favorite. This is not the was physics works. Physics is a contact
@@ -278,7 +278,7 @@ sport with only one eventual winner.
 
 Physics by subtraction defines areas of study. Newton's classical
 physics uses only the axes. Causality in special relativity uses
-only the past lightcone. By contrast, quantum mechancis uses 
+only the past lightcone. By contrast, quantum mechanics uses 
 nothing from the past lightcone. Quantum mechanics uses 
 space-like states to calculate the odds of interactions in the
 future.

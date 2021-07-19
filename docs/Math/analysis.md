@@ -232,7 +232,7 @@ with the complex case, which is:
 ![d b by d z = - i over 2 = - d b by d Z
 conjugated](../images/Math/analysis/s_gr_32.gif)
 
-These are the same result up to two subedits.  Quaternions have three
+These are the same result up to two edits.  Quaternions have three
 imaginary axes, which creates the factor of three.  The conjugate of a complex
 number is really doing the work of the first quaternion conjugate q^*1^ (which
 equals -z^*^), because z^*^ flips the sign of the first 3-vector component, but no
@@ -421,7 +421,7 @@ region, changes in time go to zero faster than the absolute value of the
 the scalar approaches zero, then the 3-vector.  This creates a problem,
 because after the first limit process, the differential element is (0, D),
 which will not commute with most quaternions.  That will lead to the
-differential element not cancelling.  The way around this is to take its norm,
+differential element not canceling.  The way around this is to take its norm,
 which is a scalar.
 
 A space-like differential element is defined by taking the ratio of a

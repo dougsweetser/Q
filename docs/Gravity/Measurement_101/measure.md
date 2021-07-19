@@ -2,9 +2,7 @@
 
 Two stars go supernova while four kids watch.
 
-<a id="single_1" href="../../../images/Gravity/Measurement-101/measure_900.gif" title="Four ways to see two events">
-    <img class='visible-xs' src="../../../images/Gravity/Measurement-101/measure_400.gif" alt="" />
-    <img class='hidden-xs' src="../../../images/Gravity/Measurement-101/measure_600.gif" alt="" /></a>  
+<img src="../../../images/Gravity/Measurement_101/measure_900.gif" title="Four ways to see two events"/>
 
 There is a difference in time (dt).
 
@@ -24,7 +22,7 @@ Relativity, this is almost, but not quite true.
 
 ## Page-cast
 
-A brief explantion of this page.
+A brief explanation of this page.
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/hQ4giMzbyA8" frameborder="0" allowfullscreen></iframe>
 

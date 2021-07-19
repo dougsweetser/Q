@@ -7,8 +7,8 @@ simply the product of the current density with the potential:
 ![J times A equals rho, J times phi, A equals r phi minus J dot A, phi A plus J
 phi plus the cross product of J and A](../images/EM/EM_invariants/current_coupling.png)
 
-We also need a Lorentz invariant of the E and B fields.  As discussed in [EM
-invariants](EM_invariants.md), the gauge-free derivative of a potential written
+We also need a Lorentz invariant of the E and B fields.  As discussed in 
+[EM invariants](EM_invariants.md), the gauge-free derivative of a potential written
 in both orders does the trick:
 
 ![](../images/EM/derive_Maxwell_source_equations/difference_of_squares.png)

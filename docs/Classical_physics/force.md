@@ -97,7 +97,7 @@ rewritten:
 ![- Omega dot R Omega = - Omega Cross \(Omega Cross R\) + Omega squared
 R](../images/Classical_physics/force/s_gr_17.gif)
 
-If the angular velocity an the radius are orthogonal, then
+If the angular velocity and the radius are orthogonal, then
 
 ![Omega Cross \(Omega Cross R\) = Omega squared R if and only if Omega dot R =
 0](../images/Classical_physics/force/s_gr_18.gif)

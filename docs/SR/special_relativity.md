@@ -8,11 +8,11 @@ It was obvious in 1910 that quaternions _should_ be perfect to do the job of
 rotating space and time since quaternions have always been the master of doing
 rotations in space. This is how a rotation around the x axis is done:
 
-![Rotatio around the x
+![Rotation around the x
 axix](../images/SR/special_relativity/rotation_around_x.png)
 
 Boosts are rotations involving space and time. There is a well know approach to
-doing boosts that uses hypserbolic sines and cosines. Just swapping in the
+doing boosts that uses hyperbolic sines and cosines. Just swapping in the
 hyperbolic functions for their counterparts does not work. So the first people
 to try this abandoned quaternions and used complex-valued quaternions. The
 added imaginary factors allowed them to get a boost that was as compact as
@@ -39,7 +39,7 @@ two terms using hyperbolic functions, while the later operates on the final two
 terms with the normal trig functions. Some people battle to understand the
 factor of two on the angles, but I just accept it as is.
 
-There are several places in the phyisics literature where it is claimed that
+There are several places in the physics literature where it is claimed that
 only complex-valued quaternions can represent the Lorentz group. Sometimes it
 is good to just play until things work.
 

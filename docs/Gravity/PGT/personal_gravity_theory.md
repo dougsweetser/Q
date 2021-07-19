@@ -53,11 +53,11 @@ gammas. I should confess I don't know the answer.
 
 ## Email homework solutions to: sweetser@alum.mit.edu
 
-If your arnswers to A and B look correct to me, you must be willing to have
+If your answers to A and B look correct to me, you must be willing to have
 your name listed publicly. You will need to supply a mailing address
 so I can send you a check.I would also like to put your answer in a directory,
 listed in order of accepted answers. You are free to choose not to let your
-answer be publically available (or submit an upgrade to the one supplied
+answer be publicly available (or submit an upgrade to the one supplied
 originally, your choice). 
 
 The first one to answer question C gets $200.

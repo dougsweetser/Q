@@ -2,10 +2,7 @@
 
 Looking down or looking from below changes time and space measurements in opposite ways.
 
-<a id="single_1" href="../../images/Gravity/Measurement-101/QG_900.gif"
-title="Four ways to see two events">
-    <img class='visible-xs' src="../../images/Gravity/Measurement-101/QG_400.gif" alt="" />
-    <img class='hidden-xs' src="../../images/Gravity/Measurement-101/QG_600.gif" alt="" /></a>  
+<img src="../../images/Gravity/Measurement_101/QG_900.gif"/>
 
 If one kid is at a different height in a gravity field to another, then
 time measurements get smaller while spatial ones get bigger. That is standard 
@@ -20,14 +17,14 @@ didn't want to write _lots_ of zeros).
 
 ## Page-cast
 
-A brief explantion of this page.
+A brief explanation of this page.
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/9Z13zO-IsQ8" frameborder="0" allowfullscreen></iframe>
 
 ## For nerds
 
 Special relativity could have been called "special invariance" because it is
-the invariant interval that all inertial observers argee upon. Inviarnce
+the invariant interval that all inertial observers agree upon. Invariance
 principles are deep insights into how Nature works. They are truths that do
 not change.
 
@@ -42,7 +39,7 @@ one observer is exactly equal to another.
 But how precisely does the interval change? For a spherically symmetric,
 non-rotating, unchanged source, only one dimensionless ratio comes into play:
 GM/c^2^R. Orbital systems are harmonic systems, suggesting that one use
-exponential of the dimensionless ratio. The requirment that the
+exponential of the dimensionless ratio. The requirement that the
 space-times-time term is invariant means the time term is the inverse of the
 exponential experienced by the space term, like so:
 
@@ -52,10 +49,10 @@ squared - e to the 2 z dR sub i squared, 2 dt dR sub i over c equals e to the -
 squared, 2 dt dR sub i if z = G M over c squared R](../../images/Gravity/exp_GMc2R.png)
 
 The resulting exponential interval has the same form as the Rosen metric. The Rosen
-matric makes the same experimental predictions as the Schwarzschild metric for
+metric makes the same experimental predictions as the Schwarzschild metric for
 all weak field gravity tests to first order Parameterize Post-Newtonian (PPN)
 accuracy. At second order PPN accuracy, the exponential interval predicts 12%
-more bending of light around the Sun. We have yet to acheive the precision to 
+more bending of light around the Sun. We have yet to achieve the precision to 
 decide this issue on experimental data.
 
 Special relativity is not a field field theory. It is a constraint on all

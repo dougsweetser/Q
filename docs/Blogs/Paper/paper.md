@@ -7,7 +7,7 @@ not a peer of a Ph.D. level physicist. I cannot walk their walk, cannot talk
 their talk. And of course the idea could be wrong. I submitted the paper to the
 Journal Classical and Quantum Gravity. I have never been able to read and
 understand an abstract in that journal because it was too dense with jargon.
-The title of the jorunal did sound relevant. Here was the abstract I submitted:
+The title of the journal did sound relevant. Here was the abstract I submitted:
 
 ## Abstract 
 
@@ -129,7 +129,7 @@ the real part is different.
 Nature doesn't care if we understand gravity. I don't care if the physics
 community does either. The review was what I expected. I cannot change my
 affiliation (none) which makes the odds of acceptance under 2%. I need
-quaternions everywhere, lower that by 50%, then the quqaternion cynics are a
+quaternions everywhere, lower that by 50%, then the quaternion cynics are a
 third of that. A made up word like "space-times-time" takes another 50% cut.
 The starting odds are under 0.2%. The odds are greater that 80% that the
 reviewer has written a technical paper on quantum gravity and 100% that the

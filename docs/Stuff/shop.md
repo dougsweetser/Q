@@ -2,7 +2,7 @@
 
 ## T-shirts and prints
 
-Really, there is nothing old fashioned.  Most of the merchandize is available
+Really, there is nothing old fashioned.  Most of the merchandise is available
 at [RedBubble.com](http://www.redbubble.com/people/visualphysics/shop).
 
 ![](../images/Stuff/redbubble_shop.png)
@@ -18,8 +18,7 @@ of $60k over the years doing the research required to generate the content.
 
 From leanpub.com, a PDR, epub, or Mobi file:
 
-[Doing Physics with
-QUaternions](https://leanpub.com/doingphysicswithquaternions), $9.99
+[Doing Physics with Quaternions](https://leanpub.com/doingphysicswithquaternionsv11), $9.99
 
 [Doing Special Relativity with Quaternions](https://leanpub.com/SRQ), $1.99
 

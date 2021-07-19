@@ -3,8 +3,7 @@
 The Standard Model of physics was developed in the 1970's to explain the ~270
 different types of particles seen in colliders (a general introduction is
 available on [wikipedia](http://en.wikipedia.org/wiki/Standard_Model), and a
-one page [cheat
-sheet](http://en.wikipedia.org/wiki/Image:Particle_chart.jpg)). The part we
+one page [cheat sheet](http://en.wikipedia.org/wiki/Image:Particle_chart.jpg)). The part we
 need to understand is the groups that describe the symmetry of the standard
 model.
 
@@ -116,7 +115,7 @@ that is
 Only the "what was left/right" graph has a fixed, straight line graph, because
 x=0.
 
-If z=0, at least you can see the "circleness"
+If z=0, at least you can see the "circle-ness"
 
 What was  
 up/down | What is | What can be  

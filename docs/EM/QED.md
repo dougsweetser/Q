@@ -87,7 +87,7 @@ dt, Del\), even\(\(d by dt, - Del\), \(phi, -A\)\)\) =](../images/EM/QED/s_gr_12
 ![= \(phi double dot + Laplacian phi , - A double dot +  Curl \(Curl A\) - Del
 divA\)](../images/EM/QED/s_gr_13.gif)
 
-![= \(phi double dot + laplacian phi , - A double dot -  Laplacian A\) =  4 pi
+![= \(phi double dot + Laplacian phi , - A double dot -  Laplacian A\) =  4 pi
 \(rho, J\)](../images/EM/QED/s_gr_14.gif)
 
 Notice how the scalar and vector parts have neatly partitioned themselves.

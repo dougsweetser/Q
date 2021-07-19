@@ -1,5 +1,3 @@
-![Turquoise Einstein, a quaternion and
-Doug](images/Index/turq_einstein_txyz_doug.jpg) ![Doing
 Physics with Quaternions](images/Index/banner.jpg)
 
 Follow new insights on Twitter: [visualphysics](https://twitter.com/visualphysics)

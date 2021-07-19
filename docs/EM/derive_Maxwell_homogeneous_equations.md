@@ -3,8 +3,8 @@
 ## The easy way
 
 There are several different roads to the same results, the no monopoles law and
-Faraday's law, known together as the homogenous equations.  The quickest path
-is to show how they are vector idenities.  The divergence of a curl is zero, so
+Faraday's law, known together as the homogeneous equations.  The quickest path
+is to show how they are vector identities.  The divergence of a curl is zero, so
 if the magnetic field is the curl of the potential A, then there are no
 magnetic monopoles.
 
@@ -63,7 +63,7 @@ so:
 ![One half Del times A minus the conjugate of Del times A equals 0, -E + B](../images/EM/derive_Maxwell_homogeneous_equations/DelA_no_scalar.png)
 
 This is a recurring technique.  If something travels at the speed of light,
-there will be non of the the four gauge terms:
+there will be non of the four gauge terms:
 
 ![](../images/EM/derive_Maxwell_homogeneous_equations/gauge_terms.png)
 
@@ -89,19 +89,19 @@ Here is how we will derive the no monopoles law.
 The dot product of the electric and magnetic fields has 24 terms.  It is scary,
 so start simple with one term only, _E~x~_:
 
-![E dot B equals minus the time derivative of A~x~ minux the derivative of phi with respect to x](../images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_Ex.png)
+![E dot B equals minus the time derivative of A~x~ minus the derivative of phi with respect to x](../images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_Ex.png)
 
 The magnetic field _B~x~_ has everything not found in _E~x~_, including both
 the potentials and derivatives.
 
-![E dot B equals minus the time derivative of A~x~ minux the derivative of phi with respect to x times the derivative of A~y~ with respect of z minus the derivative of A~z~ with respect to y](../images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_Ex_Bx.png)
+![E dot B equals minus the time derivative of A~x~ minus the derivative of phi with respect to x times the derivative of A~y~ with respect of z minus the derivative of A~z~ with respect to y](../images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_Ex_Bx.png)
 
 It is seeing details like all four potential terms and all four differentials
 in each line that makes the Maxwell equations feel so complete.
 
 Multiply this out.
 
-![E dot B equals minus the time derivative of A~x~ minux the derivative of phi with respect to x times the derivative of A~y~ with respect of z minus the derivative of A~z~ with respect to y; which equals minus the 
+![E dot B equals minus the time derivative of A~x~ minus the derivative of phi with respect to x times the derivative of A~y~ with respect of z minus the derivative of A~z~ with respect to y; which equals minus the 
 time derivative of A~x~ the derivative of A~y~ with respect to z minus the
 derivative of phi with respect to x the derivative of A~y~ with respect to z plus the time derivative of A~x~ the derivative of A~z~ with respect to y plus the derivative of phi with respect to x the derivative of A~z~ with respect to y](../images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_Ex_Bx_details.png)
 
@@ -109,7 +109,7 @@ derivative of phi with respect to x the derivative of A~y~ with respect to z plu
 * Each term has a t, x, y, z-ish part.
 * 8 down, 16 to go.
 
-Clone _E~x~_ to make _E~y~_ and _E~z~_ making all necessary subsitutions:
+Clone _E~x~_ to make _E~y~_ and _E~z~_ making all necessary substitutions:
 
 ![](../images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_Ex_Ey_Ez.png)
 
@@ -129,7 +129,7 @@ This is the game of curl Sudoku.  Fill in the missing values for _x_, _y_ and _z
 
 ![](../images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_details_all.png)
 
-All the needed slots are filled in.  The Soduko game is complete.
+All the needed slots are filled in.  The Sudoku game is complete.
 
 Now remove some of the details.  The dot product of _E_ and _B_ is pretty:
 
@@ -173,7 +173,7 @@ With minuses in one column, and pluses in the other, cancellations happen:
 
 ![](../images/EM/derive_Maxwell_homogeneous_equations/mixed_terms_cancel.png)
 
-Focus on teh example.  See how the phi drops, and one has mixed derivatives
+Focus on the example.  See how the phi drops, and one has mixed derivatives
 with opposite signs.  Nice.
 
 What is going on in terms of the E and B fields?  Look at things row by row:
@@ -216,7 +216,7 @@ with quaternions that were deleted by the second edition by Heaviside.  Finding
 the first version was a struggle, but I did find it.  It had two sections with
 "Quaternion" in the title.  It was clear that this grand master of old was only
 using the 3-vector part of a quaternion.  This is not where the fun is in my
-opinion.  Since I have derived and rederived and rewritten my derivations of
+opinion.  Since I have derived and rewritten my derivations of
 the Maxwell equations using only quaternions many times, I can assure you,
 nothing is missing.
 

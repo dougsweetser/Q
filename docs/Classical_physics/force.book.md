@@ -84,7 +84,7 @@ rewritten:
 
 ![](images/Classical_physics/force/s_gr_17.png)
 
-If the angular velocity an the radius are orthogonal, then
+If the angular velocity and the radius are orthogonal, then
 
 ![](images/Classical_physics/force/s_gr_18.png)
 

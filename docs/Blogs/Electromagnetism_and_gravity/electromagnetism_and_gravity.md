@@ -88,12 +88,12 @@ relativity that has to do with the physical logic. If time-like things get
 smaller, and space-like things get larger, than the magnetic field must get
 larger due to gravity. 
 
-What physical reason is there to expect an eletric field to behave differently
-from a magnetic field since both are part of the same electromagentic field? I
+What physical reason is there to expect an electric field to behave differently
+from a magnetic field since both are part of the same electromagnetic field? I
 think of the electric field as a measure of quantized electric charge. Say
 there were only three such charges in a volume. It would not matter where those
 three charges were in a gravity field, the electric field stays the same. The
-magenetic field would be those three charges in motion. It is motion that is
+magnetic field would be those three charges in motion. It is motion that is
 always effected by gravity. Therefore magnetism, charges in motion, must be
 changed due to where it is in a gravitational field.
 
@@ -103,8 +103,8 @@ certain electric and magnetic field inside of them. One box is closer to a
 gravitational source than the other. To figure out the metric tensor, one could
 send a photon from the lower box to the upper box and determine how much the
 photon was gravitationally redshifted. Thus one is using a photo to determine
-the gravitational field. A photon is an excitation of the eletromagnetic field.
-It seams odd to me that only the travelling photon can know about the change in
+the gravitational field. A photon is an excitation of the electromagnetic field.
+It seams odd to me that only the traveling photon can know about the change in
 the gravitational field and not the fields themselves.
 
 ## Big Consequences to Being a Little Different

@@ -1,7 +1,7 @@
 # On Space-times-time Invariance as Gravity
 
 This is a collection of slides, videos, and papers I have presented at physics
-meetings about my novel appraoach to gravity. Enjoy, and feedback is always
+meetings about my novel approach to gravity. Enjoy, and feedback is always
 welcome at sweetser@alum.mit.edu.
 
 Electromagnetism in a gravity field for the quaternion gravity proposal
@@ -11,7 +11,7 @@ Electromagnetism in a gravity field for the quaternion gravity proposal
 quaternion squared [15 slides](http://bit.ly/vp-jf) [23 minute video](http://bit.ly/vp-jfv) 
 May 2016
 
-APS Talk: Unified *Mathematical* Feild Theory: Get the math right, all else will
+APS Talk: Unified *Mathematical* Theory: Get the math right, all else will
 follow, [15 slides](http://bit.ly/vp-umft)[22 minute video](http://bit.ly/vp-umftv) April, 2016
 
 APS Talk: Einstein in 1906, An Alternative History [27 minute

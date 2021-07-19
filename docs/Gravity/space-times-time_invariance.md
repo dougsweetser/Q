@@ -229,7 +229,7 @@ non-trivial change. Other terms are required to pull off the trick:
 
 ![B equals t, x sub 1, x sub 2, x sub 3. H equals the hyperbolic cosine of
 alpha, the hyperbolic sine of alpha, 0, 0. B goes to B prime equals H B the
-conjugate of H plus one half the difference of the congugate of H H B and the
+conjugate of H plus one half the difference of the conjugate of H H B and the
 conjugate of the conjugate of H the conjugate of H times B](../images/Gravity/boost_along_x.png)
 
 Quaternions provide another way to write these expressions. Nothing new is
@@ -254,7 +254,7 @@ the sun. Phys. Rev. D, 22(12):2947-2949, 1980.
 [5]  J. D. Jackson. Classical Electrodynamics, Second Edition. John Wiley and
 Sons, 1975.
 
-[6]  J. Lambek. If hamilton had prevailed: quaternions in physics.
+[6]  J. Lambek. If Hamilton had prevailed: quaternions in physics.
 Mathematical Intelligencer, 17(4), 1995.
 
 [7]  N. Rosen. A bi-metric theory of gravitation. General Relativity

@@ -2,6 +2,8 @@
 
 D. B. Sweetser
 
+sweetser\@alum.mit.edu
+
 Three roads merge to create a different approach to gravity. Our deepest
 insights into nature use symmetries because symmetries remain unchanged.
 Using quaternion algebra instead of tensor calculus, the conservation of
@@ -12,7 +14,7 @@ how change is permitted to happen. The notion of relaxed relativity
 holds that in a gravitational field, one observer looking at another
 observer measuring the speed of light will find the product of
 wavelength and frequency differs from the speed of light in a precise
-way (). Lorentz invariance remains for inertial observers, but
+way ($c' =  c \gamma^2_{esc}$). Lorentz invariance remains for inertial observers, but
 non-inertial observers are governed by different symmetries. Gravity is
 different everywhere, so a field theory is also necessary using escape
 velocities. With some reasonable guesses constrained by observations,
@@ -20,16 +22,15 @@ one can form a quaternion gravity proposal that is consistent with weak
 field gravity tests. No gravitons are required for this technical
 variant of special relativity.
 
-sweetser\@alum.mit.edu
 
 ## Conserving Changes in Space-times-time
 =================================================
 
-The views of space and time which I wish to lay before you have sprung
-from the soil of experimental physics, and therein lies their strength.
-They are radical. Henceforth space by itself, and time by itself, are
-doomed to fade away into mere shadows, and only a kind of union of the
-two will preserve an independent reality. *Herman Minkowski, 1908*
+    The views of space and time which I wish to lay before you have sprung
+    from the soil of experimental physics, and therein lies their strength.
+    They are radical. Henceforth space by itself, and time by itself, are
+    doomed to fade away into mere shadows, and only a kind of union of the
+    two will preserve an independent reality. *Herman Minkowski, 1908*
 
 To enforce that prediction, I have made a study of writing physics
 equations in terms of the division algebra known as quaternions as a
@@ -55,6 +56,10 @@ To make life simpler, use Euclidean coordinates, assuming space-time is
 flat. Because quaternions are numbers, the difference between the two
 numbers can be squared without using a metric tensor:
 
+$$\begin{aligned}
+(dt,dx/c,dy/c,dz/c)^{2}&=(dt^{2}-(dx^{2}+dy^{2}+dz^{2})/c^{2},2dtdx/c,2dtdy/c,2dtdz/c)\\&=(d\tau^{2},2dtdx/, 2 dt dy, 2 dt dz)
+\end{aligned}$$
+
 The scalar term (aka first term) is the Lorentz invariant interval
 squared of spatial relativity for two inertial observers. The 3-vector
 term (aka the next three terms) I call space-times-time. For inertial
@@ -66,10 +71,10 @@ complete story, one that provides more useful information from the same
 starting information. Relativity is a game of what one observer says
 about another's observations. Let our primary observer be called
 observer *A*, and the one moving away is observer *B*. Observer *A*
-makes a measurement between two events, recording it as . Observer *A*
-is able to say that the measurement made by observer *B* looks to be .
+makes a measurement between two events, recording it as $(dt, dx/c, dy/c, dz/c)$. Observer *A*
+is able to say that the measurement made by observer *B* looks to be $(dt', dx'/c, dy'/c, dz'/c)$.
 If all one reports is the Lorentz invariant interval, then the interval
-squared, , will be the same according to special relativity. If instead
+squared, $d \tau^2$, will be the same according to special relativity. If instead
 one squares these two as quaternions, again the first terms are
 identical. The space-times-time terms are different and can be use to
 calculate how observer *B* is moving relative to observer *A*. From an
@@ -102,7 +107,7 @@ is an invariant in a gravitational field.
 At this point, some might ask if a flat space-time metric is being
 assumed due to the inflexible rules of quaternion multiplication? Recall
 that real numbers are rank zero tensors. As such, the rules for
-multiplying them are the same in all expressions, wether the topic is
+multiplying them are the same in all expressions, whether the topic is
 special relativity, general relativity, or quantum mechanics. The same
 is true for complex numbers as rank zero tensors. Complex numbers
 contain as a subgroup the real numbers and the rules for multiplying
@@ -121,22 +126,25 @@ a Cartesian calculation-world view on the manifold . But for the sake of
 good practice, write space-times-time invariance in a manifestly
 coordinate-free form:
 
+$$dQ^{2}=\frac{1}{2}(dQ^{2}+(dQ^{2})^{*})+\frac{1}{2}(dQ^{2}-(dQ^{2})^{*})$$
+
 The quaternion gravity proposal is that the second term above will be
 constant in a simple gravitational field.
 
 ## Relaxed Relativity Transformations
 =============================================
 
-In special relativity, all observers agree on the speed of light . I ask
+In special relativity, all observers agree on the speed of light $c$. I ask
 the reader's patience because I am going to be pedantic about how this
-is discussed. Observer *A* measures the speed of light locally as .
-Observer *B* likewise measures the speed of light locally as . This is
+is discussed. Observer *A* measures the speed of light locally as $c$.
+Observer *B* likewise measures the speed of light locally as $c$. This is
 not what special relativity is about. Nature is graciously consistent.
 Special relativity shows how observer *A* looking at how observer *B* is
 measuring the speed of light will say that observer *B*'s measurements
-also show the speed of light to be . Special relativity provides the
+also show the speed of light to be $c$. Special relativity provides the
 relativistic Doppler shift for both the wavelength and the frequency
-such that the product is constant: , , and . This well-establish result
+such that the product is constant: $\lambda \ne \lambda'$, $\nu \ne \nu'$, and 
+$\lambda \nu = \lambda' \nu' = c$. This well-establish result
 can serve as a test that observer *B* is a relatively inertial observer
 for observer *A*. "Relatively inertial"? Everywhere in the Universe is
 changed by the presence of gravity. What relatively inertial means is
@@ -145,20 +153,22 @@ it means that two observers at sea level on the Earth experience the
 same pull of gravity but may be moving at a steady speed relative to
 each other. The sea level observer *A* will find that sea level observer
 *B* has measured the speed of light and the product of the wavelength
-and frequency remains the speed of light in this weak gravitational
+and frequency remains the speed of light $c$ in this weak gravitational
 field.
 
 Relaxed relativity is defined operationally as observer *A* looking at
-how observer *B* is measuring the speed of light and seeing that . This
+how observer *B* is measuring the speed of light and seeing that $\lambda' \nu'
+\ne c$. This
 covers every situation not covered by special relativity, so is huge.
 This paper will only focus on transformations that conserve
 space-times-time as discussed in the first section. How does that play
-out for observer *A*? It means . Wavelength *divided* by frequency? It
+out for observer *A*? It means $\frac{\lambda}{\nu} = \frac{\lambda'}{\nu'}$.  
+Wavelength *divided* by frequency? It
 is simple but strange. Perhaps it is not that strange. When the path of
 a wave is bent going though a medium, the wave travels at a different
 speed. In a vacuum with gravity, there is no medium. The path of light
 is bent. The consequence of observer *A* seeing the product of observer
-*B*'s wavelength and frequency does not equal is indistinguishable from
+*B*'s wavelength and frequency does not equal $c$ is indistinguishable from
 the path of light bending.
 
 Many of the ideas carefully crafted for special relativity still apply
@@ -169,9 +179,9 @@ bar, treating the term "simultaneously" with care.
 
 Since this study is restricted to observer *A* transforming measurements
 made by observer *B* such that the three space-times-time values are
-equal, that applies to events that are simultaneous for observer *A*, .
-The product of anything with zero is zero, thus when , . Observer *A*
-will find that simultaneous for observer *A* appears to be simultaneous
+equal, that applies to events that are simultaneous for observer *A*, $dt = 0$.
+The product of anything with zero is zero, thus when $dt = 0$, $dt dR = dt' dR'= 0$. 
+Observer *A* will find that simultaneous for observer *A* appears to be simultaneous
 for observer *B*. The same applies to changes in space at the spatial
 origin, where , . The non-zero constant space-times-time values will be
 parabolas that approach each axis:
@@ -182,23 +192,36 @@ The familiar constant intervals of the light cone are rotated 45 degrees
 to form the constant space-times-time graph. The mathematical
 perspective is that both are about the same function, a quaternion
 squared. The difference is that for special relativity, what is constant
-is a real value, . The focus of this paper is on three constant
-imaginary values, .
+is a real value, $dt^2 - dR^2/c^2$. The focus of this paper is on three constant
+imaginary values, $2 dt dR$.
 
 The form of transformations in relaxed relativity must start from the
 same form as for special relativity.[^1]
 
+$$\begin{aligned}
+dt \rightarrow & dt'=\gamma dt-\gamma\beta dR/c\\
+dR \rightarrow & dR'=\gamma dR-\gamma\beta cdt
+\end{aligned}$$
+
 In relaxed relativity, one can explore other types of transformations
 that are not allowed under special relativity. It has been established
-that when events are simultaneous, , there is a space-times-time
-constant independent of changes in space, . Figure out a transformation
+that when events are simultaneous, $dt = 0$, there is a space-times-time
+constant independent of changes in space, $dR=0$. Figure out a transformation
 of the first expression that eliminates the spatial term. Any constant
 linear function can be added to the primed frame since it will be
 subtracted away.
 
+$$\begin{aligned}
+t''&=&t'+f(R')\\&=&t'+\beta R'/c
+\end{aligned}$$
+
 See how this coordinate choice effects the transformation:
 
-This coordinate choice eliminates the dependence on changes in space, .
+$$\begin{aligned}
+dt''&=\gamma dt-\gamma\beta dR/c+\beta(\gamma dR/c-\gamma\beta dt)\\&=\gamma(1-\beta^{2})dt\\&=dt/\gamma
+\end{aligned}$$
+
+This coordinate choice eliminates the dependence on changes in space, $dR$.
 Events that are simultaneous in the unprimed frame will be simultaneous
 in the double primed frame.
 
@@ -215,13 +238,19 @@ double primed frame based on the time transformation described above. As
 such, the length would be twice as long in the double primed frame. The
 transformation is thus:
 
+$$dR\rightarrow dR''=\gamma dR$$
+
 With these two transformations in hand, look at what happens for
 space-times-time, velocities, and a differential quaternion squared:
+
+$$\begin{aligned}
+dt''dR''&=dtdR\\dR''/dt''&=\gamma^{2}dR/dt\\(dt'',dR''/c)^{2}&=(\frac{1}{\gamma^{2}}dt^{2}-\gamma^{2}dR^{2}/c^{2},2\:dt\:dR/c)
+\end{aligned}$$
 
 This coordinate transformation does preserve space-times-time. This is
 not special relativity since an observer in the double primed frame will
 report that the observer in the unprimed frame who is trying to measure
-the speed of light is not , but changes by a factor of gamma squared, .
+the speed of light is not $c$, but changes by a factor of gamma squared, $c''=c \gamma^2$.
 The square alters the interval but leaves the space-times-time constant.
 To this point, this is just a math exercise.
 
@@ -243,8 +272,11 @@ calculated the escape velocity for the cannon ball, how fast it would
 need to go to escape the gravity field and come to rest at infinity. The
 escape velocity can be calculated for every point in space-time, so is
 an escape-velocity field. Use this escape velocity field as the velocity
-needed to calculate the square interval, eq.
-([\[eq:dR_squared\]](#eq:dR_squared)).
+needed to calculate the square interval.
+
+$$\begin{aligned}
+(dt'',dR''/c)^{2}&=\left(\left(1-2\frac{GM}{c^{2}R}\right)dt^{2}-\left(\frac{1}{1-2\frac{GM}{c^{2}R}}\right)dR^{2}/c^{2},2\:dt\:dR/c\right)\\&=\left(\left(1-2\frac{GM}{c^{2}R}\right)dt^{2}-\left(1+2\frac{GM}{c^{2}R}+O(2)\right)dR^{2}/c^{2},2\:dt\:dR/c\right)
+\end{aligned}$$
 
 This is an improvement on Newton's original proposal for gravity. Notice
 how measurements of space change. This is enough for the three classical
@@ -258,7 +290,7 @@ characterize alternative approaches to general relativity, in particular
 the Parameterized Post-Newtonian (PPN) formalism developed by Nordvedt
 and Will. Multiple experiments have confirmed that there is a second
 order term for time with a coefficient of +2 (the actual parameter is
-with a multiplier of 2).
+$\beta = 1$ with a multiplier of 2).
 
 Now we get to have some real fun, to challenge ideas deeply locked into
 our notions of what gravity is. Newton's work got close, but not close
@@ -279,9 +311,13 @@ history of observer *A* compared to the history of observer *B*.
 Newton's escape velocity is a truncated series of the truth. How should
 we go about finding the full series? Look to special relativity. Both
 rotations and boosts can be represented with exponential functions.[^2]
-Therefore is seams natural to propose that the geometric length of a
-source mass, , be used in an exponential function since it will generate
+Therefore it seams natural to propose that the geometric length of a
+source mass, $\frac{G M}{c^2 R}$, be used in an exponential function since it will generate
 the five terms found in the first order PPN formalism.
+
+$$\begin{aligned}
+(dt'',dR''/c)^{2}&=\left(e^{-\frac{GM}{c^{2}R}}dt,e^{\frac{GM}{c^{2}R}}dR^{2}/c,2\:dt\:dR/c\right)^{2}\\&=\left(\left(1-2\frac{GM}{c^{2}R}+2\left(\frac{GM}{c^{2}R}\right)^{2}+O(3)\right)dt^{2}-\left(1+2\frac{GM}{c^{2}R}+O(2)\right)dR^{2}/c^{2},2\:dt\:dR/c\right)
+\end{aligned}$$
 
 The first term of this expression has the form of the contraction of two
 rank 1 4-vectors using a flat Minkowski metric. Mathematically, it is no
@@ -291,7 +327,7 @@ quaternion do not change under any circumstance which has similarities
 to a fix background tensor. The off diagonal terms that can appear for a
 tensor contraction end up in the space-times-time terms.
 
-The first term of eq. ([\[eq:exp_squared\]](#eq:exp_squared)) will be
+The first term of the above equation will be
 consistent with all weak field tests of gravity to first order PPN
 accuracy. This covers spherically symmetric, non-rotating, uncharged
 sources. This "exponential metric" - in form only - is not a solution to
@@ -314,11 +350,11 @@ an experimental approach. For observer *A*, set up many other observers,
 each measuring the speed of light. Each of these observers measures the
 speed of light locally is *c*. Have observer *A* determine for each of
 these many other observers what the wavelength and frequency look like
-to observer *A*. The result of the product will be . The escape velocity
-field will always exist and can be measured.
+to observer *A*. The result of the product will be $c \gamma^2_{esc}$. 
+The escape velocity field will always exist and can be measured.
 
-At second order PPN accuracy, the interval found in
-eq.([\[eq:exp_squared\]](#eq:exp_squared)) will not agree with the
+At second order PPN accuracy, the interval using Newton's escape velocity
+ will not agree with the
 Schwarzschild solution of general relativity. The difference for light
 bending around the Sun is about 6% and under a micro-arcsecond. Our
 current accuracy for measuring light deflection is on the order of 100
@@ -330,10 +366,12 @@ depend on future developments.
 
 Using the same approach that appears in the analysis of the
 Schwarzschild solution of general relativity, one could rewrite the
-first term of the square in spherical coordinates and see no depedence
+first term of the square in spherical coordinates and see no dependence
 on either time or angles. As such, the expression will conserve both
 energy and angular momentum. If one only keeps the lowest order terms of
 the exponential equation, the equations of motion are:
+
+$$\left(\frac{dR}{d\tau}\right)^{2}+\frac{L^{2}}{R^{2}}-2\frac{GML^{2}}{c^{2}R^{3}}-2\frac{GM}{R}=c^{2}\left(\frac{E^{2}}{mc^{2}}-1\right)$$]
 
 These are exactly the same equations of motion as the Schwarzschild
 solution of general relativity since the first order expressions have an
@@ -371,9 +409,9 @@ your shared history with the particles around you, no matter what every
 particles are doing? Everything can and does contribute to inching the
 escape velocity up.
 
-The exponential factor in eq. ([\[eq:exp_squared\]](#eq:exp_squared))
-does have a singularity at . Since the distance is positive definite,
-the singularity will only be approached for positive. The real part will
+The exponential factor in this proposal
+does have a singularity at $R=0$. Since the distance is positive definite,
+the singularity will only be approached for $R$ positive. The real part will
 approach zero. The imaginary part is a pole that goes to positive
 infinity. It should be possible to remove the singularity, so the
 expression for the exponential quaternion gravity is well-behaved.
@@ -458,7 +496,7 @@ relative to observer *B*, but is closer to a gravitational source, a
 different situation arises. Since observer *B* is farther away from the
 gravitational source than observer *A*, observer *A* will see the
 measurement made by *B* as easier - there is less stuff - meaning
-observer *A* measurers observer *B*'s clock as ticking freer and faster,
+observer *A* measures observer *B*'s clock as ticking freer and faster,
 and observer *B*'s ruler looks bigger. This means observer A will say
 the speed of light looks greater than *c* at *B*. One could argue that
 such an effect should be crazy small, yet that is what gravity is, a
@@ -476,8 +514,7 @@ mass of any consequence near by, the apple would not fall anywhere.
 Herein lies the appeal of the exponential solution. In deep space, the
 exponent is zero. On the surface of the Earth, the exponent is so tiny,
 only the first term of the Taylor series comes into play. That first
-term is Newton's proposal for gravity cast in a different format, eq.
-[\[eq:newt_squared\]](#eq:newt_squared). Quaternion gravity may be the
+term is Newton's proposal for gravity cast in a different format. Quaternion gravity may be the
 only comprise between Newtonian gravity, the space-time curvature of
 general relativity, and an alternative view on the math of special
 relativity.
@@ -491,6 +528,8 @@ relativity.
     complex-valued quaternions can do Lorentz boosts. For a boost along
     the axis, a space-time event and a function can do the standard
     boost with this function:
+
+    $$P\rightarrow P'=HPH^{*}+\frac{1}{2}((HHP)^{*}-(H^{*}H^{*}P)^{*})$$
 
     It may be the case that people searched for a function that was only
     one triple product as happens for rotations, and not this sum of

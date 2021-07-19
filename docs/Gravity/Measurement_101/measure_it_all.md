@@ -2,10 +2,7 @@
 
 This graphic says most of it...
 
-<a id="single_1" href="../../images/Gravity/Measurement-101/all_900.gif"
-title="Four ways to see two events">
-    <img class='visible-xs' src="../../images/Gravity/Measurement-101/all_400.gif" alt="" />
-    <img class='hidden-xs' src="../../images/Gravity/Measurement-101/all_600.gif" alt="" /></a>  
+<img="single_1" src="../../images/Gravity/Measurement_101/all_900.gif"/>
 
 Start with the reference square which has an interval of 16 and a space-times
 time of 30.
@@ -24,7 +21,7 @@ between them.
 
 ## Page-cast
 
-A brief explantion of this page.
+A brief explanation of this page.
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/GU327hCMyxo" frameborder="0" allowfullscreen></iframe>
 
@@ -40,16 +37,16 @@ interval.
 The kids above and below are not moving compared to the reference square. By
 the quaternion gravity proposal, the space-times-time is an invariant. All
 agree on the value of 30. What then has to be different is the interval. But
-how different, and how does that depend on the gravitional source mass?
+how different, and how does that depend on the gravitational source mass?
 
 Fortunately, there is no choice in answering the question if one is to be
 consistent with current experimental tests of gravity. For a spherically
 symmetric, non-rotating, uncharged source, gravity depends on the ratio of the
-graviational source mass over the distance to the center of that mass. Whatever
+gravitational source mass over the distance to the center of that mass. Whatever
 function is used to make the time measurement smaller must be the exact inverse
-of the one that makes a spatial measurment larger. Since gravitational systems
+of the one that makes a spatial measurement larger. Since gravitational systems
 follow simple harmonic patterns for billions of years, an exponential and its
-inverse that depens on the M/R ratio is an obvious thing to propose.
+inverse that depends on the M/R ratio is an obvious thing to propose.
 
 ![e to the -z dt, e to the z dR sub i over c squared equals e to the -2 z dt
 squared - e to the 2 z dR sub i squared, 2 dt dR sub i over c equals e to the -
@@ -69,5 +66,4 @@ moment, but no a dipole one.
 
 My entry to the [_2015 Awards for Essays on 
 Gravitation_](http://www.gravityresearchfoundation.org/index.html) is a more formal
-presentation of this research effort, [available as a
-pdf](../../Stuff/pdfs/space-times-time_invariance.pdf).
+presentation of this research effort, [available as a pdf](../../Stuff/pdfs/space-times-time_invariance.pdf).

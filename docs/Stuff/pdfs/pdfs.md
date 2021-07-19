@@ -2,9 +2,11 @@
 
 ## This site
 
-The entire site is available a number of ways.
+The entire site is available a number of ways. As a book:
 
-Avaible for [$10 is a pdf, epub, or mobi file](https://leanpub.com/doingphysicswithquaternions).
+[Doing Physics with Quaternions PDF](
+
+[Doing Physics with Quaternions EPUB]()
 
 Put the site on your own computer.  At the command line, run:
 

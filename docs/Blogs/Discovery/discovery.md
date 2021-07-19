@@ -1,6 +1,6 @@
 Discovering a New Approach to Gravity
 
-The process by which I came up with a new aproach to gravity will be sketched.
+The process by which I came up with a new approach to gravity will be sketched.
 Due to the constraints of a full time job and family, and being middle aged, I
 don't have good documentation about what exactly happened when, so this is more
 impressionistic than something based on careful autobiographical notes.
@@ -24,7 +24,7 @@ invariant interval for inertial observers at the cor of special relativity.
 That term is the reason I purchased quaternions.com in 1997. Oh, and some other
 stuff. I always wanted the other three terms to have a name. I know I asked on
 sci.physics.research what the three terms should be called, but that post to
-the moderated newsgroup was not awswered. The Spring of 2016, I came up with a
+the moderated newsgroup was not answered. The Spring of 2016, I came up with a
 reasonable name of (2 dt dx, 2 dt dy, 2 dt dz) - space-times-time. The name
 describes exactly what it happens to be.
 
@@ -36,7 +36,7 @@ moving relative to each other.
 What kind of physics results when two observers find the space-times-time
 values are invariant, but the intervals are different?
 
-I thought that was a good question.This is what I did in the the days after the
+I thought that was a good question.This is what I did in the days after the
 question was posed...
 
 Nothing.
@@ -73,7 +73,7 @@ to each other. There is no material difference between the two.
 
 Case 2 is special relativity. 
 
-Case 3 requires some thought. Case 2 covers observers travelling at a constant
+Case 3 requires some thought. Case 2 covers observers traveling at a constant
 velocity relative to each other, inertial observers, so this must be a 
 different situation, non-inertial observers. How could they agree on their
 space-times-time? One would have to go up while the other went down.
@@ -88,7 +88,7 @@ experience the opposite effects. His heart would beat more slowly while his
 meter stick got more compressed. That would make the measurements of a time
 difference larger, but of a distance difference smaller.
 
-In physics, details matter. While it is the case that boing higher in a
+In physics, details matter. While it is the case that going higher in a
 gravitational field does make the measurements of time increase and space
 decrease, how do they change exactly? With general relativity, the answer
 cannot be answered until one has said explicitly what is the choice of

@@ -62,7 +62,7 @@ group that reverses time has along its diagonal
 {-1, 1, 1, 1}, zeroes elsewhere.  There is no dependence on relative velocity.
 Therefore special relativity predicts the operation of time reversal should be
 indistinguishable for classical and relativistic intervals.  Yet classically,
-time reversal appears to involve entropy, and relativistically, time reversal
+time reversal appears to involve entropy, and relativistic time-reversal
 involves antiparticles.
 
 In this notebook, a time reversal quaternion has been derived and shown to

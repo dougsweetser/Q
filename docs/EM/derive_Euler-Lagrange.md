@@ -21,9 +21,9 @@ variable integrated over
 space-time](../images/EM/derive_Euler-Lagrange/dS_is_zero.png)
 
 This is a minimization problem, or more formally, the calculus of variations.
-the first types of minimization problems one learns are about the minimum value
-of something like a velocity at a point in space-time. this is about a 
-minimization of a function over all of space-time. the mechanics are the same - 
+The first types of minimization problems one learns are about the minimum value
+of something like a velocity at a point in space-time. This is about a 
+minimization of a function over all of space-time. The mechanics are the same - 
 take a derivative, set it to zero - but the thing that gets plugged in is 
 different.
 
@@ -41,21 +41,21 @@ symmetry and **angular momentum** is conserved.
 ## Counter example
 
 * If a lagrange equation **is a function of space and time**, then **energy and 
-momentum are not conserved**. this happens for systems that have friction.  the 
-energy and momentum go into waste heat. those terms usually are not included in 
-the lagrange density. 
+momentum are not conserved**. This happens for systems that have friction.  The 
+energy and momentum go into waste heat. Those terms usually are not included in 
+the Lagrange density. 
 
-## Deriving the euler-lagrange equations
+## Deriving the Euler-Lagrange equations
 
-If a lagrange density depends on a 4-potential a and the derivatives of a, then 
-vary these and find a minimum. this is the heart of the euler-lagrange 
+If a Lagrange density depends on a 4-potential a and the derivatives of a, then 
+vary these and find a minimum. This is the heart of the Euler-Lagrange 
 equations.
 
 ![the integral of the lagrange density varied with respect to a and the 
 derivative of a integrated over space-time equals 
 0](../images/EM/derive_Euler-Lagrange/zero_eq_int_L_dA_dDelA.png)
 
-This is a mimnum problem with the potential A and its derivative, A'.
+This is a minimum problem with the potential A and its derivative, A'.
 
 1: Start with a Lagrange density that is a function of the potential and its derivatives.
 
@@ -75,22 +75,22 @@ A'](../images/EM/derive_Euler-Lagrange/S_eq_L_A_DelA.png)
 3: Vary the action.
 
 ![Vary the action S which equals the integral over space-time of the partial 
-derivative of the Lagrange density with repect to A while varying A plus the 
-derivative of the Lagrange density with repect to the derivative of A while 
+derivative of the Lagrange density with respect to A while varying A plus the 
+derivative of the Lagrange density with respect to the derivative of A while 
 varying the derivative of 
 A](../images/EM/derive_Euler-Lagrange/dS_eq_dL_dAdA_plus_dL_dDelA_dDelA.png)
 
-4: The problem is with the variation in A versus the variantion is the derivative of A.  Use the product rule to get two variations in A.
+4: The problem is with the variation in A versus the variation is the derivative of A.  Use the product rule to get two variations in A.
 
-![The derivative of the product of the patial derivative of the Lagrange 
+![The derivative of the product of the partial derivative of the Lagrange 
 density with respect to Del A times the variation in A equals Del the partial 
 derivative of the Lagrangian with respect to Del A while varying A plus the 
-partial derivative of the Lagrangian with repect to Del A while varying Del 
+partial derivative of the Lagrangian with respect to Del A while varying Del 
 A](../images/EM/derive_Euler-Lagrange/Del_product_dL_DelA_dA.png)
 
 5: A theorem of Gauss says:
 
-![The gradient of the partial derivative of the Lagrangian with respec to Del A 
+![The gradient of the partial derivative of the Lagrangian with respect to Del A 
 while varying A equals 
 zero](../images/EM/derive_Euler-Lagrange/Del_dL_DelA_dA_eq_0.png)
 
@@ -98,16 +98,16 @@ so:
 
 ![](../images/EM/derive_Euler-Lagrange/minus_DeldldA_eq_dL_dDelA.png)
 
-6: Subsitute 5 into the variation in 3:
+6: Substitute 5 into the variation in 3:
 
 ![Vary the action S which equals the integral over space-time of the partial 
-derivative of the Lagrange density with repect to A minus the 
-derivative of the Lagrange density with repect to Del A while varying with repect to A](../images/EM/derive_Euler-Lagrange/dS_eq_dL_dAdA_plus_dL_dDelA_dDelA.png)
+derivative of the Lagrange density with respect to A minus the 
+derivative of the Lagrange density with respect to Del A while varying with respect to A](../images/EM/derive_Euler-Lagrange/dS_eq_dL_dAdA_plus_dL_dDelA_dDelA.png)
 
 7: The variation will be at the minimum if the variation in the action S is 
-zero, which happends if the integrand is zero:
+zero, which happens if the integrand is zero:
 
-![The derivative of the Lagrange density with repect to A is equal to the 
+![The derivative of the Lagrange density with respect to A is equal to the 
 derivative of the partial derivative of the Lagrange density with respect to 
 Del A](../images/EM/derive_Euler-Lagrange/Euler-Lagrange_eq.png)
 

@@ -304,7 +304,7 @@ the total momentum is still zero.
     
 ![\[Graphics:ps5gr62.gif\]](../images/SR/problem_set_5/ps5gr62.gif)
 
-Each kaon has 440 MeV of kinetic energy and a momentum of 796 Mev.
+Each kaon has 440 MeV of kinetic energy and a momentum of 796 MeV.
 
 (b) t' = gamma t and d' = beta c t'. Simple stuff.
 
@@ -374,7 +374,7 @@ Because energy and mass are conserved, we know by inspection that for particle
     
 ![\[Graphics:ps5gr78.gif\]](../images/SR/problem_set_5/ps5gr78.gif)
 
-The masses are m1 = 490 MeV and m2 = 825 Mev.
+The masses are m1 = 490 MeV and m2 = 825 MeV.
 
 ##  Baranger: Multiplying 4 vectors
 

@@ -11,7 +11,7 @@ eleven references.
 
 The results are in... The winner was an essay by Gerard 't Hooft, a Nobel Prize
 winner and all around smart guy.  My essay did not win second, or third, or
-forth, or fifth, or honerable mention.  The contest gets plenty of submissions
+forth, or fifth, or honorable mention.  The contest gets plenty of submissions
 from fringe physicists.  I suspect the word "quaternion" in the title and my
 non-academic address meant the paper was quickly dismissed.
 
@@ -24,7 +24,7 @@ works has conformal symmetry.  If we use light to measure things, then the
 absolute size of _anything_ cannot be known.  Cool.  We can figure out relative
 sizes and times.
 
-This cannot be the entire story since we can figure out the the absolute sizes
+This cannot be the entire story since we can figure out the absolute sizes
 of things.  He writes that something about quantum gravity is going to break 
 conformal symmetry.  You would have to read the paper to struggle to see his 
 point.

@@ -4,7 +4,7 @@ Doug Sweetser
 email: sweetser@alum.mit.edu
 twitter: visualphysics
 
-If it is really important to you, a google hangout can be arranged.
+If it is really important to you, a Google/Zoom meeting can be arranged.
 
 {! ~/workspace/Q/docs/About/web_sites.md !}
 

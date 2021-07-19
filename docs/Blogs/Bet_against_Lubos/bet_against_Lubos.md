@@ -4,27 +4,27 @@ I spent years being an active reader and sometime participant in the moderated
 newsgroup sci.physics.research. In the early days of the text-heavy  Internet,
 there were newsgroups on all kinds of subjects that would allow people to
 exchange emails about the topic at hand. When information had to go through a
-dialup modem, text was the road to take.
+dial-up modem, text was the road to take.
 
 The unmoderated newsgroup sci.physics was a soapbox for crank physicists. One
 guy loved to write "TIME IS MASS". While amusing, it was not worthy of much
 time or mass.
 
 The most important feature of SPR as it was sometimes called was that Prof.
-John Baez and a few of his friends posted tehre regularly. Baez loved to teach,
+John Baez and a few of his friends posted there regularly. Baez loved to teach,
 often at great length. There was a farmer from England who called himself "Oz"
 that Baez spent a big effort trying to teach some quite obscure mathematical
-physics concepts. The battlez between Oz and the Wizard were fun and
+physics concepts. The battles between Oz and the Wizard were fun and
 informative to read. I would toss in my own two cents once in a while. Much of 
 what Baez wrote would not stick in my brain since it was dense with math
-jargon. On the occassion when these obscure discussion did reach me, it made
+jargon. On the occasion when these obscure discussion did reach me, it made
 the time investment worthwhile. Mathematical physics is a difficult art, so it
 was nice when I felt I understood a subtle issue.
 
 Every community has its characters. A few times a year, [Lubos%C5% Motl](https://en.wikipedia.org/wiki/Lubo%C5%A1_Motl)
 A few times a year, Lubos Motl would jump into a thread. If you know Lubos, you
 know Lubos. The comments would get sharper, more biting when Lubos joined the
-discussion.Lubos was strongly of the opinion that work on strings was the
+discussion. Lubos was strongly of the opinion that work on strings was the
 correct direction to go. If you disagreed, then you were a complete and total
 moron. I wondered if he was real or a bit of fiction.
 
@@ -53,8 +53,8 @@ physics should go. In 2014, I did not send him the check.
 When grounded in current high energy physics, I will listen to his views. I am
 a skeptic, which means to me I will invest a small amount of effort to
 understand another person's vision. With Lubos, I am a cynic, one who dismisses
-the argument withoug any efforts because of my perception of a bad track
-record. I know people are cynical about my work (see the Becket quaote at the
+the argument without any efforts because of my perception of a bad track
+record. I know people are cynical about my work (see the Becket quote at the
 end of this blog). I ignore is promotion of work on strings. Note, I now always
 use the phrase "work on strings" because such research never formed a
 scientific theory, a coherent intellectual structure that can be used to make
@@ -85,9 +85,9 @@ from mini, to minor, silent, to train wreck. The mini issue is that quaternions 
 vector have four basis elements, not just three. To make the basis for the time
 term explicit instead of implicit, I have often used the letter "e" to complete
 the collection with i, j, and k. The minor issue is that one should not mix the
-tuple notation - the paratheses - with the vector notation. It took quite a bit
+tuple notation - the parentheses - with the vector notation. It took quite a bit
 of polite pestering from David Halliday for me to finally see that issue. The
-lefthand side should be written as:
+left-hand side should be written as:
 
 ![](two_ways_to_write_a_quaternion.png)
 
@@ -102,7 +102,7 @@ either a tangent or a cotangent space of a manifold. That is signified by the
 subscript or superscript. An interval results by contracting with a metric
 tensor. In flat space-time, there is one tangent or cotangent space for all.
 In curved space-time, every point has its own tangent space. One has to specify
-the path to do any calcultion of an interval since different paths will have
+the path to do any calculation of an interval since different paths will have
 different sets of tangent spaces. This is different from a quaternion-based
 calculation where there is only one rule for calculating squares. Apple, meet
 orange. Quaternions work in the manifold, the special relativity interval is
@@ -114,13 +114,13 @@ Here is a pedantic way to write the square of a quaternion:
 
 ![](quaternion_squared.png)
 
-The fact that the original poster ignored thre three imaginary terms is
+The fact that the original poster ignored the three imaginary terms is
 interesting. It shows the bias of talking about what is familiar, ignoring the
 strange. The Lorentz invariant interval of special relativity is familiar. The
 terms I call space-times-time - (2tx, 2ty, 2tz) - are not.
 
 The top voted reply by Peter Morgan was a suggestion to go study Clifford
-algebas, reading what John Baez has written about often on SPR and kept on his
+algebras, reading what John Baez has written about often on SPR and kept on his
 web site. Further study is always a good thing, but why not stay focused on the
 question at hand?
 
@@ -140,15 +140,15 @@ metric tensor is a machine that can take in two 4-vectors and spit out one
 number in return. A metric tensor has formally nothing to say about the three
 space-times-time terms. Silence does not mean zero. If one starts with four
 pieces of information with an event, then one should end up with four pieces of
-information so that information is not lost. The standdard approach to
+information so that information is not lost. The standard approach to
 calculating intervals does lose information.  If you have two observers and
 those two observers are moving at a constant velocity to each other along the x
-axix only, we know the following:
+axis only, we know the following:
 
 ![](full_square.png)
 
 Seeing the two intervals are equal will say that the two observers are moving
-at a constant velocity to each other. It also says nonthing about what that
+at a constant velocity to each other. It also says nothing about what that
 motion is. An analysis of the three space-times-time terms will reveal the
 exact motion. That is great information to know. Space-times-time data is
 useful.
@@ -159,7 +159,7 @@ intervals.
 
 ![](Light.no_label.png)
 
-I could write three such graphs for each of the imaginary sptial directions,
+I could write three such graphs for each of the imaginary spatial directions,
 but have combined them for simplicity. The time like intervals are always
 positive real numbers. The space-like intervals are always negative real
 numbers. An interval of zero is a path only the massless photon and gluon can
@@ -173,7 +173,7 @@ weak gravitational field tests, open up Misner, Thorne, and Wheeler to equation
 40.2:
 
 
-Observers at different hieghts in a gravitational field will make different
+Observers at different heights in a gravitational field will make different
 measurements of dt, dx, dy, and dz. The intervals will be different. Yet their
 space-times-time calculations will be the same.
 
@@ -235,7 +235,7 @@ stapler. Rather it is for the entertainment of people who like taking down
 folks with more than 130,000 reputation points.
 
 Lubos completely ignores the original poster's question which is typical of his
-sytle. There is nothing *ad hoc* about the rule for multiply quaternions on a
+style. There is nothing *ad hoc* about the rule for multiply quaternions on a
 four dimensional real manifold to assure that an inverse exists unless the 
 quaternion is zero. The original post was asking about something that is
 central to special relativity, the real-valued interval.
@@ -255,7 +255,7 @@ The real flaw in the statement is the inclusion of the word "invariant".
 Invariant by itself is meaningless. One is required to list the transformations
 that keep the value invariant. The rotation group SO(3) would point the
 imaginary spatial vector in a new direction leaving the norm unchanged. The
-group U(1) would also neave the quaternion norm unaltered. The group U(1) is
+group U(1) would also leave the quaternion norm unaltered. The group U(1) is
 the gauge group symmetry of electromagnetism. Quaternions are a normed division
 algebra. Since the norm of U(1) is one, that would mean anytime one took the
 norm of a quaternion expression - no matter how complicated - that norm would
@@ -264,23 +264,23 @@ quaternion SU(2) which is the gauge group for the weak force.
 
 This is the power of using quaternions as a unified algebra. Anytime one takes
 the norm of any quaternion expression, we know that norm will not change under
-an electro-weak tranformation without doing a thing. I consider that fully
+an electro-weak transformation without doing a thing. I consider that fully
 natural.
 
-Lubos makes the same trainwreck error that the original poster did. A
+Lubos makes the same train wreck error that the original poster did. A
 quaternion times the conjugate of a quaternion creates a quaternion. The right
 answer for the calculation of the norm is:
 
 ![](q_norm_corrected.png)
 
-The full quaternion algebra is required for all these calcellations. There is
+The full quaternion algebra is required for all these calculations. There is
 often interesting physics at nearby point. Think about (q+dq)q<sup>\*</sup>. The
-nieghborhood of norm will use the three imaginaries. Do I know of even one
+neighborhood of norm will use the three imaginaries. Do I know of even one
 problem in physics that can be addressed by exploring the neighborhood of a
 norm? The direct answer is no. Since I have both U(1) and SU(2) symmetry, it
 does strike me as something that is worth further study.
 
-Anytime one has a simple agelbraic expression, it means there is a graph one
+Anytime one has a simple algebraic expression, it means there is a graph one
 should generate. The symmetry of U(1) is known as a unit circle in a complex
 plane:
 
@@ -288,28 +288,28 @@ plane:
 
 All three spatial dimensions are bundled together as one imaginary factor. If
 the three imaginaries are kept separate, a graph of SU(2) results which I am
-suggeting as a sphere:
+suggesting as a sphere:
 
 ![](SU2.no_label.png)
 
 To be honest, I don't deeply understand these graphs at this point. That can be
 a sign one is doing research: things are precisely defined but all the
 implications are not clear. One can be inside the circle or sphere, on the
-circle or sphere, or outsite. It will take many particles to create such a
+circle or sphere, or outside. It will take many particles to create such a
 structure since half the points have a space-like separation. How exactly is
 this related to charge conservation?
 
 Lubos wrote "so the 4 real components in a quaternion still have the
 Euclidean, rather than Minkowskian, signature. I call this sophisticated
-garbage. The Minkowski metric tensor thakes two 4-vectors and returns one real
+garbage. The Minkowski metric tensor takes two 4-vectors and returns one real
 number. The elements along the diagonal of the 4x4 matrix are +--- or -+++ for
 a signature of +2 or -2 respectively. If instead one works with a Euclidean
 metric tensor, then all the elements on the diagonal are ++++ for a signature
 of +4.
 
-Quaternions don't use a metric tensor. Ever. QUaternions are neither covariant
+Quaternions don't use a metric tensor. Ever. Quaternions are neither covariant
 nor contravariant 4-vectors living in a tangent space. If one represents a
-quaternion as a matrix, onlyt the first term of that lives along the diagonal
+quaternion as a matrix, only the first term of that lives along the diagonal
 of the 4x4 matrix. The signature of the matrix is either +4 or -4, depending
 only on the sign of the first term. There is nothing wrong with working with
 both the square of a quaternion *and* the norm of a quaternion. This is
@@ -340,7 +340,7 @@ It was this idea of a quaternion as one number that drove me to develop
 space-time numbers. I have blogged about them earlier. Instead of four numbers,
 there are 8 just like the quaternion group Q<sub>8</sub>. Space-times-time
 numbers do not use the real number, starting instead with more basic
-incredient like zero, one, and the set of positive numbers. There is an
+ingredient like zero, one, and the set of positive numbers. There is an
 equivalence relation so one can always go from the space-times-time numbers to
 quaternions.
 
@@ -352,9 +352,9 @@ difference between two events (which eliminates the need to agree about the
 origin). Let both observers square the values they obtained. If both intervals
 are the same, then the space-times-time values can be used to figure out how
 one observer is moving steadily relative to the other. If the three
-space-times-time values are identical, then the difference in the invervals can
-be used to determine the difference in GM/c<sup>2</sub>R between betweeen the
-two observers. If the norms are the smae, then there exists both a U(1) and an
+space-times-time values are identical, then the difference in the intervals can
+be used to determine the difference in GM/c<sup>2</sub>R between between the
+two observers. If the norms are the same, then there exists both a U(1) and an
 SU(2) transformation between the two. At this point, I have not idea what that
 means. I do believe that someday it will be useful. I like betting against
 Lubos.

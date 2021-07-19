@@ -95,7 +95,7 @@ sides.  Consider the product of two events, q and q':
 ![\(t, X\) times \(t prime , X prime\) =  \(t t prime  - X dot X prime , t X
 prime  + X t prime + X cross X prime\)axial vectors: X cross X prime](../images/Math/scalars_vectors/s_gr_2.gif)
 
-Where is the axial vector for the left hand side?  It is imbedded in the
+Where is the axial vector for the left hand side?  It is embedded in the
 multiplication operation, honest :-)
 
 ![\(t prime , X prime\) times \(t, X\) = \(t prime t - X prime  dot X, t prime
@@ -137,7 +137,8 @@ prime  q\)\) - \(qq prime +\(q prime q\)\) conjugated\) over
 ![axial vectors: X cross X prime  = \(q q prime -\(q prime  q\)\) over
 2](../images/Math/scalars_vectors/s_gr_7.gif)
 
-The metric for quaternions is imbedded in Hamilton's rule for the field.
+The metric for quaternions is embedded in Hamilton's rule for the division
+algebra.
 
 ![i squared = j squared = k squared = i j k = -
 1](../images/Math/scalars_vectors/s_gr_8.gif)
