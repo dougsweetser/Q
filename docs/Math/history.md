@@ -19,7 +19,7 @@ carved the answer in the stone of the bridge.
 Hamilton had found a long sought-after solution, but it was weird, very weird,
 it was 4D.  One of the first things Hamilton did was get rid of the fourth
 dimension, setting it equal to zero, and calling the result a "proper
-quaternion."  He spent the rest of his life trying to find a use for
+quaternion."  He spent the rest of his life trying to find uses for
 quaternions.  By the end of the nineteenth century, quaternions were viewed as
 an oversold novelty.
 
@@ -44,7 +44,7 @@ Today, quaternions are of interest to historians of mathematics.  Vector
 analysis performs the daily mathematical routine that could also be done with
 quaternions.  I personally think that there may be 4D roads in physics that can
 be efficiently traveled only by quaternions, and that is the path which is laid
-out in these web pages.
+out in this work.
 
 In a longer history, Gauss would get the credit for seeing quaternions first in
 one of his notebooks. Rodrigues developed 3D rotations all on his own also in

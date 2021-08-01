@@ -46,8 +46,8 @@ nav:
     - 'Problem set 1': 'SR/problem_set_1.md'
     - 'Totally ordered_sets in Space-time': 'SR/totally_ordered_sets_in_space-time.md'
 - Gravity:
-    - 'Quaternion gravity': 'Gravity/gravity.md'
-    - 'Three roads to quaternion gravity': 'Gravity/three_roads_to_quaternion_gravity.md'
+    - 'Quaternion gravity': 'Gravity/gravity.pdf'
+    - 'Three roads to quaternion gravity': 'Gravity/three_roads_to_quaternion_gravity.pdf'
     - 'Measurement 101 - Measuring Events': 'Gravity/Measurement_101/measure.md' 
     - 'Gravity, Measurement_101 - Special relaitivity': 'Gravity/Measurement_101/special_relativity.md' 
     - 'Measurement 101 - Quaternion Gravity': 'Gravity/Measurement_101/quaternion_gravity.md'

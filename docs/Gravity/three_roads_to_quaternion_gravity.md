@@ -24,7 +24,6 @@ variant of special relativity.
 
 
 ## Conserving Changes in Space-times-time
-=================================================
 
     The views of space and time which I wish to lay before you have sprung
     from the soil of experimental physics, and therein lies their strength.
@@ -132,7 +131,6 @@ The quaternion gravity proposal is that the second term above will be
 constant in a simple gravitational field.
 
 ## Relaxed Relativity Transformations
-=============================================
 
 In special relativity, all observers agree on the speed of light $c$. I ask
 the reader's patience because I am going to be pedantic about how this
@@ -255,7 +253,6 @@ The square alters the interval but leaves the space-times-time constant.
 To this point, this is just a math exercise.
 
 ## Teaching Newtonian Gravity New Tricks
-================================================
 
 Newton's theory of gravity produces a field where every point in
 space-time is assigned a force. Both space and time are absolute.
@@ -379,7 +376,6 @@ identical form. This form of the proposal may be more convenient for
 some calculations.
 
 ## Extreme Gravity
-==========================
 
 Black holes, quantum gravity, and gravitational waves are three topics
 of current research. How does quaternion gravity deal with these topics?
@@ -445,7 +441,6 @@ early to claim the proposal can be consistent with the gravity wave data
 collected to date.
 
 ## Quaternion Gravity as a Simpler Competitor to General Relativity
-===========================================================================
 
 Some have argued that there is no simpler metric theory possible than
 general relativity. In a vacuum, the Lagrangian is only composed of the

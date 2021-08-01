@@ -36,8 +36,8 @@ There are ways to switch ranks.  If there are two vectors and one wants a
 result that is a scalar, that requires the intervention of a metric to broker
 the transaction.  This process in known as an inner tensor product or a
 contraction.  The vectors in question must have the same number of dimensions.
-The metric defines how to form a scalar as the indices are examined one-by-
-one.  Metrics in math can be anything, but nature imposes constraints on which
+The metric defines how to form a scalar as the indices are examined one-by-one.  
+Metrics in math can be anything, but nature imposes constraints on which
 ones are important in physics.  An aside: mathematicians require that the distance
 is non-negative, but physicists do not.  I will be using the physics notion of
 a metric.  In looking at events in space-time (a 4-dimensional vector), the
@@ -226,6 +226,9 @@ two separately successful areas.
 
 **Update** Nope, not going to work according to my current efforts. An new
 symmetry is at the heart of gravity, basically the great Minkowski light cone
-rotated by 45 degrees. Quantum mechanics need quaternion series which is
-neither normed or a division algebra (it is a semi-group instead).
+is rotated by 45 degrees.  Quantum mechanics needs quaternion series which is
+not a division algebra.  It is a semi-group which means there is more than one
+multiplicative inverse.  Quaternion series can be non-zero but the product of
+two quaternion series is zero.  These represent orthagonal states which is 
+common in quantum mechanics.
 

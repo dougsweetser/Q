@@ -13,7 +13,7 @@ Chinese food truck. He thought my project was "Interesting, but not very
 interesting." The reason was that I had a few math widgets, but no theory. I 
 thanked him for his time.
 
-Now I had to find a theory. This is a crazy assignment. I decided to begin my 
+Now I had to find a theory. This was a crazy assignment. I decided to begin my 
 search by posing a question: define a brief definition of time that must be two 
 sentences or less and only be about physics or math, not philosophy. My run-on 
 sentence answer used quaternions as a definition of events in space-time.
