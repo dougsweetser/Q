@@ -11,6 +11,8 @@ google_analytics: ['UA-9710248-1', 'dougsweetser.github.io/Q']
 markdown_extensions: 
     - markdown_include.include
     - footnotes
+    - pymdownx.arithmatex:
+        generic: false
 
 plugins:
     - exclude:

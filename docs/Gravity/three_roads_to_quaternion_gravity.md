@@ -2,7 +2,7 @@
 
 D. B. Sweetser
 
-sweetser\@alum.mit.edu
+sweetser@alum.mit.edu
 
 Three roads merge to create a different approach to gravity. Our deepest
 insights into nature use symmetries because symmetries remain unchanged.
@@ -14,7 +14,7 @@ how change is permitted to happen. The notion of relaxed relativity
 holds that in a gravitational field, one observer looking at another
 observer measuring the speed of light will find the product of
 wavelength and frequency differs from the speed of light in a precise
-way ($c' =  c \gamma^2_{esc}$). Lorentz invariance remains for inertial observers, but
+way ($c' =  c \gamma^2_{esc}$). (\(c' =  c \gamma^2_{esc}\))Lorentz invariance remains for inertial observers, but
 non-inertial observers are governed by different symmetries. Gravity is
 different everywhere, so a field theory is also necessary using escape
 velocities. With some reasonable guesses constrained by observations,
@@ -204,7 +204,7 @@ of the first expression that eliminates the spatial term. Any constant
 linear function can be added to the primed frame since it will be
 subtracted away.
 
-![](../images/Gravity/Three_roads/dt_prime_prime.png)
+![](../images/Gravity/Three_roads/t_prime_prime.png)
 
 See how this coordinate choice effects the transformation:
 
