@@ -149,23 +149,27 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../../Gravity/gravity/" class="dropdown-item">Quaternion gravity</a>
+    <a href="../../Gravity/gravity.pdf" class="dropdown-item">Quaternion gravity</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/measure/" class="dropdown-item">Measurement-101 - Measuring Events</a>
+    <a href="../../Gravity/three_roads_to_quaternion_gravity/" class="dropdown-item">Three roads to quaternion gravity</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/special_relativity/" class="dropdown-item">Gravity, Measurement-101 - Special relaitivity</a>
+    <a href="../../Gravity/Measurement_101/measure/" class="dropdown-item">Measurement 101 - Measuring Events</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/quaternion_gravity/" class="dropdown-item">Measurement-101 - Quaternion Gravity</a>
+    <a href="../../Gravity/Measurement_101/special_relativity/" class="dropdown-item">Gravity, Measurement_101 - Special relaitivity</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/measure_it_all/" class="dropdown-item">Measurement-101 - SR + QG: Special Relativity and Quaternion Gravity</a>
+    <a href="../../Gravity/Measurement_101/quaternion_gravity/" class="dropdown-item">Measurement 101 - Quaternion Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/measure_it_all/" class="dropdown-item">Measurement 101 - SR + QG: Special Relativity and Quaternion Gravity</a>
 </li>
                                     
 <li>
@@ -420,7 +424,7 @@ also known as the Hamiltonian H) of the wave function psi, which contains all
 the dynamical information about a system.  Psi is a scalar function with
 complex values.</p>
 <p><img alt="The hamiltonian operator acting on psi = -i h bar phi dot = -h bar squared
-over 2 m  Laplacian psi + the potential V(0, X) psi" src="../../images/QM/Schrodinger/s_gr_1.gif" /></p>
+over 2 m  Laplacian psi + the potential V0, X0, X psi" src="../../images/QM/Schrodinger/s_gr_1.gif" /></p>
 <p>For the time-independent case, energy is written at the operator -i hbar d/dt,
 and kinetic energy as the square of the momentum operator, i hbar Del, over
 2m.  Given the potential V(0, X) and suitable boundary conditions, solving
@@ -431,16 +435,17 @@ derived from first principles.  What is interesting are the constraint that
 are required for the quaternion analog.  For example, there is a factor which
 might serve to damp runaway terms.</p>
 <h2 id="the-quaternion-wave-function">The Quaternion Wave Function</h2>
-<p>The derivation starts from a curious place :-)  Write out classical angular
+<p>The derivation starts from a curious place :-)  Write out classical angular
 momentum with quaternions.</p>
-<p><img alt="(0, L) = (0, R Cross P) = the odd part of (0, R) times (0, P)" src="../../images/QM/Schrodinger/s_gr_2.gif" /></p>
+<p><img alt="0, L0, L = 0, R Cross P0, R Cross P = the odd part of 0, R0, R times 0, P0, P" src="../../images/QM/Schrodinger/s_gr_2.gif" /></p>
 <p>What makes this "classical" are the zeroes in the scalars.  Make these into
 complete quaternions by bringing in time to go along with the space 3-vector
 R, and E with the 3-vector P.</p>
-<p><img alt="(t, R) times (E, P) = (E t - R dot P, E R + P t + R Cross P)" src="../../images/QM/Schrodinger/s_gr_3.gif" /></p>
+<p><img alt="t, Rt, R times E, PE, P = E t - R dot P, E R + P t + R Cross PE t - R dot P, E R + P t + R Cross P" src="../../images/QM/Schrodinger/s_gr_3.gif" /></p>
 <p>Define a dimensionless quaternion psi that is this product over h bar.</p>
-<p><img alt="psi is defined to be (t, R) times (E, P) over hbar = (E t - R dot P, E
-R + P t + R Cross P) over h bar" src="../../images/QM/Schrodinger/s_gr_4.gif" /></p>
+<p><img alt="psi is defined to be t, Rt, R times E, PE, P over hbar = E t - R dot P, E
+R + P t + R Cross PE t - R dot P, E
+R + P t + R Cross P over h bar" src="../../images/QM/Schrodinger/s_gr_4.gif" /></p>
 <p>The scalar part of psi is also seen in plane wave solutions of quantum
 mechanics.  The complicated 3-vector is a new animal, but notice it is
 composed of all the parts seen in the scalar, just different permutations that
@@ -499,8 +504,9 @@ tool tossed in so that the equation has the correct properties.  With
 quaternions, I is determined directly from E, t, P and X.  It must be richer
 in information content.  This particular constraint is a reflection of that.</p>
 <p>Now take the time derivative of psi.</p>
-<p><img alt="d psi by dt = E I over h bar times psi over the square root of (E t - R dot
-P over h bar) squared" src="../../images/QM/Schrodinger/s_gr_12.gif" /></p>
+<p><img alt="d psi by dt = E I over h bar times psi over the square root of E t - R dot
+P over h barE t - R dot
+P over h bar squared" src="../../images/QM/Schrodinger/s_gr_12.gif" /></p>
 <p>The denominator must be at least 1, and can be greater that that.  It can
 serve as a damper, a good thing to tame runaway terms.  Unfortunately, it also
 makes solving explicitly for energy impossible unless Et - P.X equals zero.
@@ -520,8 +526,9 @@ dt" src="../../images/QM/Schrodinger/s_gr_16.gif" /></p>
 <p>The equivalence of the energy E and this operator is called the first
 quantization.</p>
 <p>Take the spatial derivative of psi using the under the same assumptions:</p>
-<p><img alt="Del psi = - P I over h bar times psi over the square root of (E t - R dot P
-over h bar) squared" src="../../images/QM/Schrodinger/s_gr_17.gif" /></p>
+<p><img alt="Del psi = - P I over h bar times psi over the square root of E t - R dot P
+over h barE t - R dot P
+over h bar squared" src="../../images/QM/Schrodinger/s_gr_17.gif" /></p>
 <p><img alt="I h bar Del acting on psi = P acting on psi or P = I h bar Del
 " src="../../images/QM/Schrodinger/s_gr_18.gif" /></p>
 <p>Square this operator.</p>
@@ -563,6 +570,9 @@ background.</p></div>
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
         <script src="../../js/base.js" defer></script>
+        <script src="../../javascripts/config.js" defer></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
 
         <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
     <div class="modal-dialog">

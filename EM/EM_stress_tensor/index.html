@@ -149,23 +149,27 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../../Gravity/gravity/" class="dropdown-item">Quaternion gravity</a>
+    <a href="../../Gravity/gravity.pdf" class="dropdown-item">Quaternion gravity</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/measure/" class="dropdown-item">Measurement-101 - Measuring Events</a>
+    <a href="../../Gravity/three_roads_to_quaternion_gravity/" class="dropdown-item">Three roads to quaternion gravity</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/special_relativity/" class="dropdown-item">Gravity, Measurement-101 - Special relaitivity</a>
+    <a href="../../Gravity/Measurement_101/measure/" class="dropdown-item">Measurement 101 - Measuring Events</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/quaternion_gravity/" class="dropdown-item">Measurement-101 - Quaternion Gravity</a>
+    <a href="../../Gravity/Measurement_101/special_relativity/" class="dropdown-item">Gravity, Measurement_101 - Special relaitivity</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/measure_it_all/" class="dropdown-item">Measurement-101 - SR + QG: Special Relativity and Quaternion Gravity</a>
+    <a href="../../Gravity/Measurement_101/quaternion_gravity/" class="dropdown-item">Measurement 101 - Quaternion Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/measure_it_all/" class="dropdown-item">Measurement 101 - SR + QG: Special Relativity and Quaternion Gravity</a>
 </li>
                                     
 <li>
@@ -415,16 +419,16 @@ systems, so long as the tensor behaves the same way under transformations.
 Using the terms as defined in "The classical theory of fields" by Landau and
 Lifshitz, the antisymmetric 2-rank field tensor F is used to generate the
 stress tensor T</p>
-<p><img alt="T sup ik = (- F sup iL F sub L sup k +delta(i,k) F sub LM F sup LM) over
+<p><img alt="T sup ik = - F sup iL F sub L sup k +delta\(i,k- F sup iL F sub L sup k +delta\(i,k F sub LM F sup LM) over
 4pi" src="../../images/EM/EM_stress_tensor/s_gr_1.gif" /></p>
 <p>I have a practical sense of an E field (the stuff that makes my hair stand on
 end) and a B field (the invisible hand directing a compass), but have little
 sense of the field tensor F, a particular combination of the other two.
 Therefore, express the stress tensor T in terms of the E and B fields only:</p>
-<p><img alt="T sup ik =  matrix((W, Sx, Sy, Sz), (Sx, mxx, mxy, myz), (Sy, myx, myy, myz), (Sz, mzx, mzy, mzz))" src="../../images/EM/EM_stress_tensor/s_gr_2.gif" /></p>
-<p><img alt="W = (E squared +  B squared ) over 8pi" src="../../images/EM/EM_stress_tensor/s_gr_3.gif" /></p>
-<p><img alt="Sa = (E Cross B) over 4pi" src="../../images/EM/EM_stress_tensor/s_gr_4.gif" /></p>
-<p><img alt="mab = (- Ea Eb - Ba Bb + 0.5 delta(a,b)(E squared +  B squared )) over 4 pi" src="../../images/EM/EM_stress_tensor/s_gr_5.gif" /></p>
+<p><img alt="T sup ik =  matrix\(W, Sx, Sy, Sz\(W, Sx, Sy, Sz, Sx, mxx, mxy, myzSx, mxx, mxy, myz, Sy, myx, myy, myzSy, myx, myy, myz, Sz, mzx, mzy, mzzSz, mzx, mzy, mzz)" src="../../images/EM/EM_stress_tensor/s_gr_2.gif" /></p>
+<p><img alt="W = E squared +  B squared E squared +  B squared  over 8pi" src="../../images/EM/EM_stress_tensor/s_gr_3.gif" /></p>
+<p><img alt="Sa = E Cross BE Cross B over 4pi" src="../../images/EM/EM_stress_tensor/s_gr_4.gif" /></p>
+<p><img alt="mab = - Ea Eb - Ba Bb + 0.5 delta\(a,b- Ea Eb - Ba Bb + 0.5 delta\(a,bE squared +  B squared E squared +  B squared ) over 4 pi" src="../../images/EM/EM_stress_tensor/s_gr_5.gif" /></p>
 <p>Together, the energy density(W), Poynting's vector (Sa) and the Maxwell stress
 tensor (m_ab) are all the components of the stress tensor of the
 electromagnetic field.</p>
@@ -432,23 +436,27 @@ electromagnetic field.</p>
 <p>How should one rationally go about to find a generator equation that creates
 these terms instead of using the month-long hunt-and-peck technique actually
 used?  Everything is symmetric, so use the symmetric product:</p>
-<p><img alt="even(q, q prime) = (q q prime + q prime q ) over 2= (t t prime - X dot
-X prime, t X + X t prime)" src="../../images/EM/EM_stress_tensor/s_gr_6.gif" /></p>
+<p><img alt="evenq, q primeq, q prime = q q prime + q prime q q q prime + q prime q  over 2= t t prime - X dot
+X prime, t X + X t primet t prime - X dot
+X prime, t X + X t prime" src="../../images/EM/EM_stress_tensor/s_gr_6.gif" /></p>
 <p>The fields E and B are kept separate except for the cross product in the
 Poynting vector.  Individual directions of a field can be selected by using a
 unit vector Ua:</p>
-<p><img alt="{E, Ux} = (-Ex, 0)   where Ux = (0, 1, 0,
-0)" src="../../images/EM/EM_stress_tensor/s_gr_7.gif" /></p>
+<p><img alt="{E, Ux} = -Ex, 0-Ex, 0   where Ux = 0, 1, 0,
+00, 1, 0,
+0" src="../../images/EM/EM_stress_tensor/s_gr_7.gif" /></p>
 <p>The following double sum generates all the terms of the stress tensor:</p>
-<p><img alt="T sup ik =  Sum of a from x thru z Sum of b from x thru z  of (({Ua,Ub}
-over 3 - 1) times ((0,E) squared + (0,B) squared ) over 2
+<p><img alt="T sup ik =  Sum of a from x thru z Sum of b from x thru z  of \({Ua,Ub}
+over 3 - 1\({Ua,Ub}
+over 3 - 1 times \(0,E\(0,E squared + 0,B0,B squared ) over 2
 -" src="../../images/EM/EM_stress_tensor/s_gr_8.gif" /></p>
-<p><img alt="- even(E, Ua) even(E, Ub) - even(B, Ua) even(B, Ub)
+<p><img alt="- evenE, UaE, Ua evenE, UbE, Ub - evenB, UaB, Ua evenB, UbB, Ub
 -" src="../../images/EM/EM_stress_tensor/s_gr_9.gif" /></p>
-<p><img alt="- even(odd(E, B), Ua) - even(odd(E, B), Ub)) over 4pi
+<p><img alt="- evenodd\(E, Bodd\(E, B, Ua) - evenodd\(E, Bodd\(E, B, Ub)) over 4pi
 =" src="../../images/EM/EM_stress_tensor/s_gr_10.gif" /></p>
-<p><img alt="= (-Ex Ey - Ex Ez - Ey Ez - Bx By - Bx Bz - By Bz + Ey Bz - Ez By + Ez Bx -
-Ex Bz + Ex By - Ey Bx, 0) over 2 pi" src="../../images/EM/EM_stress_tensor/s_gr_11.gif" /></p>
+<p><img alt="= -Ex Ey - Ex Ez - Ey Ez - Bx By - Bx Bz - By Bz + Ey Bz - Ez By + Ez Bx -
+Ex Bz + Ex By - Ey Bx, 0-Ex Ey - Ex Ez - Ey Ez - Bx By - Bx Bz - By Bz + Ey Bz - Ez By + Ez Bx -
+Ex Bz + Ex By - Ey Bx, 0 over 2 pi" src="../../images/EM/EM_stress_tensor/s_gr_11.gif" /></p>
 <p>The first line generates the energy density W, and part of the +0.5 delta(a,
 b)(E^2^ + B^2^) term of the Maxwell stress tensor.  The rest of that tensor is
 generated by the second line.  The third line creates the Poynting vector.
@@ -456,9 +464,9 @@ Using quaternions, the net sum of these terms ends up in the scalar.</p>
 <p>Does the generator equation have the correct properties?  Switching the order
 of Ua and Ub leaves T unchanged, so it is symmetric.  Check the trace, when Ua
 = Ub</p>
-<p><img alt="trace(T sup ik) =" src="../../images/EM/EM_stress_tensor/s_gr_12.gif" /></p>
-<p><img alt="=Sum over x, y &amp; z of 1 over 4 pi((even(Ua,Ua) over 3 - 1)((0,E)
-squared + (0,B) squared) over 2 - even(E, Ua) squared  - even(B, Ua)
+<p><img alt="traceT sup ikT sup ik =" src="../../images/EM/EM_stress_tensor/s_gr_12.gif" /></p>
+<p><img alt="=Sum over x, y &amp; z of 1 over 4 pi\(even\(Ua,Ua\(even\(Ua,Ua over 3 - 1)\(0,E\(0,E
+squared + 0,B0,B squared) over 2 - evenE, UaE, Ua squared  - evenB, UaB, Ua
 squared ) = 0" src="../../images/EM/EM_stress_tensor/s_gr_13.gif" /></p>
 <p>The trace equals zero, as it should.</p>
 <p>The generator is composed of three parts that have different dependencies on
@@ -470,9 +478,10 @@ vectors Ua and Ub will effect these three components differently.</p>
 <p>So what does the stress tensor represent?  It looks like every combination of
 the 3-vectors E and B that avoids quadratics (like Ex^2^) and over-counting
 cross terms.  I like what I will call the "net" stress quaternion:</p>
-<p><img alt="net(T sup ik) = " src="../../images/EM/EM_stress_tensor/s_gr_14.gif" /></p>
-<p><img alt="= (-Ex Ey - Ex Ez - Ey Ez - Bx By - Bx Bz - By Bz + Ey Bz - Ez By + Ez Bx -
-Ex Bz + Ex By - Ey Bx, 0) over 2 pi" src="../../images/EM/EM_stress_tensor/s_gr_15.gif" /></p>
+<p><img alt="netT sup ikT sup ik = " src="../../images/EM/EM_stress_tensor/s_gr_14.gif" /></p>
+<p><img alt="= -Ex Ey - Ex Ez - Ey Ez - Bx By - Bx Bz - By Bz + Ey Bz - Ez By + Ez Bx -
+Ex Bz + Ex By - Ey Bx, 0-Ex Ey - Ex Ez - Ey Ez - Bx By - Bx Bz - By Bz + Ey Bz - Ez By + Ez Bx -
+Ex Bz + Ex By - Ey Bx, 0 over 2 pi" src="../../images/EM/EM_stress_tensor/s_gr_15.gif" /></p>
 <p>This has the same properties as an stress tensor.  Since the vector is zero,
 it commutes with any other quaternion (this may be a reason it is so useful).
 Switching x terms for y terms would flip the signs of the terms produced by
@@ -496,6 +505,9 @@ elegant and straightforward to me.</p></div>
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
         <script src="../../js/base.js" defer></script>
+        <script src="../../javascripts/config.js" defer></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
 
         <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
     <div class="modal-dialog">

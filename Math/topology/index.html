@@ -149,23 +149,27 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../../Gravity/gravity/" class="dropdown-item">Quaternion gravity</a>
+    <a href="../../Gravity/gravity.pdf" class="dropdown-item">Quaternion gravity</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/measure/" class="dropdown-item">Measurement-101 - Measuring Events</a>
+    <a href="../../Gravity/three_roads_to_quaternion_gravity/" class="dropdown-item">Three roads to quaternion gravity</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/special_relativity/" class="dropdown-item">Gravity, Measurement-101 - Special relaitivity</a>
+    <a href="../../Gravity/Measurement_101/measure/" class="dropdown-item">Measurement 101 - Measuring Events</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/quaternion_gravity/" class="dropdown-item">Measurement-101 - Quaternion Gravity</a>
+    <a href="../../Gravity/Measurement_101/special_relativity/" class="dropdown-item">Gravity, Measurement_101 - Special relaitivity</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/measure_it_all/" class="dropdown-item">Measurement-101 - SR + QG: Special Relativity and Quaternion Gravity</a>
+    <a href="../../Gravity/Measurement_101/quaternion_gravity/" class="dropdown-item">Measurement 101 - Quaternion Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/measure_it_all/" class="dropdown-item">Measurement 101 - SR + QG: Special Relativity and Quaternion Gravity</a>
 </li>
                                     
 <li>
@@ -435,8 +439,8 @@ and proofs involving H are often identical to those for R.</p>
 open set.  Define an open ball in H of radius (r, 0) centered around a point
 (y, Y) [note: small letters are scalars, capital letters are 3-vectors]
 consisting of points (x, X) such that</p>
-<p><img alt="The square root of ((x - y, X - Y) conjugated times (x - y, X - Y)) is
-less than (r, 0)" src="../../images/Math/topology/s_gr_1.gif" /></p>
+<p><img alt="The square root of \(x - y, X - Y\(x - y, X - Y conjugated times x - y, X - Yx - y, X - Y) is
+less than r, 0r, 0" src="../../images/Math/topology/s_gr_1.gif" /></p>
 <p>An open set in H is any set which can be expressed as a union of open balls.<br />
 [p. 423 translated] A quaternion topological space (H,T) consists of the set H
 together with a collection T of subsets of H with these properties:</p>
@@ -453,13 +457,13 @@ as the topological metric, the other as an interval metric.  These descriptive
 labels are not used  in general since context usually determines which one is
 in play.</p>
 <p>An important component to standard approaches to general relativity is product
-spaces.  This is how a topology for <sup>^</sup>^ is created.  Events in spacetime
+spaces.  This is how a topology for <sup>^</sup>^ is created.  Events in space-time
 require R<sup>4</sup>, one place for time, three for space.  Mathematicians get to make
 choices: what would change if work was done in R<sup>2</sup>, R<sup>3</sup>, or R<sup>5</sup>?  The
 precision of this notion, together with the freedom to make choices, makes
 exploring these decisions fun (for those few who can understand what is going
 on :-)</p>
-<p>By working with H, product spaces are unnecessary.  Events in spacetime can be
+<p>By working with H, product spaces are unnecessary.  Events in space-time can be
 members of an open set in H. Time is the scalar, space the 3-vector.  There is
 no choice to be made.</p>
 <h2 id="open-sets">Open Sets</h2>
@@ -469,18 +473,19 @@ sets, and the interior and closure of a set.</p>
 and U represent arbitrary lower and upper bounds respectively such that L &lt;
 U. For the quaternion topological space (H, T), consider an arbitrary induced
 topology (A, t) where x and a are elements of A. Use inequalities to define:</p>
-<p><img alt="an open set: the lower bound (L, 0) is less than (x - a) conjugated
-times (x - a) is less than the upper bound (U, 0)" src="../../images/Math/topology/s_gr_2.gif" /></p>
-<p><img alt="a closed set: (L, 0) is less than or equal to (x - a) conjugated times
-(x - a) is less than or equal to the upper bound (U, 0)
+<p><img alt="an open set: the lower bound L, 0L, 0 is less than x - ax - a conjugated
+times x - ax - a is less than the upper bound U, 0U, 0" src="../../images/Math/topology/s_gr_2.gif" /></p>
+<p><img alt="a closed set: L, 0L, 0 is less than or equal to x - ax - a conjugated times
+x - ax - a is less than or equal to the upper bound U, 0U, 0
 " src="../../images/Math/topology/s_gr_3.gif" /></p>
-<p><img alt="a half open set   (L, 0)  is less than or equal to (x - a) conjugated
-times (x - a) is less than the upper bound (U, 0)
+<p><img alt="a half open set   L, 0L, 0  is less than or equal to x - ax - a conjugated
+times x - ax - a is less than the upper bound U, 0U, 0
 " src="../../images/Math/topology/s_gr_4.gif" /></p>
-<p><img alt="or   (L, 0) is less than (x - a) conjugated times (x - a)  is less
-than or equal to the conjugate of (U, 0)" src="../../images/Math/topology/s_gr_5.gif" /></p>
-<p><img alt="a boundary: the lower bound (L, 0)  equals (x - a) conjugated times (x
-- a) " src="../../images/Math/topology/s_gr_6.gif" /></p>
+<p><img alt="or   L, 0L, 0 is less than x - ax - a conjugated times x - ax - a  is less
+than or equal to the conjugate of U, 0U, 0" src="../../images/Math/topology/s_gr_5.gif" /></p>
+<p><img alt="a boundary: the lower bound L, 0L, 0  equals x - ax - a conjugated times x
+- ax
+- a " src="../../images/Math/topology/s_gr_6.gif" /></p>
 <p>The union of an arbitrary collection of open sets is open.<br />
 The intersection of a finite number of open sets is open.<br />
 The union of a finite number of closed sets is closed.<br />
@@ -500,30 +505,32 @@ of elements, one of them identical to the boundary.</p>
 <p>What are the implications for physics?</p>
 <p>With quaternions, the existence an open set of events has nothing to do with
 the causality of that collection of events.</p>
-<p><img alt="an open set: the lower bound (L, 0) is less than  (x - a) conjugated
-times (x - a) is less than the upper bound (U,
-0)" src="../../images/Math/topology/s_gr_8.gif" /></p>
-<p><img alt="timelike events:  the scalar of ((x - a) squared) is greater than 0
+<p><img alt="an open set: the lower bound L, 0L, 0 is less than  x - ax - a conjugated
+times x - ax - a is less than the upper bound U,
+0U,
+0" src="../../images/Math/topology/s_gr_8.gif" /></p>
+<p><img alt="time-like events:  the scalar of \(x - a\(x - a squared) is greater than 0
 " src="../../images/Math/topology/s_gr_9.gif" /></p>
-<p><img alt="lightlike events:  the scalar of ((x - a) squared) =
+<p><img alt="light-like events:  the scalar of \(x - a\(x - a squared) =
 0" src="../../images/Math/topology/s_gr_10.gif" /></p>
-<p><img alt="spacelike events:  the scalar of ((x - a) squared) is less than
+<p><img alt="space-like events:  the scalar of \(x - a\(x - a squared) is less than
 0" src="../../images/Math/topology/s_gr_11.gif" /></p>
-<p>A proper time can have exactly the same absolute value as a pure spacelike
+<p>A proper time can have exactly the same absolute value as a pure space-like
 separation, so these two will be included in the same sets, whether open,
 closed or on a boundary.</p>
 <p>There is no correlation the reverse way either.  Take for example a collection
-of lightlike events.  Even though they all share exactly the same interval -
+of light-like events.  Even though they all share exactly the same interval -
 namely zero - their absolute value can vary all over the map, not staying
 within limits.</p>
 <p>Although independent, these two ideas can be combined synergistically.
-Consider an open set S of timelike intervals.</p>
+Consider an open set S of time-like intervals.</p>
 <p><img alt="the set S = {x, a are elements of H, a is fixed; U, L are elements of R |
-(L, 0) is less than (x - a) conjugated times (x - a) is less than (U,
-0), and scalar of ((x - a) squared) is greater than
+L, 0L, 0 is less than x - ax - a conjugated times x - ax - a is less than U,
+0U,
+0, and scalar of \(x - a\(x - a squared) is greater than
 0}" src="../../images/Math/topology/s_gr_12.gif" /></p>
 <p>The set S could depict a classical world history since they are causally
-linked and have good topological properties.  A closed set of lightlike events
+linked and have good topological properties.  A closed set of light-like events
 could be a focus of quantum electrodynamics.  Topology plus causality could be
 the key for subdividing different regions of physics.</p>
 <p><strong>Hausdorff Topology</strong></p>
@@ -535,12 +542,14 @@ sets Oa, Ob E T such that a E Oa, b I Ob and the intersection of Oa and Ob is
 the null set.</p>
 <p>For example, find the half-way point between a and b.  Let that be the radius
 of an open ball around the points a and b:</p>
-<p><img alt="let (r, 0) = (a - b) conjugated times (a - b) over 4
+<p><img alt="let r, 0r, 0 = a - ba - b conjugated times a - ba - b over 4
 " src="../../images/Math/topology/s_gr_13.gif" /></p>
-<p><img alt="the set Oa = {a, x are elements of H, a is fixed, r is an element of R | (a
-- x) conjugated times (a - x) is less than r} " src="../../images/Math/topology/s_gr_14.gif" /></p>
-<p><img alt="the set Ob = {b, x are elements of H, b is fixed, r is an element of R | (b
-- x) conjugated times (b - x) is less than r} " src="../../images/Math/topology/s_gr_15.gif" /></p>
+<p><img alt="the set Oa = {a, x are elements of H, a is fixed, r is an element of R | a
+- xa
+- x conjugated times a - xa - x is less than r} " src="../../images/Math/topology/s_gr_14.gif" /></p>
+<p><img alt="the set Ob = {b, x are elements of H, b is fixed, r is an element of R | b
+- xb
+- x conjugated times b - xb - x is less than r} " src="../../images/Math/topology/s_gr_15.gif" /></p>
 <p>Neither set quite reaches the other, so their intersection is null.</p>
 <h2 id="compact-sets">Compact Sets</h2>
 <p>In this section, I will begin an investigation of compact sets of quaternions.
@@ -556,8 +565,8 @@ has a finite subcover.</p>
 <p>Let's find an example of a compact set of quaternions.  Consider a set S
 composed of points with a finite number of absolute values:</p>
 <p><img alt="the set S = {x1, x2, ..., xn are elements of H; a1, a2, ..., an are elements
-of R, n is finite | the square root of x1 conjugated times x1 = (a1, 0), the
-square root of x2 conjugated times x2 = (a2, 0), ...}
+of R, n is finite | the square root of x1 conjugated times x1 = a1, 0a1, 0, the
+square root of x2 conjugated times x2 = a2, 0a2, 0, ...}
 " src="../../images/Math/topology/s_gr_16.gif" /></p>
 <p>The set S has an infinite number of members, since for any of the equalities,
 specifying the absolute value still leaves three degrees of freedom (if the
@@ -565,10 +574,11 @@ domain had been x E R, then S would have had a finite number of elements).
 The set S can be covered by an open set {O} which could have an infinite
 number of members.  There exists a subset {C} of {O} that is finite and still
 covers S.  The subset {C} would have one member for each absolute value.</p>
-<p><img alt="the set C = {y E {O}, e E R, e is greater than 0 | (a1 - e) is less than
-the square root of y conjugated times y is less than (a1 + e, 0), (a2 - e)
-is less than the square root of y conjugated times y is less than (a2 + e,
-0), ..., one y exists for each inequality} " src="../../images/Math/topology/s_gr_17.gif" /></p>
+<p><img alt="the set C = {y E {O}, e E R, e is greater than 0 | a1 - ea1 - e is less than
+the square root of y conjugated times y is less than a1 + e, 0a1 + e, 0, a2 - ea2 - e
+is less than the square root of y conjugated times y is less than a2 + e,
+0a2 + e,
+0, ..., one y exists for each inequality} " src="../../images/Math/topology/s_gr_17.gif" /></p>
 <p>Every set of quaternions composed of a finite number of absolute values like
 the set S is compact.</p>
 <p>Notice that the set S is closed because it consists of a boundary without an
@@ -584,9 +594,9 @@ of open sets that cover the set, the set must necessarily include its boundary
 and be bound.  In other words, to be compact is to be closed and bound, to be
 closed and bound is to be compact.</p>
 <p>[Wald p. 425] Theorem 1 (Heine-Borel). A closed interval of quaternions S:</p>
-<p><img alt="the set S = {x an element of H, a, b elements of R, a less than b | (a, 0)
-is less than or equal to the square root of (x conjugated times x) is less
-than or equal to (b, 0)} " src="../../images/Math/topology/s_gr_18.gif" /></p>
+<p><img alt="the set S = {x an element of H, a, b elements of R, a less than b | a, 0a, 0
+is less than or equal to the square root of x conjugated times xx conjugated times x is less
+than or equal to b, 0b, 0} " src="../../images/Math/topology/s_gr_18.gif" /></p>
 <p>with the standard topology on H is compact.</p>
 <p>Wald does not provide a proof since it appears in many books on analysis.
 Invariably the Heine-Borel Theorem employs the domain of the real numbers, x E
@@ -631,6 +641,9 @@ different, even if topologically similar to the quaternions.</p></div>
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
         <script src="../../js/base.js" defer></script>
+        <script src="../../javascripts/config.js" defer></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
 
         <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
     <div class="modal-dialog">

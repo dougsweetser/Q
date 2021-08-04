@@ -149,23 +149,27 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../../Gravity/gravity/" class="dropdown-item">Quaternion gravity</a>
+    <a href="../../Gravity/gravity.pdf" class="dropdown-item">Quaternion gravity</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/measure/" class="dropdown-item">Measurement-101 - Measuring Events</a>
+    <a href="../../Gravity/three_roads_to_quaternion_gravity/" class="dropdown-item">Three roads to quaternion gravity</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/special_relativity/" class="dropdown-item">Gravity, Measurement-101 - Special relaitivity</a>
+    <a href="../../Gravity/Measurement_101/measure/" class="dropdown-item">Measurement 101 - Measuring Events</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/quaternion_gravity/" class="dropdown-item">Measurement-101 - Quaternion Gravity</a>
+    <a href="../../Gravity/Measurement_101/special_relativity/" class="dropdown-item">Gravity, Measurement_101 - Special relaitivity</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/measure_it_all/" class="dropdown-item">Measurement-101 - SR + QG: Special Relativity and Quaternion Gravity</a>
+    <a href="../../Gravity/Measurement_101/quaternion_gravity/" class="dropdown-item">Measurement 101 - Quaternion Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/measure_it_all/" class="dropdown-item">Measurement 101 - SR + QG: Special Relativity and Quaternion Gravity</a>
 </li>
                                     
 <li>
@@ -441,53 +445,69 @@ and a Java quaternion calculator.</p>
 working with a whole quaternion q.  This will make doing quaternion analysis
 with automorphic functions fruitful.</p>
 <h2 id="parts">Parts</h2>
-<p><img alt="The scalar of q equals q plus its conjugate over two equals (t, zero)" src="../../images/Math/tools/s_gr_1.gif" /></p>
-<p><img alt="The vector of q equals q minus its conjugate over two equals (zero, V)" src="../../images/Math/tools/s_gr_2.gif" /></p>
+<p><img alt="The scalar of q equals q plus its conjugate over two equals t, zerot, zero" src="../../images/Math/tools/s_gr_1.gif" /></p>
+<p><img alt="The vector of q equals q minus its conjugate over two equals zero, Vzero, V" src="../../images/Math/tools/s_gr_2.gif" /></p>
 <h2 id="simple-algebra">Simple algebra</h2>
 <p><img alt="The absolute value of q equals the square root of q times its conjugate
-equals (the square root of t squared plus V dot V,
-0)" src="../../images/Math/tools/s_gr_3.gif" /></p>
-<p><img alt="The norm of q equals q times its conjugate equals (t squared plus V dot V,
-0)" src="../../images/Math/tools/s_gr_4.gif" /></p>
-<p><img alt="The determinant of q equals q times its conjugate squared equals (the
-square of t squared plus V dot V, 0)" src="../../images/Math/tools/s_gr_5.gif" /></p>
-<p><img alt="The sum of q and q prime equals (t plus t', V plus
-V')" src="../../images/Math/tools/s_gr_6.gif" /></p>
-<p><img alt="The difference of q and q prime equals (t minus t', V minus
-V')" src="../../images/Math/tools/s_gr_7.gif" /></p>
-<p><img alt="The conjugate of q equals q* equals (t, minus V)" src="../../images/Math/tools/s_gr_8.gif" /></p>
-<p><img alt="The inverse of q equal q conjugated over its norm equals (t, -V) over (t
-squared plus V dot V)." src="../../images/Math/tools/s_gr_9.gif" /></p>
-<p><img alt="The adjoint of q equals q conjugated times its norm equals (t, -V) times
-(t squared plus V dot V)." src="../../images/Math/tools/s_gr_10.gif" /></p>
+equals the square root of t squared plus V dot V,
+0the square root of t squared plus V dot V,
+0" src="../../images/Math/tools/s_gr_3.gif" /></p>
+<p><img alt="The norm of q equals q times its conjugate equals t squared plus V dot V,
+0t squared plus V dot V,
+0" src="../../images/Math/tools/s_gr_4.gif" /></p>
+<p><img alt="The determinant of q equals q times its conjugate squared equals the
+square of t squared plus V dot V, 0the
+square of t squared plus V dot V, 0" src="../../images/Math/tools/s_gr_5.gif" /></p>
+<p><img alt="The sum of q and q prime equals t plus t', V plus
+V't plus t', V plus
+V'" src="../../images/Math/tools/s_gr_6.gif" /></p>
+<p><img alt="The difference of q and q prime equals t minus t', V minus
+V't minus t', V minus
+V'" src="../../images/Math/tools/s_gr_7.gif" /></p>
+<p><img alt="The conjugate of q equals q* equals t, minus Vt, minus V" src="../../images/Math/tools/s_gr_8.gif" /></p>
+<p><img alt="The inverse of q equal q conjugated over its norm equals t, -Vt, -V over t
+squared plus V dot Vt
+squared plus V dot V." src="../../images/Math/tools/s_gr_9.gif" /></p>
+<p><img alt="The adjoint of q equals q conjugated times its norm equals t, -Vt, -V times
+t squared plus V dot Vt squared plus V dot V." src="../../images/Math/tools/s_gr_10.gif" /></p>
 <h2 id="multiplication">Multiplication</h2>
 <p>The Grassman product as defined here uses the same rule Hamilton developed.
 The Euclidean product takes the conjugate of the first of the two elements
 (following a tradition from quantum mechanics).</p>
-<p><img alt="The Grassman product of q and q' equals q times q prime equals (t t prime
+<p><img alt="The Grassman product of q and q' equals q times q prime equals t t prime
 minus V dot V prime, t V prime plus V t prime plus V cross V
-prime)." src="../../images/Math/tools/s_gr_11.gif" /></p>
+primet t prime
+minus V dot V prime, t V prime plus V t prime plus V cross V
+prime." src="../../images/Math/tools/s_gr_11.gif" /></p>
 <p><img alt="The Grassman even product of q and q' equals q times q prime plus q prime q
-over two equals (t t prime minus V dot V prime, t V prime plus V t
-prime)." src="../../images/Math/tools/s_gr_12.gif" /></p>
+over two equals t t prime minus V dot V prime, t V prime plus V t
+primet t prime minus V dot V prime, t V prime plus V t
+prime." src="../../images/Math/tools/s_gr_12.gif" /></p>
 <p><img alt="The Grassman odd product of q and q' equals q times q prime minus q prime q
-over two equals (zero, V cross V prime)." src="../../images/Math/tools/s_gr_13.gif" /></p>
+over two equals zero, V cross V primezero, V cross V prime." src="../../images/Math/tools/s_gr_13.gif" /></p>
 <p><img alt="The Euclidean product of q and q' equals q conjugated times q prime equals
-(t t prime plus V dot V prime, t V prime minus V t prime minus V cross V
-prime)." src="../../images/Math/tools/s_gr_14.gif" /></p>
+t t prime plus V dot V prime, t V prime minus V t prime minus V cross V
+primet t prime plus V dot V prime, t V prime minus V t prime minus V cross V
+prime." src="../../images/Math/tools/s_gr_14.gif" /></p>
 <p><img alt="The Euclidean even product of q and q' equals q conjugated times q prime
-plus q prime q conjugated over two equals (t t prime plus V dot V prime,
-zero)." src="../../images/Math/tools/s_gr_15.gif" /></p>
+plus q prime q conjugated over two equals t t prime plus V dot V prime,
+zerot t prime plus V dot V prime,
+zero." src="../../images/Math/tools/s_gr_15.gif" /></p>
 <p><img alt="The Euclidean odd product of q and q' equals q conjugated times q prime
-minus q prime q conjugated over two equals (zero, t V prime minus V t prime
-minus V cross V prime)." src="../../images/Math/tools/s_gr_16.gif" /></p>
+minus q prime q conjugated over two equals zero, t V prime minus V t prime
+minus V cross V primezero, t V prime minus V t prime
+minus V cross V prime." src="../../images/Math/tools/s_gr_16.gif" /></p>
 <h2 id="trigonometry">Trigonometry</h2>
-<p><img alt="The sine of q equals (sin t hyperbolic cosine absolute value of V, cosine t
+<p><img alt="The sine of q equals sin t hyperbolic cosine absolute value of V, cosine t
 hyperbolic sine of the absolute value of V times V normalized to
-V)" src="../../images/Math/tools/s_gr_17.gif" /></p>
-<p><img alt="The cosine of q equals (cos t hyperbolic cosine absolute value of V, minus
+Vsin t hyperbolic cosine absolute value of V, cosine t
+hyperbolic sine of the absolute value of V times V normalized to
+V" src="../../images/Math/tools/s_gr_17.gif" /></p>
+<p><img alt="The cosine of q equals cos t hyperbolic cosine absolute value of V, minus
 sine t hyperbolic sine of the absolute value of V times V normalized to
-V)" src="../../images/Math/tools/s_gr_18.gif" /></p>
+Vcos t hyperbolic cosine absolute value of V, minus
+sine t hyperbolic sine of the absolute value of V times V normalized to
+V" src="../../images/Math/tools/s_gr_18.gif" /></p>
 <p><img alt="The tangent of q equals the sine of q times the inverse of the cosine of
 q" src="../../images/Math/tools/s_gr_19.gif" /></p>
 <p>Note: since the unit vectors of sine and cosine are the same, these two
@@ -498,24 +518,32 @@ of q times V normalized to V." src="../../images/Math/tools/s_gr_20.gif" /></p>
 arccosine of q." src="../../images/Math/tools/s_gr_21.gif" /></p>
 <p><img alt="The arctangent of q equals minus V normalized to V times the hyperbolic
 arctangent of q times V normalized to V." src="../../images/Math/tools/s_gr_22.gif" /></p>
-<p><img alt="The hyperbolic sine of q equals (hyperbolic sin t cosine absolute value of
+<p><img alt="The hyperbolic sine of q equals hyperbolic sin t cosine absolute value of
 V, hyperbolic cosine t sine of the absolute value of V times V normalized to
-V)" src="../../images/Math/tools/s_gr_23.gif" /></p>
-<p><img alt="The hyperbolic cosine of q equals (hyperbolic cos t cosine absolute value
+Vhyperbolic sin t cosine absolute value of
+V, hyperbolic cosine t sine of the absolute value of V times V normalized to
+V" src="../../images/Math/tools/s_gr_23.gif" /></p>
+<p><img alt="The hyperbolic cosine of q equals hyperbolic cos t cosine absolute value
 of V, hyperbolic sine t sine of the absolute value of V times V normalized to
-V)" src="../../images/Math/tools/s_gr_24.gif" /></p>
+Vhyperbolic cos t cosine absolute value
+of V, hyperbolic sine t sine of the absolute value of V times V normalized to
+V" src="../../images/Math/tools/s_gr_24.gif" /></p>
 <p><img alt="The hyperbolic tangent of q equals the hyperbolic sine of q times the
 inverse of the hyperbolic cosine of q" src="../../images/Math/tools/s_gr_25.gif" /></p>
-<p><img alt="The hyperbolic arcsine of q equals the natural log of (q plus the square
-root of q squared plus q)." src="../../images/Math/tools/s_gr_26.gif" /></p>
-<p><img alt="The hyperbolic arccosine of q equals the natural log of (q plus or minus
-the square root of q squared minus one)." src="../../images/Math/tools/s_gr_27.gif" /></p>
+<p><img alt="The hyperbolic arcsine of q equals the natural log of q plus the square
+root of q squared plus qq plus the square
+root of q squared plus q." src="../../images/Math/tools/s_gr_26.gif" /></p>
+<p><img alt="The hyperbolic arccosine of q equals the natural log of q plus or minus
+the square root of q squared minus oneq plus or minus
+the square root of q squared minus one." src="../../images/Math/tools/s_gr_27.gif" /></p>
 <p><img alt="The hyperbolic arctangent of q equals one half times the natural log of
-(one plus q over one minus q)." src="../../images/Math/tools/s_gr_28.gif" /></p>
+one plus q over one minus qone plus q over one minus q." src="../../images/Math/tools/s_gr_28.gif" /></p>
 <h2 id="powers">Powers</h2>
-<p><img alt="The exponential of q equals (e to the t cosine absolute value of V, e to
+<p><img alt="The exponential of q equals e to the t cosine absolute value of V, e to
 the t sine of the absolute value of V times V normalized to
-V)" src="../../images/Math/tools/s_gr_29.gif" /></p>
+Ve to the t cosine absolute value of V, e to
+the t sine of the absolute value of V times V normalized to
+V" src="../../images/Math/tools/s_gr_29.gif" /></p>
 <p><img alt="q raised to the q prime equals the exponential of the natural log of q time
 q prime." src="../../images/Math/tools/s_gr_30.gif" /></p>
 <h2 id="logs">Logs</h2>
@@ -546,6 +574,9 @@ itself." src="../../images/Math/tools/s_gr_34.gif" /></p>
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
         <script src="../../js/base.js" defer></script>
+        <script src="../../javascripts/config.js" defer></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
 
         <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
     <div class="modal-dialog">

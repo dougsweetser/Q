@@ -149,23 +149,27 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../../Gravity/gravity/" class="dropdown-item">Quaternion gravity</a>
+    <a href="../../Gravity/gravity.pdf" class="dropdown-item">Quaternion gravity</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/measure/" class="dropdown-item">Measurement-101 - Measuring Events</a>
+    <a href="../../Gravity/three_roads_to_quaternion_gravity/" class="dropdown-item">Three roads to quaternion gravity</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/special_relativity/" class="dropdown-item">Gravity, Measurement-101 - Special relaitivity</a>
+    <a href="../../Gravity/Measurement_101/measure/" class="dropdown-item">Measurement 101 - Measuring Events</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/quaternion_gravity/" class="dropdown-item">Measurement-101 - Quaternion Gravity</a>
+    <a href="../../Gravity/Measurement_101/special_relativity/" class="dropdown-item">Gravity, Measurement_101 - Special relaitivity</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/measure_it_all/" class="dropdown-item">Measurement-101 - SR + QG: Special Relativity and Quaternion Gravity</a>
+    <a href="../../Gravity/Measurement_101/quaternion_gravity/" class="dropdown-item">Measurement 101 - Quaternion Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/measure_it_all/" class="dropdown-item">Measurement 101 - SR + QG: Special Relativity and Quaternion Gravity</a>
 </li>
                                     
 <li>
@@ -443,11 +447,11 @@ be valid under the transformation.</p>
 result that is a scalar, that requires the intervention of a metric to broker
 the transaction.  This process in known as an inner tensor product or a
 contraction.  The vectors in question must have the same number of dimensions.
-The metric defines how to form a scalar as the indices are examined one-by-
-one.  Metrics in math can be anything, but nature imposes constraints on which
+The metric defines how to form a scalar as the indices are examined one-by-one.<br />
+Metrics in math can be anything, but nature imposes constraints on which
 ones are important in physics.  An aside: mathematicians require that the distance
 is non-negative, but physicists do not.  I will be using the physics notion of
-a metric.  In looking at events in spacetime (a 4-dimensional vector), the
+a metric.  In looking at events in space-time (a 4-dimensional vector), the
 axioms of special relativity require the Minkowski metric, which is a 4x4 real
 matrix that has (1, -1, -1, -1) down the diagonal and zeros elsewhere.  Some
 people prefer the signs to be flipped, but to be consistent with everything
@@ -462,7 +466,7 @@ product of two vectors will be a 2-rank tensor.  A vector can be viewed as the
 tensor product of a set of basis vectors.</p>
 <h2 id="what-are-quaternions">What Are Quaternions?</h2>
 <p>Quaternions could be viewed as the outer tensor product of a scalar and a
-3-vector.  Under rotation for an event in spacetime represented by a
+3-vector.  Under rotation for an event in space-time represented by a
 quaternion, time is unchanged, but the 3-vector for space would be rotated.
 The treatment of scalars is the same as above, but the notion of vectors is
 far more restrictive, as restrictive as the notion of scalars. Quaternions can
@@ -476,8 +480,9 @@ state.  The Hilbert space is formed using the Euclidean product (q* q').</p>
 <p>A dual quaternion is formed by taking the conjugate, because q* q = (t^2 +
 X.X, 0).  A tangent quaternion is created by having an operator act on a
 quaternion-valued function</p>
-<p><img alt="(d/dt, Del) acting on (f(q), F(q)) = (f dot - div F, F dot + Grad f
-+ Curl F)" src="../../images/Math/scalars_vectors/s_gr_1.gif" /></p>
+<p><img alt="d/dt, Deld/dt, Del acting on f\(qf\(q, Fqq) = f dot - div F, F dot + Grad f
++ Curl Ff dot - div F, F dot + Grad f
++ Curl F" src="../../images/Math/scalars_vectors/s_gr_1.gif" /></p>
 <p>What would happen to these five terms if space were shrunk?  The 3-vector F
 would get shrunk, as would the divisors in the Del operator, making functions
 acted on by Del get larger.  The scalar terms are completely unaffected by
@@ -491,13 +496,16 @@ product.  Note that if time where to shrink exactly as much as space, nothing
 in the tangent quaternion would change.</p>
 <p>A quaternion equation must generate the same collection of tensors on both
 sides.  Consider the product of two events, q and q':</p>
-<p><img alt="(t, X) times (t prime , X prime) =  (t t prime  - X dot X prime , t X
-prime  + X t prime + X cross X prime)axial vectors: X cross X prime" src="../../images/Math/scalars_vectors/s_gr_2.gif" /></p>
-<p>Where is the axial vector for the left hand side?  It is imbedded in the
+<p><img alt="t, Xt, X times t prime , X primet prime , X prime =  t t prime  - X dot X prime , t X
+prime  + X t prime + X cross X primet t prime  - X dot X prime , t X
+prime  + X t prime + X cross X primeaxial vectors: X cross X prime" src="../../images/Math/scalars_vectors/s_gr_2.gif" /></p>
+<p>Where is the axial vector for the left hand side?  It is embedded in the
 multiplication operation, honest :-)</p>
-<p><img alt="(t prime , X prime) times (t, X) = (t prime t - X prime  dot X, t prime
-X + X prime  t + X prime  cross X) = (t t prime  - X dot X prime , t X prime
-+ X t prime  - X cross X prime)" src="../../images/Math/scalars_vectors/s_gr_3.gif" /></p>
+<p><img alt="t prime , X primet prime , X prime times t, Xt, X = t prime t - X prime  dot X, t prime
+X + X prime  t + X prime  cross Xt prime t - X prime  dot X, t prime
+X + X prime  t + X prime  cross X = t t prime  - X dot X prime , t X prime
++ X t prime  - X cross X primet t prime  - X dot X prime , t X prime
++ X t prime  - X cross X prime" src="../../images/Math/scalars_vectors/s_gr_3.gif" /></p>
 <p>The axial vector is the one that flips signs if the order is reversed.</p>
 <p>Terms can continue to get more complicated.  In a quaternion triple product,
 there will be terms of the form (XxX').X".  This is called a pseudo-scalar,
@@ -514,18 +522,24 @@ quaternions.  Sometimes it takes a bit of effort, but it can be done.</p>
 operators which flip the sign of a vector, and symmetric and antisymmetric
 products can isolate any particular term.  Here are all the terms of the
 example from above</p>
-<p><img alt="(t,X) times (t prime ,X prime) = (t t prime  - X dot X prime , t X
-prime  + X t prime + X cross X prime)" src="../../images/Math/scalars_vectors/s_gr_4.gif" /></p>
-<p><img alt="scalars: t = (q + q conjugated) over 2, t prime  = (q prime + q prime
-conjugated) over 2, t t prime  - X dot X prime  = (q q prime  + (q q
-prime) conjugated)/2" src="../../images/Math/scalars_vectors/s_gr_5.gif" /></p>
-<p><img alt="polar vectors: X = (q - q conjugated) over 2, X prime  = (q prime  - q
-prime  conjugated) over 2,  t X prime  + X t prime  = ((q q prime +(q
-prime  q)) - (qq prime +(q prime q)) conjugated) over
+<p><img alt="t,Xt,X times t prime ,X primet prime ,X prime = t t prime  - X dot X prime , t X
+prime  + X t prime + X cross X primet t prime  - X dot X prime , t X
+prime  + X t prime + X cross X prime" src="../../images/Math/scalars_vectors/s_gr_4.gif" /></p>
+<p><img alt="scalars: t = q + q conjugatedq + q conjugated over 2, t prime  = q prime + q prime
+conjugatedq prime + q prime
+conjugated over 2, t t prime  - X dot X prime  = q q prime  + \(q q
+primeq q prime  + \(q q
+prime conjugated)/2" src="../../images/Math/scalars_vectors/s_gr_5.gif" /></p>
+<p><img alt="polar vectors: X = q - q conjugatedq - q conjugated over 2, X prime  = q prime  - q
+prime  conjugatedq prime  - q
+prime  conjugated over 2,  t X prime  + X t prime  = \(q q prime +\(q
+prime  q\(q q prime +\(q
+prime  q) - qq prime +\(q prime qqq prime +\(q prime q) conjugated) over
 4" src="../../images/Math/scalars_vectors/s_gr_6.gif" /></p>
-<p><img alt="axial vectors: X cross X prime  = (q q prime -(q prime  q)) over
+<p><img alt="axial vectors: X cross X prime  = q q prime -\(q prime  qq q prime -\(q prime  q) over
 2" src="../../images/Math/scalars_vectors/s_gr_7.gif" /></p>
-<p>The metric for quaternions is imbedded in Hamilton's rule for the field.</p>
+<p>The metric for quaternions is embedded in Hamilton's rule for the division
+algebra.</p>
 <p><img alt="i squared = j squared = k squared = i j k = -
 1" src="../../images/Math/scalars_vectors/s_gr_8.gif" /></p>
 <p>This looks like a way to generate scalars from vectors, but it is more than
@@ -554,11 +568,11 @@ groups).</p>
 <p>This quaternion definition of a transformation creates an interesting
 relationship between the Minkowski and Euclidean metrics.</p>
 <p><img alt="Let T = I, the identity matrix" src="../../images/Math/scalars_vectors/s_gr_10.gif" /></p>
-<p><img alt="(I q I q + (I q I q) conjugated) over 2 = (t squared - X dot X, 0),
+<p><img alt="I q I q + \(I q I qI q I q + \(I q I q conjugated) over 2 = t squared - X dot X, 0t squared - X dot X, 0,
 the Minkowski interval" src="../../images/Math/scalars_vectors/s_gr_11.gif" /></p>
-<p><img alt="(I q) conjugated times I q = (t squared + X dot X, 0), the Euclidean
+<p><img alt="I qI q conjugated times I q = t squared + X dot X, 0t squared + X dot X, 0, the Euclidean
 norm" src="../../images/Math/scalars_vectors/s_gr_12.gif" /></p>
-<p>In order to change from wrist watch time (the interval in spacetime) to the
+<p>In order to change from wrist watch time (the interval in space-time) to the
 norm of a Hilbert space does not require any change in the transformation
 quaternion, only a change in the multiplication step. Therefore a
 transformation which generates the Schwarzschild interval of general
@@ -594,8 +608,11 @@ work within the same division may be the way to unite these
 two separately successful areas. </p>
 <p><strong>Update</strong> Nope, not going to work according to my current efforts. An new
 symmetry is at the heart of gravity, basically the great Minkowski light cone
-rotated by 45 degrees. Quantum mechanics need quaternion series which is
-neither normed or a division algebra (it is a semi-group instead).</p></div>
+is rotated by 45 degrees.  Quantum mechanics needs quaternion series which is
+not a division algebra.  It is a semi-group which means there is more than one
+multiplicative inverse.  Quaternion series can be non-zero but the product of
+two quaternion series is zero.  These represent orthagonal states which is 
+common in quantum mechanics.</p></div>
             </div>
         </div>
 
@@ -608,6 +625,9 @@ neither normed or a division algebra (it is a semi-group instead).</p></div>
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
         <script src="../../js/base.js" defer></script>
+        <script src="../../javascripts/config.js" defer></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
 
         <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
     <div class="modal-dialog">

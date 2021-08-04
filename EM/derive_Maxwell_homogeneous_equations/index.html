@@ -149,23 +149,27 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../../Gravity/gravity/" class="dropdown-item">Quaternion gravity</a>
+    <a href="../../Gravity/gravity.pdf" class="dropdown-item">Quaternion gravity</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/measure/" class="dropdown-item">Measurement-101 - Measuring Events</a>
+    <a href="../../Gravity/three_roads_to_quaternion_gravity/" class="dropdown-item">Three roads to quaternion gravity</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/special_relativity/" class="dropdown-item">Gravity, Measurement-101 - Special relaitivity</a>
+    <a href="../../Gravity/Measurement_101/measure/" class="dropdown-item">Measurement 101 - Measuring Events</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/quaternion_gravity/" class="dropdown-item">Measurement-101 - Quaternion Gravity</a>
+    <a href="../../Gravity/Measurement_101/special_relativity/" class="dropdown-item">Gravity, Measurement_101 - Special relaitivity</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/measure_it_all/" class="dropdown-item">Measurement-101 - SR + QG: Special Relativity and Quaternion Gravity</a>
+    <a href="../../Gravity/Measurement_101/quaternion_gravity/" class="dropdown-item">Measurement 101 - Quaternion Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/measure_it_all/" class="dropdown-item">Measurement 101 - SR + QG: Special Relativity and Quaternion Gravity</a>
 </li>
                                     
 <li>
@@ -435,8 +439,8 @@
 <h1 id="derive-the-maxwell-homogeneous-equations">Derive the Maxwell homogeneous equations</h1>
 <h2 id="the-easy-way">The easy way</h2>
 <p>There are several different roads to the same results, the no monopoles law and
-Faraday's law, known together as the homogenous equations.  The quickest path
-is to show how they are vector idenities.  The divergence of a curl is zero, so
+Faraday's law, known together as the homogeneous equations.  The quickest path
+is to show how they are vector identities.  The divergence of a curl is zero, so
 if the magnetic field is the curl of the potential A, then there are no
 magnetic monopoles.</p>
 <p>One down, one to go.</p>
@@ -478,7 +482,7 @@ The way to implement that quality is to set this gauge term equal to zero like
 so:</p>
 <p><img alt="One half Del times A minus the conjugate of Del times A equals 0, -E + B" src="../../images/EM/derive_Maxwell_homogeneous_equations/DelA_no_scalar.png" /></p>
 <p>This is a recurring technique.  If something travels at the speed of light,
-there will be non of the the four gauge terms:</p>
+there will be non of the four gauge terms:</p>
 <p><img alt="" src="../../images/EM/derive_Maxwell_homogeneous_equations/gauge_terms.png" /></p>
 <p>The electric and magnetic field are unchanged by changing the guage because the
 gauge terms are always subtracted away.</p>
@@ -497,14 +501,14 @@ the speed of light.  It is the subject of particles with a mass.</p>
 <h2 id="writing-out-the-lagrangian">Writing out the Lagrangian</h2>
 <p>The dot product of the electric and magnetic fields has 24 terms.  It is scary,
 so start simple with one term only, <em>E~x~</em>:</p>
-<p><img alt="E dot B equals minus the time derivative of A~x~ minux the derivative of phi with respect to x" src="../../images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_Ex.png" /></p>
+<p><img alt="E dot B equals minus the time derivative of A~x~ minus the derivative of phi with respect to x" src="../../images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_Ex.png" /></p>
 <p>The magnetic field <em>B~x~</em> has everything not found in <em>E~x~</em>, including both
 the potentials and derivatives.</p>
-<p><img alt="E dot B equals minus the time derivative of A~x~ minux the derivative of phi with respect to x times the derivative of A~y~ with respect of z minus the derivative of A~z~ with respect to y" src="../../images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_Ex_Bx.png" /></p>
+<p><img alt="E dot B equals minus the time derivative of A~x~ minus the derivative of phi with respect to x times the derivative of A~y~ with respect of z minus the derivative of A~z~ with respect to y" src="../../images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_Ex_Bx.png" /></p>
 <p>It is seeing details like all four potential terms and all four differentials
 in each line that makes the Maxwell equations feel so complete.</p>
 <p>Multiply this out.</p>
-<p><img alt="E dot B equals minus the time derivative of A~x~ minux the derivative of phi with respect to x times the derivative of A~y~ with respect of z minus the derivative of A~z~ with respect to y; which equals minus the 
+<p><img alt="E dot B equals minus the time derivative of A~x~ minus the derivative of phi with respect to x times the derivative of A~y~ with respect of z minus the derivative of A~z~ with respect to y; which equals minus the 
 time derivative of A~x~ the derivative of A~y~ with respect to z minus the
 derivative of phi with respect to x the derivative of A~y~ with respect to z plus the time derivative of A~x~ the derivative of A~z~ with respect to y plus the derivative of phi with respect to x the derivative of A~z~ with respect to y" src="../../images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_Ex_Bx_details.png" /></p>
 <ul>
@@ -512,7 +516,7 @@ derivative of phi with respect to x the derivative of A~y~ with respect to z plu
 <li>Each term has a t, x, y, z-ish part.</li>
 <li>8 down, 16 to go.</li>
 </ul>
-<p>Clone <em>E~x~</em> to make <em>E~y~</em> and <em>E~z~</em> making all necessary subsitutions:</p>
+<p>Clone <em>E~x~</em> to make <em>E~y~</em> and <em>E~z~</em> making all necessary substitutions:</p>
 <p><img alt="" src="../../images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_Ex_Ey_Ez.png" /></p>
 <p>Look for patterns in the partial derivatives:</p>
 <p><img alt="" src="../../images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_Ex_Ey_Ez_dz_dy.png" /></p>
@@ -523,7 +527,7 @@ with respect to <em>x</em> go.  That will dictate where the other partials go to
 <p><img alt="" src="../../images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_curl.png" /></p>
 <p>This is the game of curl Sudoku.  Fill in the missing values for <em>x</em>, <em>y</em> and <em>z</em>.</p>
 <p><img alt="" src="../../images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_details_all.png" /></p>
-<p>All the needed slots are filled in.  The Soduko game is complete.</p>
+<p>All the needed slots are filled in.  The Sudoku game is complete.</p>
 <p>Now remove some of the details.  The dot product of <em>E</em> and <em>B</em> is pretty:</p>
 <p><img alt="" src="../../images/EM/derive_Maxwell_homogeneous_equations/E_dot_B_pattern.png" /></p>
 <p>The Lorentz invariant Lagrange density is complete.</p>
@@ -551,7 +555,7 @@ Using these three guides, you should be able to picture how the Lagrange
 density is changed by applying the Euler-Lagrange equation.</p>
 <p>With minuses in one column, and pluses in the other, cancellations happen:</p>
 <p><img alt="" src="../../images/EM/derive_Maxwell_homogeneous_equations/mixed_terms_cancel.png" /></p>
-<p>Focus on teh example.  See how the phi drops, and one has mixed derivatives
+<p>Focus on the example.  See how the phi drops, and one has mixed derivatives
 with opposite signs.  Nice.</p>
 <p>What is going on in terms of the E and B fields?  Look at things row by row:</p>
 <p><img alt="" src="../../images/EM/derive_Maxwell_homogeneous_equations/Del_dot_B_details.png" /></p>
@@ -584,7 +588,7 @@ with quaternions that were deleted by the second edition by Heaviside.  Finding
 the first version was a struggle, but I did find it.  It had two sections with
 "Quaternion" in the title.  It was clear that this grand master of old was only
 using the 3-vector part of a quaternion.  This is not where the fun is in my
-opinion.  Since I have derived and rederived and rewritten my derivations of
+opinion.  Since I have derived and rewritten my derivations of
 the Maxwell equations using only quaternions many times, I can assure you,
 nothing is missing.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
@@ -602,6 +606,9 @@ nothing is missing.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
         <script src="../../js/base.js" defer></script>
+        <script src="../../javascripts/config.js" defer></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
 
         <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
     <div class="modal-dialog">

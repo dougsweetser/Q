@@ -149,23 +149,27 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../../Gravity/gravity/" class="dropdown-item">Quaternion gravity</a>
+    <a href="../../Gravity/gravity.pdf" class="dropdown-item">Quaternion gravity</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/measure/" class="dropdown-item">Measurement-101 - Measuring Events</a>
+    <a href="../../Gravity/three_roads_to_quaternion_gravity/" class="dropdown-item">Three roads to quaternion gravity</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/special_relativity/" class="dropdown-item">Gravity, Measurement-101 - Special relaitivity</a>
+    <a href="../../Gravity/Measurement_101/measure/" class="dropdown-item">Measurement 101 - Measuring Events</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/quaternion_gravity/" class="dropdown-item">Measurement-101 - Quaternion Gravity</a>
+    <a href="../../Gravity/Measurement_101/special_relativity/" class="dropdown-item">Gravity, Measurement_101 - Special relaitivity</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/measure_it_all/" class="dropdown-item">Measurement-101 - SR + QG: Special Relativity and Quaternion Gravity</a>
+    <a href="../../Gravity/Measurement_101/quaternion_gravity/" class="dropdown-item">Measurement 101 - Quaternion Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/measure_it_all/" class="dropdown-item">Measurement 101 - SR + QG: Special Relativity and Quaternion Gravity</a>
 </li>
                                     
 <li>
@@ -403,7 +407,7 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#deriving-the-euler-lagrange-equations" class="nav-link">Deriving the euler-lagrange equations</a>
+            <li class="nav-item" data-level="2"><a href="#deriving-the-euler-lagrange-equations" class="nav-link">Deriving the Euler-Lagrange equations</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -431,9 +435,9 @@ density varied with respect to a variable and posibly the derivatives of the
 variable integrated over 
 space-time" src="../../images/EM/derive_Euler-Lagrange/dS_is_zero.png" /></p>
 <p>This is a minimization problem, or more formally, the calculus of variations.
-the first types of minimization problems one learns are about the minimum value
-of something like a velocity at a point in space-time. this is about a 
-minimization of a function over all of space-time. the mechanics are the same - 
+The first types of minimization problems one learns are about the minimum value
+of something like a velocity at a point in space-time. This is about a 
+minimization of a function over all of space-time. The mechanics are the same - 
 take a derivative, set it to zero - but the thing that gets plugged in is 
 different.</p>
 <h2 id="examples">Examples</h2>
@@ -454,18 +458,18 @@ symmetry and <strong>angular momentum</strong> is conserved.</p>
 <h2 id="counter-example">Counter example</h2>
 <ul>
 <li>If a lagrange equation <strong>is a function of space and time</strong>, then <strong>energy and 
-momentum are not conserved</strong>. this happens for systems that have friction.  the 
-energy and momentum go into waste heat. those terms usually are not included in 
-the lagrange density. </li>
+momentum are not conserved</strong>. This happens for systems that have friction.  The 
+energy and momentum go into waste heat. Those terms usually are not included in 
+the Lagrange density. </li>
 </ul>
-<h2 id="deriving-the-euler-lagrange-equations">Deriving the euler-lagrange equations</h2>
-<p>If a lagrange density depends on a 4-potential a and the derivatives of a, then 
-vary these and find a minimum. this is the heart of the euler-lagrange 
+<h2 id="deriving-the-euler-lagrange-equations">Deriving the Euler-Lagrange equations</h2>
+<p>If a Lagrange density depends on a 4-potential a and the derivatives of a, then 
+vary these and find a minimum. This is the heart of the Euler-Lagrange 
 equations.</p>
 <p><img alt="the integral of the lagrange density varied with respect to a and the 
 derivative of a integrated over space-time equals 
 0" src="../../images/EM/derive_Euler-Lagrange/zero_eq_int_L_dA_dDelA.png" /></p>
-<p>This is a mimnum problem with the potential A and its derivative, A'.</p>
+<p>This is a minimum problem with the potential A and its derivative, A'.</p>
 <p>1: Start with a Lagrange density that is a function of the potential and its derivatives.</p>
 <p><img alt="The Lagrange density is a function of the potential and the derivatives of 
 the potential" src="../../images/EM/derive_Euler-Lagrange/L_eq_f_A_DelA.png" /></p>
@@ -478,29 +482,29 @@ that is a function of the potential A and the derivatives of the potential
 A'" src="../../images/EM/derive_Euler-Lagrange/S_eq_L_A_DelA.png" /></p>
 <p>3: Vary the action.</p>
 <p><img alt="Vary the action S which equals the integral over space-time of the partial 
-derivative of the Lagrange density with repect to A while varying A plus the 
-derivative of the Lagrange density with repect to the derivative of A while 
+derivative of the Lagrange density with respect to A while varying A plus the 
+derivative of the Lagrange density with respect to the derivative of A while 
 varying the derivative of 
 A" src="../../images/EM/derive_Euler-Lagrange/dS_eq_dL_dAdA_plus_dL_dDelA_dDelA.png" /></p>
-<p>4: The problem is with the variation in A versus the variantion is the derivative of A.  Use the product rule to get two variations in A.</p>
-<p><img alt="The derivative of the product of the patial derivative of the Lagrange 
+<p>4: The problem is with the variation in A versus the variation is the derivative of A.  Use the product rule to get two variations in A.</p>
+<p><img alt="The derivative of the product of the partial derivative of the Lagrange 
 density with respect to Del A times the variation in A equals Del the partial 
 derivative of the Lagrangian with respect to Del A while varying A plus the 
-partial derivative of the Lagrangian with repect to Del A while varying Del 
+partial derivative of the Lagrangian with respect to Del A while varying Del 
 A" src="../../images/EM/derive_Euler-Lagrange/Del_product_dL_DelA_dA.png" /></p>
 <p>5: A theorem of Gauss says:</p>
-<p><img alt="The gradient of the partial derivative of the Lagrangian with respec to Del A 
+<p><img alt="The gradient of the partial derivative of the Lagrangian with respect to Del A 
 while varying A equals 
 zero" src="../../images/EM/derive_Euler-Lagrange/Del_dL_DelA_dA_eq_0.png" /></p>
 <p>so:</p>
 <p><img alt="" src="../../images/EM/derive_Euler-Lagrange/minus_DeldldA_eq_dL_dDelA.png" /></p>
-<p>6: Subsitute 5 into the variation in 3:</p>
+<p>6: Substitute 5 into the variation in 3:</p>
 <p><img alt="Vary the action S which equals the integral over space-time of the partial 
-derivative of the Lagrange density with repect to A minus the 
-derivative of the Lagrange density with repect to Del A while varying with repect to A" src="../../images/EM/derive_Euler-Lagrange/dS_eq_dL_dAdA_plus_dL_dDelA_dDelA.png" /></p>
+derivative of the Lagrange density with respect to A minus the 
+derivative of the Lagrange density with respect to Del A while varying with respect to A" src="../../images/EM/derive_Euler-Lagrange/dS_eq_dL_dAdA_plus_dL_dDelA_dDelA.png" /></p>
 <p>7: The variation will be at the minimum if the variation in the action S is 
-zero, which happends if the integrand is zero:</p>
-<p><img alt="The derivative of the Lagrange density with repect to A is equal to the 
+zero, which happens if the integrand is zero:</p>
+<p><img alt="The derivative of the Lagrange density with respect to A is equal to the 
 derivative of the partial derivative of the Lagrange density with respect to 
 Del A" src="../../images/EM/derive_Euler-Lagrange/Euler-Lagrange_eq.png" /></p>
 <p>QED</p>
@@ -519,6 +523,9 @@ people with thin you are brilliant.</p>
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
         <script src="../../js/base.js" defer></script>
+        <script src="../../javascripts/config.js" defer></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
 
         <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
     <div class="modal-dialog">

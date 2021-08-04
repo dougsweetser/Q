@@ -788,7 +788,10 @@ causality
 \end_layout
 
 \begin_layout Section
-My Beliefs About It All in 3D Space + Time
+My Beliefs About It All in 3D Space + TimeThere is a small twist for the
+ first and second conjugates.
+ One way to calculate the first conjugate is to put in a factor of $i$ before
+ and after the quaternion, like so:
 \end_layout
 
 \begin_layout Standard
@@ -1037,7 +1040,7 @@ y.
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename /home/doug/workspace/q/docs/images/QM/BellsFuture/Bells_future_QM_Bell.jpg
+	filename ../images/QM/BellsFuture/Bells_future_QM_Bell.jpg
 
 \end_inset
 
@@ -1349,7 +1352,7 @@ Here are all six states:
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename /home/doug/workspace/q/docs/images/QM/BellsFuture/entagled_states.1-6.png
+	filename /home/doug/workspace/Q/docs/images/QM/BellsFuture/entagled_states.1-6.png
 
 \end_inset
 

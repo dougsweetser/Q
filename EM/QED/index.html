@@ -149,23 +149,27 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../../Gravity/gravity/" class="dropdown-item">Quaternion gravity</a>
+    <a href="../../Gravity/gravity.pdf" class="dropdown-item">Quaternion gravity</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/measure/" class="dropdown-item">Measurement-101 - Measuring Events</a>
+    <a href="../../Gravity/three_roads_to_quaternion_gravity/" class="dropdown-item">Three roads to quaternion gravity</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/special_relativity/" class="dropdown-item">Gravity, Measurement-101 - Special relaitivity</a>
+    <a href="../../Gravity/Measurement_101/measure/" class="dropdown-item">Measurement 101 - Measuring Events</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/quaternion_gravity/" class="dropdown-item">Measurement-101 - Quaternion Gravity</a>
+    <a href="../../Gravity/Measurement_101/special_relativity/" class="dropdown-item">Gravity, Measurement_101 - Special relaitivity</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/measure_it_all/" class="dropdown-item">Measurement-101 - SR + QG: Special Relativity and Quaternion Gravity</a>
+    <a href="../../Gravity/Measurement_101/quaternion_gravity/" class="dropdown-item">Measurement 101 - Quaternion Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/measure_it_all/" class="dropdown-item">Measurement 101 - SR + QG: Special Relativity and Quaternion Gravity</a>
 </li>
                                     
 <li>
@@ -410,8 +414,8 @@ approach neatly separates the scalar and vector terms of a quaternion.  Recall
 how the electric field was defined (where {A, B} is the even or symmetric
 product over 2, and [A, B] is the odd, antisymmetric product over two or cross
 product).</p>
-<p><img alt="E = vector(even((d by dt, Del), (phi, -A))) = (0, - Grad phi - A dot)" src="../../images/EM/QED/s_gr_1.gif" /></p>
-<p><img alt="B = odd((d by dt, Del), (phi, A)) = (0,  Curl A)" src="../../images/EM/QED/s_gr_2.gif" /></p>
+<p><img alt="E = vectoreven\(\(d by dt, Deleven\(\(d by dt, Del, phi, -Aphi, -A)) = 0, - Grad phi - A dot0, - Grad phi - A dot" src="../../images/EM/QED/s_gr_1.gif" /></p>
+<p><img alt="B = odd\(d by dt, Del\(d by dt, Del, phi, Aphi, A) = 0,  Curl A0,  Curl A" src="../../images/EM/QED/s_gr_2.gif" /></p>
 <p>The scalar information is explicitly discarded from the E field quaternion.
 In this notebook, the scalar field that arises will be examined and shown to
 be the field which gives rise to gauge symmetry.  The commutators and
@@ -422,10 +426,12 @@ transverse wave.</p>
 <p>In the previous notebook, the electric field was generated differently from
 the magnetic field, since the scalar field was discard.  This time that will
 not be done.</p>
-<p><img alt="E = even((d by dt, Del), (phi, -A)) = (phi dot - div A, - A dot -
-Grad phi)" src="../../images/EM/QED/s_gr_3.gif" /></p>
-<p><img alt="B = odd((d by dt, Del), (phi, A)) = (0,  Curl
-A)" src="../../images/EM/QED/s_gr_4.gif" /></p>
+<p><img alt="E = even\(d by dt, Del\(d by dt, Del, phi, -Aphi, -A) = phi dot - div A, - A dot -
+Grad phiphi dot - div A, - A dot -
+Grad phi" src="../../images/EM/QED/s_gr_3.gif" /></p>
+<p><img alt="B = odd\(d by dt, Del\(d by dt, Del, phi, Aphi, A) = 0,  Curl
+A0,  Curl
+A" src="../../images/EM/QED/s_gr_4.gif" /></p>
 <p>What is the name of the scalar field, d phi/dt - Del.A which looks like some
 sort of gauge?  It is not the Lorenz or Landau gauge which has a plus sign
 between the two.  It is none of the popular gauges: Coulomb (Del.A = 0), axial
@@ -437,15 +443,18 @@ psi.  The following substitutions do not effect the resulting equations.</p>
 <p><img alt="phi goes to phi prime = phi - psi dot" src="../../images/EM/QED/s_gr_5.gif" /></p>
 <p><img alt="A goes to A prime = A + Grad psi" src="../../images/EM/QED/s_gr_6.gif" /></p>
 <p>This can be written as one quaternion transformation.</p>
-<p><img alt="(phi, A)  goes to  (phi prime, A prime) =  (phi, A) + (- phi dot,
-Grad psi)" src="../../images/EM/QED/s_gr_7.gif" /></p>
+<p><img alt="phi, Aphi, A  goes to  phi prime, A primephi prime, A prime =  phi, Aphi, A + - phi dot,
+Grad psi- phi dot,
+Grad psi" src="../../images/EM/QED/s_gr_7.gif" /></p>
 <p>The goal here is to find an arbitrary scalar and a 3-vector that does the same
 work as the scalar function psi.  Let</p>
 <p><img alt="p = - phi dot  and  Alpha = Grad psi" src="../../images/EM/QED/s_gr_8.gif" /></p>
 <p>Look at how the gauge symmetry changes by taking its derivative.</p>
-<p><img alt="(d by dt, Del) acting on (- phi dot, Grad psi) = (-  Laplacian psi-psi
-double dot, Curl Del psi - Del phi dot + Del phi dot) = (p dot - div Alpha,
-0)" src="../../images/EM/QED/s_gr_9.gif" /></p>
+<p><img alt="d by dt, Deld by dt, Del acting on - phi dot, Grad psi- phi dot, Grad psi = -  Laplacian psi-psi
+double dot, Curl Del psi - Del phi dot + Del phi dot-  Laplacian psi-psi
+double dot, Curl Del psi - Del phi dot + Del phi dot = p dot - div Alpha,
+0p dot - div Alpha,
+0" src="../../images/EM/QED/s_gr_9.gif" /></p>
 <p>This is the gauge with no name!  Call it the "light gauge".  That name was
 chosen because if the rate of change in the scalar potential phi is equal to
 the spatial change of the 3-vector potential A as should be the case for a
@@ -453,20 +462,22 @@ photon, the distance is zero.</p>
 <h2 id="the-maxwell-equations-in-the-light-gauge">The Maxwell Equations in the Light Gauge</h2>
 <p>The homogeneous terms of the Maxwell equations are formed from the sum of both
 orders of the commutator and anticommutator.</p>
-<p><img alt="even((d by dt, Del), odd((d by dt, Del), (phi, A))) + odd((d by
-dt, Del), even((d by dt, - Del), (phi, -A))) =
+<p><img alt="even\(d by dt, Del\(d by dt, Del, odd\(d by dt, Del\(d by dt, Del, phi, Aphi, A)) + odd\(d by
+dt, Del\(d by
+dt, Del, even\(d by dt, - Del\(d by dt, - Del, phi, -Aphi, -A)) =
 " src="../../images/EM/QED/s_gr_10.gif" /></p>
-<p><img alt="= (- div Curl A , - Curl  Grad phi) = (0, 0)" src="../../images/EM/QED/s_gr_11.gif" /></p>
+<p><img alt="= - div Curl A , - Curl  Grad phi- div Curl A , - Curl  Grad phi = 0, 00, 0" src="../../images/EM/QED/s_gr_11.gif" /></p>
 <p>The source terms arise from of two commutators and two anticommutators.  In
 the classical case discussed in the previous notebook, this involved a
 difference.  Here a sum will be used because it generates a simpler
 differential equation.</p>
-<p><img alt="odd((d by dt, Del),odd((d by dt, Del), (phi, A))) - even((d by
-dt, Del), even((d by dt, - Del), (phi, -A))) =" src="../../images/EM/QED/s_gr_12.gif" /></p>
-<p><img alt="= (phi double dot + Laplacian phi , - A double dot +  Curl (Curl A) - Del
+<p><img alt="odd\(d by dt, Del\(d by dt, Del,odd\(d by dt, Del\(d by dt, Del, phi, Aphi, A)) - even\(d by
+dt, Del\(d by
+dt, Del, even\(d by dt, - Del\(d by dt, - Del, phi, -Aphi, -A)) =" src="../../images/EM/QED/s_gr_12.gif" /></p>
+<p><img alt="= phi double dot + Laplacian phi , - A double dot +  Curl \(Curl Aphi double dot + Laplacian phi , - A double dot +  Curl \(Curl A - Del
 divA)" src="../../images/EM/QED/s_gr_13.gif" /></p>
-<p><img alt="= (phi double dot + laplacian phi , - A double dot -  Laplacian A) =  4 pi
-(rho, J)" src="../../images/EM/QED/s_gr_14.gif" /></p>
+<p><img alt="= phi double dot + Laplacian phi , - A double dot -  Laplacian Aphi double dot + Laplacian phi , - A double dot -  Laplacian A =  4 pi
+rho, Jrho, J" src="../../images/EM/QED/s_gr_14.gif" /></p>
 <p>Notice how the scalar and vector parts have neatly partitioned themselves.
 This is a wave equation, except that a sign is flipped.  Here is the equation
 for a longitudinal wave like sound.</p>
@@ -475,8 +486,9 @@ for a longitudinal wave like sound.</p>
 solution which depends on sines and cosines (for simplicity, the details of
 initial and boundary conditions are skipped, and the infinite sum has been
 made finite).</p>
-<p><img alt="Omega = Sum from n = 0 to infinity of cosine (n pi t) sine (n pi
-R)" src="../../images/EM/QED/s_gr_16.gif" /></p>
+<p><img alt="Omega = Sum from n = 0 to infinity of cosine n pi tn pi t sine n pi
+Rn pi
+R" src="../../images/EM/QED/s_gr_16.gif" /></p>
 <p><img alt="Omega double dot - Laplacian Omega = 0" src="../../images/EM/QED/s_gr_17.gif" /></p>
 <p>Hit w with two time derivatives, and out comes -n^2 pi^2 w.  Take Del^2, and
 that creates the same results.  Thus every value of n will satisfy the
@@ -486,8 +498,9 @@ One of the signs must be switched by doing some operation twice.  Sounds like
 a job for i!  With quaternions, the square of a  normalized 3-vector equals
 (-1, 0), and it is i if y = z = 0 .  The solution to Maxwell's equations in
 the light gauge is</p>
-<p><img alt="Omega = Sum from n = 0 to infinity of cosine (n pi t) sine (n pi R
-V)" src="../../images/EM/QED/s_gr_18.gif" /></p>
+<p><img alt="Omega = Sum from n = 0 to infinity of cosine n pi tn pi t sine n pi R
+Vn pi R
+V" src="../../images/EM/QED/s_gr_18.gif" /></p>
 <p><img alt="if   V squared = -1, then Omega double dot +  Laplacian Omega =
 0" src="../../images/EM/QED/s_gr_19.gif" /></p>
 <p>Hit this two time derivatives yields -n^2 pi^2 w.  Del^2 w has all of this and
@@ -512,6 +525,9 @@ generated by taking the classical Maxwell equations, and making them simpler.</p
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
         <script src="../../js/base.js" defer></script>
+        <script src="../../javascripts/config.js" defer></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
 
         <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
     <div class="modal-dialog">

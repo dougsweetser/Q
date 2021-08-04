@@ -149,23 +149,27 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../../Gravity/gravity/" class="dropdown-item">Quaternion gravity</a>
+    <a href="../../Gravity/gravity.pdf" class="dropdown-item">Quaternion gravity</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/measure/" class="dropdown-item">Measurement-101 - Measuring Events</a>
+    <a href="../../Gravity/three_roads_to_quaternion_gravity/" class="dropdown-item">Three roads to quaternion gravity</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/special_relativity/" class="dropdown-item">Gravity, Measurement-101 - Special relaitivity</a>
+    <a href="../../Gravity/Measurement_101/measure/" class="dropdown-item">Measurement 101 - Measuring Events</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/quaternion_gravity/" class="dropdown-item">Measurement-101 - Quaternion Gravity</a>
+    <a href="../../Gravity/Measurement_101/special_relativity/" class="dropdown-item">Gravity, Measurement_101 - Special relaitivity</a>
 </li>
                                     
 <li>
-    <a href="../../Gravity/Measurement-101/measure_it_all/" class="dropdown-item">Measurement-101 - SR + QG: Special Relativity and Quaternion Gravity</a>
+    <a href="../../Gravity/Measurement_101/quaternion_gravity/" class="dropdown-item">Measurement 101 - Quaternion Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/measure_it_all/" class="dropdown-item">Measurement 101 - SR + QG: Special Relativity and Quaternion Gravity</a>
 </li>
                                     
 <li>
@@ -424,20 +428,23 @@ oscillator.  Therefore it is necessary to get a handle on everything.</p>
 <h2 id="the-simple-harmonic-oscillator-sho">The Simple Harmonic Oscillator (SHO)</h2>
 <p>The differential equation for a simple harmonic oscillator in one dimension
 can be express with quaternion operators.</p>
-<p><img alt="(d by dt, 0) squared acting on (0, x, 0, 0) + (0, k x over m, 0, 0) =
-(0,x double dot + k x/m, 0, 0) = 0" src="../../images/Classical_physics/sho/s_gr_1.gif" /></p>
+<p><img alt="d by dt, 0d by dt, 0 squared acting on 0, x, 0, 00, x, 0, 0 + 0, k x over m, 0, 00, k x over m, 0, 0 =
+0,x double dot + k x/m, 0, 00,x double dot + k x/m, 0, 0 = 0" src="../../images/Classical_physics/sho/s_gr_1.gif" /></p>
 <p>This equation can be solved directly.</p>
-<p><img alt="x = C(2) cosine (the square root of k over m times t) + C(1) sine (the square root of k over m times t)" src="../../images/Classical_physics/sho/s_gr_2.gif" /></p>
+<p><img alt="x = C22 cosine the square root of k over m times tthe square root of k over m times t + C11 sine the square root of k over m times tthe square root of k over m times t" src="../../images/Classical_physics/sho/s_gr_2.gif" /></p>
 <p>Find the velocity by taking the derivative with respect to time.</p>
-<p><img alt="x dot = the square root of k over m times C(1) cosine (the square root of
-k over m times t) - the square root of k over m times times C(2) sine (the
-square root of k over m times t))" src="../../images/Classical_physics/sho/s_gr_3.gif" /></p>
+<p><img alt="x dot = the square root of k over m times C11 cosine the square root of
+k over m times tthe square root of
+k over m times t - the square root of k over m times times C22 sine the
+square root of k over m times tthe
+square root of k over m times t)" src="../../images/Classical_physics/sho/s_gr_3.gif" /></p>
 <h2 id="the-damped-simple-harmonic-oscillator">The Damped Simple Harmonic Oscillator</h2>
 <p>Generate the differential equation for a damped simple harmonic oscillator as
 done above.</p>
-<p><img alt="(d by dt,0) squared acting on (0,x, 0, 0) + (d by dt,0) acting on (0,
-b x, 0, 0) + (0, k x over m,0,0) =" src="../../images/Classical_physics/sho/s_gr_4.gif" /></p>
-<p><img alt="= (0, x double dot + b x dot + k x over m, 0, 0) = 0" src="../../images/Classical_physics/sho/s_gr_5.gif" /></p>
+<p><img alt="d by dt,0d by dt,0 squared acting on 0,x, 0, 00,x, 0, 0 + d by dt,0d by dt,0 acting on 0,
+b x, 0, 00,
+b x, 0, 0 + 0, k x over m,0,00, k x over m,0,0 =" src="../../images/Classical_physics/sho/s_gr_4.gif" /></p>
+<p><img alt="= 0, x double dot + b x dot + k x over m, 0, 00, x double dot + b x dot + k x over m, 0, 0 = 0" src="../../images/Classical_physics/sho/s_gr_5.gif" /></p>
 <p>Solve the equation.</p>
 <p><img alt="x = c1 times e to the - b - the square root of b squared - 4 k over m over 2
 times t + c2 times e to the - b + the square root of b squared - 4 k over m
@@ -445,10 +452,11 @@ over 2 times t " src="../../images/Classical_physics/sho/s_gr_6.gif" /></p>
 <h2 id="the-wave-equation">The Wave Equation</h2>
 <p>Consider a wave traveling along the x direction.  The equation which governs
 its motion is given by</p>
-<p><img alt="(1/v d by dt,d by dx, 0, 0) squared acting on (0, 0, f(t v + x), 0)
+<p><img alt="1/v d by dt,d by dx, 0, 01/v d by dt,d by dx, 0, 0 squared acting on 0, 0, f\(t v + x0, 0, f\(t v + x, 0)
 =" src="../../images/Classical_physics/sho/s_gr_7.gif" /></p>
-<p><img alt="=(0, 0, (-d squared  by d x squared +1/v squared  d squared  by d t
-squared ) f(t v+x), 2 d squared  f(t v + x)/v dt dx)" src="../../images/Classical_physics/sho/s_gr_8.gif" /></p>
+<p><img alt="=0, 0, \(-d squared  by d x squared +1/v squared  d squared  by d t
+squared 0, 0, \(-d squared  by d x squared +1/v squared  d squared  by d t
+squared  ft v+xt v+x, 2 d squared  ft v + xt v + x/v dt dx)" src="../../images/Classical_physics/sho/s_gr_8.gif" /></p>
 <p>The third term is the one dimensional wave equation.  The forth term is the
 instantaneous power transmitted by the wave.</p>
 <h2 id="implications">Implications</h2>
@@ -472,6 +480,9 @@ harmonic oscillator appears in the Klein-Gordon equation.</p></div>
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
         <script src="../../js/base.js" defer></script>
+        <script src="../../javascripts/config.js" defer></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
 
         <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
     <div class="modal-dialog">
