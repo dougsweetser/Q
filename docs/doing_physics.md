@@ -1941,7 +1941,7 @@ interpretation. See the bottom of the page for other presentations of the idea.
 
 D. B. Sweetser
 
-sweetser\@alum.mit.edu
+sweetser@alum.mit.edu
 
 Three roads merge to create a different approach to gravity. Our deepest
 insights into nature use symmetries because symmetries remain unchanged.
@@ -1953,7 +1953,7 @@ how change is permitted to happen. The notion of relaxed relativity
 holds that in a gravitational field, one observer looking at another
 observer measuring the speed of light will find the product of
 wavelength and frequency differs from the speed of light in a precise
-way ($c' =  c \gamma^2_{esc}$). Lorentz invariance remains for inertial observers, but
+way ($c' =  c \gamma^2_{esc}$). (\(c' =  c \gamma^2_{esc}\))Lorentz invariance remains for inertial observers, but
 non-inertial observers are governed by different symmetries. Gravity is
 different everywhere, so a field theory is also necessary using escape
 velocities. With some reasonable guesses constrained by observations,
@@ -1994,9 +1994,7 @@ To make life simpler, use Euclidean coordinates, assuming space-time is
 flat. Because quaternions are numbers, the difference between the two
 numbers can be squared without using a metric tensor:
 
-$$\begin{aligned}
-(dt,dx/c,dy/c,dz/c)^{2}&=(dt^{2}-(dx^{2}+dy^{2}+dz^{2})/c^{2},2dtdx/c,2dtdy/c,2dtdz/c)\\&=(d\tau^{2},2dtdx/, 2 dt dy, 2 dt dz)
-\end{aligned}$$
+![](images/Gravity/Three_roads/measure_length.png)
 
 The scalar term (aka first term) is the Lorentz invariant interval
 squared of spatial relativity for two inertial observers. The 3-vector
@@ -2064,7 +2062,7 @@ a Cartesian calculation-world view on the manifold . But for the sake of
 good practice, write space-times-time invariance in a manifestly
 coordinate-free form:
 
-$$dQ^{2}=\frac{1}{2}(dQ^{2}+(dQ^{2})^{*})+\frac{1}{2}(dQ^{2}-(dQ^{2})^{*})$$
+![](images/Gravity/Three_roads/dQ_squared.png)
 
 The quaternion gravity proposal is that the second term above will be
 constant in a simple gravitational field.
@@ -2135,10 +2133,7 @@ imaginary values, $2 dt dR$.
 The form of transformations in relaxed relativity must start from the
 same form as for special relativity.[^1]
 
-$$\begin{aligned}
-dt \rightarrow & dt'=\gamma dt-\gamma\beta dR/c\\
-dR \rightarrow & dR'=\gamma dR-\gamma\beta cdt
-\end{aligned}$$
+![](images/Gravity/Three_roads/dt_to_dt_prime_dR_to_dR_prime.png)
 
 In relaxed relativity, one can explore other types of transformations
 that are not allowed under special relativity. It has been established
@@ -2148,15 +2143,11 @@ of the first expression that eliminates the spatial term. Any constant
 linear function can be added to the primed frame since it will be
 subtracted away.
 
-$$\begin{aligned}
-t''&=&t'+f(R')\\&=&t'+\beta R'/c
-\end{aligned}$$
+![](images/Gravity/Three_roads/t_prime_prime.png)
 
 See how this coordinate choice effects the transformation:
 
-$$\begin{aligned}
-dt''&=\gamma dt-\gamma\beta dR/c+\beta(\gamma dR/c-\gamma\beta dt)\\&=\gamma(1-\beta^{2})dt\\&=dt/\gamma
-\end{aligned}$$
+![](images/Gravity/Three_roads/dt_prime_prime_equals_dt_over_gamma.png)
 
 This coordinate choice eliminates the dependence on changes in space, $dR$.
 Events that are simultaneous in the unprimed frame will be simultaneous
@@ -2175,14 +2166,12 @@ double primed frame based on the time transformation described above. As
 such, the length would be twice as long in the double primed frame. The
 transformation is thus:
 
-$$dR\rightarrow dR''=\gamma dR$$
+![](images/Gravity/Three_roads/dR_to_gamma_dR.png)
 
 With these two transformations in hand, look at what happens for
 space-times-time, velocities, and a differential quaternion squared:
 
-$$\begin{aligned}
-dt''dR''&=dtdR\\dR''/dt''&=\gamma^{2}dR/dt\\(dt'',dR''/c)^{2}&=(\frac{1}{\gamma^{2}}dt^{2}-\gamma^{2}dR^{2}/c^{2},2\:dt\:dR/c)
-\end{aligned}$$
+![](images/Gravity/Three_roads/dt_dR_prime_prime_eq_dt_dR.png)
 
 This coordinate transformation does preserve space-times-time. This is
 not special relativity since an observer in the double primed frame will
@@ -2210,9 +2199,7 @@ escape velocity can be calculated for every point in space-time, so is
 an escape-velocity field. Use this escape velocity field as the velocity
 needed to calculate the square interval.
 
-$$\begin{aligned}
-(dt'',dR''/c)^{2}&=\left(\left(1-2\frac{GM}{c^{2}R}\right)dt^{2}-\left(\frac{1}{1-2\frac{GM}{c^{2}R}}\right)dR^{2}/c^{2},2\:dt\:dR/c\right)\\&=\left(\left(1-2\frac{GM}{c^{2}R}\right)dt^{2}-\left(1+2\frac{GM}{c^{2}R}+O(2)\right)dR^{2}/c^{2},2\:dt\:dR/c\right)
-\end{aligned}$$
+![](images/Gravity/Three_roads/dt_dR_squared_in_gravity.png)
 
 This is an improvement on Newton's original proposal for gravity. Notice
 how measurements of space change. This is enough for the three classical
@@ -2251,9 +2238,7 @@ Therefore it seams natural to propose that the geometric length of a
 source mass, $\frac{G M}{c^2 R}$, be used in an exponential function since it will generate
 the five terms found in the first order PPN formalism.
 
-$$\begin{aligned}
-(dt'',dR''/c)^{2}&=\left(e^{-\frac{GM}{c^{2}R}}dt,e^{\frac{GM}{c^{2}R}}dR^{2}/c,2\:dt\:dR/c\right)^{2}\\&=\left(\left(1-2\frac{GM}{c^{2}R}+2\left(\frac{GM}{c^{2}R}\right)^{2}+O(3)\right)dt^{2}-\left(1+2\frac{GM}{c^{2}R}+O(2)\right)dR^{2}/c^{2},2\:dt\:dR/c\right)
-\end{aligned}$$
+![](images/Gravity/Three_roads/dt_dR_squared_w_exp.png)
 
 The first term of this expression has the form of the contraction of two
 rank 1 4-vectors using a flat Minkowski metric. Mathematically, it is no
@@ -2307,7 +2292,7 @@ on either time or angles. As such, the expression will conserve both
 energy and angular momentum. If one only keeps the lowest order terms of
 the exponential equation, the equations of motion are:
 
-$$\left(\frac{dR}{d\tau}\right)^{2}+\frac{L^{2}}{R^{2}}-2\frac{GML^{2}}{c^{2}R^{3}}-2\frac{GM}{R}=c^{2}\left(\frac{E^{2}}{mc^{2}}-1\right)$$]
+![](images/Gravity/Three_roads/gravity_eq_of_motion.png)
 
 These are exactly the same equations of motion as the Schwarzschild
 solution of general relativity since the first order expressions have an
@@ -2463,7 +2448,7 @@ relativity.
     the axis, a space-time event and a function can do the standard
     boost with this function:
 
-    $$P\rightarrow P'=HPH^{*}+\frac{1}{2}((HHP)^{*}-(H^{*}H^{*}P)^{*})$$
+    ![](images/Gravity/Three_roads/quaternion_boost.png)
 
     It may be the case that people searched for a function that was only
     one triple product as happens for rotations, and not this sum of
