@@ -4,9 +4,7 @@
 
 The entire site is available a number of ways. As a book:
 
-[Doing Physics with Quaternions PDF](
-
-[Doing Physics with Quaternions EPUB]()
+[Doing Physics with Quaternions PDF or EPUB](https://leanpub.com/doingphysicswithquaternionsv11)
 
 Put the site on your own computer.  At the command line, run:
 
