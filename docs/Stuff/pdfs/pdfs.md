@@ -6,6 +6,8 @@ The entire site is available a number of ways. As a book:
 
 [Doing Physics with Quaternions PDF or EPUB](https://leanpub.com/doingphysicswithquaternionsv11)
 
+I am not sure if leanpub is working so well, so [here is the pdf](../../Book/doing_physics.pdf) or [epub](../../Book/doing_physics_with_quaternions.epub).
+
 Put the site on your own computer.  At the command line, run:
 
 git clone https://github.com/dougsweetser/Q.git
