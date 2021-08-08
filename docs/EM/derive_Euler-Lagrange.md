@@ -114,7 +114,7 @@ Del A](../images/EM/derive_Euler-Lagrange/Euler-Lagrange_eq.png)
 QED
 
 There are so many partial differential equations when using Euler-Lagrange,
-people with thin you are brilliant.
+people with think you are brilliant.
 
 ![](../images/EM/derive_Euler-Lagrange/details.png)
 
