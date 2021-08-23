@@ -1,4 +1,4 @@
-Bet Against Lubos
+Bet Against Luboš
 
 I spent years being an active reader and sometime participant in the moderated
 newsgroup sci.physics.research. In the early days of the text-heavy  Internet,
@@ -10,7 +10,7 @@ The unmoderated newsgroup sci.physics was a soapbox for crank physicists. One
 guy loved to write "TIME IS MASS". While amusing, it was not worthy of much
 time or mass.
 
-The most important feature of SPR as it was sometimes called was that Prof.
+The most important feature of SPR as it was sometimes called was that Prof.Luboš
 John Baez and a few of his friends posted there regularly. Baez loved to teach,
 often at great length. There was a farmer from England who called himself "Oz"
 that Baez spent a big effort trying to teach some quite obscure mathematical
@@ -21,14 +21,14 @@ jargon. On the occasion when these obscure discussion did reach me, it made
 the time investment worthwhile. Mathematical physics is a difficult art, so it
 was nice when I felt I understood a subtle issue.
 
-Every community has its characters. A few times a year, [Lubos%C5% Motl](https://en.wikipedia.org/wiki/Lubo%C5%A1_Motl)
-A few times a year, Lubos Motl would jump into a thread. If you know Lubos, you
-know Lubos. The comments would get sharper, more biting when Lubos joined the
-discussion. Lubos was strongly of the opinion that work on strings was the
+Every community has its characters. A few times a year, [Luboš%C5% Motl](https://en.wikipedia.org/wiki/Lubo%C5%A1_Motl)
+A few times a year, Luboš Motl would jump into a thread. If you know Luboš, you
+know Luboš. The comments would get sharper, more biting when Luboš joined the
+discussion. Luboš was strongly of the opinion that work on strings was the
 correct direction to go. If you disagreed, then you were a complete and total
 moron. I wondered if he was real or a bit of fiction.
 
-Lubos Motl is real. It became clear to me after one exchange that I could not
+Luboš Motl is real. It became clear to me after one exchange that I could not
 have a rational argument with the man. He was right, I was wrong. He does have
 a number of technical accomplishments. I have seen him lucidly describe issues
 in high energy physics. In a programming contest sponsored by CERN to write a
@@ -40,12 +40,13 @@ total.
 A question I posed myself was how to deal with him. Rational discussions were
 rules out. A bet would not work since we are not of equal stature in the
 physics community. I wanted something one-sided and long term. My idea back in
-2004 was to write Lubos a check that I would mail him if any time in ten years
+2004 was to write Luboš a check that I would mail him if any time in ten years
 there was a consensus in the physics community that more than four dimensions 
-were needed to describe gravity and the standard model. Here are the two checks
-because I changed banks somewhere in the middle:
+were needed to describe gravity and the standard model. Here are the check which
+I am OK to put on the Internet since the account was closed somewhere in the middle
+ of the decade:
 
-![]()
+![](../../images/Blogs/Lubos_check.jpg)
 
 This is my documentation that I believe Lubos is wrong about the direction
 physics should go. In 2014, I did not send him the check.
@@ -68,7 +69,7 @@ will quote in full [](http://physics.stackexchange.com/questions/7292/quaternion
 
     I recently realised that quaternions could be used to write intervals or norms of vectors in special relativity:
 
-    ![](quaternion_squared_question.png)
+![](quaternion_squared_question.png)
 
     Is it useful? Is it used? Does it bring anything? Or is it just funny?
 
@@ -184,7 +185,7 @@ Use analytic geometry to draw constant space-times-time curves:
 This graph is the light cone graph rotated by 45 degrees. The constant
 space-times-time hyperbolas are positive or negative imaginary numbers.
 
-We finally get to Lubos's reply.  I will quote it in full:
+We finally get to Luboš's reply.  I will quote it in full:
 
     It's just funny. Note that your equation doesn't actually use any single
     general quaternion. You only use the i,j,ki,j,k imaginary units in an *ad hoc*
@@ -228,13 +229,13 @@ We finally get to Lubos's reply.  I will quote it in full:
     fun, and your fun even used a wrong signature that differs from a somewhat more
     natural fun.
 
-This is a defensible position. As such, I have no doubt if asked today Lubos
+This is a defensible position. As such, I have no doubt if asked today Luboš
 will still consider it a flawless answer. My comments that follow are not
-directed toward Lubos who has demonstrated the intellectual flexibility of a
+directed toward Luboš who has demonstrated the intellectual flexibility of a
 stapler. Rather it is for the entertainment of people who like taking down
 folks with more than 130,000 reputation points.
 
-Lubos completely ignores the original poster's question which is typical of his
+Luboš completely ignores the original poster's question which is typical of his
 style. There is nothing *ad hoc* about the rule for multiply quaternions on a
 four dimensional real manifold to assure that an inverse exists unless the 
 quaternion is zero. The original post was asking about something that is
@@ -246,7 +247,7 @@ Here is the misdirection play:
     it is...
 
 I have no notion of what "semi-natural" might mean. What does it take to be
-fully natural? All that is going on is that Lubos is making a similar
+fully natural? All that is going on is that Luboš is making a similar
 assumption that if one does an operation to get the Lorentz invariant interval,
 the other terms necessarily should be zero. That cannot be done with
 quaternions, and that is a good thing.
@@ -267,7 +268,7 @@ the norm of any quaternion expression, we know that norm will not change under
 an electro-weak transformation without doing a thing. I consider that fully
 natural.
 
-Lubos makes the same train wreck error that the original poster did. A
+Luboš makes the same train wreck error that the original poster did. A
 quaternion times the conjugate of a quaternion creates a quaternion. The right
 answer for the calculation of the norm is:
 
@@ -299,7 +300,7 @@ circle or sphere, or outside. It will take many particles to create such a
 structure since half the points have a space-like separation. How exactly is
 this related to charge conservation?
 
-Lubos wrote "so the 4 real components in a quaternion still have the
+Luboš wrote "so the 4 real components in a quaternion still have the
 Euclidean, rather than Minkowskian, signature. I call this sophisticated
 garbage. The Minkowski metric tensor takes two 4-vectors and returns one real
 number. The elements along the diagonal of the 4x4 matrix are +--- or -+++ for
@@ -345,7 +346,7 @@ equivalence relation so one can always go from the space-times-time numbers to
 quaternions.
 
 Quaternion bashing is an old sport. With little effort, one could cite the
-literature in support of of Lubos' replay. Let's compile of list of "just
+literature in support of of Luboš' reply. Let's compile of list of "just
 funny" links one can make between the two simple quaternion functions of a
 square and norm with physics. Start with two observers looking at the
 difference between two events (which eliminates the need to agree about the
@@ -353,8 +354,8 @@ origin). Let both observers square the values they obtained. If both intervals
 are the same, then the space-times-time values can be used to figure out how
 one observer is moving steadily relative to the other. If the three
 space-times-time values are identical, then the difference in the intervals can
-be used to determine the difference in GM/c<sup>2</sub>R between between the
+be used to determine the difference in GM/c<sup>2</sup>R between between the
 two observers. If the norms are the same, then there exists both a U(1) and an
 SU(2) transformation between the two. At this point, I have not idea what that
 means. I do believe that someday it will be useful. I like betting against
-Lubos.
+Luboš.
