@@ -9,14 +9,9 @@ dev_addr: 127.0.0.1:8004
 google_analytics: ['UA-9710248-1', 'dougsweetser.github.io/Q']
 
 markdown_extensions: 
-    - markdown_include.include
     - footnotes
     - pymdownx.arithmatex:
-        generic: false
-extra_javascript:
-  - javascripts/config.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+        generic: true
 
 plugins:
     - exclude:
@@ -52,7 +47,6 @@ nav:
     - 'Problem set 1': 'SR/problem_set_1.md'
     - 'Totally ordered_sets in Space-time': 'SR/totally_ordered_sets_in_space-time.md'
 - Gravity:
-    - 'Gravity': 'Gravity/gravity.md'
     - 'Quaternion gravity': 'Gravity/gravity.pdf'
     - 'Three roads to quaternion gravity': 'Gravity/three_roads_to_quaternion_gravity.md'
     - 'Measurement 101 - Measuring Events': 'Gravity/Measurement_101/measure.md' 

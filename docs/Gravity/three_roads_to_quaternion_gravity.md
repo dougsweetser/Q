@@ -22,6 +22,7 @@ one can form a quaternion gravity proposal that is consistent with weak
 field gravity tests. No gravitons are required for this technical
 variant of special relativity.
 
+$$E = m c^2$$
 
 ## Conserving Changes in Space-times-time
 
