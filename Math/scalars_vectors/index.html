@@ -12,11 +12,11 @@
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/color-brewer.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/color-brewer.min.css">
 
         <script src="../../js/jquery-1.10.2.min.js" defer></script>
         <script src="../../js/bootstrap.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script>
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -147,10 +147,6 @@
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Gravity <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../Gravity/gravity/" class="dropdown-item">Gravity</a>
-</li>
                                     
 <li>
     <a href="../../Gravity/gravity.pdf" class="dropdown-item">Quaternion gravity</a>
@@ -484,9 +480,8 @@ state.  The Hilbert space is formed using the Euclidean product (q* q').</p>
 <p>A dual quaternion is formed by taking the conjugate, because q* q = (t^2 +
 X.X, 0).  A tangent quaternion is created by having an operator act on a
 quaternion-valued function</p>
-<p><img alt="d/dt, Deld/dt, Del acting on f\(qf\(q, Fqq) = f dot - div F, F dot + Grad f
-+ Curl Ff dot - div F, F dot + Grad f
-+ Curl F" src="../../images/Math/scalars_vectors/s_gr_1.gif" /></p>
+<p><img alt="\(d/dt, Del\) acting on \(f\(q\), F\(q\)) = \(f dot - div F, F dot + Grad f
++ Curl F\)" src="../../images/Math/scalars_vectors/s_gr_1.gif" /></p>
 <p>What would happen to these five terms if space were shrunk?  The 3-vector F
 would get shrunk, as would the divisors in the Del operator, making functions
 acted on by Del get larger.  The scalar terms are completely unaffected by
@@ -500,16 +495,13 @@ product.  Note that if time where to shrink exactly as much as space, nothing
 in the tangent quaternion would change.</p>
 <p>A quaternion equation must generate the same collection of tensors on both
 sides.  Consider the product of two events, q and q':</p>
-<p><img alt="t, Xt, X times t prime , X primet prime , X prime =  t t prime  - X dot X prime , t X
-prime  + X t prime + X cross X primet t prime  - X dot X prime , t X
-prime  + X t prime + X cross X primeaxial vectors: X cross X prime" src="../../images/Math/scalars_vectors/s_gr_2.gif" /></p>
+<p><img alt="\(t, X\) times \(t prime , X prime\) =  \(t t prime  - X dot X prime , t X
+prime  + X t prime + X cross X prime\)axial vectors: X cross X prime" src="../../images/Math/scalars_vectors/s_gr_2.gif" /></p>
 <p>Where is the axial vector for the left hand side?  It is embedded in the
 multiplication operation, honest :-)</p>
-<p><img alt="t prime , X primet prime , X prime times t, Xt, X = t prime t - X prime  dot X, t prime
-X + X prime  t + X prime  cross Xt prime t - X prime  dot X, t prime
-X + X prime  t + X prime  cross X = t t prime  - X dot X prime , t X prime
-+ X t prime  - X cross X primet t prime  - X dot X prime , t X prime
-+ X t prime  - X cross X prime" src="../../images/Math/scalars_vectors/s_gr_3.gif" /></p>
+<p><img alt="\(t prime , X prime\) times \(t, X\) = \(t prime t - X prime  dot X, t prime
+X + X prime  t + X prime  cross X\) = \(t t prime  - X dot X prime , t X prime
++ X t prime  - X cross X prime\)" src="../../images/Math/scalars_vectors/s_gr_3.gif" /></p>
 <p>The axial vector is the one that flips signs if the order is reversed.</p>
 <p>Terms can continue to get more complicated.  In a quaternion triple product,
 there will be terms of the form (XxX').X".  This is called a pseudo-scalar,
@@ -526,21 +518,16 @@ quaternions.  Sometimes it takes a bit of effort, but it can be done.</p>
 operators which flip the sign of a vector, and symmetric and antisymmetric
 products can isolate any particular term.  Here are all the terms of the
 example from above</p>
-<p><img alt="t,Xt,X times t prime ,X primet prime ,X prime = t t prime  - X dot X prime , t X
-prime  + X t prime + X cross X primet t prime  - X dot X prime , t X
-prime  + X t prime + X cross X prime" src="../../images/Math/scalars_vectors/s_gr_4.gif" /></p>
-<p><img alt="scalars: t = q + q conjugatedq + q conjugated over 2, t prime  = q prime + q prime
-conjugatedq prime + q prime
-conjugated over 2, t t prime  - X dot X prime  = q q prime  + \(q q
-primeq q prime  + \(q q
-prime conjugated)/2" src="../../images/Math/scalars_vectors/s_gr_5.gif" /></p>
-<p><img alt="polar vectors: X = q - q conjugatedq - q conjugated over 2, X prime  = q prime  - q
-prime  conjugatedq prime  - q
-prime  conjugated over 2,  t X prime  + X t prime  = \(q q prime +\(q
-prime  q\(q q prime +\(q
-prime  q) - qq prime +\(q prime qqq prime +\(q prime q) conjugated) over
+<p><img alt="\(t,X\) times \(t prime ,X prime\) = \(t t prime  - X dot X prime , t X
+prime  + X t prime + X cross X prime\)" src="../../images/Math/scalars_vectors/s_gr_4.gif" /></p>
+<p><img alt="scalars: t = \(q + q conjugated\) over 2, t prime  = \(q prime + q prime
+conjugated\) over 2, t t prime  - X dot X prime  = \(q q prime  + \(q q
+prime\) conjugated)/2" src="../../images/Math/scalars_vectors/s_gr_5.gif" /></p>
+<p><img alt="polar vectors: X = \(q - q conjugated\) over 2, X prime  = \(q prime  - q
+prime  conjugated\) over 2,  t X prime  + X t prime  = \(\(q q prime +\(q
+prime  q\)) - \(qq prime +\(q prime q\)) conjugated) over
 4" src="../../images/Math/scalars_vectors/s_gr_6.gif" /></p>
-<p><img alt="axial vectors: X cross X prime  = q q prime -\(q prime  qq q prime -\(q prime  q) over
+<p><img alt="axial vectors: X cross X prime  = \(q q prime -\(q prime  q\)) over
 2" src="../../images/Math/scalars_vectors/s_gr_7.gif" /></p>
 <p>The metric for quaternions is embedded in Hamilton's rule for the division
 algebra.</p>
@@ -572,9 +559,9 @@ groups).</p>
 <p>This quaternion definition of a transformation creates an interesting
 relationship between the Minkowski and Euclidean metrics.</p>
 <p><img alt="Let T = I, the identity matrix" src="../../images/Math/scalars_vectors/s_gr_10.gif" /></p>
-<p><img alt="I q I q + \(I q I qI q I q + \(I q I q conjugated) over 2 = t squared - X dot X, 0t squared - X dot X, 0,
+<p><img alt="\(I q I q + \(I q I q\) conjugated) over 2 = \(t squared - X dot X, 0\),
 the Minkowski interval" src="../../images/Math/scalars_vectors/s_gr_11.gif" /></p>
-<p><img alt="I qI q conjugated times I q = t squared + X dot X, 0t squared + X dot X, 0, the Euclidean
+<p><img alt="\(I q\) conjugated times I q = \(t squared + X dot X, 0\), the Euclidean
 norm" src="../../images/Math/scalars_vectors/s_gr_12.gif" /></p>
 <p>In order to change from wrist watch time (the interval in space-time) to the
 norm of a Hilbert space does not require any change in the transformation
@@ -629,9 +616,6 @@ common in quantum mechanics.</p></div>
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
         <script src="../../js/base.js" defer></script>
-        <script src="../../javascripts/config.js" defer></script>
-        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6" defer></script>
-        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
 
         <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
     <div class="modal-dialog">

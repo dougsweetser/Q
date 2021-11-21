@@ -12,11 +12,11 @@
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/color-brewer.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/color-brewer.min.css">
 
         <script src="../../js/jquery-1.10.2.min.js" defer></script>
         <script src="../../js/bootstrap.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script>
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -147,10 +147,6 @@
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Gravity <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../Gravity/gravity/" class="dropdown-item">Gravity</a>
-</li>
                                     
 <li>
     <a href="../../Gravity/gravity.pdf" class="dropdown-item">Quaternion gravity</a>
@@ -429,7 +425,7 @@
 <h1 id="introduction-to-relativistic-quantum-mechanics">Introduction to Relativistic Quantum Mechanics</h1>
 <p>The relativistic quantum mechanic equation for a free particle is the Klein-
 Gordon equation (h=c=1)</p>
-<p><img alt="The second time derivative - Laplacian + m squaredThe second time derivative - Laplacian + m squared acting on psi = 0" src="../../images/QM/Klein-Gordon/s_gr_1.gif" /></p>
+<p><img alt="\(The second time derivative - Laplacian + m squared\) acting on psi = 0" src="../../images/QM/Klein-Gordon/s_gr_1.gif" /></p>
 <p>The Schr&ouml;dinger equation results from the non-relativistic limit of this
 equation. In this section, the machinery of the Klein-Gordon equation will be
 ported to quaternions.</p>
@@ -438,16 +434,13 @@ ported to quaternions.</p>
 product of the conjugate of a wave function with another wave function forms a
 complete inner product space. In the energy/momentum representation, this
 would involve all possible energy levels and momenta.</p>
-<p><img alt="psi is defined to be the sum from n = 0 to infinity of E sub n, P sub n
-E sub n, P sub n
-" src="../../images/QM/Klein-Gordon/s_gr_2.gif" /></p>
+<p><img alt="psi is defined to be the sum from n = 0 to infinity of \(E sub n, P sub n
+\)" src="../../images/QM/Klein-Gordon/s_gr_2.gif" /></p>
 <p>This infinite sum of quaternions should contain all the information about a
 system.  The quaternion wave function can be normalized.</p>
-<p><img alt="The sum from n =  0 to infinity of E sub n, P sub nE sub n, P sub n conjugated times E
-sub n, P sub nE
-sub n, P sub n = the sum from n = 0 to infinity of E sub n squared + P sub
-n squared, 0E sub n squared + P sub
-n squared, 0 = 1" src="../../images/QM/Klein-Gordon/s_gr_3.gif" /></p>
+<p><img alt="The sum from n =  0 to infinity of \(E sub n, P sub n\) conjugated times \(E
+sub n, P sub n\) = the sum from n = 0 to infinity of \(E sub n squared + P sub
+n squared, 0\) = 1" src="../../images/QM/Klein-Gordon/s_gr_3.gif" /></p>
 <p>The first quaternion is the conjugate or transpose of the second.  Since the
 transpose of a quaternion wave function times a wave function creates a
 Euclidean norm, this representation of wave functions as an infinite sum of
@@ -457,14 +450,11 @@ quaternions can form a complete, normed product space.</p>
 wave function:  the D'Alembertian and the scalar m^2^.  The quaternion operator
 required to create the D'Alembertian, along with vector identities, has
 already been worked out for the Maxwell equations in the Lorenz gauge.</p>
-<p><img alt="the sum from n = 0 to infinity of \(d by dt, Del\(d by dt, Del squared + d by dt, -
-Deld by dt, -
-Del squared) acting on E sub n, P sub nE sub n, P sub n over 2 =" src="../../images/QM/Klein-Gordon/s_gr_4.gif" /></p>
-<p><img alt="= the sum from n = 0 to infinity of E sub n double dot - div Grad E sub n
+<p><img alt="the sum from n = 0 to infinity of \(\(d by dt, Del\) squared + \(d by dt, -
+Del\) squared) acting on \(E sub n, P sub n\) over 2 =" src="../../images/QM/Klein-Gordon/s_gr_4.gif" /></p>
+<p><img alt="= the sum from n = 0 to infinity of \(E sub n double dot - div Grad E sub n
 - div curl P sub n, P sub n double dot - Grad div P sub n + Del Cross Del
-Cross P sub n + Del Cross Grad E sub nE sub n double dot - div Grad E sub n
-- div curl P sub n, P sub n double dot - Grad div P sub n + Del Cross Del
-Cross P sub n + Del Cross Grad E sub n" src="../../images/QM/Klein-Gordon/s_gr_5.gif" /></p>
+Cross P sub n + Del Cross Grad E sub n\)" src="../../images/QM/Klein-Gordon/s_gr_5.gif" /></p>
 <p>The first term of the scalar, and the second term of the vector, are both
 equal to zero.  What is left is the D'Alembertian operator acting on the
 quaternion wave function.</p>
@@ -484,7 +474,7 @@ Gordon equation along with vector identities.</p>
 the operators used to generate the Maxwell equations in the Lorenz gauge.  In
 the homogeneous case, the same operator acting on two different quaternions
 equals the same result.  This implies that</p>
-<p><img alt="phi, Aphi, A =  the sum from n = 0 to infinity of E sub n, P sub nE sub n, P sub n" src="../../images/QM/Klein-Gordon/s_gr_9.gif" /></p>
+<p><img alt="\(phi, A\) =  the sum from n = 0 to infinity of \(E sub n, P sub n\)" src="../../images/QM/Klein-Gordon/s_gr_9.gif" /></p>
 <p>Under this interpretation, a nonzero mass changes the wave equation into a
 simple harmonic oscillator.  The simple relationship between the quaternion
 potential and the wave function may hold for the nonhomogeneous case as well.</p>
@@ -509,9 +499,6 @@ operators are a field, an operator that does the task must exist.</p></div>
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
         <script src="../../js/base.js" defer></script>
-        <script src="../../javascripts/config.js" defer></script>
-        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6" defer></script>
-        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
 
         <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
     <div class="modal-dialog">

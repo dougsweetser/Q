@@ -12,11 +12,11 @@
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/color-brewer.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/color-brewer.min.css">
 
         <script src="../../js/jquery-1.10.2.min.js" defer></script>
         <script src="../../js/bootstrap.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script>
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -147,10 +147,6 @@
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Gravity <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../Gravity/gravity/" class="dropdown-item">Gravity</a>
-</li>
                                     
 <li>
     <a href="../../Gravity/gravity.pdf" class="dropdown-item">Quaternion gravity</a>
@@ -427,15 +423,14 @@
 Relativistic Time Reversal<br />
 Implications</p>
 <p>The following transformation R for quaternions reverses time:</p>
-<p><img alt="t, Xt, X goes to -t, X-t, X = R times t,
-Xt,
-X" src="../../images/QM/time_reversal/s_gr_1.gif" /></p>
+<p><img alt="\(t, X\) goes to \(-t, X\) = R times \(t,
+X\)" src="../../images/QM/time_reversal/s_gr_1.gif" /></p>
 <p>The quaternion R exist because quaternions are a field.  </p>
 <p>R will equal  (-t, X )(t, <img alt="" src="../../images/QM/time_reversal/s_gr_2.gif" />.  The inverse of
 quaternion is the transpose over the square of the norm, which is the scalar
 term of the transpose of a quaternion times itself.</p>
-<p><img alt=" R  = -t, X-t, Xtimest, Xt, Xinverse= -t squared + X dot X, 2 t  X-t squared + X dot X, 2 t  X over
-t squared + X dot Xt squared + X dot X" src="../../images/QM/time_reversal/s_gr_3.gif" /></p>
+<p><img alt=" R  = \(-t, X\)times\(t, X\)inverse= \(-t squared + X dot X, 2 t  X\) over
+\(t squared + X dot X\)" src="../../images/QM/time_reversal/s_gr_3.gif" /></p>
 <p>For any given time, R can be defined based on the above.</p>
 <h2 id="classical-time-reversal">Classical Time Reversal</h2>
 <p>Examine the form of the quaternion which reverses time under two conditions.
@@ -443,24 +438,21 @@ A interval normalized to the interval takes the form (1, beta), a scalar one
 and a 3-vector relativistic velocity beta .  In the classical region,
 beta&lt;&lt;&lt;1.  Calculate R in this limit to one order of magnitude in
 beta.</p>
-<p><img alt=" R  = -t, Beta-t, Betatimes t, Betat, Beta inverse = -t squared + Beta dot Beta,
-2 t  Beta-t squared + Beta dot Beta,
-2 t  Beta over t squared + Beta dot Beta,
-0t squared + Beta dot Beta,
-0" src="../../images/QM/time_reversal/s_gr_4.gif" /></p>
-<p><img alt="if   beta is much much less than 1 then R is approximately equal to -1, 2
-t  Beta-1, 2
-t  Beta" src="../../images/QM/time_reversal/s_gr_5.gif" /></p>
+<p><img alt=" R  = \(-t, Beta\)times \(t, Beta\) inverse = \(-t squared + Beta dot Beta,
+2 t  Beta\) over \(t squared + Beta dot Beta,
+0\)" src="../../images/QM/time_reversal/s_gr_4.gif" /></p>
+<p><img alt="if   beta is much much less than 1 then R is approximately equal to \(-1, 2
+t  Beta\)" src="../../images/QM/time_reversal/s_gr_5.gif" /></p>
 <p>The operator R is almost the negative identity, but the vector is non-zero,
 so it would not commute.</p>
 <h2 id="relativistic-time-reversal">Relativistic Time Reversal</h2>
 <p>For a relativistic interval involving one axis, the interval could be
 characterized by the following:</p>
-<p><img alt="T + e,T, 0, 0T + e,T, 0, 0" src="../../images/QM/time_reversal/s_gr_6.gif" /></p>
+<p><img alt="\(T + e,T, 0, 0\)" src="../../images/QM/time_reversal/s_gr_6.gif" /></p>
 <p>Find out what quaternion is required to reverse time for this relativistic
 interval to first order in epsilon.</p>
-<p><img alt="R= t squared -\(T+ et squared -\(T+ e squared ,2 T T+eT+e, 0, 0) all over t squared +
-T + eT + e squared" src="../../images/QM/time_reversal/s_gr_7.gif" /></p>
+<p><img alt="R= \(t squared -\(T+ e\) squared ,2 T \(T+e\), 0, 0) all over t squared +
+\(T + e\) squared" src="../../images/QM/time_reversal/s_gr_7.gif" /></p>
 <p>This approaches q[-e/T, 1, 0, 0], almost a pure vector, a result distinct from
 the classical case.</p>
 <h2 id="implications">Implications</h2>
@@ -488,9 +480,6 @@ laws of physics.</p></div>
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
         <script src="../../js/base.js" defer></script>
-        <script src="../../javascripts/config.js" defer></script>
-        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6" defer></script>
-        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
 
         <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
     <div class="modal-dialog">

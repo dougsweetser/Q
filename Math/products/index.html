@@ -12,11 +12,11 @@
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/color-brewer.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/color-brewer.min.css">
 
         <script src="../../js/jquery-1.10.2.min.js" defer></script>
         <script src="../../js/bootstrap.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script>
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -147,10 +147,6 @@
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Gravity <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../Gravity/gravity/" class="dropdown-item">Gravity</a>
-</li>
                                     
 <li>
     <a href="../../Gravity/gravity.pdf" class="dropdown-item">Quaternion gravity</a>
@@ -437,15 +433,14 @@ related to physics.</p>
 <h2 id="the-grassman-inner-and-outer-products">The Grassman Inner and Outer Products</h2>
 <p>There are two basic ways to multiply quaternions together.  There is the
 direct approach.</p>
-<p><img alt="t, Xt, X times t prime , X primet prime , X prime = t t prime  - X dot X prime , t X
-prime  + X t prime  + X cross X primet t prime  - X dot X prime , t X
-prime  + X t prime  + X cross X prime" src="../../images/Math/products/s_gr_1.gif" /></p>
+<p><img alt="\(t, X\) times \(t prime , X prime\) = \(t t prime  - X dot X prime , t X
+prime  + X t prime  + X cross X prime\)" src="../../images/Math/products/s_gr_1.gif" /></p>
 <p>I call this the Grassman product (I do not know if anyone else does, but I need
 a label).  The inner product can also be called the symmetric product, because
 it does not change signs if the terms are reversed.</p>
-<p><img alt="even\(t, X\(t, X,t prime , Xt prime , X) is defined to be" src="../../images/Math/products/s_gr_2.gif" /></p>
-<p><img alt="\(t, X\(t, X times t prime , Xt prime , X + t prime , Xt prime , X times t, Xt, X) over 2 =
-t t prime  -X dot X, X + t primet t prime  -X dot X, X + t prime" src="../../images/Math/products/s_gr_3.gif" /></p>
+<p><img alt="even\(\(t, X\),\(t prime , X\)) is defined to be" src="../../images/Math/products/s_gr_2.gif" /></p>
+<p><img alt="\(\(t, X\) times \(t prime , X\) + \(t prime , X\) times \(t, X\)) over 2 =
+\(t t prime  -X dot X, X + t prime\)" src="../../images/Math/products/s_gr_3.gif" /></p>
 <p>I have defined the anticommutator (the bold curly braces) in a non-standard
 way, including a factor of two so I do not have to keep remembering to write
 it.  The first term would be the Lorentz invariant interval if the two
@@ -455,11 +450,10 @@ special relativity.  The vector terms are a frame-dependent, symmetric product
 of space with time and does not appear on the stage of physics, but is still a
 valid measurement. A label for these three terms is space-times-time.</p>
 <p>The Grassman outer product is antisymmetric and is formed with a commutator.</p>
-<p><img alt="odd\(t, X\(t, X,t prime , X primet prime , X prime) is defined to
+<p><img alt="odd\(\(t, X\),\(t prime , X prime\)) is defined to
 be" src="../../images/Math/products/s_gr_4.gif" /></p>
-<p><img alt="\(t, X\(t, X times t prime , X primet prime , X prime - t prime , X primet prime , X prime times t,
-Xt,
-X) over 2 = 0, X cross X prime0, X cross X prime" src="../../images/Math/products/s_gr_5.gif" /></p>
+<p><img alt="\(\(t, X\) times \(t prime , X prime\) - \(t prime , X prime\) times \(t,
+X\)) over 2 = \(0, X cross X prime\)" src="../../images/Math/products/s_gr_5.gif" /></p>
 <p>This looks like the cross product defined for two 3-vectors. It is
 unconventional because there necessarily must be the zero in the first
 position. To help mark this difference, call this the cross_q product, implying
@@ -470,25 +464,21 @@ use.</p>
 the conjugate of one of the quaternions.  For a real-valued matrix
 representation, this is equivalent to multiplication by the transpose which
 involves flipping the sign of the 3-vector.</p>
-<p><img alt="t, Xt, X times t prime , X primet prime , X prime conjugated = t, -Xt, -X times t prime
-, X primet prime
-, X prime = " src="../../images/Math/products/s_gr_6.gif" /></p>
-<p><img alt="= t t prime  +X dot X prime , t X prime -t prime  X - X cross X
-primet t prime  +X dot X prime , t X prime -t prime  X - X cross X
-prime" src="../../images/Math/products/s_gr_7.gif" /></p>
+<p><img alt="\(t, X\) times \(t prime , X prime\) conjugated = \(t, -X\) times \(t prime
+, X prime\) = " src="../../images/Math/products/s_gr_6.gif" /></p>
+<p><img alt="= \(t t prime  +X dot X prime , t X prime -t prime  X - X cross X
+prime\)" src="../../images/Math/products/s_gr_7.gif" /></p>
 <p>Form the Euclidean inner product.</p>
-<p><img alt="\(t, X\(t, X conjugated times t prime , X primet prime , X prime + t prime , X primet prime , X prime
-conjugated t, Xt, X) over 2 = t t prime  + X dot X prime ,
-0t t prime  + X dot X prime ,
-0" src="../../images/Math/products/s_gr_8.gif" /></p>
+<p><img alt="\(\(t, X\) conjugated times \(t prime , X prime\) + \(t prime , X prime\)
+conjugated \(t, X\)) over 2 = \(t t prime  + X dot X prime ,
+0\)" src="../../images/Math/products/s_gr_8.gif" /></p>
 <p>The first term is the Euclidean norm if the two quaternions are the same (this
 was the reason for using the adjective "Euclidean").  The Euclidean inner
 product is also the standard definition of a dot product.</p>
 <p>Form the Euclidean outer product.</p>
-<p><img alt="t, Xt, X conjugated times t prime , X primet prime , X prime - t prime , X primet prime , X prime
-conjugated times t, Xt, X over 2 = 0, t X prime  - X t prime  - X cross X
-prime0, t X prime  - X t prime  - X cross X
-prime" src="../../images/Math/products/s_gr_9.gif" /></p>
+<p><img alt="\(t, X\) conjugated times \(t prime , X prime\) - \(t prime , X prime\)
+conjugated times \(t, X\) over 2 = \(0, t X prime  - X t prime  - X cross X
+prime\)" src="../../images/Math/products/s_gr_9.gif" /></p>
 <p>The first term is zero.  The vector terms are an antisymmetric product of
 space with time and the negative of the cross product.</p>
 <h2 id="implications">Implications</h2>
@@ -512,9 +502,6 @@ Euclidean inner and outer products seem destined to do useful work in physics.</
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
         <script src="../../js/base.js" defer></script>
-        <script src="../../javascripts/config.js" defer></script>
-        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6" defer></script>
-        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
 
         <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
     <div class="modal-dialog">
