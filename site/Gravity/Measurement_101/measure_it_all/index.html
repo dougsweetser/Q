@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="sweetser@alum.mit.edu">
+        
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Measurement 101 - SR + QG: Special Relativity and Quaternion Gravity - Q</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/color-brewer.min.css">
+
+        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-9710248-1', 'dougsweetser.github.io/Q');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../../..">Q</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../../.." class="nav-link"></a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Math <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Math/math/" class="dropdown-item">The Math</a>
+</li>
+                                    
+<li>
+    <a href="../../../Math/overview/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../Math/history/" class="dropdown-item">History</a>
+</li>
+                                    
+<li>
+    <a href="../../../Math/numbers_101/" class="dropdown-item">Numbers 101</a>
+</li>
+                                    
+<li>
+    <a href="../../../Math/multiplying/" class="dropdown-item">Easy multiplying</a>
+</li>
+                                    
+<li>
+    <a href="../../../Math/products/" class="dropdown-item">Products</a>
+</li>
+                                    
+<li>
+    <a href="../../../Math/scalars_vectors/" class="dropdown-item">Scalars, vectors, tensors and all that</a>
+</li>
+                                    
+<li>
+    <a href="../../../Math/complex_quaternions/" class="dropdown-item">Complex quaternions</a>
+</li>
+                                    
+<li>
+    <a href="../../../Math/equivalence_classes/" class="dropdown-item">Quaternion equivalence classes</a>
+</li>
+                                    
+<li>
+    <a href="../../../Math/analysis/" class="dropdown-item">Analysis</a>
+</li>
+                                    
+<li>
+    <a href="../../../Math/topology/" class="dropdown-item">Topology</a>
+</li>
+                                    
+<li>
+    <a href="../../../Math/fit/" class="dropdown-item">Where quaternions fit</a>
+</li>
+                                    
+<li>
+    <a href="../../../Math/tools/" class="dropdown-item">Math, Tools</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Classical <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Classical_physics/classical_physics/" class="dropdown-item">Classical physics</a>
+</li>
+                                    
+<li>
+    <a href="../../../Classical_physics/force/" class="dropdown-item">Forces</a>
+</li>
+                                    
+<li>
+    <a href="../../../Classical_physics/sho/" class="dropdown-item">Simple Harmonic Oscillators</a>
+</li>
+                                    
+<li>
+    <a href="../../../Classical_physics/conservative_force/" class="dropdown-item">Conservative force</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">SR <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../SR/special_relativity/" class="dropdown-item">Special Relativity (SR)</a>
+</li>
+                                    
+<li>
+    <a href="../../../SR/problem_sets/" class="dropdown-item">Problem sets</a>
+</li>
+                                    
+<li>
+    <a href="../../../SR/problem_set_1/" class="dropdown-item">Problem set 1</a>
+</li>
+                                    
+<li>
+    <a href="../../../SR/totally_ordered_sets_in_space-time/" class="dropdown-item">Totally ordered_sets in Space-time</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Gravity <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../gravity.pdf" class="dropdown-item">Quaternion gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../three_roads_to_quaternion_gravity/" class="dropdown-item">Three roads to quaternion gravity</a>
+</li>
+                                    
+<li>
+    <a href="../measure/" class="dropdown-item">Measurement 101 - Measuring Events</a>
+</li>
+                                    
+<li>
+    <a href="../special_relativity/" class="dropdown-item">Gravity, Measurement_101 - Special relaitivity</a>
+</li>
+                                    
+<li>
+    <a href="../quaternion_gravity/" class="dropdown-item">Measurement 101 - Quaternion Gravity</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Measurement 101 - SR + QG: Special Relativity and Quaternion Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../space-times-time_invariance/" class="dropdown-item">Quaternion space-times-time invariance as gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../essays_on_gravitation/" class="dropdown-item">Essays on gravitation contest</a>
+</li>
+                                    
+<li>
+    <a href="../../PGT/personal_gravity_theory/" class="dropdown-item">PGT - Personal Gravity Theory</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">EM <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../EM/em/" class="dropdown-item">Electromagnetism</a>
+</li>
+                                    
+<li>
+    <a href="../../../EM/derive_Euler-Lagrange/" class="dropdown-item">Derive the Euler-Lagrange equations</a>
+</li>
+                                    
+<li>
+    <a href="../../../EM/EM_invariants/" class="dropdown-item">EM invariants</a>
+</li>
+                                    
+<li>
+    <a href="../../../EM/derive_Maxwell_homogeneous_equations/" class="dropdown-item">Derive the Maxwell homogeneous equations</a>
+</li>
+                                    
+<li>
+    <a href="../../../EM/derive_Maxwell_source_equations/" class="dropdown-item">Derive the Maxwell source equations</a>
+</li>
+                                    
+<li>
+    <a href="../../../EM/Maxwell_by_hand/" class="dropdown-item">Derive the Maxwell source equations by hand</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">QM <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../QM/qm/" class="dropdown-item">Quantum Mechanics</a>
+</li>
+                                    
+<li>
+    <a href="../../../QM/BellsFuture/" class="dropdown-item">Bell's Future QM Interpretation</a>
+</li>
+                                    
+<li>
+    <a href="../../../QM/bracket_notation/" class="dropdown-item">Bracket notation and quaternions</a>
+</li>
+                                    
+<li>
+    <a href="../../../QM/polar/" class="dropdown-item">Multiplying polar representations</a>
+</li>
+                                    
+<li>
+    <a href="../../../QM/uncertainty_principle/" class="dropdown-item">Commutators and the uncertainty principle</a>
+</li>
+                                    
+<li>
+    <a href="../../../QM/spin_and_angular_momentum/" class="dropdown-item">Spin and angular momentum</a>
+</li>
+                                    
+<li>
+    <a href="../../../QM/Schrodinger/" class="dropdown-item">The Schrodinger equation</a>
+</li>
+                                    
+<li>
+    <a href="../../../QM/Klein-Gordon/" class="dropdown-item">The Klein-Gordon equation</a>
+</li>
+                                    
+<li>
+    <a href="../../../QM/standard_model_symmetries/" class="dropdown-item">Visualizing the standard model</a>
+</li>
+                                    
+<li>
+    <a href="../../../QM/time_reversal/" class="dropdown-item">Time reversal</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Art + PDFs <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Stuff/art/" class="dropdown-item">Art Portfolio</a>
+</li>
+                                    
+<li>
+    <a href="../../../Stuff/buttons/" class="dropdown-item">Buttons</a>
+</li>
+                                    
+<li>
+    <a href="../../../Stuff/pdfs/pdfs/" class="dropdown-item">PDFs</a>
+</li>
+                                    
+<li>
+    <a href="../../../Stuff/Talks/talks/" class="dropdown-item">Talks on Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../../Stuff/shop/" class="dropdown-item">Buy Stuff</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blogs <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Blogs/blogs/" class="dropdown-item">Some writings</a>
+</li>
+                                    
+<li>
+    <a href="../../../Blogs/Bet_against_Lubos/bet_against_Lubos/" class="dropdown-item">Bet against Lubos</a>
+</li>
+                                    
+<li>
+    <a href="../../../Blogs/Discovery/discovery/" class="dropdown-item">Discovery</a>
+</li>
+                                    
+<li>
+    <a href="../../../Blogs/Electromagnetism_and_gravity/electromagnetism_and_gravity/" class="dropdown-item">Electromagnetism and gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../../Blogs/Outreach_efforts/outreach_efforts/" class="dropdown-item">Outreach efforts</a>
+</li>
+                                    
+<li>
+    <a href="../../../Blogs/Paper/paper/" class="dropdown-item">Paper</a>
+</li>
+                                    
+<li>
+    <a href="../../../Blogs/Space-time_numbers/space-time_numbers/" class="dropdown-item">Space-time numbers</a>
+</li>
+                                    
+<li>
+    <a href="../../../Blogs/The_plan/the_plan/" class="dropdown-item">The Plan</a>
+</li>
+                                    
+<li>
+    <a href="../../../Blogs/Working_with_space-time_numbers/working_with_space-time_numbers/" class="dropdown-item">Working with space-time numbers</a>
+</li>
+                                    
+<li>
+    <a href="../../../Blogs/Zero_and_one/zero_and_one/" class="dropdown-item">Zero and one</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../About/professional_sketch/" class="dropdown-item">Professional sketch</a>
+</li>
+                                    
+<li>
+    <a href="../../../About/resume/" class="dropdown-item">Resume</a>
+</li>
+                                    
+<li>
+    <a href="../../../About/personal_sketch/" class="dropdown-item">Personal Sketch</a>
+</li>
+                                    
+<li>
+    <a href="../../../About/lindy_hop/" class="dropdown-item">Lindy Hop</a>
+</li>
+                                    
+<li>
+    <a href="../../../About/bike/" class="dropdown-item">The bike</a>
+</li>
+                                    
+<li>
+    <a href="../../../About/thanks/" class="dropdown-item">Thanks</a>
+</li>
+                                    
+<li>
+    <a href="../../../About/todo/" class="dropdown-item">To do</a>
+</li>
+                                    
+<li>
+    <a href="../../../About/contact_and_tip/" class="dropdown-item">Contact and tips</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a rel="prev" href="../quaternion_gravity/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../../space-times-time_invariance/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#sr-qg-special-relativity-and-quaternion-gravity" class="nav-link">SR + QG - Special Relativity and Quaternion Gravity</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#page-cast" class="nav-link">Page-cast</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#for-nerds" class="nav-link">For nerds</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="sr-qg-special-relativity-and-quaternion-gravity">SR + QG - <em>S</em>pecial <em>R</em>elativity and <em>Q</em>uaternion <em>G</em>ravity</h1>
+<p>This graphic says most of it...</p>
+<p><img="single_1" src="../../images/Gravity/Measurement_101/all_900.gif"/></p>
+<p>Start with the reference square which has an interval of 16 and a space-times
+time of 30.</p>
+<p>Compare the reference square with the walkers. They all have the same interval
+of 16 because that in what is invariant for inertial observers, folks moving at
+a constant speed compared to the reference.</p>
+<p>Compare the reference square with the girl above and boy below. Because they
+are in a gravitational field, they are not inertial observers. The quaternion
+gravity proposal says the space-times-time value are exactly the same at 30.
+The interval will be of different sizes.</p>
+<p>If one compares a walker to one of the kids above or below, there is no overlap
+between them.</p>
+<h2 id="page-cast">Page-cast</h2>
+<p>A brief explanation of this page.</p>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/GU327hCMyxo" frameborder="0" allowfullscreen></iframe>
+
+<h2 id="for-nerds">For nerds</h2>
+<p>Since there is a gravitational field everywhere, there are no inertial
+observers. Working with the squares of quaternions, things are a little
+easier. Just compare the reference square with any other square. For the
+walkers, since they travel at a constant speed and are at the same location in
+the gravitational field as the reference square, they will have the same
+interval.</p>
+<p>The kids above and below are not moving compared to the reference square. By
+the quaternion gravity proposal, the space-times-time is an invariant. All
+agree on the value of 30. What then has to be different is the interval. But
+how different, and how does that depend on the gravitational source mass?</p>
+<p>Fortunately, there is no choice in answering the question if one is to be
+consistent with current experimental tests of gravity. For a spherically
+symmetric, non-rotating, uncharged source, gravity depends on the ratio of the
+gravitational source mass over the distance to the center of that mass. Whatever
+function is used to make the time measurement smaller must be the exact inverse
+of the one that makes a spatial measurement larger. Since gravitational systems
+follow simple harmonic patterns for billions of years, an exponential and its
+inverse that depends on the M/R ratio is an obvious thing to propose.</p>
+<p><img alt="e to the -z dt, e to the z dR sub i over c squared equals e to the -2 z dt
+squared - e to the 2 z dR sub i squared, 2 dt dR sub i over c equals e to the -
+2 G M c squared R dt squared - e to the 2 G M over c squared R dR sub i
+squared, 2 dt dR sub i if z = G M over c squared R" src="../../../images/Gravity/exp_GMc2R.png" /></p>
+<p>The interval looks just like the Rosen bi-metric proposal, even though
+quaternion gravity uses no metrics. The Rosen metric is known to be consistent
+with current tests of weak field gravity up to first-order Parametrized
+Post-Newtonian accuracy. The extra metric creates a problem for Rosen's
+proposal since gravity waves would have a dipole moment and lose entry faster
+than observed. The simplicity of the quaternion gravity proposal would require
+for an isolated mass in space that the lowest mode of emission is a quadrapole,
+consistent with what is seen. Yet there is no graviton with quaternion gravity.
+The energy could be carried away with photons that happen to have a quadrapole
+moment, but no a dipole one.</p>
+<p>My entry to the <a href="http://www.gravityresearchfoundation.org/index.html"><em>2015 Awards for Essays on 
+Gravitation</em></a> is a more formal
+presentation of this research effort, <a href="../../../Stuff/pdfs/space-times-time_invariance.pdf">available as a pdf</a>.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js" defer></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

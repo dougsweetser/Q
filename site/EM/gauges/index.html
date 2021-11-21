@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="sweetser@alum.mit.edu">
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Electromagnetic field gauges - Q</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/color-brewer.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-9710248-1', 'dougsweetser.github.io/Q');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Q</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link"></a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Math <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Math/math/" class="dropdown-item">The Math</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/overview/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/history/" class="dropdown-item">History</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/numbers_101/" class="dropdown-item">Numbers 101</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/multiplying/" class="dropdown-item">Easy multiplying</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/products/" class="dropdown-item">Products</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/scalars_vectors/" class="dropdown-item">Scalars, vectors, tensors and all that</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/complex_quaternions/" class="dropdown-item">Complex quaternions</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/equivalence_classes/" class="dropdown-item">Quaternion equivalence classes</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/analysis/" class="dropdown-item">Analysis</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/topology/" class="dropdown-item">Topology</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/fit/" class="dropdown-item">Where quaternions fit</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/tools/" class="dropdown-item">Math, Tools</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Classical <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Classical_physics/classical_physics/" class="dropdown-item">Classical physics</a>
+</li>
+                                    
+<li>
+    <a href="../../Classical_physics/force/" class="dropdown-item">Forces</a>
+</li>
+                                    
+<li>
+    <a href="../../Classical_physics/sho/" class="dropdown-item">Simple Harmonic Oscillators</a>
+</li>
+                                    
+<li>
+    <a href="../../Classical_physics/conservative_force/" class="dropdown-item">Conservative force</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">SR <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../SR/special_relativity/" class="dropdown-item">Special Relativity (SR)</a>
+</li>
+                                    
+<li>
+    <a href="../../SR/problem_sets/" class="dropdown-item">Problem sets</a>
+</li>
+                                    
+<li>
+    <a href="../../SR/problem_set_1/" class="dropdown-item">Problem set 1</a>
+</li>
+                                    
+<li>
+    <a href="../../SR/totally_ordered_sets_in_space-time/" class="dropdown-item">Totally ordered_sets in Space-time</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Gravity <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Gravity/gravity.pdf" class="dropdown-item">Quaternion gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/three_roads_to_quaternion_gravity/" class="dropdown-item">Three roads to quaternion gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/measure/" class="dropdown-item">Measurement 101 - Measuring Events</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/special_relativity/" class="dropdown-item">Gravity, Measurement_101 - Special relaitivity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/quaternion_gravity/" class="dropdown-item">Measurement 101 - Quaternion Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/measure_it_all/" class="dropdown-item">Measurement 101 - SR + QG: Special Relativity and Quaternion Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/space-times-time_invariance/" class="dropdown-item">Quaternion space-times-time invariance as gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/essays_on_gravitation/" class="dropdown-item">Essays on gravitation contest</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/PGT/personal_gravity_theory/" class="dropdown-item">PGT - Personal Gravity Theory</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">EM <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../em/" class="dropdown-item">Electromagnetism</a>
+</li>
+                                    
+<li>
+    <a href="../derive_Euler-Lagrange/" class="dropdown-item">Derive the Euler-Lagrange equations</a>
+</li>
+                                    
+<li>
+    <a href="../EM_invariants/" class="dropdown-item">EM invariants</a>
+</li>
+                                    
+<li>
+    <a href="../derive_Maxwell_homogeneous_equations/" class="dropdown-item">Derive the Maxwell homogeneous equations</a>
+</li>
+                                    
+<li>
+    <a href="../derive_Maxwell_source_equations/" class="dropdown-item">Derive the Maxwell source equations</a>
+</li>
+                                    
+<li>
+    <a href="../Maxwell_by_hand/" class="dropdown-item">Derive the Maxwell source equations by hand</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">QM <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../QM/qm/" class="dropdown-item">Quantum Mechanics</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/BellsFuture/" class="dropdown-item">Bell's Future QM Interpretation</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/bracket_notation/" class="dropdown-item">Bracket notation and quaternions</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/polar/" class="dropdown-item">Multiplying polar representations</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/uncertainty_principle/" class="dropdown-item">Commutators and the uncertainty principle</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/spin_and_angular_momentum/" class="dropdown-item">Spin and angular momentum</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/Schrodinger/" class="dropdown-item">The Schrodinger equation</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/Klein-Gordon/" class="dropdown-item">The Klein-Gordon equation</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/standard_model_symmetries/" class="dropdown-item">Visualizing the standard model</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/time_reversal/" class="dropdown-item">Time reversal</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Art + PDFs <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Stuff/art/" class="dropdown-item">Art Portfolio</a>
+</li>
+                                    
+<li>
+    <a href="../../Stuff/buttons/" class="dropdown-item">Buttons</a>
+</li>
+                                    
+<li>
+    <a href="../../Stuff/pdfs/pdfs/" class="dropdown-item">PDFs</a>
+</li>
+                                    
+<li>
+    <a href="../../Stuff/Talks/talks/" class="dropdown-item">Talks on Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Stuff/shop/" class="dropdown-item">Buy Stuff</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blogs <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Blogs/blogs/" class="dropdown-item">Some writings</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Bet_against_Lubos/bet_against_Lubos/" class="dropdown-item">Bet against Lubos</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Discovery/discovery/" class="dropdown-item">Discovery</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Electromagnetism_and_gravity/electromagnetism_and_gravity/" class="dropdown-item">Electromagnetism and gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Outreach_efforts/outreach_efforts/" class="dropdown-item">Outreach efforts</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Paper/paper/" class="dropdown-item">Paper</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Space-time_numbers/space-time_numbers/" class="dropdown-item">Space-time numbers</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/The_plan/the_plan/" class="dropdown-item">The Plan</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Working_with_space-time_numbers/working_with_space-time_numbers/" class="dropdown-item">Working with space-time numbers</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Zero_and_one/zero_and_one/" class="dropdown-item">Zero and one</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../About/professional_sketch/" class="dropdown-item">Professional sketch</a>
+</li>
+                                    
+<li>
+    <a href="../../About/resume/" class="dropdown-item">Resume</a>
+</li>
+                                    
+<li>
+    <a href="../../About/personal_sketch/" class="dropdown-item">Personal Sketch</a>
+</li>
+                                    
+<li>
+    <a href="../../About/lindy_hop/" class="dropdown-item">Lindy Hop</a>
+</li>
+                                    
+<li>
+    <a href="../../About/bike/" class="dropdown-item">The bike</a>
+</li>
+                                    
+<li>
+    <a href="../../About/thanks/" class="dropdown-item">Thanks</a>
+</li>
+                                    
+<li>
+    <a href="../../About/todo/" class="dropdown-item">To do</a>
+</li>
+                                    
+<li>
+    <a href="../../About/contact_and_tip/" class="dropdown-item">Contact and tips</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#electromagnetic-field-gauges" class="nav-link">Electromagnetic field gauges</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#the-field-tensor-f-in-different-gauges" class="nav-link">The Field Tensor F in Different Gauges</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#implications" class="nav-link">Implications</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="electromagnetic-field-gauges">Electromagnetic field gauges</h1>
+<p>A gauge is a measure of distance.  Gauges are often chosen to make solving a
+particular problem easier.  A few are well known: the Coulomb gauge for
+classical electromagnetism, the Lorenz gauge which makes electromagnetism look
+like a simple harmonic oscillator, and the gauge invariant form which is used
+in the Maxwell equations.  In all these cases, the E and B field is the same,
+only the way it is measured is different.  In this notebook, these are all
+generated using a differential quaternion operator and a quaternion
+electromagnetic potential.</p>
+<h2 id="the-field-tensor-f-in-different-gauges">The Field Tensor F in Different Gauges</h2>
+<p>The anti-symmetric 2-rank electromagnetic field tensor F has 3 properties: its
+trace is zero, it is antisymmetric, and it contains all the components of the
+E and B fields.  The field used in deriving the Maxwell equations had the same
+information written as a quaternion:</p>
+<p><img alt="\(d by dt, - Del\) acting on \(phi, - A \) -\(phi, A\) acted on by \(d by
+dt, Del\) =  \(0, - A dot - Grad phi + Curl A\)" src="../../images/EM/gauges/s_gr_1.gif" /></p>
+<p>What makes this form gauge-invariant, so no matter what the choice of gauge
+(involving dphi/dt and Del.A), the resulting equation is identical?  It is the
+work of the zero!  Whatever the scalar field is in the first term of the
+generator gets subtracted away in the second term.  </p>
+<p>A mathematical aside: a friend of mine calls this a "conjugator".  The well-
+known commutator involves commuting two terms and then subtracting them from
+the starting terms.  In this case, the two terms were conjugated and then
+subtracted from the original.  Any quaternion expression that gets acted on by
+a conjugator results in a 0 scalar and a 3-vector.  An anti-conjugator does
+the opposite task.  By adding together something with its conjugate, only the
+scalar remains.  The conjugator will be used often here.</p>
+<p>Generating the field tensor F in the Lorenz gauge starting from the gauge-
+invariant from involves swapping the fields in the following way:</p>
+<p><img alt="\(\(d by dt, - Del\) acting on \(\(phi,A\)+\(phi, -A\)) - \(\(phi,
+A\)-\(phi, - A\)) acted on by \(d by dt, Del\)) over 2
+=" src="../../images/EM/gauges/s_gr_2.gif" /></p>
+<p><img alt="= \(phi dot+ divA, - A dot - Grad phi + Curl A \)" src="../../images/EM/gauges/s_gr_3.gif" /></p>
+<p>This looks more complicated than it is.  The first term of the generator
+involves the scalar field only, (phi, 0), and the second term involves the
+3-vector field only, (0, A).</p>
+<p>The field tensor F in the Coulomb gauge is generated by subtracting away the
+divergence of A, which explains why the second and third terms involve only A,
+even though Del.A is zero :-)</p>
+<p><img alt="\(d by dt, - Del\) acting on \(phi, -A\) + \(d by dt, - Del\) acting on
+\(\(phi, A\)-\(phi, -A\)) over 4 + \(\(phi, -A\)-\(phi, A\)) acted on by \(d
+by dt, Del\) over 4 =" src="../../images/EM/gauges/s_gr_4.gif" /></p>
+<p><img alt="= \(phi dot, - A dot - Grad phi + Curl A\)" src="../../images/EM/gauges/s_gr_5.gif" /></p>
+<p>The field tensor F in the temporal gauge is quite similar to the Coulomb
+gauge, but some of the signs have changed to target the dphi/dt term.</p>
+<p><img alt="\(d by dt, - Del\) acting on \(phi, -A\) - \(d by dt, - Del\) acting on
+\(\(phi, A\) + \(phi, -A\)) over 4 - \(\(phi, -A\) + \(phi, A\)) acted on by
+\(d by dt, Del\) over 4 =" src="../../images/EM/gauges/s_gr_6.gif" /></p>
+<p><img alt="= \(- divA, - A dot - Grad phi + Curl A\)" src="../../images/EM/gauges/s_gr_7.gif" /></p>
+<p>What is the simplest expression that all of these generator share?  I call it
+the field tensor F in the light gauge:</p>
+<p><img alt="\(d by dt, - Del\) acting on \(phi, - A\) = \(phi dot- divA, - A dot - Grad
+phi + Curl A\)" src="../../images/EM/gauges/s_gr_8.gif" /></p>
+<p>The light gauge is one sign different from the Lorenz gauge, but its generator
+is a simple as it gets.</p>
+<h2 id="implications">Implications</h2>
+<p>In the quaternion representation, the gauge is a scalar generated in such a
+way as to not alter the 3-vector.  In a lists of gauges in graduate-level
+quantum field theory written by Kaku, the light gauge did not make the list of
+the top 6 gauges.  There is a reason for this.  Gauges are presented as a
+choice for a physicist to make.  The most interesting gauges have to do with a
+long-running popularity contest.  The relationship between gauges is guessed,
+not written explicitly as was done here.  The term that did not make the cut
+stands out.  Perhaps some of the technical issues in quantum field theory
+might be tackled in this gauge using quaternions.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
