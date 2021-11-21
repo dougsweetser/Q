@@ -101,9 +101,9 @@ Is this "complicated look" necessary or does it reveal something? I vote for
 the latter. The 4-derivative of a 4-potential has the electric and magnetic
 fields without further adjustment, a remarkable thing. It also has a gauge
 field. It is my hope this is a great thing for particles with mass. For a
-theory of photons which have no rest mass, that field must be set to zero. That
+theory of photons that have no rest mass, that field must be set to zero. That
 is accomplished with the subtractions. The Lorentz invariant is the difference
-of two squares of the magnetic and electric fields. That is acheived by
+of two squares of the magnetic and electric fields. That is achieved by
 swapping the order of the derivative and potential. 
 
 The other term is called Poynting's vector. It is the energy flux of the
@@ -115,5 +115,5 @@ understanding work done by electromagnetism: [Veritasium,
 Asylum, 2019-01-31](https://www.youtube.com/watch?v=C7tQJ42nGno). My new
 perspective is that work gets done in a particular direction, so that is where
 the Poynting vector comes into play. Note that because of resistence, in
-practice the electric and magnetic field are not at 90 degree angles. No doubt
+practice the electric and magnetic fields are not at 90-degree angles. No doubt
 there is an equation for that, but I do not know it yet.
