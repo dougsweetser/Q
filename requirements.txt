@@ -13,7 +13,7 @@ mkdocs-bootswatch==1.1
 mkdocs-exclude==1.0.2
 mkdocs-include-markdown-plugin==3.2.1
 mkdocs-ivory @ file:///home/conda/feedstock_root/build_artifacts/mkdocs-ivory_1592926582885/work
-nltk==3.4.4
+nltk==3.6.5
 pymdown-extensions==8.2
 PyYAML==5.4.1
 six @ file:///home/conda/feedstock_root/build_artifacts/six_1590081179328/work
