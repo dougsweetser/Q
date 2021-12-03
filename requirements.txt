@@ -1,3 +1,21 @@
-markdown_include
-MarkdownSubscript
-MarkdownSuperscript
+certifi==2020.12.5
+click==7.1.2
+future @ file:///Users/runner/miniforge3/conda-bld/future_1610147350851/work
+importlib-metadata @ file:///Users/runner/miniforge3/conda-bld/importlib-metadata_1610355190026/work
+install==1.3.4
+Jinja2==2.11.2
+livereload @ file:///home/conda/feedstock_root/build_artifacts/livereload_1598114753789/work
+lunr @ file:///home/conda/feedstock_root/build_artifacts/lunr_1607018089973/work/dist
+Markdown @ file:///home/conda/feedstock_root/build_artifacts/markdown_1603668500820/work
+MarkupSafe @ file:///Users/runner/miniforge3/conda-bld/markupsafe_1610127533370/work
+mkdocs @ file:///home/conda/feedstock_root/build_artifacts/mkdocs_1591017186129/work
+mkdocs-bootswatch==1.1
+mkdocs-exclude==1.0.2
+mkdocs-include-markdown-plugin==3.2.1
+mkdocs-ivory @ file:///home/conda/feedstock_root/build_artifacts/mkdocs-ivory_1592926582885/work
+nltk==3.4.4
+pymdown-extensions==8.2
+PyYAML==5.4.1
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1590081179328/work
+tornado @ file:///Users/runner/miniforge3/conda-bld/tornado_1610094711612/work
+zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1603668650351/work
