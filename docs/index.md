@@ -1,4 +1,4 @@
-Physics with Quaternions](images/Index/banner.jpg)
+![Physics with Quaternions](images/Index/banner.jpg)
 
 Follow new insights on Twitter: [visualphysics](https://twitter.com/visualphysics)
 <br>Support research via Patreon: [https://www.patreon.com/dougsweetser](https://www.patreon.com/dougsweetser)
