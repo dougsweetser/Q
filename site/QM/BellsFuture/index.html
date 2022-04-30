@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="sweetser@alum.mit.edu">
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Bell's Future QM Interpretation - Q</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/color-brewer.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-9710248-1', 'dougsweetser.github.io/Q');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Q</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link"></a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Math <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Math/math/" class="dropdown-item">The Math</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/overview/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/history/" class="dropdown-item">History</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/numbers_101/" class="dropdown-item">Numbers 101</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/multiplying/" class="dropdown-item">Easy multiplying</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/products/" class="dropdown-item">Products</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/scalars_vectors/" class="dropdown-item">Scalars, vectors, tensors and all that</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/complex_quaternions/" class="dropdown-item">Complex quaternions</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/equivalence_classes/" class="dropdown-item">Quaternion equivalence classes</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/analysis/" class="dropdown-item">Analysis</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/topology/" class="dropdown-item">Topology</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/fit/" class="dropdown-item">Where quaternions fit</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/tools/" class="dropdown-item">Math, Tools</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Classical <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Classical_physics/classical_physics/" class="dropdown-item">Classical physics</a>
+</li>
+                                    
+<li>
+    <a href="../../Classical_physics/force/" class="dropdown-item">Forces</a>
+</li>
+                                    
+<li>
+    <a href="../../Classical_physics/sho/" class="dropdown-item">Simple Harmonic Oscillators</a>
+</li>
+                                    
+<li>
+    <a href="../../Classical_physics/conservative_force/" class="dropdown-item">Conservative force</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">SR <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../SR/special_relativity/" class="dropdown-item">Special Relativity (SR)</a>
+</li>
+                                    
+<li>
+    <a href="../../SR/problem_sets/" class="dropdown-item">Problem sets</a>
+</li>
+                                    
+<li>
+    <a href="../../SR/problem_set_1/" class="dropdown-item">Problem set 1</a>
+</li>
+                                    
+<li>
+    <a href="../../SR/totally_ordered_sets_in_space-time/" class="dropdown-item">Totally ordered_sets in Space-time</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Gravity <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Stuff/pdfs/quaternion_gravity_in_2_pages.pdf" class="dropdown-item">Quaternion gravity in 2 pages</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/three_roads_to_quaternion_gravity/" class="dropdown-item">Three roads to quaternion gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/measure/" class="dropdown-item">Measurement 101 - Measuring Events</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/special_relativity/" class="dropdown-item">Gravity, Measurement_101 - Special relaitivity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/quaternion_gravity/" class="dropdown-item">Measurement 101 - Quaternion Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/measure_it_all/" class="dropdown-item">Measurement 101 - SR + QG: Special Relativity and Quaternion Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/space-times-time_invariance/" class="dropdown-item">Quaternion space-times-time invariance as gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/essays_on_gravitation/" class="dropdown-item">Essays on gravitation contest</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/PGT/personal_gravity_theory/" class="dropdown-item">PGT - Personal Gravity Theory</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">EM <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../EM/em/" class="dropdown-item">Electromagnetism</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/derive_Euler-Lagrange/" class="dropdown-item">Derive the Euler-Lagrange equations</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/EM_invariants/" class="dropdown-item">EM invariants</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/derive_Maxwell_homogeneous_equations/" class="dropdown-item">Derive the Maxwell homogeneous equations</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/derive_Maxwell_source_equations/" class="dropdown-item">Derive the Maxwell source equations</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/Maxwell_by_hand/" class="dropdown-item">Derive the Maxwell source equations by hand</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/2022-02-06__Maxwell_derivation.ipynb" class="dropdown-item">Jupyter notebook derivation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">QM <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../qm/" class="dropdown-item">Quantum Mechanics</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Bell's Future QM Interpretation</a>
+</li>
+                                    
+<li>
+    <a href="../bracket_notation/" class="dropdown-item">Bracket notation and quaternions</a>
+</li>
+                                    
+<li>
+    <a href="../polar/" class="dropdown-item">Multiplying polar representations</a>
+</li>
+                                    
+<li>
+    <a href="../uncertainty_principle/" class="dropdown-item">Commutators and the uncertainty principle</a>
+</li>
+                                    
+<li>
+    <a href="../spin_and_angular_momentum/" class="dropdown-item">Spin and angular momentum</a>
+</li>
+                                    
+<li>
+    <a href="../Schrodinger/" class="dropdown-item">The Schrodinger equation</a>
+</li>
+                                    
+<li>
+    <a href="../Klein-Gordon/" class="dropdown-item">The Klein-Gordon equation</a>
+</li>
+                                    
+<li>
+    <a href="../standard_model_symmetries/" class="dropdown-item">Visualizing the standard model</a>
+</li>
+                                    
+<li>
+    <a href="../time_reversal/" class="dropdown-item">Time reversal</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Art + PDFs <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Stuff/art/" class="dropdown-item">Art Portfolio</a>
+</li>
+                                    
+<li>
+    <a href="../../Stuff/buttons/" class="dropdown-item">Buttons</a>
+</li>
+                                    
+<li>
+    <a href="../../Stuff/pdfs/pdfs/" class="dropdown-item">PDFs</a>
+</li>
+                                    
+<li>
+    <a href="../../Stuff/Talks/talks/" class="dropdown-item">Talks on Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Stuff/shop/" class="dropdown-item">Buy Stuff</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blogs <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Blogs/blogs/" class="dropdown-item">Some writings</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Bet_against_Lubos/bet_against_Lubos/" class="dropdown-item">Bet against Lubos</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Discovery/discovery/" class="dropdown-item">Discovery</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Electromagnetism_and_gravity/electromagnetism_and_gravity/" class="dropdown-item">Electromagnetism and gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Outreach_efforts/outreach_efforts/" class="dropdown-item">Outreach efforts</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Paper/paper/" class="dropdown-item">Paper</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Space-time_numbers/space-time_numbers/" class="dropdown-item">Space-time numbers</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/The_plan/the_plan/" class="dropdown-item">The Plan</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Working_with_space-time_numbers/working_with_space-time_numbers/" class="dropdown-item">Working with space-time numbers</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Zero_and_one/zero_and_one/" class="dropdown-item">Zero and one</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../About/professional_sketch/" class="dropdown-item">Professional sketch</a>
+</li>
+                                    
+<li>
+    <a href="../../About/resume/" class="dropdown-item">Resume</a>
+</li>
+                                    
+<li>
+    <a href="../../About/personal_sketch/" class="dropdown-item">Personal Sketch</a>
+</li>
+                                    
+<li>
+    <a href="../../About/lindy_hop/" class="dropdown-item">Lindy Hop</a>
+</li>
+                                    
+<li>
+    <a href="../../About/bike/" class="dropdown-item">The bike</a>
+</li>
+                                    
+<li>
+    <a href="../../About/thanks/" class="dropdown-item">Thanks</a>
+</li>
+                                    
+<li>
+    <a href="../../About/todo/" class="dropdown-item">To do</a>
+</li>
+                                    
+<li>
+    <a href="../../About/contact_and_tip/" class="dropdown-item">Contact and tips</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a rel="prev" href="../qm/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../bracket_notation/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#bells-future-quantum-mechanics-a-novel-interpretation" class="nav-link">Bell's Future Quantum Mechanics - a Novel Interpretation</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#new-views-on-old-space-time" class="nav-link">New Views on Old Space-time</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#historical-background" class="nav-link">Historical Background</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#my-beliefs-about-it-all-in-3d-space-time" class="nav-link">My Beliefs About It All in 3D Space + Time</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#newton-through-subtraction" class="nav-link">Newton Through Subtraction</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#einsteins-causal-relativistic-physics" class="nav-link">Einstein's Causal Relativistic Physics</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#bells-future-quantum-mechanics" class="nav-link">Bell's Future Quantum Mechanics</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#repeat-the-exercise-for-tangent-spaces" class="nav-link">Repeat the Exercise for Tangent Spaces</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#momentum-versus-a-momentum-state" class="nav-link">Momentum versus a Momentum State</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#the-wave-function" class="nav-link">The Wave Function</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#dull-quaterion-series-quantum-mechanics" class="nav-link">Dull Quaterion Series Quantum Mechanics</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#interpretations-of-quantum-mechanics" class="nav-link">Interpretations of Quantum Mechanics</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#other-presentations" class="nav-link">Other Presentations</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="bells-future-quantum-mechanics-a-novel-interpretation">Bell's Future Quantum Mechanics - a Novel Interpretation</h1>
+<p>This essay provides an introduction to a new interpretation for 
+quantum mechanics. Here it is in two sentences:</p>
+<pre><code>Bell's inequality backed by experimental evidence shows that
+quantum mechanics must be non-local, thus the wave function
+is space-like separated from the observer at the origin, 
+here-now. The product of the wave function and its conjugate
+provide the odds for an interaction with the observer 
+happening here (0, 0, 0) in the future.
+</code></pre>
+<p>This novel interpretation is called Bell's future quantum mechanics.</p>
+<h2 id="new-views-on-old-space-time">New Views on Old Space-time</h2>
+<p>Start with a Minkowski space-time graph. All information that is 
+local to the observer at the origin here-now is in the past 
+lightcone. Quantum mechanics is non-local, ergo delete all local
+information - delete the past lightcone! The wave function has 
+to reside in the space-like regions of space-time. The conjugate
+of the wave function goes on the other side. The product of the 
+wave function and its conjugate is necessarily in the future
+at the spatial origin (here, or (0, 0, 0)). Quantum mechanics has
+always been about the future. What are the odds that an event
+will happen to an observer in the future? Bell's inequality is 
+about the non-local nature of quantum mechanics. Deleting the
+past lightcone enforces non-locality. Space-like information 
+can be used only to predict the future. This is the Bell's Future
+interpretation of quantum mechanics.</p>
+<h2 id="historical-background">Historical Background</h2>
+<p>In 1935, Einstein, Polodsky, and Rosen (EPR) proposed that 
+variables hidden in the past light cone could explain how 
+quantum mechanics worked. The claimed inherent uncertainty
+of quantum mechanics could be traded for something more real,
+variables that are hidden. This was not an easy to dismiss 
+proposal given Einstein's stature. It took until the 1960s
+when John Bell found an inequality that could test if variables
+are hidden in the past lightcone or the entangled states of
+quantum mechanics where somehow real because quantum information
+was non-local. If one asks the same question the same way, both
+models make identical predictions. If questions are asked at a
+different angle, the hidden variable hypothesis is unchanged. 
+Quantum mechanics says correlations between measurements become
+stronger. A huge experimental effort from the 1980s until today
+has always confirmed the same result: quantum mechanics is 
+non-local and hidden variable models are wrong.</p>
+<h2 id="my-beliefs-about-it-all-in-3d-space-time">My Beliefs About It All in 3D Space + Time</h2>
+<p>Einstein put Lorentz transformations to great use to solve
+difficult theoretical problems in physics. It was his math
+professor who recognized that Einstein was doing rotations
+not just in space, but in space-time. Here is a picture of
+all of space:</p>
+<p><img alt="All of God's Physics" src="../../images/QM/BellsFuture/Bells_future_QM_all.jpg" /></p>
+<p>I hope the gentle reader is not put off by referencing a deity.
+The word choice was made because it is my belief that all of
+physics, both that that is currently known which is the vast
+majority, and that which remain unknown, must live only in 
+3D space + time, or space-time. I am more concerned with why parity is not conserved
+for beta decay than any biblical issue.</p>
+<p>Notice how three spatial dimensions are written explicitly in
+the space-time graph. Starting from studies done with five dimensions in the 1920s, research
+begun in the 1970s created a significant investigation into higher
+spatial dimensions. I believe all such work will have no lasting
+value. More recently, people have been championing the 
+multi-verse. A multi-verse has multiple space-times. Again, I 
+believe all such work will have no lasting value.</p>
+<p>I am radical conservative circa 1960s in regards to space-time.</p>
+<h3 id="technical-tangent-quaternions">Technical Tangent: quaternions</h3>
+<p>The graph reveals that I am a 1908 Minkowski radical. He wrote:</p>
+<pre><code>Henceforth space by itself, and time by itself, 
+are doomed to fade away into mere shadows, 
+and only a kind of union of the two 
+will preserve an independent reality.
+</code></pre>
+<p>If an event in space-time is just a bag of numbers (a vector with scant structure), it is OK to ask if the bag can be expanded
+as higher dimensional research does. If an event is just one
+number, the bag cannot be expanded. I study a kind of number with
+that property, quaternions. A breadcrumb appears on how the axes
+are labeled with power series of the 3-vector I (<span class="arithmatex">\(I^0\)</span> for the
+positive reals, <span class="arithmatex">\(I^1\)</span> for the imaginaries, <span class="arithmatex">\(I^2\)</span> for the
+negative reals, <span class="arithmatex">\(I^3\)</span> for the negative imaginaries). I like to 
+algegraically enforce Minkowski's vision. </p>
+<p><strong>Quaternions are not central to Bell's future quantum mechanics</strong>.
+Still, while the car is in for repairs, one might as well 
+consider a complete overhaul.</p>
+<p>END of technical tangent.</p>
+<p>In summary, space-time is everything we know, everything we do
+not know, all on the same stage.</p>
+<h2 id="newton-through-subtraction">Newton Through Subtraction</h2>
+<p>It is odd that most of space-time gets subtracted for Newtonian
+physics.</p>
+<p><img alt="" src="../../images/QM/BellsFuture/Bells_future_QM_Newton.jpg" /></p>
+<p>Space is absolute. Time is absolute. There is no way in Newtonian
+physics to rotate space into time. This is the physics we 
+experience everyday. </p>
+<h2 id="einsteins-causal-relativistic-physics">Einstein's Causal Relativistic Physics</h2>
+<p>The only kinds of events that can change an observer at the
+origin are events from the past lightcone. </p>
+<p><img alt="" src="../../images/QM/BellsFuture/Bells_future_QM_Einstein.jpg" /></p>
+<p>Einstein was adroit
+at working with the space-like regions, realizing for example
+that events that are simultaneous in one reference frame will 
+not be so in another. If one decides to restrict to the study causality, that
+is the reason to black out the space-time regions. Why did 
+something happen? The answer is in the past lightcone, not
+the space-like region. </p>
+<h2 id="bells-future-quantum-mechanics">Bell's Future Quantum Mechanics</h2>
+<p>This is from a <a href="https://en.wikipedia.org/wiki/EPR_paradox#The_paradox">Wikipedia discussion of EPR paper</a>:</p>
+<pre><code>The 1935 EPR paper condensed the philosophical discussion into a physical argument. The authors claim that given a specific experiment, in which the outcome of a measurement is known before the measurement takes place, there must exist something in the real world, an "element of reality", that determines the measurement outcome. They postulate that these elements of reality are, in modern terminology, local, in the sense that each belongs to a certain point in space-time. Each element may, again in modern terminology, only be influenced by events which are located in the backward light cone of its point in space-time (i.e., the past).  These claims are founded on assumptions about nature that constitute what is now known as local realism.
+</code></pre>
+<p>It was the clause "only be influenced by events which are
+located in the backward light cone" that caught my attention. If
+there are no hidden variables as shown by experiments, remove
+any possibility.</p>
+<p>Notice how Einstein causality and Bell's future combine to cover
+all of space-time. Both relativity and quantum mechanics were
+born and matured in the same time window, and at for Einstein,
+in the same mind. </p>
+<h2 id="repeat-the-exercise-for-tangent-spaces">Repeat the Exercise for Tangent Spaces</h2>
+<p>Space-time records where-when things are: location, location, 
+location. Space-time formally has no information about change. 
+Change lives in tangent spaces. Which tangent space is used
+determines what change is under study. The most common one
+is energy-momentum. Tangent spaces can also be broken up into
+the same four types: all, classical, relativistic, and quantum:</p>
+<p><img alt="" src="../../images/QM/BellsFuture/Bells_future_EP.jpg" /></p>
+<p>Imagine one were to study the classical motion of a rock. There
+would be energy and momentum at the point in space-time where 
+the rock happened to be. Everywhere-when else in space-time, the 
+energy-momentum space would be zero. These zeroes are usually 
+ignored, so the topic of tangent spaces only appears at the
+graduate-level. It makes the switch to continuous fields 
+seem mystical. Instead, the difference between the two
+is more like discrete and continuous for energy-momentum.</p>
+<p>Physicists have studied all combinations of the base space
+space-time with the tangent space energy-momentum. There is both
+classical and relativistic quantum mechanics.</p>
+<h3 id="uncool-sidebar-the-base-space-is-the-base">Uncool Sidebar: The Base Space is the Base</h3>
+<p>The base space, space-time, cannot be changed by anything. I
+appreciate that this clear statement will be violently rejected
+by those who have made a serious study of Einstein's general 
+relativity. Tens of thousands of times it has been repeated:
+gravity bends space-time. I am not in denial of the words. I
+do feel compelled to at least question the link to the math.
+Gravity alters a tangent space of space-time as seen by the
+dt and dR in metric solutions. Space-time has Lorentz symmetry
+and its origin. Gravity and energy-momentum have Poincare
+symmetry. Summing up all the changes in all the tangent spaces
+results in a curved path in space-time. All the change happens
+in the tangent space. We should be saying the tangent space is
+curved then summed, not that the base space is curved.</p>
+<p>End sidebar</p>
+<h2 id="momentum-versus-a-momentum-state">Momentum versus a Momentum State</h2>
+<p>Why use momentum in relativity, but momentum states in quantum
+mechanics? Momentum from the past lightcone can change the 
+motion of the observer at the origin. The entire chain of events
+leading to that change in the observer can be known. A space-like
+momentum state is different. Momentum states may never change
+the observer at the origin, here-now. The precise odds of a 
+momentum state changing the momentum of an observer can be
+calculated. In the future, if an interaction does occur, it will
+change the path of the observer in the usual way. The entire
+chain of events leading to this momentum change cannot be known
+because they are space-like separated. The observer is
+necessarily blind-sided by a momentum state.</p>
+<p>The same story applies to energy versus an energy state. 
+Observers can absorb energy from the past lightcone and heat up.
+Observers cannot absorb energy from an energy state as it is too
+far away. The can in the future absorb the energy to the same
+effect. We can calculate the odds.</p>
+<h2 id="the-wave-function">The Wave Function</h2>
+<p>The wave function is a set of space-like energy-momentum states.
+Each state may not have a time-like relationship to the observer
+at the origin, here-now. Each state of the wave function can have
+a time-like relationship with other states in the wave function.
+Light-like relationships are not addressed for the moment as that
+is a refinement one will have to include with care later.</p>
+<p>For a complex-valued wave function, the conjugate is simple to
+construct. The product of a wave function and its conjugate
+evaluates to a positive real number. If properly normalized,
+the positive number is the odds of an interaction happening. 
+Nothing unusual is happening under the Bell's future 
+interpretation, all calculations will be the same.</p>
+<h2 id="dull-quaterion-series-quantum-mechanics">Dull Quaterion Series Quantum Mechanics</h2>
+<p>Quaternion quantum mechanics has been studied and presented
+in a book-length form by Stephen Adler. The topic has been
+commented on in a December 2018 blog by Scott Aaronson where
+he came to the conclusion that quaternion quantum
+mechanics was a "complete dumpster fire" because it would
+allow superluminal transfer of information. I agree, any 
+algebraic system that allows superluminal transformation is
+boring and deserves no futher study. I was surprised that this
+flaw was known to Adler as he admitted to Aaronson.</p>
+<p>In a rapid exchange I had with Aaronson, I came up with the idea
+of "point-one-way" quaternions. Pick an arbitrary direction and
+stick with that for all calculations. Aaronson agreed it would
+work. He just thought it was so dull it did not even deserve a
+new name.</p>
+<p>As I considered it more, a better name would have been 
+"point-with-precision" quaternion series quantum mechanics.
+In the lab, physics experiments are known for their precision
+of the experimental apparatus. It is common to use tables that
+isolate the vibrations of the surroundings from the experiment.
+The precision of location known at the bench is apply to the
+math used. Quaternions that point in the same direction commute.
+A quaternion series is not a division algebra like the 
+quaternions. Instead it is a semi-group with inverses. A
+semi-group has more than one inverse.</p>
+<p>For quaternion-valued wave functions, the conjugate has a 
+physical meaning: it is a mirror reflection in space. Why do so?
+The product of the wave function and its mirror reflection is a
+here-future value, (0, 0, 0) for the 3-vector and a positive
+real number. If properly normalized, the real value is the odds
+of seeing an interaction. It is the simple, physical 
+interpretation of an otherwise abstraction notion of a 
+complex-valued wave function that I see as a benefit worthy
+of exploration.</p>
+<p>The Bell's future quantum mechanics interpretation in no way
+depends on quaternion series quantum mechanics being a viable
+algebric approach to doing calculations.</p>
+<h2 id="interpretations-of-quantum-mechanics">Interpretations of Quantum Mechanics</h2>
+<p>There are at least 20 interpretations of quantum mechanics. Nearly
+all of them make the same predictions as does this one. I have 
+seen Sean Carroll take a poll of graduate students to find their
+favorite. This is not the was physics works. Physics is a contact
+sport with only one eventual winner.</p>
+<p>Physics by subtraction defines areas of study. Newton's classical
+physics uses only the axes. Causality in special relativity uses
+only the past lightcone. By contrast, quantum mechanics uses 
+nothing from the past lightcone. Quantum mechanics uses 
+space-like states to calculate the odds of interactions in the
+future.</p>
+<p>Bell's future quantum mechanics looks bright. I hope this idea
+goes viral in a good way.</p>
+<h2 id="other-presentations">Other Presentations</h2>
+<p><a href="http://bit.ly/BellsFuturePDF">8 page PDF</a></p>
+<p><a href="http://bit.ly/BellsFutureYT3">You Tube, 3 minutes</a></p>
+<p><a href="http://bit.ly/BellsFutureYT23">You Tube, 23 minutes</a></p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="sweetser@alum.mit.edu">
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Products - Q</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/color-brewer.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-9710248-1', 'dougsweetser.github.io/Q');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Q</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link"></a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Math <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../math/" class="dropdown-item">The Math</a>
+</li>
+                                    
+<li>
+    <a href="../overview/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../history/" class="dropdown-item">History</a>
+</li>
+                                    
+<li>
+    <a href="../numbers_101/" class="dropdown-item">Numbers 101</a>
+</li>
+                                    
+<li>
+    <a href="../multiplying/" class="dropdown-item">Easy multiplying</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Products</a>
+</li>
+                                    
+<li>
+    <a href="../scalars_vectors/" class="dropdown-item">Scalars, vectors, tensors and all that</a>
+</li>
+                                    
+<li>
+    <a href="../complex_quaternions/" class="dropdown-item">Complex quaternions</a>
+</li>
+                                    
+<li>
+    <a href="../equivalence_classes/" class="dropdown-item">Quaternion equivalence classes</a>
+</li>
+                                    
+<li>
+    <a href="../analysis/" class="dropdown-item">Analysis</a>
+</li>
+                                    
+<li>
+    <a href="../topology/" class="dropdown-item">Topology</a>
+</li>
+                                    
+<li>
+    <a href="../fit/" class="dropdown-item">Where quaternions fit</a>
+</li>
+                                    
+<li>
+    <a href="../tools/" class="dropdown-item">Math, Tools</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Classical <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Classical_physics/classical_physics/" class="dropdown-item">Classical physics</a>
+</li>
+                                    
+<li>
+    <a href="../../Classical_physics/force/" class="dropdown-item">Forces</a>
+</li>
+                                    
+<li>
+    <a href="../../Classical_physics/sho/" class="dropdown-item">Simple Harmonic Oscillators</a>
+</li>
+                                    
+<li>
+    <a href="../../Classical_physics/conservative_force/" class="dropdown-item">Conservative force</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">SR <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../SR/special_relativity/" class="dropdown-item">Special Relativity (SR)</a>
+</li>
+                                    
+<li>
+    <a href="../../SR/problem_sets/" class="dropdown-item">Problem sets</a>
+</li>
+                                    
+<li>
+    <a href="../../SR/problem_set_1/" class="dropdown-item">Problem set 1</a>
+</li>
+                                    
+<li>
+    <a href="../../SR/totally_ordered_sets_in_space-time/" class="dropdown-item">Totally ordered_sets in Space-time</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Gravity <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Stuff/pdfs/quaternion_gravity_in_2_pages.pdf" class="dropdown-item">Quaternion gravity in 2 pages</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/three_roads_to_quaternion_gravity/" class="dropdown-item">Three roads to quaternion gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/measure/" class="dropdown-item">Measurement 101 - Measuring Events</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/special_relativity/" class="dropdown-item">Gravity, Measurement_101 - Special relaitivity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/quaternion_gravity/" class="dropdown-item">Measurement 101 - Quaternion Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/measure_it_all/" class="dropdown-item">Measurement 101 - SR + QG: Special Relativity and Quaternion Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/space-times-time_invariance/" class="dropdown-item">Quaternion space-times-time invariance as gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/essays_on_gravitation/" class="dropdown-item">Essays on gravitation contest</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/PGT/personal_gravity_theory/" class="dropdown-item">PGT - Personal Gravity Theory</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">EM <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../EM/em/" class="dropdown-item">Electromagnetism</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/derive_Euler-Lagrange/" class="dropdown-item">Derive the Euler-Lagrange equations</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/EM_invariants/" class="dropdown-item">EM invariants</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/derive_Maxwell_homogeneous_equations/" class="dropdown-item">Derive the Maxwell homogeneous equations</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/derive_Maxwell_source_equations/" class="dropdown-item">Derive the Maxwell source equations</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/Maxwell_by_hand/" class="dropdown-item">Derive the Maxwell source equations by hand</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/2022-02-06__Maxwell_derivation.ipynb" class="dropdown-item">Jupyter notebook derivation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">QM <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../QM/qm/" class="dropdown-item">Quantum Mechanics</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/BellsFuture/" class="dropdown-item">Bell's Future QM Interpretation</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/bracket_notation/" class="dropdown-item">Bracket notation and quaternions</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/polar/" class="dropdown-item">Multiplying polar representations</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/uncertainty_principle/" class="dropdown-item">Commutators and the uncertainty principle</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/spin_and_angular_momentum/" class="dropdown-item">Spin and angular momentum</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/Schrodinger/" class="dropdown-item">The Schrodinger equation</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/Klein-Gordon/" class="dropdown-item">The Klein-Gordon equation</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/standard_model_symmetries/" class="dropdown-item">Visualizing the standard model</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/time_reversal/" class="dropdown-item">Time reversal</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Art + PDFs <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Stuff/art/" class="dropdown-item">Art Portfolio</a>
+</li>
+                                    
+<li>
+    <a href="../../Stuff/buttons/" class="dropdown-item">Buttons</a>
+</li>
+                                    
+<li>
+    <a href="../../Stuff/pdfs/pdfs/" class="dropdown-item">PDFs</a>
+</li>
+                                    
+<li>
+    <a href="../../Stuff/Talks/talks/" class="dropdown-item">Talks on Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Stuff/shop/" class="dropdown-item">Buy Stuff</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blogs <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Blogs/blogs/" class="dropdown-item">Some writings</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Bet_against_Lubos/bet_against_Lubos/" class="dropdown-item">Bet against Lubos</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Discovery/discovery/" class="dropdown-item">Discovery</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Electromagnetism_and_gravity/electromagnetism_and_gravity/" class="dropdown-item">Electromagnetism and gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Outreach_efforts/outreach_efforts/" class="dropdown-item">Outreach efforts</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Paper/paper/" class="dropdown-item">Paper</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Space-time_numbers/space-time_numbers/" class="dropdown-item">Space-time numbers</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/The_plan/the_plan/" class="dropdown-item">The Plan</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Working_with_space-time_numbers/working_with_space-time_numbers/" class="dropdown-item">Working with space-time numbers</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Zero_and_one/zero_and_one/" class="dropdown-item">Zero and one</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../About/professional_sketch/" class="dropdown-item">Professional sketch</a>
+</li>
+                                    
+<li>
+    <a href="../../About/resume/" class="dropdown-item">Resume</a>
+</li>
+                                    
+<li>
+    <a href="../../About/personal_sketch/" class="dropdown-item">Personal Sketch</a>
+</li>
+                                    
+<li>
+    <a href="../../About/lindy_hop/" class="dropdown-item">Lindy Hop</a>
+</li>
+                                    
+<li>
+    <a href="../../About/bike/" class="dropdown-item">The bike</a>
+</li>
+                                    
+<li>
+    <a href="../../About/thanks/" class="dropdown-item">Thanks</a>
+</li>
+                                    
+<li>
+    <a href="../../About/todo/" class="dropdown-item">To do</a>
+</li>
+                                    
+<li>
+    <a href="../../About/contact_and_tip/" class="dropdown-item">Contact and tips</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a rel="prev" href="../multiplying/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../scalars_vectors/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#inner-and-outer-products-of-quaternions" class="nav-link">Inner and Outer Products of Quaternions</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#the-grassman-inner-and-outer-products" class="nav-link">The Grassman Inner and Outer Products</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#the-euclidean-inner-and-outer-products" class="nav-link">The Euclidean Inner and Outer Products</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#implications" class="nav-link">Implications</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="inner-and-outer-products-of-quaternions">Inner and Outer Products of Quaternions</h1>
+<p>A good friend of mine has wondered what is means to multiply two quaternions
+together (this question was a hot topic in the nineteenth century).  I care
+more about what multiplying two quaternions together can do.  There are two
+basic ways to do this: just multiply one quaternion by another, or first take
+the transpose of one then multiply it with the other.  Each of these products
+can be separated into two parts: a symmetric (inner product) and an
+antisymmetric (outer product) components.  The symmetric component will remain
+unchanged by exchanging the places of the quaternions, while the antisymmetric
+component will change its sign.  Together they add up to the product.  In this
+section, both types of inner and outer products will be formed and then
+related to physics.</p>
+<h2 id="the-grassman-inner-and-outer-products">The Grassman Inner and Outer Products</h2>
+<p>There are two basic ways to multiply quaternions together.  There is the
+direct approach.</p>
+<p><img alt="\(t, X\) times \(t prime , X prime\) = \(t t prime  - X dot X prime , t X
+prime  + X t prime  + X cross X prime\)" src="../../images/Math/products/s_gr_1.gif" /></p>
+<p>I call this the Grassman product (I do not know if anyone else does, but I need
+a label).  The inner product can also be called the symmetric product, because
+it does not change signs if the terms are reversed.</p>
+<p><img alt="even\(\(t, X\),\(t prime , X\)) is defined to be" src="../../images/Math/products/s_gr_2.gif" /></p>
+<p><img alt="\(\(t, X\) times \(t prime , X\) + \(t prime , X\) times \(t, X\)) over 2 =
+\(t t prime  -X dot X, X + t prime\)" src="../../images/Math/products/s_gr_3.gif" /></p>
+<p>I have defined the anticommutator (the bold curly braces) in a non-standard
+way, including a factor of two so I do not have to keep remembering to write
+it.  The first term would be the Lorentz invariant interval if the two
+quaternions represented the same difference between two events in space-time
+(i.e. t=t'=delta t,...).  The invariant interval plays a central role in
+special relativity.  The vector terms are a frame-dependent, symmetric product
+of space with time and does not appear on the stage of physics, but is still a
+valid measurement. A label for these three terms is space-times-time.</p>
+<p>The Grassman outer product is antisymmetric and is formed with a commutator.</p>
+<p><img alt="odd\(\(t, X\),\(t prime , X prime\)) is defined to
+be" src="../../images/Math/products/s_gr_4.gif" /></p>
+<p><img alt="\(\(t, X\) times \(t prime , X prime\) - \(t prime , X prime\) times \(t,
+X\)) over 2 = \(0, X cross X prime\)" src="../../images/Math/products/s_gr_5.gif" /></p>
+<p>This looks like the cross product defined for two 3-vectors. It is
+unconventional because there necessarily must be the zero in the first
+position. To help mark this difference, call this the cross_q product, implying
+the result must fill in the four positions unlike the cross products in wide
+use.</p>
+<h2 id="the-euclidean-inner-and-outer-products">The Euclidean Inner and Outer Products</h2>
+<p>Another important way to multiply a pair of quaternions involves first taking
+the conjugate of one of the quaternions.  For a real-valued matrix
+representation, this is equivalent to multiplication by the transpose which
+involves flipping the sign of the 3-vector.</p>
+<p><img alt="\(t, X\) times \(t prime , X prime\) conjugated = \(t, -X\) times \(t prime
+, X prime\) = " src="../../images/Math/products/s_gr_6.gif" /></p>
+<p><img alt="= \(t t prime  +X dot X prime , t X prime -t prime  X - X cross X
+prime\)" src="../../images/Math/products/s_gr_7.gif" /></p>
+<p>Form the Euclidean inner product.</p>
+<p><img alt="\(\(t, X\) conjugated times \(t prime , X prime\) + \(t prime , X prime\)
+conjugated \(t, X\)) over 2 = \(t t prime  + X dot X prime ,
+0\)" src="../../images/Math/products/s_gr_8.gif" /></p>
+<p>The first term is the Euclidean norm if the two quaternions are the same (this
+was the reason for using the adjective "Euclidean").  The Euclidean inner
+product is also the standard definition of a dot product.</p>
+<p>Form the Euclidean outer product.</p>
+<p><img alt="\(t, X\) conjugated times \(t prime , X prime\) - \(t prime , X prime\)
+conjugated times \(t, X\) over 2 = \(0, t X prime  - X t prime  - X cross X
+prime\)" src="../../images/Math/products/s_gr_9.gif" /></p>
+<p>The first term is zero.  The vector terms are an antisymmetric product of
+space with time and the negative of the cross product.</p>
+<h2 id="implications">Implications</h2>
+<p>When multiplying vectors in physics, one normally only considers the Euclidean
+inner product, or dot product, and the Grassman outer product, or cross
+product.  Yet, the Grassman inner product, because it naturally generates the
+invariant interval, appears to play a role in special relativity.  What is
+interesting to speculate about is the role of the Euclidean outer product.  It
+is possible that the antisymmetric, vector nature of the space/time product
+could be related to spin.  Whatever the interpretation, the Grassman and
+Euclidean inner and outer products seem destined to do useful work in physics.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

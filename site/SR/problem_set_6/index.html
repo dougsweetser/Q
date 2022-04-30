@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="sweetser@alum.mit.edu">
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>8.033 Problem Set 6:  The Compton Effect and Threshold Collision Problems - Q</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/color-brewer.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-9710248-1', 'dougsweetser.github.io/Q');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Q</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link"></a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Math <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Math/math/" class="dropdown-item">The Math</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/overview/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/history/" class="dropdown-item">History</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/numbers_101/" class="dropdown-item">Numbers 101</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/multiplying/" class="dropdown-item">Easy multiplying</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/products/" class="dropdown-item">Products</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/scalars_vectors/" class="dropdown-item">Scalars, vectors, tensors and all that</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/complex_quaternions/" class="dropdown-item">Complex quaternions</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/equivalence_classes/" class="dropdown-item">Quaternion equivalence classes</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/analysis/" class="dropdown-item">Analysis</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/topology/" class="dropdown-item">Topology</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/fit/" class="dropdown-item">Where quaternions fit</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/tools/" class="dropdown-item">Math, Tools</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Classical <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Classical_physics/classical_physics/" class="dropdown-item">Classical physics</a>
+</li>
+                                    
+<li>
+    <a href="../../Classical_physics/force/" class="dropdown-item">Forces</a>
+</li>
+                                    
+<li>
+    <a href="../../Classical_physics/sho/" class="dropdown-item">Simple Harmonic Oscillators</a>
+</li>
+                                    
+<li>
+    <a href="../../Classical_physics/conservative_force/" class="dropdown-item">Conservative force</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">SR <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../special_relativity/" class="dropdown-item">Special Relativity (SR)</a>
+</li>
+                                    
+<li>
+    <a href="../problem_sets/" class="dropdown-item">Problem sets</a>
+</li>
+                                    
+<li>
+    <a href="../problem_set_1/" class="dropdown-item">Problem set 1</a>
+</li>
+                                    
+<li>
+    <a href="../totally_ordered_sets_in_space-time/" class="dropdown-item">Totally ordered_sets in Space-time</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Gravity <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Stuff/pdfs/quaternion_gravity_in_2_pages.pdf" class="dropdown-item">Quaternion gravity in 2 pages</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/three_roads_to_quaternion_gravity/" class="dropdown-item">Three roads to quaternion gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/measure/" class="dropdown-item">Measurement 101 - Measuring Events</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/special_relativity/" class="dropdown-item">Gravity, Measurement_101 - Special relaitivity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/quaternion_gravity/" class="dropdown-item">Measurement 101 - Quaternion Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/measure_it_all/" class="dropdown-item">Measurement 101 - SR + QG: Special Relativity and Quaternion Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/space-times-time_invariance/" class="dropdown-item">Quaternion space-times-time invariance as gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/essays_on_gravitation/" class="dropdown-item">Essays on gravitation contest</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/PGT/personal_gravity_theory/" class="dropdown-item">PGT - Personal Gravity Theory</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">EM <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../EM/em/" class="dropdown-item">Electromagnetism</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/derive_Euler-Lagrange/" class="dropdown-item">Derive the Euler-Lagrange equations</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/EM_invariants/" class="dropdown-item">EM invariants</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/derive_Maxwell_homogeneous_equations/" class="dropdown-item">Derive the Maxwell homogeneous equations</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/derive_Maxwell_source_equations/" class="dropdown-item">Derive the Maxwell source equations</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/Maxwell_by_hand/" class="dropdown-item">Derive the Maxwell source equations by hand</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/2022-02-06__Maxwell_derivation.ipynb" class="dropdown-item">Jupyter notebook derivation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">QM <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../QM/qm/" class="dropdown-item">Quantum Mechanics</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/BellsFuture/" class="dropdown-item">Bell's Future QM Interpretation</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/bracket_notation/" class="dropdown-item">Bracket notation and quaternions</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/polar/" class="dropdown-item">Multiplying polar representations</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/uncertainty_principle/" class="dropdown-item">Commutators and the uncertainty principle</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/spin_and_angular_momentum/" class="dropdown-item">Spin and angular momentum</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/Schrodinger/" class="dropdown-item">The Schrodinger equation</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/Klein-Gordon/" class="dropdown-item">The Klein-Gordon equation</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/standard_model_symmetries/" class="dropdown-item">Visualizing the standard model</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/time_reversal/" class="dropdown-item">Time reversal</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Art + PDFs <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Stuff/art/" class="dropdown-item">Art Portfolio</a>
+</li>
+                                    
+<li>
+    <a href="../../Stuff/buttons/" class="dropdown-item">Buttons</a>
+</li>
+                                    
+<li>
+    <a href="../../Stuff/pdfs/pdfs/" class="dropdown-item">PDFs</a>
+</li>
+                                    
+<li>
+    <a href="../../Stuff/Talks/talks/" class="dropdown-item">Talks on Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Stuff/shop/" class="dropdown-item">Buy Stuff</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blogs <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Blogs/blogs/" class="dropdown-item">Some writings</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Bet_against_Lubos/bet_against_Lubos/" class="dropdown-item">Bet against Lubos</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Discovery/discovery/" class="dropdown-item">Discovery</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Electromagnetism_and_gravity/electromagnetism_and_gravity/" class="dropdown-item">Electromagnetism and gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Outreach_efforts/outreach_efforts/" class="dropdown-item">Outreach efforts</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Paper/paper/" class="dropdown-item">Paper</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Space-time_numbers/space-time_numbers/" class="dropdown-item">Space-time numbers</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/The_plan/the_plan/" class="dropdown-item">The Plan</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Working_with_space-time_numbers/working_with_space-time_numbers/" class="dropdown-item">Working with space-time numbers</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Zero_and_one/zero_and_one/" class="dropdown-item">Zero and one</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../About/professional_sketch/" class="dropdown-item">Professional sketch</a>
+</li>
+                                    
+<li>
+    <a href="../../About/resume/" class="dropdown-item">Resume</a>
+</li>
+                                    
+<li>
+    <a href="../../About/personal_sketch/" class="dropdown-item">Personal Sketch</a>
+</li>
+                                    
+<li>
+    <a href="../../About/lindy_hop/" class="dropdown-item">Lindy Hop</a>
+</li>
+                                    
+<li>
+    <a href="../../About/bike/" class="dropdown-item">The bike</a>
+</li>
+                                    
+<li>
+    <a href="../../About/thanks/" class="dropdown-item">Thanks</a>
+</li>
+                                    
+<li>
+    <a href="../../About/todo/" class="dropdown-item">To do</a>
+</li>
+                                    
+<li>
+    <a href="../../About/contact_and_tip/" class="dropdown-item">Contact and tips</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#8033-problem-set-6-the-compton-effect-and-threshold-collision-problems" class="nav-link">8.033 Problem Set 6:  The Compton Effect and Threshold Collision Problems</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#french-6-16-the-compton-effect" class="nav-link">French:  6-16 The Compton effect</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#french-6-17" class="nav-link">French:  6-17</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#french-6-18" class="nav-link">French:  6-18</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#french-6-19" class="nav-link">French:  6-19</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#french-7-2" class="nav-link">French: 7-2</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#baranger-threshold-ke" class="nav-link">Baranger:  Threshold KE</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#french-7-3" class="nav-link">French:  7-3</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#baranger-another-threshold" class="nav-link">Baranger:  Another threshold</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#french-7-6" class="nav-link">French: 7-6</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#post-ramble-initialization-functions" class="nav-link">Post ramble:  Initialization functions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="8033-problem-set-6-the-compton-effect-and-threshold-collision-problems">8.033 Problem Set 6:  The Compton Effect and Threshold Collision Problems</h1>
+<h2 id="french-6-16-the-compton-effect">French:  6-16 The Compton effect</h2>
+<p>Q:  The usual theory of the Compton effect considers a stationary free
+electron being struck by a photon, resulting in a scattered photon of lower
+energy.  Suppose that a photon (of energy E) has a head-on collision with a
+<em>moving</em> electron (of rest mass mo)  What initial velocity does the electron
+have if the collision results in a photon recoiling straight backward with the
+same energy E as the incident photon?</p>
+<p>A:  There are the same number of particles before and after, traveling in
+opposite directions with the same energy.  Define the before and after
+quaternions.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_1.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_2.gif" /></p>
+<p>Conserve momentum and solve for the speed.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_3.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_4.gif" /></p>
+<p>The initial velocity of the electron is
+<code>**![](../images/SR/problem_set_6/s_gr_5.gif)**</code>.</p>
+<h2 id="french-6-17">French:  6-17</h2>
+<p>Q:  A stream of very high energy photons (&gt;&gt;10 MeV) is fired at a block
+of matter.   Show that the energy E of the photons scattered directly backward
+is essentially independent of the energy of the incident photons.  What is the
+value of E backward?</p>
+<p>A:  Define the relevant quaternions.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_6.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_7.gif" /></p>
+<p>Solve for the energy forward using energy conservation.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_8.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_9.gif" /></p>
+<p>Solve for the energy back using momentum conservation and the previous result.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_10.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_11.gif" /></p>
+<p>As beta approaches one, the value of E backward approaches 1/2 mc^2.  The
+photons are most likely to collide with electrons of mass 511 MeV, so E
+backward is approximately 255 MeV.</p>
+<h2 id="french-6-18">French:  6-18</h2>
+<p>Q:  (a) A photon of energy hv collides elastically with an electron at rest.
+After the collision the energy of the photon is hv/2, and it travels in a
+direction making an angle of 60 degrees with its original direction.  What is
+the value of the frequency?  What sort of photon is it?  (b) A photon of
+energy hv  collides with an excited atom at rest.  After the collision the
+photon still has energy hv, but its direction has changed by 180 degrees.nbsp;
+If the atom is in its ground state after the collision, what was its initial
+excitation energy?</p>
+<p>A:  (a) Define the before and after quaternions.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_12.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_13.gif" /></p>
+<p>By conservation of energy and momentum, the beforeq minus the afterq should be
+zero.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_14.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_15.gif" /></p>
+<p>There are 3 equations (each term is equal to zero) and three unknowns (hv,
+alpha, and theta).  Eliminate theta using a trig identity, then eliminate
+alpha using a hyperbolic trig identity.  (It's not easy, but it does work).</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_16.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_17.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_18.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_19.gif" /></p>
+<p>This identity equals 1, so it can be solved for hv.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_20.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_21.gif" /></p>
+<p>Find the frequency by putting in the appropriate constants.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_22.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_23.gif" /></p>
+<p>The frequency of the photon is 2.5 10^20 s^-1, a gamma ray.</p>
+<p>(b) Define the before and after quaternions.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_24.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_25.gif" /></p>
+<p>Solve for beta in terms of the ground state using momentum conservation.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_26.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_27.gif" /></p>
+<p>Solve for the excited state using energy conservation.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_28.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_29.gif" /></p>
+<p>The excitation energy will be <img alt="" src="../../images/SR/problem_set_6/s_gr_30.gif" />.</p>
+<h2 id="french-6-19">French:  6-19</h2>
+<p>Q:  A high-energy photon strikes and is scattered by a proton that is
+initially stationary and completely free to recoil.  The proton is observed to
+recoil at a 30 degree angle with a kinetic energy of 100 MeV.  (a) What was
+the energy of the incident photon?  (b) What are the direction and energy of
+the scattered photon?</p>
+<p>A:  (a) Define the before and after quaternions.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_31.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_32.gif" /></p>
+<p>By conservation of energy and momentum, the beforeq minus the afterq should be
+zero.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_33.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_34.gif" /></p>
+<p>There are 2 equations (each term is equal to zero) and 2 unknowns (E and
+theta).  Eliminate the angle using a trig identity.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_35.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_36.gif" /></p>
+<p>This identity equals 1, so it can be solved for hv.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_37.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_38.gif" /></p>
+<p>The incident photon is E + 100 MeV, or 329 MeV.</p>
+<p>(b)  The energy of the scattered photon was calculated above at 229 MeV.  The
+momentum in the conservation quaternion can be solved for theta.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_39.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_40.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_41.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_42.gif" /></p>
+<p>The photon scatters at an angle of 104
+degrees<img alt="" src="../../images/SR/problem_set_6/s_gr_43.gif" /></p>
+<h2 id="french-7-2">French: 7-2</h2>
+<p>Q:  An electron-positron pair can be produced by a gamma ray striking a
+stationary electron:</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_44.gif" /></p>
+<p>What is the minimum gamma ray energy that will make this process go?</p>
+<p>A:  Define the before and after quaternions.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_45.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_46.gif" /></p>
+<p>Set the square of the masses equal to each other and solve for E.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_47.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_48.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_49.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_50.gif" /></p>
+<p>The minimum energy of the gamma ray is 2044 MeV.</p>
+<h2 id="baranger-threshold-ke">Baranger:  Threshold KE</h2>
+<p>Q:  What is the threshold kinetic energy, in the Lab system, for the reaction:</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_51.gif" /></p>
+<p>The protons have mass M, the pions have mass m.  Set c = 1.</p>
+<p>A:  K = E - M.  gamma = E/M = K/M + 1.  These relations can be used to define
+the before and after quaternions.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_52.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_53.gif" /></p>
+<p>Set the masses equal to each other and solve for K.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_54.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_55.gif" /></p>
+<p>The minimum kinetic energy required is K = (2m^2 + 4m M)/M.</p>
+<h2 id="french-7-3">French:  7-3</h2>
+<p>Q:  Suppose that a certain accelerator can give protons a kinetic energy of
+200 GeV.  The rest mass mo of a proton is 0.938 GeV.  Calculate the largest
+possible rest mass Mo of a particle X that could be produced by the impact of
+one of these high-energy protons on a stationary proton in the following
+process:</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_56.gif" /></p>
+<p>A:  K = E - M.  gamma = E/M = K/M + 1.  These relations can be used to define
+the before and after quaternions.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_57.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_58.gif" /></p>
+<p>Set the square of the masses equal to each other and solve for X.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_59.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_60.gif" /></p>
+<p>The largest possible rest mass is 17.6 GeV for this accelerator.</p>
+<h2 id="baranger-another-threshold">Baranger:  Another threshold</h2>
+<p>Consider the reaction:</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_61.gif" /></p>
+<p>The target proton is at rest.  The rest mass of the proton is 940 MeV and the
+pion is 140 MeV.  (a) Calculate the threshold kinetic energy of the incident
+pion for this reaction.  (b) At threshold, calculate the velocities and
+momenta of the final-state proton and the pions in the lab system.</p>
+<p>A:  (a) Define the before and after quaternions.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_62.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_63.gif" /></p>
+<p>Set the square of the masses equal to each other and solve for K.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_64.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_65.gif" /></p>
+<p>The threshold kinetic energy of the pion is 171 MeV.</p>
+<p>(b) In the center-of-mass frame, all three particles are at rest.  In the Lab
+frame, all three particles have the same velocity, but different momenta.
+Calculate the energy before.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_66.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_67.gif" /></p>
+<p>The gamma after is this energy divided by the mass.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_68.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_69.gif" /></p>
+<p>Knowing gamma, both velocity and momenta can be calculated.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_70.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_71.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_72.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_73.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_74.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_75.gif" /></p>
+<p>The particles have a relativistic velocity of 0.22, the pions have a momentum
+pc = 31.7 MeV, and the protons have a momentum of pc= 213 MeV.</p>
+<h2 id="french-7-6">French: 7-6</h2>
+<p>Q:  The kinetic energy K of a system in the lab frame is related to the
+kinetic energy K<em> in the center of mass frame in the nonrelativistic case by
+the expression K = K</em> + MV^2/2, where M is the total mass of the system and V
+is the velocity of the center of mass.  What is the analogous expression for
+the relativistic case?  Show that it reduces to the above result if all speeds
+are much less than c.</p>
+<p>A:  Boost the quaternion for the center-of-mass frame to the lab, where Mo is
+the sum of the rest masses of the particles in the system.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_76.gif" /></p>
+<p>Energy is conserved, so <code>**![](../images/SR/problem_set_6/s_gr_77.gif)**</code>.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_78.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_79.gif" /></p>
+<p>The kinetic energy in the lab frame is
+<img alt="" src="../../images/SR/problem_set_6/s_gr_80.gif" />.</p>
+<p>Look at the nonrelativistic limit.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_81.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_82.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_83.gif" /></p>
+<p>Note that  (K + Mo c^2) is the total mass of the system.  In the
+nonrelativistic limit, the lab kinetic energy equals the kinetic energy within
+the center of mass frame plus the kinetic energy of all the individual masses
+in the center of mass frame.</p>
+<h2 id="post-ramble-initialization-functions">Post ramble:  Initialization functions</h2>
+<p>There are a few tools required to solve problems in special relativity  using
+quaternions to characterize events in space-time.  The most basic are a round
+value for c and gamma.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_84.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_85.gif" /></p>
+<p>Define a function for quaternions using its matrix representation.</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_86.gif" /></p>
+<p>A quaternion L that transforms a quaternion (L q[<strong>x</strong>] = q[<strong>x'</strong>]) identical
+to how the Lorentz transformation acts on 4-vectors<br />
+(Lambda <strong>x</strong> = <strong>x'</strong>) should exist.  These are described in detail in the
+notebook "A different algebra for boosts."  For boosts along the x axis with y
+= z = 0, the general function for L is</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_87.gif" /></p>
+<p>Most of the problems here involve much simpler cases for L, where t or x is
+zero, or t is equal to x.</p>
+<p>If t = 0, then</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_88.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_89.gif" /></p>
+<p>If x = 0, then</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_90.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_91.gif" /></p>
+<p>If t = x, then</p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_92.gif" /></p>
+<p><img alt="" src="../../images/SR/problem_set_6/s_gr_93.gif" /></p>
+<p>Note: this is for blueshifts.  Redshifts have a plus instead of the minus.</p>
+<p>The problems are from "Basic Concepts in Relativity" by Resnick and Halliday,
+1992 by Macmillian Publishing, "Special Relativity" by A. P. French, 1966,
+1968 by MIT, and Prof. M. Baranger of MIT.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

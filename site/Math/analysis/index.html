@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="sweetser@alum.mit.edu">
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Analysis - Q</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/color-brewer.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-9710248-1', 'dougsweetser.github.io/Q');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Q</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link"></a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Math <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../math/" class="dropdown-item">The Math</a>
+</li>
+                                    
+<li>
+    <a href="../overview/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../history/" class="dropdown-item">History</a>
+</li>
+                                    
+<li>
+    <a href="../numbers_101/" class="dropdown-item">Numbers 101</a>
+</li>
+                                    
+<li>
+    <a href="../multiplying/" class="dropdown-item">Easy multiplying</a>
+</li>
+                                    
+<li>
+    <a href="../products/" class="dropdown-item">Products</a>
+</li>
+                                    
+<li>
+    <a href="../scalars_vectors/" class="dropdown-item">Scalars, vectors, tensors and all that</a>
+</li>
+                                    
+<li>
+    <a href="../complex_quaternions/" class="dropdown-item">Complex quaternions</a>
+</li>
+                                    
+<li>
+    <a href="../equivalence_classes/" class="dropdown-item">Quaternion equivalence classes</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Analysis</a>
+</li>
+                                    
+<li>
+    <a href="../topology/" class="dropdown-item">Topology</a>
+</li>
+                                    
+<li>
+    <a href="../fit/" class="dropdown-item">Where quaternions fit</a>
+</li>
+                                    
+<li>
+    <a href="../tools/" class="dropdown-item">Math, Tools</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Classical <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Classical_physics/classical_physics/" class="dropdown-item">Classical physics</a>
+</li>
+                                    
+<li>
+    <a href="../../Classical_physics/force/" class="dropdown-item">Forces</a>
+</li>
+                                    
+<li>
+    <a href="../../Classical_physics/sho/" class="dropdown-item">Simple Harmonic Oscillators</a>
+</li>
+                                    
+<li>
+    <a href="../../Classical_physics/conservative_force/" class="dropdown-item">Conservative force</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">SR <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../SR/special_relativity/" class="dropdown-item">Special Relativity (SR)</a>
+</li>
+                                    
+<li>
+    <a href="../../SR/problem_sets/" class="dropdown-item">Problem sets</a>
+</li>
+                                    
+<li>
+    <a href="../../SR/problem_set_1/" class="dropdown-item">Problem set 1</a>
+</li>
+                                    
+<li>
+    <a href="../../SR/totally_ordered_sets_in_space-time/" class="dropdown-item">Totally ordered_sets in Space-time</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Gravity <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Stuff/pdfs/quaternion_gravity_in_2_pages.pdf" class="dropdown-item">Quaternion gravity in 2 pages</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/three_roads_to_quaternion_gravity/" class="dropdown-item">Three roads to quaternion gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/measure/" class="dropdown-item">Measurement 101 - Measuring Events</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/special_relativity/" class="dropdown-item">Gravity, Measurement_101 - Special relaitivity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/quaternion_gravity/" class="dropdown-item">Measurement 101 - Quaternion Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/measure_it_all/" class="dropdown-item">Measurement 101 - SR + QG: Special Relativity and Quaternion Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/space-times-time_invariance/" class="dropdown-item">Quaternion space-times-time invariance as gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/essays_on_gravitation/" class="dropdown-item">Essays on gravitation contest</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/PGT/personal_gravity_theory/" class="dropdown-item">PGT - Personal Gravity Theory</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">EM <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../EM/em/" class="dropdown-item">Electromagnetism</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/derive_Euler-Lagrange/" class="dropdown-item">Derive the Euler-Lagrange equations</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/EM_invariants/" class="dropdown-item">EM invariants</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/derive_Maxwell_homogeneous_equations/" class="dropdown-item">Derive the Maxwell homogeneous equations</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/derive_Maxwell_source_equations/" class="dropdown-item">Derive the Maxwell source equations</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/Maxwell_by_hand/" class="dropdown-item">Derive the Maxwell source equations by hand</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/2022-02-06__Maxwell_derivation.ipynb" class="dropdown-item">Jupyter notebook derivation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">QM <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../QM/qm/" class="dropdown-item">Quantum Mechanics</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/BellsFuture/" class="dropdown-item">Bell's Future QM Interpretation</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/bracket_notation/" class="dropdown-item">Bracket notation and quaternions</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/polar/" class="dropdown-item">Multiplying polar representations</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/uncertainty_principle/" class="dropdown-item">Commutators and the uncertainty principle</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/spin_and_angular_momentum/" class="dropdown-item">Spin and angular momentum</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/Schrodinger/" class="dropdown-item">The Schrodinger equation</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/Klein-Gordon/" class="dropdown-item">The Klein-Gordon equation</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/standard_model_symmetries/" class="dropdown-item">Visualizing the standard model</a>
+</li>
+                                    
+<li>
+    <a href="../../QM/time_reversal/" class="dropdown-item">Time reversal</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Art + PDFs <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Stuff/art/" class="dropdown-item">Art Portfolio</a>
+</li>
+                                    
+<li>
+    <a href="../../Stuff/buttons/" class="dropdown-item">Buttons</a>
+</li>
+                                    
+<li>
+    <a href="../../Stuff/pdfs/pdfs/" class="dropdown-item">PDFs</a>
+</li>
+                                    
+<li>
+    <a href="../../Stuff/Talks/talks/" class="dropdown-item">Talks on Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Stuff/shop/" class="dropdown-item">Buy Stuff</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blogs <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Blogs/blogs/" class="dropdown-item">Some writings</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Bet_against_Lubos/bet_against_Lubos/" class="dropdown-item">Bet against Lubos</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Discovery/discovery/" class="dropdown-item">Discovery</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Electromagnetism_and_gravity/electromagnetism_and_gravity/" class="dropdown-item">Electromagnetism and gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Outreach_efforts/outreach_efforts/" class="dropdown-item">Outreach efforts</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Paper/paper/" class="dropdown-item">Paper</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Space-time_numbers/space-time_numbers/" class="dropdown-item">Space-time numbers</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/The_plan/the_plan/" class="dropdown-item">The Plan</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Working_with_space-time_numbers/working_with_space-time_numbers/" class="dropdown-item">Working with space-time numbers</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Zero_and_one/zero_and_one/" class="dropdown-item">Zero and one</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../About/professional_sketch/" class="dropdown-item">Professional sketch</a>
+</li>
+                                    
+<li>
+    <a href="../../About/resume/" class="dropdown-item">Resume</a>
+</li>
+                                    
+<li>
+    <a href="../../About/personal_sketch/" class="dropdown-item">Personal Sketch</a>
+</li>
+                                    
+<li>
+    <a href="../../About/lindy_hop/" class="dropdown-item">Lindy Hop</a>
+</li>
+                                    
+<li>
+    <a href="../../About/bike/" class="dropdown-item">The bike</a>
+</li>
+                                    
+<li>
+    <a href="../../About/thanks/" class="dropdown-item">Thanks</a>
+</li>
+                                    
+<li>
+    <a href="../../About/todo/" class="dropdown-item">To do</a>
+</li>
+                                    
+<li>
+    <a href="../../About/contact_and_tip/" class="dropdown-item">Contact and tips</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a rel="prev" href="../equivalence_classes/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../topology/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#quaternion-analysis" class="nav-link">Quaternion Analysis</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#defining-a-quaternion" class="nav-link">Defining a Quaternion</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#an-automorphic-basis-for-quaternion-analysis" class="nav-link">An Automorphic Basis for Quaternion Analysis</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#future-time-like-derivative" class="nav-link">Future Time-like Derivative</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#analytic-functions" class="nav-link">Analytic Functions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#4-other-derivatives" class="nav-link">4 Other Derivatives</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="quaternion-analysis">Quaternion Analysis</h1>
+<p>Complex numbers are a subfield of quaternions.  My hypothesis is that complex
+analysis should be self-evident within the structure of quaternion analysis.</p>
+<p>The challenge is to define the derivative in a non-singular way, so that a
+left derivative always equals a right derivative.  If quaternions would only
+commute...  Well, the scalar part of a quaternion does commute.  If, in the
+limit, the differential element converged to a scalar, then it would commute.
+This idea can be defined precisely.  All that is required is that the
+magnitude of the vector goes to zero faster than the scalar.  This might
+initially appears as an unreasonable constraint.  However, there is an
+important application in physics.  Consider a set of quaternions that
+represent events in space-time.  If the magnitude of the 3-space vector is less
+than the time scalar, events are separated by a time-like interval.  It
+requires a speed less than the speed of light to connect the events.  This is
+true no matter what coordinate system is chosen.</p>
+<h2 id="defining-a-quaternion">Defining a Quaternion</h2>
+<p>A quaternion has 4 degrees of freedom, so it needs 4 real-valued variables to
+be defined:</p>
+<p><img alt="q = \(a0, a1, a2, a3\)" src="../../images/Math/analysis/s_gr_1.gif" /></p>
+<p>Imagine we want to do a simple binary operation such as subtraction, without
+having to specify the coordinate system chosen.  Subtraction will only work if
+the coordinate systems are the same, whether it is Cartesian, spherical or
+otherwise.  Let e~0~, e~1~, e~2~, and e~3~ be the shared, but unspecified, basis.  Now
+we can define the difference between two quaternion q and q' that is
+independent of the coordinate system used for the measurement.</p>
+<p><img alt="dq = q prime  - q = \(\(a0 prime  - a0\) e0, \(a1 prime  - a1\) e1/3, \(a2
+prime  - a2\) e2/3, \(a3 prime  - a3\) e3/3)" src="../../images/Math/analysis/s_gr_2.gif" /></p>
+<p>What is unusual about this definition are the factors of a third.  They will
+be necessary later in order to define a holonomic equation later in this
+section.  Hamilton gave each element parity with the others, a very reasonable
+approach.  I have found that it is important to give the scalar and the sum of
+the 3-vector parity.  Without this "scale" factor on the 3-vector, change in
+the scalar is not given its proper weight.</p>
+<p>If dq is squared, the scalar part of the resulting quaternion forms a metric.</p>
+<p><img alt="dq squared = \(da0 squared e0 squared + da1 squared e1 squared over 9 + da2
+squared e2 squared over 9 + da3 squared e3 squared over 9, 2 da0 da1 e0 e1
+over 3, 2 da0 da2 e0 e2 over 3, 2 da0 da3 e0 e3 over 3\)" src="../../images/Math/analysis/s_gr_3.gif" /></p>
+<p>What should the connection be between the squares of the basis vectors?  The
+amount of intrinsic curvature should be equal, so that a transformation
+between two basis 3-vectors does not contain a hidden bump.  Should time be
+treated exactly like space?  The Schwarzschild metric of general relativity
+suggests otherwise.  Let e~1~, e~2~, and e~3~ form an independent, dimensionless,
+orthogonal basis for the 3-vector such that:</p>
+<p><img alt="- 1 over e1 squared = - 1 over e2 squared = - 1 over e3 squared = e0
+squared" src="../../images/Math/analysis/s_gr_4.gif" /></p>
+<p>This unusual relationship between the basis vectors is consistent with
+Hamilton's choice of 1, i, j, k if e~0~^2^ = 1.  For that case, calculate the
+square of dq:</p>
+<p><img alt="dq squared = \(da0 squared e0 squared - da1 squared over 9 e0 squared - da2
+squared over 9 e0 squared - da3 squared over 9 e0 squared, 2 da0 da1 over 3, 2
+da0 da2 over 3, 2 da0 da3 over 3\) " src="../../images/Math/analysis/s_gr_5.gif" /></p>
+<p>The scalar part is known in physics as the Minkowski interval between two
+events in flat space-time.  If e~0~^2^ does not equal one, then the metric would
+apply to a non-flat space-time.  A metric that has been measured experimentally
+is the Schwarzchild metric of general relativity.  Set e~0~^2^ = (1 - 2 GM/c^2^
+R), and calculate the square of dq:</p>
+<p><img alt="dq squared = \(da0 squared \(1 - 2 G M over c squared r\) - dA dot dA over 9
+\(1 - 2 G M over c squared r\) , 2 da0 da1 over 3, 2 da0 da2 over 3, 2 da0 da3
+over 3) " src="../../images/Math/analysis/s_gr_6.gif" /></p>
+<p>This is the Schwarzchild metric of general relativity.  Notice that the
+3-vector is unchanged (this may be a defining characteristic).  There are very
+few opportunities for freedom in basic mathematical definitions.  I have
+chosen this unusual relationships between the squares of the basis vectors to
+make a result from physics easy to express.  Physics guides my choices in
+mathematical definitions :-)</p>
+<h2 id="an-automorphic-basis-for-quaternion-analysis">An Automorphic Basis for Quaternion Analysis</h2>
+<p>A quaternion has 4 degrees of freedom.  To completely specify a quaternion
+function, it must also have four degrees of freedom.  Three other linearly-
+independent variables involving q can be defined using conjugates combined
+with rotations:</p>
+<p><img alt="q conjugated = \(a0 e0, - a1 e1 over 3, - a2 e2 over 3, - a3 e3 over
+3\)" src="../../images/Math/analysis/s_gr_7.gif" /></p>
+<p><img alt="q conjugated first is defined to be \(- a0 e0,  a1 e1 over 3, - a2 e2 over
+3, - a3 e3 over 3\) = \(e1 q e1\) conjugated" src="../../images/Math/analysis/s_gr_8.gif" /></p>
+<p><img alt="q conjugated second is defined to be \(- a0 e0, - a1 e1 over 3,  a2 e2 over
+3, - a3 e3 over 3\) = \(e2 q e2\) conjugated" src="../../images/Math/analysis/s_gr_9.gif" /></p>
+<p>The conjugate as it is usually defined (q^<em>^) flips the sign of all but the
+scalar.  The q^</em>1^ flips the signs of all but the e~1~ term, and q^<em>2^ all but the
+e~2~ term.  The set q, q^</em>^, q^<em>1^, q^</em>2^ form the basis for quaternion analysis.  The
+conjugate of a conjugate should give back the original quaternion.</p>
+<p><img alt="\(q conj\) conj = q, \(q conjugated first\) conjugated first = q, \(q
+conjugated second\) conjugated second = q" src="../../images/Math/analysis/s_gr_10.gif" /></p>
+<p>Something subtle but perhaps directly related to spin happens looking at how
+the conjugates effect products:</p>
+<p><img alt="\(q times q prime\) conjugated first = q prime  conjugated first times q
+conjugated first" src="../../images/Math/analysis/s_gr_11.gif" /></p>
+<p><img alt="\(q times q prime\) conjugated first = - q prime  conjugated first times q
+conjugated first, \(q times q prime\) conjugated second = - q prime conjugated
+second times q conjugated second" src="../../images/Math/analysis/s_gr_12.gif" /></p>
+<p><img alt="\(q times q prime times q times q prime\) conjugated first = q prime
+conjugated first times q conjugated first times q prime conjugated first times
+q conjugated first" src="../../images/Math/analysis/s_gr_13.gif" /></p>
+<p>The conjugate applied to a product brings the result directly back to the
+reverse order of the elements.  The first and second conjugates point things
+in exactly the opposite way.  The property of going "half way around" is
+reminiscent of spin.  A tighter link will need to be examined.</p>
+<h2 id="future-time-like-derivative">Future Time-like Derivative</h2>
+<p>Instead of the standard approach to quaternion analysis which focuses on left
+versus right derivatives, I concentrate on the ratio of scalars to 3-vectors.
+This is natural when thinking about the structure of Minkowski space-time,
+where the ratio of the change in time to the change in 3-space defines five
+separate regions: time-like past, time-like future, light-like past, light-like
+future, and space-like.  There are no continuous Lorentz transformations to
+link these regions.  Each region will require a separate definition of the
+derivative, and they will each have distinct properties.  I will start with
+the simplest case, and look at a series of examples in detail.</p>
+<p>Definition: The future time-like derivative:</p>
+<p>Consider a covariant quaternion function f with a domain of H and a range of
+H.  For a future time-like derivative to be defined, the 3-vector must approach
+zero faster than the positive scalar.  If this is not the case, then this
+definition cannot be used.  Implementing these requirements involves two limit
+processes applied sequentially to a differential quaternion D.  First the
+limit of the three vector is taken as it goes to zero, (D - D^<em>^)/2 -&gt; 0.
+Second, the limit of the scalar is taken, (D + D^</em>^)/2 -&gt; +0 (the plus zero
+indicates that it must be approached with a time greater than zero, in other
+words, from the future).  The net effect of these two limit processes is that
+D-&gt;0.</p>
+<p><img alt="d f\(q, q conjugated, q conjugated first, q conjugated second\) over d q
+=" src="../../images/Math/analysis/s_gr_14.gif" /></p>
+<p><img alt="= the limit as the scalar d approaches zero from the positive direction of
+\(the limit as \(d, D\) approaches the scalar \(d, 0\) of \(f\(q + \(d, D\), q
+conjugated, q conjugated first, q conjugated second) - f\(q, q conjugated, q conjugated first, q conjugated second\) times \(d, D\) inverted))" src="../../images/Math/analysis/s_gr_15.gif" /></p>
+<p>The definition is invariant under a passive transformation of the basis.</p>
+<p>The 4 real variables a0, a1, a2, a3 can be represented by functions using the
+conjugates as a basis.</p>
+<p><img alt="f\(q, q conjugated, q conjugated first, q conjugated second\) = a0 = e0 \(q
++ q conjugated\) over 2" src="../../images/Math/analysis/s_gr_16.gif" /></p>
+<p><img alt="f = a1 = e1 \(q + q conj 1\) over \(-2 over 3\) = \(q + q conjugated first\)
+e1 over \(-2 over 3\)" src="../../images/Math/analysis/s_gr_17.gif" /></p>
+<p><img alt="f = a2 = e2 \(q + q conjugated second\) over \(-2 over 3\) = \(q + q
+conjugated second\) e2 over \(-2 over 3\)" src="../../images/Math/analysis/s_gr_18.gif" /></p>
+<p><img alt="f = a3 = e3 times \(q + q conjugated + q conjugated first + the second
+conjugated of q\) over \(2 over 3\) = \(q + q conjugated + q conjugated first
++ the second conjugated of q\) times e3 over \(2 over 3\)" src="../../images/Math/analysis/s_gr_19.gif" /></p>
+<p>Begin with a simple example:</p>
+<p><img alt="f = a0 = \(q + q conjugated\) over 2" src="../../images/Math/analysis/s_gr_20.gif" /></p>
+<p><img alt="d a0 by d q = da0 by d q conjugated = the limit of \(the limit of\(\(e0\(q +
+\(d, D\) + q conjugated) - \(q + q conjugated\)) times the inverse of
+\(2\(d, D\)))) = e0 over 2" src="../../images/Math/analysis/s_gr_21.gif" /></p>
+<p><img alt=" d a0 by d q conjugated first = da0 by d q conjugated second =  0
+" src="../../images/Math/analysis/s_gr_22.gif" /></p>
+<p>The definition gives the expected result.</p>
+<p>A simple approach to a trickier example:</p>
+<p><img alt="f = a1 = e1 \(q + q conjugated first\) over \(- 2 over 3\)
+" src="../../images/Math/analysis/s_gr_23.gif" /></p>
+<p><img alt="d a1 by d q = d a1 by d q conjugated = the limit of \(the limit of\(e1 times
+\(\(q + \(d, D\) + q conjugated first) - \(q + q conjugated first\)) times
+the inverse of \(-2 over 3 \(d, D\)))) = - 3 e1 over 2" src="../../images/Math/analysis/s_gr_24.gif" /></p>
+<p><img alt="d a1 over d q conjugated  = d a1 over d q conjugated second =
+0" src="../../images/Math/analysis/s_gr_25.gif" /></p>
+<p>So far, the fancy double limit process has been irrelevant for these identity
+functions, because the differential element has been eliminated.  That changes
+with the following example, a tricky approach to the same result.</p>
+<p><img alt="f = a1 = \(q + q conjugated first\) times e1 over \(-2 over 3\)
+" src="../../images/Math/analysis/s_gr_26.gif" /></p>
+<p><img alt="d a1 by d q  =  d a1 by d q conjugated first =" src="../../images/Math/analysis/s_gr_27.gif" /></p>
+<p><img alt="= the  limit of\(the limit of\(\(\(q + \(d, D\) + q conjugated first) - \(q
++ q conjugated first\)) times e1 \(-2 over 3 \(d, D\)) inverted))
+=" src="../../images/Math/analysis/s_gr_28.gif" /></p>
+<p><img alt="= the limit of\(the limit of\(\(d, D\) times e1 \(-2 over 3 \(d, D\))
+inverted)) =" src="../../images/Math/analysis/s_gr_29.gif" /></p>
+<p><img alt="= the limit of \(\(d, 0\) times e1 times \(-2 over 3 \(d, 0\)) inverted) =
+- 3 over 2 e1" src="../../images/Math/analysis/s_gr_30.gif" /></p>
+<p>Because the 3-vector goes to zero faster than the scalar for the differential
+element, after the first limit process, the remaining differential is a scalar
+so it commutes with any quaternion.  This is what is required to dance around
+the e~1~ and lead to the cancellation.</p>
+<p>The initial hypothesis was that complex analysis should be a self-evident
+subset of quaternion analysis.  So this quaternion derivative should match up
+with the complex case, which is:</p>
+<p><img alt="z = a + b i, y = \(Z - Z conjugated\) over 2 i" src="../../images/Math/analysis/s_gr_31.gif" /></p>
+<p><img alt="d b by d z = - i over 2 = - d b by d Z
+conjugated" src="../../images/Math/analysis/s_gr_32.gif" /></p>
+<p>These are the same result up to two edits.  Quaternions have three
+imaginary axes, which creates the factor of three.  The conjugate of a complex
+number is really doing the work of the first quaternion conjugate q^<em>1^ (which
+equals -z^</em>^), because z^*^ flips the sign of the first 3-vector component, but no
+others.</p>
+<p>The derivative of a quaternion applies equally well to polynomials.</p>
+<p><img alt="let f = q squared" src="../../images/Math/analysis/s_gr_33.gif" /></p>
+<p><img alt="d f by d q = the limit of\(the limit of \(\(\(q + \(d, D\)) squared - q
+squared) times \(d, D\) inverted)) =" src="../../images/Math/analysis/s_gr_34.gif" /></p>
+<p><img alt="= the limit of \(the limit of \(\(q squared + q times \(d, D\) + \(d, D\)
+times q + \(d, D\) squared - q squared) times \(d, D\) inverted))
+=" src="../../images/Math/analysis/s_gr_35.gif" /></p>
+<p><img alt="= the limit of \(the limit of \(\(q + \(d, D\) times q times \(d, D\)
+inverted + \(d, D\))) =" src="../../images/Math/analysis/s_gr_36.gif" /></p>
+<p><img alt="= the limit of \(2 q + \(d, 0\)) = 2 q" src="../../images/Math/analysis/s_gr_37.gif" /></p>
+<p>This is the expected result for this polynomial.  It would be straightforward
+to show that all polynomials gave the expected results.</p>
+<p>Mathematicians might be concerned by this result, because if the 3-vector D
+goes to -D nothing will change about the quaternion derivative.  This is
+actually consistent with principles of special relativity.  For time-like
+separated events, right and left depend on the inertial reference frame, so a
+time-like derivative should not depend on the direction of the 3-vector.</p>
+<h2 id="analytic-functions">Analytic Functions</h2>
+<p>There are 4 types of quaternion derivatives and 4 component functions.  The
+following table describes the 16 derivatives for this set</p>
+<p><img alt="Reading each derivative for the 4 components a0, a1, a2, a3 in a row, the
+derivatives with respect to q are e~0~/2, - 3 e~1~/2, - 3 e~2~/3, 3 e~3~/3; the
+derivatives with respect to q conj are e~0~/2, 0, 0, 3 e~3~/3;the derivatives with
+respect to q conj1 are 0, - 3 e~1~/2, 0, 3 e~3~/3;the derivatives with respect to
+q conj2 are 0, 0, - 3 e~2~/2, 3 e~3~/3;" src="../../images/Math/analysis/s_gr_38.gif" /></p>
+<p>This table will be used extensively to evaluate if a function is analytic
+using the chain rule.  Let's see if the identity function w = q is analytic.</p>
+<p><img alt="Let w = q = \(a0 e0,  a1 e~1~ over 3, a2 e2 over 3, a3 e3 over
+3\)" src="../../images/Math/analysis/s_gr_39.gif" /></p>
+<p>Use the chain rule to calculate the derivative will respect to each term:</p>
+<p><img alt="d w by d a0 times d a0 by d q = e0 e0 over 2 = 1
+half" src="../../images/Math/analysis/s_gr_40.gif" /></p>
+<p><img alt="d w by d a1 time d a1 by d q = e1 over 3 times e1 over \(-2 over 3\) = 1
+half" src="../../images/Math/analysis/s_gr_41.gif" /></p>
+<p><img alt="d w by d a2 times d a2 by d q = e2 over 3 times e2 over \(-2 over 3\) = 1
+half" src="../../images/Math/analysis/s_gr_42.gif" /></p>
+<p><img alt="d w by d a3 times d a3 by d q = e3 over 3 times d e3 over \(2 over 3\) = - 1
+half" src="../../images/Math/analysis/s_gr_43.gif" /></p>
+<p>Use combinations of these terms to calculate the four quaternion derivatives
+using the chain rule.</p>
+<p><img alt="d w by d q = d w by d a0 times d a0 by d q + d w  by d a1 times d a1 by d q
++ d w by d a2 times d a2 by d q + d w by d a3 times d a3 by d q = 1 half + 1
+half + 1 half - 1 half = 1" src="../../images/Math/analysis/s_gr_44.gif" /></p>
+<p><img alt="d w by d q conj   =d w by d a0 times d a0 by d q conj +d w by d a3 times d
+a3 by d q conj = 1 half - 1 half = 0" src="../../images/Math/analysis/s_gr_45.gif" /></p>
+<p><img alt="d w by d q conjugated first = d w by d a1 times d a1 by d q conjugated first
++ d w by d a3 times d a3 by d q conjugated first = 1 half - 1 half =
+0" src="../../images/Math/analysis/s_gr_46.gif" /></p>
+<p><img alt="d w by d q conjugated second = d w by d a2 times d a2 by d q conjugated
+second + d w by d a3 times d a3 by d q conjugated second = 1 half - 1 half =
+0" src="../../images/Math/analysis/s_gr_47.gif" /></p>
+<p>This has the derivatives expected if w=q is analytic in q.</p>
+<p>Another test involves the Cauchy-Riemann equations.  The presence of the three
+basis vectors changes things slightly.</p>
+<p><img alt="Let u = \(a0 e0, 0, 0, 0\) , V = \(0, a1 e1 over 3, a2 e2 over 3, a3 e3 over
+3\) " src="../../images/Math/analysis/s_gr_48.gif" /></p>
+<p><img alt="d u by d a0 times e1 over 3 = d V by d a1 e0, d u by d a0 times e2 over 3 =
+d V by d a2 times e0, d u by d a0 times e3 over 3 = d V by d a3 times
+e0" src="../../images/Math/analysis/s_gr_49.gif" /></p>
+<p>This also solves a holonomic equation.</p>
+<p><img alt="the scalar part of \(d u by d a0, d V by d a1, d V by d a2, d V by d a3\)
+times \(e0, e1, e2, e3\)) = e0 times e0 + e1 times e1 over 3 + e2 times e2
+over 3 + e3 times e3 over 3 = 0 " src="../../images/Math/analysis/s_gr_50.gif" /></p>
+<p>There are no off diagonal terms to compare.</p>
+<p>This exercise can be repeated for the other identity functions.  One
+noticeable change is that the role that the conjugate must play.  Consider the
+identity function w = q^<em>1^.  To show that this is analytic in q^</em>1^ requires that
+one always works with basis vectors of the q^*1^ variety.</p>
+<p><img alt="Let u = \(- a0 e0, 0, 0, 0\), V = \(0, a1 e1 over 3, - a2 e2 over 3, - a3 e3
+over 3\)" src="../../images/Math/analysis/s_gr_51.gif" /></p>
+<p><img alt="d u by d a0 times \(-e1 over 3 \)= d V by d a1 times e0, d u by d a0 times
+e2 over 3 = d V by d a2  times e0, d u by d a0 times e3 over 3 = d V by d a3
+times e0" src="../../images/Math/analysis/s_gr_52.gif" /></p>
+<p>This also solves a first conjugate holonomic equation.</p>
+<p><img alt="\(d u by d a0 + d V by d a1 + d V by d a2 + dV by d a3\) dot \(e0 + e1 + e2
++ e3\) = e0  e0  + e1 over 3 times e1 + e2 over 3 time e2 + e3 over 3 times e3
+= 0" src="../../images/Math/analysis/s_gr_53.gif" /></p>
+<p>Power functions can be analyzed in exactly the same way:</p>
+<p><img alt="Let w = q squared  = \(a0 squared times e0 squared + a1 squared times e1
+squared over 9 + a2 squared times e2 squared over 9 + a3 squared times e3
+squared over 9, 2 a0 a1 e0 e1 over 3, 2 a0 a2 e0 e2 over 3, 2 a0 a3 e0 e3 over 3\) " src="../../images/Math/analysis/s_gr_54.gif" /></p>
+<p><img alt="u = \(a0 squared e0 squared + a1 squared e1 squared over 9 + a2 squared e2
+squared over 9 + a3 squared e3 squared over 9, 0, 0,
+0\)" src="../../images/Math/analysis/s_gr_55.gif" /></p>
+<p><img alt="V = \(0, 2 a0 a1 e0 e1 over 3, 2 a0 a2 e0 e2 over 3, 2 a0 a3 e0 e3 over
+3\)" src="../../images/Math/analysis/s_gr_56.gif" /></p>
+<p><img alt="d u by d a0 e1 over 3 = 2 a0 e0 squared e1 over 3 = d  V by d a1
+e0" src="../../images/Math/analysis/s_gr_57.gif" /></p>
+<p><img alt="d u by d a0 e2 over 3 = 2 a0 e0 squared e2 over 3 = d  V by d a2
+e0" src="../../images/Math/analysis/s_gr_58.gif" /></p>
+<p><img alt="d u by d a0 e3 over 3 = 2 a0 e0  e3 squared over 3 = d  V by d a3
+e0" src="../../images/Math/analysis/s_gr_59.gif" /></p>
+<p>This time there are cross terms involved.</p>
+<p><img alt="- d u by d a1 3 times e0 = - 2 a1 e0 e1 squared over 9 = d V1 by d a0 e1
+over 3" src="../../images/Math/analysis/s_gr_60.gif" /></p>
+<p><img alt="- d u by d a2 3 e0 = - 2 a2 e0 e2 squared over 9 = d V2 by d a0 e2 over
+3" src="../../images/Math/analysis/s_gr_61.gif" /></p>
+<p><img alt="d u by d a3 e0 = - 2 a3 e0 e3 squared over 9 = - d V3 by d a0 e3 over
+3" src="../../images/Math/analysis/s_gr_62.gif" /></p>
+<p>At first glance, one might think these are incorrect, since the signs of the
+derivatives are suppose to be opposite.  Actually they are, but it is hidden
+in an accounting trick :-)  For example, the derivative of u with respect to
+a1 has a factor of e~1~^2^, which makes it negative.  The derivative of the first
+component of V with respect to a0 is positive.  Keeping all the information
+about signs in the e's makes things look non-standard, but they are not.  </p>
+<p>Note that these are three scalar equalities.  The other Cauchy-Riemann
+equations evaluate to a single 3-vector equation.  This represents four
+constraints on the four degrees of freedom found in quaternions to find out if
+a function happens to be analytic.</p>
+<p>This also solves a holonomic equation.</p>
+<p><img alt="\(d u by d a0 + d V over a1 + d V by d a2 +d V by d a3 \) dot \(e0 +e1 + e2
++ e3\) =" src="../../images/Math/analysis/s_gr_63.gif" /></p>
+<p><img alt="= 2 a0 e0 cubed  + 2 a0 e1 over 3 e1 + 2 a0 e2 over 3 e2 + 2 a0 e3 over 3 e3
+= 0" src="../../images/Math/analysis/s_gr_64.gif" /></p>
+<p>Since power series can be analytic, this should open the door to all forms of
+analysis.  (I have done the case for the cube of q, and it too is analytic in
+q).</p>
+<h2 id="4-other-derivatives">4 Other Derivatives</h2>
+<p>So far, this work has only involved future time-like derivatives.  There are
+five other regions of space-time to cover.  The simplest next case is for past
+time-like derivatives.  The only change is in the limit, where the scalar
+approaches zero from below.  This will make many derivatives look time
+symmetric, which is the case for most laws of physics.</p>
+<p>A more complicated case involves space-like derivatives.  In the space-like
+region, changes in time go to zero faster than the absolute value of the
+3-vector.  Therefore the order of the limit processes is reversed.  This time
+the scalar approaches zero, then the 3-vector.  This creates a problem,
+because after the first limit process, the differential element is (0, D),
+which will not commute with most quaternions.  That will lead to the
+differential element not canceling.  The way around this is to take its norm,
+which is a scalar.</p>
+<p>A space-like differential element is defined by taking the ratio of a
+differential quaternion element D to its 3-vector, D - D^<em>^.  Let the norm of
+D approach zero.  To be defined, the three vector must approach zero faster
+than its corresponding scalar.  To make the definition non-singular
+everywhere, multiply by the conjugate.  In the limit D D^</em>^/((D - D^<em>^)(D - D^</em>^))*
+approaches (1, 0), a scalar.</p>
+<p><img alt="the norm of the partial derivative of f with respect to q =" src="../../images/Math/analysis/s_gr_65.gif" /></p>
+<p><img alt="= the limit as the 3-vector \(0, D\) goes to 0 of \(the limit as the
+quaternion differential element \(d, D\) goes to the 3-vector \(0, D\) of
+\(f\(q + \(d, D\), q conjugated, q conjugated first, q conjugated second) - f\(q, q conjugated, q conjugated first, q conjugated second\) times \(d, D\) inverted)) times the preceding difference conjugated))" src="../../images/Math/analysis/s_gr_66.gif" /></p>
+<p>To make this concrete, consider a simple example, f = q^2.  Apply the
+definition:</p>
+<p><img alt="the norm of d q squared by d q = the limit as \(0, D\) goes to 0 of \(the
+limit as \(d, D\) goes to \(0, D\)" src="../../images/Math/analysis/s_gr_67.gif" /></p>
+<p><img alt="\(\(\(\(a, B\) + \(d, D\)) squared - \(a, B\) squared) times \(d, D\)
+inverted times the conjugate of the preceding difference
+=" src="../../images/Math/analysis/s_gr_68.gif" /></p>
+<p><img alt="= the limit of \(\(\(a, B\) + \(0, D\) times \(a, B\) times \(0, D\)
+conjugated over the norm of \(0, D\) + \(0, D\)) times the preceding sum
+conjugated) =" src="../../images/Math/analysis/s_gr_69.gif" /></p>
+<p>The second and fifth terms are unitary rotations of the 3-vector B.  Since the
+differential element D could be pointed anywhere, this is an arbitrary
+rotation. Define:</p>
+<p><img alt="\(a, B prime\) = \(0, D\) times \(a, B\) times \(0, -D\) over the norm of
+\(0, D\)" src="../../images/Math/analysis/s_gr_70.gif" /></p>
+<p>Substitute, and continue:</p>
+<p><img alt="= the limit of \(\(\(a, B\) + \(a, B prime\) + \(0, D\)) times \(\(a, B\) +
+\(a, B prime\) + \(0, D\)) conjugated) =" src="../../images/Math/analysis/s_gr_71.gif" /></p>
+<p><img alt="= the limit of \(4 times a squared + 2 B squared + 2 B dot B prime + 2 D dot
+B + 2 D dot B prime, 0\)" src="../../images/Math/analysis/s_gr_72.gif" /></p>
+<p><img alt="= \(4 a squared + 2 B squared + 2 B dot B prime, 0\) is less than 2 q
+absolute value squared" src="../../images/Math/analysis/s_gr_73.gif" /></p>
+<p>Look at how wonderfully strange this is!  The arbitrary rotation of the
+3-vector B means that this derivative is bound by an inequality.  If D is in
+direction of B, then it will be an equality, but D could also be in the
+opposite direction, leading to a destruction of a contribution from the
+3-vector.  The space-like derivative can therefore interfere with itself.  This
+is quite a natural thing to do in quantum mechanics.  The space-like derivative
+is positive definite, and could be used to define a Banach space.</p>
+<p>Defining the light-like derivative, where the change in time is equal to the
+change in space, will require more study.  It may turn out that this
+derivative is singular everywhere, but it will require some skill to find a
+technically viable compromise between the space-like and time-like derivative to
+synthesis the light-like derivative.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="sweetser@alum.mit.edu">
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Commutators and the uncertainty principle - Q</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/color-brewer.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-9710248-1', 'dougsweetser.github.io/Q');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Q</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link"></a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Math <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Math/math/" class="dropdown-item">The Math</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/overview/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/history/" class="dropdown-item">History</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/numbers_101/" class="dropdown-item">Numbers 101</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/multiplying/" class="dropdown-item">Easy multiplying</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/products/" class="dropdown-item">Products</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/scalars_vectors/" class="dropdown-item">Scalars, vectors, tensors and all that</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/complex_quaternions/" class="dropdown-item">Complex quaternions</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/equivalence_classes/" class="dropdown-item">Quaternion equivalence classes</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/analysis/" class="dropdown-item">Analysis</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/topology/" class="dropdown-item">Topology</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/fit/" class="dropdown-item">Where quaternions fit</a>
+</li>
+                                    
+<li>
+    <a href="../../Math/tools/" class="dropdown-item">Math, Tools</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Classical <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Classical_physics/classical_physics/" class="dropdown-item">Classical physics</a>
+</li>
+                                    
+<li>
+    <a href="../../Classical_physics/force/" class="dropdown-item">Forces</a>
+</li>
+                                    
+<li>
+    <a href="../../Classical_physics/sho/" class="dropdown-item">Simple Harmonic Oscillators</a>
+</li>
+                                    
+<li>
+    <a href="../../Classical_physics/conservative_force/" class="dropdown-item">Conservative force</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">SR <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../SR/special_relativity/" class="dropdown-item">Special Relativity (SR)</a>
+</li>
+                                    
+<li>
+    <a href="../../SR/problem_sets/" class="dropdown-item">Problem sets</a>
+</li>
+                                    
+<li>
+    <a href="../../SR/problem_set_1/" class="dropdown-item">Problem set 1</a>
+</li>
+                                    
+<li>
+    <a href="../../SR/totally_ordered_sets_in_space-time/" class="dropdown-item">Totally ordered_sets in Space-time</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Gravity <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Stuff/pdfs/quaternion_gravity_in_2_pages.pdf" class="dropdown-item">Quaternion gravity in 2 pages</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/three_roads_to_quaternion_gravity/" class="dropdown-item">Three roads to quaternion gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/measure/" class="dropdown-item">Measurement 101 - Measuring Events</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/special_relativity/" class="dropdown-item">Gravity, Measurement_101 - Special relaitivity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/quaternion_gravity/" class="dropdown-item">Measurement 101 - Quaternion Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/Measurement_101/measure_it_all/" class="dropdown-item">Measurement 101 - SR + QG: Special Relativity and Quaternion Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/space-times-time_invariance/" class="dropdown-item">Quaternion space-times-time invariance as gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/essays_on_gravitation/" class="dropdown-item">Essays on gravitation contest</a>
+</li>
+                                    
+<li>
+    <a href="../../Gravity/PGT/personal_gravity_theory/" class="dropdown-item">PGT - Personal Gravity Theory</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">EM <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../EM/em/" class="dropdown-item">Electromagnetism</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/derive_Euler-Lagrange/" class="dropdown-item">Derive the Euler-Lagrange equations</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/EM_invariants/" class="dropdown-item">EM invariants</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/derive_Maxwell_homogeneous_equations/" class="dropdown-item">Derive the Maxwell homogeneous equations</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/derive_Maxwell_source_equations/" class="dropdown-item">Derive the Maxwell source equations</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/Maxwell_by_hand/" class="dropdown-item">Derive the Maxwell source equations by hand</a>
+</li>
+                                    
+<li>
+    <a href="../../EM/2022-02-06__Maxwell_derivation.ipynb" class="dropdown-item">Jupyter notebook derivation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">QM <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../qm/" class="dropdown-item">Quantum Mechanics</a>
+</li>
+                                    
+<li>
+    <a href="../BellsFuture/" class="dropdown-item">Bell's Future QM Interpretation</a>
+</li>
+                                    
+<li>
+    <a href="../bracket_notation/" class="dropdown-item">Bracket notation and quaternions</a>
+</li>
+                                    
+<li>
+    <a href="../polar/" class="dropdown-item">Multiplying polar representations</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Commutators and the uncertainty principle</a>
+</li>
+                                    
+<li>
+    <a href="../spin_and_angular_momentum/" class="dropdown-item">Spin and angular momentum</a>
+</li>
+                                    
+<li>
+    <a href="../Schrodinger/" class="dropdown-item">The Schrodinger equation</a>
+</li>
+                                    
+<li>
+    <a href="../Klein-Gordon/" class="dropdown-item">The Klein-Gordon equation</a>
+</li>
+                                    
+<li>
+    <a href="../standard_model_symmetries/" class="dropdown-item">Visualizing the standard model</a>
+</li>
+                                    
+<li>
+    <a href="../time_reversal/" class="dropdown-item">Time reversal</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Art + PDFs <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Stuff/art/" class="dropdown-item">Art Portfolio</a>
+</li>
+                                    
+<li>
+    <a href="../../Stuff/buttons/" class="dropdown-item">Buttons</a>
+</li>
+                                    
+<li>
+    <a href="../../Stuff/pdfs/pdfs/" class="dropdown-item">PDFs</a>
+</li>
+                                    
+<li>
+    <a href="../../Stuff/Talks/talks/" class="dropdown-item">Talks on Gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Stuff/shop/" class="dropdown-item">Buy Stuff</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blogs <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Blogs/blogs/" class="dropdown-item">Some writings</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Bet_against_Lubos/bet_against_Lubos/" class="dropdown-item">Bet against Lubos</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Discovery/discovery/" class="dropdown-item">Discovery</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Electromagnetism_and_gravity/electromagnetism_and_gravity/" class="dropdown-item">Electromagnetism and gravity</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Outreach_efforts/outreach_efforts/" class="dropdown-item">Outreach efforts</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Paper/paper/" class="dropdown-item">Paper</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Space-time_numbers/space-time_numbers/" class="dropdown-item">Space-time numbers</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/The_plan/the_plan/" class="dropdown-item">The Plan</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Working_with_space-time_numbers/working_with_space-time_numbers/" class="dropdown-item">Working with space-time numbers</a>
+</li>
+                                    
+<li>
+    <a href="../../Blogs/Zero_and_one/zero_and_one/" class="dropdown-item">Zero and one</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../About/professional_sketch/" class="dropdown-item">Professional sketch</a>
+</li>
+                                    
+<li>
+    <a href="../../About/resume/" class="dropdown-item">Resume</a>
+</li>
+                                    
+<li>
+    <a href="../../About/personal_sketch/" class="dropdown-item">Personal Sketch</a>
+</li>
+                                    
+<li>
+    <a href="../../About/lindy_hop/" class="dropdown-item">Lindy Hop</a>
+</li>
+                                    
+<li>
+    <a href="../../About/bike/" class="dropdown-item">The bike</a>
+</li>
+                                    
+<li>
+    <a href="../../About/thanks/" class="dropdown-item">Thanks</a>
+</li>
+                                    
+<li>
+    <a href="../../About/todo/" class="dropdown-item">To do</a>
+</li>
+                                    
+<li>
+    <a href="../../About/contact_and_tip/" class="dropdown-item">Contact and tips</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a rel="prev" href="../polar/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../spin_and_angular_momentum/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#commutators-and-the-uncertainty-principle" class="nav-link">Commutators and the Uncertainty Principle</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#commutators" class="nav-link">Commutators</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#the-uncertainty-principle" class="nav-link">The Uncertainty Principle</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#connections-to-standard-notation" class="nav-link">Connections to Standard Notation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#implications" class="nav-link">Implications</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="commutators-and-the-uncertainty-principle">Commutators and the Uncertainty Principle</h1>
+<p>Commutators and the uncertainty principle are central to quantum mechanics.
+Using quaternions in these roles has already been established by others
+(Horwitz and Biedenharn, Annals of Physics, 157:432, 1984).  The first proof
+of the uncertainty principle I saw relied solely on the properties of complex
+numbers, not on physics!  In this notebook I will repeat that analysis,
+showing how commutators and an uncertainty principle arise from the properties
+of quaternions (or their subfield the complex numbers).</p>
+<h2 id="commutators">Commutators</h2>
+<p>Any quaternion can be written in a polar form.</p>
+<p><img alt="q = \(s, V\) = root q conjugated q times e to the \(s over root q conjugated
+times q times V over root V conjugate times
+V\)" src="../../images/QM/uncertainty_principle/s_gr_1.gif" /></p>
+<p>This is identical to Euler's formula except that the imaginary unit vector i
+is replaced by the normalized 3-vector.  The two are equivalent if j = k = 0.
+Any quaternion could be the limit of the sum of an infinite number of other
+quaternions expressed in a polar form.  I hope to show that such a quaternion
+mathematically behaves like the wave function of quantum mechanics, even if
+the notation is different.</p>
+<p>To simplify things, use a normalized quaternion, so that q<em> q = 1.  Collect
+the normalized 3-vector together with I = V/(V</em> V)^.5.</p>
+<p>The angle s/(q* q)^.5 is a real number.  Any real number can be viewed as the
+product of two other real numbers.  This seemingly irrelevant observation
+lends much of the flexibility seen in quantum mechanics :-)  Here is the
+rewrite of q.</p>
+<p><img alt="q = e to the \(a b I\) " src="../../images/QM/uncertainty_principle/s_gr_2.gif" /></p>
+<p><img alt="where  q conjugate times q = 1,   a b = s over root q conjugated times q,  I
+= V over root V conjugated times V" src="../../images/QM/uncertainty_principle/s_gr_3.gif" /></p>
+<p>The unit vector I could also be viewed as the product of two quaternions.For
+classical quantum mechanics, this additional complication is unnecessary.  It
+may be required for relativistic quantum mechanics, so this should be kept in
+mind.</p>
+<p>A point of clarification on notation:the same letter will be used 4 distinct
+ways.There are operators, A hat, which act on a quaternion wave function by
+multiplying by a quaternion, capital A.  If the operator A hat is an
+observable, then it generates a real number, (a, 0), which commutes with all
+quaternions, whatever their form. There is also a variable with respect to a
+component of a quaternion, a_i, that can be used to form a differential
+operator.</p>
+<p>Define a linear operator A hat that multiplies q by the quaternion A.</p>
+<p><img alt="A hat acts on q = A times q" src="../../images/QM/uncertainty_principle/s_gr_4.gif" /></p>
+<p>If the operator A hat is an observable, then the quaternion  A is a real
+number, (a, 0).  This will commute with any quaternion.  This equation is
+functionally equivalent to an eigenvalue equation, with A hat as an
+eigenvector of q and (a, 0) as the eigenvalue.  However, all of the components
+of this equation are quaternions, not separate structures such as an operator
+belonging to a group and a vector.  This might make a subtle but significant
+difference for the mathematical structure of the theory, a point that will not
+be investigated here.</p>
+<p>Define a linear operator B hat that multiplies q by the quaternion B.  If B
+hat is an observable,  then this operator can be defined in terms of the
+scalar variable a.</p>
+<p><img alt="Let   B hat = - I d by d a" src="../../images/QM/uncertainty_principle/s_gr_5.gif" /></p>
+<p><img alt="B hat acting on q = - I d e to the \(a b I\) over d a = b times
+q" src="../../images/QM/uncertainty_principle/s_gr_6.gif" /></p>
+<p>Operators A and B are linear.</p>
+<p><img alt="\(A hat + B hat\) acting on q = A hat acting on q + B hat acting on q = a
+times q + b times q = \(a + b\) times
+q" src="../../images/QM/uncertainty_principle/s_gr_7.gif" /></p>
+<p><img alt="A hat acting on \(q + q prime\) =  A hat acting on q + A hat acting on q
+prime = a times q + a prime times q
+prime" src="../../images/QM/uncertainty_principle/s_gr_8.gif" /></p>
+<p>Calculate the commutator [A, B], which involves the scalar a and the
+derivative with respect to a.</p>
+<p><img alt="The commutator of A hat, B hat acting on q = \(A hat times B hat - B hat
+times A hat\) acting on q = -a I d q by d a + I d a q by d
+a" src="../../images/QM/uncertainty_principle/s_gr_9.gif" /></p>
+<p><img alt="= -a I d q by  d a + a I d q by d a  +  I q d a by d a = I
+q" src="../../images/QM/uncertainty_principle/s_gr_10.gif" /></p>
+<p>The commutator acting on a quaternion is equivalent to multiplying that
+quaternion by the normalized 3-vector I.</p>
+<h2 id="the-uncertainty-principle">The Uncertainty Principle</h2>
+<p>Use these operators to construct things that behave like averages (expectation
+values) and standard deviations.</p>
+<p>The scalar a--generated by the observable operator A hat acting on the
+normalized q--can be calculated using the Euclidean product.</p>
+<p><img alt="q conjugated \(A hat acting on q\) = q conjugated a q = a q conjugated q =
+a" src="../../images/QM/uncertainty_principle/s_gr_11.gif" /></p>
+<p>It is hard to shuffle quaternions or their operators around.  Real scalars
+commute with any quaternion and are their own conjugates.  Operators that
+generate such scalars can move around.  Look at ways to express the
+expectation value of A.</p>
+<p><img alt="q conjugated \(A hat acting on q\) = q conjugated a q = a q conjugated q = A
+conjugated q conjugated q = \(A hat acting on q\) conjugated q  =
+a" src="../../images/QM/uncertainty_principle/s_gr_12.gif" /></p>
+<p>Define a new operator A' based on A whose expectation value is always zero.</p>
+<p><img alt="Let   A prime = A hat - q conjugated \(A hat acting on
+q\)" src="../../images/QM/uncertainty_principle/s_gr_13.gif" /></p>
+<p><img alt="q conjugated \(A prime q\) =  q conjugated \(A - q conjugated \(A q\))q) =
+a - a = 0" src="../../images/QM/uncertainty_principle/s_gr_14.gif" /></p>
+<p>Define the square of the operator in a way designed to link up with the
+standard deviation.</p>
+<p><img alt="Let DA prime squared = q conjugated \(A prime acting twice on q\) - \(q
+conjugated \(A prime q\)) squared = q conjugated \(A prime acting twice on
+q\)" src="../../images/QM/uncertainty_principle/s_gr_15.gif" /></p>
+<p>An identical set of tools can be defined for B.</p>
+<p>In the section on bracket notation, the Schwarz inequality for quaternions was
+shown.</p>
+<p><img alt="\(A prime conjugated times B prime + B prime conjugated times A prime\) over
+2 is less than the absolute value of A prime times the absolute value of B
+prime" src="../../images/QM/uncertainty_principle/s_gr_16.gif" /></p>
+<p>The Schwarz inequality applies to quaternions, not quaternion operators.  If
+the operators A' and B' are surrounded on both sides by q and q*, then they
+will behave like scalars.</p>
+<p>The left-hand side of the Schwarz inequality can be rearranged to form a
+commutator.</p>
+<p><img alt="q conjugated \(A prime conjugated B prime + B prime conjugated A prime\) q =
+q A prime conjugated B prime q + q B prime conjugated A prime q = q conjugated
+A prime conjugated B prime q +      q conjugated \(-I\)conjugated d by d a A
+prime q =" src="../../images/QM/uncertainty_principle/s_gr_17.gif" /></p>
+<p><img alt="= q conjugated A prime B prime q -  q conjugated \(-I\)d by d a A prime q =
+q conjugated\(A prime B prime - B prime A prime\)q = q conjugated times the
+conjugator of \(A prime, B prime\) q
+" src="../../images/QM/uncertainty_principle/s_gr_18.gif" /></p>
+<p>The right-hand side of the Schwarz inequality can be rearranged to form the
+square of the standard deviation operators.</p>
+<p><img alt="q conjugated times the absolute value of A prime times the absolute value of
+B prime times q = q conjugated A prime A primeB prime conjugated B prime q = q
+A prime squared  B prime squared q = q conjugated DA prime squared DB prime
+squared q" src="../../images/QM/uncertainty_principle/s_gr_19.gif" /></p>
+<p>Plug both of these back into the Schwarz inequality, stripping the primes and
+the q's which appear on both sides along the way.</p>
+<p><img alt="The commutator of A, B over 2 is less than the standard deviation squared of
+the operator A times the standard deviation squared of the operator
+B" src="../../images/QM/uncertainty_principle/s_gr_20.gif" /></p>
+<p>This is the uncertainty principle for complementary observable operators.</p>
+<h2 id="connections-to-standard-notation">Connections to Standard Notation</h2>
+<p>This quaternion exercise can be mapped to the standard notation used in
+physics</p>
+<p><img alt="bra vector: |psi&gt; maps to q" src="../../images/QM/uncertainty_principle/s_gr_21.gif" /></p>
+<p><img alt="ket vector: &lt;psi| maps to q
+conjugated" src="../../images/QM/uncertainty_principle/s_gr_22.gif" /></p>
+<p><img alt="operator: A maps to A" src="../../images/QM/uncertainty_principle/s_gr_23.gif" /></p>
+<p><img alt="imaginary: i maps to 3-vector I" src="../../images/QM/uncertainty_principle/s_gr_24.gif" /></p>
+<p><img alt="commutator: [A, B] maps to [A,
+B]" src="../../images/QM/uncertainty_principle/s_gr_25.gif" /></p>
+<p><img alt="norm: &lt;psi|psi&gt; maps to q conjugated times q" src="../../images/QM/uncertainty_principle/s_gr_26.gif" /></p>
+<p><img alt="expectation of A: &lt;psi|A psi&gt; maps to q conjugated A q" src="../../images/QM/uncertainty_principle/s_gr_27.gif" /></p>
+<p><img alt="A is Hermitian maps to \(0, A\) is anti-Hermitian" src="../../images/QM/uncertainty_principle/s_gr_28.gif" /></p>
+<p><img alt="The square of the standard deviation: dA squared = &lt;psi | A squared  psi&gt; -&lt;psi| A psi&gt; squared maps to  DA squared" src="../../images/QM/uncertainty_principle/s_gr_29.gif" /></p>
+<p>One subtlety to note is that a quaternion operator is anti-Hermitian only if
+the scalar is zero.  This is probably the case for classical quantum
+mechanics, but quantum field theory may require full quaternion operators.
+The proof of the uncertainty principle shown here is independent of this
+issue.  I do not yet understand the consequence of this point.</p>
+<p>To get to the position-momentum uncertainty equation, make these specific maps</p>
+<p><img alt="A goes to X" src="../../images/QM/uncertainty_principle/s_gr_30.gif" /></p>
+<p><img alt="B goes to P = i h bar d by dx" src="../../images/QM/uncertainty_principle/s_gr_31.gif" /></p>
+<p><img alt="I h bar = the commutator of A, B goes to   i h bar the commutator of X, P" src="../../images/QM/uncertainty_principle/s_gr_32.gif" /></p>
+<p><img alt="The commutator of A, B over 2 =  I over 2 is less than or equal to DA squared  DB squared  goes to the commutator of X, P over 2 = i h bar over 2 is less than or equal to the standard deviation of X squared times the standard deviation of P squared " src="../../images/QM/uncertainty_principle/s_gr_33.gif" /></p>
+<p>The product of the squares of the standard deviation for position and momentum
+in the x-direction has a lower bound equal to half the expectation value of
+the commutator of those operators.  The proof is in the structure of
+quaternions.</p>
+<h2 id="implications">Implications</h2>
+<p>There are many interpretations of the uncertainty principle.  I come away with
+two strange observations.  First, the uncertainty principle is about
+quaternions of the form q = Exp[a b I].  With this insight, one can see by
+inspection that a plane wave Exp[((Et - P.X)/hbar I], or wave packets that are
+superpositions of plane waves, will have four uncertainty relations, one for
+the scalar Et and another three for the three-part scalar P.X.  This
+perspective should be easy to generalize.</p>
+<p>Second, the uncertainty principle and gravity are related to the same
+mathematical properties.  This proof of the uncertainty relation involved the
+Schwarz inequality.  It is fairly straightforward to convert that inequality
+to the triangle inequality.  Finding geodesics with quaternions involves the
+triangle inequality.  If a complete theory of gravity can be built from these
+geodesics (it hasn't yet been done :-) then the inequalities may open
+connections where none appeared before.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
