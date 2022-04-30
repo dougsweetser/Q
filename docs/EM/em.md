@@ -6,4 +6,4 @@
 1. [EM invariants](EM_invariants.md)
 1. [Derive the Maxwell homogeneous equations](derive_Maxwell_homogeneous_equations.md)
 1. [Derive the Maxwell source equations](derive_Maxwell_source_equations.md)
-1. [Jupyter notebook derivation](2022-02-06__Maxwell_derivation.ipynb)
+1. Jupyter notebook derivation [pdf](2022-02-06__Maxwell_derivation.pdf) [ipynb](2022-02-06__Maxwell_derivation.ipynb)
