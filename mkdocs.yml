@@ -63,6 +63,7 @@ nav:
     - 'Derive the Maxwell homogeneous equations': 'EM/derive_Maxwell_homogeneous_equations.md'
     - 'Derive the Maxwell source equations': 'EM/derive_Maxwell_source_equations.md'
     - 'Derive the Maxwell source equations by hand': 'EM/Maxwell_by_hand.md'
+    - 'Jupyter notebook derivation': 'EM/2022-02-06__Maxwell_derivation.ipynb'
 - QM:
     - 'Quantum Mechanics': 'QM/qm.md'
     - "Bell's Future QM Interpretation": "QM/BellsFuture.md"
